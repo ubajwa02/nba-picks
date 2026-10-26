@@ -42,7 +42,7 @@ Brier: model 0.1528 vs market-implied 0.1503 (n=876; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 16-9-0, +4.62u, pending 0.
+Record 16-9-0, +4.62u, pending 6.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -71,6 +71,12 @@ Record 16-9-0, +4.62u, pending 0.
 | 2026-10-23 | Saddiq Bey o3.5 reb | -135 | 3 | loss | -1.00 |
 | 2026-10-23 | Sion James u7.5 pts | -116 | 3 | win | +0.86 |
 | 2026-10-23 | Tre Jones o9.5 pts | +120 | 11 | win | +1.20 |
+| 2026-10-26 | Christian Braun u1.5 fg3m | -196 | None | pending | +0.00 |
+| 2026-10-26 | CJ McCollum u3.5 ast | -175 | None | pending | +0.00 |
+| 2026-10-26 | Jalen Green u2.5 fg3m | -196 | None | pending | +0.00 |
+| 2026-10-26 | Collin Gillespie u2.5 fg3m | -185 | None | pending | +0.00 |
+| 2026-10-26 | Tim Hardaway Jr. u2.5 reb | -182 | None | pending | +0.00 |
+| 2026-10-26 | Jaren Jackson Jr. u2.5 ast | -192 | None | pending | +0.00 |
 
 ## Rows
 

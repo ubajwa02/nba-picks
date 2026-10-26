@@ -2201,3 +2201,14 @@
 {"at": "2026-10-26T18:44:50Z", "data": {"stake": 1.0}, "event_id": "79ad951465e013a3", "net_units": 0.8928571428571428, "pred_id": "aa8d80a0d81fafb5", "result": "win", "type": "settled"}
 {"at": "2026-10-26T18:44:50Z", "data": {"stake": 1.0}, "event_id": "069de13417648775", "net_units": -1.0, "pred_id": "32f1aaaa1f977125", "result": "loss", "type": "settled"}
 {"at": "2026-10-26T18:44:50Z", "data": {"stake": 1.0}, "event_id": "33685add4545305d", "net_units": 0.9174311926605505, "pred_id": "2cb568ea0d3c17c7", "result": "win", "type": "settled"}
+{"at": "2026-10-26T21:40:54Z", "data": {"paper_record": true}, "event_id": "796830a6b77d75eb", "pred_id": "d30551f4ad6c0d58", "type": "note"}
+{"at": "2026-10-26T21:40:54Z", "data": {"paper_record": true}, "event_id": "80c2d53f26f0fada", "pred_id": "2b028ea9a004f5da", "type": "note"}
+{"at": "2026-10-26T21:40:54Z", "data": {"paper_record": true}, "event_id": "2cfefd3707f0e51a", "pred_id": "b35c31d128cd0597", "type": "note"}
+{"at": "2026-10-26T21:40:54Z", "data": {"paper_record": true}, "event_id": "0919c4ff92b89121", "pred_id": "de5a521ed5432b4d", "type": "note"}
+{"at": "2026-10-26T21:40:54Z", "data": {"paper_record": true}, "event_id": "0048b0d13277f339", "pred_id": "3fd295fc583a8b2c", "type": "note"}
+{"at": "2026-10-26T21:40:54Z", "data": {"paper_record": true}, "event_id": "1c0f193cd9b94102", "pred_id": "bb8b6bc24d6e0bed", "type": "note"}
+{"at": "2026-10-26T21:40:54Z", "data": {"paper_record": true}, "event_id": "869a93502faa9747", "pred_id": "689a9982f90cc641", "type": "note"}
+{"at": "2026-10-26T21:40:54Z", "data": {"paper_record": true}, "event_id": "ba80aa33c7a9134f", "pred_id": "7a81315f43202c92", "type": "note"}
+{"at": "2026-10-26T21:40:54Z", "data": {"paper_record": true}, "event_id": "75dcdabd9b6c7f1a", "pred_id": "b63ca189a8b87bd7", "type": "note"}
+{"at": "2026-10-26T21:40:54Z", "data": {"paper_record": true}, "event_id": "ceace4545b56ad3b", "pred_id": "93f6a3ab0022471f", "type": "note"}
+{"at": "2026-10-26T21:40:54Z", "data": {"paper_record": true}, "event_id": "3f7dffaf8a5997c6", "pred_id": "a6bab994c48afc21", "type": "note"}
