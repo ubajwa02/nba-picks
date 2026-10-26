@@ -242,7 +242,10 @@ R.today = () => {
 /* ---------------- Picks ---------------- */
 R.picks = () => {
   const days = D.picks_by_day || [];
-  return `${banner()}<h2>Picks by day</h2>
+  const PL = ((D.performance.posted_leans || {}).rows || []);
+  const plBlock = `<h2>Posted leans</h2><p class="sub">Every lean we posted, newest first, with its grade. Record so far: ${rec(D.performance.posted_leans)} (${(D.performance.posted_leans || {}).pending || 0} pending).</p>
+  <div class="panel">${tbl(["Slate", "Lean", "#Price", "Final", "Status", "#Units"], PL.map(r => `<tr><td class="n">${esc(r.slate)}</td><td>${esc(r.label || r.market)}</td><td class="n">${amS(r.price_american)}</td><td class="meta">${esc(r.result === "pending" ? "" : r.market === "prop" ? (r.stat_value ?? "–") : (r.score || ""))}</td><td>${resPill(r.result)}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`), "No leans posted yet.")}</div>`;
+  return `${banner()}${plBlock}<h2>Picks by day</h2>
   <p class="sub">Today and the previous ${Math.max(0, days.length - 1)} slates with recorded predictions. Each candidate appears once per slate (its latest version). Status comes from settlement: pending until the game is final.</p>
   ${days.map((d, i) => `<section aria-labelledby="day-${i}">
     <h2 id="day-${i}">${d.is_today ? "Today · " : ""}${esc(d.date)}</h2>
@@ -296,9 +299,9 @@ R.performance = () => `${banner()}<h2>Performance</h2>
   <p class="sub">Backtest results are under <a href="#research" style="color:var(--info)">Research & Model Health</a>.</p>`;
 A.performance = () => {
   const P = D.performance || {};
-  let which = "qualified";
-  try { which = localStorage.getItem("nbapicks.pop") || which; } catch (e) {}
-  if (!P[which]) which = "qualified";
+  let which = "posted_leans";
+  try { which = localStorage.getItem("nbapicks.pop2") || which; } catch (e) {}
+  if (!P[which]) which = "posted_leans";
   const draw = () => {
     const B = P[which] || {};
     $$("[data-pop]").forEach(b => b.setAttribute("aria-pressed", b.dataset.pop === which));
@@ -325,7 +328,7 @@ A.performance = () => {
         <details class="more s12"><summary>Advanced</summary><div class="panel">${kv({"max drawdown (units)": get(B, "advanced", "max_drawdown_units") ?? "–", "longest losing streak": get(B, "advanced", "longest_losing_streak") ?? "–"})}</div></details>
       </div>`;
   };
-  $$("[data-pop]").forEach(b => b.onclick = () => { which = b.dataset.pop; try { localStorage.setItem("nbapicks.pop", which); } catch (e) {} draw(); });
+  $$("[data-pop]").forEach(b => b.onclick = () => { which = b.dataset.pop; try { localStorage.setItem("nbapicks.pop2", which); } catch (e) {} draw(); });
   draw();
 };
 
