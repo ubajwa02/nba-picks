@@ -135,7 +135,7 @@ async function boot() {
   try { D = emb ? JSON.parse(emb) : await (await fetch("data.json", {cache: "no-store"})).json(); }
   catch (e) { $("#app").innerHTML = `<p class="empty">Could not load data.json (${esc(e.message)}). The daily job writes it; run the pipeline's export step.</p>`; return; }
   if (!D.meta) { $("#app").innerHTML = `<p class="empty">data.json is from an older exporter (no "meta" section). Re-run the export step.</p>`; return; }
-  $("#nav").innerHTML = VIEWS.map(([k,v]) => `<a href="#${k}" data-v="${k}">${v}</a>`).join("");
+  $("#nav").innerHTML = VIEWS.map(([k,v], i) => `${i === 3 ? '<span class="meta" style="align-self:center;padding:0 6px">More</span>' : ""}<a href="#${k}" data-v="${k}">${v}</a>`).join("");
   $("#stamp").textContent = `Last updated ${time(D.meta.generated_at)}`;
   if ((D.meta.warnings || []).length) $("#dot").classList.add("stale");
   window.addEventListener("hashchange", route); route();
@@ -207,52 +207,45 @@ function parlayTable(rows) {
 }
 const rec = k => k ? `${k.wins}-${k.losses}-${k.pushes}${k.voids ? `-${k.voids}` : ""}` : "–";
 
-/* ---------------- Today ---------------- */
+/* ---------------- Today / Picks / Performance (one pick table everywhere) ---------------- */
+const LEAN_HEAD = ["Slate", "Pick", "#Win chance", "#Price", "Final", "Result", "#Units"];
+const leanRow = r => `<tr><td class="n">${esc(r.slate)}</td><td><b>${esc(r.label || r.market)}</b></td><td class="n"><b>${pct(r.prob, 0)}</b></td><td class="n">${amS(r.price_american)}</td><td class="meta">${esc(r.result === "pending" || !r.result ? "" : r.market === "prop" ? (r.stat_value ?? "–") : (r.score || ""))}</td><td>${resPill(r.result || "pending")}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`;
+const leanTable = (rows, empty) => tbl(LEAN_HEAD, rows.map(leanRow), empty);
+const allLeans = () => ((D.performance.posted_leans || {}).rows || []).slice().sort((a, b) => String(b.slate).localeCompare(String(a.slate)));
+const todayLeans = () => ((D.today || {}).leans || []).map(r => ({...r, slate: r.slate || (D.today || {}).date}));
+const WIN_NOTE = `<p class="sub">Win chance is the probability our model gave the pick when it was posted. Every market is still research: none has shown an edge at real prices.</p>`;
+const nothingToday = () => `<p class="note">No picks posted for today yet. Picks are posted by the ~4:30 pm ET run${D.meta.paused ? " (global pause is on, so none will be posted)" : ""}. Earlier picks and their results are below.</p>`;
+
 R.today = () => {
-  const T = D.today || {}, games = T.games || [], q = T.qualified || [], dc = T.decision_counts || {};
-  const pr = T.predict_run || {}, ov = T.overview || {};
+  const T = D.today || {}, games = T.games || [], leans = todayLeans();
   const gameCards = games.length ? `<div class="games">${games.map(g => {
     const live = g.status !== "scheduled";
-    return `<div class="game"><div class="tip"><span>${tip(g.start_utc)} local</span>${pill(g.status === "final" ? "final" : g.status === "scheduled" ? "scheduled" : "in_progress", g.status === "in_progress" ? "live" : g.status)}</div>
-      <div class="teams"><span>${esc(g.away)}</span><span class="sc">${live && g.away_score != null ? esc(g.away_score) : ""}</span><span>@ ${esc(g.home)}</span><span class="sc">${live && g.home_score != null ? esc(g.home_score) : ""}</span></div>
-      <div class="foot">${g.qualified} qualified · ${g.candidates} candidates recorded</div></div>`; }).join("")}</div>` : `<p class="empty">No games on today's slate.</p>`;
-  const why = Object.entries(dc).sort((a,b) => (a[0] > b[0] ? 1 : -1)).map(([k,v]) => `${v} ${(DEC[k] || k).toLowerCase()}`).join(", ");
-  const qualBlock = q.length ? pickTable(q, "") :
-    `<p class="empty">No picks qualified today.${T.candidate_count ? ` ${T.candidate_count} candidates were recorded (${esc(why)}).` : " No candidates were recorded for today's slate."}${pr.candidates_judged ? ` The last prediction run judged ${pr.candidates_judged} prices in total; unpriced or unverified props are counted, not stored.` : ""}</p>`;
-  const ovk = (k, title) => `<div class="panel s6"><h3>${title}</h3>${k && k.n ? `<div class="kpi"><div class="v">${rec(k)}</div><div class="l">W-L-P${k.voids ? "-V" : ""} · ${k.pending} pending · <span class="${cls(k.net_units)}">${u(k.net_units)} (${usd(k.net_dollars)})</span> · ROI ${spct(k.roi)}</div></div>` : `<p class="empty">Nothing recorded for this slate.</p>`}</div>`;
+    return `<div class="game"><div class="tip"><span>${tip(g.start_utc)} local</span>${pill(g.status === "final" ? "final" : g.status === "scheduled" ? "scheduled" : "live", g.status.replace("STATUS_", "").toLowerCase())}</div>
+      <div class="teams"><span>${esc(g.away)}</span><span class="sc">${live && g.away_score != null ? esc(g.away_score) : ""}</span><span>@ ${esc(g.home)}</span><span class="sc">${live && g.home_score != null ? esc(g.home_score) : ""}</span></div></div>`; }).join("")}</div>` : `<p class="empty">No games on today's slate.</p>`;
+  const recent = allLeans().filter(r => r.slate !== (T.date || D.meta.today)).slice(0, 10);
   return `${banner()}
   <h2>Today · ${esc(T.date || D.meta.today)}</h2>
-  <p class="sub">${T.game_count || 0} game${T.game_count === 1 ? "" : "s"} on the slate. Last updated ${time(D.meta.generated_at)}${pr.run_id && /^run-\d{4}-/.test(pr.run_id) ? `; last prediction run ${time(pr.run_id.replace(/^run-/, ""))}` : ""}.</p>
-  <div class="grid">
-    <div class="panel kpi s3"><div class="v">${T.game_count || 0}</div><div class="l">games today</div></div>
-    <div class="panel kpi s3"><div class="v">${(T.leans || []).length}</div><div class="l">posted leans · ${q.length} qualified</div></div>
-    <div class="panel kpi s3"><div class="v">${T.candidate_count || 0}</div><div class="l">model candidates recorded</div></div>
-    <div class="panel kpi s3"><div class="v">${ov.qualified && ov.qualified.n ? rec(ov.qualified) : "–"}</div><div class="l">qualified record, ${esc(ov.date || "no previous slate")}</div></div>
-  </div>
-  <h2>Games</h2>${gameCards}
-  <h2>Today's posted leans</h2><p class="sub">The research leans posted for this slate (data/ledger/posted_leans.jsonl). They are not qualified picks: every market is still in research and none has shown an edge at real prices. Graded automatically after the games.</p>
-  <div class="panel">${tbl(["Lean", "#Price", "#Model", "#Units", "Status", "#Net"], (T.leans || []).map(r => `<tr><td><b>${esc(r.label || r.market)}</b></td><td class="n">${amS(r.price_american)}</td><td class="n">${pct(r.prob)}</td><td class="n">${r.stake ?? 1}</td><td>${resPill(r.result || "pending")}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`), "No leans posted for today's slate yet.")}${(T.leans || []).length ? "" : `<p class="note">Leans for today are posted by the ${D.meta.paused ? "paused" : "~4:30 pm ET"} pick run${D.meta.paused ? " (global pause is on)" : ""}. Earlier leans and their grades are under Performance → Posted leans (${rec((D.performance.posted_leans || {}))} so far).</p>`}</div>
-  <h2>Qualified picks</h2><p class="sub">Picks that passed every check on the latest prediction run. Hypothetical returns are at the recommended stake, $100 per unit.</p>
-  <div class="panel">${qualBlock}</div>
-  ${(T.research || []).length ? `<h2>Research parlays & lotto</h2><div class="panel">${parlayTable(T.research)}</div>` : ""}
-  <h2>Daily overview · ${esc(ov.date || "no previous slate")}</h2><p class="sub">The previous slate's settled record. Qualified picks and all model predictions are separate populations and never added together.</p>
-  <div class="grid">${ovk(ov.qualified, "Qualified picks")}${ovk(ov.all_model, "All model predictions (hypothetical, 1u each)")}</div>`;
+  <p class="sub">${T.game_count || 0} game${T.game_count === 1 ? "" : "s"} on the slate. Last updated ${time(D.meta.generated_at)}. Overall record so far: <b>${rec(D.performance.posted_leans)}</b>.</p>
+  ${WIN_NOTE}
+  <h2>Today's picks</h2>
+  ${leans.length ? `<div class="panel">${leanTable(leans, "")}</div>` : nothingToday()}
+  ${leans.length ? "" : `<h2>Latest picks</h2><div class="panel">${leanTable(recent, "No picks yet.")}</div><p class="sub"><a href="#performance" style="color:var(--info)">All picks and results</a></p>`}
+  <h2>Games</h2>${gameCards}`;
 };
 
-/* ---------------- Picks ---------------- */
 R.picks = () => {
-  const days = D.picks_by_day || [];
-  const PL = ((D.performance.posted_leans || {}).rows || []);
-  const plBlock = `<h2>Posted leans</h2><p class="sub">Every lean we posted, newest first, with its grade. Record so far: ${rec(D.performance.posted_leans)} (${(D.performance.posted_leans || {}).pending || 0} pending).</p>
-  <div class="panel">${tbl(["Slate", "Lean", "#Price", "Final", "Status", "#Units"], PL.map(r => `<tr><td class="n">${esc(r.slate)}</td><td>${esc(r.label || r.market)}</td><td class="n">${amS(r.price_american)}</td><td class="meta">${esc(r.result === "pending" ? "" : r.market === "prop" ? (r.stat_value ?? "–") : (r.score || ""))}</td><td>${resPill(r.result)}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`), "No leans posted yet.")}</div>`;
-  return `${banner()}${plBlock}<h2>Picks by day</h2>
-  <p class="sub">Today and the previous ${Math.max(0, days.length - 1)} slates with recorded predictions. Each candidate appears once per slate (its latest version). Status comes from settlement: pending until the game is final.</p>
-  ${days.map((d, i) => `<section aria-labelledby="day-${i}">
-    <h2 id="day-${i}">${d.is_today ? "Today · " : ""}${esc(d.date)}</h2>
-    <p class="sub">${d.qualified.length} qualified · ${d.research.length} research tickets · ${d.candidates_total} other candidates${d.record && d.record.settled ? ` · qualified record ${rec(d.record)} (${u(d.record.net_units)})` : ""}</p>
-    <h4>Qualified picks</h4><div class="panel">${pickTable(d.qualified, "No picks qualified on this slate.")}</div>
-    <h4>Research parlays & lotto</h4><div class="panel">${parlayTable(d.research)}</div>
-    <details class="more" data-day="${i}"><summary>All model candidates (${d.candidates_total})</summary>
+  const days = D.picks_by_day || [], PL = allLeans();
+  const byDay = d => (d === (D.today || {}).date ? todayLeans() : []).concat(PL.filter(r => r.slate === d && d !== (D.today || {}).date));
+  const dates = [...new Set([...days.map(d => d.date), ...PL.map(r => r.slate), (D.today || {}).date].filter(Boolean))].sort().reverse();
+  return `${banner()}<h2>Picks by day</h2>${WIN_NOTE}
+  ${dates.map(date => {
+    const i = days.findIndex(d => d.date === date), d = days[i], rows = byDay(date);
+    const settled = rows.filter(r => r.result && r.result !== "pending");
+    const w = settled.filter(r => r.result === "win").length;
+    return `<section><h2>${date === (D.today || {}).date ? "Today · " : ""}${esc(date)}</h2>
+    <p class="sub">${rows.length} pick${rows.length === 1 ? "" : "s"}${settled.length ? ` · ${w}-${settled.length - w} settled` : ""}</p>
+    <div class="panel">${rows.length ? leanTable(rows, "") : `<p class="empty">No picks posted for this day.</p>`}</div>
+    ${d && d.candidates_total ? `<details class="more" data-day="${i}"><summary>Rejected and other candidates (${d.candidates_total})</summary>
       <p class="sub">Everything else the model priced: watch, held and rejected, with the reason. These are not picks.</p>
       <div class="filters">
         <select class="f-mkt" aria-label="Market"><option value="">All markets</option>${[...new Set(d.candidates.map(r => r.market))].filter(Boolean).sort().map(m => `<option value="${esc(m)}">${esc(MK[m] || m)}</option>`).join("")}</select>
@@ -261,8 +254,7 @@ R.picks = () => {
         <select class="f-sort" aria-label="Sort"><option value="dec">Sort: decision, then EV</option><option value="prob">Sort: model probability</option><option value="ev">Sort: EV</option></select>
       </div>
       <div class="panel cands"></div>
-      ${d.candidates_capped ? `<p class="meta">Showing ${d.candidates.length} of ${d.candidates_total} candidates (cap ${D.meta.caps.candidates_per_slate} per slate; watch and held rows come first).</p>` : ""}
-    </details></section>`).join("") || `<p class="empty">No predictions recorded yet.</p>`}`;
+    </details>` : ""}</section>`; }).join("") || `<p class="empty">No picks recorded yet.</p>`}`;
 };
 A.picks = () => {
   const order = {eligible:0, watch:1, hold:2, reject:3, info:4};
@@ -281,8 +273,6 @@ A.picks = () => {
   });
 };
 
-/* ---------------- Performance ---------------- */
-const POPS = [["qualified","Qualified"],["all_model","All model predictions"],["posted_leans","Posted leans"],["signals","Discord signals"],["wagers","Actual wagers"]];
 function kpiTable(obj, label, fmtKey = k => k) {
   const rows = Object.entries(obj || {});
   return tbl([label, "#Bets", "#W-L-P-V", "#Pending", "#Hit rate", "#Staked", "#Net", "#Net $", "#ROI"], rows.map(([k, v]) => `<tr><td>${esc(fmtKey(k))}</td><td class="n">${v.n}</td><td class="n">${v.wins}-${v.losses}-${v.pushes}-${v.voids}</td><td class="n">${v.pending}</td><td class="n">${pct(v.hit_rate)}</td><td class="n">${Number(v.units_staked || 0).toFixed(2)}u</td><td class="n ${cls(v.net_units)}">${u(v.net_units)}</td><td class="n ${cls(v.net_dollars)}">${usd(v.net_dollars)}</td><td class="n ${cls(v.roi)}">${spct(v.roi)}</td></tr>`), "Nothing recorded yet.");
@@ -297,39 +287,19 @@ R.performance = () => `${banner()}<h2>Performance</h2>
   <h2>Calibration vs the market</h2><p class="sub">All model predictions (latest version per candidate) settled win or loss. Log loss: lower is better. The market column uses the de-vigged price, only on rows where both sides were quoted; compare it with the model's log loss on those same rows.</p>
   <div class="panel">${tbl(["Market", "#Settled", "#Model log loss", "#Model Brier", "#Rows with fair price", "#Model on those rows", "#Market log loss", "#Market Brier"], Object.entries(get(D, "performance", "calibration_vs_market") || {}).map(([m, c]) => `<tr><td>${esc(MK[m] || m)}</td><td class="n">${c.n}</td><td class="n">${c.logloss_model ?? "–"}</td><td class="n">${c.brier_model ?? "–"}</td><td class="n">${c.n_with_fair}</td><td class="n">${c.logloss_model_on_fair_rows ?? "–"}</td><td class="n">${c.logloss_market ?? "–"}</td><td class="n">${c.brier_market ?? "–"}</td></tr>`), "No settled model predictions yet.")}</div>
   <p class="sub">Backtest results are under <a href="#research" style="color:var(--info)">Research & Model Health</a>.</p>`;
-A.performance = () => {
-  const P = D.performance || {};
-  let which = "posted_leans";
-  try { which = localStorage.getItem("nbapicks.pop2") || which; } catch (e) {}
-  if (!P[which]) which = "posted_leans";
-  const draw = () => {
-    const B = P[which] || {};
-    $$("[data-pop]").forEach(b => b.setAttribute("aria-pressed", b.dataset.pop === which));
-    const extra = which === "signals" ? `<div class="panel s12"><h3>By provider</h3>${kpiTable(B.by_provider, "Provider")}<p class="meta">Messages: ${esc(Object.entries(B.parse_status || {}).map(([k,v]) => `${v} ${k}`).join(", ") || "none imported")}</p></div>
-      <div class="panel s12"><h3>Signals vs the model</h3>${(B.vs_model||[]).length ? `<div class="tablewrap"><table><thead><tr><th>Slate</th><th>Provider</th><th>Signal</th><th class="n">Price</th><th class="n">Model prob</th><th class="n">Model EV at signal price</th><th>Model decision</th><th>Result</th></tr></thead><tbody>${B.vs_model.map(v => `<tr><td>${esc(v.slate)}</td><td>${esc(v.provider)}</td><td>${esc(v.label)}</td><td class="n">${v.price_dec ? v.price_dec.toFixed(2) : "no price"}</td><td class="n">${v.model_prob == null ? "no model view" : (v.model_prob*100).toFixed(0) + "%"}</td><td class="n">${v.model_ev == null ? "–" : (v.model_ev >= 0 ? "+" : "") + (v.model_ev*100).toFixed(1) + "%"}</td><td>${esc(v.model_decision || "–")}${v.model_after_signal ? ' <span class="meta">(model estimate made after the signal)</span>' : ""}</td><td>${esc(v.result)}</td></tr>`).join("")}</tbody></table></div><p class="meta">Signals are never used as model truth. When the model saw the same bet with EV ≥ 0 at the signal's price: ${B.model_agrees && B.model_agrees.n ? `${B.model_agrees.wins}-${B.model_agrees.losses}, ${(B.model_agrees.net_units||0).toFixed(2)}u` : "no settled cases yet"}.</p>` : `<p class="empty">No signals imported yet.</p>`}</div>`
-      : which === "posted_leans" ? `<div class="panel s12"><h3>Posted leans, newest first</h3>${tbl(["Slate", "Lean", "#Price", "Final", "Status", "#Units"], (B.rows || []).map(r => `<tr><td class="n">${esc(r.slate)}</td><td>${esc(r.label || r.market)}</td><td class="n">${amS(r.price_american)}</td><td class="meta">${esc(r.result === "pending" ? "" : r.market === "prop" ? (r.stat_value ?? "–") : (r.score || ""))}</td><td>${resPill(r.result)}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`), "No posted leans yet.")}</div>` : "";
-    $("#perf").innerHTML = `<p class="note">These numbers refer to <b>${esc(B.title || which)}</b>: ${esc(B.description || "")}</p>
-      <div class="grid">
-        <div class="panel kpi s2"><div class="v">${B.wins ?? 0}-${B.losses ?? 0}-${B.pushes ?? 0}-${B.voids ?? 0}</div><div class="l">W-L-P-V · ${B.pending ?? 0} pending</div></div>
-        <div class="panel kpi s2"><div class="v">${pct(B.hit_rate)}</div><div class="l">hit rate (wins / wins+losses)</div></div>
-        <div class="panel kpi s2"><div class="v">${Number(B.units_staked || 0).toFixed(2)}u</div><div class="l">units staked (win/loss)</div></div>
-        <div class="panel kpi s2"><div class="v ${cls(B.net_units)}">${u(B.net_units ?? 0)}</div><div class="l">net units</div></div>
-        <div class="panel kpi s2"><div class="v ${cls(B.net_dollars)}">${usd(B.net_dollars ?? 0)}</div><div class="l">${which === "wagers" ? "net $ from your log" : "net $ at $100/unit"}</div></div>
-        <div class="panel kpi s2"><div class="v ${cls(B.roi)}">${spct(B.roi)}</div><div class="l">ROI${B.roi_ci ? ` · 95% CI ${spct(B.roi_ci[0],0)} to ${spct(B.roi_ci[1],0)}` : ""}</div></div>
-      </div>
-      <p class="note">A high hit rate is not an edge: short-priced favourites win often and can still lose money. ROI and calibration matter more, and small samples prove nothing.</p>
-      <div class="grid">
-        <div class="panel s6"><h3>By market</h3>${kpiTable(B.by_market, "Market", k => MK[k] || k)}</div>
-        <div class="panel s6"><h3>Straight vs parlay vs lotto</h3>${kpiTable(B.by_category, "Category", k => MK[k] || k)}</div>
-        <div class="panel s6"><h3>Calibration by probability bucket</h3>${bucketTable(B.by_bucket)}</div>
-        <div class="panel s6"><h3>By model version</h3>${kpiTable(B.by_model_version, "Model")}</div>
-        <div class="panel s12"><h3>By day</h3>${kpiTable(Object.fromEntries(Object.entries(B.by_day || {}).reverse()), "Slate")}</div>
-        ${extra}
-        <details class="more s12"><summary>Advanced</summary><div class="panel">${kv({"max drawdown (units)": get(B, "advanced", "max_drawdown_units") ?? "–", "longest losing streak": get(B, "advanced", "longest_losing_streak") ?? "–"})}</div></details>
-      </div>`;
-  };
-  $$("[data-pop]").forEach(b => b.onclick = () => { which = b.dataset.pop; try { localStorage.setItem("nbapicks.pop2", which); } catch (e) {} draw(); });
-  draw();
+
+R.performance = () => {
+  const B = D.performance.posted_leans || {}, rows = allLeans();
+  return `${banner()}<h2>Performance</h2>
+  <p class="sub">Every pick the system has posted, newest first, with the win chance it was given and how it ended. Staked 1 unit each.</p>
+  <div class="grid">
+    <div class="panel kpi s3"><div class="v">${B.wins ?? 0}-${B.losses ?? 0}${B.pushes ? `-${B.pushes}` : ""}</div><div class="l">record · ${B.pending || 0} pending</div></div>
+    <div class="panel kpi s3"><div class="v">${pct(B.hit_rate, 0)}</div><div class="l">hit rate</div></div>
+    <div class="panel kpi s3"><div class="v ${cls(B.net_units)}">${u(B.net_units ?? 0)}</div><div class="l">net units</div></div>
+    <div class="panel kpi s3"><div class="v ${cls(B.roi)}">${spct(B.roi)}</div><div class="l">ROI${B.roi_ci ? ` · 95% range ${spct(B.roi_ci[0], 0)} to ${spct(B.roi_ci[1], 0)}` : ""}</div></div>
+  </div>
+  <p class="note">A high hit rate is not an edge: short-priced favourites win often and can still lose money, and a small sample proves nothing.</p>
+  <div class="panel">${leanTable(rows, "No picks yet.")}</div>`;
 };
 
 /* ---------------- Player & Team ---------------- */
