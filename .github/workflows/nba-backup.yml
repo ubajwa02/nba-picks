@@ -1,0 +1,38 @@
+name: nba-backup
+# A downloadable copy of the whole repo (all branches and history) whenever it changes.
+# Bot commits do not trigger push workflows, so the data runs trigger it through workflow_run.
+on:
+  push:
+    branches: [main]
+  workflow_run:
+    workflows: [nba-daily, nba-backfill, nba-research, nba-backtest]
+    types: [completed]
+  workflow_dispatch:
+concurrency:
+  group: nba-backup
+  cancel-in-progress: true
+permissions:
+  contents: read
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          ref: main
+      - name: Bundle
+        run: |
+          git bundle create nba-picks.bundle --all
+          git bundle verify nba-picks.bundle
+          echo "commit: $(git rev-parse HEAD)" > nba-picks.bundle.txt
+          git rev-list --count HEAD >> nba-picks.bundle.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nba-picks-bundle
+          path: |
+            nba-picks.bundle
+            nba-picks.bundle.txt
+          retention-days: 90
+          compression-level: 0
