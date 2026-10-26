@@ -251,6 +251,19 @@ def boxes(ctx: Ctx, fetch_scoreboard=None, fetch_summary=None) -> dict:
     return dict(out)
 
 
+def catchup(ctx: Ctx, days: int = 7) -> dict:
+    """Refresh results and box scores for the last `days` slates, so a gap in the schedule
+    (a paused or unreachable repo) does not leave finished games unsettled."""
+    out = defaultdict(int)
+    today = ctx.today
+    for back in range(1, days + 1):
+        ctx.today = today - dt.timedelta(days=back)
+        for k, v in boxes(ctx).items():
+            out[k] += v
+    ctx.today = today
+    return dict(out)
+
+
 # ------------------------------------------------------------------ model inputs
 def history_games(ctx: Ctx, seasons_back: int = 3) -> list[Game]:
     gs = {}
@@ -971,7 +984,7 @@ def recap(ctx: Ctx, slate: str | None = None) -> str:
 
 
 # ------------------------------------------------------------------ main
-STEPS = ("ingest", "boxes", "predict", "publish", "settle", "recap", "diagnose", "export")
+STEPS = ("ingest", "boxes", "catchup", "predict", "publish", "settle", "recap", "diagnose", "export")
 
 
 PAUSE_FILE = "PAUSED"
@@ -1019,6 +1032,8 @@ def main(argv=None):
                 r = ingest(ctx)
             elif s == "boxes":
                 r = boxes(ctx)
+            elif s == "catchup":
+                r = catchup(ctx)
             elif s == "predict":
                 r = predict(ctx)
             elif s == "publish":

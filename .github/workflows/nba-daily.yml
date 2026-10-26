@@ -47,9 +47,9 @@ jobs:
         run: |
           case "$SCHED" in
             "30 20 * * *") S="ingest predict publish settle export" ;;
-            "0 7 * * *"|"0 13 * * *") S="ingest settle recap diagnose export" ;;
-            "") S="${INPUT:-ingest predict settle export}" ;;
-            *) S="ingest predict settle export" ;;
+            "0 7 * * *"|"0 13 * * *") S="ingest catchup settle recap diagnose export" ;;
+            "") S="${INPUT:-ingest catchup predict settle export}" ;;
+            *) S="ingest catchup predict settle export" ;;
           esac
           if [ -f ops/trigger ] && [ -z "$SCHED" ] && [ -z "$INPUT" ]; then S="$(head -1 ops/trigger)"; fi
           echo "steps=$S" >> "$GITHUB_OUTPUT"; echo "steps: $S"
