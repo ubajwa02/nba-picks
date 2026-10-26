@@ -91,6 +91,29 @@ dl.help dt { font-weight: 600; } dl.help dd { margin: 0; color: var(--muted); }
 .player .ph b { font: 700 19px var(--display); }
 code { font: 12px var(--mono); color: var(--muted); overflow-wrap: anywhere; }
 @media (prefers-reduced-motion: no-preference) { .panel { transition: border-color .15s } .panel:hover { border-color: #31414d } }
+
+/* day blocks, win-chance bars, games */
+nav a[href="#settings"] { margin-left: auto }
+.day { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; margin: 16px 0; overflow: hidden; }
+.dayh { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 18px; padding: 14px 16px; background: var(--panel-2); border-bottom: 1px solid var(--line); }
+.dayh h3 { margin: 0; color: var(--fg); text-transform: none; letter-spacing: .01em; font: 700 20px var(--display); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { display: flex; flex-direction: column; min-width: 78px; padding: 6px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+.chip span { font: 600 11px var(--display); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.chip b { font: 700 18px var(--display); font-variant-numeric: tabular-nums; }
+.day .tablewrap { padding: 4px 8px 8px; }
+.wc { display: inline-flex; align-items: center; gap: 8px; justify-content: flex-end; }
+.wc b { font: 600 14px var(--mono); min-width: 3ch; text-align: right; }
+.meter { width: 56px; height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; }
+.meter i { display: block; height: 100%; background: var(--info); }
+.game .side { display: grid; grid-template-columns: 1fr auto 3.5ch; gap: 8px; align-items: baseline; margin-top: 8px; }
+.game .tm { font: 700 22px/1.2 var(--display); }
+.game .sc { font: 18px var(--mono); text-align: right; }
+.game .pr { font: 700 18px var(--mono); text-align: right; color: var(--muted); }
+.game .pr.pos { color: var(--pos); }
+.players { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 14px; }
+@media (max-width: 560px) { .players { grid-template-columns: minmax(0, 1fr); } }
+a { color: var(--info); }
 </style>
 
 <header><div class="wrap bar">
@@ -102,41 +125,154 @@ code { font: 12px var(--mono); color: var(--muted); overflow-wrap: anywhere; }
 <script id="embedded" type="application/json"></script>
 <script>
 "use strict";
-const VIEWS = [["today","Today"],["picks","Picks"],["performance","Performance"],["players","Player & Team"],["valuation","Model Valuation"],["research","Research & Model Health"],["command","Command Center"],["settings","Settings & Audit"]];
-const MK = {ml:"Moneyline",spread:"Spread",total:"Total Points",prop:"Player Prop",parlay:"Parlay",lotto:"Lotto",straight:"Straight"};
-const DEC = {eligible:"Qualified",watch:"Watch",hold:"Held",reject:"Rejected",info:"Info"};
-const RES = {win:"✓ Win",loss:"✗ Loss",push:"= Push",void:"Void",pending:"Pending",cashout:"Cash-out"};
+const VIEWS = [["today","Today"],["picks","Picks"],["performance","Performance"],["players","Players"],["settings","Settings & Audit"]];
+const STAT = {pts:"Points", reb:"Rebounds", ast:"Assists", fg3m:"3-Pointers Made", stl:"Steals", blk:"Blocks"};
+const RES = {win:"✓ Win", loss:"✗ Loss", push:"= Push", void:"Void", pending:"Pending", cashout:"Cash-out"};
 let D = null;
 const $ = (s, el=document) => el.querySelector(s);
 const $$ = (s, el=document) => [...el.querySelectorAll(s)];
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const pct = (x, d=1) => x == null ? "–" : (x*100).toFixed(d) + "%";
+const pct = (x, d=0) => x == null ? "–" : (x*100).toFixed(d) + "%";
 const spct = (x, d=1) => x == null ? "–" : (x>=0?"+":"") + (x*100).toFixed(d) + "%";
 const u = x => x == null ? "–" : (x>=0?"+":"") + Number(x).toFixed(2) + "u";
-const usd = x => x == null ? "–" : (x<0?"−$":x>0?"+$":"$") + Math.abs(x).toLocaleString(undefined, {minimumFractionDigits: 0, maximumFractionDigits: 0});
 const cls = x => x == null ? "mut" : x > 0 ? "pos" : x < 0 ? "neg" : "mut";
 const amS = a => a == null ? "–" : (a > 0 ? "+" : "") + a;
-const amFromDec = d => { if (!d || d <= 1) return null; return d >= 2 ? Math.round((d-1)*100) : -Math.round(100/(d-1)); };
-const price = r => r.price_dec ? `${amS(r.price_american ?? amFromDec(r.price_dec))} <span class="meta">${Number(r.price_dec).toFixed(2)}</span>${r.conservative ? `<span class="tag" title="Unlabelled two-sided price: the worse of the two was used, so EV is a lower bound">conservative price</span>` : ""}` : `<span class="na">no price</span>`;
 const pill = (s, label) => `<span class="pill p-${esc(s)}">${esc(label ?? s)}</span>`;
-const decPill = d => pill(d, DEC[d] || d);
 const resPill = r => pill(r || "pending", RES[r || "pending"] || r);
 const toDate = iso => { const s = String(iso); return new Date(/([zZ]|[+-]\d\d:\d\d)$/.test(s) ? s : s + "Z"); };
 const time = iso => { if (!iso) return "–"; const t = toDate(iso); return isNaN(t) ? String(iso) : t.toLocaleString([], {month:"short", day:"numeric", hour:"numeric", minute:"2-digit"}); };
 const tip = iso => { if (!iso) return "–"; const t = toDate(iso); return isNaN(t) ? String(iso) : t.toLocaleTimeString([], {hour:"numeric", minute:"2-digit"}); };
-const hn = o => o && o.n ? `${o.h ?? 0}/${o.n} (${Math.round(100*(o.h ?? 0)/o.n)}%)` : `<span class="na">not available</span>`;
-const na = v => v == null || v === "" ? `<span class="na">not available</span>` : esc(v);
-const tbl = (head, rows, empty) => rows.length ? `<div class="tablewrap"><table><thead><tr>${head.map(h => `<th${h.startsWith("#") ? ' class="n"' : ""}>${esc(h.replace(/^#/, ""))}</th>`).join("")}</tr></thead><tbody>${rows.join("")}</tbody></table></div>` : `<p class="empty">${esc(empty)}</p>`;
-const kv = o => tbl(["Setting", "#Value"], Object.entries(o || {}).map(([k,v]) => `<tr><td>${esc(String(k).replaceAll("_"," "))}</td><td class="n">${esc(typeof v === "object" && v !== null ? JSON.stringify(v) : v)}</td></tr>`), "Not set.");
-const get = (o, ...ks) => ks.reduce((a, k) => (a == null ? undefined : a[k]), o);
+const longDay = ymd => new Date(ymd + "T12:00:00").toLocaleDateString([], {weekday:"long", month:"long", day:"numeric", year:"numeric"});
+const tbl = (head, rows, empty) => rows.length ? `<div class="tablewrap"><table><thead><tr>${head.map(h => `<th${h.startsWith("#") ? ' class="n"' : ""}>${esc(h.replace(/^#/, ""))}</th>`).join("")}</tr></thead><tbody>${rows.join("")}</tbody></table></div>` : `<p class="empty">${esc(empty || "Nothing to show.")}</p>`;
+const kv = o => tbl(["Setting", "#Value"], Object.entries(o || {}).map(([k,v]) => `<tr><td>${esc(title(k))}</td><td class="n">${esc(typeof v === "object" && v !== null ? JSON.stringify(v) : v)}</td></tr>`), "Not set.");
+const title = s => String(s).replaceAll("_", " ").replace(/\b\w/g, c => c.toUpperCase());
+
+/* ---- pick wording: full words, capital O/U ---- */
+function legText(label) {
+  let m = /^(.*?) ([ou])(\d+(?:\.\d+)?) (\w+)$/.exec(label);
+  if (m) return `${m[1]} · ${m[2].toUpperCase()} ${m[3]} ${STAT[m[4]] || m[4]}`;
+  m = /^(\S+) ([ou])(\d+(?:\.\d+)?)$/.exec(label);
+  if (m) return `${m[1]} · ${m[2].toUpperCase()} ${m[3]} Total Points`;
+  m = /^(\S+) ML$/.exec(label);
+  if (m) return `${m[1]} Moneyline`;
+  m = /^(\S+) ([+-]\d+(?:\.\d+)?)$/.exec(label);
+  if (m) return `${m[1]} ${m[2]} Spread`;
+  return label;
+}
+function pickText(r) {
+  const l = String(r.label || r.market || "");
+  const m = /^(parlay|lotto): (.*)$/i.exec(l);
+  if (m) return `${m[1][0].toUpperCase() + m[1].slice(1).toLowerCase()}: ` + m[2].split(" + ").map(legText).join(" + ");
+  return legText(l);
+}
+const bar = p => `<span class="wc"><b>${pct(p)}</b><span class="meter"><i style="width:${Math.max(0, Math.min(100, (p || 0) * 100))}%"></i></span></span>`;
+const finalText = r => r.result === "pending" || !r.result ? "" : r.market === "prop" ? (r.stat_value ?? "–") : (r.score || "");
+const pickRow = r => `<tr><td><b>${esc(pickText(r))}</b></td><td class="n">${bar(r.prob)}</td><td class="n">${amS(r.price_american)}</td><td class="meta">${esc(finalText(r))}</td><td>${resPill(r.result)}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`;
+const pickTable = (rows, empty) => tbl(["Pick", "#Win Chance", "#Price", "Final", "Result", "#Units"], rows.map(pickRow), empty);
+
+const allPicks = () => ((D.performance.posted_leans || {}).rows || []).slice().sort((a, b) => String(b.slate).localeCompare(String(a.slate)));
+const todayStr = () => (D.today || {}).date || D.meta.today;
+const todayPicks = () => ((D.today || {}).leans || []).map(r => ({...r, slate: r.slate || todayStr()}));
+const NO_PICKS = `<p class="note">Today's picks will be posted at 4:30 PM ET, when the system runs.</p>`;
+
+function dayStats(rows) {
+  const done = rows.filter(r => r.result === "win" || r.result === "loss");
+  const w = done.filter(r => r.result === "win").length, l = done.length - w;
+  const net = rows.reduce((a, r) => a + (r.net_units || 0), 0);
+  return {w, l, n: done.length, net, rate: done.length ? w / done.length : null, pending: rows.length - done.filter(Boolean).length - rows.filter(r => r.result && r.result !== "pending" && r.result !== "win" && r.result !== "loss").length};
+}
+const chip = (label, value, c) => `<div class="chip"><span>${label}</span><b class="${c || ""}">${value}</b></div>`;
+function dayBlock(date, rows, isToday) {
+  const s = dayStats(rows);
+  return `<section class="day"><header class="dayh"><h3>${isToday ? "Today · " : ""}${esc(longDay(date))}</h3>
+    <div class="chips">${chip("Record", s.n ? `${s.w}-${s.l}` : "–")}${chip("Win Rate", s.n ? pct(s.rate) : "–")}${chip("Net Units", s.n ? u(s.net) : "–", s.n ? cls(s.net) : "")}${chip("Picks", rows.length)}</div></header>
+    ${pickTable(rows, "No picks posted.")}</section>`;
+}
+
+/* ---- games with the model's win chance for each side ---- */
+function gameChances() {
+  const m = {};
+  for (const r of (D.valuation || {}).rows || []) if (r.market === "ml" && r.team && r.prob != null) (m[r.matchup] = m[r.matchup] || {})[r.team] = r.prob;
+  return m;
+}
+function gameCards() {
+  const games = (D.today || {}).games || [], ch = gameChances();
+  if (!games.length) return `<p class="empty">No games on today's slate.</p>`;
+  return `<div class="games">${games.map(g => {
+    const c = ch[`${g.away} @ ${g.home}`] || {};
+    let a = c[g.away], h = c[g.home];
+    if (a == null && h != null) a = 1 - h; if (h == null && a != null) h = 1 - a;
+    const live = g.status !== "scheduled", st = g.status === "final" ? "Final" : g.status === "scheduled" ? "Scheduled" : "Live";
+    const side = (t, p, sc) => `<div class="side"><span class="tm">${esc(t)}</span><span class="sc">${live && sc != null ? esc(sc) : ""}</span><span class="pr ${p != null && p >= 0.5 ? "pos" : ""}">${p == null ? "–" : pct(p)}</span></div>`;
+    return `<div class="game"><div class="tip"><span>${tip(g.start_utc)}</span>${pill(st.toLowerCase(), st)}</div>${side(g.away, a, g.away_score)}${side(g.home, h, g.home_score)}<div class="foot">Model win chance</div></div>`; }).join("")}</div>`;
+}
+
+function banner() {
+  const m = D.meta || {}, w = (m.warnings || []).filter(x => !/discord/i.test(x));
+  const parts = [];
+  if (m.paused) parts.push(`New recommendations are paused: ${esc(m.paused.reason || "")}`);
+  w.forEach(x => parts.push(esc(x)));
+  return parts.length ? `<div class="banner ${m.paused ? "bad" : ""}"><ul>${parts.map(p => `<li>${p}</li>`).join("")}</ul></div>` : "";
+}
+
+const R = {};
+R.today = () => {
+  const T = D.today || {}, picks = todayPicks(), n = T.game_count || (T.games || []).length;
+  const recent = allPicks().filter(r => r.slate !== todayStr()).slice(0, 10);
+  return `${banner()}
+  <h2>Today · ${esc(longDay(todayStr()))}</h2>
+  <p class="sub">${n} ${n === 1 ? "Game" : "Games"} Scheduled · Updated ${time(D.meta.generated_at)}</p>
+  <h2>Games</h2>${gameCards()}
+  <h2>Today's Picks</h2>
+  ${picks.length ? `<div class="panel">${pickTable(picks, "")}</div>` : NO_PICKS}
+  ${picks.length ? "" : `<h2>Latest Picks</h2><div class="panel">${pickTable(recent, "No picks yet.")}</div><p class="sub"><a href="#picks">All Picks By Day</a></p>`}`;
+};
+R.picks = () => {
+  const rows = allPicks(), today = todayStr(), tp = todayPicks();
+  const days = [...new Set(rows.map(r => r.slate).filter(d => d !== today))].sort().reverse();
+  return `${banner()}<h2>Today's Picks</h2>
+  ${tp.length ? dayBlock(today, tp, true) : NO_PICKS}
+  ${days.map(d => dayBlock(d, rows.filter(r => r.slate === d), false)).join("")}`;
+};
+R.performance = () => {
+  const rows = allPicks(), s = dayStats(rows), B = D.performance.posted_leans || {};
+  return `${banner()}<h2>Performance</h2><p class="sub">Stake: 1 Unit Each</p>
+  <div class="grid">
+    <div class="panel kpi s3"><div class="v">${B.wins ?? s.w}-${B.losses ?? s.l}</div><div class="l">Record</div></div>
+    <div class="panel kpi s3"><div class="v">${pct(B.hit_rate ?? s.rate)}</div><div class="l">Hit Rate</div></div>
+    <div class="panel kpi s3"><div class="v ${cls(B.net_units)}">${u(B.net_units ?? s.net)}</div><div class="l">Net Units</div></div>
+    <div class="panel kpi s3"><div class="v ${cls(B.roi)}">${spct(B.roi)}</div><div class="l">ROI</div></div>
+  </div>
+  <h2>All Picks</h2>
+  <div class="panel">${tbl(["Date", "Pick", "#Win Chance", "#Price", "Final", "Result", "#Units"], rows.map(r => `<tr><td class="n">${esc(r.slate)}</td><td><b>${esc(pickText(r))}</b></td><td class="n">${bar(r.prob)}</td><td class="n">${amS(r.price_american)}</td><td class="meta">${esc(finalText(r))}</td><td>${resPill(r.result)}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`), "No picks yet.")}</div>`;
+};
+R.players = () => {
+  const ids = new Set(((D.today || {}).games || []).map(g => String(g.game_id)));
+  const ps = ((D.players || {}).players || []).filter(p => !ids.size || ids.has(String(p.game_id))).slice(0, 10);
+  return `${banner()}<h2>Top Players Today</h2><p class="sub">The players with the most likely props today, with their three best. Early in the season these rest on small samples.</p>
+  ${ps.length ? `<div class="players">${ps.map(p => `<div class="panel player"><div class="ph"><b>${esc(p.player)}</b><span class="meta">${esc(p.team)} vs ${esc(p.opponent)} · ${tip(p.start_utc)}</span></div>
+    ${tbl(["Prop", "#Win Chance", "#Price", "#Last 10"], p.props.map(x => `<tr><td>${esc(String(x.side || "").charAt(0).toUpperCase())} ${esc(x.line)} ${esc(x.stat_label || STAT[x.stat] || x.stat)}</td><td class="n">${bar(x.prob)}</td><td class="n">${amS(x.price_american)}</td><td class="n">${x.line_hits_last10 ? `${x.line_hits_last10.h}/${x.line_hits_last10.n}` : "–"}</td></tr>`), "")}</div>`).join("")}</div>` : `<p class="empty">No props to show yet. They appear once today's lines are posted.</p>`}`;
+};
+R.settings = () => {
+  const S = D.settings || {}, c = S.config || {}, T = S.team || {};
+  const roles = Array.isArray(T.roles) ? T.roles : [], health = Object.entries(S.source_health || {});
+  return `${banner()}<h2>Settings & Audit</h2>
+  <div class="grid">
+    <div class="panel s4"><h3>Stakes (Units)</h3>${kv(c.stakes)}</div><div class="panel s4"><h3>Daily Maxima</h3>${kv(c.targets)}</div><div class="panel s4"><h3>Risk Limits</h3>${kv(c.risk)}</div>
+    <div class="panel s12"><h3>Markets</h3>${tbl(["Market", "Status", "#Minimum EV", "Enabled"], Object.entries(c.markets || {}).map(([m, s]) => `<tr><td>${esc(title(m))}</td><td>${pill(s.status, title(s.status))}</td><td class="n">${pct(s.min_ev)}</td><td>${s.enabled ? "Yes" : "No"}</td></tr>`), "No markets.")}</div>
+    <div class="panel s12"><h3>Source Health</h3>${tbl(["Source", "Status", "#Last OK", "Last Error"], health.map(([k, h]) => `<tr><td>${esc(k)}</td><td>${h.consecutive_failures ? pill("fail", h.consecutive_failures + " Failures") : pill("ok", "OK")}</td><td class="n">${time(h.last_ok)}</td><td class="reason">${esc(h.last_error_detail || "")}</td></tr>`), "No sources.")}</div>
+    <div class="panel s12"><h3>Data Sources</h3>${tbl(["Source", "Use", "Status", "Coverage", "Limits"], (Array.isArray(S.sources) ? S.sources : []).map(x => `<tr><td>${esc(x.name)}</td><td class="reason">${esc(x.use)}</td><td>${pill(x.status === "in use" ? "ok" : "info", title(x.status || ""))}</td><td class="reason">${esc(x.coverage || "")}</td><td class="reason">${esc(x.limits || "")}</td></tr>`), "No sources listed.")}</div>
+    <div class="panel s12"><h3>Team Roles</h3>${tbl(["Role", "Owns", "Executor"], roles.map(r => `<tr><td><b>${esc(r.name)}</b></td><td class="reason">${esc(r.owns)}</td><td class="reason">${esc(r.executor)}</td></tr>`), "No roles.")}</div>
+  </div>`;
+};
 
 async function boot() {
   const emb = $("#embedded").textContent.trim();
   try { D = emb ? JSON.parse(emb) : await (await fetch("data.json", {cache: "no-store"})).json(); }
-  catch (e) { $("#app").innerHTML = `<p class="empty">Could not load data.json (${esc(e.message)}). The daily job writes it; run the pipeline's export step.</p>`; return; }
-  if (!D.meta) { $("#app").innerHTML = `<p class="empty">data.json is from an older exporter (no "meta" section). Re-run the export step.</p>`; return; }
-  $("#nav").innerHTML = VIEWS.map(([k,v], i) => `${i === 3 ? '<span class="meta" style="align-self:center;padding:0 6px">More</span>' : ""}<a href="#${k}" data-v="${k}">${v}</a>`).join("");
-  $("#stamp").textContent = `Last updated ${time(D.meta.generated_at)}`;
+  catch (e) { $("#app").innerHTML = `<p class="empty">Could not load data.json (${esc(e.message)}).</p>`; return; }
+  if (!D.meta) { $("#app").innerHTML = `<p class="empty">data.json is from an older exporter. Re-run the export step.</p>`; return; }
+  $("#nav").innerHTML = VIEWS.map(([k,v]) => `<a href="#${k}" data-v="${k}">${v}</a>`).join("");
+  $("#stamp").textContent = `Updated ${time(D.meta.generated_at)}`;
   if ((D.meta.warnings || []).length) $("#dot").classList.add("stale");
   window.addEventListener("hashchange", route); route();
 }
@@ -144,302 +280,9 @@ function route() {
   const v = (location.hash || "#today").slice(1);
   const view = VIEWS.some(([k]) => k === v) ? v : "today";
   $$("nav a").forEach(a => a.setAttribute("aria-current", a.dataset.v === view));
-  try { $("#app").innerHTML = R[view](); (A[view] || (() => {}))(); }
+  try { $("#app").innerHTML = R[view](); }
   catch (e) { $("#app").innerHTML = `<p class="empty">This view could not be drawn (${esc(e.message)}).</p>`; console.error(e); }
   window.scrollTo(0, 0);
 }
-const R = {}, A = {};
-
-function banner() {
-  const m = D.meta || {}, w = m.warnings || [];
-  const st = Object.values(m.market_status || {});
-  const parts = [];
-  if (D.meta.paused) parts.push(`<div class="banner bad" role="alert"><b>Recommendations are paused.</b> ${esc(D.meta.paused.reason)}. No new picks are produced or published until the pause is lifted.</div>`);
-  if (w.length) parts.push(`<div class="banner bad" role="alert"><b>Data may be stale or incomplete.</b><ul>${w.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>`);
-  const info = [];
-  if (m.dry_run) info.push("Discord publishing is in dry-run: messages are built and logged, nothing is sent.");
-  if (st.length && st.every(s => s !== "live")) info.push("No market has passed validation: picks are research or paper records, not proven edges.");
-  if (info.length) parts.push(`<div class="banner">${info.join(" ")}</div>`);
-  return parts.join("");
-}
-function cappedNote(what) {
-  const c = (D.meta.capped || []).find(x => x.what === what);
-  return c ? `<p class="meta">Trimmed to ${c.kept} to keep data.json under ${(D.meta.caps.max_bytes/1e6).toFixed(1)} MB.</p>` : "";
-}
-
-/* ---------------- shared pick rendering ---------------- */
-function whyBlock(r) {
-  const items = r.why;
-  const body = items && items.length
-    ? `<dl>${items.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${v === "not available" ? `<span class="na">not available</span>` : esc(v)}</dd>`).join("")}</dl>`
-    : `<p class="meta">No explanation fields were recorded for this prediction.</p>`;
-  return `<details class="why"><summary>Why this pick?</summary>${body}<p class="reason">Decision: ${esc(r.reason || "–")}</p>${r.versions > 1 ? `<p class="meta">${r.versions} versions recorded for this candidate on this slate; showing the latest.</p>` : ""}</details>`;
-}
-function who(r) {
-  const bits = [];
-  if (r.player) bits.push(`<b>${esc(r.player)}</b>${r.team ? ` (${esc(r.team)})` : ""}`);
-  if (r.opponent) bits.push(`vs ${esc(r.opponent)}`);
-  if (r.matchup) bits.push(esc(r.matchup));
-  if (r.start_utc) bits.push(tip(r.start_utc));
-  return `<div class="who">${bits.join(" · ")}</div>`;
-}
-function ret(r) {
-  const st = r.hyp_stake_units;
-  if (r.return_units != null) return `<span class="${cls(r.return_units)}">${u(r.return_units)}</span><div class="meta">${usd(r.return_dollars)} on ${st}u</div>`;
-  return r.to_win_units != null ? `<span class="meta">${st}u to win ${Number(r.to_win_units).toFixed(2)}u<br>($${Math.round(r.to_win_units*100)} on $${Math.round(st*100)})</span>` : "–";
-}
-function pickRows(rows) {
-  return rows.map(r => `<tr>
-    <td style="min-width:220px"><div><b>${esc(r.label)}</b> <span class="meta">${esc(r.market_label || "")}</span></div>${who(r)}${whyBlock(r)}</td>
-    <td>${esc(r.book || "–")}</td><td class="n">${price(r)}</td>
-    <td class="n">${pct(r.prob)}</td><td class="n">${pct(r.implied)}</td><td class="n">${r.fair == null ? `<span class="na">–</span>` : pct(r.fair)}</td>
-    <td class="n ${cls(r.ev)}">${spct(r.ev)}</td>
-    <td>${decPill(r.decision)}</td><td>${resPill(r.status)}</td><td class="n">${ret(r)}</td></tr>`);
-}
-const PICK_HEAD = ["Pick", "Book", "#Price", "#Model", "#Implied", "#Fair", "#EV", "Decision", "Status", "#Hypothetical return"];
-function pickTable(rows, empty) { return tbl(PICK_HEAD, pickRows(rows), empty); }
-function parlayTable(rows) {
-  return tbl(["Ticket", "Legs", "#Price", "#Model", "#EV", "Decision", "Status", "#Hypothetical return"], rows.map(r => `<tr>
-    <td><b>${esc(r.label)}</b><div class="who">${esc(MK[r.category] || r.category)} · research</div></td>
-    <td><ul class="list">${(r.legs || []).map(l => `<li><span>${esc(l.label)}</span><span class="meta">${amS(l.price_american)} · ${pct(l.prob)}</span></li>`).join("")}</ul></td>
-    <td class="n">${price(r)}</td><td class="n">${pct(r.prob)}</td><td class="n ${cls(r.ev)}">${spct(r.ev)}</td>
-    <td>${decPill(r.decision)}</td><td>${resPill(r.status)}</td><td class="n">${ret(r)}</td></tr>`), "No research parlays or lottos on this slate.");
-}
-const rec = k => k ? `${k.wins}-${k.losses}-${k.pushes}${k.voids ? `-${k.voids}` : ""}` : "–";
-
-/* ---------------- Today / Picks / Performance (one pick table everywhere) ---------------- */
-const LEAN_HEAD = ["Slate", "Pick", "#Win chance", "#Price", "Final", "Result", "#Units"];
-const leanRow = r => `<tr><td class="n">${esc(r.slate)}</td><td><b>${esc(r.label || r.market)}</b></td><td class="n"><b>${pct(r.prob, 0)}</b></td><td class="n">${amS(r.price_american)}</td><td class="meta">${esc(r.result === "pending" || !r.result ? "" : r.market === "prop" ? (r.stat_value ?? "–") : (r.score || ""))}</td><td>${resPill(r.result || "pending")}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`;
-const leanTable = (rows, empty) => tbl(LEAN_HEAD, rows.map(leanRow), empty);
-const allLeans = () => ((D.performance.posted_leans || {}).rows || []).slice().sort((a, b) => String(b.slate).localeCompare(String(a.slate)));
-const todayLeans = () => ((D.today || {}).leans || []).map(r => ({...r, slate: r.slate || (D.today || {}).date}));
-const WIN_NOTE = `<p class="sub">Win chance is the probability our model gave the pick when it was posted. Every market is still research: none has shown an edge at real prices.</p>`;
-const nothingToday = () => `<p class="note">No picks posted for today yet. Picks are posted by the ~4:30 pm ET run${D.meta.paused ? " (global pause is on, so none will be posted)" : ""}. Earlier picks and their results are below.</p>`;
-
-R.today = () => {
-  const T = D.today || {}, games = T.games || [], leans = todayLeans();
-  const gameCards = games.length ? `<div class="games">${games.map(g => {
-    const live = g.status !== "scheduled";
-    return `<div class="game"><div class="tip"><span>${tip(g.start_utc)} local</span>${pill(g.status === "final" ? "final" : g.status === "scheduled" ? "scheduled" : "live", g.status.replace("STATUS_", "").toLowerCase())}</div>
-      <div class="teams"><span>${esc(g.away)}</span><span class="sc">${live && g.away_score != null ? esc(g.away_score) : ""}</span><span>@ ${esc(g.home)}</span><span class="sc">${live && g.home_score != null ? esc(g.home_score) : ""}</span></div></div>`; }).join("")}</div>` : `<p class="empty">No games on today's slate.</p>`;
-  const recent = allLeans().filter(r => r.slate !== (T.date || D.meta.today)).slice(0, 10);
-  return `${banner()}
-  <h2>Today · ${esc(T.date || D.meta.today)}</h2>
-  <p class="sub">${T.game_count || 0} game${T.game_count === 1 ? "" : "s"} on the slate. Last updated ${time(D.meta.generated_at)}. Overall record so far: <b>${rec(D.performance.posted_leans)}</b>.</p>
-  ${WIN_NOTE}
-  <h2>Today's picks</h2>
-  ${leans.length ? `<div class="panel">${leanTable(leans, "")}</div>` : nothingToday()}
-  ${leans.length ? "" : `<h2>Latest picks</h2><div class="panel">${leanTable(recent, "No picks yet.")}</div><p class="sub"><a href="#performance" style="color:var(--info)">All picks and results</a></p>`}
-  <h2>Games</h2>${gameCards}`;
-};
-
-R.picks = () => {
-  const days = D.picks_by_day || [], PL = allLeans();
-  const byDay = d => (d === (D.today || {}).date ? todayLeans() : []).concat(PL.filter(r => r.slate === d && d !== (D.today || {}).date));
-  const dates = [...new Set([...days.map(d => d.date), ...PL.map(r => r.slate), (D.today || {}).date].filter(Boolean))].sort().reverse();
-  return `${banner()}<h2>Picks by day</h2>${WIN_NOTE}
-  ${dates.map(date => {
-    const i = days.findIndex(d => d.date === date), d = days[i], rows = byDay(date);
-    const settled = rows.filter(r => r.result && r.result !== "pending");
-    const w = settled.filter(r => r.result === "win").length;
-    return `<section><h2>${date === (D.today || {}).date ? "Today · " : ""}${esc(date)}</h2>
-    <p class="sub">${rows.length} pick${rows.length === 1 ? "" : "s"}${settled.length ? ` · ${w}-${settled.length - w} settled` : ""}</p>
-    <div class="panel">${rows.length ? leanTable(rows, "") : `<p class="empty">No picks posted for this day.</p>`}</div>
-    ${d && d.candidates_total ? `<details class="more" data-day="${i}"><summary>Rejected and other candidates (${d.candidates_total})</summary>
-      <p class="sub">Everything else the model priced: watch, held and rejected, with the reason. These are not picks.</p>
-      <div class="filters">
-        <select class="f-mkt" aria-label="Market"><option value="">All markets</option>${[...new Set(d.candidates.map(r => r.market))].filter(Boolean).sort().map(m => `<option value="${esc(m)}">${esc(MK[m] || m)}</option>`).join("")}</select>
-        <select class="f-dec" aria-label="Decision"><option value="">All decisions</option>${[...new Set(d.candidates.map(r => r.decision))].sort().map(m => `<option value="${esc(m)}">${esc(DEC[m] || m)}</option>`).join("")}</select>
-        <select class="f-game" aria-label="Game"><option value="">All games</option>${(d.games || []).map(g => `<option>${esc(g)}</option>`).join("")}</select>
-        <select class="f-sort" aria-label="Sort"><option value="dec">Sort: decision, then EV</option><option value="prob">Sort: model probability</option><option value="ev">Sort: EV</option></select>
-      </div>
-      <div class="panel cands"></div>
-    </details>` : ""}</section>`; }).join("") || `<p class="empty">No picks recorded yet.</p>`}`;
-};
-A.picks = () => {
-  const order = {eligible:0, watch:1, hold:2, reject:3, info:4};
-  $$("details[data-day]").forEach(el => {
-    const d = D.picks_by_day[+el.dataset.day];
-    const draw = () => {
-      const f = c => $(c, el).value;
-      let rows = d.candidates.filter(r => (!f(".f-mkt") || r.market === f(".f-mkt")) && (!f(".f-dec") || r.decision === f(".f-dec")) && (!f(".f-game") || r.matchup === f(".f-game")));
-      const s = f(".f-sort");
-      const num = x => x == null ? -9 : x;
-      rows = rows.slice().sort(s === "prob" ? (a,b) => num(b.prob) - num(a.prob) : s === "ev" ? (a,b) => num(b.ev) - num(a.ev) : (a,b) => (order[a.decision] ?? 9) - (order[b.decision] ?? 9) || num(b.ev) - num(a.ev));
-      $(".cands", el).innerHTML = pickTable(rows, "No candidates match these filters.");
-    };
-    $$("select", el).forEach(s => s.addEventListener("input", draw));
-    el.addEventListener("toggle", () => { if (el.open && !$(".cands", el).innerHTML) draw(); });
-  });
-};
-
-function kpiTable(obj, label, fmtKey = k => k) {
-  const rows = Object.entries(obj || {});
-  return tbl([label, "#Bets", "#W-L-P-V", "#Pending", "#Hit rate", "#Staked", "#Net", "#Net $", "#ROI"], rows.map(([k, v]) => `<tr><td>${esc(fmtKey(k))}</td><td class="n">${v.n}</td><td class="n">${v.wins}-${v.losses}-${v.pushes}-${v.voids}</td><td class="n">${v.pending}</td><td class="n">${pct(v.hit_rate)}</td><td class="n">${Number(v.units_staked || 0).toFixed(2)}u</td><td class="n ${cls(v.net_units)}">${u(v.net_units)}</td><td class="n ${cls(v.net_dollars)}">${usd(v.net_dollars)}</td><td class="n ${cls(v.roi)}">${spct(v.roi)}</td></tr>`), "Nothing recorded yet.");
-}
-function bucketTable(b) {
-  return tbl(["Model probability", "#n", "#Predicted", "#Observed", "#95% interval"], (b || []).map(x => `<tr><td>${pct(x.lo,0)}–${pct(x.hi,0)}</td><td class="n">${x.n}</td><td class="n">${pct(x.predicted)}</td><td class="n">${pct(x.observed)}</td><td class="n">${x.ci ? `${pct(x.ci[0],0)}–${pct(x.ci[1],0)}` : "–"}</td></tr>`), "No settled win/loss rows with a probability yet.");
-}
-R.performance = () => `${banner()}<h2>Performance</h2>
-  <p class="sub">Pick a population. Each is computed on its own; theoretical populations and your actual wagers are never added together.</p>
-  <div class="filters"><div class="seg" role="group" aria-label="Population">${POPS.map(([k, v]) => `<button data-pop="${k}" aria-pressed="false">${esc(v)}</button>`).join("")}</div></div>
-  <div id="perf"></div>
-  <h2>Calibration vs the market</h2><p class="sub">All model predictions (latest version per candidate) settled win or loss. Log loss: lower is better. The market column uses the de-vigged price, only on rows where both sides were quoted; compare it with the model's log loss on those same rows.</p>
-  <div class="panel">${tbl(["Market", "#Settled", "#Model log loss", "#Model Brier", "#Rows with fair price", "#Model on those rows", "#Market log loss", "#Market Brier"], Object.entries(get(D, "performance", "calibration_vs_market") || {}).map(([m, c]) => `<tr><td>${esc(MK[m] || m)}</td><td class="n">${c.n}</td><td class="n">${c.logloss_model ?? "–"}</td><td class="n">${c.brier_model ?? "–"}</td><td class="n">${c.n_with_fair}</td><td class="n">${c.logloss_model_on_fair_rows ?? "–"}</td><td class="n">${c.logloss_market ?? "–"}</td><td class="n">${c.brier_market ?? "–"}</td></tr>`), "No settled model predictions yet.")}</div>
-  <p class="sub">Backtest results are under <a href="#research" style="color:var(--info)">Research & Model Health</a>.</p>`;
-
-R.performance = () => {
-  const B = D.performance.posted_leans || {}, rows = allLeans();
-  return `${banner()}<h2>Performance</h2>
-  <p class="sub">Every pick the system has posted, newest first, with the win chance it was given and how it ended. Staked 1 unit each.</p>
-  <div class="grid">
-    <div class="panel kpi s3"><div class="v">${B.wins ?? 0}-${B.losses ?? 0}${B.pushes ? `-${B.pushes}` : ""}</div><div class="l">record · ${B.pending || 0} pending</div></div>
-    <div class="panel kpi s3"><div class="v">${pct(B.hit_rate, 0)}</div><div class="l">hit rate</div></div>
-    <div class="panel kpi s3"><div class="v ${cls(B.net_units)}">${u(B.net_units ?? 0)}</div><div class="l">net units</div></div>
-    <div class="panel kpi s3"><div class="v ${cls(B.roi)}">${spct(B.roi)}</div><div class="l">ROI${B.roi_ci ? ` · 95% range ${spct(B.roi_ci[0], 0)} to ${spct(B.roi_ci[1], 0)}` : ""}</div></div>
-  </div>
-  <p class="note">A high hit rate is not an edge: short-priced favourites win often and can still lose money, and a small sample proves nothing.</p>
-  <div class="panel">${leanTable(rows, "No picks yet.")}</div>`;
-};
-
-/* ---------------- Player & Team ---------------- */
-R.players = () => {
-  const P = D.players || {}, pl = P.players || [];
-  const stats = [...new Set(pl.flatMap(p => p.props.map(x => x.stat)))].filter(Boolean).sort();
-  const gamesL = [...new Set(pl.map(p => p.matchup))].filter(Boolean).sort();
-  return `${banner()}<h2>Player & Team</h2>
-  <p class="sub">Today's player props grouped by player. Prices older than ${esc(P.max_odds_age_minutes ?? "–")} minutes (the configured quality limit) are marked stale. Player props stay research-only until the prop model passes its gates.</p>
-  <div class="filters">
-    <label>Sort <select id="pl-sort"><option value="prob">Model probability (high → low)</option><option value="ev">EV (high → low)</option><option value="name">Name</option></select></label>
-    <select id="pl-stat" aria-label="Stat"><option value="">All stats</option>${stats.map(s => `<option value="${esc(s)}">${esc(pl.flatMap(p => p.props).find(x => x.stat === s).stat_label || s)}</option>`).join("")}</select>
-    <select id="pl-side" aria-label="Side"><option value="">Over and under</option><option value="over">Over</option><option value="under">Under</option></select>
-    <select id="pl-game" aria-label="Game"><option value="">All games</option>${gamesL.map(g => `<option>${esc(g)}</option>`).join("")}</select>
-    <label>Min sample <input type="number" id="pl-min" min="0" value="0" aria-label="Minimum games behind the exact-line hit rate"></label>
-    <div class="seg" role="group" aria-label="View"><button id="pl-v-cards" aria-pressed="true">By player</button><button id="pl-v-cmp" aria-pressed="false">Compare</button></div>
-  </div>
-  <div id="pl-list"></div>
-  <h2>Team model vs market (today)</h2><p class="sub">Game markets on today's slate: model probability next to the de-vigged market probability. Gap = model − fair.</p>
-  <div class="panel">${tbl(["Game", "Bet", "Book", "#Price", "#Model", "#Implied", "#Fair", "#Gap", "#EV", "Decision"], (P.teams || []).map(r => `<tr><td>${esc(r.matchup)}</td><td>${esc(r.label)}</td><td>${esc(r.book)}</td><td class="n">${price(r)}</td><td class="n">${pct(r.prob)}</td><td class="n">${pct(r.implied)}</td><td class="n">${pct(r.fair)}</td><td class="n ${cls(r.gap)}">${spct(r.gap)}</td><td class="n ${cls(r.ev)}">${spct(r.ev)}</td><td>${decPill(r.decision)}</td></tr>`), "No game-market prices on today's slate.")}</div>
-  <h2>Prop split cards (research)</h2><p class="sub">How often each player cleared this exact line, by split. "p" is the cautious combined estimate (lower of calibrated and raw). Quotes older than 12 hours are hidden. A split on a small sample is not an edge.</p>
-  <div class="panel">${propCards()}${(P.prop_split_cards_total || 0) > (P.prop_split_cards || []).length ? `<p class="meta">${(P.prop_split_cards || []).length} of ${P.prop_split_cards_total} cards exported (cap).</p>` : ""}</div>`;
-};
-A.players = () => {
-  let view = "cards";
-  const draw = () => {
-    const P = D.players || {}, f = id => $(id).value, min = +f("#pl-min") || 0, srt = f("#pl-sort");
-    const keep = x => (!f("#pl-stat") || x.stat === f("#pl-stat")) && (!f("#pl-side") || x.side === f("#pl-side")) && ((x.line_hits && x.line_hits.n) || 0) >= min;
-    const num = x => x == null ? -9 : x;
-    const sorter = srt === "ev" ? (a,b) => num(b.ev) - num(a.ev) : (a,b) => num(b.prob) - num(a.prob);
-    let pl = (P.players || []).filter(p => !f("#pl-game") || p.matchup === f("#pl-game")).map(p => ({...p, props: p.props.filter(keep).sort(sorter)})).filter(p => p.props.length);
-    pl.sort(srt === "name" ? (a,b) => String(a.player).localeCompare(String(b.player)) : (a,b) => sorter(a.props[0], b.props[0]));
-    $("#pl-v-cards").setAttribute("aria-pressed", view === "cards"); $("#pl-v-cmp").setAttribute("aria-pressed", view === "cmp");
-    if (!(P.players || []).length) { $("#pl-list").innerHTML = `<p class="empty">No player props were stored for today's slate. Props without a verified side or player history are counted, not stored.</p>`; return; }
-    if (!pl.length) { $("#pl-list").innerHTML = `<p class="empty">No props match these filters.</p>`; return; }
-    if (view === "cmp") {
-      $("#pl-list").innerHTML = `<p class="note"><b>The historical hit rate is not the model probability.</b> It counts how often the player cleared this exact line in past games; the model probability also weighs minutes, recency and variance. Small samples (low n) are unreliable.</p>
-      <div class="panel">${tbl(["Player", "Prop", "#Model probability", "#Historical exact-line hit rate", "#Last 10", "#Price", "#Implied"], pl.flatMap(p => p.props.map(x => `<tr><td>${esc(p.player)}</td><td>${esc(x.label)}</td><td class="n">${pct(x.prob)}</td><td class="n">${hn(x.line_hits)}</td><td class="n">${hn(x.line_hits_last10)}</td><td class="n">${price(x)}</td><td class="n">${pct(x.implied)}</td></tr>`)), "Nothing to compare.")}</div>`;
-      return;
-    }
-    $("#pl-list").innerHTML = pl.map(p => `<div class="panel player"><div class="ph"><span><b>${esc(p.player)}</b> <span class="who">${esc(p.team || "team not available")}${p.opponent ? ` vs ${esc(p.opponent)}` : ""} · ${esc(p.matchup || "")} · ${tip(p.start_utc)}</span></span><span class="meta">${p.props.length} prop${p.props.length === 1 ? "" : "s"}${p.capped ? ` (top ${D.players.prop_props_cap} of ${p.props_total} exported)` : ""}</span></div>
-      ${tbl(["Prop", "Book", "#Price", "#Model", "#Implied", "#EV", "#Exact-line hits", "Last 5", "#Season avg", "#Vs opp", "#Exp. min", "Flags", "#Price age", "Decision"], p.props.map(x => `<tr><td><b>${esc(x.label)}</b></td><td>${esc(x.book)}</td><td class="n">${price(x)}</td><td class="n">${pct(x.prob)}</td><td class="n">${pct(x.implied)}</td><td class="n ${cls(x.ev)}">${spct(x.ev)}</td><td class="n">${hn(x.line_hits)}</td><td>${x.last5 && x.last5.length ? esc(x.last5.join(", ")) : `<span class="na">not available</span>`}</td><td class="n">${x.season_avg == null ? `<span class="na">not available</span>` : `${Number(x.season_avg).toFixed(1)} <span class="meta">n=${esc(x.season_n)}</span>`}</td><td class="n">${hn(x.vs_opp)}</td><td class="n">${x.exp_minutes == null ? `<span class="na">not available</span>` : Number(x.exp_minutes).toFixed(1)}</td><td class="reason">${esc((x.flags || []).join(", ")) || "–"}</td><td class="n">${x.price_age_min == null ? "–" : Math.round(x.price_age_min) + " min"}${x.stale ? ` ${pill("stale", "stale")}` : ""}</td><td>${decPill(x.decision)}</td></tr>`), "")}</div>`).join("");
-  };
-  ["#pl-sort","#pl-stat","#pl-side","#pl-game","#pl-min"].forEach(id => $(id).addEventListener("input", draw));
-  $("#pl-v-cards").onclick = () => { view = "cards"; draw(); };
-  $("#pl-v-cmp").onclick = () => { view = "cmp"; draw(); };
-  draw();
-};
-function propCards() {
-  const gen = Date.parse(D.meta.generated_at);
-  const rows = (get(D, "players", "prop_split_cards") || []).filter(c => c.implied && c.price_observed_at && gen - Date.parse(c.price_observed_at) < 12*3600e3)
-    .map(c => { const d = 1/c.implied, p = Math.min(c.prob, c.prob_raw ?? c.prob); return {...c, d, p, evc: p*d - 1}; })
-    .filter(c => c.d >= 1.33 && c.d <= 2.5).sort((a,b) => b.evc - a.evc).slice(0, 40);
-  const side = s => s === "over" ? "Over" : s === "under" ? "Under" : s;
-  const STAT = {pts:"Points", reb:"Rebounds", ast:"Assists", fg3m:"Made Three-Pointers"};
-  return tbl(["Player", "Prop", "#Price", "Book", "#p", "#Implied", "#EV", "Splits"], rows.map(c => `<tr><td>${esc(c.player)} <span class="meta">${c.home ? "vs" : "@"} ${esc(c.opp)}</span></td><td>${esc(side(c.side))} ${esc(c.line)} ${esc(STAT[c.stat] || c.stat)}</td><td class="n">${amS(amFromDec(c.d))}</td><td>${esc(c.book)}</td><td class="n">${pct(c.p,0)}</td><td class="n">${pct(c.implied,0)}</td><td class="n ${cls(c.evc)}">${spct(c.evc,0)}</td><td class="reason">${(c.splits || []).map(t => `${esc(t.split)} ${t.hits}/${t.n}`).join(" · ")}</td></tr>`), "No priced split cards in this snapshot.");
-}
-
-/* ---------------- Model Valuation ---------------- */
-R.valuation = () => {
-  const V = D.valuation || {};
-  return `${banner()}<h2>Model valuation</h2>
-  <p class="sub">Today's priced candidates: what the model thinks against what the price implies. Sorted by EV. Positive EV is a theoretical expectation, not a guarantee.</p>
-  <div class="panel">${tbl(["Bet", "Book", "#Price", "#Model", "#Implied", "#Fair (de-vigged)", "#EV", "#Min price for edge", "Decision"], (V.rows || []).map(r => `<tr><td><b>${esc(r.label)}</b><div class="who">${esc(r.player || r.team || "")}${r.player || r.team ? " · " : ""}${esc(r.matchup || "")}</div></td><td>${esc(r.book)}</td><td class="n">${price(r)}</td><td class="n">${pct(r.prob)}</td><td class="n">${pct(r.implied)}</td><td class="n">${r.fair == null ? `<span class="na">one side only</span>` : pct(r.fair)}</td><td class="n ${cls(r.ev)}">${spct(r.ev)}</td><td class="n">${r.min_price_dec ? `${amS(r.min_price_american)} <span class="meta">${Number(r.min_price_dec).toFixed(2)}</span>` : "–"}</td><td>${decPill(r.decision)}</td></tr>`), "No priced candidates for today's slate.")}
-  ${V.capped ? `<p class="meta">Showing ${V.rows.length} of ${V.total} (cap).</p>` : ""}</div>
-  <h2>How to read this</h2><div class="panel"><dl class="help">${(V.help || []).map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl></div>`;
-};
-
-/* ---------------- Research & Model Health ---------------- */
-function backtestPanel() {
-  const files = D.backtests || [];
-  const runs = files.flatMap(f => (f.runs || []).map(r => ({...r, _file: f.file, _gen: f.generated_at, _commit: f.commit})));
-  if (!runs.length) return `<p class="empty">No backtest reports found (reports/backtest_*.json).</p>`;
-  return tbl(["Run", "Split / period", "Selection rule", "Price basis", "#Bets", "#W-L-P", "#Hit rate", "#Avg prob", "#Avg odds", "#Units", "#Net $", "#ROI (95% CI)", "#Log loss model / market"], runs.map(r => `<tr>
-    <td><b>${esc(r.name)}</b><div class="who">${esc(r.kind || "")} · ${esc(MK[r.market] || r.market || "")} · ${esc(r.model_version || "")} vs ${esc(r.baseline || "–")}</div><div class="meta">${esc(r._file)} · ${esc(r._commit || "")}</div>${(r.calibration || []).length ? `<details class="why"><summary>Calibration</summary>${bucketTable(r.calibration)}</details>` : ""}${(r.notes || []).length ? `<div class="reason">${esc(r.notes.join(" "))}</div>` : ""}</td>
-    <td>${esc(r.split || "–")}<div class="meta">${esc(get(r, "period", "start") || "")} – ${esc(get(r, "period", "end") || "")}</div></td>
-    <td class="reason">${esc(r.selection_rule || "–")}<div class="meta">${esc(r.staking || "")}</div></td><td>${esc(r.price_basis || "–")}</td>
-    <td class="n">${r.bets ?? "–"}</td><td class="n">${r.wins ?? 0}-${r.losses ?? 0}-${r.pushes ?? 0}</td><td class="n">${pct(r.hit_rate)}</td><td class="n">${pct(r.avg_prob)}</td><td class="n">${r.avg_price_dec ? amS(amFromDec(r.avg_price_dec)) : "–"}</td>
-    <td class="n ${cls(r.roi == null ? null : r.net_units)}">${r.roi == null ? "–" : u(r.net_units)}</td><td class="n">${r.roi == null ? "–" : usd(r.net_dollars)}</td>
-    <td class="n">${r.roi == null ? `<span class="na">no historical prices</span>` : `<span class="${cls(r.roi)}">${spct(r.roi)}</span>${r.roi_ci ? `<div class="meta">${spct(r.roi_ci[0],0)} to ${spct(r.roi_ci[1],0)}</div>` : ""}`}</td>
-    <td class="n">${r.logloss_model ?? "–"} / ${r.logloss_market ?? "–"}</td></tr>`), "");
-}
-function flatRows(o, prefix = "") {
-  return Object.entries(o || {}).flatMap(([k, v]) => v && typeof v === "object" && !Array.isArray(v) ? flatRows(v, prefix + k + " · ") : [[prefix + k, Array.isArray(v) ? v.join(", ") : v]]);
-}
-R.research = () => {
-  const Rs = D.research || {}, ch = Rs.champion || {}, g = ch.game || {}, p = ch.props || {};
-  const ex = Rs.experiments || [];
-  const reg = Object.fromEntries(ex.filter(e => e.step === "registered").map(e => [e.exp_id, e]));
-  const champCard = (t, c) => `<div class="panel s6"><h3>${t}</h3>${c && c.model_id ? `<p><code>${esc(c.model_id)}</code>${c.since ? ` <span class="meta">since ${esc(c.since)}</span>` : ""}</p><p class="reason">${esc(c.reason || "")}</p>${c.params ? `<details class="why"><summary>Parameters</summary>${kv(c.params)}</details>` : ""}` : `<p class="empty">No champion recorded.</p>`}</div>`;
-  const q = Rs.queue || {};
-  return `${banner()}<h2>Research & model health</h2><p class="sub">Champion and challengers, the gates fixed in advance, every experiment (rejections stay listed), decisions, diagnostics and backtests.</p>
-  <div class="grid">${champCard("Champion · game markets", g)}${champCard("Champion · player props", p)}
-    <div class="panel s12"><h3>Market status</h3><ul class="list">${Object.entries(D.meta.market_status || {}).map(([m, s]) => `<li><span>${esc(MK[m] || m)}</span>${pill(s)}</li>`).join("") || "<li>No markets configured.</li>"}</ul></div>
-    <div class="panel s12"><h3>Backtests</h3><p class="meta">Flat 1u = $100 per bet. ROI is blank when no valid historical price exists; it is never filled from assumed odds.</p>${backtestPanel()}</div>
-    <div class="panel s12"><h3>Calibration vs market (live predictions)</h3>${tbl(["Market", "#Settled", "#Model log loss", "#Market log loss (fair rows)", "#Model on fair rows"], Object.entries(Rs.calibration || {}).map(([m, c]) => `<tr><td>${esc(MK[m] || m)}</td><td class="n">${c.n}</td><td class="n">${c.logloss_model ?? "–"}</td><td class="n">${c.logloss_market ?? "–"}</td><td class="n">${c.logloss_model_on_fair_rows ?? "–"}</td></tr>`), "No settled predictions yet.")}</div>
-    <div class="panel s12"><h3>Promotion gates (fixed in advance)</h3>${tbl(["Gate", "#Value"], flatRows(Rs.gates).map(([k, v]) => `<tr><td>${esc(k.replaceAll("_", " "))}</td><td class="n">${esc(v)}</td></tr>`), "No gates file.")}</div>
-    <div class="panel s12"><h3>Experiments</h3>${tbl(["Experiment", "Step", "Hypothesis / verdict", "Details"], ex.slice().reverse().map(e => `<tr><td><code>${esc(e.exp_id)}</code><div class="meta">${esc(e.at || "")} ${esc(e.commit || e.code_commit || "")}</div></td><td>${esc(e.step)}</td><td class="reason">${esc(e.hypothesis || get(reg, e.exp_id, "hypothesis") || "")}${e.verdict ? `<div><b>${esc(e.verdict)}</b></div>` : ""}${e.evidence ? `<div class="meta">${esc(e.evidence)}</div>` : ""}</td><td><details class="why"><summary>Raw record</summary><pre>${esc(JSON.stringify(e, null, 1))}</pre></details></td></tr>`), "No experiments recorded.")}${cappedNote("experiments")}</div>
-    <div class="panel s12"><h3>Decisions</h3>${tbl(["At", "Decision", "Evidence", "By / review"], (Rs.decisions || []).slice().reverse().map(d => `<tr><td class="n">${esc(d.at)}</td><td>${esc(d.decision)}</td><td class="reason">${esc(d.evidence || "")}</td><td class="reason">${esc(d.by || "")}${d.review ? ` · ${esc(d.review)}` : ""}</td></tr>`), "No decisions recorded.")}</div>
-    <div class="panel s6"><h3>Diagnostics</h3>${Rs.diagnostics ? `<pre>${esc(Rs.diagnostics)}</pre>` : `<p class="empty">No reports/diagnostics.md.</p>`}</div>
-    <div class="panel s6"><h3>Research queue</h3>${(q.queue || []).length || (q.probation || []).length ? `<pre>${esc(JSON.stringify(q, null, 1))}</pre>` : `<p class="empty">Queue is empty${q.updated ? ` (updated ${esc(q.updated)})` : ""}.</p>`}</div>
-  </div>`;
-};
-
-/* ---------------- Command Center ---------------- */
-R.command = () => {
-  const S = D.settings || {}, C = S.commands || {}, m = D.meta || {};
-  const steps = Object.entries(m.last_success || {});
-  return `${banner()}<h2>Command center</h2><p class="sub">How runs are triggered, when each step last succeeded, and the run history.</p>
-  <div class="grid">
-    <div class="panel s6"><h3>Trigger a run</h3><p>Edit <code>ops/trigger</code>: its first line lists the pipeline steps (for example <code>ingest predict export</code>, optionally <code>--slate YYYY-MM-DD</code>), then commit and push. The <code>nba-daily</code> workflow runs on that push.</p><p class="meta">Current trigger line: <code>${esc((C.trigger || [])[0] || "none")}</code></p><p class="meta">Steps: ingest, boxes, predict, publish, settle, recap, diagnose, export (or all).</p></div>
-    <div class="panel s6"><h3>Last success per step</h3>${tbl(["Step", "#Last success"], steps.map(([k, v]) => `<tr><td>${esc(k)}</td><td class="n">${time(v)}</td></tr>`), "No runs recorded.")}
-      ${(m.last_failed || []).length ? `<h3 style="margin-top:12px">Failing steps</h3>${tbl(["Step", "At", "Error"], m.last_failed.map(f => `<tr><td>${esc(f.step)}</td><td class="n">${time(f.at)}</td><td class="reason">${esc(f.error)}</td></tr>`), "")}` : `<p class="meta">No step is currently failing.</p>`}</div>
-    <div class="panel s12"><h3>Workflows</h3>${tbl(["Workflow", "File", "Schedule (UTC cron)", "Manual run", "Runs on push to"], (C.workflows || []).map(w => `<tr><td>${esc(w.name)}</td><td><code>${esc(w.file)}</code></td><td class="meta">${esc((w.schedule || []).join(" · ") || "–")}</td><td>${w.manual ? "yes" : "no"}</td><td><code>${esc((w.push_paths || []).join(", ") || "–")}</code></td></tr>`), "No workflow files found.")}<p class="meta">GitHub only fires scheduled runs from the default branch; pushes to ops/trigger work on any branch the workflow lists.</p></div>
-    <div class="panel s12"><h3>Run history (latest 30)</h3>${tbl(["At", "Result", "Steps", "Errors / notes"], (S.runs || []).slice().reverse().map(r => `<tr><td class="n">${time(r.at)}</td><td>${pill(r.ok ? "ok" : "failed", r.ok ? "ok" : "failed")}</td><td>${Object.entries(r.steps || {}).map(([k, v]) => `${esc(k)} ${pill(v)}`).join(" ")}</td><td class="reason">${esc(Object.entries(r.errors || {}).map(([k, v]) => `${k}: ${v}`).concat(r.notes || []).join("; "))}</td></tr>`), "No runs recorded.")}</div>
-  </div>`;
-};
-
-/* ---------------- Settings & Audit ---------------- */
-R.settings = () => {
-  const S = D.settings || {}, c = S.config || {}, T = S.team || {}, mv = S.model_versions || {};
-  const roles = Array.isArray(T.roles) ? T.roles : [], b = Array.isArray(T.backlog) ? T.backlog : [], sc = Array.isArray(T.scorecards) ? T.scorecards : [];
-  const health = Object.entries(S.source_health || {});
-  return `${banner()}<h2>Settings & audit</h2><p class="sub">Settings live in <code>config/nbapicks.yaml</code> and are validated on every run; git history is the audit trail. Secrets are never exported: only their names appear in config.</p>
-  <div class="grid">
-    <div class="panel s4"><h3>Stakes (units)</h3>${kv(c.stakes)}</div><div class="panel s4"><h3>Daily maxima</h3>${kv(c.targets)}</div><div class="panel s4"><h3>Risk limits</h3>${kv(c.risk)}</div>
-    <div class="panel s6"><h3>Markets</h3>${tbl(["Market", "Status", "#Min EV", "Enabled"], Object.entries(c.markets || {}).map(([m, s]) => `<tr><td>${esc(MK[m] || m)}</td><td>${pill(s.status)}</td><td class="n">${pct(s.min_ev, 0)}</td><td>${s.enabled ? "yes" : "no"}</td></tr>`), "No markets.")}</div>
-    <div class="panel s6"><h3>Data quality gates</h3>${kv(c.quality)}</div>
-    <div class="panel s6"><h3>Publishing</h3>${kv(c.publishing)}<p class="meta">Mode: ${c.dry_run ? "dry run (nothing sent)" : "live"}. Time zone: ${esc(c.timezone)}.</p></div>
-    <div class="panel s6"><h3>Execution</h3>${kv(c.execution)}</div>
-    <div class="panel s12"><h3>Model versions</h3><p class="meta">Champion (game): <code>${esc(mv.champion_game || "–")}</code> · champion (props): <code>${esc(mv.champion_props || "–")}</code></p>${tbl(["Model version", "#Predictions", "#First seen", "#Last seen"], Object.entries(mv.seen || {}).map(([k, v]) => `<tr><td><code>${esc(k)}</code></td><td class="n">${v.n}</td><td class="n">${time(v.first)}</td><td class="n">${time(v.last)}</td></tr>`), "No model predictions yet.")}</div>
-    <div class="panel s12"><h3>Source health</h3>${tbl(["Source", "Status", "#Last OK", "Last error"], health.map(([k, h]) => `<tr><td>${esc(k)}</td><td>${h.consecutive_failures ? pill("fail", h.consecutive_failures + " failures") : pill("ok", "ok")}</td><td class="n">${time(h.last_ok)}</td><td class="reason">${esc(h.last_error_detail ? `${time(h.last_error)}: ${h.last_error_detail}` : h.last_detail || "")}</td></tr>`), "No ingestion has run yet.")}</div>
-    <div class="panel s12"><h3>Data sources</h3>${tbl(["Source", "Use", "Status", "Coverage", "Limits"], (Array.isArray(S.sources) ? S.sources : []).map(x => `<tr><td>${esc(x.name)}</td><td class="reason">${esc(x.use)}</td><td>${pill(x.status === "in use" ? "ok" : x.status === "optional" ? "paper" : x.status === "rejected" ? "reject" : "hold", x.status)}</td><td class="reason">${esc(x.coverage)}</td><td class="reason">${esc(x.limits)}</td></tr>`), "No source inventory.")}</div>
-    <div class="panel s12"><h3>Discord publications</h3>${tbl(["Slate", "Kind", "Status", "#At"], (S.publications || []).map(p => `<tr><td>${esc(p.slate_date)}</td><td>${esc(p.kind)}</td><td>${pill(p.status)}</td><td class="n">${time(p.at)}</td></tr>`), "Nothing published yet.")}</div>
-    <div class="panel s12"><h3>Team roles</h3>${tbl(["Role", "Owns", "Executed by", "State"], roles.map(r => `<tr><td>${esc(r.name)}</td><td class="reason">${esc(r.owns)}</td><td class="reason">${esc(r.executor)}</td><td>${pill(r.state === "active" ? "ok" : r.state === "on-demand" ? "paper" : "hold", r.state)}</td></tr>`), "No roles file.")}</div>
-    <div class="panel s12"><h3>Backlog</h3>${tbl(["ID", "Task", "Owner", "Reviewer", "Status", "Evidence / blocker"], b.map(t => `<tr><td><code>${esc(t.id)}</code></td><td>${esc(t.title)}</td><td>${esc(t.owner)}</td><td>${esc(t.reviewer || "–")}</td><td>${pill(t.status, String(t.status).replace("_", " "))}</td><td class="reason">${esc(t.evidence || t.blocker || "")}</td></tr>`), "No backlog.")}</div>
-    <div class="panel s12"><h3>Scorecards</h3><p class="note">${esc(T.scorecards_note || "Self-reported.")}</p>${tbl(["Role", "#Quality /25", "#Testing /25", "#Contribution /20", "#Docs /15", "#Collab /15", "#Total", "Basis"], sc.map(s => `<tr><td>${esc(s.role)}${s.evidence_linked ? "" : ` <span class="tag">self-reported</span>`}</td><td class="n">${esc(s.quality)}</td><td class="n">${esc(s.testing)}</td><td class="n">${esc(s.contribution)}</td><td class="n">${esc(s.documentation)}</td><td class="n">${esc(s.collaboration)}</td><td class="n">${esc(+s.quality + +s.testing + +s.contribution + +s.documentation + +s.collaboration)}</td><td class="reason">${esc(s.basis)}</td></tr>`), "No scorecards yet.")}</div>
-    <div class="panel s12"><h3>Ledger size</h3>${kv(S.counts)}</div>
-  </div>`;
-};
-
 boot();
 </script>

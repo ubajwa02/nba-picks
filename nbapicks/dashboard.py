@@ -317,6 +317,29 @@ def _perf_row(r: dict, flat: bool) -> dict:
 
 
 # ------------------------------------------------------------------ export
+TOP_PLAYERS = 10
+TOP_PROPS_PER_PLAYER = 3
+_JUNK_FLAGS = ("milestone", "side_unverified")
+
+
+def top_players(plist: list[dict], n: int = TOP_PLAYERS, per: int = TOP_PROPS_PER_PLAYER) -> list[dict]:
+    """The dashboard's player view: the n players whose best prop is the most likely to hit,
+    each with their `per` best. A prop counts only with a verified two-sided price (no milestone
+    ladders, no side-unverified rows), a price of at least 1.50 decimal (not a near-certain
+    one-sided quote) and at least 5 of the last 10 games to judge the line against."""
+    out = []
+    for p in plist:
+        good = [x for x in p["props"]
+                if x["prob"] is not None and (x["price_dec"] or 0) >= 1.5
+                and not any(k in f for f in x["flags"] for k in _JUNK_FLAGS)
+                and ((x.get("line_hits_last10") or {}).get("n") or 0) >= 5]
+        good.sort(key=lambda x: -x["prob"])
+        if good:
+            out.append(dict(p, props=good[:per], props_total=len(good), capped=len(good) > per, best_prob=good[0]["prob"]))
+    out.sort(key=lambda p: -p["best_prob"])
+    return out[:n]
+
+
 def export(ctx: Ctx, out_dir: str = SITE, max_bytes: int = MAX_BYTES) -> dict:
     s, tz, now = ctx.store, ctx.tz, ctx.now
     cfg = ctx.cfg
@@ -577,7 +600,7 @@ def export(ctx: Ctx, out_dir: str = SITE, max_bytes: int = MAX_BYTES) -> dict:
                           matchup=r0["matchup"], game_id=r0["game_id"], start_utc=r0["start_utc"],
                           props=props[:PLAYER_PROP_CAP], props_total=len(props), capped=len(props) > PLAYER_PROP_CAP,
                           best_prob=max((p["prob"] for p in props if p["prob"] is not None), default=None)))
-    plist.sort(key=lambda p: -(p["best_prob"] or 0))
+    plist = top_players(plist)
     teams = sorted([dict(game_id=r["game_id"], matchup=r["matchup"], market=r["market"], label=r["label"], line=r["line"],
                          book=r["book"], price_dec=r["price_dec"], price_american=r["price_american"], prob=r["prob"],
                          implied=r["implied"], fair=r["fair"], gap=_r(r["prob"] - r["fair"]) if r["prob"] is not None and r["fair"] is not None else None,
@@ -585,8 +608,8 @@ def export(ctx: Ctx, out_dir: str = SITE, max_bytes: int = MAX_BYTES) -> dict:
                     for r in trows if r["market"] in ("ml", "spread", "total") and r["category"] == "straight"],
                    key=lambda x: (x["matchup"] or "", x["market"], x["label"]))
     cards = [c for c in (jload(f"{ctx.root}/state/split_cards_latest.json", {}) or {}).get("cards", []) if c.get("date") == today]
-    players_sec = dict(max_odds_age_minutes=max_age, players=plist, teams=teams, prop_split_cards=cards[:SPLIT_CARD_CAP],
-                       prop_split_cards_total=len(cards), prop_props_cap=PLAYER_PROP_CAP)
+    players_sec = dict(max_odds_age_minutes=max_age, players=plist, teams=[], prop_split_cards=[],
+                       prop_split_cards_total=0, prop_props_cap=TOP_PROPS_PER_PLAYER)
 
     # ---------------- valuation (today)
     val = sorted([r for r in trows if r["category"] == "straight" and r["price_dec"]],

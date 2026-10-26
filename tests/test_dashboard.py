@@ -11,6 +11,7 @@ import subprocess
 import pytest
 
 from nbapicks import config, pipeline
+from nbapicks import dashboard
 from nbapicks.dashboard import MAX_BYTES, export, pick_label
 from nbapicks.store import Store
 
@@ -202,8 +203,8 @@ def test_populated_sections_and_populations(cfg, cwd, tmp_path):
 
     # players: grouped, stale flag uses the configured threshold
     pl = {p["player"]: p for p in d["players"]["players"]}
-    assert "Jay Test" in pl and d["players"]["max_odds_age_minutes"] == 120
-    assert all(x["stale"] for x in pl["Jay Test"]["props"])        # no price time recorded: stale
+    assert d["players"]["max_odds_age_minutes"] == 120
+    assert "Jay Test" not in pl             # too little last-10 history to rank as a top player
 
     # meta: failures and stale flags
     m = d["meta"]
@@ -324,4 +325,15 @@ def test_page_script_parses_and_renders(cfg, cwd, tmp_path):
         p = subprocess.run([_node(), str(tmp_path / "harness.js"), page, e["path"]], capture_output=True, text=True)
         assert p.returncode == 0, p.stderr
         views[name] = json.loads(p.stdout)
-    assert set(views["populated"]) == {"today", "picks", "performance", "players", "valuation", "research", "command", "settings"}
+    assert set(views["populated"]) == {"today", "picks", "performance", "players", "settings"}
+
+
+def test_top_players_keeps_ten_players_three_props_and_drops_junk_prices():
+    def prop(prob, dec=1.9, flags=(), n=10):
+        return dict(prob=prob, price_dec=dec, flags=list(flags), line_hits_last10=dict(h=5, n=n))
+    plist = [dict(player=f"P{i}", props=[prop(0.5 + i / 100), prop(0.45), prop(0.44), prop(0.43)]) for i in range(12)]
+    plist.append(dict(player="Junk", props=[prop(0.99, dec=1.02), prop(0.98, flags=["milestone_one_sided"]),
+                                            prop(0.97, flags=["side_unverified"]), prop(0.96, n=2)]))
+    top = dashboard.top_players(plist)
+    assert len(top) == 10 and top[0]["player"] == "P11" and "Junk" not in [p["player"] for p in top]
+    assert [x["prob"] for x in top[0]["props"]] == [0.61, 0.45, 0.44]
