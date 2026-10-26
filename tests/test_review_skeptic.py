@@ -70,7 +70,7 @@ def test_stale_source_quote_is_aged_by_source_time(tmp_path):
     ctx.store.put("games", dict(game_id="g1", start_utc="2026-11-02T00:00:00Z", home="BOS", away="NY", status="scheduled",
                                 observed_at="2026-11-01T12:00:00Z", source="espn"))
     row = dict(game_id="g1", market="prop", selection="side0", line=19.5, player_id="p1", stat="pts", price_dec=1.9,
-               book="DraftKings", source="espn", kind="current", observed_at="x", source_updated_at="2026-11-01T06:00:00Z")
+               book="DraftKings", source="espn", kind="current", observed_at="2026-11-01T12:00:00Z", source_updated_at="2026-11-01T06:00:00Z")
     pipeline.put_odds(ctx, [row])
     ctx.now = t0 + dt.timedelta(hours=5)
     pipeline.put_odds(ctx, [row])  # identical quote, source says it was last updated 11h ago
@@ -117,9 +117,9 @@ def test_bet365_milestones_keep_every_line_and_verify_dk_pairs(tmp_path):
         name = f"Player {chr(65 + i)}"
         for line, dec in ((14.5, 1.3), (19.5, 1.9), (24.5, 3.2)):
             rows.append(dict(game_id="g1", market="prop", selection="over", line=line, player_name=name, stat="pts",
-                             price_dec=dec, book="bet365", source="moviodds", kind="current", observed_at="x"))
+                             price_dec=dec, book="bet365", source="moviodds", kind="current", observed_at="2026-11-01T12:00:00Z"))
         rows += [dict(game_id="g1", market="prop", selection=s, line=19.5, player_id=f"p{i}", player_name=name,
-                      stat="pts", price_dec=d, book="DraftKings", source="espn", kind="current", observed_at="x")
+                      stat="pts", price_dec=d, book="DraftKings", source="espn", kind="current", observed_at="2026-11-01T12:00:00Z")
                  for s, d in (("side0", 1.95), ("side1", 1.87))]
     pipeline.put_odds(ctx, rows)
     q = pipeline.latest_quotes(ctx, "g1")

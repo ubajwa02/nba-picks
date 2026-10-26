@@ -17,10 +17,12 @@ STATUSES = {"Out", "Doubtful", "Questionable", "Probable", "Day-To-Day", "Availa
 
 
 def _parse_utc(s):
+    """A timestamp with an explicit offset, or None. A naive time could be any zone, so it is rejected."""
     try:
-        return dt.datetime.fromisoformat(str(s).replace("Z", "+00:00"))
+        t = dt.datetime.fromisoformat(str(s).replace("Z", "+00:00"))
     except (TypeError, ValueError):
         return None
+    return t if t.tzinfo is not None else None
 
 
 def validate_box_rows(rows: list[dict], game_id: str) -> tuple[list[dict], list[str]]:
@@ -111,9 +113,41 @@ def validate_odds(rows: list[dict]) -> tuple[list[dict], list[str]]:
         if miss:
             problems.append(f"odds row missing {','.join(miss)}")
             continue
+        if _parse_utc(r["observed_at"]) is None:
+            problems.append(f"odds row {r['game_id']}/{r['market']}: observed_at has no time zone")
+            continue
         price = r.get("price_dec")
         if price is not None and not 1.01 <= price <= 1000:
             problems.append(f"odds row {r['game_id']}/{r['market']}: implausible price {price}")
             continue
         clean.append(r)
     return clean, problems
+
+
+def team_conflicts(injuries: list[dict], team_of) -> dict[str, tuple[str, str]]:
+    """player_id -> (injury-report team, box-score team) where the two sources disagree.
+    Trades happen, so a disagreement is not an error, but a prop priced on either side of it is
+    not trustworthy until the sources agree. `team_of(pid)` returns the latest box-score team or None."""
+    out = {}
+    for r in injuries:
+        pid, rep = str(r.get("player_id")), r.get("team")
+        box = team_of(pid) if rep else None
+        if rep and box and rep != box:
+            out[pid] = (rep, box)
+    return out
+
+
+def failing_sources(health: dict, critical: tuple[str, ...], now: dt.datetime, max_age_minutes: float = 360) -> list[str]:
+    """Critical sources whose latest attempt failed (or that have never succeeded, or not for
+    max_age_minutes). Picks that depend on them are held, never priced from what is left."""
+    out = []
+    for name in critical:
+        h = health.get(name) or {}
+        ok, err = _parse_utc(h.get("last_ok")), _parse_utc(h.get("last_error"))
+        if ok is None:
+            out.append(name)
+        elif err is not None and err > ok:
+            out.append(name)
+        elif (now - ok).total_seconds() / 60 > max_age_minutes:
+            out.append(name)
+    return out

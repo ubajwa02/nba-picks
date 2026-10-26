@@ -29,7 +29,7 @@ def test_judge_props_needs_every_stat_to_gain_with_t():
 
 def _settled_props(store, n, prob, win_rate, model="props-v1"):
     store.put("games", dict(game_id="g", start_utc="2026-10-21T23:00:00Z", home="A", away="B", status="final",
-                            observed_at="x", source="t"))
+                            observed_at="2026-11-01T12:00:00Z", source="t"))
     for i in range(n):
         pid = f"p{i}"
         store.put("predictions", dict(pred_id=pid, created_at="2026-10-21T15:00:00Z", origin="model", provider="t",

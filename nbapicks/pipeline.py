@@ -102,6 +102,9 @@ def put_odds(ctx: Ctx, rows: list[dict]) -> int:
     """Store a snapshot only when line or price changed; always refresh last_seen."""
     n = 0
     now = iso(ctx.now)
+    rows, bad = validate.validate_odds(rows)
+    if bad:
+        ctx.notes.append(f"odds_validation: {len(bad)} rows rejected, e.g. {bad[0]}")
     for r in rows:
         k = odds_key(r)
         prev = ctx.seen.get(k)
@@ -520,6 +523,8 @@ def predict(ctx: Ctx) -> dict:
     cands: list[Candidate] = []
     side_check = {}
     stale_inj = inj_age is None or inj_age > cfg["quality"].get("max_injury_age_minutes", 240)
+    conflicts = validate.team_conflicts(inj, lambda p: pm.logs.team_of(p, ctx.today))
+    failing = validate.failing_sources(ctx.health, CRITICAL_SOURCES, ctx.now)
 
     def prop_cand(g, book, sel, line, price, fair, basis, pid, name, stat, r, extra_flags=""):
         team = pm.logs.team_of(pid, ctx.today) if pid else None
@@ -555,6 +560,10 @@ def predict(ctx: Ctx) -> dict:
                 why = f"model probability {prob:.0%} is implausibly extreme for a prop"
             elif stale_inj:
                 why = "injury report missing or stale"
+            elif pid and str(pid) in conflicts:
+                why = "injury report lists {} but box scores list {}".format(*conflicts[str(pid)])
+            elif failing:
+                why = "critical source failing: " + ", ".join(failing)
             if why:
                 c.decision = "hold"; c.reasons.append(why)
         return c
@@ -638,6 +647,11 @@ def predict(ctx: Ctx) -> dict:
         side_check[g["game_id"]] = dict(first_is_over=first_is_over, agreement=agree, n=n, pairs_verified=len(ok_pairs),
                                         pairs_labelled=labelled[True], pairs_conservative=labelled[False],
                                         pairs_implausible=implausible)
+    if failing:
+        for c in cands:
+            if c.decision in ("eligible", "watch"):
+                c.decision = "hold"
+                c.reasons.append("critical source failing: " + ", ".join(failing))
     # best price per (game, market, selection, player, stat) across reference books and lines
     best = {}
     rank = {"eligible": 4, "watch": 3, "hold": 2, "reject": 1}

@@ -53,6 +53,26 @@ def test_injury_rows_need_player_team_status_and_no_future_date():
 
 
 def test_odds_rows_need_keys_and_a_plausible_price():
-    ok = dict(game_id="g", market="prop", observed_at="t", price_dec=1.9)
+    ok = dict(game_id="g", market="prop", observed_at="2026-10-26T18:00:00Z", price_dec=1.9)
     rows, bad = V.validate_odds([ok, dict(ok, price_dec=0.5), dict(ok, game_id="")])
     assert rows == [ok] and len(bad) == 2
+
+
+def test_naive_times_are_rejected_as_ambiguous():
+    g = dict(game_id="a", home="BOS", away="NY", start_utc="2026-10-26T23:00:00", status="scheduled")
+    assert V.validate_games([g])[0] == []
+    o = dict(game_id="g", market="prop", observed_at="2026-10-26T18:00:00")
+    assert V.validate_odds([o])[0] == []
+
+
+def test_team_conflict_between_injury_report_and_box_scores():
+    inj = [dict(player_id="1", team="BOS"), dict(player_id="2", team="NY"), dict(player_id="3", team="LAL")]
+    got = V.team_conflicts(inj, {"1": "BOS", "2": "BKN"}.get)
+    assert got == {"2": ("NY", "BKN")}
+
+
+def test_failing_sources_cover_failed_never_ok_and_stale():
+    health = {"a": dict(last_ok="2026-10-26T17:00:00Z"),
+              "b": dict(last_ok="2026-10-26T16:00:00Z", last_error="2026-10-26T17:00:00Z"),
+              "d": dict(last_ok="2026-10-26T05:00:00Z")}
+    assert V.failing_sources(health, ("a", "b", "c", "d"), NOW, 360) == ["b", "c", "d"]
