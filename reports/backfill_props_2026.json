@@ -1,0 +1,29 @@
+{
+ "season": 2026,
+ "games": 1322,
+ "games_with_props": 396,
+ "rows": 55076,
+ "rows_current": 28740,
+ "rows_open": 26336,
+ "rows_untimed_final": 40450,
+ "rows_without_name": 268,
+ "games_by_book": {
+  "ESPN BET": 308,
+  "DraftKings": 88
+ },
+ "games_with_empty_propbets": 926,
+ "errors": 2147,
+ "first_errors": [
+  "props 401809234 provider 100: https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401809234/competitions/401809234/odds/100/propBets?limit=1000: 404 Not Found",
+  "props 401809934 provider 100: https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401809934/competitions/401809934/odds/100/propBets?limit=1000: 404 Not Found",
+  "props 401809244 provider 100: https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401809244/competitions/401809244/odds/100/propBets?limit=1000: 404 Not Found",
+  "props 401809935 provider 100: https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401809935/competitions/401809935/odds/100/propBets?limit=1000: 404 Not Found",
+  "props 401809933 provider 100: https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401809933/competitions/401809933/odds/100/propBets?limit=1000: 404 Not Found",
+  "props 401809243 provider 100: https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401809243/competitions/401809243/odds/100/propBets?limit=1000: 404 Not Found",
+  "props 401809936 provider 100: https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401809936/competitions/401809936/odds/100/propBets?limit=1000: 404 Not Found",
+  "props 401809937 provider 100: https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401809937/competitions/401809937/odds/100/propBets?limit=1000: 404 Not Found",
+  "props 401809938 provider 100: https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401809938/competitions/401809938/odds/100/propBets?limit=1000: 404 Not Found",
+  "props 401809939 provider 100: https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401809939/competitions/401809939/odds/100/propBets?limit=1000: 404 Not Found"
+ ],
+ "finding": "926 of 1322 finished games had no propBets from either provider (2147 fetch errors; see first_errors)."
+}

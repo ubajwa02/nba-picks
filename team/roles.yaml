@@ -1,0 +1,46 @@
+# AI Engineering roles for NBA Picks.
+# Audit 2026-10-20: no existing AI Engineering role definitions, agent configs or Command Center were found in
+# bajwa19u/tradingbot, bajwa19u/vwap-ema-swing, bajwa19u/job-search-dashboard, this project's files, or the
+# account's synced skills. The roles below are therefore defined here, mapped to the required responsibilities,
+# and say exactly what executes each one. "active" = runs on a schedule with no human; "on-demand" = a Claude
+# session runs it when started; nothing here runs in the background unless its executor says so.
+- name: Team lead / orchestration
+  owns: backlog, task assignment, integration, decisions log, final report
+  executor: Claude thread session in the NBA Picks project (on-demand); backlog persisted in team/backlog.yaml
+  state: on-demand
+- name: Quantitative modeling
+  owns: ratings model, distributions, blend, experiments, champion/challenger
+  executor: nbapicks.research (weekly GitHub Action, bounded to 3 challengers) + Claude session for new model families
+  state: active
+- name: NBA research and matchup analysis
+  owns: rest/schedule features, matchup and role features, evidence of incremental value
+  executor: experiments in nbapicks.research (rest variant tested); new features via Claude session
+  state: on-demand
+- name: Injury and rotation analysis
+  owns: injury ingestion, key-player gate, unresolved-status holds
+  executor: nbapicks.pipeline ingest (ESPN injuries, every scheduled run) + qualify.judge injury gate
+  state: active
+- name: Odds and market analysis
+  owns: odds snapshots, freshness, book disagreement, de-vig, CLV, prop-side verification
+  executor: nbapicks.pipeline ingest/predict (scheduled) + props.verify_prop_sides
+  state: active
+- name: Risk and portfolio
+  owns: stake policy, per-game/daily/parlay caps, same-side exposure, parlay dependence
+  executor: qualify.portfolio + pipeline parlay caps on every prediction run; reviewed by the Skeptic
+  state: active
+- name: Skeptic / independent review
+  owns: challenge of assumptions, leakage, overfitting and promotion requests
+  executor: Claude reviewer agent with a fresh context (no authorship), started by the team lead; findings in team/reviews/
+  state: on-demand
+- name: Data engineering
+  owns: ledger, migrations, idempotent ingestion, provenance, backfills, source health
+  executor: nbapicks.store + nbapicks.history (backfill Action) + pipeline source_health
+  state: active
+- name: Product and dashboard
+  owns: site/index.html, data export, Discord message design
+  executor: nbapicks.dashboard export (every scheduled run); UI changes via Claude session
+  state: active
+- name: QA and model validation
+  owns: test suite, end-to-end tests, CI, reproduction of experiments, release checks
+  executor: nba-tests GitHub Action on every push + Claude QA reviewer agent (fresh context) for releases
+  state: active

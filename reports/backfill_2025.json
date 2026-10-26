@@ -1,0 +1,12 @@
+{
+ "season": 2025,
+ "games": 1326,
+ "finals": 1321,
+ "finals_with_odds": 1321,
+ "odds_rows": 15848,
+ "box_rows": 35198,
+ "errors": 1,
+ "first_errors": [
+  "scoreboard 2024-10-16: 'abbreviation'"
+ ]
+}

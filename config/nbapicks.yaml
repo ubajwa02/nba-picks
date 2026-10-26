@@ -1,0 +1,55 @@
+# NBA Picks settings. Edit, commit, push: the next scheduled run uses them.
+# Every change to this file is visible in git history (the settings audit trail).
+
+timezone: America/Toronto        # slate dates and Discord times
+
+stakes:                          # units only; never escalated automatically
+  straight: 1.0
+  parlay: 0.5
+  lotto: 0.25
+
+targets:                         # maxima, never quotas
+  straight: 5                  # owner spec 2026-10-22: up to five straights
+  parlay: 2
+  lotto: 1
+
+markets:                         # status: research | paper | live (set by promotion decisions)
+  ml:     {enabled: true, status: research, min_ev: 0.03}
+  spread: {enabled: true, status: research, min_ev: 0.03}
+  total:  {enabled: true, status: research, min_ev: 0.03}
+  prop:   {enabled: true, status: research, min_ev: 0.05}
+  parlay: {enabled: true, status: research, min_ev: 0.05, max_legs: 3}
+  lotto:  {enabled: true, status: research, min_ev: 0.10, min_decimal: 8.0, max_legs: 5}
+
+quality:
+  max_odds_age_minutes: 120      # older quotes cannot qualify
+  min_minutes_before_tip: 20     # too close to tip: hold
+  max_model_market_gap: 0.10     # |model - de-vigged market| above this is held as a likely model error
+  max_ev: 0.15                   # implausibly large edges are held for review
+  key_player_min_minutes: 24     # recent average that makes a player 'key'
+  unresolved_statuses: [Questionable, Doubtful, Day-To-Day, Game Time Decision, GTD, Probable]
+  max_line_disagreement: 1.5     # points between books before a line is 'inconsistent'
+  max_injury_age_minutes: 240    # props need an injury report this fresh (added 2026-10-22, tightening)
+
+risk:
+  max_units_per_game: 2.0
+  max_units_per_day: 8.0
+  max_parlay_units_per_day: 1.0
+  max_lotto_units_per_day: 0.25
+  max_same_team_exposures: 1     # straight picks on the same side of one game (e.g. ML and spread)
+  max_props_per_player: 1        # one straight per player per day: his props are correlated (added 2026-10-22)
+  max_props_per_game: 2          # props in one game share pace and blowout risk (added 2026-10-22)
+
+execution:
+  book: FanDuel                  # where bets are placed, manually
+  # No free, permitted FanDuel Ontario feed was found (see docs/sources.yaml).
+  # Picks therefore carry a reference price from another book and the minimum
+  # FanDuel price at which the edge still clears the threshold.
+  reference_books: [DraftKings, bet365]
+
+publishing:
+  dry_run: true                  # true: build and log messages, send nothing
+  webhook_secret: NBA_DISCORD_WEBHOOK_URL   # name of the GitHub secret, never the URL
+  publish_paper: true            # paper-status markets post, clearly labelled PAPER
+  max_prediction_age_minutes: 60 # publish only from a prediction run this recent (predict runs just before)
+  research_watchlist: false      # near-misses in the recap, labelled research-only

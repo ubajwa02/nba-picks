@@ -1,0 +1,14 @@
+{
+ "model_id": "ratings-v1-trend",
+ "params": {
+  "total_trend": true
+ },
+ "since": "2026-10-20",
+ "reason": "Research champion only. After the independent review cleaned in-game and malformed history lines and tightened the gates (out-of-fold explore score, paired t >= 2, >= 100 explore bets per threshold), none of the 5 pre-registered variants passed the paper gate: the best moneyline blend gained +0.0005 log loss out-of-fold with t = 1.1 and lost 3-6% at the validate close; spreads and totals got model weight 0. 'trend' is kept because it removes a measured 2.6-point low bias in totals. Every market stays in research and nothing is published as a qualified pick.",
+ "props": {
+  "model_id": "props-v1",
+  "since": "2026-10-22",
+  "experiment": "exp-20261022-prop-props-v1",
+  "reason": "passed the props gate on validate (exp-20261022-prop-props-v1); review team/reviews/2026-10-22-props-v1-skeptic.md. Probability estimator only: prop market status is unchanged (research)."
+ }
+}

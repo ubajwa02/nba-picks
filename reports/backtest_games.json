@@ -1,0 +1,1556 @@
+{
+ "generated_at": "2026-10-22T19:59:24Z",
+ "commit": "e0bf9b9",
+ "runs": [
+  {
+   "name": "trend ml close raw, Feb 2023 (validate)",
+   "kind": "games",
+   "market": "ml",
+   "model_version": "ratings-v1-trend",
+   "baseline": "de-vigged market (same book, same price kind)",
+   "split": "validate",
+   "period": {
+    "start": "2023-02-01",
+    "end": "2023-02-28"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 3% at the recorded close price (min_ev of config/nbapicks.yaml)",
+   "price_basis": "closing (untimed)",
+   "variant": "trend",
+   "price_kind": "close",
+   "pricing": "raw",
+   "blend_w": null,
+   "eligible": 326,
+   "bets": 115,
+   "wins": 45,
+   "losses": 70,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.391304347826087,
+   "avg_prob": 0.4863464255813351,
+   "avg_price_dec": 2.976952072543298,
+   "avg_implied": 0.40034657523481026,
+   "avg_ev": 0.27385955220379693,
+   "units_staked": 115.0,
+   "net_units": -7.814250054103169,
+   "net_dollars": -781.43,
+   "roi": -0.06795000047046235,
+   "roi_ci": [
+    -0.30050863387901644,
+    0.17387820074748478
+   ],
+   "roi_t": -0.5621614620236576,
+   "logloss_model": 0.6114627588728269,
+   "logloss_market": 0.5861139890666783,
+   "brier_model": 0.21261673925093436,
+   "brier_market": 0.20131548399043597,
+   "calibration": [
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 4,
+     "predicted": 0.24660395240380337,
+     "observed": 0.0
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 9,
+     "predicted": 0.3471948208927195,
+     "observed": 0.3333333333333333
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 15,
+     "predicted": 0.46335602663363595,
+     "observed": 0.3333333333333333
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 47,
+     "predicted": 0.5586330147988591,
+     "observed": 0.6170212765957447
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 58,
+     "predicted": 0.6423936698364688,
+     "observed": 0.5862068965517241
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 15,
+     "predicted": 0.735363334322677,
+     "observed": 0.7333333333333333
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 14,
+     "predicted": 0.8419512853329497,
+     "observed": 0.9285714285714286
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 1,
+     "predicted": 0.9200785717477856,
+     "observed": 1.0
+    }
+   ],
+   "logloss_baseline": 0.5861139890666783,
+   "n_games_scored": 163,
+   "coverage": {
+    "games_in_period": 163,
+    "games_with_clean_quote": 163,
+    "games_with_any_quote": 163,
+    "quotes_dropped_all_markets": {
+     "impossible_line": 331,
+     "total_off_consensus": 14,
+     "spread_off_consensus": 13,
+     "ml_spread_mismatch": 2
+    },
+    "books_used": {
+     "DraftKings": 163
+    },
+    "games_not_priced_model_not_ready": 0,
+    "price_assumed_sides": 0
+   },
+   "notes": [
+    "Raw model probabilities (no blending with the market).",
+    "Seasons up to 2022-23 carry one untimed final quote per book (flag final_quote_untimed), used as the closing line.",
+    "ESPN BET 2022-23 puts the American price in the spread/total line field (e.g. spread -115.0); clean_quotes drops those as impossible lines (323 ESPN BET book-quotes in this period), and DraftKings is priced first in any case."
+   ]
+  },
+  {
+   "name": "trend ml close blend, Feb 2023 (validate)",
+   "kind": "games",
+   "market": "ml",
+   "model_version": "ratings-v1-trend+blend(w=0.10)",
+   "baseline": "de-vigged market (same book, same price kind)",
+   "split": "validate",
+   "period": {
+    "start": "2023-02-01",
+    "end": "2023-02-28"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 3% at the recorded close price (min_ev of config/nbapicks.yaml)",
+   "price_basis": "closing (untimed)",
+   "variant": "trend",
+   "price_kind": "close",
+   "pricing": "blend",
+   "blend_w": 0.1,
+   "eligible": 326,
+   "bets": 1,
+   "wins": 0,
+   "losses": 1,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.0,
+   "avg_prob": 0.26968499743958124,
+   "avg_price_dec": 3.85,
+   "avg_implied": 0.2597402597402597,
+   "avg_ev": 0.03828724014238771,
+   "units_staked": 1.0,
+   "net_units": -1.0,
+   "net_dollars": -100.0,
+   "roi": -1.0,
+   "roi_ci": null,
+   "roi_t": null,
+   "logloss_model": 0.5863732399374756,
+   "logloss_market": 0.5861139890666783,
+   "brier_model": 0.20131777605844106,
+   "brier_market": 0.20131548399043597,
+   "calibration": [
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 2,
+     "predicted": 0.1575423583042656,
+     "observed": 0.0
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 11,
+     "predicted": 0.2589602984151396,
+     "observed": 0.0
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 11,
+     "predicted": 0.3507443536445994,
+     "observed": 0.5454545454545454
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 20,
+     "predicted": 0.4576546484005236,
+     "observed": 0.4
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 34,
+     "predicted": 0.5507508282867218,
+     "observed": 0.6176470588235294
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 38,
+     "predicted": 0.6545986506823551,
+     "observed": 0.6052631578947368
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 29,
+     "predicted": 0.7506241265285652,
+     "observed": 0.7586206896551724
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 16,
+     "predicted": 0.8330956575765023,
+     "observed": 0.875
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 2,
+     "predicted": 0.9108805160676857,
+     "observed": 1.0
+    }
+   ],
+   "logloss_baseline": 0.5861139890666783,
+   "n_games_scored": 163,
+   "coverage": {
+    "games_in_period": 163,
+    "games_with_clean_quote": 163,
+    "games_with_any_quote": 163,
+    "quotes_dropped_all_markets": {
+     "impossible_line": 331,
+     "total_off_consensus": 14,
+     "spread_off_consensus": 13,
+     "ml_spread_mismatch": 2
+    },
+    "books_used": {
+     "DraftKings": 163
+    },
+    "games_not_priced_model_not_ready": 0,
+    "price_assumed_sides": 0
+   },
+   "notes": [
+    "Blend weight w=0.10 frozen from exp-20261020-trend (fit on explore seasons; not refit here).",
+    "Seasons up to 2022-23 carry one untimed final quote per book (flag final_quote_untimed), used as the closing line.",
+    "ESPN BET 2022-23 puts the American price in the spread/total line field (e.g. spread -115.0); clean_quotes drops those as impossible lines (323 ESPN BET book-quotes in this period), and DraftKings is priced first in any case."
+   ]
+  },
+  {
+   "name": "trend ml open raw, Feb 2023 (validate)",
+   "kind": "games",
+   "market": "ml",
+   "model_version": "ratings-v1-trend",
+   "baseline": "de-vigged market (same book, same price kind)",
+   "split": "validate",
+   "period": {
+    "start": "2023-02-01",
+    "end": "2023-02-28"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 3% at the recorded open price (min_ev of config/nbapicks.yaml)",
+   "price_basis": "none",
+   "variant": "trend",
+   "price_kind": "open",
+   "pricing": "raw",
+   "blend_w": null,
+   "eligible": 0,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "avg_ev": null,
+   "units_staked": 0.0,
+   "net_units": 0.0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "roi_t": null,
+   "logloss_model": null,
+   "logloss_market": null,
+   "brier_model": null,
+   "brier_market": null,
+   "calibration": [],
+   "logloss_baseline": null,
+   "n_games_scored": 0,
+   "coverage": {
+    "games_in_period": 163,
+    "games_with_clean_quote": 0,
+    "games_with_any_quote": 0,
+    "quotes_dropped_all_markets": {},
+    "books_used": {},
+    "games_not_priced_model_not_ready": 0,
+    "price_assumed_sides": 0
+   },
+   "notes": [
+    "Raw model probabilities (no blending with the market).",
+    "No opening lines in ESPN's history for this period (open + close exist from 2023-24); nothing to score."
+   ]
+  },
+  {
+   "name": "trend ml open blend, Feb 2023 (validate)",
+   "kind": "games",
+   "market": "ml",
+   "model_version": "ratings-v1-trend+blend(w=0.10)",
+   "baseline": "de-vigged market (same book, same price kind)",
+   "split": "validate",
+   "period": {
+    "start": "2023-02-01",
+    "end": "2023-02-28"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 3% at the recorded open price (min_ev of config/nbapicks.yaml)",
+   "price_basis": "none",
+   "variant": "trend",
+   "price_kind": "open",
+   "pricing": "blend",
+   "blend_w": 0.1,
+   "eligible": 0,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "avg_ev": null,
+   "units_staked": 0.0,
+   "net_units": 0.0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "roi_t": null,
+   "logloss_model": null,
+   "logloss_market": null,
+   "brier_model": null,
+   "brier_market": null,
+   "calibration": [],
+   "logloss_baseline": null,
+   "n_games_scored": 0,
+   "coverage": {
+    "games_in_period": 163,
+    "games_with_clean_quote": 0,
+    "games_with_any_quote": 0,
+    "quotes_dropped_all_markets": {},
+    "books_used": {},
+    "games_not_priced_model_not_ready": 0,
+    "price_assumed_sides": 0
+   },
+   "notes": [
+    "Blend weight w=0.10 frozen from exp-20261020-trend (fit on explore seasons; not refit here).",
+    "No opening lines in ESPN's history for this period (open + close exist from 2023-24); nothing to score."
+   ]
+  },
+  {
+   "name": "trend spread close raw, Feb 2023 (validate)",
+   "kind": "games",
+   "market": "spread",
+   "model_version": "ratings-v1-trend",
+   "baseline": "de-vigged market (same book, same price kind)",
+   "split": "validate",
+   "period": {
+    "start": "2023-02-01",
+    "end": "2023-02-28"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 3% at the recorded close price (min_ev of config/nbapicks.yaml)",
+   "price_basis": "closing (untimed)",
+   "variant": "trend",
+   "price_kind": "close",
+   "pricing": "raw",
+   "blend_w": null,
+   "eligible": 326,
+   "bets": 109,
+   "wins": 58,
+   "losses": 49,
+   "pushes": 2,
+   "voids": 0,
+   "hit_rate": 0.5420560747663551,
+   "avg_prob": 0.6009447420207098,
+   "avg_price_dec": 1.9119625222537069,
+   "avg_implied": 0.5231004431413451,
+   "avg_ev": 0.16397795639270102,
+   "units_staked": 109.0,
+   "net_units": 3.879728966685491,
+   "net_dollars": 387.97,
+   "roi": 0.035593843731059546,
+   "roi_ci": [
+    -0.14222859974754667,
+    0.20892669356969318
+   ],
+   "roi_t": 0.39191522845240695,
+   "logloss_model": 0.7006619533531577,
+   "logloss_market": 0.692683626816412,
+   "brier_model": 0.2533372894019009,
+   "brier_market": 0.2497683183808955,
+   "calibration": [
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 1,
+     "predicted": 0.1954712138469501,
+     "observed": 1.0
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 2,
+     "predicted": 0.2770803110372233,
+     "observed": 0.0
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 15,
+     "predicted": 0.3547049617661221,
+     "observed": 0.4666666666666667
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 46,
+     "predicted": 0.4580279697692607,
+     "observed": 0.6086956521739131
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 70,
+     "predicted": 0.5495487742829375,
+     "observed": 0.5428571428571428
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 22,
+     "predicted": 0.6445511267752003,
+     "observed": 0.5909090909090909
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 3,
+     "predicted": 0.725546999304902,
+     "observed": 0.3333333333333333
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 2,
+     "predicted": 0.8206088183663929,
+     "observed": 1.0
+    }
+   ],
+   "logloss_baseline": 0.692683626816412,
+   "n_games_scored": 161,
+   "coverage": {
+    "games_in_period": 163,
+    "games_with_clean_quote": 163,
+    "games_with_any_quote": 163,
+    "quotes_dropped_all_markets": {
+     "impossible_line": 331,
+     "total_off_consensus": 14,
+     "spread_off_consensus": 13,
+     "ml_spread_mismatch": 2
+    },
+    "books_used": {
+     "DraftKings": 163
+    },
+    "games_not_priced_model_not_ready": 0,
+    "price_assumed_sides": 0
+   },
+   "notes": [
+    "Raw model probabilities (no blending with the market).",
+    "Seasons up to 2022-23 carry one untimed final quote per book (flag final_quote_untimed), used as the closing line.",
+    "ESPN BET 2022-23 puts the American price in the spread/total line field (e.g. spread -115.0); clean_quotes drops those as impossible lines (323 ESPN BET book-quotes in this period), and DraftKings is priced first in any case."
+   ]
+  },
+  {
+   "name": "trend spread close blend, Feb 2023 (validate)",
+   "kind": "games",
+   "market": "spread",
+   "model_version": "ratings-v1-trend+blend(w=0.00)",
+   "baseline": "de-vigged market (same book, same price kind)",
+   "split": "validate",
+   "period": {
+    "start": "2023-02-01",
+    "end": "2023-02-28"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 3% at the recorded close price (min_ev of config/nbapicks.yaml)",
+   "price_basis": "closing (untimed)",
+   "variant": "trend",
+   "price_kind": "close",
+   "pricing": "blend",
+   "blend_w": 0.0,
+   "eligible": 326,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "avg_ev": null,
+   "units_staked": 0.0,
+   "net_units": 0.0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "roi_t": null,
+   "logloss_model": 0.692683626816412,
+   "logloss_market": 0.692683626816412,
+   "brier_model": 0.2497683183808955,
+   "brier_market": 0.2497683183808955,
+   "calibration": [
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 20,
+     "predicted": 0.48862051910122944,
+     "observed": 0.55
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 141,
+     "predicted": 0.5022283180808803,
+     "observed": 0.5602836879432624
+    }
+   ],
+   "logloss_baseline": 0.692683626816412,
+   "n_games_scored": 161,
+   "coverage": {
+    "games_in_period": 163,
+    "games_with_clean_quote": 163,
+    "games_with_any_quote": 163,
+    "quotes_dropped_all_markets": {
+     "impossible_line": 331,
+     "total_off_consensus": 14,
+     "spread_off_consensus": 13,
+     "ml_spread_mismatch": 2
+    },
+    "books_used": {
+     "DraftKings": 163
+    },
+    "games_not_priced_model_not_ready": 0,
+    "price_assumed_sides": 0
+   },
+   "notes": [
+    "Blend weight w=0.00 frozen from exp-20261020-trend (fit on explore seasons; not refit here). w=0 makes the blend the de-vigged market, so no side can clear a positive EV threshold and bets are 0 by construction.",
+    "Seasons up to 2022-23 carry one untimed final quote per book (flag final_quote_untimed), used as the closing line.",
+    "ESPN BET 2022-23 puts the American price in the spread/total line field (e.g. spread -115.0); clean_quotes drops those as impossible lines (323 ESPN BET book-quotes in this period), and DraftKings is priced first in any case."
+   ]
+  },
+  {
+   "name": "trend spread open raw, Feb 2023 (validate)",
+   "kind": "games",
+   "market": "spread",
+   "model_version": "ratings-v1-trend",
+   "baseline": "de-vigged market (same book, same price kind)",
+   "split": "validate",
+   "period": {
+    "start": "2023-02-01",
+    "end": "2023-02-28"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 3% at the recorded open price (min_ev of config/nbapicks.yaml)",
+   "price_basis": "none",
+   "variant": "trend",
+   "price_kind": "open",
+   "pricing": "raw",
+   "blend_w": null,
+   "eligible": 0,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "avg_ev": null,
+   "units_staked": 0.0,
+   "net_units": 0.0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "roi_t": null,
+   "logloss_model": null,
+   "logloss_market": null,
+   "brier_model": null,
+   "brier_market": null,
+   "calibration": [],
+   "logloss_baseline": null,
+   "n_games_scored": 0,
+   "coverage": {
+    "games_in_period": 163,
+    "games_with_clean_quote": 0,
+    "games_with_any_quote": 0,
+    "quotes_dropped_all_markets": {},
+    "books_used": {},
+    "games_not_priced_model_not_ready": 0,
+    "price_assumed_sides": 0
+   },
+   "notes": [
+    "Raw model probabilities (no blending with the market).",
+    "No opening lines in ESPN's history for this period (open + close exist from 2023-24); nothing to score."
+   ]
+  },
+  {
+   "name": "trend spread open blend, Feb 2023 (validate)",
+   "kind": "games",
+   "market": "spread",
+   "model_version": "ratings-v1-trend+blend(w=0.00)",
+   "baseline": "de-vigged market (same book, same price kind)",
+   "split": "validate",
+   "period": {
+    "start": "2023-02-01",
+    "end": "2023-02-28"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 3% at the recorded open price (min_ev of config/nbapicks.yaml)",
+   "price_basis": "none",
+   "variant": "trend",
+   "price_kind": "open",
+   "pricing": "blend",
+   "blend_w": 0.0,
+   "eligible": 0,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "avg_ev": null,
+   "units_staked": 0.0,
+   "net_units": 0.0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "roi_t": null,
+   "logloss_model": null,
+   "logloss_market": null,
+   "brier_model": null,
+   "brier_market": null,
+   "calibration": [],
+   "logloss_baseline": null,
+   "n_games_scored": 0,
+   "coverage": {
+    "games_in_period": 163,
+    "games_with_clean_quote": 0,
+    "games_with_any_quote": 0,
+    "quotes_dropped_all_markets": {},
+    "books_used": {},
+    "games_not_priced_model_not_ready": 0,
+    "price_assumed_sides": 0
+   },
+   "notes": [
+    "Blend weight w=0.00 frozen from exp-20261020-trend (fit on explore seasons; not refit here). w=0 makes the blend the de-vigged market, so no side can clear a positive EV threshold and bets are 0 by construction.",
+    "No opening lines in ESPN's history for this period (open + close exist from 2023-24); nothing to score."
+   ]
+  },
+  {
+   "name": "trend total close raw, Feb 2023 (validate)",
+   "kind": "games",
+   "market": "total",
+   "model_version": "ratings-v1-trend",
+   "baseline": "de-vigged market (same book, same price kind)",
+   "split": "validate",
+   "period": {
+    "start": "2023-02-01",
+    "end": "2023-02-28"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 3% at the recorded close price (min_ev of config/nbapicks.yaml)",
+   "price_basis": "closing (untimed)",
+   "variant": "trend",
+   "price_kind": "close",
+   "pricing": "raw",
+   "blend_w": null,
+   "eligible": 326,
+   "bets": 112,
+   "wins": 60,
+   "losses": 51,
+   "pushes": 1,
+   "voids": 0,
+   "hit_rate": 0.5405405405405406,
+   "avg_prob": 0.5874370123036067,
+   "avg_price_dec": 1.911410018552876,
+   "avg_implied": 0.5231873237099719,
+   "avg_ev": 0.1352791600847885,
+   "units_staked": 112.0,
+   "net_units": 3.718614718614723,
+   "net_dollars": 371.86,
+   "roi": 0.0332019171304886,
+   "roi_ci": [
+    -0.145021645021645,
+    0.21254638218923935
+   ],
+   "roi_t": 0.3687519480491286,
+   "logloss_model": 0.6894381477861645,
+   "logloss_market": 0.693703113828049,
+   "brier_model": 0.2483275623230593,
+   "brier_market": 0.25027792243993974,
+   "calibration": [
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 14,
+     "predicted": 0.3725331008933076,
+     "observed": 0.42857142857142855
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 48,
+     "predicted": 0.4519322618769488,
+     "observed": 0.4166666666666667
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 74,
+     "predicted": 0.5497011345225947,
+     "observed": 0.4594594594594595
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 22,
+     "predicted": 0.6429970906955407,
+     "observed": 0.5454545454545454
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 2,
+     "predicted": 0.703280940939525,
+     "observed": 1.0
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 1,
+     "predicted": 0.8140998969661387,
+     "observed": 1.0
+    }
+   ],
+   "logloss_baseline": 0.693703113828049,
+   "n_games_scored": 161,
+   "coverage": {
+    "games_in_period": 163,
+    "games_with_clean_quote": 163,
+    "games_with_any_quote": 163,
+    "quotes_dropped_all_markets": {
+     "impossible_line": 331,
+     "total_off_consensus": 14,
+     "spread_off_consensus": 13,
+     "ml_spread_mismatch": 2
+    },
+    "books_used": {
+     "DraftKings": 163
+    },
+    "games_not_priced_model_not_ready": 0,
+    "price_assumed_sides": 0
+   },
+   "notes": [
+    "Raw model probabilities (no blending with the market).",
+    "Seasons up to 2022-23 carry one untimed final quote per book (flag final_quote_untimed), used as the closing line.",
+    "ESPN BET 2022-23 puts the American price in the spread/total line field (e.g. spread -115.0); clean_quotes drops those as impossible lines (323 ESPN BET book-quotes in this period), and DraftKings is priced first in any case."
+   ]
+  },
+  {
+   "name": "trend total close blend, Feb 2023 (validate)",
+   "kind": "games",
+   "market": "total",
+   "model_version": "ratings-v1-trend+blend(w=0.00)",
+   "baseline": "de-vigged market (same book, same price kind)",
+   "split": "validate",
+   "period": {
+    "start": "2023-02-01",
+    "end": "2023-02-28"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 3% at the recorded close price (min_ev of config/nbapicks.yaml)",
+   "price_basis": "closing (untimed)",
+   "variant": "trend",
+   "price_kind": "close",
+   "pricing": "blend",
+   "blend_w": 0.0,
+   "eligible": 326,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "avg_ev": null,
+   "units_staked": 0.0,
+   "net_units": 0.0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "roi_t": null,
+   "logloss_model": 0.693703113828049,
+   "logloss_market": 0.693703113828049,
+   "brier_model": 0.25027792243993974,
+   "brier_market": 0.25027792243993974,
+   "calibration": [
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 6,
+     "predicted": 0.4891657638136511,
+     "observed": 0.6666666666666666
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 155,
+     "predicted": 0.5004193897878586,
+     "observed": 0.45806451612903226
+    }
+   ],
+   "logloss_baseline": 0.693703113828049,
+   "n_games_scored": 161,
+   "coverage": {
+    "games_in_period": 163,
+    "games_with_clean_quote": 163,
+    "games_with_any_quote": 163,
+    "quotes_dropped_all_markets": {
+     "impossible_line": 331,
+     "total_off_consensus": 14,
+     "spread_off_consensus": 13,
+     "ml_spread_mismatch": 2
+    },
+    "books_used": {
+     "DraftKings": 163
+    },
+    "games_not_priced_model_not_ready": 0,
+    "price_assumed_sides": 0
+   },
+   "notes": [
+    "Blend weight w=0.00 frozen from exp-20261020-trend (fit on explore seasons; not refit here). w=0 makes the blend the de-vigged market, so no side can clear a positive EV threshold and bets are 0 by construction.",
+    "Seasons up to 2022-23 carry one untimed final quote per book (flag final_quote_untimed), used as the closing line.",
+    "ESPN BET 2022-23 puts the American price in the spread/total line field (e.g. spread -115.0); clean_quotes drops those as impossible lines (323 ESPN BET book-quotes in this period), and DraftKings is priced first in any case."
+   ]
+  },
+  {
+   "name": "trend total open raw, Feb 2023 (validate)",
+   "kind": "games",
+   "market": "total",
+   "model_version": "ratings-v1-trend",
+   "baseline": "de-vigged market (same book, same price kind)",
+   "split": "validate",
+   "period": {
+    "start": "2023-02-01",
+    "end": "2023-02-28"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 3% at the recorded open price (min_ev of config/nbapicks.yaml)",
+   "price_basis": "none",
+   "variant": "trend",
+   "price_kind": "open",
+   "pricing": "raw",
+   "blend_w": null,
+   "eligible": 0,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "avg_ev": null,
+   "units_staked": 0.0,
+   "net_units": 0.0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "roi_t": null,
+   "logloss_model": null,
+   "logloss_market": null,
+   "brier_model": null,
+   "brier_market": null,
+   "calibration": [],
+   "logloss_baseline": null,
+   "n_games_scored": 0,
+   "coverage": {
+    "games_in_period": 163,
+    "games_with_clean_quote": 0,
+    "games_with_any_quote": 0,
+    "quotes_dropped_all_markets": {},
+    "books_used": {},
+    "games_not_priced_model_not_ready": 0,
+    "price_assumed_sides": 0
+   },
+   "notes": [
+    "Raw model probabilities (no blending with the market).",
+    "No opening lines in ESPN's history for this period (open + close exist from 2023-24); nothing to score."
+   ]
+  },
+  {
+   "name": "trend total open blend, Feb 2023 (validate)",
+   "kind": "games",
+   "market": "total",
+   "model_version": "ratings-v1-trend+blend(w=0.00)",
+   "baseline": "de-vigged market (same book, same price kind)",
+   "split": "validate",
+   "period": {
+    "start": "2023-02-01",
+    "end": "2023-02-28"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 3% at the recorded open price (min_ev of config/nbapicks.yaml)",
+   "price_basis": "none",
+   "variant": "trend",
+   "price_kind": "open",
+   "pricing": "blend",
+   "blend_w": 0.0,
+   "eligible": 0,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "avg_ev": null,
+   "units_staked": 0.0,
+   "net_units": 0.0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "roi_t": null,
+   "logloss_model": null,
+   "logloss_market": null,
+   "brier_model": null,
+   "brier_market": null,
+   "calibration": [],
+   "logloss_baseline": null,
+   "n_games_scored": 0,
+   "coverage": {
+    "games_in_period": 163,
+    "games_with_clean_quote": 0,
+    "games_with_any_quote": 0,
+    "quotes_dropped_all_markets": {},
+    "books_used": {},
+    "games_not_priced_model_not_ready": 0,
+    "price_assumed_sides": 0
+   },
+   "notes": [
+    "Blend weight w=0.00 frozen from exp-20261020-trend (fit on explore seasons; not refit here). w=0 makes the blend the de-vigged market, so no side can clear a positive EV threshold and bets are 0 by construction.",
+    "No opening lines in ESPN's history for this period (open + close exist from 2023-24); nothing to score."
+   ]
+  },
+  {
+   "name": "avail ml close raw, Feb 2023 (validate)",
+   "kind": "games",
+   "market": "ml",
+   "model_version": "ratings-v1-avail",
+   "baseline": "trend (raw)",
+   "split": "validate",
+   "period": {
+    "start": "2023-02-01",
+    "end": "2023-02-28"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 3% at the recorded close price (min_ev of config/nbapicks.yaml)",
+   "price_basis": "closing (untimed)",
+   "variant": "avail",
+   "price_kind": "close",
+   "pricing": "raw",
+   "blend_w": null,
+   "eligible": 326,
+   "bets": 110,
+   "wins": 45,
+   "losses": 65,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.4090909090909091,
+   "avg_prob": 0.48468727235358283,
+   "avg_price_dec": 2.8877207576080184,
+   "avg_implied": 0.4118050793779461,
+   "avg_ev": 0.2203075630977892,
+   "units_staked": 110.0,
+   "net_units": -5.298690669751587,
+   "net_dollars": -529.87,
+   "roi": -0.04816991517955988,
+   "roi_ci": [
+    -0.2781213018214166,
+    0.19923535380997157
+   ],
+   "roi_t": -0.3935033108216291,
+   "logloss_model": 0.605682171450109,
+   "logloss_market": 0.5861139890666783,
+   "brier_model": 0.2097876662462094,
+   "brier_market": 0.20131548399043597,
+   "calibration": [
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 3,
+     "predicted": 0.22550761528443522,
+     "observed": 0.0
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 10,
+     "predicted": 0.33883008430052614,
+     "observed": 0.2
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 18,
+     "predicted": 0.45824270097039194,
+     "observed": 0.3888888888888889
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 44,
+     "predicted": 0.5560631215329525,
+     "observed": 0.5454545454545454
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 48,
+     "predicted": 0.6452860689087654,
+     "observed": 0.6666666666666666
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 25,
+     "predicted": 0.734047089073293,
+     "observed": 0.68
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 14,
+     "predicted": 0.8419167885252161,
+     "observed": 0.9285714285714286
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 1,
+     "predicted": 0.9328217496727761,
+     "observed": 1.0
+    }
+   ],
+   "logloss_baseline": 0.6114627588728269,
+   "n_games_scored": 163,
+   "coverage": {
+    "games_in_period": 163,
+    "games_with_clean_quote": 163,
+    "games_with_any_quote": 163,
+    "quotes_dropped_all_markets": {
+     "impossible_line": 331,
+     "total_off_consensus": 14,
+     "spread_off_consensus": 13,
+     "ml_spread_mismatch": 2
+    },
+    "books_used": {
+     "DraftKings": 163
+    },
+    "games_not_priced_model_not_ready": 0,
+    "price_assumed_sides": 0,
+    "availability": {
+     "games_with_feature": 163,
+     "games_without_feature": 0,
+     "season_coverage": {
+      "2023": {
+       "games": 1320,
+       "games_with_box": 1320,
+       "games_with_feature": 1241
+      }
+     }
+    }
+   },
+   "notes": [
+    "Raw model probabilities (no blending with the market).",
+    "Seasons up to 2022-23 carry one untimed final quote per book (flag final_quote_untimed), used as the closing line.",
+    "ESPN BET 2022-23 puts the American price in the spread/total line field (e.g. spread -115.0); clean_quotes drops those as impossible lines (323 ESPN BET book-quotes in this period), and DraftKings is priced first in any case.",
+    "Availability caveat: in backtests a regular counts as missing when he does not appear in that game's box score (known only after the game, includes late scratches), so backtest gains are an upper bound; live use relies on the pregame injury report (Out/Doubtful). A regular traded away also counts as missing for his old team in backtests."
+   ]
+  },
+  {
+   "name": "avail ml open raw, Feb 2023 (validate)",
+   "kind": "games",
+   "market": "ml",
+   "model_version": "ratings-v1-avail",
+   "baseline": "trend (raw)",
+   "split": "validate",
+   "period": {
+    "start": "2023-02-01",
+    "end": "2023-02-28"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 3% at the recorded open price (min_ev of config/nbapicks.yaml)",
+   "price_basis": "none",
+   "variant": "avail",
+   "price_kind": "open",
+   "pricing": "raw",
+   "blend_w": null,
+   "eligible": 0,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "avg_ev": null,
+   "units_staked": 0.0,
+   "net_units": 0.0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "roi_t": null,
+   "logloss_model": null,
+   "logloss_market": null,
+   "brier_model": null,
+   "brier_market": null,
+   "calibration": [],
+   "logloss_baseline": null,
+   "n_games_scored": 0,
+   "coverage": {
+    "games_in_period": 163,
+    "games_with_clean_quote": 0,
+    "games_with_any_quote": 0,
+    "quotes_dropped_all_markets": {},
+    "books_used": {},
+    "games_not_priced_model_not_ready": 0,
+    "price_assumed_sides": 0,
+    "availability": {
+     "games_with_feature": 0,
+     "games_without_feature": 0,
+     "season_coverage": {
+      "2023": {
+       "games": 1320,
+       "games_with_box": 1320,
+       "games_with_feature": 1241
+      }
+     }
+    }
+   },
+   "notes": [
+    "Raw model probabilities (no blending with the market).",
+    "No opening lines in ESPN's history for this period (open + close exist from 2023-24); nothing to score.",
+    "Availability caveat: in backtests a regular counts as missing when he does not appear in that game's box score (known only after the game, includes late scratches), so backtest gains are an upper bound; live use relies on the pregame injury report (Out/Doubtful). A regular traded away also counts as missing for his old team in backtests."
+   ]
+  },
+  {
+   "name": "avail spread close raw, Feb 2023 (validate)",
+   "kind": "games",
+   "market": "spread",
+   "model_version": "ratings-v1-avail",
+   "baseline": "trend (raw)",
+   "split": "validate",
+   "period": {
+    "start": "2023-02-01",
+    "end": "2023-02-28"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 3% at the recorded close price (min_ev of config/nbapicks.yaml)",
+   "price_basis": "closing (untimed)",
+   "variant": "avail",
+   "price_kind": "close",
+   "pricing": "raw",
+   "blend_w": null,
+   "eligible": 326,
+   "bets": 107,
+   "wins": 58,
+   "losses": 47,
+   "pushes": 2,
+   "voids": 0,
+   "hit_rate": 0.5523809523809524,
+   "avg_prob": 0.5866993139496683,
+   "avg_price_dec": 1.908550882951533,
+   "avg_implied": 0.5240388583908816,
+   "avg_ev": 0.13610256679802324,
+   "units_staked": 107.0,
+   "net_units": 5.7573875399962375,
+   "net_dollars": 575.74,
+   "roi": 0.053807360186880725,
+   "roi_ci": [
+    -0.11574149810639041,
+    0.238582492950636
+   ],
+   "roi_t": 0.5888395643042866,
+   "logloss_model": 0.6922381060162801,
+   "logloss_market": 0.692683626816412,
+   "brier_model": 0.2495839381052755,
+   "brier_market": 0.2497683183808955,
+   "calibration": [
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 12,
+     "predicted": 0.3695304565672195,
+     "observed": 0.5
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 49,
+     "predicted": 0.45468032243898054,
+     "observed": 0.5714285714285714
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 75,
+     "predicted": 0.550474374133159,
+     "observed": 0.5333333333333333
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 21,
+     "predicted": 0.6323096012035267,
+     "observed": 0.6190476190476191
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 4,
+     "predicted": 0.7365698755880304,
+     "observed": 0.75
+    }
+   ],
+   "logloss_baseline": 0.7006619533531577,
+   "n_games_scored": 161,
+   "coverage": {
+    "games_in_period": 163,
+    "games_with_clean_quote": 163,
+    "games_with_any_quote": 163,
+    "quotes_dropped_all_markets": {
+     "impossible_line": 331,
+     "total_off_consensus": 14,
+     "spread_off_consensus": 13,
+     "ml_spread_mismatch": 2
+    },
+    "books_used": {
+     "DraftKings": 163
+    },
+    "games_not_priced_model_not_ready": 0,
+    "price_assumed_sides": 0,
+    "availability": {
+     "games_with_feature": 163,
+     "games_without_feature": 0,
+     "season_coverage": {
+      "2023": {
+       "games": 1320,
+       "games_with_box": 1320,
+       "games_with_feature": 1241
+      }
+     }
+    }
+   },
+   "notes": [
+    "Raw model probabilities (no blending with the market).",
+    "Seasons up to 2022-23 carry one untimed final quote per book (flag final_quote_untimed), used as the closing line.",
+    "ESPN BET 2022-23 puts the American price in the spread/total line field (e.g. spread -115.0); clean_quotes drops those as impossible lines (323 ESPN BET book-quotes in this period), and DraftKings is priced first in any case.",
+    "Availability caveat: in backtests a regular counts as missing when he does not appear in that game's box score (known only after the game, includes late scratches), so backtest gains are an upper bound; live use relies on the pregame injury report (Out/Doubtful). A regular traded away also counts as missing for his old team in backtests."
+   ]
+  },
+  {
+   "name": "avail spread open raw, Feb 2023 (validate)",
+   "kind": "games",
+   "market": "spread",
+   "model_version": "ratings-v1-avail",
+   "baseline": "trend (raw)",
+   "split": "validate",
+   "period": {
+    "start": "2023-02-01",
+    "end": "2023-02-28"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 3% at the recorded open price (min_ev of config/nbapicks.yaml)",
+   "price_basis": "none",
+   "variant": "avail",
+   "price_kind": "open",
+   "pricing": "raw",
+   "blend_w": null,
+   "eligible": 0,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "avg_ev": null,
+   "units_staked": 0.0,
+   "net_units": 0.0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "roi_t": null,
+   "logloss_model": null,
+   "logloss_market": null,
+   "brier_model": null,
+   "brier_market": null,
+   "calibration": [],
+   "logloss_baseline": null,
+   "n_games_scored": 0,
+   "coverage": {
+    "games_in_period": 163,
+    "games_with_clean_quote": 0,
+    "games_with_any_quote": 0,
+    "quotes_dropped_all_markets": {},
+    "books_used": {},
+    "games_not_priced_model_not_ready": 0,
+    "price_assumed_sides": 0,
+    "availability": {
+     "games_with_feature": 0,
+     "games_without_feature": 0,
+     "season_coverage": {
+      "2023": {
+       "games": 1320,
+       "games_with_box": 1320,
+       "games_with_feature": 1241
+      }
+     }
+    }
+   },
+   "notes": [
+    "Raw model probabilities (no blending with the market).",
+    "No opening lines in ESPN's history for this period (open + close exist from 2023-24); nothing to score.",
+    "Availability caveat: in backtests a regular counts as missing when he does not appear in that game's box score (known only after the game, includes late scratches), so backtest gains are an upper bound; live use relies on the pregame injury report (Out/Doubtful). A regular traded away also counts as missing for his old team in backtests."
+   ]
+  },
+  {
+   "name": "avail total close raw, Feb 2023 (validate)",
+   "kind": "games",
+   "market": "total",
+   "model_version": "ratings-v1-avail",
+   "baseline": "trend (raw)",
+   "split": "validate",
+   "period": {
+    "start": "2023-02-01",
+    "end": "2023-02-28"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 3% at the recorded close price (min_ev of config/nbapicks.yaml)",
+   "price_basis": "closing (untimed)",
+   "variant": "avail",
+   "price_kind": "close",
+   "pricing": "raw",
+   "blend_w": null,
+   "eligible": 326,
+   "bets": 110,
+   "wins": 58,
+   "losses": 51,
+   "pushes": 1,
+   "voids": 0,
+   "hit_rate": 0.5321100917431193,
+   "avg_prob": 0.5821534252991593,
+   "avg_price_dec": 1.911486405557552,
+   "avg_implied": 0.5231711000287291,
+   "avg_ev": 0.12491387789119626,
+   "units_staked": 110.0,
+   "net_units": 1.9041972520233428,
+   "net_dollars": 190.42,
+   "roi": 0.017310884109303117,
+   "roi_ci": [
+    -0.15627705627705624,
+    0.19952261177557623
+   ],
+   "roi_t": 0.190282833851951,
+   "logloss_model": 0.6913057931463872,
+   "logloss_market": 0.693703113828049,
+   "brier_model": 0.2491959083162434,
+   "brier_market": 0.25027792243993974,
+   "calibration": [
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 17,
+     "predicted": 0.36991539476948054,
+     "observed": 0.47058823529411764
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 61,
+     "predicted": 0.45404739729748933,
+     "observed": 0.4098360655737705
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 62,
+     "predicted": 0.545402677391762,
+     "observed": 0.4838709677419355
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 20,
+     "predicted": 0.6351022484948537,
+     "observed": 0.55
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 1,
+     "predicted": 0.78983258259099,
+     "observed": 1.0
+    }
+   ],
+   "logloss_baseline": 0.6894381477861645,
+   "n_games_scored": 161,
+   "coverage": {
+    "games_in_period": 163,
+    "games_with_clean_quote": 163,
+    "games_with_any_quote": 163,
+    "quotes_dropped_all_markets": {
+     "impossible_line": 331,
+     "total_off_consensus": 14,
+     "spread_off_consensus": 13,
+     "ml_spread_mismatch": 2
+    },
+    "books_used": {
+     "DraftKings": 163
+    },
+    "games_not_priced_model_not_ready": 0,
+    "price_assumed_sides": 0,
+    "availability": {
+     "games_with_feature": 163,
+     "games_without_feature": 0,
+     "season_coverage": {
+      "2023": {
+       "games": 1320,
+       "games_with_box": 1320,
+       "games_with_feature": 1241
+      }
+     }
+    }
+   },
+   "notes": [
+    "Raw model probabilities (no blending with the market).",
+    "Seasons up to 2022-23 carry one untimed final quote per book (flag final_quote_untimed), used as the closing line.",
+    "ESPN BET 2022-23 puts the American price in the spread/total line field (e.g. spread -115.0); clean_quotes drops those as impossible lines (323 ESPN BET book-quotes in this period), and DraftKings is priced first in any case.",
+    "Availability caveat: in backtests a regular counts as missing when he does not appear in that game's box score (known only after the game, includes late scratches), so backtest gains are an upper bound; live use relies on the pregame injury report (Out/Doubtful). A regular traded away also counts as missing for his old team in backtests."
+   ]
+  },
+  {
+   "name": "avail total open raw, Feb 2023 (validate)",
+   "kind": "games",
+   "market": "total",
+   "model_version": "ratings-v1-avail",
+   "baseline": "trend (raw)",
+   "split": "validate",
+   "period": {
+    "start": "2023-02-01",
+    "end": "2023-02-28"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 3% at the recorded open price (min_ev of config/nbapicks.yaml)",
+   "price_basis": "none",
+   "variant": "avail",
+   "price_kind": "open",
+   "pricing": "raw",
+   "blend_w": null,
+   "eligible": 0,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "avg_ev": null,
+   "units_staked": 0.0,
+   "net_units": 0.0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "roi_t": null,
+   "logloss_model": null,
+   "logloss_market": null,
+   "brier_model": null,
+   "brier_market": null,
+   "calibration": [],
+   "logloss_baseline": null,
+   "n_games_scored": 0,
+   "coverage": {
+    "games_in_period": 163,
+    "games_with_clean_quote": 0,
+    "games_with_any_quote": 0,
+    "quotes_dropped_all_markets": {},
+    "books_used": {},
+    "games_not_priced_model_not_ready": 0,
+    "price_assumed_sides": 0,
+    "availability": {
+     "games_with_feature": 0,
+     "games_without_feature": 0,
+     "season_coverage": {
+      "2023": {
+       "games": 1320,
+       "games_with_box": 1320,
+       "games_with_feature": 1241
+      }
+     }
+    }
+   },
+   "notes": [
+    "Raw model probabilities (no blending with the market).",
+    "No opening lines in ESPN's history for this period (open + close exist from 2023-24); nothing to score.",
+    "Availability caveat: in backtests a regular counts as missing when he does not appear in that game's box score (known only after the game, includes late scratches), so backtest gains are an upper bound; live use relies on the pregame injury report (Out/Doubtful). A regular traded away also counts as missing for his old team in backtests."
+   ]
+  }
+ ]
+}

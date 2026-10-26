@@ -1,0 +1,68 @@
+name: nba-backtest
+# Deliberate backtests on cached history (manual). Reports land in reports/backtest_*.json and
+# are shown on the dashboard. The holdout is refused unless 'holdout' is yes (score it once, for a
+# frozen candidate only; see config/gates.yaml).
+on:
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: "props | games"
+        default: "props"
+      start:
+        description: "first slate date (YYYY-MM-DD)"
+        default: "2026-01-01"
+      end:
+        description: "last slate date (YYYY-MM-DD)"
+        default: "2026-01-31"
+      models:
+        description: "props: models (props-v0,splitcard,props-v1); games: variants (trend,avail)"
+        default: ""
+      holdout:
+        description: "score holdout dates (yes/no)"
+        default: "no"
+permissions:
+  contents: write
+concurrency:
+  group: nba-state
+  cancel-in-progress: false
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - uses: actions/cache@v4
+        with:
+          path: data/cache
+          key: nba-cache-${{ hashFiles('data/history/*.csv.gz') }}
+          restore-keys: nba-cache-
+      - name: Backtest
+        env:
+          KIND: ${{ inputs.kind }}
+          START: ${{ inputs.start }}
+          END: ${{ inputs.end }}
+          MODELS: ${{ inputs.models }}
+          HOLDOUT: ${{ inputs.holdout }}
+        run: |
+          ARGS="--start $START --end $END"
+          if [ "$HOLDOUT" = "yes" ]; then ARGS="$ARGS --holdout"; fi
+          if [ "$KIND" = "games" ]; then
+            if [ -n "$MODELS" ]; then ARGS="$ARGS --variants $MODELS"; fi
+            python -m nbapicks.monthtest $ARGS
+          else
+            if [ -n "$MODELS" ]; then ARGS="$ARGS --models $MODELS"; fi
+            python -m nbapicks.propbacktest $ARGS
+          fi
+      - name: Refresh dashboard data
+        run: python -m nbapicks.pipeline export
+      - name: Commit
+        if: always()
+        run: |
+          ops/commit_changed.sh "backtest: ${{ inputs.kind }} ${{ inputs.start }}..${{ inputs.end }}" reports site data/research

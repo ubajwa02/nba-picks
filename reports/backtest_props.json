@@ -1,0 +1,6830 @@
+{
+ "generated_at": "2026-10-22T22:36:28Z",
+ "commit": "cadd253-dirty",
+ "runs": [
+  {
+   "name": "props-v0 pts over/under, 2025-10-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:pts",
+   "model_version": "props-v0",
+   "baseline": "naive",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 13755,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.68236,
+   "logloss_baseline": 0.69084,
+   "logloss_market": null,
+   "brier_model": 0.24452,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 77,
+     "predicted": 0.1838,
+     "observed": 0.2338
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 1227,
+     "predicted": 0.2639,
+     "observed": 0.3097
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 3400,
+     "predicted": 0.3552,
+     "observed": 0.4221
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 4321,
+     "predicted": 0.4497,
+     "observed": 0.4624
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 3228,
+     "predicted": 0.5449,
+     "observed": 0.531
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 1301,
+     "predicted": 0.6391,
+     "observed": 0.5957
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 187,
+     "predicted": 0.7295,
+     "observed": 0.6417
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 14,
+     "predicted": 0.8316,
+     "observed": 0.8571
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 730,
+    "player_games": 15780,
+    "dropped_lt10_prior_games": 709,
+    "dropped_lt10_mpg": 1314,
+    "events": 13757,
+    "players": 454,
+    "stat_events": 13757,
+    "pushes_excluded": 0,
+    "scored_common": 13755,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 2,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_naive": {
+     "n": 13755,
+     "gain": 0.008479,
+     "t": 3.43,
+     "t_day_cluster": 2.9,
+     "days": 101
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 13755 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "log-loss gain vs naive +0.00848 on n=13755, paired t=3.43 (day-clustered t=2.9)."
+   ]
+  },
+  {
+   "name": "splitcard pts over/under, 2025-10-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:pts",
+   "model_version": "splitcard",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 13755,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.68669,
+   "logloss_baseline": 0.68236,
+   "logloss_market": null,
+   "brier_model": 0.24622,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 4,
+     "predicted": 0.092,
+     "observed": 0.0
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 228,
+     "predicted": 0.1674,
+     "observed": 0.2807
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 1489,
+     "predicted": 0.2591,
+     "observed": 0.3492
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 3029,
+     "predicted": 0.353,
+     "observed": 0.4041
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 3498,
+     "predicted": 0.4492,
+     "observed": 0.462
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 3107,
+     "predicted": 0.5467,
+     "observed": 0.5262
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 1700,
+     "predicted": 0.6442,
+     "observed": 0.5659
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 637,
+     "predicted": 0.7383,
+     "observed": 0.606
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 63,
+     "predicted": 0.8314,
+     "observed": 0.7143
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 730,
+    "player_games": 15780,
+    "dropped_lt10_prior_games": 709,
+    "dropped_lt10_mpg": 1314,
+    "events": 13757,
+    "players": 454,
+    "stat_events": 13757,
+    "pushes_excluded": 0,
+    "scored_common": 13755,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 2,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 13755,
+     "gain": -0.004325,
+     "t": -1.87,
+     "t_day_cluster": -1.62,
+     "days": 101
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 13755 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "splitcard = nbapicks.splitcard.combine (k=40) with its explore-fitted Platt calibration.",
+    "log-loss gain vs props-v0 -0.00432 on n=13755, paired t=-1.87 (day-clustered t=-1.62)."
+   ]
+  },
+  {
+   "name": "props-v1 pts over/under, 2025-10-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:pts",
+   "model_version": "props-v1",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 13755,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.66069,
+   "logloss_baseline": 0.68236,
+   "logloss_market": null,
+   "brier_model": 0.23403,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 130,
+     "predicted": 0.044,
+     "observed": 0.1154
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 215,
+     "predicted": 0.1623,
+     "observed": 0.1767
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 1034,
+     "predicted": 0.262,
+     "observed": 0.266
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 3359,
+     "predicted": 0.3565,
+     "observed": 0.3814
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 4392,
+     "predicted": 0.449,
+     "observed": 0.4629
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 2599,
+     "predicted": 0.5443,
+     "observed": 0.5629
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 1295,
+     "predicted": 0.643,
+     "observed": 0.6355
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 481,
+     "predicted": 0.7425,
+     "observed": 0.6861
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 190,
+     "predicted": 0.8418,
+     "observed": 0.7895
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 60,
+     "predicted": 0.9314,
+     "observed": 0.7333
+    }
+   ],
+   "coverage": {
+    "games": 730,
+    "player_games": 15780,
+    "dropped_lt10_prior_games": 709,
+    "dropped_lt10_mpg": 1314,
+    "events": 13757,
+    "players": 454,
+    "stat_events": 13757,
+    "pushes_excluded": 0,
+    "scored_common": 13755,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 2,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 13755,
+     "gain": 0.021671,
+     "t": 9.41,
+     "t_day_cluster": 7.78,
+     "days": 101
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 13755 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "log-loss gain vs props-v0 +0.02167 on n=13755, paired t=9.41 (day-clustered t=7.78)."
+   ]
+  },
+  {
+   "name": "naive pts over/under, 2025-10-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:pts",
+   "model_version": "naive",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 13755,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.69084,
+   "logloss_baseline": 0.68236,
+   "logloss_market": null,
+   "brier_model": 0.24779,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 20,
+     "predicted": 0.0792,
+     "observed": 0.15
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 542,
+     "predicted": 0.1671,
+     "observed": 0.2897
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 1891,
+     "predicted": 0.2564,
+     "observed": 0.3628
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 2968,
+     "predicted": 0.3503,
+     "observed": 0.4239
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 2995,
+     "predicted": 0.4497,
+     "observed": 0.4725
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 2696,
+     "predicted": 0.546,
+     "observed": 0.5122
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 1693,
+     "predicted": 0.6453,
+     "observed": 0.5753
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 814,
+     "predicted": 0.7415,
+     "observed": 0.5909
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 126,
+     "predicted": 0.8281,
+     "observed": 0.7143
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 10,
+     "predicted": 0.921,
+     "observed": 0.7
+    }
+   ],
+   "coverage": {
+    "games": 730,
+    "player_games": 15780,
+    "dropped_lt10_prior_games": 709,
+    "dropped_lt10_mpg": 1314,
+    "events": 13757,
+    "players": 454,
+    "stat_events": 13757,
+    "pushes_excluded": 0,
+    "scored_common": 13755,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 2,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 13755,
+     "gain": -0.008479,
+     "t": -3.43,
+     "t_day_cluster": -2.9,
+     "days": 101
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 13755 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "naive = naive season hit rate (season shrunk to career shrunk to 0.5, k=40).",
+    "log-loss gain vs props-v0 -0.00848 on n=13755, paired t=-3.43 (day-clustered t=-2.9)."
+   ]
+  },
+  {
+   "name": "props-v0 reb over/under, 2025-10-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:reb",
+   "model_version": "props-v0",
+   "baseline": "naive",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 13755,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.67306,
+   "logloss_baseline": 0.67503,
+   "logloss_market": null,
+   "brier_model": 0.24011,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 1,
+     "predicted": 0.0967,
+     "observed": 0.0
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 211,
+     "predicted": 0.1742,
+     "observed": 0.2038
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 1598,
+     "predicted": 0.2611,
+     "observed": 0.2954
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 3807,
+     "predicted": 0.3527,
+     "observed": 0.3769
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 4224,
+     "predicted": 0.4505,
+     "observed": 0.4747
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 2768,
+     "predicted": 0.5433,
+     "observed": 0.5087
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 998,
+     "predicted": 0.6397,
+     "observed": 0.5691
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 147,
+     "predicted": 0.7304,
+     "observed": 0.6259
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 1,
+     "predicted": 0.8352,
+     "observed": 0.0
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 730,
+    "player_games": 15780,
+    "dropped_lt10_prior_games": 709,
+    "dropped_lt10_mpg": 1314,
+    "events": 13757,
+    "players": 454,
+    "stat_events": 13757,
+    "pushes_excluded": 0,
+    "scored_common": 13755,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 2,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_naive": {
+     "n": 13755,
+     "gain": 0.00197,
+     "t": 0.9,
+     "t_day_cluster": 0.92,
+     "days": 101
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 13755 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "log-loss gain vs naive +0.00197 on n=13755, paired t=0.9 (day-clustered t=0.92)."
+   ]
+  },
+  {
+   "name": "splitcard reb over/under, 2025-10-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:reb",
+   "model_version": "splitcard",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 13755,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.67188,
+   "logloss_baseline": 0.67306,
+   "logloss_market": null,
+   "brier_model": 0.23936,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 5,
+     "predicted": 0.0954,
+     "observed": 0.2
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 256,
+     "predicted": 0.1692,
+     "observed": 0.2344
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 1530,
+     "predicted": 0.2598,
+     "observed": 0.2797
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 3230,
+     "predicted": 0.3549,
+     "observed": 0.378
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 3990,
+     "predicted": 0.4492,
+     "observed": 0.4419
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 2862,
+     "predicted": 0.5453,
+     "observed": 0.5101
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 1378,
+     "predicted": 0.644,
+     "observed": 0.5718
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 453,
+     "predicted": 0.7378,
+     "observed": 0.5894
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 51,
+     "predicted": 0.8233,
+     "observed": 0.6863
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 730,
+    "player_games": 15780,
+    "dropped_lt10_prior_games": 709,
+    "dropped_lt10_mpg": 1314,
+    "events": 13757,
+    "players": 454,
+    "stat_events": 13757,
+    "pushes_excluded": 0,
+    "scored_common": 13755,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 2,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 13755,
+     "gain": 0.001179,
+     "t": 0.57,
+     "t_day_cluster": 0.58,
+     "days": 101
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 13755 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "splitcard = nbapicks.splitcard.combine (k=40) with its explore-fitted Platt calibration.",
+    "log-loss gain vs props-v0 +0.00118 on n=13755, paired t=0.57 (day-clustered t=0.58)."
+   ]
+  },
+  {
+   "name": "props-v1 reb over/under, 2025-10-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:reb",
+   "model_version": "props-v1",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 13755,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.64849,
+   "logloss_baseline": 0.67306,
+   "logloss_market": null,
+   "brier_model": 0.22874,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 111,
+     "predicted": 0.0555,
+     "observed": 0.1081
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 419,
+     "predicted": 0.1604,
+     "observed": 0.1599
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 1546,
+     "predicted": 0.2602,
+     "observed": 0.251
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 3172,
+     "predicted": 0.3544,
+     "observed": 0.3597
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 3702,
+     "predicted": 0.45,
+     "observed": 0.443
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 2786,
+     "predicted": 0.5469,
+     "observed": 0.5316
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 1432,
+     "predicted": 0.6428,
+     "observed": 0.6054
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 483,
+     "predicted": 0.7378,
+     "observed": 0.7081
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 87,
+     "predicted": 0.8304,
+     "observed": 0.7816
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 17,
+     "predicted": 0.9395,
+     "observed": 1.0
+    }
+   ],
+   "coverage": {
+    "games": 730,
+    "player_games": 15780,
+    "dropped_lt10_prior_games": 709,
+    "dropped_lt10_mpg": 1314,
+    "events": 13757,
+    "players": 454,
+    "stat_events": 13757,
+    "pushes_excluded": 0,
+    "scored_common": 13755,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 2,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 13755,
+     "gain": 0.024572,
+     "t": 11.62,
+     "t_day_cluster": 9.73,
+     "days": 101
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 13755 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "log-loss gain vs props-v0 +0.02457 on n=13755, paired t=11.62 (day-clustered t=9.73)."
+   ]
+  },
+  {
+   "name": "naive reb over/under, 2025-10-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:reb",
+   "model_version": "naive",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 13755,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.67503,
+   "logloss_baseline": 0.67306,
+   "logloss_market": null,
+   "brier_model": 0.24046,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 39,
+     "predicted": 0.0869,
+     "observed": 0.1538
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 724,
+     "predicted": 0.1668,
+     "observed": 0.261
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 1944,
+     "predicted": 0.2554,
+     "observed": 0.3179
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 3269,
+     "predicted": 0.3518,
+     "observed": 0.3842
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 3332,
+     "predicted": 0.448,
+     "observed": 0.4586
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 2436,
+     "predicted": 0.5453,
+     "observed": 0.5164
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 1342,
+     "predicted": 0.6449,
+     "observed": 0.576
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 578,
+     "predicted": 0.7402,
+     "observed": 0.5813
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 91,
+     "predicted": 0.8334,
+     "observed": 0.6484
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 730,
+    "player_games": 15780,
+    "dropped_lt10_prior_games": 709,
+    "dropped_lt10_mpg": 1314,
+    "events": 13757,
+    "players": 454,
+    "stat_events": 13757,
+    "pushes_excluded": 0,
+    "scored_common": 13755,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 2,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 13755,
+     "gain": -0.00197,
+     "t": -0.9,
+     "t_day_cluster": -0.92,
+     "days": 101
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 13755 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "naive = naive season hit rate (season shrunk to career shrunk to 0.5, k=40).",
+    "log-loss gain vs props-v0 -0.00197 on n=13755, paired t=-0.9 (day-clustered t=-0.92)."
+   ]
+  },
+  {
+   "name": "props-v0 ast over/under, 2025-10-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:ast",
+   "model_version": "props-v0",
+   "baseline": "naive",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 13755,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.66381,
+   "logloss_baseline": 0.67073,
+   "logloss_market": null,
+   "brier_model": 0.23463,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 45,
+     "predicted": 0.0674,
+     "observed": 0.1778
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 666,
+     "predicted": 0.1664,
+     "observed": 0.2147
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 2292,
+     "predicted": 0.2575,
+     "observed": 0.3041
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 3813,
+     "predicted": 0.3518,
+     "observed": 0.38
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 3916,
+     "predicted": 0.4472,
+     "observed": 0.4622
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 2193,
+     "predicted": 0.5428,
+     "observed": 0.5358
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 731,
+     "predicted": 0.6381,
+     "observed": 0.5951
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 97,
+     "predicted": 0.7296,
+     "observed": 0.701
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 2,
+     "predicted": 0.8212,
+     "observed": 1.0
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 730,
+    "player_games": 15780,
+    "dropped_lt10_prior_games": 709,
+    "dropped_lt10_mpg": 1314,
+    "events": 13757,
+    "players": 454,
+    "stat_events": 13757,
+    "pushes_excluded": 0,
+    "scored_common": 13755,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 2,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_naive": {
+     "n": 13755,
+     "gain": 0.006928,
+     "t": 2.24,
+     "t_day_cluster": 2.03,
+     "days": 101
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 13755 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "log-loss gain vs naive +0.00693 on n=13755, paired t=2.24 (day-clustered t=2.03)."
+   ]
+  },
+  {
+   "name": "splitcard ast over/under, 2025-10-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:ast",
+   "model_version": "splitcard",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 13755,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.66638,
+   "logloss_baseline": 0.66381,
+   "logloss_market": null,
+   "brier_model": 0.23647,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 24,
+     "predicted": 0.0656,
+     "observed": 0.1667
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 748,
+     "predicted": 0.1674,
+     "observed": 0.246
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 2331,
+     "predicted": 0.2547,
+     "observed": 0.3072
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 3441,
+     "predicted": 0.3516,
+     "observed": 0.3842
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 3525,
+     "predicted": 0.4471,
+     "observed": 0.4372
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 2257,
+     "predicted": 0.5455,
+     "observed": 0.533
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 1098,
+     "predicted": 0.6415,
+     "observed": 0.5537
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 312,
+     "predicted": 0.7388,
+     "observed": 0.6282
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 19,
+     "predicted": 0.8282,
+     "observed": 0.6842
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 730,
+    "player_games": 15780,
+    "dropped_lt10_prior_games": 709,
+    "dropped_lt10_mpg": 1314,
+    "events": 13757,
+    "players": 454,
+    "stat_events": 13757,
+    "pushes_excluded": 0,
+    "scored_common": 13755,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 2,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 13755,
+     "gain": -0.002573,
+     "t": -0.86,
+     "t_day_cluster": -0.81,
+     "days": 101
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 13755 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "splitcard = nbapicks.splitcard.combine (k=40) with its explore-fitted Platt calibration.",
+    "log-loss gain vs props-v0 -0.00257 on n=13755, paired t=-0.86 (day-clustered t=-0.81)."
+   ]
+  },
+  {
+   "name": "props-v1 ast over/under, 2025-10-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:ast",
+   "model_version": "props-v1",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 13755,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.63952,
+   "logloss_baseline": 0.66381,
+   "logloss_market": null,
+   "brier_model": 0.22444,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 77,
+     "predicted": 0.0613,
+     "observed": 0.1299
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 545,
+     "predicted": 0.162,
+     "observed": 0.1541
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 2088,
+     "predicted": 0.2574,
+     "observed": 0.249
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 3516,
+     "predicted": 0.3516,
+     "observed": 0.3524
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 3724,
+     "predicted": 0.4493,
+     "observed": 0.457
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 2351,
+     "predicted": 0.5438,
+     "observed": 0.5347
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 1062,
+     "predicted": 0.6413,
+     "observed": 0.6422
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 331,
+     "predicted": 0.7424,
+     "observed": 0.7341
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 56,
+     "predicted": 0.8304,
+     "observed": 0.8036
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 5,
+     "predicted": 0.9281,
+     "observed": 1.0
+    }
+   ],
+   "coverage": {
+    "games": 730,
+    "player_games": 15780,
+    "dropped_lt10_prior_games": 709,
+    "dropped_lt10_mpg": 1314,
+    "events": 13757,
+    "players": 454,
+    "stat_events": 13757,
+    "pushes_excluded": 0,
+    "scored_common": 13755,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 2,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 13755,
+     "gain": 0.024283,
+     "t": 8.91,
+     "t_day_cluster": 7.71,
+     "days": 101
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 13755 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "log-loss gain vs props-v0 +0.02428 on n=13755, paired t=8.91 (day-clustered t=7.71)."
+   ]
+  },
+  {
+   "name": "naive ast over/under, 2025-10-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:ast",
+   "model_version": "naive",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 13755,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.67073,
+   "logloss_baseline": 0.66381,
+   "logloss_market": null,
+   "brier_model": 0.23772,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 147,
+     "predicted": 0.0768,
+     "observed": 0.1837
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 1376,
+     "predicted": 0.1597,
+     "observed": 0.2638
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 2710,
+     "predicted": 0.2527,
+     "observed": 0.3273
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 3176,
+     "predicted": 0.3493,
+     "observed": 0.4046
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 2801,
+     "predicted": 0.4459,
+     "observed": 0.4488
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 2038,
+     "predicted": 0.5453,
+     "observed": 0.5339
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 1034,
+     "predicted": 0.641,
+     "observed": 0.5551
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 408,
+     "predicted": 0.7399,
+     "observed": 0.6446
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 65,
+     "predicted": 0.8219,
+     "observed": 0.6615
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 730,
+    "player_games": 15780,
+    "dropped_lt10_prior_games": 709,
+    "dropped_lt10_mpg": 1314,
+    "events": 13757,
+    "players": 454,
+    "stat_events": 13757,
+    "pushes_excluded": 0,
+    "scored_common": 13755,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 2,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 13755,
+     "gain": -0.006928,
+     "t": -2.24,
+     "t_day_cluster": -2.03,
+     "days": 101
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 13755 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "naive = naive season hit rate (season shrunk to career shrunk to 0.5, k=40).",
+    "log-loss gain vs props-v0 -0.00693 on n=13755, paired t=-2.24 (day-clustered t=-2.03)."
+   ]
+  },
+  {
+   "name": "props-v0 fg3m over/under, 2025-10-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:fg3m",
+   "model_version": "props-v0",
+   "baseline": "naive",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 13755,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.63303,
+   "logloss_baseline": 0.59169,
+   "logloss_market": null,
+   "brier_model": 0.20692,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 1376,
+     "predicted": 0.0153,
+     "observed": 0.0414
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 1099,
+     "predicted": 0.1602,
+     "observed": 0.2193
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 2683,
+     "predicted": 0.2545,
+     "observed": 0.2818
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 3380,
+     "predicted": 0.3488,
+     "observed": 0.3609
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 3139,
+     "predicted": 0.4445,
+     "observed": 0.4317
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 1514,
+     "predicted": 0.5446,
+     "observed": 0.5145
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 494,
+     "predicted": 0.6404,
+     "observed": 0.6255
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 70,
+     "predicted": 0.7238,
+     "observed": 0.7571
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 730,
+    "player_games": 15780,
+    "dropped_lt10_prior_games": 709,
+    "dropped_lt10_mpg": 1314,
+    "events": 13757,
+    "players": 454,
+    "stat_events": 13757,
+    "pushes_excluded": 0,
+    "scored_common": 13755,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 2,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_naive": {
+     "n": 13755,
+     "gain": -0.041342,
+     "t": -4.72,
+     "t_day_cluster": -4.78,
+     "days": 101
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 13755 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "log-loss gain vs naive -0.04134 on n=13755, paired t=-4.72 (day-clustered t=-4.78)."
+   ]
+  },
+  {
+   "name": "splitcard fg3m over/under, 2025-10-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:fg3m",
+   "model_version": "splitcard",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 13755,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.5901,
+   "logloss_baseline": 0.63303,
+   "logloss_market": null,
+   "brier_model": 0.20524,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 1177,
+     "predicted": 0.0316,
+     "observed": 0.0229
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 952,
+     "predicted": 0.1577,
+     "observed": 0.1922
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 2569,
+     "predicted": 0.2546,
+     "observed": 0.269
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 3474,
+     "predicted": 0.3505,
+     "observed": 0.346
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 2951,
+     "predicted": 0.4475,
+     "observed": 0.4175
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 1819,
+     "predicted": 0.5446,
+     "observed": 0.5179
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 696,
+     "predicted": 0.6398,
+     "observed": 0.5819
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 108,
+     "predicted": 0.7313,
+     "observed": 0.7407
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 9,
+     "predicted": 0.8336,
+     "observed": 0.8889
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 730,
+    "player_games": 15780,
+    "dropped_lt10_prior_games": 709,
+    "dropped_lt10_mpg": 1314,
+    "events": 13757,
+    "players": 454,
+    "stat_events": 13757,
+    "pushes_excluded": 0,
+    "scored_common": 13755,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 2,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 13755,
+     "gain": 0.042924,
+     "t": 4.82,
+     "t_day_cluster": 4.9,
+     "days": 101
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 13755 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "splitcard = nbapicks.splitcard.combine (k=40) with its explore-fitted Platt calibration.",
+    "log-loss gain vs props-v0 +0.04292 on n=13755, paired t=4.82 (day-clustered t=4.9)."
+   ]
+  },
+  {
+   "name": "props-v1 fg3m over/under, 2025-10-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:fg3m",
+   "model_version": "props-v1",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 13755,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.57886,
+   "logloss_baseline": 0.63303,
+   "logloss_market": null,
+   "brier_model": 0.19991,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 1258,
+     "predicted": 0.0556,
+     "observed": 0.0262
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 1139,
+     "predicted": 0.1574,
+     "observed": 0.1668
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 2680,
+     "predicted": 0.256,
+     "observed": 0.2634
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 3413,
+     "predicted": 0.3494,
+     "observed": 0.3422
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 2691,
+     "predicted": 0.4482,
+     "observed": 0.4381
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 1566,
+     "predicted": 0.544,
+     "observed": 0.5377
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 750,
+     "predicted": 0.6407,
+     "observed": 0.6027
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 227,
+     "predicted": 0.7389,
+     "observed": 0.7577
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 31,
+     "predicted": 0.8181,
+     "observed": 0.9032
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 730,
+    "player_games": 15780,
+    "dropped_lt10_prior_games": 709,
+    "dropped_lt10_mpg": 1314,
+    "events": 13757,
+    "players": 454,
+    "stat_events": 13757,
+    "pushes_excluded": 0,
+    "scored_common": 13755,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 2,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 13755,
+     "gain": 0.054168,
+     "t": 6.09,
+     "t_day_cluster": 6.13,
+     "days": 101
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 13755 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "log-loss gain vs props-v0 +0.05417 on n=13755, paired t=6.09 (day-clustered t=6.13)."
+   ]
+  },
+  {
+   "name": "naive fg3m over/under, 2025-10-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:fg3m",
+   "model_version": "naive",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 13755,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.59169,
+   "logloss_baseline": 0.63303,
+   "logloss_market": null,
+   "brier_model": 0.20544,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 1461,
+     "predicted": 0.0299,
+     "observed": 0.0424
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 1647,
+     "predicted": 0.158,
+     "observed": 0.2374
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 2862,
+     "predicted": 0.2514,
+     "observed": 0.2858
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 2953,
+     "predicted": 0.3486,
+     "observed": 0.3695
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 2406,
+     "predicted": 0.4457,
+     "observed": 0.4368
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 1489,
+     "predicted": 0.5456,
+     "observed": 0.5353
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 734,
+     "predicted": 0.6423,
+     "observed": 0.5695
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 181,
+     "predicted": 0.7357,
+     "observed": 0.6961
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 22,
+     "predicted": 0.8398,
+     "observed": 0.7273
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 730,
+    "player_games": 15780,
+    "dropped_lt10_prior_games": 709,
+    "dropped_lt10_mpg": 1314,
+    "events": 13757,
+    "players": 454,
+    "stat_events": 13757,
+    "pushes_excluded": 0,
+    "scored_common": 13755,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 2,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 13755,
+     "gain": 0.041342,
+     "t": 4.72,
+     "t_day_cluster": 4.78,
+     "days": 101
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 13755 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "naive = naive season hit rate (season shrunk to career shrunk to 0.5, k=40).",
+    "log-loss gain vs props-v0 +0.04134 on n=13755, paired t=4.72 (day-clustered t=4.78)."
+   ]
+  },
+  {
+   "name": "props-v0 pts over/under, 2026-01-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:pts",
+   "model_version": "props-v0",
+   "baseline": "naive",
+   "split": "validate",
+   "period": {
+    "start": "2026-01-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 4471,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.68086,
+   "logloss_baseline": 0.68837,
+   "logloss_market": null,
+   "brier_model": 0.24389,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 22,
+     "predicted": 0.1821,
+     "observed": 0.1818
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 335,
+     "predicted": 0.2652,
+     "observed": 0.3015
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 1061,
+     "predicted": 0.3569,
+     "observed": 0.4326
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 1475,
+     "predicted": 0.4501,
+     "observed": 0.4461
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 1102,
+     "predicted": 0.5448,
+     "observed": 0.5218
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 407,
+     "predicted": 0.6378,
+     "observed": 0.629
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 68,
+     "predicted": 0.7327,
+     "observed": 0.6765
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 1,
+     "predicted": 0.8273,
+     "observed": 1.0
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 233,
+    "player_games": 4973,
+    "dropped_lt10_mpg": 439,
+    "dropped_lt10_prior_games": 63,
+    "events": 4471,
+    "players": 398,
+    "stat_events": 4471,
+    "pushes_excluded": 0,
+    "scored_common": 4471,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_naive": {
+     "n": 4471,
+     "gain": 0.007507,
+     "t": 1.86,
+     "t_day_cluster": 2.2,
+     "days": 31
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 4471 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "log-loss gain vs naive +0.00751 on n=4471, paired t=1.86 (day-clustered t=2.2)."
+   ]
+  },
+  {
+   "name": "splitcard pts over/under, 2026-01-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:pts",
+   "model_version": "splitcard",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2026-01-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 4471,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.68757,
+   "logloss_baseline": 0.68086,
+   "logloss_market": null,
+   "brier_model": 0.24665,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 63,
+     "predicted": 0.1604,
+     "observed": 0.2857
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 421,
+     "predicted": 0.2584,
+     "observed": 0.323
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 949,
+     "predicted": 0.3532,
+     "observed": 0.4215
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 1191,
+     "predicted": 0.4502,
+     "observed": 0.4458
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 1098,
+     "predicted": 0.545,
+     "observed": 0.5328
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 534,
+     "predicted": 0.6433,
+     "observed": 0.5655
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 206,
+     "predicted": 0.7394,
+     "observed": 0.5874
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 9,
+     "predicted": 0.8261,
+     "observed": 0.7778
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 233,
+    "player_games": 4973,
+    "dropped_lt10_mpg": 439,
+    "dropped_lt10_prior_games": 63,
+    "events": 4471,
+    "players": 398,
+    "stat_events": 4471,
+    "pushes_excluded": 0,
+    "scored_common": 4471,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 4471,
+     "gain": -0.006712,
+     "t": -1.71,
+     "t_day_cluster": -2.1,
+     "days": 31
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 4471 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "splitcard = nbapicks.splitcard.combine (k=40) with its explore-fitted Platt calibration.",
+    "log-loss gain vs props-v0 -0.00671 on n=4471, paired t=-1.71 (day-clustered t=-2.1)."
+   ]
+  },
+  {
+   "name": "props-v1 pts over/under, 2026-01-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:pts",
+   "model_version": "props-v1",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2026-01-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 4471,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.66365,
+   "logloss_baseline": 0.68086,
+   "logloss_market": null,
+   "brier_model": 0.23569,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 10,
+     "predicted": 0.0307,
+     "observed": 0.1
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 36,
+     "predicted": 0.1686,
+     "observed": 0.2222
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 296,
+     "predicted": 0.2643,
+     "observed": 0.2534
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 1084,
+     "predicted": 0.3581,
+     "observed": 0.369
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 1457,
+     "predicted": 0.4493,
+     "observed": 0.4509
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 893,
+     "predicted": 0.5445,
+     "observed": 0.5644
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 455,
+     "predicted": 0.6424,
+     "observed": 0.6154
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 167,
+     "predicted": 0.739,
+     "observed": 0.6826
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 59,
+     "predicted": 0.8408,
+     "observed": 0.8136
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 14,
+     "predicted": 0.9353,
+     "observed": 0.9286
+    }
+   ],
+   "coverage": {
+    "games": 233,
+    "player_games": 4973,
+    "dropped_lt10_mpg": 439,
+    "dropped_lt10_prior_games": 63,
+    "events": 4471,
+    "players": 398,
+    "stat_events": 4471,
+    "pushes_excluded": 0,
+    "scored_common": 4471,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 4471,
+     "gain": 0.017214,
+     "t": 4.93,
+     "t_day_cluster": 5.41,
+     "days": 31
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 4471 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "log-loss gain vs props-v0 +0.01721 on n=4471, paired t=4.93 (day-clustered t=5.41)."
+   ]
+  },
+  {
+   "name": "naive pts over/under, 2026-01-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:pts",
+   "model_version": "naive",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2026-01-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 4471,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.68837,
+   "logloss_baseline": 0.68086,
+   "logloss_market": null,
+   "brier_model": 0.24678,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 3,
+     "predicted": 0.0905,
+     "observed": 0.3333
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 141,
+     "predicted": 0.1649,
+     "observed": 0.2766
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 532,
+     "predicted": 0.2578,
+     "observed": 0.3459
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 921,
+     "predicted": 0.3495,
+     "observed": 0.4256
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 1081,
+     "predicted": 0.4504,
+     "observed": 0.4625
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 974,
+     "predicted": 0.546,
+     "observed": 0.5123
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 543,
+     "predicted": 0.6442,
+     "observed": 0.5856
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 246,
+     "predicted": 0.7417,
+     "observed": 0.5935
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 30,
+     "predicted": 0.8237,
+     "observed": 0.7
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 233,
+    "player_games": 4973,
+    "dropped_lt10_mpg": 439,
+    "dropped_lt10_prior_games": 63,
+    "events": 4471,
+    "players": 398,
+    "stat_events": 4471,
+    "pushes_excluded": 0,
+    "scored_common": 4471,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 4471,
+     "gain": -0.007507,
+     "t": -1.86,
+     "t_day_cluster": -2.2,
+     "days": 31
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 4471 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "naive = naive season hit rate (season shrunk to career shrunk to 0.5, k=40).",
+    "log-loss gain vs props-v0 -0.00751 on n=4471, paired t=-1.86 (day-clustered t=-2.2)."
+   ]
+  },
+  {
+   "name": "props-v0 reb over/under, 2026-01-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:reb",
+   "model_version": "props-v0",
+   "baseline": "naive",
+   "split": "validate",
+   "period": {
+    "start": "2026-01-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 4471,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.67143,
+   "logloss_baseline": 0.67482,
+   "logloss_market": null,
+   "brier_model": 0.23929,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 59,
+     "predicted": 0.176,
+     "observed": 0.2373
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 508,
+     "predicted": 0.2624,
+     "observed": 0.2933
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 1245,
+     "predicted": 0.3527,
+     "observed": 0.3695
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 1429,
+     "predicted": 0.4513,
+     "observed": 0.4689
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 873,
+     "predicted": 0.5428,
+     "observed": 0.5258
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 311,
+     "predicted": 0.6396,
+     "observed": 0.582
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 46,
+     "predicted": 0.7298,
+     "observed": 0.6522
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 233,
+    "player_games": 4973,
+    "dropped_lt10_mpg": 439,
+    "dropped_lt10_prior_games": 63,
+    "events": 4471,
+    "players": 398,
+    "stat_events": 4471,
+    "pushes_excluded": 0,
+    "scored_common": 4471,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_naive": {
+     "n": 4471,
+     "gain": 0.003385,
+     "t": 0.95,
+     "t_day_cluster": 0.8,
+     "days": 31
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 4471 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "log-loss gain vs naive +0.00338 on n=4471, paired t=0.95 (day-clustered t=0.8)."
+   ]
+  },
+  {
+   "name": "splitcard reb over/under, 2026-01-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:reb",
+   "model_version": "splitcard",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2026-01-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 4471,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.67273,
+   "logloss_baseline": 0.67143,
+   "logloss_market": null,
+   "brier_model": 0.23956,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 2,
+     "predicted": 0.0961,
+     "observed": 0.5
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 107,
+     "predicted": 0.1679,
+     "observed": 0.3178
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 496,
+     "predicted": 0.2629,
+     "observed": 0.2863
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 1085,
+     "predicted": 0.3562,
+     "observed": 0.3714
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 1295,
+     "predicted": 0.4477,
+     "observed": 0.4463
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 931,
+     "predicted": 0.5458,
+     "observed": 0.5124
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 426,
+     "predicted": 0.6415,
+     "observed": 0.5798
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 120,
+     "predicted": 0.7369,
+     "observed": 0.6167
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 9,
+     "predicted": 0.8141,
+     "observed": 0.7778
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 233,
+    "player_games": 4973,
+    "dropped_lt10_mpg": 439,
+    "dropped_lt10_prior_games": 63,
+    "events": 4471,
+    "players": 398,
+    "stat_events": 4471,
+    "pushes_excluded": 0,
+    "scored_common": 4471,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 4471,
+     "gain": -0.001294,
+     "t": -0.38,
+     "t_day_cluster": -0.33,
+     "days": 31
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 4471 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "splitcard = nbapicks.splitcard.combine (k=40) with its explore-fitted Platt calibration.",
+    "log-loss gain vs props-v0 -0.00129 on n=4471, paired t=-0.38 (day-clustered t=-0.33)."
+   ]
+  },
+  {
+   "name": "props-v1 reb over/under, 2026-01-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:reb",
+   "model_version": "props-v1",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2026-01-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 4471,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.65199,
+   "logloss_baseline": 0.67143,
+   "logloss_market": null,
+   "brier_model": 0.23026,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 19,
+     "predicted": 0.0608,
+     "observed": 0.0526
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 112,
+     "predicted": 0.167,
+     "observed": 0.1786
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 568,
+     "predicted": 0.2591,
+     "observed": 0.2606
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 1037,
+     "predicted": 0.3539,
+     "observed": 0.3713
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 1256,
+     "predicted": 0.4489,
+     "observed": 0.4379
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 859,
+     "predicted": 0.5457,
+     "observed": 0.5274
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 433,
+     "predicted": 0.6436,
+     "observed": 0.6328
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 161,
+     "predicted": 0.736,
+     "observed": 0.6894
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 22,
+     "predicted": 0.8313,
+     "observed": 0.7727
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 4,
+     "predicted": 0.9267,
+     "observed": 1.0
+    }
+   ],
+   "coverage": {
+    "games": 233,
+    "player_games": 4973,
+    "dropped_lt10_mpg": 439,
+    "dropped_lt10_prior_games": 63,
+    "events": 4471,
+    "players": 398,
+    "stat_events": 4471,
+    "pushes_excluded": 0,
+    "scored_common": 4471,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 4471,
+     "gain": 0.019448,
+     "t": 6.08,
+     "t_day_cluster": 5.02,
+     "days": 31
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 4471 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "log-loss gain vs props-v0 +0.01945 on n=4471, paired t=6.08 (day-clustered t=5.02)."
+   ]
+  },
+  {
+   "name": "naive reb over/under, 2026-01-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:reb",
+   "model_version": "naive",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2026-01-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 4471,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.67482,
+   "logloss_baseline": 0.67143,
+   "logloss_market": null,
+   "brier_model": 0.23999,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 16,
+     "predicted": 0.0892,
+     "observed": 0.25
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 238,
+     "predicted": 0.1647,
+     "observed": 0.3067
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 603,
+     "predicted": 0.255,
+     "observed": 0.3085
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 1149,
+     "predicted": 0.3514,
+     "observed": 0.3873
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 1076,
+     "predicted": 0.4469,
+     "observed": 0.4517
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 805,
+     "predicted": 0.5435,
+     "observed": 0.518
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 427,
+     "predicted": 0.6442,
+     "observed": 0.6042
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 141,
+     "predicted": 0.7411,
+     "observed": 0.5745
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 16,
+     "predicted": 0.8242,
+     "observed": 0.8125
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 233,
+    "player_games": 4973,
+    "dropped_lt10_mpg": 439,
+    "dropped_lt10_prior_games": 63,
+    "events": 4471,
+    "players": 398,
+    "stat_events": 4471,
+    "pushes_excluded": 0,
+    "scored_common": 4471,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 4471,
+     "gain": -0.003385,
+     "t": -0.95,
+     "t_day_cluster": -0.8,
+     "days": 31
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 4471 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "naive = naive season hit rate (season shrunk to career shrunk to 0.5, k=40).",
+    "log-loss gain vs props-v0 -0.00338 on n=4471, paired t=-0.95 (day-clustered t=-0.8)."
+   ]
+  },
+  {
+   "name": "props-v0 ast over/under, 2026-01-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:ast",
+   "model_version": "props-v0",
+   "baseline": "naive",
+   "split": "validate",
+   "period": {
+    "start": "2026-01-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 4471,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.65713,
+   "logloss_baseline": 0.66593,
+   "logloss_market": null,
+   "brier_model": 0.23257,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 11,
+     "predicted": 0.0726,
+     "observed": 0.0909
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 199,
+     "predicted": 0.166,
+     "observed": 0.1859
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 750,
+     "predicted": 0.258,
+     "observed": 0.2853
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 1230,
+     "predicted": 0.3533,
+     "observed": 0.3797
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 1264,
+     "predicted": 0.4475,
+     "observed": 0.4755
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 751,
+     "predicted": 0.5438,
+     "observed": 0.5446
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 243,
+     "predicted": 0.6372,
+     "observed": 0.6091
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 23,
+     "predicted": 0.7247,
+     "observed": 0.6957
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 233,
+    "player_games": 4973,
+    "dropped_lt10_mpg": 439,
+    "dropped_lt10_prior_games": 63,
+    "events": 4471,
+    "players": 398,
+    "stat_events": 4471,
+    "pushes_excluded": 0,
+    "scored_common": 4471,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_naive": {
+     "n": 4471,
+     "gain": 0.008803,
+     "t": 2.22,
+     "t_day_cluster": 2.17,
+     "days": 31
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 4471 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "log-loss gain vs naive +0.00880 on n=4471, paired t=2.22 (day-clustered t=2.17)."
+   ]
+  },
+  {
+   "name": "splitcard ast over/under, 2026-01-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:ast",
+   "model_version": "splitcard",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2026-01-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 4471,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.66359,
+   "logloss_baseline": 0.65713,
+   "logloss_market": null,
+   "brier_model": 0.23495,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 11,
+     "predicted": 0.052,
+     "observed": 0.2727
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 250,
+     "predicted": 0.1668,
+     "observed": 0.26
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 747,
+     "predicted": 0.2545,
+     "observed": 0.2905
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 1112,
+     "predicted": 0.3511,
+     "observed": 0.3894
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 1192,
+     "predicted": 0.447,
+     "observed": 0.4455
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 711,
+     "predicted": 0.5452,
+     "observed": 0.5204
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 327,
+     "predicted": 0.638,
+     "observed": 0.5596
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 120,
+     "predicted": 0.7388,
+     "observed": 0.75
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 1,
+     "predicted": 0.8025,
+     "observed": 1.0
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 233,
+    "player_games": 4973,
+    "dropped_lt10_mpg": 439,
+    "dropped_lt10_prior_games": 63,
+    "events": 4471,
+    "players": 398,
+    "stat_events": 4471,
+    "pushes_excluded": 0,
+    "scored_common": 4471,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 4471,
+     "gain": -0.006462,
+     "t": -1.72,
+     "t_day_cluster": -1.92,
+     "days": 31
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 4471 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "splitcard = nbapicks.splitcard.combine (k=40) with its explore-fitted Platt calibration.",
+    "log-loss gain vs props-v0 -0.00646 on n=4471, paired t=-1.72 (day-clustered t=-1.92)."
+   ]
+  },
+  {
+   "name": "props-v1 ast over/under, 2026-01-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:ast",
+   "model_version": "props-v1",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2026-01-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 4471,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.6367,
+   "logloss_baseline": 0.65713,
+   "logloss_market": null,
+   "brier_model": 0.22325,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 9,
+     "predicted": 0.0663,
+     "observed": 0.1111
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 146,
+     "predicted": 0.1657,
+     "observed": 0.1644
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 693,
+     "predicted": 0.2571,
+     "observed": 0.2208
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 1112,
+     "predicted": 0.3523,
+     "observed": 0.3471
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 1264,
+     "predicted": 0.4504,
+     "observed": 0.4771
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 758,
+     "predicted": 0.5423,
+     "observed": 0.5211
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 371,
+     "predicted": 0.6409,
+     "observed": 0.6334
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 101,
+     "predicted": 0.7364,
+     "observed": 0.8218
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 14,
+     "predicted": 0.8262,
+     "observed": 0.7143
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 3,
+     "predicted": 0.9205,
+     "observed": 1.0
+    }
+   ],
+   "coverage": {
+    "games": 233,
+    "player_games": 4973,
+    "dropped_lt10_mpg": 439,
+    "dropped_lt10_prior_games": 63,
+    "events": 4471,
+    "players": 398,
+    "stat_events": 4471,
+    "pushes_excluded": 0,
+    "scored_common": 4471,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 4471,
+     "gain": 0.020426,
+     "t": 6.93,
+     "t_day_cluster": 9.92,
+     "days": 31
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 4471 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "log-loss gain vs props-v0 +0.02043 on n=4471, paired t=6.93 (day-clustered t=9.92)."
+   ]
+  },
+  {
+   "name": "naive ast over/under, 2026-01-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:ast",
+   "model_version": "naive",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2026-01-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 4471,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.66593,
+   "logloss_baseline": 0.65713,
+   "logloss_market": null,
+   "brier_model": 0.23517,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 53,
+     "predicted": 0.0729,
+     "observed": 0.2075
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 431,
+     "predicted": 0.1594,
+     "observed": 0.2529
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 878,
+     "predicted": 0.2531,
+     "observed": 0.3144
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 1003,
+     "predicted": 0.3502,
+     "observed": 0.4088
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 990,
+     "predicted": 0.4453,
+     "observed": 0.4626
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 652,
+     "predicted": 0.5446,
+     "observed": 0.5107
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 320,
+     "predicted": 0.6407,
+     "observed": 0.5719
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 135,
+     "predicted": 0.7425,
+     "observed": 0.7926
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 9,
+     "predicted": 0.811,
+     "observed": 0.6667
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 233,
+    "player_games": 4973,
+    "dropped_lt10_mpg": 439,
+    "dropped_lt10_prior_games": 63,
+    "events": 4471,
+    "players": 398,
+    "stat_events": 4471,
+    "pushes_excluded": 0,
+    "scored_common": 4471,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 4471,
+     "gain": -0.008803,
+     "t": -2.22,
+     "t_day_cluster": -2.17,
+     "days": 31
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 4471 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "naive = naive season hit rate (season shrunk to career shrunk to 0.5, k=40).",
+    "log-loss gain vs props-v0 -0.00880 on n=4471, paired t=-2.22 (day-clustered t=-2.17)."
+   ]
+  },
+  {
+   "name": "props-v0 fg3m over/under, 2026-01-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:fg3m",
+   "model_version": "props-v0",
+   "baseline": "naive",
+   "split": "validate",
+   "period": {
+    "start": "2026-01-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 4471,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.62867,
+   "logloss_baseline": 0.58782,
+   "logloss_market": null,
+   "brier_model": 0.20606,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 437,
+     "predicted": 0.0149,
+     "observed": 0.0435
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 398,
+     "predicted": 0.1579,
+     "observed": 0.2035
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 865,
+     "predicted": 0.2559,
+     "observed": 0.2855
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 1035,
+     "predicted": 0.3472,
+     "observed": 0.3536
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 1036,
+     "predicted": 0.4437,
+     "observed": 0.4373
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 516,
+     "predicted": 0.5457,
+     "observed": 0.5155
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 162,
+     "predicted": 0.6409,
+     "observed": 0.6235
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 22,
+     "predicted": 0.7222,
+     "observed": 0.8182
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 233,
+    "player_games": 4973,
+    "dropped_lt10_mpg": 439,
+    "dropped_lt10_prior_games": 63,
+    "events": 4471,
+    "players": 398,
+    "stat_events": 4471,
+    "pushes_excluded": 0,
+    "scored_common": 4471,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_naive": {
+     "n": 4471,
+     "gain": -0.040849,
+     "t": -2.78,
+     "t_day_cluster": -3.17,
+     "days": 31
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 4471 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "log-loss gain vs naive -0.04085 on n=4471, paired t=-2.78 (day-clustered t=-3.17)."
+   ]
+  },
+  {
+   "name": "splitcard fg3m over/under, 2026-01-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:fg3m",
+   "model_version": "splitcard",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2026-01-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 4471,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.5894,
+   "logloss_baseline": 0.62867,
+   "logloss_market": null,
+   "brier_model": 0.20466,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 373,
+     "predicted": 0.0333,
+     "observed": 0.0214
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 297,
+     "predicted": 0.1614,
+     "observed": 0.1919
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 773,
+     "predicted": 0.2534,
+     "observed": 0.2536
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 1233,
+     "predicted": 0.3508,
+     "observed": 0.3317
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 929,
+     "predicted": 0.4508,
+     "observed": 0.4284
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 599,
+     "predicted": 0.5445,
+     "observed": 0.5376
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 230,
+     "predicted": 0.64,
+     "observed": 0.5913
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 36,
+     "predicted": 0.7265,
+     "observed": 0.6667
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 1,
+     "predicted": 0.8024,
+     "observed": 1.0
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 233,
+    "player_games": 4973,
+    "dropped_lt10_mpg": 439,
+    "dropped_lt10_prior_games": 63,
+    "events": 4471,
+    "players": 398,
+    "stat_events": 4471,
+    "pushes_excluded": 0,
+    "scored_common": 4471,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 4471,
+     "gain": 0.03927,
+     "t": 2.62,
+     "t_day_cluster": 3.09,
+     "days": 31
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 4471 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "splitcard = nbapicks.splitcard.combine (k=40) with its explore-fitted Platt calibration.",
+    "log-loss gain vs props-v0 +0.03927 on n=4471, paired t=2.62 (day-clustered t=3.09)."
+   ]
+  },
+  {
+   "name": "props-v1 fg3m over/under, 2026-01-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:fg3m",
+   "model_version": "props-v1",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2026-01-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 4471,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.57598,
+   "logloss_baseline": 0.62867,
+   "logloss_market": null,
+   "brier_model": 0.19843,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 382,
+     "predicted": 0.0526,
+     "observed": 0.0262
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 366,
+     "predicted": 0.1566,
+     "observed": 0.1612
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 857,
+     "predicted": 0.2556,
+     "observed": 0.2509
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 1111,
+     "predicted": 0.3485,
+     "observed": 0.3204
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 876,
+     "predicted": 0.4465,
+     "observed": 0.4475
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 535,
+     "predicted": 0.5453,
+     "observed": 0.5495
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 269,
+     "predicted": 0.6418,
+     "observed": 0.632
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 70,
+     "predicted": 0.7345,
+     "observed": 0.7429
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 5,
+     "predicted": 0.8049,
+     "observed": 0.6
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 233,
+    "player_games": 4973,
+    "dropped_lt10_mpg": 439,
+    "dropped_lt10_prior_games": 63,
+    "events": 4471,
+    "players": 398,
+    "stat_events": 4471,
+    "pushes_excluded": 0,
+    "scored_common": 4471,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 4471,
+     "gain": 0.052681,
+     "t": 3.5,
+     "t_day_cluster": 4.45,
+     "days": 31
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 4471 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "log-loss gain vs props-v0 +0.05268 on n=4471, paired t=3.5 (day-clustered t=4.45)."
+   ]
+  },
+  {
+   "name": "naive fg3m over/under, 2026-01-01..2026-01-31 (validate)",
+   "kind": "props",
+   "market": "prop:fg3m",
+   "model_version": "naive",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2026-01-01",
+    "end": "2026-01-31"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "none: synthetic lines carry no price, probability quality only",
+   "price_basis": "none",
+   "eligible": 4471,
+   "bets": 0,
+   "wins": 0,
+   "losses": 0,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": null,
+   "avg_prob": null,
+   "avg_price_dec": null,
+   "avg_implied": null,
+   "units_staked": 0.0,
+   "net_units": 0,
+   "net_dollars": 0.0,
+   "roi": null,
+   "roi_ci": null,
+   "logloss_model": 0.58782,
+   "logloss_baseline": 0.62867,
+   "logloss_market": null,
+   "brier_model": 0.20372,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 453,
+     "predicted": 0.0295,
+     "observed": 0.0353
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 470,
+     "predicted": 0.1572,
+     "observed": 0.2532
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 935,
+     "predicted": 0.2502,
+     "observed": 0.2556
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 1008,
+     "predicted": 0.3455,
+     "observed": 0.3542
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 768,
+     "predicted": 0.4461,
+     "observed": 0.4518
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 511,
+     "predicted": 0.5442,
+     "observed": 0.5538
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 264,
+     "predicted": 0.6405,
+     "observed": 0.5568
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 59,
+     "predicted": 0.7368,
+     "observed": 0.6949
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 3,
+     "predicted": 0.836,
+     "observed": 0.6667
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 233,
+    "player_games": 4973,
+    "dropped_lt10_mpg": 439,
+    "dropped_lt10_prior_games": 63,
+    "events": 4471,
+    "players": 398,
+    "stat_events": 4471,
+    "pushes_excluded": 0,
+    "scored_common": 4471,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "synthetic floor(median of previous 10 games)+0.5; P(over) scored",
+    "paired_vs_props-v0": {
+     "n": 4471,
+     "gain": 0.040849,
+     "t": 2.78,
+     "t_day_cluster": 3.17,
+     "days": 31
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 4471 events (pushes and any model abstention excluded).",
+    "No historical prices for these lines: ROI fields are null (never filled from assumed odds); probability quality only.",
+    "naive = naive season hit rate (season shrunk to career shrunk to 0.5, k=40).",
+    "log-loss gain vs props-v0 +0.04085 on n=4471, paired t=2.78 (day-clustered t=3.17)."
+   ]
+  },
+  {
+   "name": "props-v0 pts over/under, 2025-10-21..2025-11-30 (validate)",
+   "kind": "props",
+   "market": "prop:pts",
+   "model_version": "props-v0",
+   "baseline": "naive",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-21",
+    "end": "2025-11-30"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 5% at the price used (worse price of the pair when sides are unlabelled)",
+   "price_basis": "conservative pair",
+   "eligible": 3960,
+   "bets": 2415,
+   "wins": 1287,
+   "losses": 1128,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.5329,
+   "avg_prob": 0.6891,
+   "avg_price_dec": 1.8012,
+   "avg_implied": 0.5556,
+   "units_staked": 2415.0,
+   "net_units": -97.6727,
+   "net_dollars": -9767.27,
+   "roi": -0.0404,
+   "roi_ci": [
+    -0.0751,
+    -0.0044
+   ],
+   "logloss_model": 0.73645,
+   "logloss_baseline": 0.74109,
+   "logloss_market": null,
+   "brier_model": 0.26698,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 46,
+     "predicted": 0.0625,
+     "observed": 0.3043
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 201,
+     "predicted": 0.1578,
+     "observed": 0.403
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 479,
+     "predicted": 0.2564,
+     "observed": 0.5136
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 854,
+     "predicted": 0.3524,
+     "observed": 0.4578
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 1062,
+     "predicted": 0.45,
+     "observed": 0.4896
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 712,
+     "predicted": 0.5448,
+     "observed": 0.507
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 391,
+     "predicted": 0.6435,
+     "observed": 0.5627
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 165,
+     "predicted": 0.7393,
+     "observed": 0.5152
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 40,
+     "predicted": 0.8449,
+     "observed": 0.625
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 10,
+     "predicted": 0.9496,
+     "observed": 0.4
+    }
+   ],
+   "coverage": {
+    "games": 299,
+    "player_games": 6542,
+    "dropped_lt10_prior_games": 542,
+    "dropped_lt10_mpg": 514,
+    "events": 5486,
+    "players": 406,
+    "stat_events": 3960,
+    "pushes_excluded": 0,
+    "scored_common": 3960,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "real pregame lines",
+    "paired_vs_naive": {
+     "n": 3960,
+     "gain": 0.004641,
+     "t": 0.81,
+     "t_day_cluster": 0.77,
+     "days": 40
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 3960 events (pushes and any model abstention excluded).",
+    "log-loss gain vs naive +0.00464 on n=3960, paired t=0.81 (day-clustered t=0.77)."
+   ]
+  },
+  {
+   "name": "splitcard pts over/under, 2025-10-21..2025-11-30 (validate)",
+   "kind": "props",
+   "market": "prop:pts",
+   "model_version": "splitcard",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-21",
+    "end": "2025-11-30"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 5% at the price used (worse price of the pair when sides are unlabelled)",
+   "price_basis": "conservative pair",
+   "eligible": 3960,
+   "bets": 2314,
+   "wins": 1199,
+   "losses": 1115,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.5182,
+   "avg_prob": 0.6686,
+   "avg_price_dec": 1.8029,
+   "avg_implied": 0.555,
+   "units_staked": 2314.0,
+   "net_units": -152.595,
+   "net_dollars": -15259.5,
+   "roi": -0.0659,
+   "roi_ci": [
+    -0.1007,
+    -0.0291
+   ],
+   "logloss_model": 0.72462,
+   "logloss_baseline": 0.73645,
+   "logloss_market": null,
+   "brier_model": 0.26399,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 16,
+     "predicted": 0.0644,
+     "observed": 0.0
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 84,
+     "predicted": 0.1679,
+     "observed": 0.4405
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 451,
+     "predicted": 0.2597,
+     "observed": 0.4834
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 912,
+     "predicted": 0.353,
+     "observed": 0.477
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 1114,
+     "predicted": 0.4487,
+     "observed": 0.5045
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 808,
+     "predicted": 0.5471,
+     "observed": 0.495
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 433,
+     "predicted": 0.6419,
+     "observed": 0.5081
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 121,
+     "predicted": 0.7358,
+     "observed": 0.5041
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 21,
+     "predicted": 0.8296,
+     "observed": 0.6667
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 299,
+    "player_games": 6542,
+    "dropped_lt10_prior_games": 542,
+    "dropped_lt10_mpg": 514,
+    "events": 5486,
+    "players": 406,
+    "stat_events": 3960,
+    "pushes_excluded": 0,
+    "scored_common": 3960,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "real pregame lines",
+    "paired_vs_props-v0": {
+     "n": 3960,
+     "gain": 0.011835,
+     "t": 2.15,
+     "t_day_cluster": 1.88,
+     "days": 40
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 3960 events (pushes and any model abstention excluded).",
+    "splitcard = nbapicks.splitcard.combine (k=40) with its explore-fitted Platt calibration.",
+    "log-loss gain vs props-v0 +0.01184 on n=3960, paired t=2.15 (day-clustered t=1.88)."
+   ]
+  },
+  {
+   "name": "props-v1 pts over/under, 2025-10-21..2025-11-30 (validate)",
+   "kind": "props",
+   "market": "prop:pts",
+   "model_version": "props-v1",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-21",
+    "end": "2025-11-30"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 5% at the price used (worse price of the pair when sides are unlabelled)",
+   "price_basis": "conservative pair",
+   "eligible": 3960,
+   "bets": 1837,
+   "wins": 977,
+   "losses": 860,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.5318,
+   "avg_prob": 0.6493,
+   "avg_price_dec": 1.8059,
+   "avg_implied": 0.5541,
+   "units_staked": 1837.0,
+   "net_units": -73.0727,
+   "net_dollars": -7307.27,
+   "roi": -0.0398,
+   "roi_ci": [
+    -0.0815,
+    0.0007
+   ],
+   "logloss_model": 0.70973,
+   "logloss_baseline": 0.73645,
+   "logloss_market": null,
+   "brier_model": 0.25659,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 24,
+     "predicted": 0.0563,
+     "observed": 0.25
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 64,
+     "predicted": 0.1589,
+     "observed": 0.4062
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 222,
+     "predicted": 0.2635,
+     "observed": 0.4685
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 1041,
+     "predicted": 0.3613,
+     "observed": 0.4745
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 1666,
+     "predicted": 0.4477,
+     "observed": 0.4826
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 769,
+     "predicted": 0.5381,
+     "observed": 0.5345
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 145,
+     "predicted": 0.6306,
+     "observed": 0.5862
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 28,
+     "predicted": 0.7335,
+     "observed": 0.6071
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 1,
+     "predicted": 0.8041,
+     "observed": 0.0
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 299,
+    "player_games": 6542,
+    "dropped_lt10_prior_games": 542,
+    "dropped_lt10_mpg": 514,
+    "events": 5486,
+    "players": 406,
+    "stat_events": 3960,
+    "pushes_excluded": 0,
+    "scored_common": 3960,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "real pregame lines",
+    "paired_vs_props-v0": {
+     "n": 3960,
+     "gain": 0.026725,
+     "t": 5.5,
+     "t_day_cluster": 5.16,
+     "days": 40
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 3960 events (pushes and any model abstention excluded).",
+    "log-loss gain vs props-v0 +0.02672 on n=3960, paired t=5.5 (day-clustered t=5.16)."
+   ]
+  },
+  {
+   "name": "naive pts over/under, 2025-10-21..2025-11-30 (validate)",
+   "kind": "props",
+   "market": "prop:pts",
+   "model_version": "naive",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-21",
+    "end": "2025-11-30"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 5% at the price used (worse price of the pair when sides are unlabelled)",
+   "price_basis": "conservative pair",
+   "eligible": 3960,
+   "bets": 2579,
+   "wins": 1341,
+   "losses": 1238,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.52,
+   "avg_prob": 0.6869,
+   "avg_price_dec": 1.8013,
+   "avg_implied": 0.5555,
+   "units_staked": 2579.0,
+   "net_units": -163.7942,
+   "net_dollars": -16379.42,
+   "roi": -0.0635,
+   "roi_ci": [
+    -0.0973,
+    -0.0293
+   ],
+   "logloss_model": 0.74109,
+   "logloss_baseline": 0.73645,
+   "logloss_market": null,
+   "brier_model": 0.27024,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 31,
+     "predicted": 0.0625,
+     "observed": 0.129
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 177,
+     "predicted": 0.1641,
+     "observed": 0.4746
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 592,
+     "predicted": 0.2555,
+     "observed": 0.4764
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 900,
+     "predicted": 0.3513,
+     "observed": 0.4789
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 898,
+     "predicted": 0.4475,
+     "observed": 0.4944
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 703,
+     "predicted": 0.5463,
+     "observed": 0.5149
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 458,
+     "predicted": 0.6453,
+     "observed": 0.4978
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 158,
+     "predicted": 0.743,
+     "observed": 0.5633
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 42,
+     "predicted": 0.8438,
+     "observed": 0.5238
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 1,
+     "predicted": 0.9062,
+     "observed": 1.0
+    }
+   ],
+   "coverage": {
+    "games": 299,
+    "player_games": 6542,
+    "dropped_lt10_prior_games": 542,
+    "dropped_lt10_mpg": 514,
+    "events": 5486,
+    "players": 406,
+    "stat_events": 3960,
+    "pushes_excluded": 0,
+    "scored_common": 3960,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "real pregame lines",
+    "paired_vs_props-v0": {
+     "n": 3960,
+     "gain": -0.004641,
+     "t": -0.81,
+     "t_day_cluster": -0.77,
+     "days": 40
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 3960 events (pushes and any model abstention excluded).",
+    "naive = naive season hit rate (season shrunk to career shrunk to 0.5, k=40).",
+    "log-loss gain vs props-v0 -0.00464 on n=3960, paired t=-0.81 (day-clustered t=-0.77)."
+   ]
+  },
+  {
+   "name": "props-v0 reb over/under, 2025-10-21..2025-11-30 (validate)",
+   "kind": "props",
+   "market": "prop:reb",
+   "model_version": "props-v0",
+   "baseline": "naive",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-21",
+    "end": "2025-11-30"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 5% at the price used (worse price of the pair when sides are unlabelled)",
+   "price_basis": "conservative pair",
+   "eligible": 3269,
+   "bets": 1474,
+   "wins": 780,
+   "losses": 694,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.5292,
+   "avg_prob": 0.6927,
+   "avg_price_dec": 1.7454,
+   "avg_implied": 0.5753,
+   "units_staked": 1474.0,
+   "net_units": -117.3229,
+   "net_dollars": -11732.29,
+   "roi": -0.0796,
+   "roi_ci": [
+    -0.1245,
+    -0.0355
+   ],
+   "logloss_model": 0.72183,
+   "logloss_baseline": 0.71625,
+   "logloss_market": null,
+   "brier_model": 0.26175,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 34,
+     "predicted": 0.0622,
+     "observed": 0.2647
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 120,
+     "predicted": 0.1605,
+     "observed": 0.375
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 322,
+     "predicted": 0.2578,
+     "observed": 0.441
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 651,
+     "predicted": 0.3533,
+     "observed": 0.4639
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 897,
+     "predicted": 0.4519,
+     "observed": 0.4972
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 733,
+     "predicted": 0.5449,
+     "observed": 0.4761
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 335,
+     "predicted": 0.6455,
+     "observed": 0.5433
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 136,
+     "predicted": 0.739,
+     "observed": 0.4412
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 27,
+     "predicted": 0.8384,
+     "observed": 0.7037
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 14,
+     "predicted": 0.9535,
+     "observed": 0.8571
+    }
+   ],
+   "coverage": {
+    "games": 299,
+    "player_games": 6542,
+    "dropped_lt10_prior_games": 542,
+    "dropped_lt10_mpg": 514,
+    "events": 5486,
+    "players": 406,
+    "stat_events": 3270,
+    "pushes_excluded": 0,
+    "scored_common": 3269,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 1,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "real pregame lines",
+    "paired_vs_naive": {
+     "n": 3269,
+     "gain": -0.005575,
+     "t": -1.07,
+     "t_day_cluster": -0.99,
+     "days": 40
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 3269 events (pushes and any model abstention excluded).",
+    "log-loss gain vs naive -0.00558 on n=3269, paired t=-1.07 (day-clustered t=-0.99)."
+   ]
+  },
+  {
+   "name": "splitcard reb over/under, 2025-10-21..2025-11-30 (validate)",
+   "kind": "props",
+   "market": "prop:reb",
+   "model_version": "splitcard",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-21",
+    "end": "2025-11-30"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 5% at the price used (worse price of the pair when sides are unlabelled)",
+   "price_basis": "conservative pair",
+   "eligible": 3269,
+   "bets": 1164,
+   "wins": 629,
+   "losses": 535,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.5404,
+   "avg_prob": 0.6691,
+   "avg_price_dec": 1.7619,
+   "avg_implied": 0.5697,
+   "units_staked": 1164.0,
+   "net_units": -56.2902,
+   "net_dollars": -5629.02,
+   "roi": -0.0484,
+   "roi_ci": [
+    -0.0977,
+    0.0023
+   ],
+   "logloss_model": 0.70426,
+   "logloss_baseline": 0.72183,
+   "logloss_market": null,
+   "brier_model": 0.25477,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 9,
+     "predicted": 0.0532,
+     "observed": 0.1111
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 45,
+     "predicted": 0.1719,
+     "observed": 0.3111
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 240,
+     "predicted": 0.2619,
+     "observed": 0.425
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 636,
+     "predicted": 0.3588,
+     "observed": 0.4575
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 999,
+     "predicted": 0.4534,
+     "observed": 0.4675
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 907,
+     "predicted": 0.5465,
+     "observed": 0.5039
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 326,
+     "predicted": 0.6386,
+     "observed": 0.546
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 79,
+     "predicted": 0.7395,
+     "observed": 0.4557
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 18,
+     "predicted": 0.8432,
+     "observed": 0.5556
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 10,
+     "predicted": 0.9298,
+     "observed": 1.0
+    }
+   ],
+   "coverage": {
+    "games": 299,
+    "player_games": 6542,
+    "dropped_lt10_prior_games": 542,
+    "dropped_lt10_mpg": 514,
+    "events": 5486,
+    "players": 406,
+    "stat_events": 3270,
+    "pushes_excluded": 0,
+    "scored_common": 3269,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 1,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "real pregame lines",
+    "paired_vs_props-v0": {
+     "n": 3269,
+     "gain": 0.017565,
+     "t": 3.47,
+     "t_day_cluster": 3.23,
+     "days": 40
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 3269 events (pushes and any model abstention excluded).",
+    "splitcard = nbapicks.splitcard.combine (k=40) with its explore-fitted Platt calibration.",
+    "log-loss gain vs props-v0 +0.01757 on n=3269, paired t=3.47 (day-clustered t=3.23)."
+   ]
+  },
+  {
+   "name": "props-v1 reb over/under, 2025-10-21..2025-11-30 (validate)",
+   "kind": "props",
+   "market": "prop:reb",
+   "model_version": "props-v1",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-21",
+    "end": "2025-11-30"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 5% at the price used (worse price of the pair when sides are unlabelled)",
+   "price_basis": "conservative pair",
+   "eligible": 3269,
+   "bets": 896,
+   "wins": 505,
+   "losses": 391,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.5636,
+   "avg_prob": 0.6615,
+   "avg_price_dec": 1.7649,
+   "avg_implied": 0.5688,
+   "units_staked": 896.0,
+   "net_units": -5.8059,
+   "net_dollars": -580.59,
+   "roi": -0.0065,
+   "roi_ci": [
+    -0.0614,
+    0.0514
+   ],
+   "logloss_model": 0.69355,
+   "logloss_baseline": 0.72183,
+   "logloss_market": null,
+   "brier_model": 0.24911,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 18,
+     "predicted": 0.0533,
+     "observed": 0.2778
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 42,
+     "predicted": 0.1597,
+     "observed": 0.3095
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 121,
+     "predicted": 0.2582,
+     "observed": 0.314
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 556,
+     "predicted": 0.361,
+     "observed": 0.4263
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 1157,
+     "predicted": 0.4521,
+     "observed": 0.4641
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 988,
+     "predicted": 0.5436,
+     "observed": 0.5314
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 299,
+     "predicted": 0.6364,
+     "observed": 0.5485
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 59,
+     "predicted": 0.7312,
+     "observed": 0.4407
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 17,
+     "predicted": 0.8329,
+     "observed": 0.5294
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 12,
+     "predicted": 0.9396,
+     "observed": 1.0
+    }
+   ],
+   "coverage": {
+    "games": 299,
+    "player_games": 6542,
+    "dropped_lt10_prior_games": 542,
+    "dropped_lt10_mpg": 514,
+    "events": 5486,
+    "players": 406,
+    "stat_events": 3270,
+    "pushes_excluded": 0,
+    "scored_common": 3269,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 1,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "real pregame lines",
+    "paired_vs_props-v0": {
+     "n": 3269,
+     "gain": 0.028279,
+     "t": 5.77,
+     "t_day_cluster": 6.1,
+     "days": 40
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 3269 events (pushes and any model abstention excluded).",
+    "log-loss gain vs props-v0 +0.02828 on n=3269, paired t=5.77 (day-clustered t=6.1)."
+   ]
+  },
+  {
+   "name": "naive reb over/under, 2025-10-21..2025-11-30 (validate)",
+   "kind": "props",
+   "market": "prop:reb",
+   "model_version": "naive",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-21",
+    "end": "2025-11-30"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 5% at the price used (worse price of the pair when sides are unlabelled)",
+   "price_basis": "conservative pair",
+   "eligible": 3269,
+   "bets": 1468,
+   "wins": 777,
+   "losses": 691,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.5293,
+   "avg_prob": 0.6873,
+   "avg_price_dec": 1.7468,
+   "avg_implied": 0.575,
+   "units_staked": 1468.0,
+   "net_units": -112.407,
+   "net_dollars": -11240.7,
+   "roi": -0.0766,
+   "roi_ci": [
+    -0.1217,
+    -0.0328
+   ],
+   "logloss_model": 0.71625,
+   "logloss_baseline": 0.72183,
+   "logloss_market": null,
+   "brier_model": 0.25956,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 15,
+     "predicted": 0.0527,
+     "observed": 0.2
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 98,
+     "predicted": 0.1617,
+     "observed": 0.3061
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 343,
+     "predicted": 0.2572,
+     "observed": 0.449
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 669,
+     "predicted": 0.3524,
+     "observed": 0.4574
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 869,
+     "predicted": 0.4497,
+     "observed": 0.4741
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 733,
+     "predicted": 0.5446,
+     "observed": 0.5034
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 384,
+     "predicted": 0.6411,
+     "observed": 0.5521
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 114,
+     "predicted": 0.7357,
+     "observed": 0.4474
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 28,
+     "predicted": 0.8388,
+     "observed": 0.5357
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 16,
+     "predicted": 0.947,
+     "observed": 0.875
+    }
+   ],
+   "coverage": {
+    "games": 299,
+    "player_games": 6542,
+    "dropped_lt10_prior_games": 542,
+    "dropped_lt10_mpg": 514,
+    "events": 5486,
+    "players": 406,
+    "stat_events": 3270,
+    "pushes_excluded": 0,
+    "scored_common": 3269,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 1,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "real pregame lines",
+    "paired_vs_props-v0": {
+     "n": 3269,
+     "gain": 0.005575,
+     "t": 1.07,
+     "t_day_cluster": 0.99,
+     "days": 40
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 3269 events (pushes and any model abstention excluded).",
+    "naive = naive season hit rate (season shrunk to career shrunk to 0.5, k=40).",
+    "log-loss gain vs props-v0 +0.00558 on n=3269, paired t=1.07 (day-clustered t=0.99)."
+   ]
+  },
+  {
+   "name": "props-v0 ast over/under, 2025-10-21..2025-11-30 (validate)",
+   "kind": "props",
+   "market": "prop:ast",
+   "model_version": "props-v0",
+   "baseline": "naive",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-21",
+    "end": "2025-11-30"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 5% at the price used (worse price of the pair when sides are unlabelled)",
+   "price_basis": "conservative pair",
+   "eligible": 2225,
+   "bets": 920,
+   "wins": 491,
+   "losses": 429,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.5337,
+   "avg_prob": 0.7037,
+   "avg_price_dec": 1.7166,
+   "avg_implied": 0.5857,
+   "units_staked": 920.0,
+   "net_units": -80.581,
+   "net_dollars": -8058.1,
+   "roi": -0.0876,
+   "roi_ci": [
+    -0.1431,
+    -0.0372
+   ],
+   "logloss_model": 0.72255,
+   "logloss_baseline": 0.73671,
+   "logloss_market": null,
+   "brier_model": 0.26172,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 18,
+     "predicted": 0.0563,
+     "observed": 0.2222
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 105,
+     "predicted": 0.1594,
+     "observed": 0.4476
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 263,
+     "predicted": 0.2561,
+     "observed": 0.4525
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 495,
+     "predicted": 0.3524,
+     "observed": 0.4707
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 600,
+     "predicted": 0.4506,
+     "observed": 0.485
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 462,
+     "predicted": 0.5442,
+     "observed": 0.4935
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 199,
+     "predicted": 0.6415,
+     "observed": 0.5126
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 55,
+     "predicted": 0.7463,
+     "observed": 0.6
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 19,
+     "predicted": 0.8404,
+     "observed": 0.7368
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 9,
+     "predicted": 0.9443,
+     "observed": 1.0
+    }
+   ],
+   "coverage": {
+    "games": 299,
+    "player_games": 6542,
+    "dropped_lt10_prior_games": 542,
+    "dropped_lt10_mpg": 514,
+    "events": 5486,
+    "players": 406,
+    "stat_events": 2225,
+    "pushes_excluded": 0,
+    "scored_common": 2225,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "real pregame lines",
+    "paired_vs_naive": {
+     "n": 2225,
+     "gain": 0.014162,
+     "t": 2.0,
+     "t_day_cluster": 1.77,
+     "days": 40
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 2225 events (pushes and any model abstention excluded).",
+    "log-loss gain vs naive +0.01416 on n=2225, paired t=2.0 (day-clustered t=1.77)."
+   ]
+  },
+  {
+   "name": "splitcard ast over/under, 2025-10-21..2025-11-30 (validate)",
+   "kind": "props",
+   "market": "prop:ast",
+   "model_version": "splitcard",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-21",
+    "end": "2025-11-30"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 5% at the price used (worse price of the pair when sides are unlabelled)",
+   "price_basis": "conservative pair",
+   "eligible": 2225,
+   "bets": 970,
+   "wins": 508,
+   "losses": 462,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.5237,
+   "avg_prob": 0.6926,
+   "avg_price_dec": 1.7244,
+   "avg_implied": 0.5828,
+   "units_staked": 970.0,
+   "net_units": -95.7,
+   "net_dollars": -9570.0,
+   "roi": -0.0987,
+   "roi_ci": [
+    -0.1536,
+    -0.048
+   ],
+   "logloss_model": 0.71977,
+   "logloss_baseline": 0.72255,
+   "logloss_market": null,
+   "brier_model": 0.26128,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 8,
+     "predicted": 0.042,
+     "observed": 0.25
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 64,
+     "predicted": 0.177,
+     "observed": 0.3594
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 319,
+     "predicted": 0.2579,
+     "observed": 0.4201
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 552,
+     "predicted": 0.3521,
+     "observed": 0.4909
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 567,
+     "predicted": 0.4491,
+     "observed": 0.4832
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 424,
+     "predicted": 0.5446,
+     "observed": 0.5377
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 223,
+     "predicted": 0.6458,
+     "observed": 0.4664
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 48,
+     "predicted": 0.7339,
+     "observed": 0.5833
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 13,
+     "predicted": 0.8468,
+     "observed": 0.7692
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 7,
+     "predicted": 0.923,
+     "observed": 0.8571
+    }
+   ],
+   "coverage": {
+    "games": 299,
+    "player_games": 6542,
+    "dropped_lt10_prior_games": 542,
+    "dropped_lt10_mpg": 514,
+    "events": 5486,
+    "players": 406,
+    "stat_events": 2225,
+    "pushes_excluded": 0,
+    "scored_common": 2225,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "real pregame lines",
+    "paired_vs_props-v0": {
+     "n": 2225,
+     "gain": 0.002773,
+     "t": 0.41,
+     "t_day_cluster": 0.36,
+     "days": 40
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 2225 events (pushes and any model abstention excluded).",
+    "splitcard = nbapicks.splitcard.combine (k=40) with its explore-fitted Platt calibration.",
+    "log-loss gain vs props-v0 +0.00277 on n=2225, paired t=0.41 (day-clustered t=0.36)."
+   ]
+  },
+  {
+   "name": "props-v1 ast over/under, 2025-10-21..2025-11-30 (validate)",
+   "kind": "props",
+   "market": "prop:ast",
+   "model_version": "props-v1",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-21",
+    "end": "2025-11-30"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 5% at the price used (worse price of the pair when sides are unlabelled)",
+   "price_basis": "conservative pair",
+   "eligible": 2225,
+   "bets": 661,
+   "wins": 350,
+   "losses": 311,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.5295,
+   "avg_prob": 0.6709,
+   "avg_price_dec": 1.7384,
+   "avg_implied": 0.578,
+   "units_staked": 661.0,
+   "net_units": -55.6817,
+   "net_dollars": -5568.17,
+   "roi": -0.0842,
+   "roi_ci": [
+    -0.1493,
+    -0.0184
+   ],
+   "logloss_model": 0.70023,
+   "logloss_baseline": 0.72255,
+   "logloss_market": null,
+   "brier_model": 0.25297,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 11,
+     "predicted": 0.0584,
+     "observed": 0.0909
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 28,
+     "predicted": 0.1689,
+     "observed": 0.5
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 172,
+     "predicted": 0.2634,
+     "observed": 0.4477
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 504,
+     "predicted": 0.3574,
+     "observed": 0.4385
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 767,
+     "predicted": 0.45,
+     "observed": 0.4772
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 525,
+     "predicted": 0.5426,
+     "observed": 0.5162
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 170,
+     "predicted": 0.6342,
+     "observed": 0.5471
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 30,
+     "predicted": 0.7385,
+     "observed": 0.6667
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 11,
+     "predicted": 0.8322,
+     "observed": 0.9091
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 7,
+     "predicted": 0.9319,
+     "observed": 1.0
+    }
+   ],
+   "coverage": {
+    "games": 299,
+    "player_games": 6542,
+    "dropped_lt10_prior_games": 542,
+    "dropped_lt10_mpg": 514,
+    "events": 5486,
+    "players": 406,
+    "stat_events": 2225,
+    "pushes_excluded": 0,
+    "scored_common": 2225,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "real pregame lines",
+    "paired_vs_props-v0": {
+     "n": 2225,
+     "gain": 0.022318,
+     "t": 4.44,
+     "t_day_cluster": 3.94,
+     "days": 40
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 2225 events (pushes and any model abstention excluded).",
+    "log-loss gain vs props-v0 +0.02232 on n=2225, paired t=4.44 (day-clustered t=3.94)."
+   ]
+  },
+  {
+   "name": "naive ast over/under, 2025-10-21..2025-11-30 (validate)",
+   "kind": "props",
+   "market": "prop:ast",
+   "model_version": "naive",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-21",
+    "end": "2025-11-30"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 5% at the price used (worse price of the pair when sides are unlabelled)",
+   "price_basis": "conservative pair",
+   "eligible": 2225,
+   "bets": 1128,
+   "wins": 591,
+   "losses": 537,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.5239,
+   "avg_prob": 0.7136,
+   "avg_price_dec": 1.7135,
+   "avg_implied": 0.5867,
+   "units_staked": 1128.0,
+   "net_units": -116.6415,
+   "net_dollars": -11664.15,
+   "roi": -0.1034,
+   "roi_ci": [
+    -0.1507,
+    -0.0523
+   ],
+   "logloss_model": 0.73671,
+   "logloss_baseline": 0.72255,
+   "logloss_market": null,
+   "brier_model": 0.26756,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 16,
+     "predicted": 0.0567,
+     "observed": 0.375
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 144,
+     "predicted": 0.1652,
+     "observed": 0.3819
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 401,
+     "predicted": 0.256,
+     "observed": 0.4564
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 502,
+     "predicted": 0.3511,
+     "observed": 0.4761
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 471,
+     "predicted": 0.4482,
+     "observed": 0.4904
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 360,
+     "predicted": 0.5455,
+     "observed": 0.55
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 218,
+     "predicted": 0.6423,
+     "observed": 0.4771
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 87,
+     "predicted": 0.7367,
+     "observed": 0.4943
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 16,
+     "predicted": 0.8511,
+     "observed": 0.75
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 10,
+     "predicted": 0.9475,
+     "observed": 0.9
+    }
+   ],
+   "coverage": {
+    "games": 299,
+    "player_games": 6542,
+    "dropped_lt10_prior_games": 542,
+    "dropped_lt10_mpg": 514,
+    "events": 5486,
+    "players": 406,
+    "stat_events": 2225,
+    "pushes_excluded": 0,
+    "scored_common": 2225,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 0,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "real pregame lines",
+    "paired_vs_props-v0": {
+     "n": 2225,
+     "gain": -0.014162,
+     "t": -2.0,
+     "t_day_cluster": -1.77,
+     "days": 40
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 2225 events (pushes and any model abstention excluded).",
+    "naive = naive season hit rate (season shrunk to career shrunk to 0.5, k=40).",
+    "log-loss gain vs props-v0 -0.01416 on n=2225, paired t=-2.0 (day-clustered t=-1.77)."
+   ]
+  },
+  {
+   "name": "props-v0 fg3m over/under, 2025-10-21..2025-11-30 (validate)",
+   "kind": "props",
+   "market": "prop:fg3m",
+   "model_version": "props-v0",
+   "baseline": "naive",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-21",
+    "end": "2025-11-30"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 5% at the price used (worse price of the pair when sides are unlabelled)",
+   "price_basis": "conservative pair",
+   "eligible": 2436,
+   "bets": 844,
+   "wins": 459,
+   "losses": 385,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.5438,
+   "avg_prob": 0.7008,
+   "avg_price_dec": 1.6914,
+   "avg_implied": 0.597,
+   "units_staked": 844.0,
+   "net_units": -73.7516,
+   "net_dollars": -7375.16,
+   "roi": -0.0874,
+   "roi_ci": [
+    -0.1456,
+    -0.0311
+   ],
+   "logloss_model": 0.69976,
+   "logloss_baseline": 0.7015,
+   "logloss_market": null,
+   "brier_model": 0.25192,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 36,
+     "predicted": 0.048,
+     "observed": 0.0833
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 94,
+     "predicted": 0.1625,
+     "observed": 0.3617
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 257,
+     "predicted": 0.2547,
+     "observed": 0.4047
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 546,
+     "predicted": 0.3523,
+     "observed": 0.4396
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 709,
+     "predicted": 0.4506,
+     "observed": 0.481
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 470,
+     "predicted": 0.5463,
+     "observed": 0.5362
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 237,
+     "predicted": 0.6419,
+     "observed": 0.5274
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 72,
+     "predicted": 0.7397,
+     "observed": 0.6111
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 13,
+     "predicted": 0.843,
+     "observed": 0.7692
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 2,
+     "predicted": 0.9047,
+     "observed": 1.0
+    }
+   ],
+   "coverage": {
+    "games": 299,
+    "player_games": 6542,
+    "dropped_lt10_prior_games": 542,
+    "dropped_lt10_mpg": 514,
+    "events": 5486,
+    "players": 406,
+    "stat_events": 2437,
+    "pushes_excluded": 0,
+    "scored_common": 2436,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 1,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "real pregame lines",
+    "paired_vs_naive": {
+     "n": 2436,
+     "gain": 0.001747,
+     "t": 0.31,
+     "t_day_cluster": 0.27,
+     "days": 40
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 2436 events (pushes and any model abstention excluded).",
+    "log-loss gain vs naive +0.00175 on n=2436, paired t=0.31 (day-clustered t=0.27)."
+   ]
+  },
+  {
+   "name": "splitcard fg3m over/under, 2025-10-21..2025-11-30 (validate)",
+   "kind": "props",
+   "market": "prop:fg3m",
+   "model_version": "splitcard",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-21",
+    "end": "2025-11-30"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 5% at the price used (worse price of the pair when sides are unlabelled)",
+   "price_basis": "conservative pair",
+   "eligible": 2436,
+   "bets": 645,
+   "wins": 354,
+   "losses": 291,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.5488,
+   "avg_prob": 0.6778,
+   "avg_price_dec": 1.7156,
+   "avg_implied": 0.5882,
+   "units_staked": 645.0,
+   "net_units": -43.2063,
+   "net_dollars": -4320.63,
+   "roi": -0.067,
+   "roi_ci": [
+    -0.1337,
+    -0.0008
+   ],
+   "logloss_model": 0.69244,
+   "logloss_baseline": 0.69976,
+   "logloss_market": null,
+   "brier_model": 0.24956,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 29,
+     "predicted": 0.0585,
+     "observed": 0.0345
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 41,
+     "predicted": 0.1632,
+     "observed": 0.3659
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 224,
+     "predicted": 0.2599,
+     "observed": 0.4152
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 548,
+     "predicted": 0.3556,
+     "observed": 0.438
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 874,
+     "predicted": 0.4496,
+     "observed": 0.5057
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 543,
+     "predicted": 0.5422,
+     "observed": 0.4807
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 136,
+     "predicted": 0.6305,
+     "observed": 0.5221
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 34,
+     "predicted": 0.7299,
+     "observed": 0.7353
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 7,
+     "predicted": 0.8238,
+     "observed": 1.0
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 299,
+    "player_games": 6542,
+    "dropped_lt10_prior_games": 542,
+    "dropped_lt10_mpg": 514,
+    "events": 5486,
+    "players": 406,
+    "stat_events": 2437,
+    "pushes_excluded": 0,
+    "scored_common": 2436,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 1,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "real pregame lines",
+    "paired_vs_props-v0": {
+     "n": 2436,
+     "gain": 0.007322,
+     "t": 1.32,
+     "t_day_cluster": 1.1,
+     "days": 40
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 2436 events (pushes and any model abstention excluded).",
+    "splitcard = nbapicks.splitcard.combine (k=40) with its explore-fitted Platt calibration.",
+    "log-loss gain vs props-v0 +0.00732 on n=2436, paired t=1.32 (day-clustered t=1.1)."
+   ]
+  },
+  {
+   "name": "props-v1 fg3m over/under, 2025-10-21..2025-11-30 (validate)",
+   "kind": "props",
+   "market": "prop:fg3m",
+   "model_version": "props-v1",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-21",
+    "end": "2025-11-30"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 5% at the price used (worse price of the pair when sides are unlabelled)",
+   "price_basis": "conservative pair",
+   "eligible": 2436,
+   "bets": 522,
+   "wins": 307,
+   "losses": 215,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.5881,
+   "avg_prob": 0.6696,
+   "avg_price_dec": 1.7168,
+   "avg_implied": 0.5884,
+   "units_staked": 522.0,
+   "net_units": -0.3858,
+   "net_dollars": -38.58,
+   "roi": -0.0007,
+   "roi_ci": [
+    -0.076,
+    0.0741
+   ],
+   "logloss_model": 0.67677,
+   "logloss_baseline": 0.69976,
+   "logloss_market": null,
+   "brier_model": 0.2421,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 31,
+     "predicted": 0.0504,
+     "observed": 0.0645
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 27,
+     "predicted": 0.1697,
+     "observed": 0.1852
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 194,
+     "predicted": 0.264,
+     "observed": 0.3351
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 546,
+     "predicted": 0.3558,
+     "observed": 0.4139
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 875,
+     "predicted": 0.4519,
+     "observed": 0.4857
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 545,
+     "predicted": 0.5415,
+     "observed": 0.5376
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 177,
+     "predicted": 0.6392,
+     "observed": 0.6102
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 34,
+     "predicted": 0.7342,
+     "observed": 0.7353
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 6,
+     "predicted": 0.8399,
+     "observed": 0.8333
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 1,
+     "predicted": 0.9278,
+     "observed": 1.0
+    }
+   ],
+   "coverage": {
+    "games": 299,
+    "player_games": 6542,
+    "dropped_lt10_prior_games": 542,
+    "dropped_lt10_mpg": 514,
+    "events": 5486,
+    "players": 406,
+    "stat_events": 2437,
+    "pushes_excluded": 0,
+    "scored_common": 2436,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 1,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "real pregame lines",
+    "paired_vs_props-v0": {
+     "n": 2436,
+     "gain": 0.022989,
+     "t": 5.14,
+     "t_day_cluster": 5.04,
+     "days": 40
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 2436 events (pushes and any model abstention excluded).",
+    "log-loss gain vs props-v0 +0.02299 on n=2436, paired t=5.14 (day-clustered t=5.04)."
+   ]
+  },
+  {
+   "name": "naive fg3m over/under, 2025-10-21..2025-11-30 (validate)",
+   "kind": "props",
+   "market": "prop:fg3m",
+   "model_version": "naive",
+   "baseline": "props-v0",
+   "split": "validate",
+   "period": {
+    "start": "2025-10-21",
+    "end": "2025-11-30"
+   },
+   "staking": "flat 1u per bet (1u = $100)",
+   "selection_rule": "EV >= 5% at the price used (worse price of the pair when sides are unlabelled)",
+   "price_basis": "conservative pair",
+   "eligible": 2436,
+   "bets": 885,
+   "wins": 491,
+   "losses": 394,
+   "pushes": 0,
+   "voids": 0,
+   "hit_rate": 0.5548,
+   "avg_prob": 0.7019,
+   "avg_price_dec": 1.6819,
+   "avg_implied": 0.6008,
+   "units_staked": 885.0,
+   "net_units": -66.8785,
+   "net_dollars": -6687.85,
+   "roi": -0.0756,
+   "roi_ci": [
+    -0.1311,
+    -0.0181
+   ],
+   "logloss_model": 0.7015,
+   "logloss_baseline": 0.69976,
+   "logloss_market": null,
+   "brier_model": 0.25312,
+   "brier_market": null,
+   "calibration": [
+    {
+     "lo": 0.0,
+     "hi": 0.1,
+     "n": 36,
+     "predicted": 0.0408,
+     "observed": 0.0556
+    },
+    {
+     "lo": 0.1,
+     "hi": 0.2,
+     "n": 93,
+     "predicted": 0.1601,
+     "observed": 0.3548
+    },
+    {
+     "lo": 0.2,
+     "hi": 0.3,
+     "n": 336,
+     "predicted": 0.2571,
+     "observed": 0.4048
+    },
+    {
+     "lo": 0.3,
+     "hi": 0.4,
+     "n": 559,
+     "predicted": 0.3553,
+     "observed": 0.483
+    },
+    {
+     "lo": 0.4,
+     "hi": 0.5,
+     "n": 730,
+     "predicted": 0.4497,
+     "observed": 0.4836
+    },
+    {
+     "lo": 0.5,
+     "hi": 0.6,
+     "n": 469,
+     "predicted": 0.543,
+     "observed": 0.4968
+    },
+    {
+     "lo": 0.6,
+     "hi": 0.7,
+     "n": 159,
+     "predicted": 0.6386,
+     "observed": 0.5597
+    },
+    {
+     "lo": 0.7,
+     "hi": 0.8,
+     "n": 42,
+     "predicted": 0.7474,
+     "observed": 0.6667
+    },
+    {
+     "lo": 0.8,
+     "hi": 0.9,
+     "n": 12,
+     "predicted": 0.8445,
+     "observed": 0.9167
+    },
+    {
+     "lo": 0.9,
+     "hi": 1.0,
+     "n": 0,
+     "predicted": null,
+     "observed": null
+    }
+   ],
+   "coverage": {
+    "games": 299,
+    "player_games": 6542,
+    "dropped_lt10_prior_games": 542,
+    "dropped_lt10_mpg": 514,
+    "events": 5486,
+    "players": 406,
+    "stat_events": 2437,
+    "pushes_excluded": 0,
+    "scored_common": 2436,
+    "abstained": {
+     "props-v0": 0,
+     "splitcard": 0,
+     "props-v1": 1,
+     "naive": 0
+    },
+    "subsample": "players with >= 10 prior games and >= 10 mpg over their last 10 (point in time); every such player-game, DNPs excluded",
+    "lines": "real pregame lines",
+    "paired_vs_props-v0": {
+     "n": 2436,
+     "gain": -0.001747,
+     "t": -0.31,
+     "t_day_cluster": -0.27,
+     "days": 40
+    }
+   },
+   "notes": [
+    "Walk-forward: each slate day uses only games before it (US/Eastern day).",
+    "teammates_out = key teammates (top 3 by minutes this season) absent from this game's box: a proxy for the pregame injury report that includes late scratches.",
+    "Only player-games the player actually played are scored (a DNP would void a real bet).",
+    "All models scored on the same 2436 events (pushes and any model abstention excluded).",
+    "naive = naive season hit rate (season shrunk to career shrunk to 0.5, k=40).",
+    "log-loss gain vs props-v0 -0.00175 on n=2436, paired t=-0.31 (day-clustered t=-0.27)."
+   ]
+  }
+ ]
+}

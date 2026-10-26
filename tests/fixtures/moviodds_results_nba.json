@@ -1,0 +1,155 @@
+{
+ "keys": [
+  "sport",
+  "count",
+  "results",
+  "source"
+ ],
+ "sample": [
+  {
+   "fixture_id": "202670356",
+   "sport": "basketball",
+   "home": "GS Valkyries",
+   "away": "ATL Dream",
+   "league": "WNBA",
+   "final_score": "68-64",
+   "periods": [
+    {
+     "name": "Quarter 1",
+     "score": "14-20"
+    },
+    {
+     "name": "Quarter 2",
+     "score": "28-19"
+    },
+    {
+     "name": "Quarter 3",
+     "score": "9-15"
+    },
+    {
+     "name": "Quarter 4",
+     "score": "17-10"
+    }
+   ],
+   "status": "finished",
+   "finished_at": "2026-10-17T21:51:14.983244Z",
+   "updated_at": "2026-10-19T02:20:18.030711Z"
+  },
+  {
+   "fixture_id": "202916859",
+   "sport": "basketball",
+   "home": "LA Lakers",
+   "away": "DEN Nuggets",
+   "league": "NBA Pre-Season",
+   "final_score": "106-121",
+   "periods": [
+    {
+     "name": "Quarter 1",
+     "score": "22-36"
+    },
+    {
+     "name": "Quarter 2",
+     "score": "33-26"
+    },
+    {
+     "name": "Quarter 3",
+     "score": "28-26"
+    },
+    {
+     "name": "Quarter 4",
+     "score": "23-33"
+    }
+   ],
+   "status": "finished",
+   "finished_at": "2026-10-17T05:04:47.339554Z",
+   "updated_at": "2026-10-17T05:06:47.938716Z"
+  },
+  {
+   "fixture_id": "202916853",
+   "sport": "basketball",
+   "home": "GS Warriors",
+   "away": "POR Trail Blazers",
+   "league": "NBA Pre-Season",
+   "final_score": "128-118",
+   "periods": [
+    {
+     "name": "Quarter 1",
+     "score": "35-26"
+    },
+    {
+     "name": "Quarter 2",
+     "score": "32-32"
+    },
+    {
+     "name": "Quarter 3",
+     "score": "38-33"
+    },
+    {
+     "name": "Quarter 4",
+     "score": "23-27"
+    }
+   ],
+   "status": "finished",
+   "finished_at": "2026-10-17T04:34:47.920068Z",
+   "updated_at": "2026-10-17T04:36:47.341801Z"
+  },
+  {
+   "fixture_id": "202916856",
+   "sport": "basketball",
+   "home": "PHX Suns",
+   "away": "UTA Jazz",
+   "league": "NBA Pre-Season",
+   "final_score": "116-119",
+   "periods": [
+    {
+     "name": "Quarter 1",
+     "score": "32-31"
+    },
+    {
+     "name": "Quarter 2",
+     "score": "33-28"
+    },
+    {
+     "name": "Quarter 3",
+     "score": "28-31"
+    },
+    {
+     "name": "Quarter 4",
+     "score": "23-29"
+    }
+   ],
+   "status": "finished",
+   "finished_at": "2026-10-17T04:26:47.926852Z",
+   "updated_at": "2026-10-17T04:28:47.326319Z"
+  },
+  {
+   "fixture_id": "202916850",
+   "sport": "basketball",
+   "home": "CHI Bulls",
+   "away": "MIN Timberwolves",
+   "league": "NBA Pre-Season",
+   "final_score": "133-116",
+   "periods": [
+    {
+     "name": "Quarter 1",
+     "score": "31-28"
+    },
+    {
+     "name": "Quarter 2",
+     "score": "36-32"
+    },
+    {
+     "name": "Quarter 3",
+     "score": "31-27"
+    },
+    {
+     "name": "Quarter 4",
+     "score": "35-29"
+    }
+   ],
+   "status": "finished",
+   "finished_at": "2026-10-17T02:37:17.943857Z",
+   "updated_at": "2026-10-17T02:39:03.515387Z"
+  }
+ ]
+}

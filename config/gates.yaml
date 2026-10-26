@@ -1,0 +1,41 @@
+# Promotion gates. Written 2026-10-20 BEFORE any validate/holdout result was seen.
+# Changing a gate is a material change: record why in data/research/decisions.jsonl.
+# Status ladder per market: research -> paper -> live.  Demotion needs no vote.
+splits:            # ESPN season years (2015 = 2014-15)
+  explore: [2015, 2020]
+  validate: [2021, 2023]
+  holdout: [2024, 2026]   # scored once per frozen candidate; never tuned on
+paper:             # research -> paper (picks published, labelled PAPER)
+  min_games_with_quotes_share: 0.95
+  explore_logloss_gain_vs_market: 0.0     # blended model must beat de-vigged close (strictly)
+  validate_logloss_gain_vs_market: 0.0
+  validate_roi_at_threshold: 0.0          # flat 1u at the closing price
+  validate_min_bets: 150
+  # added 2026-10-20 after the Skeptic review (team/reviews/2026-10-20-skeptic.md), before any re-run:
+  logloss_gain_min_t: 2.0                 # a log-loss gain counts only with paired t >= 2 (explore scored out-of-fold)
+  explore_min_bets_for_threshold: 100     # an EV threshold is chosen only among those with >= 100 explore bets
+live:              # paper -> live (picks published as qualified)
+  holdout_roi_at_threshold: 0.0
+  holdout_t_at_least_noise_floor: true    # t >= sqrt(2 ln N) for N variants tried
+  holdout_min_bets: 300
+  forward_paper_min_settled: 200
+  forward_paper_mean_clv_prob: 0.0        # positive mean closing-line value
+  independent_review: required
+demotion:
+  rolling_settled: 150
+  rolling_roi_below: -0.08                # live -> paper
+  calibration_error_above: 0.06           # mean |pred - obs| over populated deciles
+# Player props (added 2026-10-22 by Prop research, BEFORE any props-v1 validate result was seen;
+# see data/research/decisions.jsonl). Dates are US/Eastern slate days, inclusive.
+props:
+  splits:
+    explore: {end: 2025-06-30}                     # everything before 2025-07-01 (ESPN 2023-2025)
+    validate: {start: 2025-10-01, end: 2026-01-31}
+    holdout: {start: 2026-02-01, end: 2026-06-30}  # nbapicks.propbacktest refuses it without --holdout
+  paper:
+    validate_logloss_gain_vs: props-v0             # challenger must beat props-v0 on the same validate events
+    validate_logloss_gain_min_t: 2.0               # paired t of per-event log-loss difference
+    market_validate_roi: 0.0                       # comparisons with the market: ROI > 0 on validate ...
+    market_validate_min_bets: 150                  # ... with >= 150 bets ...
+    market_price_basis: real                       # ... at real recorded prices (labelled or conservative pair), never synthetic
+    selection_rule: "EV >= 5% at the price used, flat 1u"

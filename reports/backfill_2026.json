@@ -1,0 +1,16 @@
+{
+ "season": 2026,
+ "games": 1326,
+ "finals": 1322,
+ "finals_with_odds": 1322,
+ "odds_rows": 16405,
+ "box_rows": 34697,
+ "errors": 5,
+ "first_errors": [
+  "scoreboard 2025-10-04: 'abbreviation'",
+  "box 401869402: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401869402: 404 Not Found",
+  "box 401871334: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401871334: 404 Not Found",
+  "box 401871337: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401871337: 404 Not Found",
+  "box 401873343: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401873343: 404 Not Found"
+ ]
+}

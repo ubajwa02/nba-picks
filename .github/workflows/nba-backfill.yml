@@ -1,0 +1,75 @@
+name: nba-backfill
+# Pulls historical games, odds, box scores and player-prop prices from ESPN into data/history/.
+on:
+  workflow_dispatch:
+    inputs:
+      seasons:
+        description: "ESPN season years, space separated (2025 = 2024-25). Empty = all seasons 2014-2026 in 5 parallel groups"
+        default: ""
+      box:
+        description: "box scores: auto (2024+ only) / yes (games, odds and box) / only (re-fetch box only, e.g. to refresh new box columns or fetch 2015-2022) / no"
+        default: "auto"
+      props:
+        description: "historical player-prop prices only (data/history/props_<season>.csv.gz): yes/no"
+        default: "no"
+permissions:
+  contents: write
+concurrency:
+  group: nba-state-backfill-${{ github.ref_name }}
+  cancel-in-progress: false
+jobs:
+  plan:
+    # One job for the given seasons; the 5-group matrix only when no seasons are given.
+    # (Before: every matrix job ran the same input seasons, five times over.)
+    runs-on: ubuntu-latest
+    outputs:
+      groups: ${{ steps.p.outputs.groups }}
+    steps:
+      - id: p
+        env:
+          SEASONS: ${{ inputs.seasons }}
+        run: |
+          S="$(echo "$SEASONS" | tr -s ' ' | sed 's/^ //; s/ $//')"
+          if [ -n "$S" ]; then
+            echo "$S" | grep -qE '^[0-9]{4}( [0-9]{4})*$' || { echo "bad seasons: $S"; exit 1; }
+            echo "groups=[\"$S\"]" >> "$GITHUB_OUTPUT"
+          else
+            echo 'groups=["2014 2015 2016", "2017 2018 2019", "2020 2021 2022", "2023 2024", "2025 2026"]' >> "$GITHUB_OUTPUT"
+          fi
+  backfill:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        group: ${{ fromJSON(needs.plan.outputs.groups) }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Backfill
+        env:
+          SEASONS: ${{ matrix.group }}
+          BOX: ${{ inputs.box || 'auto' }}
+          PROPS: ${{ inputs.props || 'no' }}
+        run: |
+          pip install -q -r requirements.txt
+          if [ "$PROPS" = "yes" ] || [ "$BOX" = "only" ]; then
+            ARGS=""
+            if [ "$PROPS" = "yes" ]; then ARGS="$ARGS --props"; fi
+            if [ "$BOX" = "only" ]; then ARGS="$ARGS --box-only"; fi
+            python -m nbapicks.history $SEASONS $ARGS
+          else
+            ARGS=""
+            if [ "$BOX" = "yes" ]; then ARGS="--box"; fi
+            if [ "$BOX" = "auto" ] && echo "$SEASONS" | grep -qE '2024|2025|2026'; then ARGS="--box"; fi
+            python -m nbapicks.history $SEASONS $ARGS
+          fi
+      - name: Commit
+        run: |
+          ops/commit_changed.sh "backfill: ${{ matrix.group }} (box=${{ inputs.box || 'auto' }}, props=${{ inputs.props || 'no' }})" data/history reports

@@ -1,0 +1,25 @@
+# Contribution scorecards, 100-point framework (quality 25, testing 25, contribution 20, documentation 15,
+# collaboration 15). Scored 2026-10-20 by the team lead on the evidence linked in 'basis'. Only workstreams
+# with a distinct executor and reviewable output are scored; the team lead's own row is a self-assessment and
+# needs your review. Picks produced and report length earn nothing; a well-supported rejection counts.
+- role: Skeptic / independent review (fresh-context reviewer)
+  quality: 24
+  testing: 23
+  contribution: 20
+  documentation: 13
+  collaboration: 14
+  basis: "10 findings, 6 reproduced by failing tests; found in-game closing lines and a gate that passed on noise, which changed the research result. team/reviews/2026-10-20-skeptic.md"
+- role: QA and model validation (fresh-context reviewer)
+  quality: 24
+  testing: 25
+  contribution: 19
+  documentation: 13
+  collaboration: 14
+  basis: "2 critical and 7 major defects, 13 failing repro tests plus a git simulation of the workflow race; every finding verified before fix. team/reviews/2026-10-20-qa.md"
+- role: Team lead / orchestration (self-assessed)
+  quality: 17
+  testing: 18
+  contribution: 14
+  documentation: 13
+  collaboration: 12
+  basis: "Built the MVP and fixed all 19 reproduced defects with tests, but shipped them first: two critical ledger bugs, an invalid workflow file and contaminated history lines reached the branch before review. Self-assessment; needs owner review."

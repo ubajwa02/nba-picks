@@ -1,0 +1,52 @@
+# Data-source inventory. Evidence: reports/source_probe.md, reports/source_probe2.md (GitHub runner, 2026-10-20).
+# Pricing/terms checked 2026-10-20; re-check before relying on any 'free' claim.
+- name: ESPN site API (site.api.espn.com)
+  use: schedule, scores, game status, box scores, injuries
+  status: in use
+  coverage: "Scoreboard back to 2008 (verified 2008-2026); box scores per game; current injury list (no history)"
+  limits: "Undocumented public JSON, no key, no published rate limit; may change without notice. Injury list is current-only, so no point-in-time injury history for backtests."
+- name: ESPN core API odds (sports.core.api.espn.com)
+  use: game lines (ml/spread/total) and DraftKings player props; historical closing lines for backtests
+  status: in use
+  coverage: "Multi-book final lines 2013-14 to 2022-23 (untimed, flagged final_quote_untimed); open + close 2023-24 onward; DraftKings current for 2026-27; DK props: points, rebounds, assists, threes"
+  limits: "Movement history endpoint returns empty. Props are listed in pairs without an over/under label, so they stay unscored until the side is verified against bet365. Not FanDuel."
+- name: MovioOdds (moviodds.com)
+  use: bet365 game lines and player milestone props, for comparison and prop-side verification
+  status: optional
+  coverage: "NBA game lines (group 1453), player milestone ladders (15+, 20+...), per-quote timestamps, /history and /closing since Sept 2026, /results"
+  limits: "Free beta run by one developer, no key, no terms page found (404), no uptime promise, HTTP 429 after rapid requests; 8 MB per basketball snapshot. bet365 prices only; milestone props are one-sided. Used at one request per run."
+- name: NBA CDN / stats.nba.com
+  use: official schedule and stats
+  status: rejected
+  coverage: "Would be the official source"
+  limits: "cdn.nba.com returns 403 and stats.nba.com times out from GitHub runners (cloud IPs blocked)."
+- name: NBA official injury report PDFs (official.nba.com)
+  use: timestamped official injury statuses
+  status: candidate
+  coverage: "PDFs every 15 minutes on game days, listing reachable from runners"
+  limits: "Needs PDF parsing; not built yet. ESPN's list is used meanwhile."
+- name: The Odds API
+  use: FanDuel and other US book prices
+  status: candidate
+  coverage: "Includes FanDuel (US). Free Starter tier of 500 credits/month according to third-party listings (sportsapis.dev, oddspapi.io); not confirmed on the vendor site from here."
+  limits: "Needs a key only the owner can create; US FanDuel may differ from FanDuel Ontario; 500 credits cover roughly one market snapshot a day."
+- name: balldontlie
+  use: stats
+  status: rejected
+  coverage: "Stats API"
+  limits: "Requires a key (401 without one); ESPN already covers the need."
+- name: basketball-reference
+  use: historical stats
+  status: rejected
+  coverage: "Deep history"
+  limits: "Terms restrict scraping; robots.txt disallows large parts; ESPN box scores used instead."
+- name: FanDuel Sportsbook Ontario
+  use: execution prices
+  status: rejected
+  coverage: "The book you bet at"
+  limits: "No public API; reading its private app endpoints would breach its terms. Picks carry the minimum FanDuel price instead, and you check it by hand."
+- name: Discord
+  use: publishing picks and recaps; reading other channels' signals
+  status: in use
+  coverage: "Publishing via a channel webhook you create (secret NBA_DISCORD_WEBHOOK_URL)"
+  limits: "No bot token or server access was granted, so other channels' signals are imported from data/manual/signals.csv."

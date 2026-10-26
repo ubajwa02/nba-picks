@@ -1,0 +1,73 @@
+name: nba-daily
+# The NBA Picks day: ingest, predict, publish (once), settle, recap, diagnose, export.
+# Every predict run records each candidate; a changed price/line/injury picture writes a new
+# version (never an overwrite). A failed ingest skips predict/publish and fails the job after
+# committing what it has, so a stale run is never reported as a good one.
+# Times are UTC. Publishing is dry-run until config/nbapicks.yaml says otherwise.
+on:
+  schedule:
+    - cron: "0 15 * * *"    # ~11:00 ET  morning read: ingest + predict
+    - cron: "30 20 * * *"   # ~16:30 ET  picks: ingest + predict + publish
+    - cron: "30 22 * * *"   # ~18:30 ET  pre-tip refresh before 7pm tips: injuries/lineups/prices (no publish)
+    - cron: "15 23 * * *"   # ~19:15 ET  pre-tip refresh for later tips (no publish)
+    - cron: "0 7 * * *"     # ~03:00 ET  results: settle + recap
+    - cron: "0 13 * * *"    # ~09:00 ET  late results catch-up
+  push:
+    branches: [main]
+    paths: [ops/trigger]
+  workflow_dispatch:
+    inputs:
+      steps:
+        description: "steps to run (ingest predict publish settle recap export | all)"
+        default: "ingest predict settle export"
+permissions:
+  contents: write
+concurrency:
+  group: nba-state           # one writer at a time. GitHub keeps one pending run per group: a newer
+                             # queued run replaces an older pending one (the next scheduled run catches up)
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}   # a queued run must not reuse a stale commit's state
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Choose steps
+        id: steps
+        env:
+          SCHED: ${{ github.event.schedule }}
+          INPUT: ${{ inputs.steps }}
+        run: |
+          case "$SCHED" in
+            "30 20 * * *") S="ingest predict publish settle export" ;;
+            "0 7 * * *"|"0 13 * * *") S="ingest settle recap diagnose export" ;;
+            "") S="${INPUT:-ingest predict settle export}" ;;
+            *) S="ingest predict settle export" ;;
+          esac
+          if [ -f ops/trigger ] && [ -z "$SCHED" ] && [ -z "$INPUT" ]; then S="$(head -1 ops/trigger)"; fi
+          echo "steps=$S" >> "$GITHUB_OUTPUT"; echo "steps: $S"
+      - name: Run
+        id: run
+        env:
+          NBA_DISCORD_WEBHOOK_URL: ${{ secrets.NBA_DISCORD_WEBHOOK_URL }}
+          STEPS: ${{ steps.steps.outputs.steps }}
+        run: |
+          set +e
+          python -m nbapicks.pipeline $STEPS 2>&1 | tee /tmp/run.log
+          echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+      - name: Commit ledger and dashboard data
+        if: always()
+        env:
+          STEPS: ${{ steps.steps.outputs.steps }}
+        run: |
+          ops/commit_changed.sh "nba: $STEPS" data/ledger data/state data/ref data/research reports site
+      - name: Fail if a step failed
+        if: steps.run.outputs.code != '0'
+        run: tail -n 60 /tmp/run.log; exit 1

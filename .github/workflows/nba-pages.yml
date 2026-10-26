@@ -1,0 +1,34 @@
+name: nba-pages
+# Optional public copy of the dashboard on GitHub Pages. OFF unless the repository variable
+# PAGES_ENABLED is 'true' AND Pages is set to "GitHub Actions" in Settings -> Pages. The page is
+# public: enable it only if you want the picks visible to anyone. Runs after each daily/weekly run.
+on:
+  workflow_run:
+    workflows: [nba-daily, nba-research, nba-backtest]
+    types: [completed]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: nba-pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    if: vars.PAGES_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

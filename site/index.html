@@ -1,0 +1,472 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NBA Picks</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: sticky top bar with view tabs; each view is a column of panels on a 12-col grid that collapses to one column on phones.
+   Tables scroll inside .tablewrap so the page itself never scrolls sideways. */
+:root {
+  --bg: #0b0f12; --panel: #12181d; --panel-2: #182027; --line: #243039; --fg: #dbe4ea; --muted: #8394a1;
+  --pos: #39e58c; --neg: #ff5c6c; --warn: #f2b84b; --info: #6cb6ff; --paper: #c49bff;
+  --display: "Barlow Semi Condensed", "Arial Narrow", system-ui, sans-serif;
+  --body: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  color-scheme: dark;
+}
+* { box-sizing: border-box }
+html, body { overflow-x: hidden; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 var(--body); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.wrap { max-width: 1280px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 48px; }
+header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+.bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; padding-block: 12px; }
+.brand { font: 700 22px/1 var(--display); letter-spacing: .02em; display: flex; align-items: center; gap: 10px; }
+.brand i { width: 10px; height: 10px; border-radius: 50%; background: var(--pos); box-shadow: 0 0 10px var(--pos); }
+.brand i.stale { background: var(--warn); box-shadow: 0 0 10px var(--warn); }
+nav { display: flex; gap: 2px; overflow-x: auto; flex: 1 1 auto; min-width: 0; scrollbar-width: none; }
+nav a { color: var(--muted); text-decoration: none; font: 600 14px var(--display); letter-spacing: .06em; text-transform: uppercase; padding: 6px 10px; border-radius: 6px; white-space: nowrap; }
+nav a[aria-current="true"] { color: var(--fg); background: var(--panel-2); }
+nav a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid var(--info); outline-offset: 2px; }
+.meta { font: 12px var(--mono); color: var(--muted); }
+h2 { font: 700 26px/1.1 var(--display); margin: 28px 0 4px; text-wrap: balance; letter-spacing: .01em; }
+h3 { font: 600 15px var(--display); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0 0 10px; }
+h4 { font: 600 17px var(--display); margin: 18px 0 8px; letter-spacing: .02em; }
+.sub { color: var(--muted); margin: 0 0 16px; max-width: 80ch; }
+.grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 14px; }
+.panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; min-width: 0; }
+.s2 { grid-column: span 2 } .s3 { grid-column: span 3 } .s4 { grid-column: span 4 } .s6 { grid-column: span 6 } .s8 { grid-column: span 8 } .s12 { grid-column: span 12 }
+@media (max-width: 900px) { .s2 { grid-column: span 4 } .s3, .s4 { grid-column: span 6 } .s6, .s8 { grid-column: span 12 } }
+@media (max-width: 560px) { .s2 { grid-column: span 6 } .s3, .s4, .s6, .s8 { grid-column: span 12 } }
+.kpi .v { font: 700 30px/1 var(--display); font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.kpi .l { font-size: 13px; color: var(--muted); margin-top: 6px; }
+details.more { margin-block: 12px } details.more > summary { cursor: pointer; color: var(--fg); padding-block: 8px; font: 600 16px var(--display); letter-spacing: .02em; }
+.pos { color: var(--pos) } .neg { color: var(--neg) } .warn { color: var(--warn) } .mut { color: var(--muted) }
+.pill { display: inline-block; font: 600 11px/1 var(--mono); letter-spacing: .04em; text-transform: uppercase; padding: 4px 7px; border-radius: 999px; border: 1px solid currentColor; white-space: nowrap; }
+.p-eligible, .p-ok, .p-live, .p-sent, .p-completed, .p-done, .p-win, .p-final { color: var(--pos) }
+.p-watch, .p-paper, .p-dry_run, .p-in_progress, .p-review { color: var(--paper) }
+.p-hold, .p-research, .p-blocked, .p-todo, .p-stale { color: var(--warn) }
+.p-reject, .p-failed, .p-fail, .p-loss { color: var(--neg) }
+.p-pending, .p-push, .p-void, .p-scheduled, .p-info, .p-cashout { color: var(--muted) }
+.tag { display: inline-block; font: 11px/1.4 var(--mono); color: var(--warn); border: 1px dashed var(--warn); border-radius: 4px; padding: 0 5px; margin-left: 4px; white-space: nowrap; }
+.tablewrap { overflow-x: auto; max-width: 100%; -webkit-overflow-scrolling: touch; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th { text-align: left; font: 600 12px var(--display); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); padding: 8px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+td { padding: 8px 10px; border-bottom: 1px solid color-mix(in srgb, var(--line) 60%, transparent); vertical-align: top; }
+td.n, th.n { text-align: right; font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr:hover td { background: color-mix(in srgb, var(--panel-2) 70%, transparent); }
+.reason { color: var(--muted); font-size: 13px; max-width: 60ch; }
+.who { color: var(--muted); font-size: 13px; }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; align-items: center; }
+.filters label { font-size: 13px; color: var(--muted); display: inline-flex; gap: 6px; align-items: center; }
+select, input[type=search], input[type=number] { background: var(--panel-2); color: var(--fg); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; font: 14px var(--body); min-width: 0; max-width: 100%; }
+input[type=number] { width: 5em; }
+.seg { display: inline-flex; flex-wrap: wrap; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.seg button { background: transparent; color: var(--muted); border: 0; padding: 6px 12px; font: 600 13px var(--display); letter-spacing: .05em; text-transform: uppercase; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--panel-2); color: var(--fg); }
+.empty { color: var(--muted); padding: 18px; border: 1px dashed var(--line); border-radius: 8px; text-align: center; margin: 0; }
+.banner { border: 1px solid var(--warn); color: var(--warn); background: color-mix(in srgb, var(--warn) 8%, transparent); border-radius: 8px; padding: 10px 14px; margin-top: 16px; font-size: 14px; }
+.banner.bad { border-color: var(--neg); color: var(--neg); background: color-mix(in srgb, var(--neg) 8%, transparent); }
+.banner ul { margin: 4px 0 0; padding-left: 18px; }
+.note { border-left: 3px solid var(--info); padding: 6px 12px; color: var(--fg); background: color-mix(in srgb, var(--info) 6%, transparent); border-radius: 0 6px 6px 0; margin: 10px 0; font-size: 14px; }
+.list { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.list li { display: flex; gap: 10px; align-items: baseline; justify-content: space-between; flex-wrap: wrap; }
+.games { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
+.game { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 14px; min-width: 0; }
+.game .tip { font: 12px var(--mono); color: var(--muted); display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.game .teams { font: 700 22px/1.2 var(--display); margin: 8px 0; display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; }
+.game .teams .sc { font-family: var(--mono); font-size: 18px; text-align: right; }
+.game .foot { font-size: 13px; color: var(--muted); }
+details.why > summary { cursor: pointer; color: var(--info); font-size: 13px; margin-top: 4px; }
+details.why dl { display: grid; grid-template-columns: minmax(120px, max-content) minmax(0, 1fr); gap: 2px 12px; margin: 8px 0; font-size: 13px; }
+details.why dt { color: var(--muted); } details.why dd { margin: 0; overflow-wrap: anywhere; }
+.na { color: var(--muted); font-style: italic; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; font: 12px/1.5 var(--mono); color: var(--fg); background: var(--panel-2); padding: 12px; border-radius: 8px; max-height: 480px; overflow: auto; }
+dl.help { display: grid; grid-template-columns: minmax(140px, max-content) minmax(0, 1fr); gap: 8px 16px; margin: 0; }
+dl.help dt { font-weight: 600; } dl.help dd { margin: 0; color: var(--muted); }
+@media (max-width: 560px) { dl.help, details.why dl { grid-template-columns: 1fr; } }
+.player { margin-bottom: 14px; }
+.player .ph { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px; align-items: baseline; margin-bottom: 8px; }
+.player .ph b { font: 700 19px var(--display); }
+code { font: 12px var(--mono); color: var(--muted); overflow-wrap: anywhere; }
+@media (prefers-reduced-motion: no-preference) { .panel { transition: border-color .15s } .panel:hover { border-color: #31414d } }
+</style>
+
+<header><div class="wrap bar">
+  <div class="brand"><i aria-hidden="true" id="dot"></i>NBA Picks</div>
+  <nav id="nav" aria-label="Views"></nav>
+  <div class="meta" id="stamp"></div>
+</div></header>
+<main class="wrap" id="app"><p class="empty">Loading dashboard data…</p></main>
+<script id="embedded" type="application/json"></script>
+<script>
+"use strict";
+const VIEWS = [["today","Today"],["picks","Picks"],["performance","Performance"],["players","Player & Team"],["valuation","Model Valuation"],["research","Research & Model Health"],["command","Command Center"],["settings","Settings & Audit"]];
+const MK = {ml:"Moneyline",spread:"Spread",total:"Total Points",prop:"Player Prop",parlay:"Parlay",lotto:"Lotto",straight:"Straight"};
+const DEC = {eligible:"Qualified",watch:"Watch",hold:"Held",reject:"Rejected",info:"Info"};
+const RES = {win:"✓ Win",loss:"✗ Loss",push:"= Push",void:"Void",pending:"Pending",cashout:"Cash-out"};
+let D = null;
+const $ = (s, el=document) => el.querySelector(s);
+const $$ = (s, el=document) => [...el.querySelectorAll(s)];
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const pct = (x, d=1) => x == null ? "–" : (x*100).toFixed(d) + "%";
+const spct = (x, d=1) => x == null ? "–" : (x>=0?"+":"") + (x*100).toFixed(d) + "%";
+const u = x => x == null ? "–" : (x>=0?"+":"") + Number(x).toFixed(2) + "u";
+const usd = x => x == null ? "–" : (x<0?"−$":x>0?"+$":"$") + Math.abs(x).toLocaleString(undefined, {minimumFractionDigits: 0, maximumFractionDigits: 0});
+const cls = x => x == null ? "mut" : x > 0 ? "pos" : x < 0 ? "neg" : "mut";
+const amS = a => a == null ? "–" : (a > 0 ? "+" : "") + a;
+const amFromDec = d => { if (!d || d <= 1) return null; return d >= 2 ? Math.round((d-1)*100) : -Math.round(100/(d-1)); };
+const price = r => r.price_dec ? `${amS(r.price_american ?? amFromDec(r.price_dec))} <span class="meta">${Number(r.price_dec).toFixed(2)}</span>${r.conservative ? `<span class="tag" title="Unlabelled two-sided price: the worse of the two was used, so EV is a lower bound">conservative price</span>` : ""}` : `<span class="na">no price</span>`;
+const pill = (s, label) => `<span class="pill p-${esc(s)}">${esc(label ?? s)}</span>`;
+const decPill = d => pill(d, DEC[d] || d);
+const resPill = r => pill(r || "pending", RES[r || "pending"] || r);
+const toDate = iso => { const s = String(iso); return new Date(/([zZ]|[+-]\d\d:\d\d)$/.test(s) ? s : s + "Z"); };
+const time = iso => { if (!iso) return "–"; const t = toDate(iso); return isNaN(t) ? String(iso) : t.toLocaleString([], {month:"short", day:"numeric", hour:"numeric", minute:"2-digit"}); };
+const tip = iso => { if (!iso) return "–"; const t = toDate(iso); return isNaN(t) ? String(iso) : t.toLocaleTimeString([], {hour:"numeric", minute:"2-digit"}); };
+const hn = o => o && o.n ? `${o.h ?? 0}/${o.n} (${Math.round(100*(o.h ?? 0)/o.n)}%)` : `<span class="na">not available</span>`;
+const na = v => v == null || v === "" ? `<span class="na">not available</span>` : esc(v);
+const tbl = (head, rows, empty) => rows.length ? `<div class="tablewrap"><table><thead><tr>${head.map(h => `<th${h.startsWith("#") ? ' class="n"' : ""}>${esc(h.replace(/^#/, ""))}</th>`).join("")}</tr></thead><tbody>${rows.join("")}</tbody></table></div>` : `<p class="empty">${esc(empty)}</p>`;
+const kv = o => tbl(["Setting", "#Value"], Object.entries(o || {}).map(([k,v]) => `<tr><td>${esc(String(k).replaceAll("_"," "))}</td><td class="n">${esc(typeof v === "object" && v !== null ? JSON.stringify(v) : v)}</td></tr>`), "Not set.");
+const get = (o, ...ks) => ks.reduce((a, k) => (a == null ? undefined : a[k]), o);
+
+async function boot() {
+  const emb = $("#embedded").textContent.trim();
+  try { D = emb ? JSON.parse(emb) : await (await fetch("data.json", {cache: "no-store"})).json(); }
+  catch (e) { $("#app").innerHTML = `<p class="empty">Could not load data.json (${esc(e.message)}). The daily job writes it; run the pipeline's export step.</p>`; return; }
+  if (!D.meta) { $("#app").innerHTML = `<p class="empty">data.json is from an older exporter (no "meta" section). Re-run the export step.</p>`; return; }
+  $("#nav").innerHTML = VIEWS.map(([k,v]) => `<a href="#${k}" data-v="${k}">${v}</a>`).join("");
+  $("#stamp").textContent = `Last updated ${time(D.meta.generated_at)}`;
+  if ((D.meta.warnings || []).length) $("#dot").classList.add("stale");
+  window.addEventListener("hashchange", route); route();
+}
+function route() {
+  const v = (location.hash || "#today").slice(1);
+  const view = VIEWS.some(([k]) => k === v) ? v : "today";
+  $$("nav a").forEach(a => a.setAttribute("aria-current", a.dataset.v === view));
+  try { $("#app").innerHTML = R[view](); (A[view] || (() => {}))(); }
+  catch (e) { $("#app").innerHTML = `<p class="empty">This view could not be drawn (${esc(e.message)}).</p>`; console.error(e); }
+  window.scrollTo(0, 0);
+}
+const R = {}, A = {};
+
+function banner() {
+  const m = D.meta || {}, w = m.warnings || [];
+  const st = Object.values(m.market_status || {});
+  const parts = [];
+  if (D.meta.paused) parts.push(`<div class="banner bad" role="alert"><b>Recommendations are paused.</b> ${esc(D.meta.paused.reason)}. No new picks are produced or published until the pause is lifted.</div>`);
+  if (w.length) parts.push(`<div class="banner bad" role="alert"><b>Data may be stale or incomplete.</b><ul>${w.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>`);
+  const info = [];
+  if (m.dry_run) info.push("Discord publishing is in dry-run: messages are built and logged, nothing is sent.");
+  if (st.length && st.every(s => s !== "live")) info.push("No market has passed validation: picks are research or paper records, not proven edges.");
+  if (info.length) parts.push(`<div class="banner">${info.join(" ")}</div>`);
+  return parts.join("");
+}
+function cappedNote(what) {
+  const c = (D.meta.capped || []).find(x => x.what === what);
+  return c ? `<p class="meta">Trimmed to ${c.kept} to keep data.json under ${(D.meta.caps.max_bytes/1e6).toFixed(1)} MB.</p>` : "";
+}
+
+/* ---------------- shared pick rendering ---------------- */
+function whyBlock(r) {
+  const items = r.why;
+  const body = items && items.length
+    ? `<dl>${items.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${v === "not available" ? `<span class="na">not available</span>` : esc(v)}</dd>`).join("")}</dl>`
+    : `<p class="meta">No explanation fields were recorded for this prediction.</p>`;
+  return `<details class="why"><summary>Why this pick?</summary>${body}<p class="reason">Decision: ${esc(r.reason || "–")}</p>${r.versions > 1 ? `<p class="meta">${r.versions} versions recorded for this candidate on this slate; showing the latest.</p>` : ""}</details>`;
+}
+function who(r) {
+  const bits = [];
+  if (r.player) bits.push(`<b>${esc(r.player)}</b>${r.team ? ` (${esc(r.team)})` : ""}`);
+  if (r.opponent) bits.push(`vs ${esc(r.opponent)}`);
+  if (r.matchup) bits.push(esc(r.matchup));
+  if (r.start_utc) bits.push(tip(r.start_utc));
+  return `<div class="who">${bits.join(" · ")}</div>`;
+}
+function ret(r) {
+  const st = r.hyp_stake_units;
+  if (r.return_units != null) return `<span class="${cls(r.return_units)}">${u(r.return_units)}</span><div class="meta">${usd(r.return_dollars)} on ${st}u</div>`;
+  return r.to_win_units != null ? `<span class="meta">${st}u to win ${Number(r.to_win_units).toFixed(2)}u<br>($${Math.round(r.to_win_units*100)} on $${Math.round(st*100)})</span>` : "–";
+}
+function pickRows(rows) {
+  return rows.map(r => `<tr>
+    <td style="min-width:220px"><div><b>${esc(r.label)}</b> <span class="meta">${esc(r.market_label || "")}</span></div>${who(r)}${whyBlock(r)}</td>
+    <td>${esc(r.book || "–")}</td><td class="n">${price(r)}</td>
+    <td class="n">${pct(r.prob)}</td><td class="n">${pct(r.implied)}</td><td class="n">${r.fair == null ? `<span class="na">–</span>` : pct(r.fair)}</td>
+    <td class="n ${cls(r.ev)}">${spct(r.ev)}</td>
+    <td>${decPill(r.decision)}</td><td>${resPill(r.status)}</td><td class="n">${ret(r)}</td></tr>`);
+}
+const PICK_HEAD = ["Pick", "Book", "#Price", "#Model", "#Implied", "#Fair", "#EV", "Decision", "Status", "#Hypothetical return"];
+function pickTable(rows, empty) { return tbl(PICK_HEAD, pickRows(rows), empty); }
+function parlayTable(rows) {
+  return tbl(["Ticket", "Legs", "#Price", "#Model", "#EV", "Decision", "Status", "#Hypothetical return"], rows.map(r => `<tr>
+    <td><b>${esc(r.label)}</b><div class="who">${esc(MK[r.category] || r.category)} · research</div></td>
+    <td><ul class="list">${(r.legs || []).map(l => `<li><span>${esc(l.label)}</span><span class="meta">${amS(l.price_american)} · ${pct(l.prob)}</span></li>`).join("")}</ul></td>
+    <td class="n">${price(r)}</td><td class="n">${pct(r.prob)}</td><td class="n ${cls(r.ev)}">${spct(r.ev)}</td>
+    <td>${decPill(r.decision)}</td><td>${resPill(r.status)}</td><td class="n">${ret(r)}</td></tr>`), "No research parlays or lottos on this slate.");
+}
+const rec = k => k ? `${k.wins}-${k.losses}-${k.pushes}${k.voids ? `-${k.voids}` : ""}` : "–";
+
+/* ---------------- Today ---------------- */
+R.today = () => {
+  const T = D.today || {}, games = T.games || [], q = T.qualified || [], dc = T.decision_counts || {};
+  const pr = T.predict_run || {}, ov = T.overview || {};
+  const gameCards = games.length ? `<div class="games">${games.map(g => {
+    const live = g.status !== "scheduled";
+    return `<div class="game"><div class="tip"><span>${tip(g.start_utc)} local</span>${pill(g.status === "final" ? "final" : g.status === "scheduled" ? "scheduled" : "in_progress", g.status === "in_progress" ? "live" : g.status)}</div>
+      <div class="teams"><span>${esc(g.away)}</span><span class="sc">${live && g.away_score != null ? esc(g.away_score) : ""}</span><span>@ ${esc(g.home)}</span><span class="sc">${live && g.home_score != null ? esc(g.home_score) : ""}</span></div>
+      <div class="foot">${g.qualified} qualified · ${g.candidates} candidates recorded</div></div>`; }).join("")}</div>` : `<p class="empty">No games on today's slate.</p>`;
+  const why = Object.entries(dc).sort((a,b) => (a[0] > b[0] ? 1 : -1)).map(([k,v]) => `${v} ${(DEC[k] || k).toLowerCase()}`).join(", ");
+  const qualBlock = q.length ? pickTable(q, "") :
+    `<p class="empty">No picks qualified today.${T.candidate_count ? ` ${T.candidate_count} candidates were recorded (${esc(why)}).` : " No candidates were recorded for today's slate."}${pr.candidates_judged ? ` The last prediction run judged ${pr.candidates_judged} prices in total; unpriced or unverified props are counted, not stored.` : ""}</p>`;
+  const ovk = (k, title) => `<div class="panel s6"><h3>${title}</h3>${k && k.n ? `<div class="kpi"><div class="v">${rec(k)}</div><div class="l">W-L-P${k.voids ? "-V" : ""} · ${k.pending} pending · <span class="${cls(k.net_units)}">${u(k.net_units)} (${usd(k.net_dollars)})</span> · ROI ${spct(k.roi)}</div></div>` : `<p class="empty">Nothing recorded for this slate.</p>`}</div>`;
+  return `${banner()}
+  <h2>Today · ${esc(T.date || D.meta.today)}</h2>
+  <p class="sub">${T.game_count || 0} game${T.game_count === 1 ? "" : "s"} on the slate. Last updated ${time(D.meta.generated_at)}${pr.run_id && /^run-\d{4}-/.test(pr.run_id) ? `; last prediction run ${time(pr.run_id.replace(/^run-/, ""))}` : ""}.</p>
+  <div class="grid">
+    <div class="panel kpi s3"><div class="v">${T.game_count || 0}</div><div class="l">games today</div></div>
+    <div class="panel kpi s3"><div class="v">${(T.leans || []).length}</div><div class="l">posted leans · ${q.length} qualified</div></div>
+    <div class="panel kpi s3"><div class="v">${T.candidate_count || 0}</div><div class="l">model candidates recorded</div></div>
+    <div class="panel kpi s3"><div class="v">${ov.qualified && ov.qualified.n ? rec(ov.qualified) : "–"}</div><div class="l">qualified record, ${esc(ov.date || "no previous slate")}</div></div>
+  </div>
+  <h2>Games</h2>${gameCards}
+  <h2>Today's posted leans</h2><p class="sub">The research leans posted for this slate (data/ledger/posted_leans.jsonl). They are not qualified picks: every market is still in research and none has shown an edge at real prices. Graded automatically after the games.</p>
+  <div class="panel">${tbl(["Lean", "#Price", "#Model", "#Units", "Status", "#Net"], (T.leans || []).map(r => `<tr><td><b>${esc(r.label || r.market)}</b></td><td class="n">${amS(r.price_american)}</td><td class="n">${pct(r.prob)}</td><td class="n">${r.stake ?? 1}</td><td>${resPill(r.result || "pending")}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`), "No leans posted for today's slate yet.")}</div>
+  <h2>Qualified picks</h2><p class="sub">Picks that passed every check on the latest prediction run. Hypothetical returns are at the recommended stake, $100 per unit.</p>
+  <div class="panel">${qualBlock}</div>
+  ${(T.research || []).length ? `<h2>Research parlays & lotto</h2><div class="panel">${parlayTable(T.research)}</div>` : ""}
+  <h2>Daily overview · ${esc(ov.date || "no previous slate")}</h2><p class="sub">The previous slate's settled record. Qualified picks and all model predictions are separate populations and never added together.</p>
+  <div class="grid">${ovk(ov.qualified, "Qualified picks")}${ovk(ov.all_model, "All model predictions (hypothetical, 1u each)")}</div>`;
+};
+
+/* ---------------- Picks ---------------- */
+R.picks = () => {
+  const days = D.picks_by_day || [];
+  return `${banner()}<h2>Picks by day</h2>
+  <p class="sub">Today and the previous ${Math.max(0, days.length - 1)} slates with recorded predictions. Each candidate appears once per slate (its latest version). Status comes from settlement: pending until the game is final.</p>
+  ${days.map((d, i) => `<section aria-labelledby="day-${i}">
+    <h2 id="day-${i}">${d.is_today ? "Today · " : ""}${esc(d.date)}</h2>
+    <p class="sub">${d.qualified.length} qualified · ${d.research.length} research tickets · ${d.candidates_total} other candidates${d.record && d.record.settled ? ` · qualified record ${rec(d.record)} (${u(d.record.net_units)})` : ""}</p>
+    <h4>Qualified picks</h4><div class="panel">${pickTable(d.qualified, "No picks qualified on this slate.")}</div>
+    <h4>Research parlays & lotto</h4><div class="panel">${parlayTable(d.research)}</div>
+    <details class="more" data-day="${i}"><summary>All model candidates (${d.candidates_total})</summary>
+      <p class="sub">Everything else the model priced: watch, held and rejected, with the reason. These are not picks.</p>
+      <div class="filters">
+        <select class="f-mkt" aria-label="Market"><option value="">All markets</option>${[...new Set(d.candidates.map(r => r.market))].filter(Boolean).sort().map(m => `<option value="${esc(m)}">${esc(MK[m] || m)}</option>`).join("")}</select>
+        <select class="f-dec" aria-label="Decision"><option value="">All decisions</option>${[...new Set(d.candidates.map(r => r.decision))].sort().map(m => `<option value="${esc(m)}">${esc(DEC[m] || m)}</option>`).join("")}</select>
+        <select class="f-game" aria-label="Game"><option value="">All games</option>${(d.games || []).map(g => `<option>${esc(g)}</option>`).join("")}</select>
+        <select class="f-sort" aria-label="Sort"><option value="dec">Sort: decision, then EV</option><option value="prob">Sort: model probability</option><option value="ev">Sort: EV</option></select>
+      </div>
+      <div class="panel cands"></div>
+      ${d.candidates_capped ? `<p class="meta">Showing ${d.candidates.length} of ${d.candidates_total} candidates (cap ${D.meta.caps.candidates_per_slate} per slate; watch and held rows come first).</p>` : ""}
+    </details></section>`).join("") || `<p class="empty">No predictions recorded yet.</p>`}`;
+};
+A.picks = () => {
+  const order = {eligible:0, watch:1, hold:2, reject:3, info:4};
+  $$("details[data-day]").forEach(el => {
+    const d = D.picks_by_day[+el.dataset.day];
+    const draw = () => {
+      const f = c => $(c, el).value;
+      let rows = d.candidates.filter(r => (!f(".f-mkt") || r.market === f(".f-mkt")) && (!f(".f-dec") || r.decision === f(".f-dec")) && (!f(".f-game") || r.matchup === f(".f-game")));
+      const s = f(".f-sort");
+      const num = x => x == null ? -9 : x;
+      rows = rows.slice().sort(s === "prob" ? (a,b) => num(b.prob) - num(a.prob) : s === "ev" ? (a,b) => num(b.ev) - num(a.ev) : (a,b) => (order[a.decision] ?? 9) - (order[b.decision] ?? 9) || num(b.ev) - num(a.ev));
+      $(".cands", el).innerHTML = pickTable(rows, "No candidates match these filters.");
+    };
+    $$("select", el).forEach(s => s.addEventListener("input", draw));
+    el.addEventListener("toggle", () => { if (el.open && !$(".cands", el).innerHTML) draw(); });
+  });
+};
+
+/* ---------------- Performance ---------------- */
+const POPS = [["qualified","Qualified"],["all_model","All model predictions"],["posted_leans","Posted leans"],["signals","Discord signals"],["wagers","Actual wagers"]];
+function kpiTable(obj, label, fmtKey = k => k) {
+  const rows = Object.entries(obj || {});
+  return tbl([label, "#Bets", "#W-L-P-V", "#Pending", "#Hit rate", "#Staked", "#Net", "#Net $", "#ROI"], rows.map(([k, v]) => `<tr><td>${esc(fmtKey(k))}</td><td class="n">${v.n}</td><td class="n">${v.wins}-${v.losses}-${v.pushes}-${v.voids}</td><td class="n">${v.pending}</td><td class="n">${pct(v.hit_rate)}</td><td class="n">${Number(v.units_staked || 0).toFixed(2)}u</td><td class="n ${cls(v.net_units)}">${u(v.net_units)}</td><td class="n ${cls(v.net_dollars)}">${usd(v.net_dollars)}</td><td class="n ${cls(v.roi)}">${spct(v.roi)}</td></tr>`), "Nothing recorded yet.");
+}
+function bucketTable(b) {
+  return tbl(["Model probability", "#n", "#Predicted", "#Observed", "#95% interval"], (b || []).map(x => `<tr><td>${pct(x.lo,0)}–${pct(x.hi,0)}</td><td class="n">${x.n}</td><td class="n">${pct(x.predicted)}</td><td class="n">${pct(x.observed)}</td><td class="n">${x.ci ? `${pct(x.ci[0],0)}–${pct(x.ci[1],0)}` : "–"}</td></tr>`), "No settled win/loss rows with a probability yet.");
+}
+R.performance = () => `${banner()}<h2>Performance</h2>
+  <p class="sub">Pick a population. Each is computed on its own; theoretical populations and your actual wagers are never added together.</p>
+  <div class="filters"><div class="seg" role="group" aria-label="Population">${POPS.map(([k, v]) => `<button data-pop="${k}" aria-pressed="false">${esc(v)}</button>`).join("")}</div></div>
+  <div id="perf"></div>
+  <h2>Calibration vs the market</h2><p class="sub">All model predictions (latest version per candidate) settled win or loss. Log loss: lower is better. The market column uses the de-vigged price, only on rows where both sides were quoted; compare it with the model's log loss on those same rows.</p>
+  <div class="panel">${tbl(["Market", "#Settled", "#Model log loss", "#Model Brier", "#Rows with fair price", "#Model on those rows", "#Market log loss", "#Market Brier"], Object.entries(get(D, "performance", "calibration_vs_market") || {}).map(([m, c]) => `<tr><td>${esc(MK[m] || m)}</td><td class="n">${c.n}</td><td class="n">${c.logloss_model ?? "–"}</td><td class="n">${c.brier_model ?? "–"}</td><td class="n">${c.n_with_fair}</td><td class="n">${c.logloss_model_on_fair_rows ?? "–"}</td><td class="n">${c.logloss_market ?? "–"}</td><td class="n">${c.brier_market ?? "–"}</td></tr>`), "No settled model predictions yet.")}</div>
+  <p class="sub">Backtest results are under <a href="#research" style="color:var(--info)">Research & Model Health</a>.</p>`;
+A.performance = () => {
+  const P = D.performance || {};
+  let which = "qualified";
+  try { which = localStorage.getItem("nbapicks.pop") || which; } catch (e) {}
+  if (!P[which]) which = "qualified";
+  const draw = () => {
+    const B = P[which] || {};
+    $$("[data-pop]").forEach(b => b.setAttribute("aria-pressed", b.dataset.pop === which));
+    const extra = which === "signals" ? `<div class="panel s12"><h3>By provider</h3>${kpiTable(B.by_provider, "Provider")}<p class="meta">Messages: ${esc(Object.entries(B.parse_status || {}).map(([k,v]) => `${v} ${k}`).join(", ") || "none imported")}</p></div>
+      <div class="panel s12"><h3>Signals vs the model</h3>${(B.vs_model||[]).length ? `<div class="tablewrap"><table><thead><tr><th>Slate</th><th>Provider</th><th>Signal</th><th class="n">Price</th><th class="n">Model prob</th><th class="n">Model EV at signal price</th><th>Model decision</th><th>Result</th></tr></thead><tbody>${B.vs_model.map(v => `<tr><td>${esc(v.slate)}</td><td>${esc(v.provider)}</td><td>${esc(v.label)}</td><td class="n">${v.price_dec ? v.price_dec.toFixed(2) : "no price"}</td><td class="n">${v.model_prob == null ? "no model view" : (v.model_prob*100).toFixed(0) + "%"}</td><td class="n">${v.model_ev == null ? "–" : (v.model_ev >= 0 ? "+" : "") + (v.model_ev*100).toFixed(1) + "%"}</td><td>${esc(v.model_decision || "–")}${v.model_after_signal ? ' <span class="meta">(model estimate made after the signal)</span>' : ""}</td><td>${esc(v.result)}</td></tr>`).join("")}</tbody></table></div><p class="meta">Signals are never used as model truth. When the model saw the same bet with EV ≥ 0 at the signal's price: ${B.model_agrees && B.model_agrees.n ? `${B.model_agrees.wins}-${B.model_agrees.losses}, ${(B.model_agrees.net_units||0).toFixed(2)}u` : "no settled cases yet"}.</p>` : `<p class="empty">No signals imported yet.</p>`}</div>`
+      : which === "posted_leans" ? `<div class="panel s12"><h3>Posted leans, newest first</h3>${tbl(["Slate", "Lean", "#Price", "Final", "Status", "#Units"], (B.rows || []).map(r => `<tr><td class="n">${esc(r.slate)}</td><td>${esc(r.label || r.market)}</td><td class="n">${amS(r.price_american)}</td><td class="meta">${esc(r.result === "pending" ? "" : r.market === "prop" ? (r.stat_value ?? "–") : (r.score || ""))}</td><td>${resPill(r.result)}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`), "No posted leans yet.")}</div>` : "";
+    $("#perf").innerHTML = `<p class="note">These numbers refer to <b>${esc(B.title || which)}</b>: ${esc(B.description || "")}</p>
+      <div class="grid">
+        <div class="panel kpi s2"><div class="v">${B.wins ?? 0}-${B.losses ?? 0}-${B.pushes ?? 0}-${B.voids ?? 0}</div><div class="l">W-L-P-V · ${B.pending ?? 0} pending</div></div>
+        <div class="panel kpi s2"><div class="v">${pct(B.hit_rate)}</div><div class="l">hit rate (wins / wins+losses)</div></div>
+        <div class="panel kpi s2"><div class="v">${Number(B.units_staked || 0).toFixed(2)}u</div><div class="l">units staked (win/loss)</div></div>
+        <div class="panel kpi s2"><div class="v ${cls(B.net_units)}">${u(B.net_units ?? 0)}</div><div class="l">net units</div></div>
+        <div class="panel kpi s2"><div class="v ${cls(B.net_dollars)}">${usd(B.net_dollars ?? 0)}</div><div class="l">${which === "wagers" ? "net $ from your log" : "net $ at $100/unit"}</div></div>
+        <div class="panel kpi s2"><div class="v ${cls(B.roi)}">${spct(B.roi)}</div><div class="l">ROI${B.roi_ci ? ` · 95% CI ${spct(B.roi_ci[0],0)} to ${spct(B.roi_ci[1],0)}` : ""}</div></div>
+      </div>
+      <p class="note">A high hit rate is not an edge: short-priced favourites win often and can still lose money. ROI and calibration matter more, and small samples prove nothing.</p>
+      <div class="grid">
+        <div class="panel s6"><h3>By market</h3>${kpiTable(B.by_market, "Market", k => MK[k] || k)}</div>
+        <div class="panel s6"><h3>Straight vs parlay vs lotto</h3>${kpiTable(B.by_category, "Category", k => MK[k] || k)}</div>
+        <div class="panel s6"><h3>Calibration by probability bucket</h3>${bucketTable(B.by_bucket)}</div>
+        <div class="panel s6"><h3>By model version</h3>${kpiTable(B.by_model_version, "Model")}</div>
+        <div class="panel s12"><h3>By day</h3>${kpiTable(Object.fromEntries(Object.entries(B.by_day || {}).reverse()), "Slate")}</div>
+        ${extra}
+        <details class="more s12"><summary>Advanced</summary><div class="panel">${kv({"max drawdown (units)": get(B, "advanced", "max_drawdown_units") ?? "–", "longest losing streak": get(B, "advanced", "longest_losing_streak") ?? "–"})}</div></details>
+      </div>`;
+  };
+  $$("[data-pop]").forEach(b => b.onclick = () => { which = b.dataset.pop; try { localStorage.setItem("nbapicks.pop", which); } catch (e) {} draw(); });
+  draw();
+};
+
+/* ---------------- Player & Team ---------------- */
+R.players = () => {
+  const P = D.players || {}, pl = P.players || [];
+  const stats = [...new Set(pl.flatMap(p => p.props.map(x => x.stat)))].filter(Boolean).sort();
+  const gamesL = [...new Set(pl.map(p => p.matchup))].filter(Boolean).sort();
+  return `${banner()}<h2>Player & Team</h2>
+  <p class="sub">Today's player props grouped by player. Prices older than ${esc(P.max_odds_age_minutes ?? "–")} minutes (the configured quality limit) are marked stale. Player props stay research-only until the prop model passes its gates.</p>
+  <div class="filters">
+    <label>Sort <select id="pl-sort"><option value="prob">Model probability (high → low)</option><option value="ev">EV (high → low)</option><option value="name">Name</option></select></label>
+    <select id="pl-stat" aria-label="Stat"><option value="">All stats</option>${stats.map(s => `<option value="${esc(s)}">${esc(pl.flatMap(p => p.props).find(x => x.stat === s).stat_label || s)}</option>`).join("")}</select>
+    <select id="pl-side" aria-label="Side"><option value="">Over and under</option><option value="over">Over</option><option value="under">Under</option></select>
+    <select id="pl-game" aria-label="Game"><option value="">All games</option>${gamesL.map(g => `<option>${esc(g)}</option>`).join("")}</select>
+    <label>Min sample <input type="number" id="pl-min" min="0" value="0" aria-label="Minimum games behind the exact-line hit rate"></label>
+    <div class="seg" role="group" aria-label="View"><button id="pl-v-cards" aria-pressed="true">By player</button><button id="pl-v-cmp" aria-pressed="false">Compare</button></div>
+  </div>
+  <div id="pl-list"></div>
+  <h2>Team model vs market (today)</h2><p class="sub">Game markets on today's slate: model probability next to the de-vigged market probability. Gap = model − fair.</p>
+  <div class="panel">${tbl(["Game", "Bet", "Book", "#Price", "#Model", "#Implied", "#Fair", "#Gap", "#EV", "Decision"], (P.teams || []).map(r => `<tr><td>${esc(r.matchup)}</td><td>${esc(r.label)}</td><td>${esc(r.book)}</td><td class="n">${price(r)}</td><td class="n">${pct(r.prob)}</td><td class="n">${pct(r.implied)}</td><td class="n">${pct(r.fair)}</td><td class="n ${cls(r.gap)}">${spct(r.gap)}</td><td class="n ${cls(r.ev)}">${spct(r.ev)}</td><td>${decPill(r.decision)}</td></tr>`), "No game-market prices on today's slate.")}</div>
+  <h2>Prop split cards (research)</h2><p class="sub">How often each player cleared this exact line, by split. "p" is the cautious combined estimate (lower of calibrated and raw). Quotes older than 12 hours are hidden. A split on a small sample is not an edge.</p>
+  <div class="panel">${propCards()}${(P.prop_split_cards_total || 0) > (P.prop_split_cards || []).length ? `<p class="meta">${(P.prop_split_cards || []).length} of ${P.prop_split_cards_total} cards exported (cap).</p>` : ""}</div>`;
+};
+A.players = () => {
+  let view = "cards";
+  const draw = () => {
+    const P = D.players || {}, f = id => $(id).value, min = +f("#pl-min") || 0, srt = f("#pl-sort");
+    const keep = x => (!f("#pl-stat") || x.stat === f("#pl-stat")) && (!f("#pl-side") || x.side === f("#pl-side")) && ((x.line_hits && x.line_hits.n) || 0) >= min;
+    const num = x => x == null ? -9 : x;
+    const sorter = srt === "ev" ? (a,b) => num(b.ev) - num(a.ev) : (a,b) => num(b.prob) - num(a.prob);
+    let pl = (P.players || []).filter(p => !f("#pl-game") || p.matchup === f("#pl-game")).map(p => ({...p, props: p.props.filter(keep).sort(sorter)})).filter(p => p.props.length);
+    pl.sort(srt === "name" ? (a,b) => String(a.player).localeCompare(String(b.player)) : (a,b) => sorter(a.props[0], b.props[0]));
+    $("#pl-v-cards").setAttribute("aria-pressed", view === "cards"); $("#pl-v-cmp").setAttribute("aria-pressed", view === "cmp");
+    if (!(P.players || []).length) { $("#pl-list").innerHTML = `<p class="empty">No player props were stored for today's slate. Props without a verified side or player history are counted, not stored.</p>`; return; }
+    if (!pl.length) { $("#pl-list").innerHTML = `<p class="empty">No props match these filters.</p>`; return; }
+    if (view === "cmp") {
+      $("#pl-list").innerHTML = `<p class="note"><b>The historical hit rate is not the model probability.</b> It counts how often the player cleared this exact line in past games; the model probability also weighs minutes, recency and variance. Small samples (low n) are unreliable.</p>
+      <div class="panel">${tbl(["Player", "Prop", "#Model probability", "#Historical exact-line hit rate", "#Last 10", "#Price", "#Implied"], pl.flatMap(p => p.props.map(x => `<tr><td>${esc(p.player)}</td><td>${esc(x.label)}</td><td class="n">${pct(x.prob)}</td><td class="n">${hn(x.line_hits)}</td><td class="n">${hn(x.line_hits_last10)}</td><td class="n">${price(x)}</td><td class="n">${pct(x.implied)}</td></tr>`)), "Nothing to compare.")}</div>`;
+      return;
+    }
+    $("#pl-list").innerHTML = pl.map(p => `<div class="panel player"><div class="ph"><span><b>${esc(p.player)}</b> <span class="who">${esc(p.team || "team not available")}${p.opponent ? ` vs ${esc(p.opponent)}` : ""} · ${esc(p.matchup || "")} · ${tip(p.start_utc)}</span></span><span class="meta">${p.props.length} prop${p.props.length === 1 ? "" : "s"}${p.capped ? ` (top ${D.players.prop_props_cap} of ${p.props_total} exported)` : ""}</span></div>
+      ${tbl(["Prop", "Book", "#Price", "#Model", "#Implied", "#EV", "#Exact-line hits", "Last 5", "#Season avg", "#Vs opp", "#Exp. min", "Flags", "#Price age", "Decision"], p.props.map(x => `<tr><td><b>${esc(x.label)}</b></td><td>${esc(x.book)}</td><td class="n">${price(x)}</td><td class="n">${pct(x.prob)}</td><td class="n">${pct(x.implied)}</td><td class="n ${cls(x.ev)}">${spct(x.ev)}</td><td class="n">${hn(x.line_hits)}</td><td>${x.last5 && x.last5.length ? esc(x.last5.join(", ")) : `<span class="na">not available</span>`}</td><td class="n">${x.season_avg == null ? `<span class="na">not available</span>` : `${Number(x.season_avg).toFixed(1)} <span class="meta">n=${esc(x.season_n)}</span>`}</td><td class="n">${hn(x.vs_opp)}</td><td class="n">${x.exp_minutes == null ? `<span class="na">not available</span>` : Number(x.exp_minutes).toFixed(1)}</td><td class="reason">${esc((x.flags || []).join(", ")) || "–"}</td><td class="n">${x.price_age_min == null ? "–" : Math.round(x.price_age_min) + " min"}${x.stale ? ` ${pill("stale", "stale")}` : ""}</td><td>${decPill(x.decision)}</td></tr>`), "")}</div>`).join("");
+  };
+  ["#pl-sort","#pl-stat","#pl-side","#pl-game","#pl-min"].forEach(id => $(id).addEventListener("input", draw));
+  $("#pl-v-cards").onclick = () => { view = "cards"; draw(); };
+  $("#pl-v-cmp").onclick = () => { view = "cmp"; draw(); };
+  draw();
+};
+function propCards() {
+  const gen = Date.parse(D.meta.generated_at);
+  const rows = (get(D, "players", "prop_split_cards") || []).filter(c => c.implied && c.price_observed_at && gen - Date.parse(c.price_observed_at) < 12*3600e3)
+    .map(c => { const d = 1/c.implied, p = Math.min(c.prob, c.prob_raw ?? c.prob); return {...c, d, p, evc: p*d - 1}; })
+    .filter(c => c.d >= 1.33 && c.d <= 2.5).sort((a,b) => b.evc - a.evc).slice(0, 40);
+  const side = s => s === "over" ? "Over" : s === "under" ? "Under" : s;
+  const STAT = {pts:"Points", reb:"Rebounds", ast:"Assists", fg3m:"Made Three-Pointers"};
+  return tbl(["Player", "Prop", "#Price", "Book", "#p", "#Implied", "#EV", "Splits"], rows.map(c => `<tr><td>${esc(c.player)} <span class="meta">${c.home ? "vs" : "@"} ${esc(c.opp)}</span></td><td>${esc(side(c.side))} ${esc(c.line)} ${esc(STAT[c.stat] || c.stat)}</td><td class="n">${amS(amFromDec(c.d))}</td><td>${esc(c.book)}</td><td class="n">${pct(c.p,0)}</td><td class="n">${pct(c.implied,0)}</td><td class="n ${cls(c.evc)}">${spct(c.evc,0)}</td><td class="reason">${(c.splits || []).map(t => `${esc(t.split)} ${t.hits}/${t.n}`).join(" · ")}</td></tr>`), "No priced split cards in this snapshot.");
+}
+
+/* ---------------- Model Valuation ---------------- */
+R.valuation = () => {
+  const V = D.valuation || {};
+  return `${banner()}<h2>Model valuation</h2>
+  <p class="sub">Today's priced candidates: what the model thinks against what the price implies. Sorted by EV. Positive EV is a theoretical expectation, not a guarantee.</p>
+  <div class="panel">${tbl(["Bet", "Book", "#Price", "#Model", "#Implied", "#Fair (de-vigged)", "#EV", "#Min price for edge", "Decision"], (V.rows || []).map(r => `<tr><td><b>${esc(r.label)}</b><div class="who">${esc(r.player || r.team || "")}${r.player || r.team ? " · " : ""}${esc(r.matchup || "")}</div></td><td>${esc(r.book)}</td><td class="n">${price(r)}</td><td class="n">${pct(r.prob)}</td><td class="n">${pct(r.implied)}</td><td class="n">${r.fair == null ? `<span class="na">one side only</span>` : pct(r.fair)}</td><td class="n ${cls(r.ev)}">${spct(r.ev)}</td><td class="n">${r.min_price_dec ? `${amS(r.min_price_american)} <span class="meta">${Number(r.min_price_dec).toFixed(2)}</span>` : "–"}</td><td>${decPill(r.decision)}</td></tr>`), "No priced candidates for today's slate.")}
+  ${V.capped ? `<p class="meta">Showing ${V.rows.length} of ${V.total} (cap).</p>` : ""}</div>
+  <h2>How to read this</h2><div class="panel"><dl class="help">${(V.help || []).map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join("")}</dl></div>`;
+};
+
+/* ---------------- Research & Model Health ---------------- */
+function backtestPanel() {
+  const files = D.backtests || [];
+  const runs = files.flatMap(f => (f.runs || []).map(r => ({...r, _file: f.file, _gen: f.generated_at, _commit: f.commit})));
+  if (!runs.length) return `<p class="empty">No backtest reports found (reports/backtest_*.json).</p>`;
+  return tbl(["Run", "Split / period", "Selection rule", "Price basis", "#Bets", "#W-L-P", "#Hit rate", "#Avg prob", "#Avg odds", "#Units", "#Net $", "#ROI (95% CI)", "#Log loss model / market"], runs.map(r => `<tr>
+    <td><b>${esc(r.name)}</b><div class="who">${esc(r.kind || "")} · ${esc(MK[r.market] || r.market || "")} · ${esc(r.model_version || "")} vs ${esc(r.baseline || "–")}</div><div class="meta">${esc(r._file)} · ${esc(r._commit || "")}</div>${(r.calibration || []).length ? `<details class="why"><summary>Calibration</summary>${bucketTable(r.calibration)}</details>` : ""}${(r.notes || []).length ? `<div class="reason">${esc(r.notes.join(" "))}</div>` : ""}</td>
+    <td>${esc(r.split || "–")}<div class="meta">${esc(get(r, "period", "start") || "")} – ${esc(get(r, "period", "end") || "")}</div></td>
+    <td class="reason">${esc(r.selection_rule || "–")}<div class="meta">${esc(r.staking || "")}</div></td><td>${esc(r.price_basis || "–")}</td>
+    <td class="n">${r.bets ?? "–"}</td><td class="n">${r.wins ?? 0}-${r.losses ?? 0}-${r.pushes ?? 0}</td><td class="n">${pct(r.hit_rate)}</td><td class="n">${pct(r.avg_prob)}</td><td class="n">${r.avg_price_dec ? amS(amFromDec(r.avg_price_dec)) : "–"}</td>
+    <td class="n ${cls(r.roi == null ? null : r.net_units)}">${r.roi == null ? "–" : u(r.net_units)}</td><td class="n">${r.roi == null ? "–" : usd(r.net_dollars)}</td>
+    <td class="n">${r.roi == null ? `<span class="na">no historical prices</span>` : `<span class="${cls(r.roi)}">${spct(r.roi)}</span>${r.roi_ci ? `<div class="meta">${spct(r.roi_ci[0],0)} to ${spct(r.roi_ci[1],0)}</div>` : ""}`}</td>
+    <td class="n">${r.logloss_model ?? "–"} / ${r.logloss_market ?? "–"}</td></tr>`), "");
+}
+function flatRows(o, prefix = "") {
+  return Object.entries(o || {}).flatMap(([k, v]) => v && typeof v === "object" && !Array.isArray(v) ? flatRows(v, prefix + k + " · ") : [[prefix + k, Array.isArray(v) ? v.join(", ") : v]]);
+}
+R.research = () => {
+  const Rs = D.research || {}, ch = Rs.champion || {}, g = ch.game || {}, p = ch.props || {};
+  const ex = Rs.experiments || [];
+  const reg = Object.fromEntries(ex.filter(e => e.step === "registered").map(e => [e.exp_id, e]));
+  const champCard = (t, c) => `<div class="panel s6"><h3>${t}</h3>${c && c.model_id ? `<p><code>${esc(c.model_id)}</code>${c.since ? ` <span class="meta">since ${esc(c.since)}</span>` : ""}</p><p class="reason">${esc(c.reason || "")}</p>${c.params ? `<details class="why"><summary>Parameters</summary>${kv(c.params)}</details>` : ""}` : `<p class="empty">No champion recorded.</p>`}</div>`;
+  const q = Rs.queue || {};
+  return `${banner()}<h2>Research & model health</h2><p class="sub">Champion and challengers, the gates fixed in advance, every experiment (rejections stay listed), decisions, diagnostics and backtests.</p>
+  <div class="grid">${champCard("Champion · game markets", g)}${champCard("Champion · player props", p)}
+    <div class="panel s12"><h3>Market status</h3><ul class="list">${Object.entries(D.meta.market_status || {}).map(([m, s]) => `<li><span>${esc(MK[m] || m)}</span>${pill(s)}</li>`).join("") || "<li>No markets configured.</li>"}</ul></div>
+    <div class="panel s12"><h3>Backtests</h3><p class="meta">Flat 1u = $100 per bet. ROI is blank when no valid historical price exists; it is never filled from assumed odds.</p>${backtestPanel()}</div>
+    <div class="panel s12"><h3>Calibration vs market (live predictions)</h3>${tbl(["Market", "#Settled", "#Model log loss", "#Market log loss (fair rows)", "#Model on fair rows"], Object.entries(Rs.calibration || {}).map(([m, c]) => `<tr><td>${esc(MK[m] || m)}</td><td class="n">${c.n}</td><td class="n">${c.logloss_model ?? "–"}</td><td class="n">${c.logloss_market ?? "–"}</td><td class="n">${c.logloss_model_on_fair_rows ?? "–"}</td></tr>`), "No settled predictions yet.")}</div>
+    <div class="panel s12"><h3>Promotion gates (fixed in advance)</h3>${tbl(["Gate", "#Value"], flatRows(Rs.gates).map(([k, v]) => `<tr><td>${esc(k.replaceAll("_", " "))}</td><td class="n">${esc(v)}</td></tr>`), "No gates file.")}</div>
+    <div class="panel s12"><h3>Experiments</h3>${tbl(["Experiment", "Step", "Hypothesis / verdict", "Details"], ex.slice().reverse().map(e => `<tr><td><code>${esc(e.exp_id)}</code><div class="meta">${esc(e.at || "")} ${esc(e.commit || e.code_commit || "")}</div></td><td>${esc(e.step)}</td><td class="reason">${esc(e.hypothesis || get(reg, e.exp_id, "hypothesis") || "")}${e.verdict ? `<div><b>${esc(e.verdict)}</b></div>` : ""}${e.evidence ? `<div class="meta">${esc(e.evidence)}</div>` : ""}</td><td><details class="why"><summary>Raw record</summary><pre>${esc(JSON.stringify(e, null, 1))}</pre></details></td></tr>`), "No experiments recorded.")}${cappedNote("experiments")}</div>
+    <div class="panel s12"><h3>Decisions</h3>${tbl(["At", "Decision", "Evidence", "By / review"], (Rs.decisions || []).slice().reverse().map(d => `<tr><td class="n">${esc(d.at)}</td><td>${esc(d.decision)}</td><td class="reason">${esc(d.evidence || "")}</td><td class="reason">${esc(d.by || "")}${d.review ? ` · ${esc(d.review)}` : ""}</td></tr>`), "No decisions recorded.")}</div>
+    <div class="panel s6"><h3>Diagnostics</h3>${Rs.diagnostics ? `<pre>${esc(Rs.diagnostics)}</pre>` : `<p class="empty">No reports/diagnostics.md.</p>`}</div>
+    <div class="panel s6"><h3>Research queue</h3>${(q.queue || []).length || (q.probation || []).length ? `<pre>${esc(JSON.stringify(q, null, 1))}</pre>` : `<p class="empty">Queue is empty${q.updated ? ` (updated ${esc(q.updated)})` : ""}.</p>`}</div>
+  </div>`;
+};
+
+/* ---------------- Command Center ---------------- */
+R.command = () => {
+  const S = D.settings || {}, C = S.commands || {}, m = D.meta || {};
+  const steps = Object.entries(m.last_success || {});
+  return `${banner()}<h2>Command center</h2><p class="sub">How runs are triggered, when each step last succeeded, and the run history.</p>
+  <div class="grid">
+    <div class="panel s6"><h3>Trigger a run</h3><p>Edit <code>ops/trigger</code>: its first line lists the pipeline steps (for example <code>ingest predict export</code>, optionally <code>--slate YYYY-MM-DD</code>), then commit and push. The <code>nba-daily</code> workflow runs on that push.</p><p class="meta">Current trigger line: <code>${esc((C.trigger || [])[0] || "none")}</code></p><p class="meta">Steps: ingest, boxes, predict, publish, settle, recap, diagnose, export (or all).</p></div>
+    <div class="panel s6"><h3>Last success per step</h3>${tbl(["Step", "#Last success"], steps.map(([k, v]) => `<tr><td>${esc(k)}</td><td class="n">${time(v)}</td></tr>`), "No runs recorded.")}
+      ${(m.last_failed || []).length ? `<h3 style="margin-top:12px">Failing steps</h3>${tbl(["Step", "At", "Error"], m.last_failed.map(f => `<tr><td>${esc(f.step)}</td><td class="n">${time(f.at)}</td><td class="reason">${esc(f.error)}</td></tr>`), "")}` : `<p class="meta">No step is currently failing.</p>`}</div>
+    <div class="panel s12"><h3>Workflows</h3>${tbl(["Workflow", "File", "Schedule (UTC cron)", "Manual run", "Runs on push to"], (C.workflows || []).map(w => `<tr><td>${esc(w.name)}</td><td><code>${esc(w.file)}</code></td><td class="meta">${esc((w.schedule || []).join(" · ") || "–")}</td><td>${w.manual ? "yes" : "no"}</td><td><code>${esc((w.push_paths || []).join(", ") || "–")}</code></td></tr>`), "No workflow files found.")}<p class="meta">GitHub only fires scheduled runs from the default branch; pushes to ops/trigger work on any branch the workflow lists.</p></div>
+    <div class="panel s12"><h3>Run history (latest 30)</h3>${tbl(["At", "Result", "Steps", "Errors / notes"], (S.runs || []).slice().reverse().map(r => `<tr><td class="n">${time(r.at)}</td><td>${pill(r.ok ? "ok" : "failed", r.ok ? "ok" : "failed")}</td><td>${Object.entries(r.steps || {}).map(([k, v]) => `${esc(k)} ${pill(v)}`).join(" ")}</td><td class="reason">${esc(Object.entries(r.errors || {}).map(([k, v]) => `${k}: ${v}`).concat(r.notes || []).join("; "))}</td></tr>`), "No runs recorded.")}</div>
+  </div>`;
+};
+
+/* ---------------- Settings & Audit ---------------- */
+R.settings = () => {
+  const S = D.settings || {}, c = S.config || {}, T = S.team || {}, mv = S.model_versions || {};
+  const roles = Array.isArray(T.roles) ? T.roles : [], b = Array.isArray(T.backlog) ? T.backlog : [], sc = Array.isArray(T.scorecards) ? T.scorecards : [];
+  const health = Object.entries(S.source_health || {});
+  return `${banner()}<h2>Settings & audit</h2><p class="sub">Settings live in <code>config/nbapicks.yaml</code> and are validated on every run; git history is the audit trail. Secrets are never exported: only their names appear in config.</p>
+  <div class="grid">
+    <div class="panel s4"><h3>Stakes (units)</h3>${kv(c.stakes)}</div><div class="panel s4"><h3>Daily maxima</h3>${kv(c.targets)}</div><div class="panel s4"><h3>Risk limits</h3>${kv(c.risk)}</div>
+    <div class="panel s6"><h3>Markets</h3>${tbl(["Market", "Status", "#Min EV", "Enabled"], Object.entries(c.markets || {}).map(([m, s]) => `<tr><td>${esc(MK[m] || m)}</td><td>${pill(s.status)}</td><td class="n">${pct(s.min_ev, 0)}</td><td>${s.enabled ? "yes" : "no"}</td></tr>`), "No markets.")}</div>
+    <div class="panel s6"><h3>Data quality gates</h3>${kv(c.quality)}</div>
+    <div class="panel s6"><h3>Publishing</h3>${kv(c.publishing)}<p class="meta">Mode: ${c.dry_run ? "dry run (nothing sent)" : "live"}. Time zone: ${esc(c.timezone)}.</p></div>
+    <div class="panel s6"><h3>Execution</h3>${kv(c.execution)}</div>
+    <div class="panel s12"><h3>Model versions</h3><p class="meta">Champion (game): <code>${esc(mv.champion_game || "–")}</code> · champion (props): <code>${esc(mv.champion_props || "–")}</code></p>${tbl(["Model version", "#Predictions", "#First seen", "#Last seen"], Object.entries(mv.seen || {}).map(([k, v]) => `<tr><td><code>${esc(k)}</code></td><td class="n">${v.n}</td><td class="n">${time(v.first)}</td><td class="n">${time(v.last)}</td></tr>`), "No model predictions yet.")}</div>
+    <div class="panel s12"><h3>Source health</h3>${tbl(["Source", "Status", "#Last OK", "Last error"], health.map(([k, h]) => `<tr><td>${esc(k)}</td><td>${h.consecutive_failures ? pill("fail", h.consecutive_failures + " failures") : pill("ok", "ok")}</td><td class="n">${time(h.last_ok)}</td><td class="reason">${esc(h.last_error_detail ? `${time(h.last_error)}: ${h.last_error_detail}` : h.last_detail || "")}</td></tr>`), "No ingestion has run yet.")}</div>
+    <div class="panel s12"><h3>Data sources</h3>${tbl(["Source", "Use", "Status", "Coverage", "Limits"], (Array.isArray(S.sources) ? S.sources : []).map(x => `<tr><td>${esc(x.name)}</td><td class="reason">${esc(x.use)}</td><td>${pill(x.status === "in use" ? "ok" : x.status === "optional" ? "paper" : x.status === "rejected" ? "reject" : "hold", x.status)}</td><td class="reason">${esc(x.coverage)}</td><td class="reason">${esc(x.limits)}</td></tr>`), "No source inventory.")}</div>
+    <div class="panel s12"><h3>Discord publications</h3>${tbl(["Slate", "Kind", "Status", "#At"], (S.publications || []).map(p => `<tr><td>${esc(p.slate_date)}</td><td>${esc(p.kind)}</td><td>${pill(p.status)}</td><td class="n">${time(p.at)}</td></tr>`), "Nothing published yet.")}</div>
+    <div class="panel s12"><h3>Team roles</h3>${tbl(["Role", "Owns", "Executed by", "State"], roles.map(r => `<tr><td>${esc(r.name)}</td><td class="reason">${esc(r.owns)}</td><td class="reason">${esc(r.executor)}</td><td>${pill(r.state === "active" ? "ok" : r.state === "on-demand" ? "paper" : "hold", r.state)}</td></tr>`), "No roles file.")}</div>
+    <div class="panel s12"><h3>Backlog</h3>${tbl(["ID", "Task", "Owner", "Reviewer", "Status", "Evidence / blocker"], b.map(t => `<tr><td><code>${esc(t.id)}</code></td><td>${esc(t.title)}</td><td>${esc(t.owner)}</td><td>${esc(t.reviewer || "–")}</td><td>${pill(t.status, String(t.status).replace("_", " "))}</td><td class="reason">${esc(t.evidence || t.blocker || "")}</td></tr>`), "No backlog.")}</div>
+    <div class="panel s12"><h3>Scorecards</h3><p class="note">${esc(T.scorecards_note || "Self-reported.")}</p>${tbl(["Role", "#Quality /25", "#Testing /25", "#Contribution /20", "#Docs /15", "#Collab /15", "#Total", "Basis"], sc.map(s => `<tr><td>${esc(s.role)}${s.evidence_linked ? "" : ` <span class="tag">self-reported</span>`}</td><td class="n">${esc(s.quality)}</td><td class="n">${esc(s.testing)}</td><td class="n">${esc(s.contribution)}</td><td class="n">${esc(s.documentation)}</td><td class="n">${esc(s.collaboration)}</td><td class="n">${esc(+s.quality + +s.testing + +s.contribution + +s.documentation + +s.collaboration)}</td><td class="reason">${esc(s.basis)}</td></tr>`), "No scorecards yet.")}</div>
+    <div class="panel s12"><h3>Ledger size</h3>${kv(S.counts)}</div>
+  </div>`;
+};
+
+boot();
+</script>

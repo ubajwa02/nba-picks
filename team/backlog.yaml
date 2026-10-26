@@ -1,0 +1,223 @@
+# Persistent backlog. Status: todo | in_progress | review | done | blocked. Owner and reviewer are roles from
+# team/roles.yaml; no task is approved by its own owner. Evidence points at files, tests or runs.
+- id: NBA-001
+  title: Audit repos, AI roles, environment and data sources
+  owner: Team lead
+  reviewer: Skeptic / independent review
+  status: done
+  evidence: /mnt/project-files/nba-picks/AUDIT.md; reports/source_probe.md; reports/source_probe2.md
+- id: NBA-002
+  title: Odds, EV, push and settlement math with tests
+  owner: Quantitative modeling
+  reviewer: Skeptic / independent review
+  status: done
+  evidence: tests/test_odds.py, tests/test_settle.py, tests/test_dist.py
+- id: NBA-003
+  title: Append-only ledger with constraints and replay
+  owner: Data engineering
+  reviewer: QA and model validation
+  status: done
+  evidence: nbapicks/store.py; tests/test_store.py
+- id: NBA-004
+  title: ESPN + MovioOdds ingestion against captured real responses
+  owner: Data engineering
+  reviewer: QA and model validation
+  status: done
+  evidence: tests/test_espn.py, tests/test_moviodds.py; first live run 2026-10-20 00:23 UTC (data/state/runs.jsonl)
+- id: NBA-005
+  title: Backfill 2013-14 to 2025-26 games, closing lines, 2022-23+ box scores
+  owner: Data engineering
+  reviewer: QA and model validation
+  status: done
+  evidence: data/history/*.csv.gz; reports/backfill_*.json (0-5 fetch errors per season)
+- id: NBA-006
+  title: Walk-forward evaluation of ratings model vs closing lines (5 pre-registered variants)
+  owner: Quantitative modeling
+  reviewer: Skeptic / independent review
+  status: done
+  evidence: data/research/experiments.jsonl; reports/research_latest.md
+- id: NBA-007
+  title: Qualification gates, skeptic checks, portfolio caps, parlays
+  owner: Risk and portfolio
+  reviewer: Skeptic / independent review
+  status: done
+  evidence: tests/test_qualify.py; tests/test_e2e.py
+- id: NBA-008
+  title: Discord picks and recap, idempotent, dry-run default
+  owner: Product and dashboard
+  reviewer: QA and model validation
+  status: done
+  evidence: tests/test_discord.py
+- id: NBA-009
+  title: Dashboard (today, picks, performance, heatmap, lab, models, command center, data, settings)
+  owner: Product and dashboard
+  reviewer: QA and model validation
+  status: done
+  evidence: site/index.html; site/data.json written by every scheduled run
+- id: NBA-010
+  title: Manual Discord signal import and provider tracking
+  owner: Data engineering
+  reviewer: QA and model validation
+  status: done
+  evidence: tests/test_signals.py; tests/test_e2e.py::test_signals_import_settle_and_provider_stats
+- id: NBA-011
+  title: Independent skeptic and QA reviews of the MVP
+  owner: Skeptic / independent review
+  reviewer: Team lead
+  status: done
+  evidence: team/reviews/2026-10-20-skeptic.md, team/reviews/2026-10-20-qa.md; 19 reproduced defects fixed with regression tests
+- id: NBA-012
+  title: Move project to its own repository so schedules and Pages run
+  owner: Team lead
+  reviewer: QA and model validation
+  status: blocked
+  blocker: Needs the owner to create an empty repo (decision card in the project thread). Schedules only fire from a default branch.
+- id: NBA-013
+  title: Connect a Discord webhook and turn off dry-run
+  owner: Product and dashboard
+  reviewer: Risk and portfolio
+  status: blocked
+  blocker: Needs the owner to create a webhook and add secret NBA_DISCORD_WEBHOOK_URL; dry-run stays on until then.
+- id: NBA-014
+  title: Verify ESPN prop side order against bet365 on live slates
+  owner: Odds and market analysis
+  reviewer: Skeptic / independent review
+  status: todo
+  evidence: props.verify_prop_sides runs per game each prediction run; promote to a fixed rule after 200+ agreeing pairs
+- id: NBA-015
+  title: Injury-aware ratings (player value adjustments) challenger
+  owner: Injury and rotation analysis
+  reviewer: Quantitative modeling
+  status: todo
+  evidence: needs point-in-time injury history, collected forward from 2026-10-20
+- id: NBA-016
+  title: Opening-line strategy and closing-line value study (needs forward data)
+  owner: Odds and market analysis
+  reviewer: Skeptic / independent review
+  status: todo
+  evidence: open+close exist only in 2023-24+ which is the holdout; evaluate on the 2026-27 forward record instead
+- id: NBA-017
+  title: Parse official NBA injury report PDFs as a second injury source
+  owner: Injury and rotation analysis
+  reviewer: Data engineering
+  status: todo
+- id: NBA-018
+  title: Optional FanDuel price feed via The Odds API free key
+  owner: Odds and market analysis
+  reviewer: Risk and portfolio
+  status: blocked
+  blocker: Needs a free API key only the owner can register; US FanDuel may differ from Ontario.
+- id: NBA-019
+  title: Link to an existing AI Engineering Command Center
+  owner: Team lead
+  reviewer: Product and dashboard
+  status: blocked
+  blocker: No Command Center was found in any accessible repo or project file; the dashboard's Command Center view reads team/*.yaml until one is identified.
+- id: NBA-020
+  title: Bovada 2014-15 moneyline gaps (about a third of games) make the early ML sample non-random
+  owner: Data engineering
+  status: todo
+  evidence: team/reviews/2026-10-20-skeptic.md finding 10
+- id: NBA-021
+  title: Fit and record sigma_margin / sigma_total on explore seasons (values 12.6 / 18.5 have no recorded derivation)
+  owner: Quantitative modeling
+  status: todo
+  evidence: team/reviews/2026-10-20-skeptic.md finding 10
+- id: NBA-022
+  title: Discord "sent" record can be lost if every push attempt fails; consider pushing a "sending" record before posting
+  owner: Data engineering
+  status: todo
+  evidence: team/reviews/2026-10-20-qa.md M7
+- id: NBA-023
+  title: Season-start handling - regress ratings toward the mean over the off-season, account for roster moves, keep playoff games out of the scoring level
+  owner: Quantitative modeling
+  reviewer: Skeptic / independent review
+  status: todo
+  evidence: "early read 2026-10-20: expected totals 215-222 vs lines 222-232 (latest games in the fit are low-scoring playoffs); PHI-NY margin 9.8 vs market ~3.5. All held by the skeptic checks."
+- id: NBA-024
+  title: Line shopping - bet a book's price that beats the leave-one-out consensus of other books
+  owner: Odds and market analysis
+  reviewer: Skeptic / independent review
+  status: done
+  evidence: "Rejected by independent review (team/reviews/2026-10-20-lineshop-skeptic.md): the +12.4% came from mis-timed or erroneous historical quotes, does not survive multiple-testing correction, and is not executable at FanDuel. Holdout not spent."
+- id: NBA-025
+  title: Situational rules (rest, home dogs, big favourites, early season)
+  owner: NBA research and matchup analysis
+  reviewer: Skeptic / independent review
+  status: done
+  evidence: "reports/situational.md: all 8 rejected"
+- id: NBA-026
+  title: Early-season unders (post-hoc idea from NBA-025); confirm on forward 2026-27 data only
+  owner: NBA research and matchup analysis
+  status: todo
+  evidence: "suggested by early_season_over losing on explore and validate; both splits are spent for this idea"
+- id: NBA-027
+  title: History cleaning v2 - drop non-books (betegy, Betradar, Fantasy911), merge duplicate feeds, reject moneyline pairs under 1.5% overround and moneylines inconsistent with the same book's spread; re-run all experiments
+  owner: Data engineering
+  reviewer: Skeptic / independent review
+  status: todo
+  evidence: team/reviews/2026-10-20-lineshop-skeptic.md findings 2-3
+- id: NBA-028
+  title: Forward line-shop paper record with timed prices - DraftKings vs bet365 vs other live ESPN providers, and FanDuel prices Uday logs
+  owner: Odds and market analysis
+  reviewer: Skeptic / independent review
+  status: todo
+  evidence: "only a timed, forward test can show whether outlier prices are bettable (review finding 7)"
+- id: NBA-029
+  title: Registry-wide multiple-testing correction shown on the dashboard (Holm across all validate tests)
+  owner: QA and model validation
+  status: todo
+  evidence: team/reviews/2026-10-20-lineshop-skeptic.md finding 4
+- id: NBA-030
+  title: "PRIORITY (Uday 2026-10-21): player props first; moneyline only when the edge is very large. Prop model features: player hit rate on the line (last 5/10/season), vs this opponent, minutes trend, opponent defence vs position/matchup, injuries/usage shifts, rest/back-to-back"
+  owner: Player props
+  reviewer: Skeptic / independent review
+  status: in_progress
+  evidence: "Uday thread message 2026-10-21 04:28Z; split-card features built (nbapicks/splitcard.py), reports/props_splitcard.md; not yet a model input"
+- id: NBA-031
+  title: Archive daily prop lines (ESPN/DK propBets + bet365) at fetch time so props get a forward record; no free historical prop-line archive exists, so backtests of hit-rate rules use game logs against today's lines only as a sanity check
+  owner: Data engineering
+  status: done
+  evidence: "already in place: put_odds appends prop snapshots (on change) with observed_at to data/ledger/odds; asserted in tests/test_e2e.py"
+- id: NBA-032
+  title: "Prop split card (Uday 2026-10-21, e.g. 'Curry over 30'): for each offered prop line, hit rate over that exact line in last 5/10, this season, vs this opponent, vs likely defenders, home/away, this month in past seasons, by rest days and consecutive games, with/without key teammates (usage shift). Show n for every split; combine splits with sample-size shrinkage, then compare to the price"
+  owner: Player props
+  reviewer: Skeptic / independent review
+  status: review
+  evidence: "nbapicks/splitcard.py, tests/test_splitcard.py, reports/props_splitcard.md (exp-20261021-splitcard); 'vs likely defenders' not possible (no matchup data); watchlist only"
+- id: NBA-033
+  title: "Split cards unpriced on 2026-10-21 run (392 cards, 0 with book/EV): ESPN DK propBets sides unverified. Attach prices via verified side pairs or bet365 milestone props; top of Thursday cycle"
+  owner: Player props
+  status: done
+  evidence: "fixed in 5ab7837 (props keyed by line); 2054 of 2427 cards priced in run-2026-10-21T17:57:10Z"
+- id: NBA-034
+  title: "Thursday cycle: Platt calibration inflates longshots on split cards (calibrated p above prob_raw at +1600..+3500 prices). Cap or skip calibration where raw p is tiny; test on synthetic longshots"
+  owner: Player props
+  reviewer: Skeptic / independent review
+  status: done  # 2026-10-22 exp-20261022-propcalib: keep Platt; extreme longshots (<0.06) and market blend untested (no prop price history)
+- id: NBA-035
+  title: "Thursday cycle: big prop gaps (model p far above book implied) likely reflect role changes the history cannot see; add a minutes/role-change flag (recent minutes vs season, injuries to teammates) and down-weight or hide flagged cards"
+  owner: Player props
+  reviewer: Skeptic / independent review
+  status: todo
+- id: NBA-036
+  title: "Thursday cycle: site/data.json caps prop_split_cards at 400 (dashboard shows a truncated, unsorted subset); sort by EV/priced first or page the full set"
+  owner: Dashboard
+  status: todo
+- id: NBA-037
+  title: "Pick review: prop CLV is unmeasurable (last pre-tip prop snapshot is the posting snapshot, hours before tip); add a pre-tip (~30 min) odds capture for posted leans so closing-line value can be graded"
+  owner: Data / odds
+  status: todo
+- id: NBA-038
+  title: "Pick review: posted leans with model-vs-book gap <5pts went 0-2 (MIA ML, Spurs -1.5) while 5-15pt gaps went 6-2; tiny sample, keep tracking gap bucket per lean and revisit at n>=50 (no threshold change)"
+  owner: Skeptic / independent review
+  status: todo
+- id: NBA-039
+  title: "Pick review: opening-week prop cards have no current-season split (all rest on career/past seasons, last5 as low as 1/5); show season n on the posted card and track small-sample cards separately"
+  owner: Player props
+  status: todo
+- id: NBA-040
+  title: "Pick review: wider settled predictions show model Brier 0.248 worse than book 0.234 and model 60-70% bucket hitting 39% (n=18); test whether more market blending improves calibration in backtest before any gate change"
+  owner: Modeling
+  reviewer: Skeptic / independent review
+  status: todo
