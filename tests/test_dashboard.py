@@ -17,7 +17,7 @@ from nbapicks.store import Store
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NOW = dt.datetime(2026, 10, 21, 16, 0, tzinfo=dt.timezone.utc)        # 12:00 in Toronto: slate 2026-10-21
-SECTIONS = ("meta", "today", "picks_by_day", "performance", "players", "valuation", "backtests", "research", "settings")
+SECTIONS = ("meta", "tickets", "today", "picks_by_day", "performance", "players", "valuation", "backtests", "research", "settings")
 POPS = ("qualified", "all_model", "posted_leans", "signals", "wagers")
 
 EXPLAIN = dict(season=dict(avg=21.3, n=12), last5=[24, 18, 22, 25, 19], last10_avg=21.0, line_hits=dict(h=4, n=5),
@@ -325,7 +325,7 @@ def test_page_script_parses_and_renders(cfg, cwd, tmp_path):
         p = subprocess.run([_node(), str(tmp_path / "harness.js"), page, e["path"]], capture_output=True, text=True)
         assert p.returncode == 0, p.stderr
         views[name] = json.loads(p.stdout)
-    assert set(views["populated"]) == {"today", "picks", "performance", "players", "settings"}
+    assert set(views["populated"]) == {"today", "picks", "performance", "parlays", "lottos", "players", "settings"}
 
 
 def test_top_players_keeps_ten_players_three_props_and_drops_junk_prices():

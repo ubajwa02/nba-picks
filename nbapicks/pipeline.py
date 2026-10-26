@@ -19,7 +19,7 @@ from collections import defaultdict
 from zoneinfo import ZoneInfo
 
 from . import config as C
-from . import discord, odds as O, parlay as PZ, propsides as PS, splitcard as SC, validate
+from . import discord, leans as LN, odds as O, parlay as PZ, propsides as PS, splitcard as SC, validate
 from .history import read_csv
 from .models.ratings import Game, RatingsModel, RatingsParams, add_rest_days
 from .props import STATS, PropModel, _norm, pair_key, verified_pairs, verify_prop_sides
@@ -727,6 +727,40 @@ def predict(ctx: Ctx) -> dict:
     return {k: v for k, v in summary.items() if k != "pred_ids"}
 
 
+def post_leans(ctx: Ctx) -> dict:
+    """Post today's leans, parlays and lotto once per slate (nbapicks/leans.py has the rule)."""
+    slate = ctx.today.isoformat()
+    last = jload(f"{ctx.root}/state/last_predict.json", {})
+    if last.get("slate") != slate or not last.get("games"):
+        return dict(posted=0, skipped="no prediction run for today's slate")
+    if any(l.get("slate") == slate for l in LN.track.load(ctx.root)):
+        return dict(posted=0, skipped="today's leans are already posted")
+    failing = validate.failing_sources(ctx.health, CRITICAL_SOURCES, ctx.now)
+    inj = jload(f"{ctx.root}/state/injuries_latest.json", {})
+    inj_age = (ctx.now - parse_t(inj["observed_at"])).total_seconds() / 60 if inj.get("observed_at") else None
+    if failing or inj_age is None or inj_age > ctx.cfg["quality"]["max_injury_age_minutes"]:
+        why = "critical source failing: " + ", ".join(failing) if failing else "the injury report is missing or stale"
+        LN.save_notes(ctx.root, slate, [f"No picks posted today: {why}."])
+        return dict(posted=0, skipped=why)
+    games = {g["game_id"]: g for g in ctx.store.q("SELECT game_id, start_utc FROM games")}
+    cur = set(last.get("pred_ids") or [])
+    preds = []
+    for p in ctx.store.q("SELECT * FROM predictions WHERE category = 'straight' AND market = 'prop'"):
+        if p["pred_id"] in cur:
+            preds.append(dict(p, start_utc=(games.get(p["game_id"]) or {}).get("start_utc")))
+    leans = LN.pick_leans(preds, ctx.cfg, slate, iso(ctx.now))
+    for l in leans:
+        LN.track.add(ctx.root, l)
+    leans = [dict(l, lean_id=LN.track.lean_id(l)) for l in leans]
+    tickets, notes = LN.build_tickets(leans, ctx.cfg, slate)
+    if not leans:
+        notes = ["No props cleared today's rule (win chance, price, recent history and data checks), so nothing was posted."]
+    for t in tickets:
+        LN.add_ticket(ctx.root, t)
+    LN.save_notes(ctx.root, slate, notes)
+    return dict(posted=len(leans), parlays=sum(t["kind"] == "parlay" for t in tickets), lottos=sum(t["kind"] == "lotto" for t in tickets))
+
+
 def build_parlays(ctx: Ctx, best: list[Candidate], cfg: dict) -> list[dict]:
     """Up to targets.parlay parlays and targets.lotto lottos per run, within the daily unit caps.
     Legs: straights with a model probability whose own EV cleared their market threshold."""
@@ -1016,7 +1050,7 @@ def recap(ctx: Ctx, slate: str | None = None) -> str:
 
 
 # ------------------------------------------------------------------ main
-STEPS = ("ingest", "boxes", "catchup", "predict", "publish", "settle", "recap", "diagnose", "export")
+STEPS = ("ingest", "boxes", "catchup", "predict", "publish", "leans", "settle", "recap", "diagnose", "export")
 
 
 PAUSE_FILE = "PAUSED"
@@ -1050,11 +1084,11 @@ def main(argv=None):
     steps = STEPS if "all" in a.steps else a.steps
     report = dict(at=iso(now), steps={}, ok=True)
     for s in steps:
-        if s in ("predict", "publish") and report["steps"].get("ingest", {}).get("status") == "failed":
+        if s in ("predict", "publish", "leans") and report["steps"].get("ingest", {}).get("status") == "failed":
             report["steps"][s] = dict(status="skipped", reason="ingest failed: no fresh games/odds to price")
             report["ok"] = False
             continue
-        if s in ("predict", "publish") and (pause_state(f"{ctx.root}/state") or cfg.get("pause")):
+        if s in ("predict", "publish", "leans") and (pause_state(f"{ctx.root}/state") or cfg.get("pause")):
             pz = pause_state(f"{ctx.root}/state") or dict(source="config", reason="pause: true in config")
             report["steps"][s] = dict(status="skipped", reason=f"global pause: {pz['reason']}")
             report["paused"] = pz
@@ -1070,6 +1104,8 @@ def main(argv=None):
                 r = predict(ctx)
             elif s == "publish":
                 r = publish_picks(ctx)
+            elif s == "leans":
+                r = post_leans(ctx)
             elif s == "settle":
                 r = settle(ctx)
             elif s == "recap":

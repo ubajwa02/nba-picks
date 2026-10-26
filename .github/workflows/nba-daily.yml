@@ -46,7 +46,7 @@ jobs:
           INPUT: ${{ inputs.steps }}
         run: |
           case "$SCHED" in
-            "30 20 * * *") S="ingest predict publish settle export" ;;
+            "30 20 * * *") S="ingest catchup predict publish leans settle export" ;;
             "0 7 * * *"|"0 13 * * *") S="ingest catchup settle recap diagnose export" ;;
             "") S="${INPUT:-ingest catchup predict settle export}" ;;
             *) S="ingest catchup predict settle export" ;;

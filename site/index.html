@@ -125,7 +125,7 @@ a { color: var(--info); }
 <script id="embedded" type="application/json"></script>
 <script>
 "use strict";
-const VIEWS = [["today","Today"],["picks","Picks"],["performance","Performance"],["players","Players"],["settings","Settings & Audit"]];
+const VIEWS = [["today","Today"],["picks","Picks"],["performance","Performance"],["parlays","Parlays"],["lottos","Lottos"],["players","Players"],["settings","Settings & Audit"]];
 const STAT = {pts:"Points", reb:"Rebounds", ast:"Assists", fg3m:"3-Pointers Made", stl:"Steals", blk:"Blocks"};
 const RES = {win:"✓ Win", loss:"✗ Loss", push:"= Push", void:"Void", pending:"Pending", cashout:"Cash-out"};
 let D = null;
@@ -246,6 +246,35 @@ R.performance = () => {
   <h2>All Picks</h2>
   <div class="panel">${tbl(["Date", "Pick", "#Win Chance", "#Price", "Final", "Result", "#Units"], rows.map(r => `<tr><td class="n">${esc(r.slate)}</td><td><b>${esc(pickText(r))}</b></td><td class="n">${bar(r.prob)}</td><td class="n">${amS(r.price_american)}</td><td class="meta">${esc(finalText(r))}</td><td>${resPill(r.result)}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`), "No picks yet.")}</div>`;
 };
+
+/* ---- parlays and lottos (research) ---- */
+function ticketRows(kind) { return (((D.tickets || {}).rows) || []).filter(t => t.kind === kind); }
+function ticketCard(t) {
+  return `<div class="panel"><div class="ph"><b>${t.legs.length}-Leg ${kind1(t.kind)}</b><span class="meta">Win Chance ${pct(t.prob)} · Pays ${amS(t.price_american)} · ${resPill(t.result)} · ${t.net_units == null ? "–" : u(t.net_units)}</span></div>
+    ${tbl(["Leg", "#Win Chance", "#Price", "Result"], t.legs.map(l => `<tr><td><b>${esc(pickText(l))}</b></td><td class="n">${bar(l.prob)}</td><td class="n">${amS(l.price_american)}</td><td>${resPill(l.result)}</td></tr>`), "")}</div>`;
+}
+const kind1 = k => k === "lotto" ? "Lotto" : "Parlay";
+function ticketDay(date, rows, isToday, notes) {
+  const s = dayStats(rows);
+  return `<section class="day"><header class="dayh"><h3>${isToday ? "Today · " : ""}${esc(longDay(date))}</h3>
+    <div class="chips">${chip("Record", s.n ? `${s.w}-${s.l}` : "–")}${chip("Win Rate", s.n ? pct(s.rate) : "–")}${chip("Net Units", s.n ? u(s.net) : "–", s.n ? cls(s.net) : "")}${chip("Tickets", rows.length)}</div></header>
+    ${rows.length ? rows.map(ticketCard).join("") : `<p class="empty">${isToday ? "Not posted yet. Tickets are built from the day's picks at 4:30 PM ET." : "None posted."}</p>`}
+    ${(notes || []).map(n => `<p class="sub">${esc(n)}</p>`).join("")}</section>`;
+}
+function ticketView(kind, label, plural) {
+  const rows = ticketRows(kind), notes = ((D.tickets || {}).notes) || {}, s = dayStats(rows), today = todayStr();
+  const days = [...new Set([today, ...rows.map(r => r.slate)])].sort().reverse();
+  return `${banner()}<h2>${plural}</h2><p class="sub">Research Only · Stake: 1 Unit Each · Posted With Today's Picks · Fewer Are Posted When Too Few Qualify</p>
+  <div class="grid">
+    <div class="panel kpi s3"><div class="v">${s.n ? `${s.w}-${s.l}` : "–"}</div><div class="l">Record</div></div>
+    <div class="panel kpi s3"><div class="v">${s.n ? pct(s.rate) : "–"}</div><div class="l">Hit Rate</div></div>
+    <div class="panel kpi s3"><div class="v ${cls(s.net)}">${s.n ? u(s.net) : "–"}</div><div class="l">Net Units</div></div>
+    <div class="panel kpi s3"><div class="v">${rows.length}</div><div class="l">Tickets Posted</div></div>
+  </div>
+  ${days.map(d => ticketDay(d, rows.filter(r => r.slate === d), d === today, ((notes[d] || []).filter(n => kind === "lotto" ? /lotto/i.test(n) : !/lotto/i.test(n))))).join("")}`;
+}
+R.parlays = () => ticketView("parlay", "Parlay", "Parlays");
+R.lottos = () => ticketView("lotto", "Lotto", "Lottos");
 R.players = () => {
   const ids = new Set(((D.today || {}).games || []).map(g => String(g.game_id)));
   const ps = ((D.players || {}).players || []).filter(p => !ids.size || ids.has(String(p.game_id))).slice(0, 10);

@@ -742,8 +742,12 @@ def export(ctx: Ctx, out_dir: str = SITE, max_bytes: int = MAX_BYTES) -> dict:
         return dict(summary=dict(n=k["settled"], units=k["net_units"], staked=k["units_staked"], roi=k["roi"]),
                     wins=k["wins"], losses=k["losses"], pushes=k["pushes"] + k["voids"], pending=k["pending"])
 
+    from . import leans as LN
+    tickets = dict(rows=sorted(LN.grade_tickets(LN.load_tickets(ctx.root), (sc.get("leans") or {}).get("rows") or []),
+                               key=lambda t: t["slate"], reverse=True)[:300],
+                   notes=LN.load_notes(ctx.root))
     data = dict(
-        meta=meta, today=today_sec, picks_by_day=picks_by_day, performance=performance, players=players_sec,
+        meta=meta, tickets=tickets, today=today_sec, picks_by_day=picks_by_day, performance=performance, players=players_sec,
         valuation=valuation, backtests=backtests, research=research, settings=settings,
         generated_at=meta["generated_at"], config=config_out,
         theoretical=compat([_perf_row(r, flat=False) for r in pub_rows]),

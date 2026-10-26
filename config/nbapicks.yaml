@@ -10,7 +10,7 @@ stakes:                          # units only; never escalated automatically
 
 targets:                         # maxima, never quotas
   straight: 5                  # owner spec 2026-10-22: up to five straights
-  parlay: 2
+  parlay: 3                    # owner 2026-10-26: 2-3 parlays and 1 lotto a day, research only, never forced
   lotto: 1
 
 markets:                         # status: research | paper | live (set by promotion decisions)
@@ -20,6 +20,13 @@ markets:                         # status: research | paper | live (set by promo
   prop:   {enabled: true, status: research, min_ev: 0.05}
   parlay: {enabled: true, status: research, min_ev: 0.05, max_legs: 3}
   lotto:  {enabled: true, status: research, min_ev: 0.10, min_decimal: 8.0, max_legs: 5}
+
+leans:                           # the daily posted leans (nbapicks/leans.py); fixed rule, never tuned on results
+  min_prob: 0.60                 # model win chance
+  min_decimal: 1.5               # price of at least 1.50: no near-certain one-sided quotes
+  min_last10: 5                  # games of recent history to judge the line against
+  max_leans: 6
+  per_game: 2
 
 quality:
   max_odds_age_minutes: 120      # older quotes cannot qualify
@@ -34,7 +41,7 @@ quality:
 risk:
   max_units_per_game: 2.0
   max_units_per_day: 8.0
-  max_parlay_units_per_day: 1.0
+  max_parlay_units_per_day: 1.5
   max_lotto_units_per_day: 0.25
   max_same_team_exposures: 1     # straight picks on the same side of one game (e.g. ML and spread)
   max_props_per_player: 1        # one straight per player per day: his props are correlated (added 2026-10-22)
