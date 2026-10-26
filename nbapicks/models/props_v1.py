@@ -69,6 +69,10 @@ PARAMS = {
     # Attempt-volume x make-rate path for pts/fg3m. None = off: the history files have no
     # fga/fg3a/fta columns (checked 2026-10-22), so it cannot be fitted on explore yet.
     "make_k": None,
+    # Pace proxy: combined points of the two teams' recent games vs the league average this
+    # season, shrunk by n / (n + pace_k). None = off (the champion is unchanged); a challenger
+    # may switch it on, to be judged on the validate window only (tools/pace_experiment.py).
+    "pace_k": None,
 }
 
 # Negative-binomial size r per stat (var = mean + mean^2 / r): maximum likelihood on the same
@@ -214,6 +218,19 @@ class PropModelV1:
         self._att_cum = np.vstack([np.zeros(6), np.cumsum(a, axis=0)])
         self._key_cache: dict = {}
         self._def_cache: dict = {}
+        # game totals per team (home + away score of every finished game), for the pace proxy
+        tot: dict[str, list] = defaultdict(list)
+        lgt = []
+        for gid, g in games.items():
+            hs, as_ = g.get("home_score"), g.get("away_score")
+            if str(gid) in gm and hs not in (None, "") and as_ not in (None, ""):
+                t = _f(hs) + _f(as_)
+                d = gm[str(gid)][0]
+                tot[g["home"]].append((d, t)); tot[g["away"]].append((d, t)); lgt.append((d, t))
+        self._pace = {t: (np.array([x[0] for x in sorted(v)], dtype=np.int64),
+                          np.concatenate([[0.0], np.cumsum([x[1] for x in sorted(v)])])) for t, v in tot.items()}
+        lgt.sort()
+        self._pace_lg = (np.array([x[0] for x in lgt], dtype=np.int64), np.concatenate([[0.0], np.cumsum([x[1] for x in lgt])]))
 
     # ------------------------------------------------------------------ helpers
     def _hist(self, pid: str, date) -> tuple[_Log | None, int]:
@@ -454,6 +471,25 @@ class PropModelV1:
             return 1.0
         return 1 + (a / lg - 1) * (n / (n + K))
 
+    def pace_factor(self, team: str | None, opp: str | None, date) -> float:
+        """Expected game total relative to the league's this season (1.0 when off or unknown)."""
+        K = self.params.get("pace_k")
+        if K is None or not team or not opp:
+            return 1.0
+        date = _to_date(date)
+        o, lo_d = date.toordinal(), _season_start(SC.season_of(date))
+
+        def avg(d, cum):
+            lo, hi = int(np.searchsorted(d, lo_d, side="left")), int(np.searchsorted(d, o, side="left"))
+            return ((cum[hi] - cum[lo]) / (hi - lo), hi - lo) if hi > lo else (None, 0)
+        lg, _n = avg(*self._pace_lg)
+        a, na = avg(*self._pace[team]) if team in self._pace else (None, 0)
+        b, nb = avg(*self._pace[opp]) if opp in self._pace else (None, 0)
+        if not lg or a is None or b is None:
+            return 1.0
+        n = min(na, nb)
+        return 1 + (((a + b) / 2) / lg - 1) * (n / (n + K))
+
     # ------------------------------------------------------------------ public
     def predict(self, pid: str, stat: str, date, opp: str | None = None, home: bool | None = None,
                 teammates_out=(), minutes_override=None, injury_status: str | None = None) -> dict | None:
@@ -470,6 +506,7 @@ class PropModelV1:
             return None
         k = _IDX[stat]
         of = self.opp_factor(opp, stat, date)
+        of *= self.pace_factor(em["team"], opp, date)
         mean = max(rate * em["minutes"] * float(em["rate_factor"][k]) * of, 1e-6)
         var = mean + mean * mean / self.dispersion[stat]
         flags = list(em["flags"])

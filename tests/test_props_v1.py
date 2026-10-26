@@ -172,3 +172,17 @@ def test_constants_have_every_stat():
     for k in ("rate_half_life", "rate_prev_w", "rate_k", "opp_k"):
         assert set(V1.PARAMS[k]) == set(V1.STATS)
     assert set(V1.DISPERSION) == set(V1.STATS) and all(v > 0 for v in V1.DISPERSION.values())
+
+
+def test_pace_term_is_off_by_default_and_only_looks_backwards():
+    rows, games = synth()
+    for i, g in enumerate(games.values()):
+        g.update(home_score=100 + 30 * (i >= 30), away_score=100)   # the last 10 games run hot
+    off = PropModelV1(rows, games)
+    on = PropModelV1(rows, games, params={"pace_k": 5.0})
+    assert off.pace_factor("AAA", "BBB", day(35)) == 1.0
+    f = on.pace_factor("AAA", "BBB", day(35))
+    assert f != 1.0
+    assert on.pace_factor("AAA", "BBB", day(30)) == pytest.approx(1.0)      # the hot games are not yet played
+    assert off.predict("p1", "pts", day(35), "BBB", True)["mean"] == pytest.approx(
+        on.predict("p1", "pts", day(35), "BBB", True)["mean"] / f)

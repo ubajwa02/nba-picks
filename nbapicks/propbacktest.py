@@ -111,7 +111,8 @@ def load_history(hist_dir: str = "data/history", use_cache: bool = True, refresh
             for g in _read(bf.replace("box_", "games_")):
                 if g.get("status") == "final" and g.get("start_utc"):
                     games[g["game_id"]] = dict(start_utc=g["start_utc"], home=g["home"], away=g["away"],
-                                               season_type=g.get("season_type"), season=season)
+                                               season_type=g.get("season_type"), season=season,
+                                               home_score=g.get("home_score"), away_score=g.get("away_score"))
             for r in _read(bf):
                 if r["game_id"] in games:
                     r["date"] = games[r["game_id"]]["start_utc"]
