@@ -1,0 +1,42 @@
+name: nba-rollback
+# Manual only: point the champion model at an earlier one. Nothing here runs on a schedule.
+on:
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: "props or games"
+        required: true
+        default: "props"
+      model_id:
+        description: "model to return to (props-v0, props-v1, ratings-v1, ratings-v1-trend)"
+        required: true
+      reason:
+        description: "why (recorded in data/research/decisions.jsonl)"
+        required: true
+permissions:
+  contents: write
+concurrency:
+  group: nba-state
+  cancel-in-progress: false
+jobs:
+  rollback:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Roll back
+        env:
+          KIND: ${{ inputs.kind }}
+          MODEL: ${{ inputs.model_id }}
+          REASON: ${{ inputs.reason }}
+        run: python -m nbapicks.rollback "$KIND" "$MODEL" --reason "$REASON"
+      - name: Commit
+        run: |
+          ops/commit_changed.sh "research - manual model rollback" data/research
