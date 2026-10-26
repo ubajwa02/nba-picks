@@ -2,11 +2,32 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 9-5 on 14 graded posted picks, +2.58u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 3-2 (+0.44u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 6-2 (+3.13u); gap<5pts 0-2 (-2.00u); gap>=15pts 3-1 (+1.44u).
-- By closing-line move: flat 8-2 (+4.56u); moved toward us 1-2 (-0.98u).
-- Wider settled predictions (n=101): model Brier 0.2479 vs book 0.2343 (lower is better).
+- 16-9 on 25 graded posted picks, +4.61u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 10-6 (+2.48u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 13-6 (+5.17u); gap<5pts 0-2 (-2.00u); gap>=15pts 3-1 (+1.44u).
+- By closing-line move: flat 8-3 (+3.56u); moved away 1-0 (+0.48u); moved toward us 4-2 (+1.68u).
+- Wider settled predictions (n=876): model Brier 0.1528 vs book 0.1503 (lower is better).
+
+## 2026-10-23
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Tre Jones o9.5 pts | win | +1.20 | 0.596 | 0.455 | +0.31 |  |  |
+| Sion James u7.5 pts | win | +0.86 | 0.671 | 0.537 | +0.25 |  |  |
+| Saddiq Bey o3.5 reb | loss | -1.00 | 0.717 | 0.575 | +0.25 |  |  |
+| Rui Hachimura u5.5 reb | loss | -1.00 | 0.693 | 0.543 | +0.28 |  |  |
+| Marcus Smart o7.5 pts | loss | -1.00 | 0.675 | 0.533 | +0.27 |  |  |
+| Jrue Holiday o3.5 ast | win | +0.84 | 0.679 | 0.543 | +0.25 |  |  |
+
+## 2026-10-22
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| VJ Edgecombe o9.5 pts | win | +0.67 | 0.711 | 0.600 | +0.18 | +0.043 | career 70/88, season 0/1, last10 7/10 |
+| Tyrese Maxey o24.5 pts | win | +1.25 | 0.550 | 0.444 | +0.24 | +0.010 | career 160/283, season 1/1, last10 6/10 |
+| Joel Embiid o19.5 pts | win | +0.48 | 0.818 | 0.677 | +0.21 | -0.011 | career 162/186, season 0/1, last10 5/10 |
+| Jaylen Brown o19.5 pts | win | +0.74 | 0.716 | 0.575 | +0.25 | +0.025 | career 248/329, season 0/1, last10 8/10 |
+| Anfernee Simons o1.5 fg3m | loss | -1.00 | 0.746 | 0.600 | +0.24 | +0.000 | career 184/234, season 1/1, last10 8/10 |
 
 ## 2026-10-21
 
