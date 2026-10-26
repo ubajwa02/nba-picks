@@ -19,7 +19,7 @@ from collections import defaultdict
 from zoneinfo import ZoneInfo
 
 from . import config as C
-from . import discord, odds as O, parlay as PZ, propsides as PS, splitcard as SC
+from . import discord, odds as O, parlay as PZ, propsides as PS, splitcard as SC, validate
 from .history import read_csv
 from .models.ratings import Game, RatingsModel, RatingsParams, add_rest_days
 from .props import STATS, PropModel, _norm, pair_key, verified_pairs, verify_prop_sides
@@ -128,6 +128,9 @@ def ingest(ctx: Ctx) -> dict:
             ctx.ok("espn_scoreboard")
         except Exception as e:
             ctx.fail("espn_scoreboard", e)
+    games, bad = validate.validate_games(games)
+    if bad:
+        ctx.fail("espn_scoreboard", "; ".join(bad[:3]))
     for g in games:
         prev = ctx.store.one("SELECT status, home_score, away_score, start_utc FROM games WHERE game_id = ?", [g["game_id"]])
         if prev and (prev["status"], prev["home_score"], prev["away_score"], prev["start_utc"]) == (g["status"], g["home_score"], g["away_score"], g["start_utc"]):
@@ -137,9 +140,14 @@ def ingest(ctx: Ctx) -> dict:
     for g in games:
         if g["status"] == "final" and not ctx.store.one("SELECT 1 FROM player_games WHERE game_id = ?", [g["game_id"]]):
             try:
-                rows = espn.parse_boxscore(espn.fetch_summary(g["game_id"]), g["game_id"], now)
-                out["box_rows"] += ctx.store.put_many("player_games", rows)["new"]
-                ctx.ok("espn_boxscore")
+                rows, bad = validate.validate_box_rows(espn.parse_boxscore(espn.fetch_summary(g["game_id"]), g["game_id"], now), g["game_id"])
+                if bad:
+                    out["box_rows_rejected"] += len(bad)
+                    ctx.fail("espn_boxscore", "; ".join(bad[:3]))
+                if rows:
+                    out["box_rows"] += ctx.store.put_many("player_games", rows)["new"]
+                    if not bad:
+                        ctx.ok("espn_boxscore")
             except Exception as e:
                 ctx.fail("espn_boxscore", e)
     upcoming = [g for g in games if g["status"] == "scheduled"
@@ -164,7 +172,11 @@ def ingest(ctx: Ctx) -> dict:
             except Exception as e:
                 ctx.fail("espn_props", e)
     try:
-        inj = espn.parse_injuries(espn.fetch_injuries(), now)
+        inj, bad = validate.validate_injuries(espn.parse_injuries(espn.fetch_injuries(), now), ctx.now)
+        if bad and not inj:
+            raise ValueError("; ".join(bad[:3]))   # keep the previous injuries_latest.json; it goes stale and holds picks
+        if bad:
+            ctx.notes.append("espn_injuries: " + "; ".join(bad[:3]))
         jsave(f"{ctx.root}/state/injuries_latest.json", dict(observed_at=now, rows=inj))
         new = {}
         for r in inj:
@@ -243,9 +255,15 @@ def boxes(ctx: Ctx, fetch_scoreboard=None, fetch_summary=None) -> dict:
             out["already_stored"] += 1
             continue
         try:
-            out["box_rows"] += ctx.store.put_many("player_games", espn.parse_boxscore(fsum(g["game_id"]), g["game_id"], now))["new"]
-            out["box_games"] += 1
-            ctx.ok("espn_boxscore")
+            rows, bad = validate.validate_box_rows(espn.parse_boxscore(fsum(g["game_id"]), g["game_id"], now), g["game_id"])
+            if bad:
+                out["box_rows_rejected"] += len(bad)
+                ctx.fail("espn_boxscore", "; ".join(bad[:3]))
+            if rows:
+                out["box_rows"] += ctx.store.put_many("player_games", rows)["new"]
+                out["box_games"] += 1
+                if not bad:
+                    ctx.ok("espn_boxscore")
         except Exception as e:
             ctx.fail("espn_boxscore", e)
     return dict(out)

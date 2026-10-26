@@ -1,6 +1,6 @@
 # NBA Betting Intelligence spec: traceability and gap list (2026-10-26)
 
-Status key: DONE = built, tested and running; PART = partly built; GAP = not built; DECISION = needs Uday's choice (cost, provider or risk). Evidence is in the repo `ubajwa02/nba-picks` (217 tests pass).
+Status key: DONE = built, tested and running; PART = partly built; GAP = not built; DECISION = needs Uday's choice (cost, provider or risk). Evidence is in the repo `ubajwa02/nba-picks` (225 tests pass).
 
 ## Where the spec and the current system differ on architecture
 The spec assumes a persistent cloud server, PostgreSQL, `nba_api` and an off-GitHub repo. The current system is Python on **GitHub Actions** (scheduled), with an append-only JSONL ledger replayed into SQLite, a static dashboard, and ESPN plus bet365/MovioOdds as data. It already satisfies the *behavioural* requirements below; the infrastructure sections (4, 13, 16) are the main gap.
@@ -14,7 +14,7 @@ The spec assumes a persistent cloud server, PostgreSQL, `nba_api` and an off-Git
 | 3A | Historical stats: `nba_api`, caching, backoff, fallback | PART | ESPN box scores 2023-26 cached in `data/history`; stats.nba.com and cdn.nba.com **time out / 403 from GitHub runners** (`docs/sources.yaml`) | DECISION: test `nba_api` from the chosen server; ESPN stays the fallback |
 | 3B | Injuries with timestamps; no hindsight in backtests | PART | ESPN injury list observed per run (`data/ledger/injuries`), stale-report hold (240 min); no historical injury history exists, so backtest teammates-out uses the game's own box (flagged optimistic, in skeptic review) | NBA official injury PDFs parser GAP (candidate in sources.yaml) |
 | 3C | Odds/props prices, timestamps, no fabrication | DONE (limits) | DraftKings via ESPN (unlabelled sides: labelled from bet365 ladder or priced conservatively), bet365 via MovioOdds; every snapshot timestamped; implausible alt-ladder pairs now dropped | **No FanDuel or multi-book prop feed.** DECISION: The Odds API paid tier if wanted |
-| 3D | Ingestion validation, suppress picks on failure | PART | `IngestFailed` skips predict; stale-odds hold; side checks; duplicate-safe store | add schema-change and impossible-value checks per source; test each |
+| 3D | Ingestion validation, suppress picks on failure | DONE (scoreboard, box, injuries) / PART (odds) | `nbapicks/validate.py` wired into ingest and boxes: missing fields (schema change), duplicates, missing ids, impossible stat lines, bad times, final without score, one-team box scores, empty or unusable injury feed (keeps the old file so it goes stale and holds picks). 8 tests in `tests/test_validate.py` | `validate_odds` exists and is tested but is not yet wired into `put_odds`; time-zone and conflicting player-team checks still open |
 | 4 | Postgres, server, encrypted off-GitHub backups, restore doc | GAP | none (JSONL in git is the store) | DECISION: host + backup target (see below) |
 | 5 | Distribution model, baselines | DONE | props-v0 (baseline), splitcard, naive, props-v1; discrete NB with push handling | Poisson / ML families compared only on request |
 | 6 | EV with push, de-vig, 5% threshold, unpriced labelled | DONE | `odds.py`, `qualify.py`, `max_ev` plausibility hold; props min EV 5% | none |
@@ -41,6 +41,3 @@ The spec assumes a persistent cloud server, PostgreSQL, `nba_api` and an off-Git
 2. **Repo provider** after the earlier GitHub suspension: the code is on GitHub now. A second private mirror (GitLab, Codeberg) is free.
 3. **Backup target**: encrypted object storage (cost small) plus an external drive.
 4. **Paid odds** (The Odds API) for FanDuel and more books: not added without your OK.
-
-## Blocker right now
-This session's GitHub access returned 403 on fetch today, so I cannot push or merge. Reconnect at https://claude.ai/connect-github and I will push anything built in the meantime.

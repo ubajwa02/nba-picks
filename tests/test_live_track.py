@@ -17,7 +17,10 @@ def _sb(gid, status="STATUS_FINAL", completed=True):
 SUMMARY = dict(boxscore=dict(players=[dict(team=dict(abbreviation="LAC"), statistics=[dict(
     labels=["MIN", "PTS", "REB", "AST", "3PT", "STL", "BLK", "TO"],
     athletes=[dict(athlete=dict(id="1", displayName="Synthetic A"), starter=True, stats=["30", "21", "7", "3", "2-5", "1", "0", "2"]),
-              dict(athlete=dict(id="2", displayName="Synthetic B"), didNotPlay=True, stats=[])])])]))
+              dict(athlete=dict(id="2", displayName="Synthetic B"), didNotPlay=True, stats=[])])]),
+    dict(team=dict(abbreviation="SAC"), statistics=[dict(
+        labels=["MIN", "PTS", "REB", "AST", "3PT", "STL", "BLK", "TO"],
+        athletes=[dict(athlete=dict(id="3", displayName="Synthetic C"), starter=True, stats=["28", "12", "5", "2", "1-4", "0", "0", "1"])])])]))
 
 
 def test_boxes_appends_once(tmp_path):
@@ -25,13 +28,13 @@ def test_boxes_appends_once(tmp_path):
     calls = []
     fs = lambda gid: calls.append(gid) or SUMMARY
     r = pipeline.boxes(ctx, fetch_scoreboard=lambda d: _sb("g1"), fetch_summary=fs)
-    assert r.get("box_rows") == 2 and r.get("box_games") == 1
+    assert r.get("box_rows") == 3 and r.get("box_games") == 1
     rows = {x["player_id"]: x for x in ctx.store.q("SELECT * FROM player_games")}
     assert rows["1"]["pts"] == 21 and rows["1"]["fg3m"] == 2 and rows["2"]["played"] == 0
     again = pipeline.Ctx(NOW, C.load(), str(tmp_path), slate=dt.date(2026, 10, 21))
     r2 = pipeline.boxes(again, fetch_scoreboard=lambda d: _sb("g1"), fetch_summary=fs)
     assert r2.get("box_rows", 0) == 0 and len(calls) == 1
-    assert again.store.one("SELECT count(*) n FROM player_games")["n"] == 2
+    assert again.store.one("SELECT count(*) n FROM player_games")["n"] == 3
 
 
 def test_boxes_skips_unfinished(tmp_path):
