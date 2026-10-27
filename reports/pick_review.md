@@ -6,7 +6,7 @@ Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/pri
 - By market: ml 2-2 (-0.44u); prop 10-6 (+2.48u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
 - By model-vs-book gap: gap 5-15pts 13-6 (+5.17u); gap<5pts 0-2 (-2.00u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 1-0 (+0.48u); moved toward us 4-2 (+1.68u).
-- Wider settled predictions (n=876): model Brier 0.1528 vs book 0.1503 (lower is better).
+- Wider settled predictions (n=992): model Brier 0.1629 vs book 0.1625 (lower is better).
 
 ## 2026-10-23
 
