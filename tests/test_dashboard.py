@@ -325,7 +325,7 @@ def test_page_script_parses_and_renders(cfg, cwd, tmp_path):
         p = subprocess.run([_node(), str(tmp_path / "harness.js"), page, e["path"]], capture_output=True, text=True)
         assert p.returncode == 0, p.stderr
         views[name] = json.loads(p.stdout)
-    assert set(views["populated"]) == {"today", "picks", "performance", "parlays", "lottos", "players", "settings"}
+    assert set(views["populated"]) == {"today", "results", "players", "settings"}
 
 
 def test_top_players_keeps_ten_players_three_props_and_drops_junk_prices():

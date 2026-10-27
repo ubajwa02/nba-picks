@@ -114,6 +114,42 @@ nav a[href="#settings"] { margin-left: auto }
 .players { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 14px; }
 @media (max-width: 560px) { .players { grid-template-columns: minmax(0, 1fr); } }
 a { color: var(--info); }
+/* redesign: one card per day, tickets with edge, a guide, results segmented by type */
+h1 { font: 700 44px/1 var(--display); margin: 4px 0 6px; letter-spacing: .005em; text-wrap: balance; }
+.eyebrow { font: 600 12px var(--display); letter-spacing: .14em; text-transform: uppercase; color: var(--pos); margin: 0; }
+.hero { display: flex; flex-wrap: wrap; gap: 20px 40px; align-items: flex-end; justify-content: space-between; padding: 30px 0 6px; }
+.herostats { display: flex; flex-wrap: wrap; gap: 14px 26px; align-items: flex-end; }
+.herostats > div:not(.sep) { display: flex; flex-direction: column; }
+.herostats b { font: 700 34px/1 var(--display); font-variant-numeric: tabular-nums; }
+.herostats span { font: 600 11px var(--display); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+.herostats .sep { width: 1px; align-self: stretch; background: var(--line); }
+h2.sec { font: 700 24px/1.1 var(--display); margin: 34px 0 10px; display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: center; }
+h2.sec.first { margin-top: 28px; }
+h2.sec .tag { margin: 0; font-size: 11px; }
+.panel.flush { padding: 4px 8px 8px; }
+.tickets { display: grid; gap: 12px; padding: 0; }
+.day .tickets { padding: 12px; }
+.ticket { background: var(--panel-2); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px 8px; min-width: 0; }
+.panel + .tickets, .sub + .tickets { margin-top: 4px; }
+.ticket .th { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 18px; align-items: center; margin-bottom: 4px; }
+.ticket .th > div:first-child b { font: 700 18px var(--display); }
+.tstats { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: center; font-size: 13px; color: var(--muted); }
+.tstats b { color: var(--fg); font: 600 14px var(--mono); }
+.tstats b.pos { color: var(--pos) } .tstats b.neg { color: var(--neg) }
+.seg a { color: var(--muted); text-decoration: none; padding: 8px 16px; font: 600 14px var(--display); letter-spacing: .05em; text-transform: uppercase; }
+.seg a[aria-selected="true"] { background: var(--panel-2); color: var(--fg); box-shadow: inset 0 -2px 0 var(--pos); }
+.seg { margin: 6px 0 16px; }
+.kp { margin-bottom: 4px; }
+.legs { list-style: none; margin: 0; padding: 0; }
+.legs li { display: grid; grid-template-columns: minmax(0, 1fr) auto 5ch auto; gap: 4px 14px; align-items: center; padding: 8px 0; border-top: 1px solid color-mix(in srgb, var(--line) 60%, transparent); }
+.legs .mono { font: 14px var(--mono); text-align: right; }
+@media (max-width: 560px) { .legs li { grid-template-columns: auto 1fr auto; } .legs .ln { grid-column: 1 / -1; } .kp .s3 { grid-column: span 6; } .kpi .v { font-size: 26px; } }
+.guide { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; }
+.door { text-decoration: none; color: var(--fg); display: flex; flex-direction: column; gap: 4px; }
+.door b { font: 700 18px var(--display); }
+.door span { color: var(--muted); font-size: 14px; }
+.door:hover { border-color: var(--pos); }
+@media (max-width: 560px) { h1 { font-size: 34px } .herostats b { font-size: 28px } .herostats .sep { display: none } }
 </style>
 
 <header><div class="wrap bar">
@@ -125,7 +161,8 @@ a { color: var(--info); }
 <script id="embedded" type="application/json"></script>
 <script>
 "use strict";
-const VIEWS = [["today","Today"],["picks","Picks"],["performance","Performance"],["parlays","Parlays"],["lottos","Lottos"],["players","Players"],["settings","Settings & Audit"]];
+const VIEWS = [["today","Today"],["results","Results"],["players","Players"],["settings","Settings & Audit"]];
+const KINDS = [["straights","Straight Picks"],["parlays","Parlays"],["lottos","Lottos"]];
 const STAT = {pts:"Points", reb:"Rebounds", ast:"Assists", fg3m:"3-Pointers Made", stl:"Steals", blk:"Blocks"};
 const RES = {win:"✓ Win", loss:"✗ Loss", push:"= Push", void:"Void", pending:"Pending", cashout:"Cash-out"};
 let D = null;
@@ -173,7 +210,6 @@ const pickTable = (rows, empty) => tbl(["Pick", "#Win Chance", "#Price", "Final"
 const allPicks = () => ((D.performance.posted_leans || {}).rows || []).slice().sort((a, b) => String(b.slate).localeCompare(String(a.slate)));
 const todayStr = () => (D.today || {}).date || D.meta.today;
 const todayPicks = () => ((D.today || {}).leans || []).map(r => ({...r, slate: r.slate || todayStr()}));
-const NO_PICKS = `<p class="note">Today's picks will be posted at 4:30 PM ET, when the system runs.</p>`;
 
 function dayStats(rows) {
   const done = rows.filter(r => r.result === "win" || r.result === "loss");
@@ -216,65 +252,69 @@ function banner() {
 }
 
 const R = {};
-R.today = () => {
-  const T = D.today || {}, picks = todayPicks(), n = T.game_count || (T.games || []).length;
-  const recent = allPicks().filter(r => r.slate !== todayStr()).slice(0, 10);
-  return `${banner()}
-  <h2>Today · ${esc(longDay(todayStr()))}</h2>
-  <p class="sub">${n} ${n === 1 ? "Game" : "Games"} Scheduled · Updated ${time(D.meta.generated_at)}</p>
-  <h2>Games</h2>${gameCards()}
-  <h2>Today's Picks</h2>
-  ${picks.length ? `<div class="panel">${pickTable(picks, "")}</div>` : NO_PICKS}
-  ${picks.length ? "" : `<h2>Latest Picks</h2><div class="panel">${pickTable(recent, "No picks yet.")}</div><p class="sub"><a href="#picks">All Picks By Day</a></p>`}`;
-};
-R.picks = () => {
-  const rows = allPicks(), today = todayStr(), tp = todayPicks();
-  const days = [...new Set(rows.map(r => r.slate).filter(d => d !== today))].sort().reverse();
-  return `${banner()}<h2>Today's Picks</h2>
-  ${tp.length ? dayBlock(today, tp, true) : NO_PICKS}
-  ${days.map(d => dayBlock(d, rows.filter(r => r.slate === d), false)).join("")}`;
-};
-R.performance = () => {
-  const rows = allPicks(), s = dayStats(rows), B = D.performance.posted_leans || {};
-  return `${banner()}<h2>Performance</h2><p class="sub">Stake: 1 Unit Each</p>
-  <div class="grid">
-    <div class="panel kpi s3"><div class="v">${B.wins ?? s.w}-${B.losses ?? s.l}</div><div class="l">Record</div></div>
-    <div class="panel kpi s3"><div class="v">${pct(B.hit_rate ?? s.rate)}</div><div class="l">Hit Rate</div></div>
-    <div class="panel kpi s3"><div class="v ${cls(B.net_units)}">${u(B.net_units ?? s.net)}</div><div class="l">Net Units</div></div>
-    <div class="panel kpi s3"><div class="v ${cls(B.roi)}">${spct(B.roi)}</div><div class="l">ROI</div></div>
-  </div>
-  <h2>All Picks</h2>
-  <div class="panel">${tbl(["Date", "Pick", "#Win Chance", "#Price", "Final", "Result", "#Units"], rows.map(r => `<tr><td class="n">${esc(r.slate)}</td><td><b>${esc(pickText(r))}</b></td><td class="n">${bar(r.prob)}</td><td class="n">${amS(r.price_american)}</td><td class="meta">${esc(finalText(r))}</td><td>${resPill(r.result)}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`), "No picks yet.")}</div>`;
-};
 
-/* ---- parlays and lottos (research) ---- */
-function ticketRows(kind) { return (((D.tickets || {}).rows) || []).filter(t => t.kind === kind); }
-function ticketCard(t) {
-  return `<div class="panel"><div class="ph"><b>${t.legs.length}-Leg ${kind1(t.kind)}</b><span class="meta">Win Chance ${pct(t.prob)} · Pays ${amS(t.price_american)} · ${resPill(t.result)} · ${t.net_units == null ? "–" : u(t.net_units)}</span></div>
-    ${tbl(["Leg", "#Win Chance", "#Price", "Result"], t.legs.map(l => `<tr><td><b>${esc(pickText(l))}</b></td><td class="n">${bar(l.prob)}</td><td class="n">${amS(l.price_american)}</td><td>${resPill(l.result)}</td></tr>`), "")}</div>`;
-}
 const kind1 = k => k === "lotto" ? "Lotto" : "Parlay";
-function ticketDay(date, rows, isToday, notes) {
+const ticketRows = kind => (((D.tickets || {}).rows) || []).filter(t => t.kind === kind);
+const ticketNotes = (date, kind) => ((((D.tickets || {}).notes) || {})[date] || []).filter(n => kind === "lotto" ? /lotto/i.test(n) : !/lotto/i.test(n));
+const evText = ev => ev == null ? "–" : spct(ev);
+function ticketCard(t) {
+  return `<article class="ticket"><div class="th"><div><b>${t.legs.length}-Leg ${kind1(t.kind)}</b> <span class="tag">Research</span></div>
+    <div class="tstats"><span>Win Chance <b>${pct(t.prob)}</b></span><span>Pays <b>${amS(t.price_american)}</b></span><span>Model Edge <b class="${cls(t.ev)}">${evText(t.ev)}</b></span>${resPill(t.result)}<b class="${cls(t.net_units)}">${t.net_units == null ? "" : u(t.net_units)}</b></div></div>
+    <ul class="legs">${t.legs.map(l => `<li><b class="ln">${esc(pickText(l))}</b>${bar(l.prob)}<span class="mono">${amS(l.price_american)}</span>${resPill(l.result)}</li>`).join("")}</ul></article>`;
+}
+function dayShell(date, rows, isToday, countLabel, body) {
   const s = dayStats(rows);
   return `<section class="day"><header class="dayh"><h3>${isToday ? "Today · " : ""}${esc(longDay(date))}</h3>
-    <div class="chips">${chip("Record", s.n ? `${s.w}-${s.l}` : "–")}${chip("Win Rate", s.n ? pct(s.rate) : "–")}${chip("Net Units", s.n ? u(s.net) : "–", s.n ? cls(s.net) : "")}${chip("Tickets", rows.length)}</div></header>
-    ${rows.length ? rows.map(ticketCard).join("") : `<p class="empty">${isToday && !(notes && notes.length) ? "Not posted yet. Tickets are built from the day's picks at 4:30 PM ET." : "None posted."}</p>`}
-    ${(notes || []).map(n => `<p class="sub">${esc(n)}</p>`).join("")}</section>`;
+    <div class="chips">${chip("Record", s.n ? `${s.w}-${s.l}` : "–")}${chip("Win Rate", s.n ? pct(s.rate) : "–")}${chip("Net Units", s.n ? u(s.net) : "–", s.n ? cls(s.net) : "")}${chip(countLabel, rows.length)}</div></header>${body}</section>`;
 }
-function ticketView(kind, label, plural) {
-  const rows = ticketRows(kind), notes = ((D.tickets || {}).notes) || {}, s = dayStats(rows), today = todayStr();
-  const days = [...new Set([today, ...rows.map(r => r.slate)])].sort().reverse();
-  return `${banner()}<h2>${plural}</h2><p class="sub">Research Only · Stake: 1 Unit Each · Posted With Today's Picks · Fewer Are Posted When Too Few Qualify</p>
-  <div class="grid">
-    <div class="panel kpi s3"><div class="v">${s.n ? `${s.w}-${s.l}` : "–"}</div><div class="l">Record</div></div>
-    <div class="panel kpi s3"><div class="v">${s.n ? pct(s.rate) : "–"}</div><div class="l">Hit Rate</div></div>
-    <div class="panel kpi s3"><div class="v ${cls(s.net)}">${s.n ? u(s.net) : "–"}</div><div class="l">Net Units</div></div>
-    <div class="panel kpi s3"><div class="v">${rows.length}</div><div class="l">Tickets Posted</div></div>
-  </div>
-  ${days.map(d => ticketDay(d, rows.filter(r => r.slate === d), d === today, ((notes[d] || []).filter(n => kind === "lotto" ? /lotto/i.test(n) : !/lotto/i.test(n))))).join("")}`;
+function ticketDay(date, rows, isToday, kind) {
+  const pending = isToday && !rows.length && !ticketNotes(date, kind).length;
+  return dayShell(date, rows, isToday, "Tickets", `<div class="tickets">${rows.length ? rows.map(ticketCard).join("") : `<p class="empty">${pending ? "Not posted yet. Tickets are built when today's picks go out." : "None posted."}</p>`}
+    ${ticketNotes(date, kind).map(n => `<p class="note">${esc(n)}</p>`).join("")}</div>`);
 }
-R.parlays = () => ticketView("parlay", "Parlay", "Parlays");
-R.lottos = () => ticketView("lotto", "Lotto", "Lottos");
+const kpis = (c, rows) => { const s = dayStats(rows); const risk = rows.filter(r => r.result === "win" || r.result === "loss").length;
+  return `<div class="grid kp">${[["Record", s.n ? `${s.w}-${s.l}` : "–", ""], ["Hit Rate", s.n ? pct(s.rate) : "–", ""], ["Net Units", s.n ? u(s.net) : "–", s.n ? cls(s.net) : ""], ["Return On Stake", risk ? spct(s.net / risk) : "–", risk ? cls(s.net) : ""]]
+    .map(([l, v, k]) => `<div class="panel kpi s3"><div class="v ${k}">${v}</div><div class="l">${l}</div></div>`).join("")}</div>`; };
+
+/* ---- views ---- */
+const GUIDE = [["Today", "#today", "Tonight's picks, parlays, lotto and games."], ["Results", "#results", "Every past pick, graded, by day and by type."], ["Players", "#players", "The ten players with the most likely props."], ["Settings & Audit", "#settings", "Stakes, limits, markets and data sources."]];
+R.today = () => {
+  const T = D.today || {}, picks = todayPicks(), n = T.game_count || (T.games || []).length, td = todayStr();
+  const all = allPicks(), st = dayStats(all), par = ticketRows("parlay").filter(t => t.slate === td), lot = ticketRows("lotto").filter(t => t.slate === td);
+  const yday = all.filter(r => r.slate !== td), last = yday.length ? yday[0].slate : null, ls = last ? dayStats(yday.filter(r => r.slate === last)) : null;
+  return `${banner()}
+  <section class="hero"><div><p class="eyebrow">${esc(longDay(td))}</p><h1>Today's Card</h1>
+    <p class="sub">${n} ${n === 1 ? "game" : "games"} on the slate · updated ${time(D.meta.generated_at)}</p></div>
+    <div class="herostats">
+      <div><b>${picks.length}</b><span>Straight Picks</span></div><div><b>${par.length}</b><span>Parlays</span></div><div><b>${lot.length}</b><span>Lotto</span></div>
+      <div class="sep"></div><div><b class="${cls(st.net)}">${st.n ? st.w + "-" + st.l : "–"}</b><span>Season Record</span></div><div><b class="${cls(st.net)}">${st.n ? u(st.net) : "–"}</b><span>Net Units</span></div>
+      ${ls ? `<div><b class="${cls(ls.net)}">${ls.w}-${ls.l}</b><span>${esc(new Date(last + "T12:00:00").toLocaleDateString([], {weekday: "long"}))}</span></div>` : ""}
+    </div></section>
+  <h2 class="sec">Straight Picks</h2>
+  ${picks.length ? `<div class="panel flush">${pickTable(picks, "")}</div>` : `<p class="note">${"Today's picks post at 4:30 PM ET on weekdays and 11:00 AM ET on weekends."}</p>`}
+  <h2 class="sec">Parlays And Lotto <span class="tag">Research</span></h2>
+  <p class="sub">Built from the most likely props in different games. The edge shown is the model's own estimate against the price, and it can be negative.</p>
+  <div class="tickets">${[...par, ...lot].map(ticketCard).join("") || `<p class="empty">Not posted yet. They are built when today's picks go out.</p>`}</div>
+  ${[...ticketNotes(td, "parlay"), ...ticketNotes(td, "lotto")].map(x => `<p class="note">${esc(x)}</p>`).join("")}
+  <h2 class="sec">Games</h2>${gameCards()}
+  <h2 class="sec">Where To Find What</h2>
+  <div class="guide">${GUIDE.map(([t, h, d]) => `<a class="panel door" href="${h}"><b>${t}</b><span>${d}</span></a>`).join("")}</div>`;
+};
+R.results = (sub) => {
+  const k = KINDS.some(([x]) => x === sub) ? sub : "straights", td = todayStr();
+  const seg = `<div class="seg" role="tablist">${KINDS.map(([x, l]) => `<a role="tab" href="#results${x === "straights" ? "" : "-" + x}" aria-selected="${x === k}">${l}</a>`).join("")}</div>`;
+  let rows, body;
+  if (k === "straights") {
+    rows = allPicks();
+    const days = [...new Set([...rows.map(r => r.slate)])].sort().reverse();
+    body = days.map(d => dayBlock(d, rows.filter(r => r.slate === d), d === td)).join("") || `<p class="empty">No picks yet.</p>`;
+  } else {
+    const kind = k === "parlays" ? "parlay" : "lotto"; rows = ticketRows(kind);
+    const days = [...new Set([td, ...rows.map(r => r.slate)])].sort().reverse();
+    body = days.map(d => ticketDay(d, rows.filter(r => r.slate === d), d === td, kind)).join("");
+  }
+  return `${banner()}<h2 class="sec first">Results</h2><p class="sub">${k === "straights" ? "Stake: 1 unit on every pick." : "Research tickets, 1 unit each. The model edge is its own estimate and is shown even when negative."}</p>${seg}${kpis(k, rows)}${body}`;
+};
 R.players = () => {
   const ids = new Set(((D.today || {}).games || []).map(g => String(g.game_id)));
   const ps = ((D.players || {}).players || []).filter(p => !ids.size || ids.has(String(p.game_id))).slice(0, 10);
@@ -306,10 +346,10 @@ async function boot() {
   window.addEventListener("hashchange", route); route();
 }
 function route() {
-  const v = (location.hash || "#today").slice(1);
-  const view = VIEWS.some(([k]) => k === v) ? v : "today";
+  const v = (location.hash || "#today").slice(1), [head, ...rest] = v.split("-");
+  const view = VIEWS.some(([k]) => k === head) ? head : "today";
   $$("nav a").forEach(a => a.setAttribute("aria-current", a.dataset.v === view));
-  try { $("#app").innerHTML = R[view](); }
+  try { $("#app").innerHTML = R[view](rest.join("-")); }
   catch (e) { $("#app").innerHTML = `<p class="empty">This view could not be drawn (${esc(e.message)}).</p>`; console.error(e); }
   window.scrollTo(0, 0);
 }
