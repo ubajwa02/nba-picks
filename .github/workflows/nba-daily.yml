@@ -6,10 +6,23 @@ name: nba-daily
 # Times are UTC. Publishing is dry-run until config/nbapicks.yaml says otherwise.
 on:
   schedule:
-    - cron: "0 15 * * *"    # ~11:00 ET  morning read: ingest + predict
-    - cron: "30 20 * * *"   # ~16:30 ET  picks: ingest + predict + publish
-    - cron: "50 20 * * *"   # backup picks slot: GitHub delays or drops cron runs; posting is once per slate
-    - cron: "20 21 * * *"   # backup picks slot
+    - cron: "0 15 * * 1-5"  # ~11:00 ET  morning read: ingest + predict (weekdays)
+    # Picks slots: 4:30 PM ET weekdays, 11:00 AM ET weekends. Cron is UTC and ignores daylight saving, so
+    # each slot is listed for both offsets (EDT before Nov 1 2026, EST after) and the "Choose steps" step
+    # only posts picks once the New York clock has reached the target time. The +20/+50 minute slots are
+    # backups: GitHub delays or drops cron runs, and posting is once per slate.
+    - cron: "30 20 * * 1-5"   # 16:30 EDT
+    - cron: "50 20 * * 1-5"
+    - cron: "20 21 * * 1-5"
+    - cron: "30 21 * * 1-5"   # 16:30 EST
+    - cron: "50 21 * * 1-5"
+    - cron: "20 22 * * 1-5"
+    - cron: "0 15 * * 0,6"    # 11:00 EDT
+    - cron: "20 15 * * 0,6"
+    - cron: "50 15 * * 0,6"
+    - cron: "0 16 * * 0,6"    # 11:00 EST
+    - cron: "20 16 * * 0,6"
+    - cron: "50 16 * * 0,6"
     - cron: "30 22 * * *"   # ~18:30 ET  pre-tip refresh before 7pm tips: injuries/lineups/prices (no publish)
     - cron: "15 23 * * *"   # ~19:15 ET  pre-tip refresh for later tips (no publish)
     - cron: "0 7 * * *"     # ~03:00 ET  results: settle + recap
@@ -48,8 +61,14 @@ jobs:
           SCHED: ${{ github.event.schedule }}
           INPUT: ${{ inputs.steps }}
         run: |
+          # New York clock: picks go out at 16:30 on weekdays, 11:00 on weekends, never earlier.
+          DOW=$(TZ=America/New_York date +%u); MIN=$(( 10#$(TZ=America/New_York date +%H) * 60 + 10#$(TZ=America/New_York date +%M) ))
+          if [ "$DOW" -ge 6 ]; then TARGET=660; else TARGET=990; fi
+          PICKS="ingest catchup predict publish leans settle export"
+          if [ "$MIN" -lt "$TARGET" ]; then PICKS="ingest catchup predict settle export"; fi
           case "$SCHED" in
-            "30 20 * * *"|"50 20 * * *"|"20 21 * * *") S="ingest catchup predict publish leans settle export" ;;
+            "30 20 * * 1-5"|"50 20 * * 1-5"|"20 21 * * 1-5"|"30 21 * * 1-5"|"50 21 * * 1-5"|"20 22 * * 1-5"|\
+            "0 15 * * 0,6"|"20 15 * * 0,6"|"50 15 * * 0,6"|"0 16 * * 0,6"|"20 16 * * 0,6"|"50 16 * * 0,6") S="$PICKS" ;;
             "0 7 * * *"|"40 8 * * *"|"0 13 * * *") S="ingest catchup settle recap diagnose export" ;;
             "") S="${INPUT:-ingest catchup predict settle export}" ;;
             *) S="ingest catchup predict settle export" ;;
