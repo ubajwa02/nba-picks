@@ -2,11 +2,22 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 16-9 on 25 graded posted picks, +4.61u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 10-6 (+2.48u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 13-6 (+5.17u); gap<5pts 0-2 (-2.00u); gap>=15pts 3-1 (+1.44u).
+- 21-10 on 31 graded posted picks, +6.28u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 15-7 (+4.14u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 13-6 (+5.17u); gap<5pts 5-3 (-0.34u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 1-0 (+0.48u); moved toward us 4-2 (+1.68u).
-- Wider settled predictions (n=1777): model Brier 0.1483 vs book 0.1498 (lower is better).
+- Wider settled predictions (n=3828): model Brier 0.1448 vs book 0.1457 (lower is better).
+
+## 2026-10-26
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Tim Hardaway Jr. u2.5 reb | win | +0.55 | 0.647 | 0.645 | +0.00 |  | career 161/335, season 1/3, last10 3/10 |
+| Jaren Jackson Jr. u2.5 ast | win | +0.52 | 0.645 | 0.657 | -0.02 |  | career 194/266, season 2/3, last10 6/10 |
+| Jalen Green u2.5 fg3m | win | +0.51 | 0.655 | 0.662 | -0.01 |  | career 157/286, season 2/2, last10 8/10 |
+| Collin Gillespie u2.5 fg3m | loss | -1.00 | 0.651 | 0.649 | +0.00 |  | career 89/143, season 2/2, last10 10/10 |
+| Christian Braun u1.5 fg3m | win | +0.51 | 0.675 | 0.662 | +0.02 |  | career 260/332, season 2/2, last10 8/10 |
+| CJ McCollum u3.5 ast | win | +0.57 | 0.660 | 0.636 | +0.04 |  | career 107/288, season 3/3, last10 7/10 |
 
 ## 2026-10-23
 
