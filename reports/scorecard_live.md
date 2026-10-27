@@ -42,7 +42,7 @@ Brier: model 0.1448 vs market-implied 0.1457 (n=3828; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 21-10-0, +6.28u, pending 0.
+Record 21-10-0, +6.28u, pending 6.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -77,6 +77,12 @@ Record 21-10-0, +6.28u, pending 0.
 | 2026-10-26 | Collin Gillespie u2.5 fg3m | -185 | 3 | loss | -1.00 |
 | 2026-10-26 | Tim Hardaway Jr. u2.5 reb | -182 | 2 | win | +0.55 |
 | 2026-10-26 | Jaren Jackson Jr. u2.5 ast | -192 | 2 | win | +0.52 |
+| 2026-10-27 | Quentin Grimes o1.5 ast | -185 | None | pending | +0.00 |
+| 2026-10-27 | Paul George u3.5 fg3m | -179 | None | pending | +0.00 |
+| 2026-10-27 | Devin Vassell o1.5 fg3m | -192 | None | pending | +0.00 |
+| 2026-10-27 | Julian Champagnie o1.5 fg3m | -196 | None | pending | +0.00 |
+| 2026-10-27 | Egor Demin u3.5 reb | -164 | None | pending | +0.00 |
+| 2026-10-27 | Ja Morant o5.5 ast | -154 | None | pending | +0.00 |
 
 ## Rows
 

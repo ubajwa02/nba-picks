@@ -7961,3 +7961,4 @@
 {"at": "2026-10-27T06:52:30Z", "data": {"stake": 1.0}, "event_id": "987524e89a9ee136", "net_units": -1.0, "pred_id": "f0bbc7ccf730d2d1", "result": "loss", "type": "settled"}
 {"at": "2026-10-27T06:52:30Z", "data": {"stake": 0.5}, "event_id": "dcd845a058564d92", "net_units": 2.8923191966670228, "pred_id": "95196a41dee2ea4c", "result": "win", "type": "settled"}
 {"at": "2026-10-27T06:52:30Z", "data": {"stake": 0.5}, "event_id": "908a7a1f72e39603", "net_units": 0.7482517482517483, "pred_id": "43f4f924ba87daf6", "result": "win", "type": "settled"}
+{"at": "2026-10-27T21:15:40Z", "data": {"paper_record": true}, "event_id": "67ad9ffd937ce0c3", "pred_id": "c001b71dc24fcb28", "type": "note"}
