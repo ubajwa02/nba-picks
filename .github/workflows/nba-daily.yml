@@ -25,7 +25,9 @@ on:
     - cron: "50 16 * * 0,6"
     - cron: "30 22 * * *"   # ~18:30 ET  pre-tip refresh before 7pm tips: injuries/lineups/prices (no publish)
     - cron: "15 23 * * *"   # ~19:15 ET  pre-tip refresh for later tips (no publish)
-    - cron: "0 7 * * *"     # ~03:00 ET  results: settle + recap
+    - cron: "30 3 * * *"    # 23:30 EDT  evening grading: early games and bets that are already final
+    - cron: "30 4 * * *"    # 23:30 EST  same slot after the Nov 1 clock change (grading is idempotent)
+    - cron: "0 7 * * *"     # ~03:00 ET  results: settle + recap (late West Coast games)
     - cron: "40 8 * * *"    # backup results slot (settling is idempotent)
     - cron: "0 13 * * *"    # ~09:00 ET  late results catch-up
   push:
@@ -69,7 +71,7 @@ jobs:
           case "$SCHED" in
             "30 20 * * 1-5"|"50 20 * * 1-5"|"20 21 * * 1-5"|"30 21 * * 1-5"|"50 21 * * 1-5"|"20 22 * * 1-5"|\
             "0 15 * * 0,6"|"20 15 * * 0,6"|"50 15 * * 0,6"|"0 16 * * 0,6"|"20 16 * * 0,6"|"50 16 * * 0,6") S="$PICKS" ;;
-            "0 7 * * *"|"40 8 * * *"|"0 13 * * *") S="ingest catchup settle recap diagnose export" ;;
+            "30 3 * * *"|"30 4 * * *"|"0 7 * * *"|"40 8 * * *"|"0 13 * * *") S="ingest catchup settle recap diagnose export" ;;
             "") S="${INPUT:-ingest catchup predict settle export}" ;;
             *) S="ingest catchup predict settle export" ;;
           esac
