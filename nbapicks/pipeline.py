@@ -734,7 +734,9 @@ def post_leans(ctx: Ctx) -> dict:
     if last.get("slate") != slate or not last.get("games"):
         return dict(posted=0, skipped="no prediction run for today's slate")
     if any(l.get("slate") == slate for l in LN.track.load(ctx.root)):
-        return dict(posted=0, skipped="today's leans are already posted")
+        if any(t["slate"] == slate and t.get("research") for t in LN.load_tickets(ctx.root)):
+            return dict(posted=0, skipped="today's leans are already posted")
+        return _rebuild_tickets(ctx, slate, last)
     failing = validate.failing_sources(ctx.health, CRITICAL_SOURCES, ctx.now)
     inj = jload(f"{ctx.root}/state/injuries_latest.json", {})
     inj_age = (ctx.now - parse_t(inj["observed_at"])).total_seconds() / 60 if inj.get("observed_at") else None
@@ -752,13 +754,25 @@ def post_leans(ctx: Ctx) -> dict:
     for l in leans:
         LN.track.add(ctx.root, l)
     leans = [dict(l, lean_id=LN.track.lean_id(l)) for l in leans]
-    tickets, notes = LN.build_tickets(leans, ctx.cfg, slate)
+    tickets, notes = LN.build_tickets(LN.pick_leans(preds, ctx.cfg, slate, iso(ctx.now), pool=True), ctx.cfg, slate)
     if not leans:
-        notes = ["No props cleared today's rule (win chance, price, recent history and data checks), so nothing was posted."]
+        notes = ["No props cleared today's pick rule (win chance, price, recent history and data checks), so no straight picks were posted."] + notes
     for t in tickets:
         LN.add_ticket(ctx.root, t)
     LN.save_notes(ctx.root, slate, notes)
     return dict(posted=len(leans), parlays=sum(t["kind"] == "parlay" for t in tickets), lottos=sum(t["kind"] == "lotto" for t in tickets))
+
+
+def _rebuild_tickets(ctx: Ctx, slate: str, last: dict) -> dict:
+    """Today's leans stand; the parlays and lotto are rebuilt under the always-post rule."""
+    games = {g["game_id"]: g for g in ctx.store.q("SELECT game_id, start_utc FROM games")}
+    cur = set(last.get("pred_ids") or [])
+    preds = [dict(p, start_utc=(games.get(p["game_id"]) or {}).get("start_utc"))
+             for p in ctx.store.q("SELECT * FROM predictions WHERE category = 'straight' AND market = 'prop'") if p["pred_id"] in cur]
+    tickets, notes = LN.build_tickets(LN.pick_leans(preds, ctx.cfg, slate, iso(ctx.now), pool=True), ctx.cfg, slate)
+    LN.replace_slate_tickets(ctx.root, slate, tickets)
+    LN.save_notes(ctx.root, slate, notes)
+    return dict(posted=0, parlays=sum(t["kind"] == "parlay" for t in tickets), lottos=sum(t["kind"] == "lotto" for t in tickets))
 
 
 def build_parlays(ctx: Ctx, best: list[Candidate], cfg: dict) -> list[dict]:

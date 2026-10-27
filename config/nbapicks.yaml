@@ -10,7 +10,7 @@ stakes:                          # units only; never escalated automatically
 
 targets:                         # maxima, never quotas
   straight: 5                  # owner spec 2026-10-22: up to five straights
-  parlay: 3                    # owner 2026-10-26: 2-3 parlays and 1 lotto a day, research only, never forced
+  parlay: 2                    # owner 2026-10-27: always 2 parlays and 1 lotto a day (highest win chance), research only
   lotto: 1
 
 markets:                         # status: research | paper | live (set by promotion decisions)

@@ -58,8 +58,12 @@ def lean_label(p: dict) -> str:
     return f"{name} {p['selection'][0]}{p['line']:g} {p['stat']}"
 
 
-def pick_leans(preds: list[dict], cfg: dict, slate: str, now_iso: str) -> list[dict]:
-    lc = cfg["leans"]
+def pick_leans(preds: list[dict], cfg: dict, slate: str, now_iso: str, pool: bool = False) -> list[dict]:
+    """The posted leans (strict rule), or with pool=True the wider list of clean, not-started props
+    ranked by win chance that parlays and the lotto draw from (they must always be built)."""
+    lc = dict(cfg["leans"])
+    if pool:
+        lc.update(min_prob=0.50, min_decimal=1.15, min_last10=0, per_game=4, max_leans=18)
     best: dict[tuple, dict] = {}
     for p in preds:
         if p.get("market") != "prop" or p.get("category") != "straight" or p.get("selection") not in ("over", "under"):
@@ -98,10 +102,10 @@ def pick_leans(preds: list[dict], cfg: dict, slate: str, now_iso: str) -> list[d
     return out
 
 
-def _combos(leans: list[dict], sizes) -> list[dict]:
+def _combos(legs: list[dict], sizes) -> list[dict]:
     out = []
     for k in sizes:
-        for combo in itertools.combinations(leans, k):
+        for combo in itertools.combinations(legs, k):
             if len({c["game_id"] for c in combo}) < k:
                 continue                  # same-game legs are dependent: never combined
             dec = O.parlay_decimal([O.american_to_decimal(c["price_american"]) for c in combo])
@@ -110,40 +114,57 @@ def _combos(leans: list[dict], sizes) -> list[dict]:
     return out
 
 
-def build_tickets(leans: list[dict], cfg: dict, slate: str) -> tuple[list[dict], list[str]]:
-    """Parlays and the lotto from today's leans, plus plain-language reasons for any shortfall."""
-    leans = [dict(l, lean_id=l.get("lean_id") or track.lean_id(l)) for l in leans]
+def _leg(l: dict) -> dict:
+    keys = ("lean_id", "label", "prob", "price_american", "game_id", "market", "selection", "line", "player_id", "stat", "slate")
+    return {k: l.get(k) for k in keys} | {"stake": 1.0}
+
+
+def build_tickets(legs: list[dict], cfg: dict, slate: str) -> tuple[list[dict], list[str]]:
+    """Always the daily target of parlays and one lotto, each the highest win-chance combination of
+    different-game legs from the pool. Research only: the real EV is stored and shown, even when negative.
+    Parlays prefer legs not used by another parlay; they reuse a leg only when the pool is too small."""
+    legs = [dict(l, lean_id=l.get("lean_id") or track.lean_id(l)) for l in legs]
     notes, out = [], []
-    pm, lm = cfg["markets"]["parlay"], cfg["markets"]["lotto"]
-    cap = int(cfg["risk"]["max_parlay_units_per_day"] // cfg["stakes"]["parlay"])
-    want = min(cfg["targets"]["parlay"], cap)
-    if len(leans) < 2:
-        notes.append(f"Only {len(leans)} lean{'s' if len(leans) != 1 else ''} posted today, so no parlays could be built.")
-    cands = [c for c in _combos(leans, range(2, pm["max_legs"] + 1)) if c["price_dec"] < lm["min_decimal"] and c["ev"] >= pm["min_ev"]]
+    want = cfg["targets"]["parlay"]
+    lm = cfg["markets"]["lotto"]
+    if len(legs) < 2:
+        return [], [f"Only {len(legs)} eligible prop{'s' if len(legs) != 1 else ''} today, so no parlays or lotto could be built."]
+    pairs = sorted(_combos(legs, (2,)), key=lambda c: -c["prob"])
     used, chosen = set(), []
-    for c in sorted(cands, key=lambda c: -c["prob"]):
+    for c in pairs:
         ids = {l["lean_id"] for l in c["legs"]}
         if ids & used:
             continue
         chosen.append(c); used |= ids
         if len(chosen) >= want:
             break
-    if len(leans) >= 2 and len(chosen) < cfg["targets"]["parlay"]:
-        notes.append(f"{len(chosen)} of {cfg['targets']['parlay']} parlays posted: only these combinations of different-game legs "
-                     f"cleared the {pm['min_ev']:.0%} model edge without reusing a leg.")
-    lot = [c for c in _combos(leans, range(3, lm["max_legs"] + 1)) if c["price_dec"] >= lm["min_decimal"] and c["ev"] >= lm["min_ev"]]
-    lotto = sorted(lot, key=lambda c: -c["prob"])[:cfg["targets"]["lotto"]]
+    if len(chosen) < want:                                     # too few distinct legs: reuse, best first
+        for c in pairs:
+            if c not in chosen:
+                chosen.append(c)
+            if len(chosen) >= want:
+                break
+        notes.append("Parlays share some legs today because too few eligible props were available.")
+    if len(chosen) < want:
+        notes.append(f"Only {len(chosen)} of {want} parlays could be built from today's eligible props.")
+    lotto = []
+    for size in range(min(lm["max_legs"], len(legs)), 2, -1):
+        cs = _combos(legs, (size,))
+        big = [c for c in cs if c["price_dec"] >= lm["min_decimal"]]
+        if big or cs:
+            lotto = sorted(big or cs, key=lambda c: -c["prob"])[:cfg["targets"]["lotto"]]
+            if not big:
+                notes.append(f"The lotto pays {lotto[0]['price_dec']:.1f}x, under the usual {lm['min_decimal']:g}x target, "
+                             f"because no larger payout was available from today's eligible props.")
+            break
     if not lotto:
-        notes.append(f"No lotto today: no 3 to {lm['max_legs']}-leg combination paid at least {lm['min_decimal']:g}x "
-                     f"with a {lm['min_ev']:.0%} model edge.")
+        notes.append("No lotto today: fewer than 3 eligible props in different games.")
     for kind, tickets in (("parlay", chosen), ("lotto", lotto)):
         for c in tickets:
             ids = sorted(l["lean_id"] for l in c["legs"])
             out.append(dict(ticket_id=stable_id(slate, kind, *ids), slate=slate, kind=kind, price_dec=round(c["price_dec"], 4),
                             price_american=decimal_to_american(c["price_dec"]), prob=round(c["prob"], 4), ev=round(c["ev"], 4),
-                            stake=cfg["stakes"][kind],
-                            legs=[dict(lean_id=l["lean_id"], label=l["label"], prob=l["prob"], price_american=l["price_american"],
-                                       game_id=l["game_id"]) for l in c["legs"]]))
+                            stake=cfg["stakes"][kind], research=True, legs=[_leg(l) for l in c["legs"]]))
     return out, notes
 
 
@@ -151,6 +172,15 @@ def build_tickets(leans: list[dict], cfg: dict, slate: str) -> tuple[list[dict],
 def load_tickets(root: str) -> list[dict]:
     p = os.path.join(root, "ledger", TICKETS)
     return [json.loads(x) for x in open(p) if x.strip()] if os.path.exists(p) else []
+
+
+def replace_slate_tickets(root: str, slate: str, tickets: list[dict]) -> None:
+    """Swap a slate's tickets built under a superseded rule (no research flag) for the current ones."""
+    keep = [t for t in load_tickets(root) if t["slate"] != slate or t.get("research")]
+    have = {t["ticket_id"] for t in keep}
+    with open(os.path.join(root, "ledger", TICKETS), "w") as fh:
+        for t in keep + [t for t in tickets if t["ticket_id"] not in have]:
+            fh.write(json.dumps(t, sort_keys=True) + "\n")
 
 
 def add_ticket(root: str, t: dict) -> bool:
@@ -178,18 +208,17 @@ def save_notes(root: str, slate: str, notes: list[str]) -> None:
         json.dump(d, fh, indent=1, sort_keys=True)
 
 
-def grade_tickets(tickets: list[dict], graded_leans: list[dict]) -> list[dict]:
-    """Each ticket's result from its legs' graded results: any loss loses, any pending waits, a pushed
-    or void leg drops out of the payout (settle.settle_parlay)."""
-    by_id = {(l.get("lean_id") or track.lean_id(l)): l for l in graded_leans}
+def grade_tickets(tickets: list[dict], games: dict, box: dict, leans: list[dict] | None = None) -> list[dict]:
+    """Each ticket's result from its legs graded against the final box scores: any loss loses, any pending
+    waits, a pushed or void leg drops out of the payout (settle.settle_parlay)."""
+    by_id = {(l.get("lean_id") or track.lean_id(l)): l for l in leans or []}
     out = []
     for t in tickets:
-        legs, res = [], []
-        for l in t["legs"]:
-            g = by_id.get(l["lean_id"]) or {}
-            r = g.get("result") or "pending"
-            legs.append(dict(l, result=r, stat_value=g.get("stat_value")))
-            res.append((r, O.american_to_decimal(l["price_american"])))
+        # tickets written before legs carried their full definition: fill it from the posted lean
+        t = dict(t, legs=[dict(by_id.get(l["lean_id"], {}), **l) if "market" not in l else l for l in t["legs"]])
+        graded = track.grade(t["legs"], games, box)
+        res = [(g["result"] or "pending", O.american_to_decimal(g["price_american"])) for g in graded]
         result, net, eff = settle_parlay(res, t["stake"])
+        legs = [dict(l, result=g["result"] or "pending", stat_value=g["stat_value"]) for l, g in zip(t["legs"], graded)]
         out.append(dict(t, legs=legs, result=result, net_units=net))
     return out

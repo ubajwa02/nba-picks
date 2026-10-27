@@ -743,8 +743,7 @@ def export(ctx: Ctx, out_dir: str = SITE, max_bytes: int = MAX_BYTES) -> dict:
                     wins=k["wins"], losses=k["losses"], pushes=k["pushes"] + k["voids"], pending=k["pending"])
 
     from . import leans as LN
-    tickets = dict(rows=sorted(LN.grade_tickets(LN.load_tickets(ctx.root), (sc.get("leans") or {}).get("rows") or []),
-                               key=lambda t: t["slate"], reverse=True)[:300],
+    tickets = dict(rows=sorted(sc.get("tickets") or [], key=lambda t: t["slate"], reverse=True)[:300],
                    notes=LN.load_notes(ctx.root))
     data = dict(
         meta=meta, tickets=tickets, today=today_sec, picks_by_day=picks_by_day, performance=performance, players=players_sec,
@@ -814,6 +813,8 @@ def live_scorecard(ctx: Ctx, games: dict, preds: list, settled: dict, report: st
     leans = track.grade(track.load(ctx.root), games, box)
     sc = SCR.build(preds, settled)
     sc["leans"] = dict(record=track.record(leans), rows=leans)
+    from . import leans as LN
+    sc["tickets"] = LN.grade_tickets(LN.load_tickets(ctx.root), games, box, leans)
     if report:
         os.makedirs(os.path.dirname(report), exist_ok=True)
         with open(report, "w") as fh:
