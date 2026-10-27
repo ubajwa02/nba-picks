@@ -142,6 +142,8 @@ h2.sec .tag { margin: 0; font-size: 11px; }
 .kp { margin-bottom: 4px; }
 .legs { list-style: none; margin: 0; padding: 0; }
 .legs li { display: grid; grid-template-columns: minmax(0, 1fr) auto 5ch auto; gap: 4px 14px; align-items: center; padding: 8px 0; border-top: 1px solid color-mix(in srgb, var(--line) 60%, transparent); }
+.mu { color: var(--muted); font: 13px var(--mono); white-space: nowrap; }
+.ln .mu { font-weight: 400; }
 .legs .mono { font: 14px var(--mono); text-align: right; }
 @media (max-width: 560px) { .legs li { grid-template-columns: auto 1fr auto; } .legs .ln { grid-column: 1 / -1; } .kp .s3 { grid-column: span 6; } .kpi .v { font-size: 26px; } }
 .guide { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; }
@@ -204,8 +206,10 @@ function pickText(r) {
 }
 const bar = p => `<span class="wc"><b>${pct(p)}</b><span class="meter"><i style="width:${Math.max(0, Math.min(100, (p || 0) * 100))}%"></i></span></span>`;
 const finalText = r => r.result === "pending" || !r.result ? "" : r.market === "prop" ? (r.stat_value ?? "–") : (r.score || "");
-const pickRow = r => `<tr><td><b>${esc(pickText(r))}</b></td><td class="n">${bar(r.prob)}</td><td class="n">${amS(r.price_american)}</td><td class="meta">${esc(finalText(r))}</td><td>${resPill(r.result)}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`;
-const pickTable = (rows, empty) => tbl(["Pick", "#Win Chance", "#Price", "Final", "Result", "#Units"], rows.map(pickRow), empty);
+const gameMap = () => { const m = {}; for (const g of (D.today || {}).games || []) m[String(g.game_id)] = `${g.away} @ ${g.home}`; return m; };
+const matchOf = r => r.matchup || gameMap()[String(r.game_id)] || "–";
+const pickRow = r => `<tr><td><b>${esc(pickText(r))}</b></td><td class="mu">${esc(matchOf(r))}</td><td class="n">${bar(r.prob)}</td><td class="n">${amS(r.price_american)}</td><td class="meta">${esc(finalText(r))}</td><td>${resPill(r.result)}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`;
+const pickTable = (rows, empty) => tbl(["Pick", "Matchup", "#Win Chance", "#Price", "Final", "Result", "#Units"], rows.map(pickRow), empty);
 
 const allPicks = () => ((D.performance.posted_leans || {}).rows || []).slice().sort((a, b) => String(b.slate).localeCompare(String(a.slate)));
 const todayStr = () => (D.today || {}).date || D.meta.today;
@@ -260,7 +264,7 @@ const evText = ev => ev == null ? "–" : spct(ev);
 function ticketCard(t) {
   return `<article class="ticket"><div class="th"><div><b>${t.legs.length}-Leg ${kind1(t.kind)}</b> <span class="tag">Research</span></div>
     <div class="tstats"><span>Win Chance <b>${pct(t.prob)}</b></span><span>Pays <b>${amS(t.price_american)}</b></span><span>Model Edge <b class="${cls(t.ev)}">${evText(t.ev)}</b></span>${resPill(t.result)}<b class="${cls(t.net_units)}">${t.net_units == null ? "" : u(t.net_units)}</b></div></div>
-    <ul class="legs">${t.legs.map(l => `<li><b class="ln">${esc(pickText(l))}</b>${bar(l.prob)}<span class="mono">${amS(l.price_american)}</span>${resPill(l.result)}</li>`).join("")}</ul></article>`;
+    <ul class="legs">${t.legs.map(l => `<li><b class="ln">${esc(pickText(l))}<span class="mu"> · ${esc(matchOf(l))}</span></b>${bar(l.prob)}<span class="mono">${amS(l.price_american)}</span>${resPill(l.result)}</li>`).join("")}</ul></article>`;
 }
 function dayShell(date, rows, isToday, countLabel, body) {
   const s = dayStats(rows);

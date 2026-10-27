@@ -5,8 +5,8 @@ timezone: America/Toronto        # slate dates and Discord times
 
 stakes:                          # units only; never escalated automatically
   straight: 1.0
-  parlay: 0.5
-  lotto: 0.25
+  parlay: 1.0                  # owner 2026-10-27: parlays and the lotto are staked 1 unit, paid at the stated price
+  lotto: 1.0
 
 targets:                         # maxima, never quotas
   straight: 5                  # owner spec 2026-10-22: up to five straights
@@ -41,8 +41,8 @@ quality:
 risk:
   max_units_per_game: 2.0
   max_units_per_day: 8.0
-  max_parlay_units_per_day: 1.5
-  max_lotto_units_per_day: 0.25
+  max_parlay_units_per_day: 2.0
+  max_lotto_units_per_day: 1.0
   max_same_team_exposures: 1     # straight picks on the same side of one game (e.g. ML and spread)
   max_props_per_player: 1        # one straight per player per day: his props are correlated (added 2026-10-22)
   max_props_per_game: 2          # props in one game share pace and blowout risk (added 2026-10-22)

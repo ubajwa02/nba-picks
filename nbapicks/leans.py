@@ -208,7 +208,7 @@ def save_notes(root: str, slate: str, notes: list[str]) -> None:
         json.dump(d, fh, indent=1, sort_keys=True)
 
 
-def grade_tickets(tickets: list[dict], games: dict, box: dict, leans: list[dict] | None = None) -> list[dict]:
+def grade_tickets(tickets: list[dict], games: dict, box: dict, leans: list[dict] | None = None, stakes: dict | None = None) -> list[dict]:
     """Each ticket's result from its legs graded against the final box scores: any loss loses, any pending
     waits, a pushed or void leg drops out of the payout (settle.settle_parlay)."""
     by_id = {(l.get("lean_id") or track.lean_id(l)): l for l in leans or []}
@@ -218,7 +218,8 @@ def grade_tickets(tickets: list[dict], games: dict, box: dict, leans: list[dict]
         t = dict(t, legs=[dict(by_id.get(l["lean_id"], {}), **l) if "market" not in l else l for l in t["legs"]])
         graded = track.grade(t["legs"], games, box)
         res = [(g["result"] or "pending", O.american_to_decimal(g["price_american"])) for g in graded]
-        result, net, eff = settle_parlay(res, t["stake"])
+        stake = (stakes or {}).get(t["kind"], t["stake"])      # history is restated at the current stake
+        result, net, eff = settle_parlay(res, stake)
         legs = [dict(l, result=g["result"] or "pending", stat_value=g["stat_value"]) for l, g in zip(t["legs"], graded)]
-        out.append(dict(t, legs=legs, result=result, net_units=net))
+        out.append(dict(t, legs=legs, stake=stake, result=result, net_units=net))
     return out

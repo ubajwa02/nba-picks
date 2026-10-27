@@ -53,7 +53,8 @@ def grade(leans: list[dict], games: dict, box: dict) -> list[dict]:
         r = settle_leg(l["market"], l["selection"], l.get("line"), res, stat_v, played)
         dec = american_to_decimal(l["price_american"])
         out.append(dict(l, result=r, stat_value=stat_v, price_dec=dec, net_units=net_profit(r, dec, l.get("stake", 1.0)),
-                        score=f"{g['away']} {g.get('away_score')} @ {g['home']} {g.get('home_score')}" if g else None))
+                        score=f"{g['away']} {g.get('away_score')} @ {g['home']} {g.get('home_score')}" if g else None,
+                        matchup=f"{g['away']} @ {g['home']}" if g else None))
     return out
 
 

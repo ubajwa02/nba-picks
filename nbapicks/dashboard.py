@@ -814,7 +814,7 @@ def live_scorecard(ctx: Ctx, games: dict, preds: list, settled: dict, report: st
     sc = SCR.build(preds, settled)
     sc["leans"] = dict(record=track.record(leans), rows=leans)
     from . import leans as LN
-    sc["tickets"] = LN.grade_tickets(LN.load_tickets(ctx.root), games, box, leans)
+    sc["tickets"] = LN.grade_tickets(LN.load_tickets(ctx.root), games, box, leans, ctx.cfg["stakes"])
     if report:
         os.makedirs(os.path.dirname(report), exist_ok=True)
         with open(report, "w") as fh:

@@ -30,3 +30,11 @@ def test_too_few_props_builds_nothing_and_says_why():
     cfg = load_config(os.path.join(os.path.dirname(os.path.dirname(__file__)), "config", "nbapicks.yaml"))
     tickets, notes = LN.build_tickets([_lean(1, "g1")], cfg, "2026-10-27")
     assert tickets == [] and notes
+
+
+def test_winning_parlay_pays_the_combined_price_on_one_unit():
+    from nbapicks.settle import settle_parlay
+    from nbapicks.odds import american_to_decimal
+    legs = [("win", american_to_decimal(-196)), ("win", american_to_decimal(-175))]
+    result, net, eff = settle_parlay(legs, 1.0)
+    assert result == "win" and abs(net - 1.3732) < 0.01          # about +137, not the sum of the legs' profits
