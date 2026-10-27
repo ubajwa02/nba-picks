@@ -36,7 +36,7 @@ def run(ctx: Ctx) -> dict:
                   WHERE p.origin = 'model' AND p.category = 'straight'""")
     by_m = defaultdict(list)
     for r in rows:
-        if r["result"] in ("win", "loss") and r["selection"] in ("home", "over"):
+        if r["result"] in ("win", "loss") and r["selection"] in ("home", "over") and r["prob"] is not None:
             by_m[r["market"]].append(r)
     findings, out = [], {}
     for m, rs in by_m.items():
