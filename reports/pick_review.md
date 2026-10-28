@@ -1,4 +1,4 @@
-# Pick review (cumulative, as of 2026-10-27)
+# Pick review (cumulative, as of 2026-10-28)
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
