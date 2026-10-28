@@ -2,11 +2,22 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 21-10 on 31 graded posted picks, +6.28u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 15-7 (+4.14u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 13-6 (+5.17u); gap<5pts 5-3 (-0.34u); gap>=15pts 3-1 (+1.44u).
-- By closing-line move: flat 8-3 (+3.56u); moved away 1-0 (+0.48u); moved toward us 4-2 (+1.68u).
-- Wider settled predictions (n=3828): model Brier 0.1448 vs book 0.1457 (lower is better).
+- 25-12 on 37 graded posted picks, +6.48u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 19-9 (+4.34u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 13-6 (+5.17u); gap<5pts 9-5 (-0.14u); gap>=15pts 3-1 (+1.44u).
+- By closing-line move: flat 8-3 (+3.56u); moved away 3-0 (+1.51u); moved toward us 4-2 (+1.68u).
+- Wider settled predictions (n=5376): model Brier 0.1479 vs book 0.1471 (lower is better).
+
+## 2026-10-27
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Quentin Grimes o1.5 ast | loss | -1.00 | 0.668 | 0.649 | +0.03 |  | career 186/296, season 2/3, last10 7/10 |
+| Paul George u3.5 fg3m | win | +0.56 | 0.668 | 0.642 | +0.04 |  | career 151/229, season 2/3, last10 5/10 |
+| Julian Champagnie o1.5 fg3m | win | +0.51 | 0.656 | 0.662 | -0.01 | -0.007 | career 160/281, season 3/3, last10 9/10 |
+| Ja Morant o5.5 ast | loss | -1.00 | 0.634 | 0.606 | +0.05 |  | career 118/152, season 2/2, last10 8/10 |
+| Egor Demin u3.5 reb | win | +0.61 | 0.638 | 0.621 | +0.03 |  | career 31/55, season 1/3, last10 3/10 |
+| Devin Vassell o1.5 fg3m | win | +0.52 | 0.658 | 0.657 | +0.00 | -0.015 | career 179/263, season 1/3, last10 6/10 |
 
 ## 2026-10-26
 
