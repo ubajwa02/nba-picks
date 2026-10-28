@@ -10,7 +10,7 @@
  },
  "eligible": 0,
  "games": 1,
- "injuries_observed_at": "2026-10-28T00:37:04Z",
+ "injuries_observed_at": "2026-10-28T00:46:36Z",
  "lottos": 0,
  "model": "ratings-v1-trend",
  "model_ready": true,
@@ -531,7 +531,7 @@
    "pairs_verified": 0
   }
  },
- "run_id": "run-2026-10-28T00:37:04Z",
+ "run_id": "run-2026-10-28T00:46:36Z",
  "slate": "2026-10-27",
  "split_cards": 443,
  "written": 0
