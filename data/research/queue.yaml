@@ -1,4 +1,4 @@
-updated: '2026-10-28T09:53:07Z'
+updated: '2026-10-28T10:44:03Z'
 queue:
 - kind: overconfident
   market: ml
@@ -6,18 +6,18 @@ queue:
   variant: blend toward market / wider sigma
   hypothesis: A model weight below the current blend or a larger sigma fixes overconfidence
     seen live.
-  added: '2026-10-28T09:53:07Z'
+  added: '2026-10-28T10:44:03Z'
 - kind: slow_adapt
   market: total
   evidence: Brier worsened by 0.080 between halves
   variant: hl30
   hypothesis: Early-season errors are large; faster decay adapts sooner.
-  added: '2026-10-28T09:53:07Z'
+  added: '2026-10-28T10:44:03Z'
 - kind: totals_bias
   market: total
   evidence: overs hit +9.3% vs predicted
   variant: trend
   hypothesis: 'Scoring drift: totals are biased; a time trend in the points model
     removes it.'
-  added: '2026-10-28T09:53:07Z'
+  added: '2026-10-28T10:44:03Z'
 probation: []
