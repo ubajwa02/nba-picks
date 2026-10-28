@@ -10,7 +10,7 @@
  },
  "eligible": 0,
  "games": 1,
- "injuries_observed_at": "2026-10-28T01:25:27Z",
+ "injuries_observed_at": "2026-10-28T01:33:17Z",
  "lottos": 0,
  "model": "ratings-v1-trend",
  "model_ready": true,
@@ -229,6 +229,7 @@
   "528a1bbd1f829f81",
   "3514904e10acda08",
   "7a31c30885e2a97d",
+  "2272c7b666001a0a",
   "7eccccba7330a003",
   "7bcfb5d22f4341b2",
   "bbb8fd567f1d092f",
@@ -517,8 +518,7 @@
   "176ed45967e0b1d0",
   "accafeb0a654bd09",
   "e18bf1aa04eaa669",
-  "05da5e6c65a94cdf",
-  "2272c7b666001a0a"
+  "05da5e6c65a94cdf"
  ],
  "prop_model": "props-v1",
  "prop_side_check": {
@@ -532,8 +532,8 @@
    "pairs_verified": 0
   }
  },
- "run_id": "run-2026-10-28T01:25:27Z",
+ "run_id": "run-2026-10-28T01:33:17Z",
  "slate": "2026-10-27",
  "split_cards": 444,
- "written": 83
+ "written": 0
 }
