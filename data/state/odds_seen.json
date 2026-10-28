@@ -67847,18 +67847,18 @@
   "source_updated_at": "2026-10-27T18:01:43.399941309Z"
  },
  "401909880|ml|away||||DraftKings|espn|current": {
-  "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "first_seen": "2026-10-28T00:37:04Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
-   2.14,
+   2.05,
    null
   ],
-  "snap_id": "60740845674025c5"
+  "snap_id": "d70567825c0dfc2b"
  },
  "401909880|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    2.2,
@@ -67868,7 +67868,7 @@
  },
  "401909880|ml|away||||bet365|moviodds|current": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    2.07,
@@ -67878,18 +67878,18 @@
   "source_updated_at": "2026-10-28T00:08:39.597958183Z"
  },
  "401909880|ml|home||||DraftKings|espn|current": {
-  "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "first_seen": "2026-10-28T00:37:04Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
-   1.7407,
+   1.8,
    null
   ],
-  "snap_id": "5e7b8fc00a16ebe5"
+  "snap_id": "5fe88120b4018f4d"
  },
  "401909880|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.7042,
@@ -67899,7 +67899,7 @@
  },
  "401909880|ml|home||||bet365|moviodds|current": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.7874,
@@ -67910,7 +67910,7 @@
  },
  "401909880|prop|over||Austin Reaves|ast|bet365|moviodds|current|12.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    12.5,
    23.0,
@@ -67921,7 +67921,7 @@
  },
  "401909880|prop|over||Austin Reaves|ast|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    36.0,
@@ -67932,7 +67932,7 @@
  },
  "401909880|prop|over||Austin Reaves|ast|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.0556,
@@ -67943,7 +67943,7 @@
  },
  "401909880|prop|over||Austin Reaves|ast|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.3846,
@@ -67954,7 +67954,7 @@
  },
  "401909880|prop|over||Austin Reaves|ast|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    2.4,
@@ -67965,7 +67965,7 @@
  },
  "401909880|prop|over||Austin Reaves|ast|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    8.5,
@@ -67976,7 +67976,7 @@
  },
  "401909880|prop|over||Austin Reaves|fg3m|bet365|moviodds|current|0.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.1,
@@ -67987,7 +67987,7 @@
  },
  "401909880|prop|over||Austin Reaves|fg3m|bet365|moviodds|current|1.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.4762,
@@ -67998,7 +67998,7 @@
  },
  "401909880|prop|over||Austin Reaves|fg3m|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    2.45,
@@ -68009,7 +68009,7 @@
  },
  "401909880|prop|over||Austin Reaves|fg3m|bet365|moviodds|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    4.75,
@@ -68020,7 +68020,7 @@
  },
  "401909880|prop|over||Austin Reaves|fg3m|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    9.75,
@@ -68031,7 +68031,7 @@
  },
  "401909880|prop|over||Austin Reaves|fg3m|bet365|moviodds|current|5.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    17.0,
@@ -68042,7 +68042,7 @@
  },
  "401909880|prop|over||Austin Reaves|fg3m|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    29.0,
@@ -68064,7 +68064,7 @@
  },
  "401909880|prop|over||Austin Reaves|pts|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    1.0909,
@@ -68075,7 +68075,7 @@
  },
  "401909880|prop|over||Austin Reaves|pts|bet365|moviodds|current|19.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    1.3448,
@@ -68086,7 +68086,7 @@
  },
  "401909880|prop|over||Austin Reaves|pts|bet365|moviodds|current|24.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    24.5,
    2.0,
@@ -68097,7 +68097,7 @@
  },
  "401909880|prop|over||Austin Reaves|pts|bet365|moviodds|current|29.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    29.5,
    3.9,
@@ -68108,7 +68108,7 @@
  },
  "401909880|prop|over||Austin Reaves|pts|bet365|moviodds|current|34.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    34.5,
    8.25,
@@ -68119,7 +68119,7 @@
  },
  "401909880|prop|over||Austin Reaves|pts|bet365|moviodds|current|39.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    39.5,
    16.0,
@@ -68130,7 +68130,7 @@
  },
  "401909880|prop|over||Austin Reaves|pts|bet365|moviodds|current|44.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    44.5,
    29.0,
@@ -68141,7 +68141,7 @@
  },
  "401909880|prop|over||Austin Reaves|pts|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.0125,
@@ -68152,7 +68152,7 @@
  },
  "401909880|prop|over||Austin Reaves|reb|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.1818,
@@ -68163,7 +68163,7 @@
  },
  "401909880|prop|over||Austin Reaves|reb|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    2.15,
@@ -68174,7 +68174,7 @@
  },
  "401909880|prop|over||Austin Reaves|reb|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    5.75,
@@ -68185,7 +68185,7 @@
  },
  "401909880|prop|over||Austin Reaves|reb|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    20.0,
@@ -68196,7 +68196,7 @@
  },
  "401909880|prop|over||Collin Sexton|ast|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    2.95,
@@ -68207,7 +68207,7 @@
  },
  "401909880|prop|over||Collin Sexton|ast|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    10.0,
@@ -68218,7 +68218,7 @@
  },
  "401909880|prop|over||Collin Sexton|ast|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    23.0,
@@ -68240,7 +68240,7 @@
  },
  "401909880|prop|over||Collin Sexton|fg3m|bet365|moviodds|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.4,
@@ -68251,7 +68251,7 @@
  },
  "401909880|prop|over||Collin Sexton|fg3m|bet365|moviodds|current|1.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.55,
@@ -68262,7 +68262,7 @@
  },
  "401909880|prop|over||Collin Sexton|fg3m|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    5.5,
@@ -68273,7 +68273,7 @@
  },
  "401909880|prop|over||Collin Sexton|fg3m|bet365|moviodds|current|3.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    11.0,
@@ -68284,7 +68284,7 @@
  },
  "401909880|prop|over||Collin Sexton|fg3m|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    19.0,
@@ -68295,7 +68295,7 @@
  },
  "401909880|prop|over||Collin Sexton|fg3m|bet365|moviodds|current|5.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    36.0,
@@ -68317,7 +68317,7 @@
  },
  "401909880|prop|over||Collin Sexton|pts|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    3.4,
@@ -68328,7 +68328,7 @@
  },
  "401909880|prop|over||Collin Sexton|pts|bet365|moviodds|current|19.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    8.25,
@@ -68339,7 +68339,7 @@
  },
  "401909880|prop|over||Collin Sexton|pts|bet365|moviodds|current|24.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    24.5,
    18.0,
@@ -68350,7 +68350,7 @@
  },
  "401909880|prop|over||Collin Sexton|pts|bet365|moviodds|current|29.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    29.5,
    36.0,
@@ -68361,7 +68361,7 @@
  },
  "401909880|prop|over||Collin Sexton|pts|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.1176,
@@ -68372,7 +68372,7 @@
  },
  "401909880|prop|over||Collin Sexton|pts|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.6667,
@@ -68383,7 +68383,7 @@
  },
  "401909880|prop|over||Collin Sexton|reb|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    4.5,
@@ -68394,7 +68394,7 @@
  },
  "401909880|prop|over||Collin Sexton|reb|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    16.0,
@@ -68405,7 +68405,7 @@
  },
  "401909880|prop|over||Collin Sexton|reb|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    36.0,
@@ -68416,7 +68416,7 @@
  },
  "401909880|prop|over||Damian Lillard|ast|bet365|moviodds|current|12.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    12.5,
    36.0,
@@ -68427,7 +68427,7 @@
  },
  "401909880|prop|over||Damian Lillard|ast|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.1333,
@@ -68438,7 +68438,7 @@
  },
  "401909880|prop|over||Damian Lillard|ast|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.8333,
@@ -68449,7 +68449,7 @@
  },
  "401909880|prop|over||Damian Lillard|ast|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    4.1,
@@ -68460,7 +68460,7 @@
  },
  "401909880|prop|over||Damian Lillard|ast|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    16.0,
@@ -68471,7 +68471,7 @@
  },
  "401909880|prop|over||Damian Lillard|fg3m|bet365|moviodds|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.02,
@@ -68482,7 +68482,7 @@
  },
  "401909880|prop|over||Damian Lillard|fg3m|bet365|moviodds|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.1429,
@@ -68493,7 +68493,7 @@
  },
  "401909880|prop|over||Damian Lillard|fg3m|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.4545,
@@ -68504,7 +68504,7 @@
  },
  "401909880|prop|over||Damian Lillard|fg3m|bet365|moviodds|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    2.1,
@@ -68515,7 +68515,7 @@
  },
  "401909880|prop|over||Damian Lillard|fg3m|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    3.5,
@@ -68526,7 +68526,7 @@
  },
  "401909880|prop|over||Damian Lillard|fg3m|bet365|moviodds|current|5.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    6.25,
@@ -68537,7 +68537,7 @@
  },
  "401909880|prop|over||Damian Lillard|fg3m|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    10.5,
@@ -68548,7 +68548,7 @@
  },
  "401909880|prop|over||Damian Lillard|fg3m|bet365|moviodds|current|7.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    17.0,
@@ -68559,7 +68559,7 @@
  },
  "401909880|prop|over||Damian Lillard|fg3m|bet365|moviodds|current|8.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    8.5,
    26.0,
@@ -68570,7 +68570,7 @@
  },
  "401909880|prop|over||Damian Lillard|fg3m|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    36.0,
@@ -68581,7 +68581,7 @@
  },
  "401909880|prop|over||Damian Lillard|pts|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    1.2273,
@@ -68592,7 +68592,7 @@
  },
  "401909880|prop|over||Damian Lillard|pts|bet365|moviodds|current|19.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    1.7407,
@@ -68603,7 +68603,7 @@
  },
  "401909880|prop|over||Damian Lillard|pts|bet365|moviodds|current|24.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    24.5,
    2.95,
@@ -68614,7 +68614,7 @@
  },
  "401909880|prop|over||Damian Lillard|pts|bet365|moviodds|current|29.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    29.5,
    6.25,
@@ -68625,7 +68625,7 @@
  },
  "401909880|prop|over||Damian Lillard|pts|bet365|moviodds|current|34.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    34.5,
    12.0,
@@ -68636,7 +68636,7 @@
  },
  "401909880|prop|over||Damian Lillard|pts|bet365|moviodds|current|39.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    39.5,
    20.0,
@@ -68647,7 +68647,7 @@
  },
  "401909880|prop|over||Damian Lillard|pts|bet365|moviodds|current|44.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    44.5,
    36.0,
@@ -68658,7 +68658,7 @@
  },
  "401909880|prop|over||Damian Lillard|pts|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.0455,
@@ -68669,7 +68669,7 @@
  },
  "401909880|prop|over||Damian Lillard|reb|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.4348,
@@ -68680,7 +68680,7 @@
  },
  "401909880|prop|over||Damian Lillard|reb|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    3.25,
@@ -68691,7 +68691,7 @@
  },
  "401909880|prop|over||Damian Lillard|reb|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    9.5,
@@ -68702,7 +68702,7 @@
  },
  "401909880|prop|over||Damian Lillard|reb|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    36.0,
@@ -68713,7 +68713,7 @@
  },
  "401909880|prop|over||Deni Avdija|ast|bet365|moviodds|current|12.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    12.5,
    36.0,
@@ -68724,7 +68724,7 @@
  },
  "401909880|prop|over||Deni Avdija|ast|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.1333,
@@ -68735,7 +68735,7 @@
  },
  "401909880|prop|over||Deni Avdija|ast|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.7692,
@@ -68746,7 +68746,7 @@
  },
  "401909880|prop|over||Deni Avdija|ast|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    3.75,
@@ -68757,7 +68757,7 @@
  },
  "401909880|prop|over||Deni Avdija|ast|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    13.0,
@@ -68768,7 +68768,7 @@
  },
  "401909880|prop|over||Deni Avdija|fg3m|bet365|moviodds|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.1818,
@@ -68779,7 +68779,7 @@
  },
  "401909880|prop|over||Deni Avdija|fg3m|bet365|moviodds|current|1.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.8929,
@@ -68790,7 +68790,7 @@
  },
  "401909880|prop|over||Deni Avdija|fg3m|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    3.75,
@@ -68801,7 +68801,7 @@
  },
  "401909880|prop|over||Deni Avdija|fg3m|bet365|moviodds|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    8.25,
@@ -68812,7 +68812,7 @@
  },
  "401909880|prop|over||Deni Avdija|fg3m|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    16.0,
@@ -68823,7 +68823,7 @@
  },
  "401909880|prop|over||Deni Avdija|fg3m|bet365|moviodds|current|5.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    26.0,
@@ -68834,7 +68834,7 @@
  },
  "401909880|prop|over||Deni Avdija|fg3m|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    36.0,
@@ -68845,7 +68845,7 @@
  },
  "401909880|prop|over||Deni Avdija|pts|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    1.1111,
@@ -68856,7 +68856,7 @@
  },
  "401909880|prop|over||Deni Avdija|pts|bet365|moviodds|current|19.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    1.4255,
@@ -68867,7 +68867,7 @@
  },
  "401909880|prop|over||Deni Avdija|pts|bet365|moviodds|current|24.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    24.5,
    2.25,
@@ -68878,7 +68878,7 @@
  },
  "401909880|prop|over||Deni Avdija|pts|bet365|moviodds|current|29.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    29.5,
    4.5,
@@ -68889,7 +68889,7 @@
  },
  "401909880|prop|over||Deni Avdija|pts|bet365|moviodds|current|34.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    34.5,
    9.5,
@@ -68900,7 +68900,7 @@
  },
  "401909880|prop|over||Deni Avdija|pts|bet365|moviodds|current|39.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    39.5,
    18.0,
@@ -68911,7 +68911,7 @@
  },
  "401909880|prop|over||Deni Avdija|pts|bet365|moviodds|current|44.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    44.5,
    36.0,
@@ -68922,7 +68922,7 @@
  },
  "401909880|prop|over||Deni Avdija|pts|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.0152,
@@ -68933,7 +68933,7 @@
  },
  "401909880|prop|over||Deni Avdija|reb|bet365|moviodds|current|12.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    12.5,
    16.0,
@@ -68944,7 +68944,7 @@
  },
  "401909880|prop|over||Deni Avdija|reb|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    29.0,
@@ -68955,7 +68955,7 @@
  },
  "401909880|prop|over||Deni Avdija|reb|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.025,
@@ -68966,7 +68966,7 @@
  },
  "401909880|prop|over||Deni Avdija|reb|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.2,
@@ -68977,7 +68977,7 @@
  },
  "401909880|prop|over||Deni Avdija|reb|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    1.7692,
@@ -68988,7 +68988,7 @@
  },
  "401909880|prop|over||Deni Avdija|reb|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    5.0,
@@ -68999,7 +68999,7 @@
  },
  "401909880|prop|over||Donovan Clingan|ast|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    4.1,
@@ -69010,7 +69010,7 @@
  },
  "401909880|prop|over||Donovan Clingan|ast|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    16.0,
@@ -69021,7 +69021,7 @@
  },
  "401909880|prop|over||Donovan Clingan|ast|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    36.0,
@@ -69032,7 +69032,7 @@
  },
  "401909880|prop|over||Donovan Clingan|fg3m|bet365|moviodds|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.5882,
@@ -69043,7 +69043,7 @@
  },
  "401909880|prop|over||Donovan Clingan|fg3m|bet365|moviodds|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    3.7,
@@ -69054,7 +69054,7 @@
  },
  "401909880|prop|over||Donovan Clingan|fg3m|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    9.75,
@@ -69065,7 +69065,7 @@
  },
  "401909880|prop|over||Donovan Clingan|fg3m|bet365|moviodds|current|3.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    19.0,
@@ -69076,7 +69076,7 @@
  },
  "401909880|prop|over||Donovan Clingan|fg3m|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    36.0,
@@ -69087,7 +69087,7 @@
  },
  "401909880|prop|over||Donovan Clingan|pts|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    4.0,
@@ -69098,7 +69098,7 @@
  },
  "401909880|prop|over||Donovan Clingan|pts|bet365|moviodds|current|19.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    10.0,
@@ -69109,7 +69109,7 @@
  },
  "401909880|prop|over||Donovan Clingan|pts|bet365|moviodds|current|24.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    24.5,
    20.0,
@@ -69120,7 +69120,7 @@
  },
  "401909880|prop|over||Donovan Clingan|pts|bet365|moviodds|current|29.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    29.5,
    36.0,
@@ -69131,7 +69131,7 @@
  },
  "401909880|prop|over||Donovan Clingan|pts|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.1,
@@ -69142,7 +69142,7 @@
  },
  "401909880|prop|over||Donovan Clingan|pts|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.7407,
@@ -69153,7 +69153,7 @@
  },
  "401909880|prop|over||Donovan Clingan|reb|bet365|moviodds|current|12.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    12.5,
    3.35,
@@ -69164,7 +69164,7 @@
  },
  "401909880|prop|over||Donovan Clingan|reb|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    5.75,
@@ -69175,7 +69175,7 @@
  },
  "401909880|prop|over||Donovan Clingan|reb|bet365|moviodds|current|16.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    16.5,
    9.75,
@@ -69186,7 +69186,7 @@
  },
  "401909880|prop|over||Donovan Clingan|reb|bet365|moviodds|current|19.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    19.0,
@@ -69197,7 +69197,7 @@
  },
  "401909880|prop|over||Donovan Clingan|reb|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.0455,
@@ -69208,7 +69208,7 @@
  },
  "401909880|prop|over||Donovan Clingan|reb|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    1.1818,
@@ -69219,7 +69219,7 @@
  },
  "401909880|prop|over||Donovan Clingan|reb|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.7692,
@@ -69230,7 +69230,7 @@
  },
  "401909880|prop|over||Ja Morant|ast|bet365|moviodds|current|12.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    12.5,
    17.0,
@@ -69241,7 +69241,7 @@
  },
  "401909880|prop|over||Ja Morant|ast|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    29.0,
@@ -69252,7 +69252,7 @@
  },
  "401909880|prop|over||Ja Morant|ast|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.05,
@@ -69263,7 +69263,7 @@
  },
  "401909880|prop|over||Ja Morant|ast|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.3226,
@@ -69274,7 +69274,7 @@
  },
  "401909880|prop|over||Ja Morant|ast|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    2.15,
@@ -69285,7 +69285,7 @@
  },
  "401909880|prop|over||Ja Morant|ast|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    6.5,
@@ -69296,7 +69296,7 @@
  },
  "401909880|prop|over||Ja Morant|fg3m|bet365|moviodds|current|0.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.2778,
@@ -69307,7 +69307,7 @@
  },
  "401909880|prop|over||Ja Morant|fg3m|bet365|moviodds|current|1.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.15,
@@ -69318,7 +69318,7 @@
  },
  "401909880|prop|over||Ja Morant|fg3m|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    4.5,
@@ -69329,7 +69329,7 @@
  },
  "401909880|prop|over||Ja Morant|fg3m|bet365|moviodds|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    9.5,
@@ -69340,7 +69340,7 @@
  },
  "401909880|prop|over||Ja Morant|fg3m|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    17.0,
@@ -69351,7 +69351,7 @@
  },
  "401909880|prop|over||Ja Morant|fg3m|bet365|moviodds|current|5.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    29.0,
@@ -69373,7 +69373,7 @@
  },
  "401909880|prop|over||Ja Morant|pts|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    1.625,
@@ -69384,7 +69384,7 @@
  },
  "401909880|prop|over||Ja Morant|pts|bet365|moviodds|current|19.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    2.95,
@@ -69395,7 +69395,7 @@
  },
  "401909880|prop|over||Ja Morant|pts|bet365|moviodds|current|24.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    24.5,
    6.75,
@@ -69406,7 +69406,7 @@
  },
  "401909880|prop|over||Ja Morant|pts|bet365|moviodds|current|29.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    29.5,
    14.0,
@@ -69417,7 +69417,7 @@
  },
  "401909880|prop|over||Ja Morant|pts|bet365|moviodds|current|34.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    34.5,
    26.0,
@@ -69428,7 +69428,7 @@
  },
  "401909880|prop|over||Ja Morant|pts|bet365|moviodds|current|39.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    39.5,
    36.0,
@@ -69439,7 +69439,7 @@
  },
  "401909880|prop|over||Ja Morant|pts|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.0152,
@@ -69450,7 +69450,7 @@
  },
  "401909880|prop|over||Ja Morant|pts|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.1429,
@@ -69461,7 +69461,7 @@
  },
  "401909880|prop|over||Ja Morant|reb|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.5405,
@@ -69472,7 +69472,7 @@
  },
  "401909880|prop|over||Ja Morant|reb|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    3.75,
@@ -69483,7 +69483,7 @@
  },
  "401909880|prop|over||Ja Morant|reb|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    11.0,
@@ -69494,7 +69494,7 @@
  },
  "401909880|prop|over||Ja Morant|reb|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    36.0,
@@ -69505,7 +69505,7 @@
  },
  "401909880|prop|over||Jrue Holiday|ast|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.4255,
@@ -69516,7 +69516,7 @@
  },
  "401909880|prop|over||Jrue Holiday|ast|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    3.1,
@@ -69527,7 +69527,7 @@
  },
  "401909880|prop|over||Jrue Holiday|ast|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    8.5,
@@ -69538,7 +69538,7 @@
  },
  "401909880|prop|over||Jrue Holiday|ast|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    26.0,
@@ -69549,7 +69549,7 @@
  },
  "401909880|prop|over||Jrue Holiday|fg3m|bet365|moviodds|current|0.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.1818,
@@ -69560,7 +69560,7 @@
  },
  "401909880|prop|over||Jrue Holiday|fg3m|bet365|moviodds|current|1.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.8696,
@@ -69571,7 +69571,7 @@
  },
  "401909880|prop|over||Jrue Holiday|fg3m|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    3.6,
@@ -69582,7 +69582,7 @@
  },
  "401909880|prop|over||Jrue Holiday|fg3m|bet365|moviodds|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    7.5,
@@ -69593,7 +69593,7 @@
  },
  "401909880|prop|over||Jrue Holiday|fg3m|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    14.0,
@@ -69604,7 +69604,7 @@
  },
  "401909880|prop|over||Jrue Holiday|fg3m|bet365|moviodds|current|5.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    21.0,
@@ -69615,7 +69615,7 @@
  },
  "401909880|prop|over||Jrue Holiday|fg3m|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    36.0,
@@ -69626,7 +69626,7 @@
  },
  "401909880|prop|over||Jrue Holiday|pts|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    3.8,
@@ -69637,7 +69637,7 @@
  },
  "401909880|prop|over||Jrue Holiday|pts|bet365|moviodds|current|19.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    10.0,
@@ -69648,7 +69648,7 @@
  },
  "401909880|prop|over||Jrue Holiday|pts|bet365|moviodds|current|24.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    24.5,
    21.0,
@@ -69659,7 +69659,7 @@
  },
  "401909880|prop|over||Jrue Holiday|pts|bet365|moviodds|current|29.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    29.5,
    36.0,
@@ -69670,7 +69670,7 @@
  },
  "401909880|prop|over||Jrue Holiday|pts|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.0909,
@@ -69681,7 +69681,7 @@
  },
  "401909880|prop|over||Jrue Holiday|pts|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.7143,
@@ -69692,7 +69692,7 @@
  },
  "401909880|prop|over||Jrue Holiday|reb|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.625,
@@ -69703,7 +69703,7 @@
  },
  "401909880|prop|over||Jrue Holiday|reb|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    4.0,
@@ -69714,7 +69714,7 @@
  },
  "401909880|prop|over||Jrue Holiday|reb|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    11.5,
@@ -69725,7 +69725,7 @@
  },
  "401909880|prop|over||Jrue Holiday|reb|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    36.0,
@@ -69736,7 +69736,7 @@
  },
  "401909880|prop|over||Luka Doncic|ast|bet365|moviodds|current|12.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    12.5,
    10.0,
@@ -69747,7 +69747,7 @@
  },
  "401909880|prop|over||Luka Doncic|ast|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    18.0,
@@ -69758,7 +69758,7 @@
  },
  "401909880|prop|over||Luka Doncic|ast|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.01,
@@ -69769,7 +69769,7 @@
  },
  "401909880|prop|over||Luka Doncic|ast|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.1,
@@ -69780,7 +69780,7 @@
  },
  "401909880|prop|over||Luka Doncic|ast|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    1.4348,
@@ -69791,7 +69791,7 @@
  },
  "401909880|prop|over||Luka Doncic|ast|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    3.25,
@@ -69802,7 +69802,7 @@
  },
  "401909880|prop|over||Luka Doncic|fg3m|bet365|moviodds|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.0152,
@@ -69813,7 +69813,7 @@
  },
  "401909880|prop|over||Luka Doncic|fg3m|bet365|moviodds|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.1111,
@@ -69824,7 +69824,7 @@
  },
  "401909880|prop|over||Luka Doncic|fg3m|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.3571,
@@ -69835,7 +69835,7 @@
  },
  "401909880|prop|over||Luka Doncic|fg3m|bet365|moviodds|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.8929,
@@ -69846,7 +69846,7 @@
  },
  "401909880|prop|over||Luka Doncic|fg3m|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    2.95,
@@ -69857,7 +69857,7 @@
  },
  "401909880|prop|over||Luka Doncic|fg3m|bet365|moviodds|current|5.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    5.0,
@@ -69868,7 +69868,7 @@
  },
  "401909880|prop|over||Luka Doncic|fg3m|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    9.0,
@@ -69879,7 +69879,7 @@
  },
  "401909880|prop|over||Luka Doncic|fg3m|bet365|moviodds|current|7.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    14.0,
@@ -69890,7 +69890,7 @@
  },
  "401909880|prop|over||Luka Doncic|fg3m|bet365|moviodds|current|8.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    8.5,
    20.0,
@@ -69901,7 +69901,7 @@
  },
  "401909880|prop|over||Luka Doncic|fg3m|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    36.0,
@@ -69912,7 +69912,7 @@
  },
  "401909880|prop|over||Luka Doncic|pts|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    1.01,
@@ -69923,7 +69923,7 @@
  },
  "401909880|prop|over||Luka Doncic|pts|bet365|moviodds|current|19.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    1.05,
@@ -69934,7 +69934,7 @@
  },
  "401909880|prop|over||Luka Doncic|pts|bet365|moviodds|current|24.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    24.5,
    1.2,
@@ -69945,7 +69945,7 @@
  },
  "401909880|prop|over||Luka Doncic|pts|bet365|moviodds|current|29.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    29.5,
    1.5556,
@@ -69956,7 +69956,7 @@
  },
  "401909880|prop|over||Luka Doncic|pts|bet365|moviodds|current|34.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    34.5,
    2.45,
@@ -69967,7 +69967,7 @@
  },
  "401909880|prop|over||Luka Doncic|pts|bet365|moviodds|current|39.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    39.5,
    4.5,
@@ -69978,7 +69978,7 @@
  },
  "401909880|prop|over||Luka Doncic|pts|bet365|moviodds|current|44.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    44.5,
    9.5,
@@ -69989,7 +69989,7 @@
  },
  "401909880|prop|over||Luka Doncic|pts|bet365|moviodds|current|49.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    49.5,
    17.0,
@@ -70000,7 +70000,7 @@
  },
  "401909880|prop|over||Luka Doncic|pts|bet365|moviodds|current|59.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    59.5,
    36.0,
@@ -70011,7 +70011,7 @@
  },
  "401909880|prop|over||Luka Doncic|reb|bet365|moviodds|current|12.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    12.5,
    11.0,
@@ -70022,7 +70022,7 @@
  },
  "401909880|prop|over||Luka Doncic|reb|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    19.0,
@@ -70033,7 +70033,7 @@
  },
  "401909880|prop|over||Luka Doncic|reb|bet365|moviodds|current|16.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    16.5,
    36.0,
@@ -70044,7 +70044,7 @@
  },
  "401909880|prop|over||Luka Doncic|reb|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.0125,
@@ -70055,7 +70055,7 @@
  },
  "401909880|prop|over||Luka Doncic|reb|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.125,
@@ -70066,7 +70066,7 @@
  },
  "401909880|prop|over||Luka Doncic|reb|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    1.5263,
@@ -70077,7 +70077,7 @@
  },
  "401909880|prop|over||Luka Doncic|reb|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    4.0,
@@ -70088,7 +70088,7 @@
  },
  "401909880|prop|over||Matisse Thybulle|ast|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    5.75,
@@ -70099,7 +70099,7 @@
  },
  "401909880|prop|over||Matisse Thybulle|ast|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    21.0,
@@ -70121,7 +70121,7 @@
  },
  "401909880|prop|over||Matisse Thybulle|fg3m|bet365|moviodds|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.2273,
@@ -70132,7 +70132,7 @@
  },
  "401909880|prop|over||Matisse Thybulle|fg3m|bet365|moviodds|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.0,
@@ -70143,7 +70143,7 @@
  },
  "401909880|prop|over||Matisse Thybulle|fg3m|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    4.1,
@@ -70154,7 +70154,7 @@
  },
  "401909880|prop|over||Matisse Thybulle|fg3m|bet365|moviodds|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    9.0,
@@ -70165,7 +70165,7 @@
  },
  "401909880|prop|over||Matisse Thybulle|fg3m|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    17.0,
@@ -70176,7 +70176,7 @@
  },
  "401909880|prop|over||Matisse Thybulle|fg3m|bet365|moviodds|current|5.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    29.0,
@@ -70187,7 +70187,7 @@
  },
  "401909880|prop|over||Matisse Thybulle|pts|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    11.0,
@@ -70198,7 +70198,7 @@
  },
  "401909880|prop|over||Matisse Thybulle|pts|bet365|moviodds|current|19.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    26.0,
@@ -70209,7 +70209,7 @@
  },
  "401909880|prop|over||Matisse Thybulle|pts|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.4255,
@@ -70220,7 +70220,7 @@
  },
  "401909880|prop|over||Matisse Thybulle|pts|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    3.75,
@@ -70231,7 +70231,7 @@
  },
  "401909880|prop|over||Matisse Thybulle|reb|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    2.55,
@@ -70242,7 +70242,7 @@
  },
  "401909880|prop|over||Matisse Thybulle|reb|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    9.0,
@@ -70253,7 +70253,7 @@
  },
  "401909880|prop|over||Matisse Thybulle|reb|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    23.0,
@@ -70264,7 +70264,7 @@
  },
  "401909880|prop|over||Quentin Grimes|ast|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    2.1,
@@ -70275,7 +70275,7 @@
  },
  "401909880|prop|over||Quentin Grimes|ast|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    7.25,
@@ -70286,7 +70286,7 @@
  },
  "401909880|prop|over||Quentin Grimes|ast|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    19.0,
@@ -70308,7 +70308,7 @@
  },
  "401909880|prop|over||Quentin Grimes|fg3m|bet365|moviodds|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.3226,
@@ -70319,7 +70319,7 @@
  },
  "401909880|prop|over||Quentin Grimes|fg3m|bet365|moviodds|current|1.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.6,
@@ -70330,7 +70330,7 @@
  },
  "401909880|prop|over||Quentin Grimes|fg3m|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    6.5,
@@ -70341,7 +70341,7 @@
  },
  "401909880|prop|over||Quentin Grimes|fg3m|bet365|moviodds|current|3.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    14.0,
@@ -70352,7 +70352,7 @@
  },
  "401909880|prop|over||Quentin Grimes|fg3m|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    26.0,
@@ -70363,7 +70363,7 @@
  },
  "401909880|prop|over||Quentin Grimes|fg3m|bet365|moviodds|current|5.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    36.0,
@@ -70374,7 +70374,7 @@
  },
  "401909880|prop|over||Quentin Grimes|pts|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    7.25,
@@ -70385,7 +70385,7 @@
  },
  "401909880|prop|over||Quentin Grimes|pts|bet365|moviodds|current|19.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    18.0,
@@ -70396,7 +70396,7 @@
  },
  "401909880|prop|over||Quentin Grimes|pts|bet365|moviodds|current|24.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    24.5,
    36.0,
@@ -70407,7 +70407,7 @@
  },
  "401909880|prop|over||Quentin Grimes|pts|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.25,
@@ -70418,7 +70418,7 @@
  },
  "401909880|prop|over||Quentin Grimes|pts|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    2.55,
@@ -70429,7 +70429,7 @@
  },
  "401909880|prop|over||Quentin Grimes|reb|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.7407,
@@ -70440,7 +70440,7 @@
  },
  "401909880|prop|over||Quentin Grimes|reb|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    4.75,
@@ -70451,7 +70451,7 @@
  },
  "401909880|prop|over||Quentin Grimes|reb|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    13.0,
@@ -70462,7 +70462,7 @@
  },
  "401909880|prop|over||Quentin Grimes|reb|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    36.0,
@@ -70473,7 +70473,7 @@
  },
  "401909880|prop|over||Robert Williams|ast|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    8.5,
@@ -70484,7 +70484,7 @@
  },
  "401909880|prop|over||Robert Williams|ast|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    36.0,
@@ -70517,7 +70517,7 @@
  },
  "401909880|prop|over||Robert Williams|pts|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    13.0,
@@ -70528,7 +70528,7 @@
  },
  "401909880|prop|over||Robert Williams|pts|bet365|moviodds|current|19.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    36.0,
@@ -70539,7 +70539,7 @@
  },
  "401909880|prop|over||Robert Williams|pts|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.4545,
@@ -70550,7 +70550,7 @@
  },
  "401909880|prop|over||Robert Williams|pts|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    3.75,
@@ -70561,7 +70561,7 @@
  },
  "401909880|prop|over||Robert Williams|reb|bet365|moviodds|current|12.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    12.5,
    10.0,
@@ -70572,7 +70572,7 @@
  },
  "401909880|prop|over||Robert Williams|reb|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    17.0,
@@ -70583,7 +70583,7 @@
  },
  "401909880|prop|over||Robert Williams|reb|bet365|moviodds|current|16.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    16.5,
    29.0,
@@ -70605,7 +70605,7 @@
  },
  "401909880|prop|over||Robert Williams|reb|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.0357,
@@ -70616,7 +70616,7 @@
  },
  "401909880|prop|over||Robert Williams|reb|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.2222,
@@ -70627,7 +70627,7 @@
  },
  "401909880|prop|over||Robert Williams|reb|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    1.7143,
@@ -70638,7 +70638,7 @@
  },
  "401909880|prop|over||Robert Williams|reb|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    3.9,
@@ -70649,7 +70649,7 @@
  },
  "401909880|prop|over||Sandro Mamukelashvili|ast|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    7.75,
@@ -70660,7 +70660,7 @@
  },
  "401909880|prop|over||Sandro Mamukelashvili|ast|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    29.0,
@@ -70671,7 +70671,7 @@
  },
  "401909880|prop|over||Sandro Mamukelashvili|fg3m|bet365|moviodds|current|0.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.5556,
@@ -70682,7 +70682,7 @@
  },
  "401909880|prop|over||Sandro Mamukelashvili|fg3m|bet365|moviodds|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    4.0,
@@ -70693,7 +70693,7 @@
  },
  "401909880|prop|over||Sandro Mamukelashvili|fg3m|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    10.5,
@@ -70704,7 +70704,7 @@
  },
  "401909880|prop|over||Sandro Mamukelashvili|fg3m|bet365|moviodds|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    20.0,
@@ -70715,7 +70715,7 @@
  },
  "401909880|prop|over||Sandro Mamukelashvili|fg3m|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    36.0,
@@ -70726,7 +70726,7 @@
  },
  "401909880|prop|over||Sandro Mamukelashvili|pts|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    8.25,
@@ -70737,7 +70737,7 @@
  },
  "401909880|prop|over||Sandro Mamukelashvili|pts|bet365|moviodds|current|19.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    19.0,
@@ -70748,7 +70748,7 @@
  },
  "401909880|prop|over||Sandro Mamukelashvili|pts|bet365|moviodds|current|24.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    24.5,
    36.0,
@@ -70759,7 +70759,7 @@
  },
  "401909880|prop|over||Sandro Mamukelashvili|pts|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.2273,
@@ -70770,7 +70770,7 @@
  },
  "401909880|prop|over||Sandro Mamukelashvili|pts|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    2.6,
@@ -70781,7 +70781,7 @@
  },
  "401909880|prop|over||Sandro Mamukelashvili|reb|bet365|moviodds|current|12.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    12.5,
    36.0,
@@ -70792,7 +70792,7 @@
  },
  "401909880|prop|over||Sandro Mamukelashvili|reb|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.2353,
@@ -70803,7 +70803,7 @@
  },
  "401909880|prop|over||Sandro Mamukelashvili|reb|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    2.2,
@@ -70814,7 +70814,7 @@
  },
  "401909880|prop|over||Sandro Mamukelashvili|reb|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    5.0,
@@ -70825,7 +70825,7 @@
  },
  "401909880|prop|over||Sandro Mamukelashvili|reb|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    17.0,
@@ -70836,7 +70836,7 @@
  },
  "401909880|prop|over||Scoot Henderson|ast|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    3.35,
@@ -70847,7 +70847,7 @@
  },
  "401909880|prop|over||Scoot Henderson|ast|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    13.0,
@@ -70858,7 +70858,7 @@
  },
  "401909880|prop|over||Scoot Henderson|ast|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    36.0,
@@ -70869,7 +70869,7 @@
  },
  "401909880|prop|over||Scoot Henderson|fg3m|bet365|moviodds|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.2778,
@@ -70880,7 +70880,7 @@
  },
  "401909880|prop|over||Scoot Henderson|fg3m|bet365|moviodds|current|1.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.22,
@@ -70891,7 +70891,7 @@
  },
  "401909880|prop|over||Scoot Henderson|fg3m|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    4.75,
@@ -70902,7 +70902,7 @@
  },
  "401909880|prop|over||Scoot Henderson|fg3m|bet365|moviodds|current|3.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    10.0,
@@ -70913,7 +70913,7 @@
  },
  "401909880|prop|over||Scoot Henderson|fg3m|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    18.0,
@@ -70924,7 +70924,7 @@
  },
  "401909880|prop|over||Scoot Henderson|fg3m|bet365|moviodds|current|5.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    36.0,
@@ -70935,7 +70935,7 @@
  },
  "401909880|prop|over||Scoot Henderson|pts|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    4.1,
@@ -70946,7 +70946,7 @@
  },
  "401909880|prop|over||Scoot Henderson|pts|bet365|moviodds|current|19.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    10.0,
@@ -70957,7 +70957,7 @@
  },
  "401909880|prop|over||Scoot Henderson|pts|bet365|moviodds|current|24.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    24.5,
    20.0,
@@ -70968,7 +70968,7 @@
  },
  "401909880|prop|over||Scoot Henderson|pts|bet365|moviodds|current|29.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    29.5,
    36.0,
@@ -70979,7 +70979,7 @@
  },
  "401909880|prop|over||Scoot Henderson|pts|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.1333,
@@ -70990,7 +70990,7 @@
  },
  "401909880|prop|over||Scoot Henderson|pts|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.8333,
@@ -71001,7 +71001,7 @@
  },
  "401909880|prop|over||Scoot Henderson|reb|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    3.05,
@@ -71012,7 +71012,7 @@
  },
  "401909880|prop|over||Scoot Henderson|reb|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    11.5,
@@ -71023,7 +71023,7 @@
  },
  "401909880|prop|over||Scoot Henderson|reb|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    36.0,
@@ -71034,7 +71034,7 @@
  },
  "401909880|prop|over||Toumani Camara|ast|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    5.0,
@@ -71045,7 +71045,7 @@
  },
  "401909880|prop|over||Toumani Camara|ast|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    19.0,
@@ -71067,7 +71067,7 @@
  },
  "401909880|prop|over||Toumani Camara|fg3m|bet365|moviodds|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.0909,
@@ -71078,7 +71078,7 @@
  },
  "401909880|prop|over||Toumani Camara|fg3m|bet365|moviodds|current|1.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.4,
@@ -71089,7 +71089,7 @@
  },
  "401909880|prop|over||Toumani Camara|fg3m|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    2.1,
@@ -71100,7 +71100,7 @@
  },
  "401909880|prop|over||Toumani Camara|fg3m|bet365|moviodds|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    3.7,
@@ -71111,7 +71111,7 @@
  },
  "401909880|prop|over||Toumani Camara|fg3m|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    7.0,
@@ -71122,7 +71122,7 @@
  },
  "401909880|prop|over||Toumani Camara|fg3m|bet365|moviodds|current|5.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    11.5,
@@ -71133,7 +71133,7 @@
  },
  "401909880|prop|over||Toumani Camara|fg3m|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    19.0,
@@ -71144,7 +71144,7 @@
  },
  "401909880|prop|over||Toumani Camara|fg3m|bet365|moviodds|current|7.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    29.0,
@@ -71155,7 +71155,7 @@
  },
  "401909880|prop|over||Toumani Camara|pts|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    3.2,
@@ -71166,7 +71166,7 @@
  },
  "401909880|prop|over||Toumani Camara|pts|bet365|moviodds|current|19.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    7.75,
@@ -71177,7 +71177,7 @@
  },
  "401909880|prop|over||Toumani Camara|pts|bet365|moviodds|current|24.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    24.5,
    18.0,
@@ -71188,7 +71188,7 @@
  },
  "401909880|prop|over||Toumani Camara|pts|bet365|moviodds|current|29.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    29.5,
    36.0,
@@ -71199,7 +71199,7 @@
  },
  "401909880|prop|over||Toumani Camara|pts|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.0833,
@@ -71210,7 +71210,7 @@
  },
  "401909880|prop|over||Toumani Camara|pts|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.5882,
@@ -71221,7 +71221,7 @@
  },
  "401909880|prop|over||Toumani Camara|reb|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.2703,
@@ -71232,7 +71232,7 @@
  },
  "401909880|prop|over||Toumani Camara|reb|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    2.3,
@@ -71243,7 +71243,7 @@
  },
  "401909880|prop|over||Toumani Camara|reb|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    6.0,
@@ -71254,7 +71254,7 @@
  },
  "401909880|prop|over||Toumani Camara|reb|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    20.0,
@@ -71265,7 +71265,7 @@
  },
  "401909880|prop|over||Walker Kessler|ast|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    3.55,
@@ -71276,7 +71276,7 @@
  },
  "401909880|prop|over||Walker Kessler|ast|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    14.0,
@@ -71287,7 +71287,7 @@
  },
  "401909880|prop|over||Walker Kessler|ast|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    36.0,
@@ -71298,7 +71298,7 @@
  },
  "401909880|prop|over||Walker Kessler|pts|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    2.3,
@@ -71309,7 +71309,7 @@
  },
  "401909880|prop|over||Walker Kessler|pts|bet365|moviodds|current|19.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    6.0,
@@ -71320,7 +71320,7 @@
  },
  "401909880|prop|over||Walker Kessler|pts|bet365|moviodds|current|24.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    24.5,
    14.0,
@@ -71331,7 +71331,7 @@
  },
  "401909880|prop|over||Walker Kessler|pts|bet365|moviodds|current|29.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    29.5,
    36.0,
@@ -71342,7 +71342,7 @@
  },
  "401909880|prop|over||Walker Kessler|pts|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.025,
@@ -71353,7 +71353,7 @@
  },
  "401909880|prop|over||Walker Kessler|pts|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.2703,
@@ -71364,7 +71364,7 @@
  },
  "401909880|prop|over||Walker Kessler|reb|bet365|moviodds|current|12.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    12.5,
    3.5,
@@ -71375,7 +71375,7 @@
  },
  "401909880|prop|over||Walker Kessler|reb|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    6.5,
@@ -71386,7 +71386,7 @@
  },
  "401909880|prop|over||Walker Kessler|reb|bet365|moviodds|current|16.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    16.5,
    11.5,
@@ -71397,7 +71397,7 @@
  },
  "401909880|prop|over||Walker Kessler|reb|bet365|moviodds|current|19.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    23.0,
@@ -71408,7 +71408,7 @@
  },
  "401909880|prop|over||Walker Kessler|reb|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.0286,
@@ -71419,7 +71419,7 @@
  },
  "401909880|prop|over||Walker Kessler|reb|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    1.1333,
@@ -71430,7 +71430,7 @@
  },
  "401909880|prop|over||Walker Kessler|reb|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.6897,
@@ -71441,7 +71441,7 @@
  },
  "401909880|prop|over||Ziaire Williams|ast|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    7.5,
@@ -71452,7 +71452,7 @@
  },
  "401909880|prop|over||Ziaire Williams|ast|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    29.0,
@@ -71463,7 +71463,7 @@
  },
  "401909880|prop|over||Ziaire Williams|fg3m|bet365|moviodds|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.3448,
@@ -71474,7 +71474,7 @@
  },
  "401909880|prop|over||Ziaire Williams|fg3m|bet365|moviodds|current|1.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.55,
@@ -71485,7 +71485,7 @@
  },
  "401909880|prop|over||Ziaire Williams|fg3m|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    6.0,
@@ -71496,7 +71496,7 @@
  },
  "401909880|prop|over||Ziaire Williams|fg3m|bet365|moviodds|current|3.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    13.0,
@@ -71507,7 +71507,7 @@
  },
  "401909880|prop|over||Ziaire Williams|fg3m|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    20.0,
@@ -71518,7 +71518,7 @@
  },
  "401909880|prop|over||Ziaire Williams|fg3m|bet365|moviodds|current|5.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    36.0,
@@ -71529,7 +71529,7 @@
  },
  "401909880|prop|over||Ziaire Williams|pts|bet365|moviodds|current|14.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    14.5,
    5.25,
@@ -71540,7 +71540,7 @@
  },
  "401909880|prop|over||Ziaire Williams|pts|bet365|moviodds|current|19.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    13.0,
@@ -71551,7 +71551,7 @@
  },
  "401909880|prop|over||Ziaire Williams|pts|bet365|moviodds|current|24.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    24.5,
    36.0,
@@ -71562,7 +71562,7 @@
  },
  "401909880|prop|over||Ziaire Williams|pts|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.1429,
@@ -71573,7 +71573,7 @@
  },
  "401909880|prop|over||Ziaire Williams|pts|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    2.0,
@@ -71584,7 +71584,7 @@
  },
  "401909880|prop|over||Ziaire Williams|reb|bet365|moviodds|current|2.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.625,
@@ -71595,7 +71595,7 @@
  },
  "401909880|prop|over||Ziaire Williams|reb|bet365|moviodds|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    4.2,
@@ -71606,7 +71606,7 @@
  },
  "401909880|prop|over||Ziaire Williams|reb|bet365|moviodds|current|6.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    12.0,
@@ -71617,7 +71617,7 @@
  },
  "401909880|prop|over||Ziaire Williams|reb|bet365|moviodds|current|9.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    36.0,
@@ -71628,7 +71628,7 @@
  },
  "401909880|prop|side0|3907498|Matisse Thybulle|fg3m|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.29,
@@ -71639,7 +71639,7 @@
  },
  "401909880|prop|side0|3907498|Matisse Thybulle|fg3m|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.27,
@@ -71650,7 +71650,7 @@
  },
  "401909880|prop|side0|3907498|Matisse Thybulle|pts|DraftKings|espn|current|5.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    1.76,
@@ -71672,7 +71672,7 @@
  },
  "401909880|prop|side0|3907498|Matisse Thybulle|pts|DraftKings|espn|open|7.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.82,
@@ -71683,7 +71683,7 @@
  },
  "401909880|prop|side0|3907498|Matisse Thybulle|stl|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.78,
@@ -71694,7 +71694,7 @@
  },
  "401909880|prop|side0|3907498|Matisse Thybulle|stl|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.74,
@@ -71705,7 +71705,7 @@
  },
  "401909880|prop|side0|3945274|Luka Doncic|ast|DraftKings|espn|current|7.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.84,
@@ -71716,7 +71716,7 @@
  },
  "401909880|prop|side0|3945274|Luka Doncic|ast|DraftKings|espn|open|7.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.79,
@@ -71727,7 +71727,7 @@
  },
  "401909880|prop|side0|3945274|Luka Doncic|fg3m|DraftKings|espn|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.86,
@@ -71738,7 +71738,7 @@
  },
  "401909880|prop|side0|3945274|Luka Doncic|fg3m|DraftKings|espn|open|3.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.72,
@@ -71760,7 +71760,7 @@
  },
  "401909880|prop|side0|3945274|Luka Doncic|pts|DraftKings|espn|current|32.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    32.5,
    1.93,
@@ -71771,7 +71771,7 @@
  },
  "401909880|prop|side0|3945274|Luka Doncic|pts|DraftKings|espn|open|32.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    32.5,
    1.93,
@@ -71782,7 +71782,7 @@
  },
  "401909880|prop|side0|3945274|Luka Doncic|reb|DraftKings|espn|current|7.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.88,
@@ -71793,7 +71793,7 @@
  },
  "401909880|prop|side0|3945274|Luka Doncic|reb|DraftKings|espn|open|7.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.93,
@@ -71804,7 +71804,7 @@
  },
  "401909880|prop|side0|3945274|Luka Doncic|stl|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.69,
@@ -71815,7 +71815,7 @@
  },
  "401909880|prop|side0|3945274|Luka Doncic|stl|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.69,
@@ -71826,7 +71826,7 @@
  },
  "401909880|prop|side0|3995|Jrue Holiday|ast|DraftKings|espn|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.76,
@@ -71837,7 +71837,7 @@
  },
  "401909880|prop|side0|3995|Jrue Holiday|ast|DraftKings|espn|open|3.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.79,
@@ -71848,7 +71848,7 @@
  },
  "401909880|prop|side0|3995|Jrue Holiday|fg3m|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.82,
@@ -71859,7 +71859,7 @@
  },
  "401909880|prop|side0|3995|Jrue Holiday|fg3m|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.88,
@@ -71870,7 +71870,7 @@
  },
  "401909880|prop|side0|3995|Jrue Holiday|pts|DraftKings|espn|current|10.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    10.5,
    1.93,
@@ -71881,7 +71881,7 @@
  },
  "401909880|prop|side0|3995|Jrue Holiday|pts|DraftKings|espn|open|10.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    10.5,
    1.81,
@@ -71892,7 +71892,7 @@
  },
  "401909880|prop|side0|3995|Jrue Holiday|reb|DraftKings|espn|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    2.09,
@@ -71903,7 +71903,7 @@
  },
  "401909880|prop|side0|3995|Jrue Holiday|reb|DraftKings|espn|open|3.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    2.11,
@@ -71914,7 +71914,7 @@
  },
  "401909880|prop|side0|4066211|Robert Williams III|pts|DraftKings|espn|current|5.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    1.67,
@@ -71936,7 +71936,7 @@
  },
  "401909880|prop|side0|4066211|Robert Williams III|pts|DraftKings|espn|open|6.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    1.79,
@@ -71947,7 +71947,7 @@
  },
  "401909880|prop|side0|4066211|Robert Williams III|reb|DraftKings|espn|current|6.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    2.04,
@@ -71969,7 +71969,7 @@
  },
  "401909880|prop|side0|4066211|Robert Williams III|reb|DraftKings|espn|open|7.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    2.07,
@@ -71980,7 +71980,7 @@
  },
  "401909880|prop|side0|4066457|Austin Reaves|ast|DraftKings|espn|current|5.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    1.84,
@@ -71991,7 +71991,7 @@
  },
  "401909880|prop|side0|4066457|Austin Reaves|ast|DraftKings|espn|open|5.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    1.7,
@@ -72002,7 +72002,7 @@
  },
  "401909880|prop|side0|4066457|Austin Reaves|fg3m|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.52,
@@ -72024,7 +72024,7 @@
  },
  "401909880|prop|side0|4066457|Austin Reaves|fg3m|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.57,
@@ -72035,7 +72035,7 @@
  },
  "401909880|prop|side0|4066457|Austin Reaves|pts|DraftKings|espn|current|23.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    23.5,
    1.95,
@@ -72046,7 +72046,7 @@
  },
  "401909880|prop|side0|4066457|Austin Reaves|pts|DraftKings|espn|open|23.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    23.5,
    1.94,
@@ -72057,7 +72057,7 @@
  },
  "401909880|prop|side0|4066457|Austin Reaves|reb|DraftKings|espn|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.89,
@@ -72079,7 +72079,7 @@
  },
  "401909880|prop|side0|4066457|Austin Reaves|reb|DraftKings|espn|open|4.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    2.2,
@@ -72090,7 +72090,7 @@
  },
  "401909880|prop|side0|4066457|Austin Reaves|stl|DraftKings|espn|current|0.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.43,
@@ -72101,7 +72101,7 @@
  },
  "401909880|prop|side0|4066457|Austin Reaves|stl|DraftKings|espn|open|0.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.43,
@@ -72112,7 +72112,7 @@
  },
  "401909880|prop|side0|4277811|Collin Sexton|fg3m|DraftKings|espn|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.48,
@@ -72134,7 +72134,7 @@
  },
  "401909880|prop|side0|4277811|Collin Sexton|fg3m|DraftKings|espn|open|0.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.54,
@@ -72145,7 +72145,7 @@
  },
  "401909880|prop|side0|4277811|Collin Sexton|pts|DraftKings|espn|current|10.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    10.5,
    1.9,
@@ -72167,7 +72167,7 @@
  },
  "401909880|prop|side0|4277811|Collin Sexton|pts|DraftKings|espn|open|9.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.87,
@@ -72178,7 +72178,7 @@
  },
  "401909880|prop|side0|4278580|Sandro Mamukelashvili|fg3m|DraftKings|espn|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.62,
@@ -72189,7 +72189,7 @@
  },
  "401909880|prop|side0|4278580|Sandro Mamukelashvili|fg3m|DraftKings|espn|open|0.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.45,
@@ -72211,7 +72211,7 @@
  },
  "401909880|prop|side0|4278580|Sandro Mamukelashvili|pts|DraftKings|espn|current|8.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    8.5,
    2.0,
@@ -72222,7 +72222,7 @@
  },
  "401909880|prop|side0|4278580|Sandro Mamukelashvili|pts|DraftKings|espn|open|7.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.8,
@@ -72244,7 +72244,7 @@
  },
  "401909880|prop|side0|4278580|Sandro Mamukelashvili|reb|DraftKings|espn|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    2.09,
@@ -72255,7 +72255,7 @@
  },
  "401909880|prop|side0|4278580|Sandro Mamukelashvili|reb|DraftKings|espn|open|3.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.64,
@@ -72266,7 +72266,7 @@
  },
  "401909880|prop|side0|4278580|Sandro Mamukelashvili|stl|DraftKings|espn|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    2.03,
@@ -72277,7 +72277,7 @@
  },
  "401909880|prop|side0|4278580|Sandro Mamukelashvili|stl|DraftKings|espn|open|0.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.91,
@@ -72288,7 +72288,7 @@
  },
  "401909880|prop|side0|4279888|Ja Morant|ast|DraftKings|espn|current|5.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    1.66,
@@ -72310,7 +72310,7 @@
  },
  "401909880|prop|side0|4279888|Ja Morant|ast|DraftKings|espn|open|5.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    1.66,
@@ -72321,7 +72321,7 @@
  },
  "401909880|prop|side0|4279888|Ja Morant|fg3m|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.22,
@@ -72332,7 +72332,7 @@
  },
  "401909880|prop|side0|4279888|Ja Morant|fg3m|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.18,
@@ -72354,7 +72354,7 @@
  },
  "401909880|prop|side0|4279888|Ja Morant|pts|DraftKings|espn|current|16.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    16.5,
    1.9,
@@ -72365,7 +72365,7 @@
  },
  "401909880|prop|side0|4279888|Ja Morant|pts|DraftKings|espn|open|16.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    16.5,
    1.97,
@@ -72376,7 +72376,7 @@
  },
  "401909880|prop|side0|4279888|Ja Morant|reb|DraftKings|espn|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    2.24,
@@ -72387,7 +72387,7 @@
  },
  "401909880|prop|side0|4279888|Ja Morant|reb|DraftKings|espn|open|3.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    2.03,
@@ -72409,7 +72409,7 @@
  },
  "401909880|prop|side0|4397014|Quentin Grimes|ast|DraftKings|espn|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    2.22,
@@ -72420,7 +72420,7 @@
  },
  "401909880|prop|side0|4397014|Quentin Grimes|ast|DraftKings|espn|open|2.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.97,
@@ -72431,7 +72431,7 @@
  },
  "401909880|prop|side0|4397014|Quentin Grimes|fg3m|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.53,
@@ -72442,7 +72442,7 @@
  },
  "401909880|prop|side0|4397014|Quentin Grimes|fg3m|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.25,
@@ -72453,7 +72453,7 @@
  },
  "401909880|prop|side0|4397014|Quentin Grimes|pts|DraftKings|espn|current|8.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    8.5,
    1.76,
@@ -72464,7 +72464,7 @@
  },
  "401909880|prop|side0|4397014|Quentin Grimes|pts|DraftKings|espn|open|8.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    8.5,
    1.97,
@@ -72486,7 +72486,7 @@
  },
  "401909880|prop|side0|4397014|Quentin Grimes|reb|DraftKings|espn|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    2.22,
@@ -72497,7 +72497,7 @@
  },
  "401909880|prop|side0|4397014|Quentin Grimes|reb|DraftKings|espn|open|3.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    2.15,
@@ -72508,7 +72508,7 @@
  },
  "401909880|prop|side0|4397014|Quentin Grimes|stl|DraftKings|espn|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.72,
@@ -72519,7 +72519,7 @@
  },
  "401909880|prop|side0|4397014|Quentin Grimes|stl|DraftKings|espn|open|0.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.59,
@@ -72530,7 +72530,7 @@
  },
  "401909880|prop|side0|4431736|Toumani Camara|fg3m|DraftKings|espn|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    2.23,
@@ -72541,7 +72541,7 @@
  },
  "401909880|prop|side0|4431736|Toumani Camara|fg3m|DraftKings|espn|open|2.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    2.21,
@@ -72563,7 +72563,7 @@
  },
  "401909880|prop|side0|4431736|Toumani Camara|pts|DraftKings|espn|current|11.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    11.5,
    1.97,
@@ -72574,7 +72574,7 @@
  },
  "401909880|prop|side0|4431736|Toumani Camara|pts|DraftKings|espn|open|10.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    10.5,
    1.83,
@@ -72596,7 +72596,7 @@
  },
  "401909880|prop|side0|4431736|Toumani Camara|reb|DraftKings|espn|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    2.23,
@@ -72607,7 +72607,7 @@
  },
  "401909880|prop|side0|4431736|Toumani Camara|reb|DraftKings|espn|open|4.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    2.15,
@@ -72618,7 +72618,7 @@
  },
  "401909880|prop|side0|4431736|Toumani Camara|stl|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.23,
@@ -72629,7 +72629,7 @@
  },
  "401909880|prop|side0|4431736|Toumani Camara|stl|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.0,
@@ -72640,7 +72640,7 @@
  },
  "401909880|prop|side0|4433136|Walker Kessler|ast|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.9,
@@ -72651,7 +72651,7 @@
  },
  "401909880|prop|side0|4433136|Walker Kessler|ast|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.93,
@@ -72662,7 +72662,7 @@
  },
  "401909880|prop|side0|4433136|Walker Kessler|blk|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.69,
@@ -72673,7 +72673,7 @@
  },
  "401909880|prop|side0|4433136|Walker Kessler|blk|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.78,
@@ -72695,7 +72695,7 @@
  },
  "401909880|prop|side0|4433136|Walker Kessler|pts|DraftKings|espn|current|13.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    13.5,
    1.9,
@@ -72706,7 +72706,7 @@
  },
  "401909880|prop|side0|4433136|Walker Kessler|pts|DraftKings|espn|open|11.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    11.5,
    1.76,
@@ -72717,7 +72717,7 @@
  },
  "401909880|prop|side0|4433136|Walker Kessler|reb|DraftKings|espn|current|10.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    10.5,
    2.0,
@@ -72739,7 +72739,7 @@
  },
  "401909880|prop|side0|4433136|Walker Kessler|reb|DraftKings|espn|open|9.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.87,
@@ -72750,7 +72750,7 @@
  },
  "401909880|prop|side0|4433137|Ziaire Williams|fg3m|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.58,
@@ -72761,7 +72761,7 @@
  },
  "401909880|prop|side0|4433137|Ziaire Williams|fg3m|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.01,
@@ -72772,7 +72772,7 @@
  },
  "401909880|prop|side0|4433137|Ziaire Williams|pts|DraftKings|espn|current|8.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    8.5,
    1.83,
@@ -72783,7 +72783,7 @@
  },
  "401909880|prop|side0|4433137|Ziaire Williams|pts|DraftKings|espn|open|7.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.85,
@@ -72805,7 +72805,7 @@
  },
  "401909880|prop|side0|4433137|Ziaire Williams|reb|DraftKings|espn|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    2.25,
@@ -72816,7 +72816,7 @@
  },
  "401909880|prop|side0|4433137|Ziaire Williams|reb|DraftKings|espn|open|3.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    2.21,
@@ -72827,7 +72827,7 @@
  },
  "401909880|prop|side0|4433137|Ziaire Williams|stl|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.17,
@@ -72838,7 +72838,7 @@
  },
  "401909880|prop|side0|4433137|Ziaire Williams|stl|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.18,
@@ -72849,7 +72849,7 @@
  },
  "401909880|prop|side0|4683021|Deni Avdija|ast|DraftKings|espn|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.67,
@@ -72871,7 +72871,7 @@
  },
  "401909880|prop|side0|4683021|Deni Avdija|ast|DraftKings|espn|open|4.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.74,
@@ -72882,7 +72882,7 @@
  },
  "401909880|prop|side0|4683021|Deni Avdija|fg3m|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.81,
@@ -72893,7 +72893,7 @@
  },
  "401909880|prop|side0|4683021|Deni Avdija|fg3m|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.87,
@@ -72915,7 +72915,7 @@
  },
  "401909880|prop|side0|4683021|Deni Avdija|pts|DraftKings|espn|current|22.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    22.5,
    1.9,
@@ -72926,7 +72926,7 @@
  },
  "401909880|prop|side0|4683021|Deni Avdija|pts|DraftKings|espn|open|22.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    22.5,
    1.88,
@@ -72937,7 +72937,7 @@
  },
  "401909880|prop|side0|4683021|Deni Avdija|reb|DraftKings|espn|current|6.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    1.8,
@@ -72959,7 +72959,7 @@
  },
  "401909880|prop|side0|4683021|Deni Avdija|reb|DraftKings|espn|open|6.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    1.85,
@@ -72970,7 +72970,7 @@
  },
  "401909880|prop|side0|4683678|Scoot Henderson|fg3m|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.37,
@@ -72981,7 +72981,7 @@
  },
  "401909880|prop|side0|4683678|Scoot Henderson|fg3m|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.9,
@@ -72992,7 +72992,7 @@
  },
  "401909880|prop|side0|4683678|Scoot Henderson|pts|DraftKings|espn|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.94,
@@ -73003,7 +73003,7 @@
  },
  "401909880|prop|side0|4683678|Scoot Henderson|pts|DraftKings|espn|open|9.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.78,
@@ -73014,7 +73014,7 @@
  },
  "401909880|prop|side0|5105565|Donovan Clingan|blk|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.12,
@@ -73025,7 +73025,7 @@
  },
  "401909880|prop|side0|5105565|Donovan Clingan|blk|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.13,
@@ -73036,7 +73036,7 @@
  },
  "401909880|prop|side0|5105565|Donovan Clingan|pts|DraftKings|espn|current|10.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    10.5,
    1.91,
@@ -73058,7 +73058,7 @@
  },
  "401909880|prop|side0|5105565|Donovan Clingan|pts|DraftKings|espn|open|10.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    10.5,
    2.01,
@@ -73080,7 +73080,7 @@
  },
  "401909880|prop|side0|5105565|Donovan Clingan|reb|DraftKings|espn|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.89,
@@ -73091,7 +73091,7 @@
  },
  "401909880|prop|side0|5105565|Donovan Clingan|reb|DraftKings|espn|open|9.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    2.03,
@@ -73102,7 +73102,7 @@
  },
  "401909880|prop|side0|6606|Damian Lillard|ast|DraftKings|espn|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.86,
@@ -73113,7 +73113,7 @@
  },
  "401909880|prop|side0|6606|Damian Lillard|ast|DraftKings|espn|open|4.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.8,
@@ -73124,7 +73124,7 @@
  },
  "401909880|prop|side0|6606|Damian Lillard|fg3m|DraftKings|espn|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    2.33,
@@ -73146,7 +73146,7 @@
  },
  "401909880|prop|side0|6606|Damian Lillard|fg3m|DraftKings|espn|open|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.62,
@@ -73179,7 +73179,7 @@
  },
  "401909880|prop|side0|6606|Damian Lillard|pts|DraftKings|espn|current|20.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    20.5,
    1.94,
@@ -73190,7 +73190,7 @@
  },
  "401909880|prop|side0|6606|Damian Lillard|pts|DraftKings|espn|open|19.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    1.92,
@@ -73201,7 +73201,7 @@
  },
  "401909880|prop|side0|6606|Damian Lillard|reb|DraftKings|espn|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.86,
@@ -73212,7 +73212,7 @@
  },
  "401909880|prop|side0|6606|Damian Lillard|reb|DraftKings|espn|open|3.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    2.01,
@@ -73223,7 +73223,7 @@
  },
  "401909880|prop|side1|3907498|Matisse Thybulle|fg3m|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.58,
@@ -73234,7 +73234,7 @@
  },
  "401909880|prop|side1|3907498|Matisse Thybulle|fg3m|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.59,
@@ -73245,7 +73245,7 @@
  },
  "401909880|prop|side1|3907498|Matisse Thybulle|pts|DraftKings|espn|current|5.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    2.02,
@@ -73267,7 +73267,7 @@
  },
  "401909880|prop|side1|3907498|Matisse Thybulle|pts|DraftKings|espn|open|7.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.95,
@@ -73278,7 +73278,7 @@
  },
  "401909880|prop|side1|3907498|Matisse Thybulle|stl|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.96,
@@ -73289,7 +73289,7 @@
  },
  "401909880|prop|side1|3907498|Matisse Thybulle|stl|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.02,
@@ -73300,7 +73300,7 @@
  },
  "401909880|prop|side1|3945274|Luka Doncic|ast|DraftKings|espn|current|7.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.9,
@@ -73311,7 +73311,7 @@
  },
  "401909880|prop|side1|3945274|Luka Doncic|ast|DraftKings|espn|open|7.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.95,
@@ -73322,7 +73322,7 @@
  },
  "401909880|prop|side1|3945274|Luka Doncic|fg3m|DraftKings|espn|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.87,
@@ -73333,7 +73333,7 @@
  },
  "401909880|prop|side1|3945274|Luka Doncic|fg3m|DraftKings|espn|open|3.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    2.04,
@@ -73355,7 +73355,7 @@
  },
  "401909880|prop|side1|3945274|Luka Doncic|pts|DraftKings|espn|current|32.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    32.5,
    1.84,
@@ -73366,7 +73366,7 @@
  },
  "401909880|prop|side1|3945274|Luka Doncic|pts|DraftKings|espn|open|32.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    32.5,
    1.84,
@@ -73377,7 +73377,7 @@
  },
  "401909880|prop|side1|3945274|Luka Doncic|reb|DraftKings|espn|current|7.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.86,
@@ -73388,7 +73388,7 @@
  },
  "401909880|prop|side1|3945274|Luka Doncic|reb|DraftKings|espn|open|7.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.81,
@@ -73399,7 +73399,7 @@
  },
  "401909880|prop|side1|3945274|Luka Doncic|stl|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.09,
@@ -73410,7 +73410,7 @@
  },
  "401909880|prop|side1|3945274|Luka Doncic|stl|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.09,
@@ -73421,7 +73421,7 @@
  },
  "401909880|prop|side1|3995|Jrue Holiday|ast|DraftKings|espn|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    2.0,
@@ -73432,7 +73432,7 @@
  },
  "401909880|prop|side1|3995|Jrue Holiday|ast|DraftKings|espn|open|3.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.95,
@@ -73443,7 +73443,7 @@
  },
  "401909880|prop|side1|3995|Jrue Holiday|fg3m|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.91,
@@ -73454,7 +73454,7 @@
  },
  "401909880|prop|side1|3995|Jrue Holiday|fg3m|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.85,
@@ -73465,7 +73465,7 @@
  },
  "401909880|prop|side1|3995|Jrue Holiday|pts|DraftKings|espn|current|10.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    10.5,
    1.84,
@@ -73476,7 +73476,7 @@
  },
  "401909880|prop|side1|3995|Jrue Holiday|pts|DraftKings|espn|open|10.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    10.5,
    1.96,
@@ -73487,7 +73487,7 @@
  },
  "401909880|prop|side1|3995|Jrue Holiday|reb|DraftKings|espn|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.69,
@@ -73498,7 +73498,7 @@
  },
  "401909880|prop|side1|3995|Jrue Holiday|reb|DraftKings|espn|open|3.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.68,
@@ -73509,7 +73509,7 @@
  },
  "401909880|prop|side1|4066211|Robert Williams III|pts|DraftKings|espn|current|5.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    2.16,
@@ -73531,7 +73531,7 @@
  },
  "401909880|prop|side1|4066211|Robert Williams III|pts|DraftKings|espn|open|6.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    1.99,
@@ -73542,7 +73542,7 @@
  },
  "401909880|prop|side1|4066211|Robert Williams III|reb|DraftKings|espn|current|6.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    1.73,
@@ -73564,7 +73564,7 @@
  },
  "401909880|prop|side1|4066211|Robert Williams III|reb|DraftKings|espn|open|7.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.7,
@@ -73575,7 +73575,7 @@
  },
  "401909880|prop|side1|4066457|Austin Reaves|ast|DraftKings|espn|current|5.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    1.9,
@@ -73586,7 +73586,7 @@
  },
  "401909880|prop|side1|4066457|Austin Reaves|ast|DraftKings|espn|open|5.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    2.08,
@@ -73597,7 +73597,7 @@
  },
  "401909880|prop|side1|4066457|Austin Reaves|fg3m|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.44,
@@ -73619,7 +73619,7 @@
  },
  "401909880|prop|side1|4066457|Austin Reaves|fg3m|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.32,
@@ -73630,7 +73630,7 @@
  },
  "401909880|prop|side1|4066457|Austin Reaves|pts|DraftKings|espn|current|23.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    23.5,
    1.81,
@@ -73641,7 +73641,7 @@
  },
  "401909880|prop|side1|4066457|Austin Reaves|pts|DraftKings|espn|open|23.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    23.5,
    1.83,
@@ -73652,7 +73652,7 @@
  },
  "401909880|prop|side1|4066457|Austin Reaves|reb|DraftKings|espn|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.85,
@@ -73674,7 +73674,7 @@
  },
  "401909880|prop|side1|4066457|Austin Reaves|reb|DraftKings|espn|open|4.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.63,
@@ -73685,7 +73685,7 @@
  },
  "401909880|prop|side1|4066457|Austin Reaves|stl|DraftKings|espn|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    2.7,
@@ -73696,7 +73696,7 @@
  },
  "401909880|prop|side1|4066457|Austin Reaves|stl|DraftKings|espn|open|0.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    2.71,
@@ -73707,7 +73707,7 @@
  },
  "401909880|prop|side1|4277811|Collin Sexton|fg3m|DraftKings|espn|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    2.56,
@@ -73729,7 +73729,7 @@
  },
  "401909880|prop|side1|4277811|Collin Sexton|fg3m|DraftKings|espn|open|0.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    2.4,
@@ -73740,7 +73740,7 @@
  },
  "401909880|prop|side1|4277811|Collin Sexton|pts|DraftKings|espn|current|10.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    10.5,
    1.86,
@@ -73762,7 +73762,7 @@
  },
  "401909880|prop|side1|4277811|Collin Sexton|pts|DraftKings|espn|open|9.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.89,
@@ -73773,7 +73773,7 @@
  },
  "401909880|prop|side1|4278580|Sandro Mamukelashvili|fg3m|DraftKings|espn|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    2.21,
@@ -73784,7 +73784,7 @@
  },
  "401909880|prop|side1|4278580|Sandro Mamukelashvili|fg3m|DraftKings|espn|open|0.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    2.65,
@@ -73806,7 +73806,7 @@
  },
  "401909880|prop|side1|4278580|Sandro Mamukelashvili|pts|DraftKings|espn|current|8.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    8.5,
    1.78,
@@ -73817,7 +73817,7 @@
  },
  "401909880|prop|side1|4278580|Sandro Mamukelashvili|pts|DraftKings|espn|open|7.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.98,
@@ -73839,7 +73839,7 @@
  },
  "401909880|prop|side1|4278580|Sandro Mamukelashvili|reb|DraftKings|espn|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.69,
@@ -73850,7 +73850,7 @@
  },
  "401909880|prop|side1|4278580|Sandro Mamukelashvili|reb|DraftKings|espn|open|3.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    2.17,
@@ -73861,7 +73861,7 @@
  },
  "401909880|prop|side1|4278580|Sandro Mamukelashvili|stl|DraftKings|espn|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.72,
@@ -73872,7 +73872,7 @@
  },
  "401909880|prop|side1|4278580|Sandro Mamukelashvili|stl|DraftKings|espn|open|0.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    1.81,
@@ -73883,7 +73883,7 @@
  },
  "401909880|prop|side1|4279888|Ja Morant|ast|DraftKings|espn|current|5.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    2.14,
@@ -73905,7 +73905,7 @@
  },
  "401909880|prop|side1|4279888|Ja Morant|ast|DraftKings|espn|open|5.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    2.15,
@@ -73916,7 +73916,7 @@
  },
  "401909880|prop|side1|4279888|Ja Morant|fg3m|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.62,
@@ -73927,7 +73927,7 @@
  },
  "401909880|prop|side1|4279888|Ja Morant|fg3m|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.64,
@@ -73949,7 +73949,7 @@
  },
  "401909880|prop|side1|4279888|Ja Morant|pts|DraftKings|espn|current|16.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    16.5,
    1.86,
@@ -73960,7 +73960,7 @@
  },
  "401909880|prop|side1|4279888|Ja Morant|pts|DraftKings|espn|open|16.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    16.5,
    1.81,
@@ -73971,7 +73971,7 @@
  },
  "401909880|prop|side1|4279888|Ja Morant|reb|DraftKings|espn|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.6,
@@ -73982,7 +73982,7 @@
  },
  "401909880|prop|side1|4279888|Ja Morant|reb|DraftKings|espn|open|3.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.74,
@@ -74004,7 +74004,7 @@
  },
  "401909880|prop|side1|4397014|Quentin Grimes|ast|DraftKings|espn|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.62,
@@ -74015,7 +74015,7 @@
  },
  "401909880|prop|side1|4397014|Quentin Grimes|ast|DraftKings|espn|open|2.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.78,
@@ -74026,7 +74026,7 @@
  },
  "401909880|prop|side1|4397014|Quentin Grimes|fg3m|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.49,
@@ -74037,7 +74037,7 @@
  },
  "401909880|prop|side1|4397014|Quentin Grimes|fg3m|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.6,
@@ -74048,7 +74048,7 @@
  },
  "401909880|prop|side1|4397014|Quentin Grimes|pts|DraftKings|espn|current|8.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    8.5,
    2.02,
@@ -74059,7 +74059,7 @@
  },
  "401909880|prop|side1|4397014|Quentin Grimes|pts|DraftKings|espn|open|8.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    8.5,
    1.81,
@@ -74081,7 +74081,7 @@
  },
  "401909880|prop|side1|4397014|Quentin Grimes|reb|DraftKings|espn|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.62,
@@ -74092,7 +74092,7 @@
  },
  "401909880|prop|side1|4397014|Quentin Grimes|reb|DraftKings|espn|open|3.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.66,
@@ -74103,7 +74103,7 @@
  },
  "401909880|prop|side1|4397014|Quentin Grimes|stl|DraftKings|espn|current|0.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    2.03,
@@ -74114,7 +74114,7 @@
  },
  "401909880|prop|side1|4397014|Quentin Grimes|stl|DraftKings|espn|open|0.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    0.5,
    2.25,
@@ -74125,7 +74125,7 @@
  },
  "401909880|prop|side1|4431736|Toumani Camara|fg3m|DraftKings|espn|current|2.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.61,
@@ -74136,7 +74136,7 @@
  },
  "401909880|prop|side1|4431736|Toumani Camara|fg3m|DraftKings|espn|open|2.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.62,
@@ -74158,7 +74158,7 @@
  },
  "401909880|prop|side1|4431736|Toumani Camara|pts|DraftKings|espn|current|11.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    11.5,
    1.8,
@@ -74169,7 +74169,7 @@
  },
  "401909880|prop|side1|4431736|Toumani Camara|pts|DraftKings|espn|open|10.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    10.5,
    1.94,
@@ -74191,7 +74191,7 @@
  },
  "401909880|prop|side1|4431736|Toumani Camara|reb|DraftKings|espn|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.61,
@@ -74202,7 +74202,7 @@
  },
  "401909880|prop|side1|4431736|Toumani Camara|reb|DraftKings|espn|open|4.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.65,
@@ -74213,7 +74213,7 @@
  },
  "401909880|prop|side1|4431736|Toumani Camara|stl|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.6,
@@ -74224,7 +74224,7 @@
  },
  "401909880|prop|side1|4431736|Toumani Camara|stl|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.75,
@@ -74235,7 +74235,7 @@
  },
  "401909880|prop|side1|4433136|Walker Kessler|ast|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.84,
@@ -74246,7 +74246,7 @@
  },
  "401909880|prop|side1|4433136|Walker Kessler|ast|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.81,
@@ -74257,7 +74257,7 @@
  },
  "401909880|prop|side1|4433136|Walker Kessler|blk|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    2.08,
@@ -74268,7 +74268,7 @@
  },
  "401909880|prop|side1|4433136|Walker Kessler|blk|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.96,
@@ -74290,7 +74290,7 @@
  },
  "401909880|prop|side1|4433136|Walker Kessler|pts|DraftKings|espn|current|13.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    13.5,
    1.87,
@@ -74301,7 +74301,7 @@
  },
  "401909880|prop|side1|4433136|Walker Kessler|pts|DraftKings|espn|open|11.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    11.5,
    2.02,
@@ -74312,7 +74312,7 @@
  },
  "401909880|prop|side1|4433136|Walker Kessler|reb|DraftKings|espn|current|10.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    10.5,
    1.75,
@@ -74334,7 +74334,7 @@
  },
  "401909880|prop|side1|4433136|Walker Kessler|reb|DraftKings|espn|open|9.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.86,
@@ -74345,7 +74345,7 @@
  },
  "401909880|prop|side1|4433137|Ziaire Williams|fg3m|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.47,
@@ -74356,7 +74356,7 @@
  },
  "401909880|prop|side1|4433137|Ziaire Williams|fg3m|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.75,
@@ -74367,7 +74367,7 @@
  },
  "401909880|prop|side1|4433137|Ziaire Williams|pts|DraftKings|espn|current|8.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    8.5,
    1.94,
@@ -74378,7 +74378,7 @@
  },
  "401909880|prop|side1|4433137|Ziaire Williams|pts|DraftKings|espn|open|7.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.91,
@@ -74400,7 +74400,7 @@
  },
  "401909880|prop|side1|4433137|Ziaire Williams|reb|DraftKings|espn|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.6,
@@ -74411,7 +74411,7 @@
  },
  "401909880|prop|side1|4433137|Ziaire Williams|reb|DraftKings|espn|open|3.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.62,
@@ -74422,7 +74422,7 @@
  },
  "401909880|prop|side1|4433137|Ziaire Williams|stl|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.64,
@@ -74433,7 +74433,7 @@
  },
  "401909880|prop|side1|4433137|Ziaire Williams|stl|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.63,
@@ -74444,7 +74444,7 @@
  },
  "401909880|prop|side1|4683021|Deni Avdija|ast|DraftKings|espn|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    2.12,
@@ -74466,7 +74466,7 @@
  },
  "401909880|prop|side1|4683021|Deni Avdija|ast|DraftKings|espn|open|4.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    2.03,
@@ -74477,7 +74477,7 @@
  },
  "401909880|prop|side1|4683021|Deni Avdija|fg3m|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.92,
@@ -74488,7 +74488,7 @@
  },
  "401909880|prop|side1|4683021|Deni Avdija|fg3m|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.86,
@@ -74510,7 +74510,7 @@
  },
  "401909880|prop|side1|4683021|Deni Avdija|pts|DraftKings|espn|current|22.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    22.5,
    1.86,
@@ -74521,7 +74521,7 @@
  },
  "401909880|prop|side1|4683021|Deni Avdija|pts|DraftKings|espn|open|22.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    22.5,
    1.89,
@@ -74532,7 +74532,7 @@
  },
  "401909880|prop|side1|4683021|Deni Avdija|reb|DraftKings|espn|current|6.5": {
   "first_seen": "2026-10-27T19:57:39Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    1.94,
@@ -74554,7 +74554,7 @@
  },
  "401909880|prop|side1|4683021|Deni Avdija|reb|DraftKings|espn|open|6.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    1.89,
@@ -74565,7 +74565,7 @@
  },
  "401909880|prop|side1|4683678|Scoot Henderson|fg3m|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.55,
@@ -74576,7 +74576,7 @@
  },
  "401909880|prop|side1|4683678|Scoot Henderson|fg3m|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.84,
@@ -74587,7 +74587,7 @@
  },
  "401909880|prop|side1|4683678|Scoot Henderson|pts|DraftKings|espn|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.83,
@@ -74598,7 +74598,7 @@
  },
  "401909880|prop|side1|4683678|Scoot Henderson|pts|DraftKings|espn|open|9.5": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.99,
@@ -74609,7 +74609,7 @@
  },
  "401909880|prop|side1|5105565|Donovan Clingan|blk|DraftKings|espn|current|1.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.67,
@@ -74620,7 +74620,7 @@
  },
  "401909880|prop|side1|5105565|Donovan Clingan|blk|DraftKings|espn|open|1.5": {
   "first_seen": "2026-10-27T21:15:40Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.66,
@@ -74631,7 +74631,7 @@
  },
  "401909880|prop|side1|5105565|Donovan Clingan|pts|DraftKings|espn|current|10.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    10.5,
    1.85,
@@ -74653,7 +74653,7 @@
  },
  "401909880|prop|side1|5105565|Donovan Clingan|pts|DraftKings|espn|open|10.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    10.5,
    1.77,
@@ -74675,7 +74675,7 @@
  },
  "401909880|prop|side1|5105565|Donovan Clingan|reb|DraftKings|espn|current|9.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.84,
@@ -74686,7 +74686,7 @@
  },
  "401909880|prop|side1|5105565|Donovan Clingan|reb|DraftKings|espn|open|9.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    9.5,
    1.73,
@@ -74697,7 +74697,7 @@
  },
  "401909880|prop|side1|6606|Damian Lillard|ast|DraftKings|espn|current|4.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.87,
@@ -74708,7 +74708,7 @@
  },
  "401909880|prop|side1|6606|Damian Lillard|ast|DraftKings|espn|open|4.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.95,
@@ -74774,7 +74774,7 @@
  },
  "401909880|prop|side1|6606|Damian Lillard|pts|DraftKings|espn|current|20.5": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    20.5,
    1.82,
@@ -74785,7 +74785,7 @@
  },
  "401909880|prop|side1|6606|Damian Lillard|pts|DraftKings|espn|open|19.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    19.5,
    1.84,
@@ -74796,7 +74796,7 @@
  },
  "401909880|prop|side1|6606|Damian Lillard|reb|DraftKings|espn|current|3.5": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.88,
@@ -74807,7 +74807,7 @@
  },
  "401909880|prop|side1|6606|Damian Lillard|reb|DraftKings|espn|open|3.5": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.75,
@@ -74818,7 +74818,7 @@
  },
  "401909880|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.9259,
@@ -74828,7 +74828,7 @@
  },
  "401909880|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    2.5,
    1.9524,
@@ -74838,7 +74838,7 @@
  },
  "401909880|spread|away||||bet365|moviodds|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.9434,
@@ -74849,7 +74849,7 @@
  },
  "401909880|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -1.5,
    1.8929,
@@ -74859,7 +74859,7 @@
  },
  "401909880|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -2.5,
    1.8696,
@@ -74869,7 +74869,7 @@
  },
  "401909880|spread|home||||bet365|moviodds|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -1.5,
    1.8772,
@@ -74880,7 +74880,7 @@
  },
  "401909880|total|over||||DraftKings|espn|current": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    233.5,
    1.9259,
@@ -74890,7 +74890,7 @@
  },
  "401909880|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    236.5,
    1.9091,
@@ -74900,7 +74900,7 @@
  },
  "401909880|total|over||||bet365|moviodds|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    233.5,
    1.9009,
@@ -74911,7 +74911,7 @@
  },
  "401909880|total|under||||DraftKings|espn|current": {
   "first_seen": "2026-10-27T18:29:09Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    233.5,
    1.8929,
@@ -74921,7 +74921,7 @@
  },
  "401909880|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-10-27T06:52:30Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    236.5,
    1.9091,
@@ -74931,7 +74931,7 @@
  },
  "401909880|total|under||||bet365|moviodds|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    233.5,
    1.9174,
@@ -74942,7 +74942,7 @@
  },
  "401909881|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    2.36,
@@ -74952,7 +74952,7 @@
  },
  "401909881|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    2.36,
@@ -74962,7 +74962,7 @@
  },
  "401909881|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.6173,
@@ -74972,7 +74972,7 @@
  },
  "401909881|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.6173,
@@ -74982,7 +74982,7 @@
  },
  "401909881|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.9524,
@@ -74992,7 +74992,7 @@
  },
  "401909881|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.9524,
@@ -75002,7 +75002,7 @@
  },
  "401909881|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -3.5,
    1.8696,
@@ -75012,7 +75012,7 @@
  },
  "401909881|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -3.5,
    1.8696,
@@ -75022,7 +75022,7 @@
  },
  "401909881|total|over||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    239.5,
    1.9091,
@@ -75032,7 +75032,7 @@
  },
  "401909881|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    239.5,
    1.8929,
@@ -75042,7 +75042,7 @@
  },
  "401909881|total|under||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    239.5,
    1.9091,
@@ -75052,7 +75052,7 @@
  },
  "401909881|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    239.5,
    1.9259,
@@ -75062,7 +75062,7 @@
  },
  "401909882|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    4.1,
@@ -75072,7 +75072,7 @@
  },
  "401909882|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    4.0,
@@ -75082,7 +75082,7 @@
  },
  "401909882|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.2532,
@@ -75092,7 +75092,7 @@
  },
  "401909882|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.2632,
@@ -75102,7 +75102,7 @@
  },
  "401909882|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    10.5,
    1.8696,
@@ -75112,7 +75112,7 @@
  },
  "401909882|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    10.5,
    1.8696,
@@ -75122,7 +75122,7 @@
  },
  "401909882|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -10.5,
    1.9524,
@@ -75132,7 +75132,7 @@
  },
  "401909882|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -10.5,
    1.9524,
@@ -75142,7 +75142,7 @@
  },
  "401909882|total|over||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    239.5,
    1.9091,
@@ -75152,7 +75152,7 @@
  },
  "401909882|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    239.5,
    1.9091,
@@ -75162,7 +75162,7 @@
  },
  "401909882|total|under||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    239.5,
    1.9091,
@@ -75172,7 +75172,7 @@
  },
  "401909882|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    239.5,
    1.9091,
@@ -75182,7 +75182,7 @@
  },
  "401909883|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    3.35,
@@ -75192,7 +75192,7 @@
  },
  "401909883|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    3.45,
@@ -75202,7 +75202,7 @@
  },
  "401909883|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.3448,
@@ -75212,7 +75212,7 @@
  },
  "401909883|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.3279,
@@ -75222,7 +75222,7 @@
  },
  "401909883|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.9091,
@@ -75232,7 +75232,7 @@
  },
  "401909883|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.9091,
@@ -75242,7 +75242,7 @@
  },
  "401909883|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -7.5,
    1.9091,
@@ -75252,7 +75252,7 @@
  },
  "401909883|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -7.5,
    1.9091,
@@ -75262,7 +75262,7 @@
  },
  "401909883|total|over||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    216.5,
    1.9524,
@@ -75272,7 +75272,7 @@
  },
  "401909883|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    216.5,
    1.9524,
@@ -75282,7 +75282,7 @@
  },
  "401909883|total|under||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    216.5,
    1.8696,
@@ -75292,7 +75292,7 @@
  },
  "401909883|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    216.5,
    1.8696,
@@ -75302,7 +75302,7 @@
  },
  "401909884|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.6024,
@@ -75312,7 +75312,7 @@
  },
  "401909884|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.8,
@@ -75322,7 +75322,7 @@
  },
  "401909884|ml|away||||bet365|moviodds|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.6135,
@@ -75333,7 +75333,7 @@
  },
  "401909884|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    2.4,
@@ -75343,7 +75343,7 @@
  },
  "401909884|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    2.05,
@@ -75353,7 +75353,7 @@
  },
  "401909884|ml|home||||bet365|moviodds|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    2.38,
@@ -75364,7 +75364,7 @@
  },
  "401909884|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -4.5,
    1.9091,
@@ -75374,7 +75374,7 @@
  },
  "401909884|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -1.5,
    1.8696,
@@ -75384,7 +75384,7 @@
  },
  "401909884|spread|away||||bet365|moviodds|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -3.5,
    1.8403,
@@ -75395,7 +75395,7 @@
  },
  "401909884|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.9091,
@@ -75405,7 +75405,7 @@
  },
  "401909884|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    1.5,
    1.9524,
@@ -75415,7 +75415,7 @@
  },
  "401909884|spread|home||||bet365|moviodds|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.9901,
@@ -75426,7 +75426,7 @@
  },
  "401909884|total|over||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    237.5,
    1.9091,
@@ -75436,7 +75436,7 @@
  },
  "401909884|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    237.5,
    1.9091,
@@ -75446,7 +75446,7 @@
  },
  "401909884|total|over||||bet365|moviodds|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    237.5,
    1.9346,
@@ -75457,7 +75457,7 @@
  },
  "401909884|total|under||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    237.5,
    1.9091,
@@ -75467,7 +75467,7 @@
  },
  "401909884|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-10-27T12:48:22Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    237.5,
    1.9091,
@@ -75477,7 +75477,7 @@
  },
  "401909884|total|under||||bet365|moviodds|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    237.5,
    1.885,
@@ -75488,7 +75488,7 @@
  },
  "401909885|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    2.45,
@@ -75498,7 +75498,7 @@
  },
  "401909885|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    2.45,
@@ -75508,7 +75508,7 @@
  },
  "401909885|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.5714,
@@ -75518,7 +75518,7 @@
  },
  "401909885|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.5714,
@@ -75528,7 +75528,7 @@
  },
  "401909885|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.9091,
@@ -75538,7 +75538,7 @@
  },
  "401909885|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.9091,
@@ -75548,7 +75548,7 @@
  },
  "401909885|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -4.5,
    1.9091,
@@ -75558,7 +75558,7 @@
  },
  "401909885|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -4.5,
    1.9091,
@@ -75568,7 +75568,7 @@
  },
  "401909885|total|over||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    223.5,
    1.9091,
@@ -75578,7 +75578,7 @@
  },
  "401909885|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    223.5,
    1.9091,
@@ -75588,7 +75588,7 @@
  },
  "401909885|total|under||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    223.5,
    1.9091,
@@ -75598,7 +75598,7 @@
  },
  "401909885|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    223.5,
    1.9091,
@@ -75608,7 +75608,7 @@
  },
  "401909886|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.3704,
@@ -75618,7 +75618,7 @@
  },
  "401909886|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.3876,
@@ -75628,7 +75628,7 @@
  },
  "401909886|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    3.2,
@@ -75638,7 +75638,7 @@
  },
  "401909886|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    3.1,
@@ -75648,7 +75648,7 @@
  },
  "401909886|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -7.5,
    1.9524,
@@ -75658,7 +75658,7 @@
  },
  "401909886|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -7.5,
    1.9524,
@@ -75668,7 +75668,7 @@
  },
  "401909886|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.8696,
@@ -75678,7 +75678,7 @@
  },
  "401909886|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    7.5,
    1.8696,
@@ -75688,7 +75688,7 @@
  },
  "401909886|total|over||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    234.5,
    1.8696,
@@ -75698,7 +75698,7 @@
  },
  "401909886|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    234.5,
    1.8696,
@@ -75708,7 +75708,7 @@
  },
  "401909886|total|under||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    234.5,
    1.9524,
@@ -75718,7 +75718,7 @@
  },
  "401909886|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    234.5,
    1.9524,
@@ -75728,7 +75728,7 @@
  },
  "401909887|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.3226,
@@ -75738,7 +75738,7 @@
  },
  "401909887|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.3226,
@@ -75748,7 +75748,7 @@
  },
  "401909887|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    3.5,
@@ -75758,7 +75758,7 @@
  },
  "401909887|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    3.5,
@@ -75768,7 +75768,7 @@
  },
  "401909887|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -8.5,
    1.9091,
@@ -75778,7 +75778,7 @@
  },
  "401909887|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -8.5,
    1.9091,
@@ -75788,7 +75788,7 @@
  },
  "401909887|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    8.5,
    1.9091,
@@ -75798,7 +75798,7 @@
  },
  "401909887|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    8.5,
    1.9091,
@@ -75808,7 +75808,7 @@
  },
  "401909887|total|over||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    227.5,
    1.8696,
@@ -75818,7 +75818,7 @@
  },
  "401909887|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    227.5,
    1.8696,
@@ -75828,7 +75828,7 @@
  },
  "401909887|total|under||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    227.5,
    1.9524,
@@ -75838,7 +75838,7 @@
  },
  "401909887|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    227.5,
    1.9524,
@@ -75848,7 +75848,7 @@
  },
  "401909888|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    2.3,
@@ -75858,7 +75858,7 @@
  },
  "401909888|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    2.9,
@@ -75868,7 +75868,7 @@
  },
  "401909888|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.6452,
@@ -75878,7 +75878,7 @@
  },
  "401909888|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.4348,
@@ -75888,7 +75888,7 @@
  },
  "401909888|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    3.5,
    1.9524,
@@ -75898,7 +75898,7 @@
  },
  "401909888|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    6.5,
    1.9091,
@@ -75908,7 +75908,7 @@
  },
  "401909888|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -3.5,
    1.8696,
@@ -75918,7 +75918,7 @@
  },
  "401909888|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -6.5,
    1.9091,
@@ -75928,7 +75928,7 @@
  },
  "401909888|total|over||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    225.5,
    1.9091,
@@ -75938,7 +75938,7 @@
  },
  "401909888|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    227.5,
    1.9091,
@@ -75948,7 +75948,7 @@
  },
  "401909888|total|under||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    225.5,
    1.9091,
@@ -75958,7 +75958,7 @@
  },
  "401909888|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    227.5,
    1.9091,
@@ -75968,7 +75968,7 @@
  },
  "401909889|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.5405,
@@ -75978,7 +75978,7 @@
  },
  "401909889|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.5405,
@@ -75988,7 +75988,7 @@
  },
  "401909889|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    2.54,
@@ -75998,7 +75998,7 @@
  },
  "401909889|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    2.54,
@@ -76008,7 +76008,7 @@
  },
  "401909889|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -4.5,
    1.8696,
@@ -76018,7 +76018,7 @@
  },
  "401909889|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -4.5,
    1.8696,
@@ -76028,7 +76028,7 @@
  },
  "401909889|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.9524,
@@ -76038,7 +76038,7 @@
  },
  "401909889|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    4.5,
    1.9524,
@@ -76048,7 +76048,7 @@
  },
  "401909889|total|over||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    238.5,
    1.8696,
@@ -76058,7 +76058,7 @@
  },
  "401909889|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    238.5,
    1.8696,
@@ -76068,7 +76068,7 @@
  },
  "401909889|total|under||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    238.5,
    1.9524,
@@ -76078,7 +76078,7 @@
  },
  "401909889|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    238.5,
    1.9524,
@@ -76088,7 +76088,7 @@
  },
  "401909890|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.1739,
@@ -76098,7 +76098,7 @@
  },
  "401909890|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.1739,
@@ -76108,7 +76108,7 @@
  },
  "401909890|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    5.25,
@@ -76118,7 +76118,7 @@
  },
  "401909890|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    5.25,
@@ -76128,7 +76128,7 @@
  },
  "401909890|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -12.5,
    1.9091,
@@ -76138,7 +76138,7 @@
  },
  "401909890|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -12.5,
    1.9091,
@@ -76148,7 +76148,7 @@
  },
  "401909890|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    12.5,
    1.9091,
@@ -76158,7 +76158,7 @@
  },
  "401909890|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    12.5,
    1.9091,
@@ -76168,7 +76168,7 @@
  },
  "401909890|total|over||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    234.5,
    1.9524,
@@ -76178,7 +76178,7 @@
  },
  "401909890|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    234.5,
    1.9524,
@@ -76188,7 +76188,7 @@
  },
  "401909890|total|under||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    234.5,
    1.8696,
@@ -76198,7 +76198,7 @@
  },
  "401909890|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    234.5,
    1.8696,
@@ -76208,7 +76208,7 @@
  },
  "401909892|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.4878,
@@ -76218,7 +76218,7 @@
  },
  "401909892|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    1.5051,
@@ -76228,7 +76228,7 @@
  },
  "401909892|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    2.7,
@@ -76238,7 +76238,7 @@
  },
  "401909892|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    null,
    2.64,
@@ -76248,7 +76248,7 @@
  },
  "401909892|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -5.5,
    1.9524,
@@ -76258,7 +76258,7 @@
  },
  "401909892|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    -5.5,
    1.9524,
@@ -76268,7 +76268,7 @@
  },
  "401909892|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    1.8696,
@@ -76278,7 +76278,7 @@
  },
  "401909892|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    5.5,
    1.8696,
@@ -76288,7 +76288,7 @@
  },
  "401909892|total|over||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    228.5,
    1.9524,
@@ -76298,7 +76298,7 @@
  },
  "401909892|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    228.5,
    1.9524,
@@ -76308,7 +76308,7 @@
  },
  "401909892|total|under||||DraftKings|espn|current": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    228.5,
    1.8696,
@@ -76318,7 +76318,7 @@
  },
  "401909892|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-10-28T00:33:24Z",
-  "last_seen": "2026-10-28T00:33:24Z",
+  "last_seen": "2026-10-28T00:37:04Z",
   "sig": [
    228.5,
    1.8696,
