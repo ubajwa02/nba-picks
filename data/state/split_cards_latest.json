@@ -24494,11 +24494,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.1685,
+   "ev": 0.1495,
    "fair": null,
    "game_id": "401909892",
    "home": true,
-   "implied": 0.5435,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 4.5,
    "opp": "LAL",
@@ -24560,7 +24560,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Kris Dunn under 4.5 ast (vs LAL): p=0.635 (raw 0.663) vs DraftKings implied 0.543 EV +0.169 @ DraftKings | career 167/254, season 0/3, last5 1/5, last10 5/10, vs LAL 10/14, home 89/125, month 10 past seasons 14/14, rest 2+ days 41/59"
+   "text": "[research] Kris Dunn under 4.5 ast (vs LAL): p=0.635 (raw 0.663) vs DraftKings implied 0.552 EV +0.149 @ DraftKings | career 167/254, season 0/3, last5 1/5, last10 5/10, vs LAL 10/14, home 89/125, month 10 past seasons 14/14, rest 2+ days 41/59"
   },
   {
    "book": "DraftKings",
@@ -24778,17 +24778,17 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.2066,
-   "fair": 0.537,
+   "ev": 0.2135,
+   "fair": 0.5344,
    "game_id": "401909892",
    "home": true,
-   "implied": 0.5714,
+   "implied": 0.5682,
    "k": 40.0,
    "line": 9.5,
    "opp": "LAL",
    "player": "Kris Dunn",
    "player_id": "2991139",
-   "price_observed_at": "2026-10-29T01:17:38Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.6895,
    "prob_raw": 0.7283,
    "side": "under",
@@ -24844,7 +24844,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Kris Dunn under 9.5 pts (vs LAL): p=0.690 (raw 0.728) vs DraftKings implied 0.571 EV +0.207 @ DraftKings | career 187/254, season 2/3, last5 4/5, last10 8/10, vs LAL 8/14, home 95/125, month 10 past seasons 12/14, rest 2+ days 39/59"
+   "text": "[research] Kris Dunn under 9.5 pts (vs LAL): p=0.690 (raw 0.728) vs DraftKings implied 0.568 EV +0.213 @ DraftKings | career 187/254, season 2/3, last5 4/5, last10 8/10, vs LAL 8/14, home 95/125, month 10 past seasons 12/14, rest 2+ days 39/59"
   },
   {
    "book": "DraftKings",
@@ -24920,11 +24920,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.1584,
-   "fair": 0.5881,
+   "ev": -0.1637,
+   "fair": 0.5917,
    "game_id": "401909892",
    "home": true,
-   "implied": 0.6289,
+   "implied": 0.6329,
    "k": 40.0,
    "line": 1.5,
    "opp": "LAL",
@@ -24986,16 +24986,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Brook Lopez under 1.5 fg3m (vs LAL): p=0.529 (raw 0.530) vs DraftKings implied 0.629 EV -0.158 @ DraftKings | career 178/333, season 1/3, last5 3/5, last10 6/10, vs LAL 4/10, home 85/170, month 10 past seasons 9/19, rest 2+ days 45/73"
+   "text": "[research] Brook Lopez under 1.5 fg3m (vs LAL): p=0.529 (raw 0.530) vs DraftKings implied 0.633 EV -0.164 @ DraftKings | career 178/333, season 1/3, last5 3/5, last10 6/10, vs LAL 4/10, home 85/170, month 10 past seasons 9/19, rest 2+ days 45/73"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.027,
+   "ev": 0.0328,
    "fair": null,
    "game_id": "401909892",
    "home": true,
-   "implied": 0.5556,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 10.5,
    "opp": "LAL",
@@ -25057,16 +25057,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Brook Lopez over 10.5 pts (vs LAL): p=0.571 (raw 0.582) vs DraftKings implied 0.556 EV +0.027 @ DraftKings | career 195/333, season 3/3, last5 4/5, last10 6/10, vs LAL 7/10, home 98/170, month 10 past seasons 11/19, rest 2+ days 36/73"
+   "text": "[research] Brook Lopez over 10.5 pts (vs LAL): p=0.571 (raw 0.582) vs DraftKings implied 0.552 EV +0.033 @ DraftKings | career 195/333, season 3/3, last5 4/5, last10 6/10, vs LAL 7/10, home 98/170, month 10 past seasons 11/19, rest 2+ days 36/73"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.2063,
+   "ev": -0.2018,
    "fair": null,
    "game_id": "401909892",
    "home": true,
-   "implied": 0.5556,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 10.5,
    "opp": "LAL",
@@ -25128,13 +25128,13 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Brook Lopez under 10.5 pts (vs LAL): p=0.441 (raw 0.418) vs DraftKings implied 0.556 EV -0.206 @ DraftKings | career 138/333, season 0/3, last5 1/5, last10 4/10, vs LAL 3/10, home 72/170, month 10 past seasons 8/19, rest 2+ days 37/73"
+   "text": "[research] Brook Lopez under 10.5 pts (vs LAL): p=0.441 (raw 0.418) vs DraftKings implied 0.552 EV -0.202 @ DraftKings | career 138/333, season 0/3, last5 1/5, last10 4/10, vs LAL 3/10, home 72/170, month 10 past seasons 8/19, rest 2+ days 37/73"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
    "ev": -0.2249,
-   "fair": 0.5696,
+   "fair": 0.5707,
    "game_id": "401909892",
    "home": true,
    "implied": 0.6098,
@@ -25285,7 +25285,7 @@
    "opp": "LAC",
    "player": "Matisse Thybulle",
    "player_id": "3907498",
-   "price_observed_at": "2026-10-29T01:49:36Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.3231,
    "prob_raw": 0.2746,
    "side": "over",
@@ -25356,7 +25356,7 @@
    "opp": "LAC",
    "player": "Matisse Thybulle",
    "player_id": "3907498",
-   "price_observed_at": "2026-10-29T01:49:36Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.687,
    "prob_raw": 0.7254,
    "side": "under",
@@ -25417,11 +25417,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.1544,
+   "ev": 0.1799,
    "fair": null,
    "game_id": "401909892",
    "home": false,
-   "implied": 0.5525,
+   "implied": 0.5405,
    "k": 40.0,
    "line": 2.5,
    "opp": "LAC",
@@ -25483,7 +25483,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Matisse Thybulle under 2.5 reb (@ LAC): p=0.638 (raw 0.666) vs DraftKings implied 0.552 EV +0.154 @ DraftKings | career 121/188, season 3/4, last5 4/5, last10 8/10, vs LAC 8/9, away 58/88, month 10 past seasons 11/13, rest b2b 16/26"
+   "text": "[research] Matisse Thybulle under 2.5 reb (@ LAC): p=0.638 (raw 0.666) vs DraftKings implied 0.540 EV +0.180 @ DraftKings | career 121/188, season 3/4, last5 4/5, last10 8/10, vs LAC 8/9, away 58/88, month 10 past seasons 11/13, rest b2b 16/26"
   },
   {
    "book": "DraftKings",
@@ -25701,11 +25701,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.3182,
-   "fair": 0.5372,
+   "ev": 0.2955,
+   "fair": 0.5464,
    "game_id": "401909892",
    "home": true,
-   "implied": 0.5747,
+   "implied": 0.5848,
    "k": 40.0,
    "line": 4.5,
    "opp": "LAL",
@@ -25767,7 +25767,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Derrick Jones Jr. under 4.5 reb (vs LAL): p=0.758 (raw 0.805) vs DraftKings implied 0.575 EV +0.318 @ DraftKings | career 243/302, season 1/3, last5 3/5, last10 6/10, vs LAL 8/9, home 125/155, month 10 past seasons 17/18, rest 2+ days 61/70"
+   "text": "[research] Derrick Jones Jr. under 4.5 reb (vs LAL): p=0.758 (raw 0.805) vs DraftKings implied 0.585 EV +0.295 @ DraftKings | career 243/302, season 1/3, last5 3/5, last10 6/10, vs LAL 8/9, home 125/155, month 10 past seasons 17/18, rest 2+ days 61/70"
   },
   {
    "book": "DraftKings",
@@ -26766,17 +26766,17 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.7008,
+   "ev": -0.6942,
    "fair": null,
    "game_id": "401909892",
    "home": false,
-   "implied": 0.5464,
+   "implied": 0.5348,
    "k": 40.0,
    "line": 28.5,
    "opp": "LAC",
    "player": "Austin Reaves",
    "player_id": "4066457",
-   "price_observed_at": "2026-10-29T00:52:00Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.1635,
    "prob_raw": 0.1083,
    "side": "over",
@@ -26832,22 +26832,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Austin Reaves over 28.5 pts (@ LAC): p=0.164 (raw 0.108) vs DraftKings implied 0.546 EV -0.701 @ DraftKings | career 28/309, season 1/4, last5 1/5, last10 2/10, vs LAC 2/13, away 12/148, month 10 past seasons 2/21, rest b2b 7/42"
+   "text": "[research] Austin Reaves over 28.5 pts (@ LAC): p=0.164 (raw 0.108) vs DraftKings implied 0.535 EV -0.694 @ DraftKings | career 28/309, season 1/4, last5 1/5, last10 2/10, vs LAC 2/13, away 12/148, month 10 past seasons 2/21, rest b2b 7/42"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.5423,
+   "ev": 0.576,
    "fair": null,
    "game_id": "401909892",
    "home": false,
-   "implied": 0.5464,
+   "implied": 0.5348,
    "k": 40.0,
    "line": 28.5,
    "opp": "LAC",
    "player": "Austin Reaves",
    "player_id": "4066457",
-   "price_observed_at": "2026-10-29T00:52:00Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.8428,
    "prob_raw": 0.8917,
    "side": "under",
@@ -26903,7 +26903,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Austin Reaves under 28.5 pts (@ LAC): p=0.843 (raw 0.892) vs DraftKings implied 0.546 EV +0.542 @ DraftKings | career 281/309, season 3/4, last5 4/5, last10 8/10, vs LAC 11/13, away 136/148, month 10 past seasons 19/21, rest b2b 35/42"
+   "text": "[research] Austin Reaves under 28.5 pts (@ LAC): p=0.843 (raw 0.892) vs DraftKings implied 0.535 EV +0.576 @ DraftKings | career 281/309, season 3/4, last5 4/5, last10 8/10, vs LAC 11/13, away 136/148, month 10 past seasons 19/21, rest b2b 35/42"
   },
   {
    "book": "DraftKings",
@@ -27121,17 +27121,17 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.2404,
+   "ev": -0.2529,
    "fair": null,
    "game_id": "401909892",
    "home": false,
-   "implied": 0.5464,
+   "implied": 0.5556,
    "k": 40.0,
    "line": 14.5,
    "opp": "LAC",
    "player": "Collin Sexton",
    "player_id": "4277811",
-   "price_observed_at": "2026-10-29T01:49:36Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.4151,
    "prob_raw": 0.3854,
    "side": "under",
@@ -27187,7 +27187,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Collin Sexton under 14.5 pts (@ LAC): p=0.415 (raw 0.385) vs DraftKings implied 0.546 EV -0.240 @ DraftKings | career 88/260, season 3/3, last5 4/5, last10 4/10, vs LAC 7/11, away 41/129, month 10 past seasons 11/22, rest b2b 18/43"
+   "text": "[research] Collin Sexton under 14.5 pts (@ LAC): p=0.415 (raw 0.385) vs DraftKings implied 0.556 EV -0.253 @ DraftKings | career 88/260, season 3/3, last5 4/5, last10 4/10, vs LAC 7/11, away 41/129, month 10 past seasons 11/22, rest b2b 18/43"
   },
   {
    "book": "DraftKings",
@@ -27334,17 +27334,88 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.0905,
+   "ev": -0.1482,
+   "fair": 0.6081,
+   "game_id": "401909892",
+   "home": false,
+   "implied": 0.6494,
+   "k": 40.0,
+   "line": 2.5,
+   "opp": "LAC",
+   "player": "Collin Sexton",
+   "player_id": "4277811",
+   "price_observed_at": "2026-10-29T01:54:34Z",
+   "prob": 0.5531,
+   "prob_raw": 0.5601,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 141,
+     "n": 260,
+     "rate": 0.542,
+     "split": "career"
+    },
+    {
+     "hits": 3,
+     "n": 3,
+     "rate": 1.0,
+     "split": "season"
+    },
+    {
+     "hits": 4,
+     "n": 5,
+     "rate": 0.8,
+     "split": "last5"
+    },
+    {
+     "hits": 5,
+     "n": 10,
+     "rate": 0.5,
+     "split": "last10"
+    },
+    {
+     "hits": 5,
+     "n": 11,
+     "rate": 0.455,
+     "split": "vs LAC"
+    },
+    {
+     "hits": 65,
+     "n": 129,
+     "rate": 0.504,
+     "split": "away"
+    },
+    {
+     "hits": 14,
+     "n": 22,
+     "rate": 0.636,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 26,
+     "n": 43,
+     "rate": 0.605,
+     "split": "rest b2b"
+    }
+   ],
+   "stat": "reb",
+   "status": "research",
+   "text": "[research] Collin Sexton under 2.5 reb (@ LAC): p=0.553 (raw 0.560) vs DraftKings implied 0.649 EV -0.148 @ DraftKings | career 141/260, season 3/3, last5 4/5, last10 5/10, vs LAC 5/11, away 65/129, month 10 past seasons 14/22, rest b2b 26/43"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-10-28",
+   "ev": 0.0697,
    "fair": null,
    "game_id": "401909892",
    "home": false,
-   "implied": 0.6369,
+   "implied": 0.6494,
    "k": 40.0,
    "line": 1.5,
    "opp": "LAC",
    "player": "Sandro Mamukelashvili",
    "player_id": "4278580",
-   "price_observed_at": "2026-10-29T01:49:36Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.6946,
    "prob_raw": 0.7343,
    "side": "under",
@@ -27400,7 +27471,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Sandro Mamukelashvili under 1.5 fg3m (@ LAC): p=0.695 (raw 0.734) vs DraftKings implied 0.637 EV +0.090 @ DraftKings | career 176/238, season 3/4, last5 4/5, last10 8/10, vs LAC 7/9, away 88/121, month 10 past seasons 11/11, rest b2b 24/37"
+   "text": "[research] Sandro Mamukelashvili under 1.5 fg3m (@ LAC): p=0.695 (raw 0.734) vs DraftKings implied 0.649 EV +0.070 @ DraftKings | career 176/238, season 3/4, last5 4/5, last10 8/10, vs LAC 7/9, away 88/121, month 10 past seasons 11/11, rest b2b 24/37"
   },
   {
    "book": "DraftKings",
@@ -27557,7 +27628,7 @@
    "opp": "LAC",
    "player": "Sandro Mamukelashvili",
    "player_id": "4278580",
-   "price_observed_at": "2026-10-29T01:49:36Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.2812,
    "prob_raw": 0.227,
    "side": "over",
@@ -27628,7 +27699,7 @@
    "opp": "LAC",
    "player": "Sandro Mamukelashvili",
    "player_id": "4278580",
-   "price_observed_at": "2026-10-29T01:49:36Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.7282,
    "prob_raw": 0.773,
    "side": "under",
@@ -27689,11 +27760,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.2561,
-   "fair": 0.4368,
+   "ev": 0.2209,
+   "fair": 0.4497,
    "game_id": "401909892",
    "home": false,
-   "implied": 0.4673,
+   "implied": 0.4808,
    "k": 40.0,
    "line": 4.5,
    "opp": "LAC",
@@ -27755,7 +27826,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Sandro Mamukelashvili under 4.5 reb (@ LAC): p=0.587 (raw 0.603) vs DraftKings implied 0.467 EV +0.256 @ DraftKings | career 145/238, season 3/4, last5 4/5, last10 7/10, vs LAC 7/9, away 71/121, month 10 past seasons 9/11, rest b2b 17/37"
+   "text": "[research] Sandro Mamukelashvili under 4.5 reb (@ LAC): p=0.587 (raw 0.603) vs DraftKings implied 0.481 EV +0.221 @ DraftKings | career 145/238, season 3/4, last5 4/5, last10 7/10, vs LAC 7/9, away 71/121, month 10 past seasons 9/11, rest b2b 17/37"
   },
   {
    "book": "DraftKings",
@@ -28125,7 +28196,7 @@
    "opp": "LAL",
    "player": "Darius Garland",
    "player_id": "4396907",
-   "price_observed_at": "2026-10-29T01:49:36Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.3472,
    "prob_raw": 0.3028,
    "side": "over",
@@ -28196,7 +28267,7 @@
    "opp": "LAL",
    "player": "Darius Garland",
    "player_id": "4396907",
-   "price_observed_at": "2026-10-29T01:49:36Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.6634,
    "prob_raw": 0.6972,
    "side": "under",
@@ -28825,17 +28896,17 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.3377,
+   "ev": -0.3414,
    "fair": null,
    "game_id": "401909892",
    "home": false,
-   "implied": 0.5587,
+   "implied": 0.5618,
    "k": 40.0,
    "line": 13.5,
    "opp": "LAC",
    "player": "Quentin Grimes",
    "player_id": "4397014",
-   "price_observed_at": "2026-10-29T01:17:38Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.37,
    "prob_raw": 0.3301,
    "side": "over",
@@ -28891,22 +28962,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Quentin Grimes over 13.5 pts (@ LAC): p=0.370 (raw 0.330) vs DraftKings implied 0.559 EV -0.338 @ DraftKings | career 101/297, season 0/4, last5 0/5, last10 0/10, vs LAC 3/9, away 57/151, month 10 past seasons 4/14, rest b2b 17/45"
+   "text": "[research] Quentin Grimes over 13.5 pts (@ LAC): p=0.370 (raw 0.330) vs DraftKings implied 0.562 EV -0.341 @ DraftKings | career 101/297, season 0/4, last5 0/5, last10 0/10, vs LAC 3/9, away 57/151, month 10 past seasons 4/14, rest b2b 17/45"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.1472,
+   "ev": 0.1408,
    "fair": null,
    "game_id": "401909892",
    "home": false,
-   "implied": 0.5587,
+   "implied": 0.5618,
    "k": 40.0,
    "line": 13.5,
    "opp": "LAC",
    "player": "Quentin Grimes",
    "player_id": "4397014",
-   "price_observed_at": "2026-10-29T01:17:38Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.6409,
    "prob_raw": 0.6699,
    "side": "under",
@@ -28962,22 +29033,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Quentin Grimes under 13.5 pts (@ LAC): p=0.641 (raw 0.670) vs DraftKings implied 0.559 EV +0.147 @ DraftKings | career 196/297, season 4/4, last5 5/5, last10 10/10, vs LAC 6/9, away 94/151, month 10 past seasons 10/14, rest b2b 28/45"
+   "text": "[research] Quentin Grimes under 13.5 pts (@ LAC): p=0.641 (raw 0.670) vs DraftKings implied 0.562 EV +0.141 @ DraftKings | career 196/297, season 4/4, last5 5/5, last10 10/10, vs LAC 6/9, away 94/151, month 10 past seasons 10/14, rest b2b 28/45"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.2907,
+   "ev": -0.282,
    "fair": null,
    "game_id": "401909892",
    "home": false,
-   "implied": 0.6173,
+   "implied": 0.6098,
    "k": 40.0,
    "line": 3.5,
    "opp": "LAC",
    "player": "Quentin Grimes",
    "player_id": "4397014",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.4378,
    "prob_raw": 0.4138,
    "side": "over",
@@ -29033,22 +29104,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Quentin Grimes over 3.5 reb (@ LAC): p=0.438 (raw 0.414) vs DraftKings implied 0.617 EV -0.291 @ DraftKings | career 123/297, season 2/4, last5 2/5, last10 3/10, vs LAC 4/9, away 61/151, month 10 past seasons 3/14, rest b2b 21/45"
+   "text": "[research] Quentin Grimes over 3.5 reb (@ LAC): p=0.438 (raw 0.414) vs DraftKings implied 0.610 EV -0.282 @ DraftKings | career 123/297, season 2/4, last5 2/5, last10 3/10, vs LAC 4/9, away 61/151, month 10 past seasons 3/14, rest b2b 21/45"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.0706,
+   "ev": -0.0591,
    "fair": null,
    "game_id": "401909892",
    "home": false,
-   "implied": 0.6173,
+   "implied": 0.6098,
    "k": 40.0,
    "line": 3.5,
    "opp": "LAC",
    "player": "Quentin Grimes",
    "player_id": "4397014",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.5737,
    "prob_raw": 0.5862,
    "side": "under",
@@ -29104,7 +29175,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Quentin Grimes under 3.5 reb (@ LAC): p=0.574 (raw 0.586) vs DraftKings implied 0.617 EV -0.071 @ DraftKings | career 174/297, season 2/4, last5 3/5, last10 7/10, vs LAC 5/9, away 90/151, month 10 past seasons 11/14, rest b2b 24/45"
+   "text": "[research] Quentin Grimes under 3.5 reb (@ LAC): p=0.574 (raw 0.586) vs DraftKings implied 0.610 EV -0.059 @ DraftKings | career 174/297, season 2/4, last5 3/5, last10 7/10, vs LAC 5/9, away 90/151, month 10 past seasons 11/14, rest b2b 24/45"
   },
   {
    "book": "DraftKings",
@@ -29322,11 +29393,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.1684,
-   "fair": null,
+   "ev": 0.3177,
+   "fair": 0.4644,
    "game_id": "401909892",
    "home": true,
-   "implied": 0.5556,
+   "implied": 0.4926,
    "k": 40.0,
    "line": 9.5,
    "opp": "LAL",
@@ -29388,7 +29459,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Isaiah Jackson under 9.5 pts (vs LAL): p=0.649 (raw 0.680) vs DraftKings implied 0.556 EV +0.168 @ DraftKings | career 137/200, season 1/3, last5 2/5, last10 3/10, vs LAL 5/6, home 66/96, month 10 past seasons 14/18, rest 2+ days 46/62"
+   "text": "[research] Isaiah Jackson under 9.5 pts (vs LAL): p=0.649 (raw 0.680) vs DraftKings implied 0.493 EV +0.318 @ DraftKings | career 137/200, season 1/3, last5 2/5, last10 3/10, vs LAL 5/6, home 66/96, month 10 past seasons 14/18, rest 2+ days 46/62"
   },
   {
    "book": "DraftKings",
@@ -29403,7 +29474,7 @@
    "opp": "LAL",
    "player": "Isaiah Jackson",
    "player_id": "4432170",
-   "price_observed_at": "2026-10-29T01:49:36Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.7492,
    "prob_raw": 0.7963,
    "side": "under",
@@ -30600,11 +30671,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.2059,
+   "ev": -0.1914,
    "fair": null,
    "game_id": "401909892",
    "home": false,
-   "implied": 0.6098,
+   "implied": 0.5988,
    "k": 40.0,
    "line": 3.5,
    "opp": "LAC",
@@ -30666,16 +30737,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Jake LaRavia over 3.5 reb (@ LAC): p=0.484 (raw 0.472) vs DraftKings implied 0.610 EV -0.206 @ DraftKings | career 106/229, season 1/3, last5 1/5, last10 2/10, vs LAC 5/9, away 57/113, month 10 past seasons 12/21, rest b2b 15/31"
+   "text": "[research] Jake LaRavia over 3.5 reb (@ LAC): p=0.484 (raw 0.472) vs DraftKings implied 0.599 EV -0.191 @ DraftKings | career 106/229, season 1/3, last5 1/5, last10 2/10, vs LAC 5/9, away 57/113, month 10 past seasons 12/21, rest b2b 15/31"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.1349,
+   "ev": -0.119,
    "fair": null,
    "game_id": "401909892",
    "home": false,
-   "implied": 0.6098,
+   "implied": 0.5988,
    "k": 40.0,
    "line": 3.5,
    "opp": "LAC",
@@ -30737,7 +30808,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Jake LaRavia under 3.5 reb (@ LAC): p=0.527 (raw 0.528) vs DraftKings implied 0.610 EV -0.135 @ DraftKings | career 123/229, season 2/3, last5 4/5, last10 8/10, vs LAC 4/9, away 56/113, month 10 past seasons 9/21, rest b2b 16/31"
+   "text": "[research] Jake LaRavia under 3.5 reb (@ LAC): p=0.527 (raw 0.528) vs DraftKings implied 0.599 EV -0.119 @ DraftKings | career 123/229, season 2/3, last5 4/5, last10 8/10, vs LAC 4/9, away 56/113, month 10 past seasons 9/21, rest b2b 16/31"
   },
   {
    "book": "DraftKings",
@@ -30884,11 +30955,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.5906,
+   "ev": -0.586,
    "fair": null,
    "game_id": "401909892",
    "home": true,
-   "implied": 0.5556,
+   "implied": 0.5495,
    "k": 40.0,
    "line": 11.5,
    "opp": "LAL",
@@ -30950,16 +31021,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Kobe Sanders over 11.5 pts (vs LAL): p=0.228 (raw 0.170) vs DraftKings implied 0.556 EV -0.591 @ DraftKings | career 11/72, season 1/3, last5 1/5, last10 3/10, vs LAL 0/4, home 5/34, month 10 past seasons 0/2, rest 2+ days 3/20"
+   "text": "[research] Kobe Sanders over 11.5 pts (vs LAL): p=0.228 (raw 0.170) vs DraftKings implied 0.549 EV -0.586 @ DraftKings | career 11/72, season 1/3, last5 1/5, last10 3/10, vs LAL 0/4, home 5/34, month 10 past seasons 0/2, rest 2+ days 3/20"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.4052,
+   "ev": 0.4209,
    "fair": null,
    "game_id": "401909892",
    "home": true,
-   "implied": 0.5556,
+   "implied": 0.5495,
    "k": 40.0,
    "line": 11.5,
    "opp": "LAL",
@@ -31021,7 +31092,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Kobe Sanders under 11.5 pts (vs LAL): p=0.781 (raw 0.830) vs DraftKings implied 0.556 EV +0.405 @ DraftKings | career 61/72, season 2/3, last5 4/5, last10 7/10, vs LAL 4/4, home 29/34, month 10 past seasons 2/2, rest 2+ days 17/20"
+   "text": "[research] Kobe Sanders under 11.5 pts (vs LAL): p=0.781 (raw 0.830) vs DraftKings implied 0.549 EV +0.421 @ DraftKings | career 61/72, season 2/3, last5 4/5, last10 7/10, vs LAL 4/4, home 29/34, month 10 past seasons 2/2, rest 2+ days 17/20"
   },
   {
    "book": "DraftKings",
@@ -31523,17 +31594,17 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.0126,
+   "ev": 0.0303,
    "fair": null,
    "game_id": "401909892",
    "home": true,
-   "implied": 0.5814,
+   "implied": 0.5714,
    "k": 40.0,
    "line": 3.5,
    "opp": "LAL",
    "player": "Keaton Wagler",
    "player_id": "5254165",
-   "price_observed_at": "2026-10-29T01:49:36Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.5887,
    "prob_raw": 0.6051,
    "side": "over",
@@ -31577,22 +31648,22 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Keaton Wagler over 3.5 ast (vs LAL): p=0.589 (raw 0.605) vs DraftKings implied 0.581 EV +0.013 @ DraftKings | career 2/3, season 2/3, last5 2/3, last10 2/3, vs LAL 0/1, home 1/1"
+   "text": "[research] Keaton Wagler over 3.5 ast (vs LAL): p=0.589 (raw 0.605) vs DraftKings implied 0.571 EV +0.030 @ DraftKings | career 2/3, season 2/3, last5 2/3, last10 2/3, vs LAL 0/1, home 1/1"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.273,
+   "ev": -0.2603,
    "fair": null,
    "game_id": "401909892",
    "home": true,
-   "implied": 0.5814,
+   "implied": 0.5714,
    "k": 40.0,
    "line": 3.5,
    "opp": "LAL",
    "player": "Keaton Wagler",
    "player_id": "5254165",
-   "price_observed_at": "2026-10-29T01:49:36Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.4227,
    "prob_raw": 0.3949,
    "side": "under",
@@ -31636,7 +31707,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Keaton Wagler under 3.5 ast (vs LAL): p=0.423 (raw 0.395) vs DraftKings implied 0.581 EV -0.273 @ DraftKings | career 1/3, season 1/3, last5 1/3, last10 1/3, vs LAL 1/1, home 0/1"
+   "text": "[research] Keaton Wagler under 3.5 ast (vs LAL): p=0.423 (raw 0.395) vs DraftKings implied 0.571 EV -0.260 @ DraftKings | career 1/3, season 1/3, last5 1/3, last10 1/3, vs LAL 1/1, home 0/1"
   },
   {
    "book": "DraftKings",
@@ -31828,7 +31899,7 @@
    "opp": "LAL",
    "player": "Keaton Wagler",
    "player_id": "5254165",
-   "price_observed_at": "2026-10-29T01:49:36Z",
+   "price_observed_at": "2026-10-29T01:54:34Z",
    "prob": 0.4227,
    "prob_raw": 0.3949,
    "side": "under",
@@ -31877,37 +31948,37 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.1593,
-   "fair": 0.6152,
+   "ev": 0.3789,
+   "fair": null,
    "game_id": "401909892",
    "home": false,
-   "implied": 0.6579,
+   "implied": 0.5525,
    "k": 40.0,
-   "line": 2.5,
+   "line": 14.5,
    "opp": "LAC",
-   "player": "Collin Sexton",
-   "player_id": "4277811",
-   "price_observed_at": "2026-10-29T01:49:36Z",
-   "prob": 0.5531,
-   "prob_raw": 0.5601,
+   "player": "Walker Kessler",
+   "player_id": "4433136",
+   "price_observed_at": "2026-10-29T01:54:34Z",
+   "prob": 0.7618,
+   "prob_raw": 0.8101,
    "side": "under",
    "splits": [
     {
-     "hits": 141,
-     "n": 260,
-     "rate": 0.542,
+     "hits": 171,
+     "n": 205,
+     "rate": 0.834,
      "split": "career"
     },
     {
-     "hits": 3,
-     "n": 3,
-     "rate": 1.0,
+     "hits": 2,
+     "n": 4,
+     "rate": 0.5,
      "split": "season"
     },
     {
-     "hits": 4,
+     "hits": 3,
      "n": 5,
-     "rate": 0.8,
+     "rate": 0.6,
      "split": "last5"
     },
     {
@@ -31917,36 +31988,36 @@
      "split": "last10"
     },
     {
-     "hits": 5,
-     "n": 11,
-     "rate": 0.455,
+     "hits": 7,
+     "n": 9,
+     "rate": 0.778,
      "split": "vs LAC"
     },
     {
-     "hits": 65,
-     "n": 129,
-     "rate": 0.504,
+     "hits": 82,
+     "n": 98,
+     "rate": 0.837,
      "split": "away"
     },
     {
      "hits": 14,
-     "n": 22,
-     "rate": 0.636,
+     "n": 19,
+     "rate": 0.737,
      "split": "month 10 past seasons"
     },
     {
-     "hits": 26,
-     "n": 43,
-     "rate": 0.605,
+     "hits": 27,
+     "n": 30,
+     "rate": 0.9,
      "split": "rest b2b"
     }
    ],
-   "stat": "reb",
+   "stat": "pts",
    "status": "research",
-   "text": "[research] Collin Sexton under 2.5 reb (@ LAC): p=0.553 (raw 0.560) vs DraftKings implied 0.658 EV -0.159 @ DraftKings | career 141/260, season 3/3, last5 4/5, last10 5/10, vs LAC 5/11, away 65/129, month 10 past seasons 14/22, rest b2b 26/43"
+   "text": "[research] Walker Kessler under 14.5 pts (@ LAC): p=0.762 (raw 0.810) vs DraftKings implied 0.552 EV +0.379 @ DraftKings | career 171/205, season 2/4, last5 3/5, last10 5/10, vs LAC 7/9, away 82/98, month 10 past seasons 14/19, rest b2b 27/30"
   }
  ],
- "run_id": "run-2026-10-29T01:49:36Z",
+ "run_id": "run-2026-10-29T01:54:34Z",
  "slate": "2026-10-28",
  "status": "research/watchlist only"
 }
