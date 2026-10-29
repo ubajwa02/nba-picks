@@ -42,7 +42,7 @@ Brier: model 0.1497 vs market-implied 0.1472 (n=9540; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 29-14-0, +6.77u, pending 0.
+Record 29-14-0, +6.77u, pending 6.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -89,6 +89,12 @@ Record 29-14-0, +6.77u, pending 0.
 | 2026-10-28 | Evan Mobley u1.5 fg3m | -182 | 5 | loss | -1.00 |
 | 2026-10-28 | Zion Williamson u3.5 ast | -156 | 2 | win | +0.64 |
 | 2026-10-28 | Jeremiah Fears o2.5 reb | -172 | 4 | win | +0.58 |
+| 2026-10-29 | CJ McCollum u2.5 fg3m | -189 | None | pending | +0.00 |
+| 2026-10-29 | Luguentz Dort u3.5 reb | -161 | None | pending | +0.00 |
+| 2026-10-29 | Jaylen Wells o2.5 reb | -172 | None | pending | +0.00 |
+| 2026-10-29 | Zion Williamson o4.5 reb | -159 | None | pending | +0.00 |
+| 2026-10-29 | Jeremiah Fears o2.5 reb | -167 | None | pending | +0.00 |
+| 2026-10-29 | Ja Morant o5.5 ast | -154 | None | pending | +0.00 |
 
 ## Rows
 

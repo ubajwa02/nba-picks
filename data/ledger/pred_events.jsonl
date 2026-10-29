@@ -19135,3 +19135,14 @@
 {"at": "2026-10-29T10:14:23Z", "data": {"stake": 1.0}, "event_id": "2c334fce467b4657", "net_units": -1.0, "pred_id": "19bf1a651391864e", "result": "loss", "type": "settled"}
 {"at": "2026-10-29T10:14:23Z", "data": {"stake": 1.0}, "event_id": "141c51a8d9369eea", "net_units": -1.0, "pred_id": "40deeeb59c00c533", "result": "loss", "type": "settled"}
 {"at": "2026-10-29T10:14:23Z", "data": {"stake": 1.0}, "event_id": "9b3ab23fe761dd8f", "net_units": 2.6605504587155964, "pred_id": "7c9cfa97519a09a8", "result": "win", "type": "settled"}
+{"at": "2026-10-29T21:14:00Z", "data": {"paper_record": true}, "event_id": "e65469f65789c203", "pred_id": "7244151295f34cc5", "type": "note"}
+{"at": "2026-10-29T21:14:00Z", "data": {"paper_record": true}, "event_id": "5dd2b51e2747aea9", "pred_id": "2ad24876bb5c3f66", "type": "note"}
+{"at": "2026-10-29T21:14:00Z", "data": {"paper_record": true}, "event_id": "c9651aae7198e754", "pred_id": "074c3a8294f99c37", "type": "note"}
+{"at": "2026-10-29T21:14:00Z", "data": {"paper_record": true}, "event_id": "937280f7d81fc2d9", "pred_id": "384c202ecaf995b9", "type": "note"}
+{"at": "2026-10-29T21:14:00Z", "data": {"paper_record": true}, "event_id": "9ff4532cb58ddd40", "pred_id": "f61712a2bd929b1f", "type": "note"}
+{"at": "2026-10-29T21:14:00Z", "data": {"paper_record": true}, "event_id": "7b63b5aa7ed3bc5e", "pred_id": "a100f91ab4a9319d", "type": "note"}
+{"at": "2026-10-29T21:14:00Z", "data": {"paper_record": true}, "event_id": "1ae16a61e2037e27", "pred_id": "fc32adcaf91fa37d", "type": "note"}
+{"at": "2026-10-29T21:14:00Z", "data": {"paper_record": true}, "event_id": "81c9bf6a50a96841", "pred_id": "b6ef6599134b9751", "type": "note"}
+{"at": "2026-10-29T21:14:00Z", "data": {"paper_record": true}, "event_id": "ce0bdcec19bbed0e", "pred_id": "7d5aa5d62096d17c", "type": "note"}
+{"at": "2026-10-29T21:14:00Z", "data": {"paper_record": true}, "event_id": "05199af5a6bd4286", "pred_id": "b397e07a4cd00cb6", "type": "note"}
+{"at": "2026-10-29T21:14:00Z", "data": {"paper_record": true}, "event_id": "d447e9ff6242a953", "pred_id": "026a9a27abbda312", "type": "note"}
