@@ -2,11 +2,19 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 25-12 on 37 graded posted picks, +6.48u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 19-9 (+4.34u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 13-6 (+5.17u); gap<5pts 9-5 (-0.14u); gap>=15pts 3-1 (+1.44u).
+- 26-14 on 40 graded posted picks, +5.01u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 20-11 (+2.87u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 13-6 (+5.17u); gap<5pts 10-7 (-1.61u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 3-0 (+1.51u); moved toward us 4-2 (+1.68u).
-- Wider settled predictions (n=5376): model Brier 0.1479 vs book 0.1471 (lower is better).
+- Wider settled predictions (n=6306): model Brier 0.1489 vs book 0.1482 (lower is better).
+
+## 2026-10-28
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Evan Mobley u1.5 fg3m | loss | -1.00 | 0.644 | 0.645 | -0.00 |  | career 244/307, season 1/3, last10 5/10 |
+| Dennis Schroder u1.5 fg3m | loss | -1.00 | 0.659 | 0.636 | +0.04 |  | career 213/331, season 3/4, last10 8/10 |
+| Alex Sarr o1.5 ast | win | +0.53 | 0.683 | 0.654 | +0.04 |  | career 83/119, season 3/4, last10 6/10 |
 
 ## 2026-10-27
 
