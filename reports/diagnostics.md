@@ -1,4 +1,4 @@
-# Live diagnostics (2026-10-29T11:01:37Z)
+# Live diagnostics (2026-10-29T13:47:34Z)
 
 - **ml**: 134 settled, calibration error 0.170, log loss 0.6635 (market 0.5652), Brier drift +0.0052
 - **spread**: 137 settled, calibration error 0.188, log loss 0.7468 (market 0.6917), Brier drift +0.0718
