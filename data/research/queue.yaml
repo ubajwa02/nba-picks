@@ -1,23 +1,22 @@
-updated: '2026-10-28T18:35:22Z'
+updated: '2026-10-29T10:14:23Z'
 queue:
 - kind: overconfident
   market: ml
-  evidence: 71% of populated bins are more extreme than outcomes
+  evidence: live log loss is worse than the de-vigged market
   variant: blend toward market / wider sigma
   hypothesis: A model weight below the current blend or a larger sigma fixes overconfidence
     seen live.
-  added: '2026-10-28T18:35:22Z'
+  added: '2026-10-29T10:14:23Z'
 - kind: slow_adapt
-  market: total
-  evidence: Brier worsened by 0.080 between halves
+  market: spread
+  evidence: Brier worsened by 0.072 between halves
   variant: hl30
   hypothesis: Early-season errors are large; faster decay adapts sooner.
-  added: '2026-10-28T18:35:22Z'
-- kind: totals_bias
-  market: total
-  evidence: overs hit +9.3% vs predicted
-  variant: trend
-  hypothesis: 'Scoring drift: totals are biased; a time trend in the points model
-    removes it.'
-  added: '2026-10-28T18:35:22Z'
-probation: []
+  added: '2026-10-29T10:14:23Z'
+probation:
+- market: ml
+  reason: calibration error 0.170
+- market: spread
+  reason: calibration error 0.188
+- market: total
+  reason: calibration error 0.061
