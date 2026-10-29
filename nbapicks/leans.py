@@ -6,12 +6,13 @@ Rule, fixed here and in config/nbapicks.yaml `leans:` and never tuned on results
           side-unverified flag; probability >= `min_prob`; one per player, `per_game` per game; the
           `max_leans` most likely. Posted once per slate. Nothing is posted when a critical source is
           failing, the injury report is stale, or the global pause is on.
-  parlays 2..`max_legs` leans from different games (independent product), priced below the lotto
-          threshold, model EV >= the parlay min_ev, no lean reused across parlays; most likely first,
-          up to targets.parlay.
-  lotto   3..`max_legs` leans from different games priced at >= min_decimal with model EV >= its min_ev;
-          the single most likely one.
-Fewer than the ceiling is normal: each ceiling is a maximum, and the reason for any shortfall is stored.
+  parlays always targets.parlay two-leg tickets from the wider clean pool (`pick_leans(pool=True)`), legs
+          in different games (independent product), the highest joint win chance first; a leg is reused
+          only when the pool is too small. No EV floor: the model EV is stored and shown, even when negative.
+  lotto   always targets.lotto ticket of 3..`max_legs` legs from different games, the most likely one
+          priced at >= markets.lotto.min_decimal, or the largest payout available (with a note) when none is.
+          markets.parlay/lotto min_ev do not apply to these tickets (owner rule 2026-10-27, research only).
+Leans may number fewer than `max_leans`; the reason for any shortfall is stored.
 """
 from __future__ import annotations
 
