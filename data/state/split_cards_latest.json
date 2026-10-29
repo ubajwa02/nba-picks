@@ -3,6 +3,183 @@
   {
    "book": "bet365",
    "date": "2026-10-28",
+   "ev": 0.1357,
+   "fair": null,
+   "game_id": "401909891",
+   "home": false,
+   "implied": 0.1818,
+   "k": 40.0,
+   "line": 2.5,
+   "opp": "DAL",
+   "player": "Aday Mara",
+   "player_id": "5174983",
+   "price_observed_at": "2026-10-29T01:01:36Z",
+   "prob": 0.2065,
+   "prob_raw": 0.1487,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "away"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "ast",
+   "status": "research",
+   "text": "[research] Aday Mara over 2.5 ast (@ DAL): p=0.206 (raw 0.149) vs bet365 implied 0.182 EV +0.136 @ bet365 | career 0/4, season 0/4, last5 0/4, last10 0/4, away 0/1, rest 1 day 0/1"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
+   "ev": 2.9232,
+   "fair": null,
+   "game_id": "401909891",
+   "home": false,
+   "implied": 0.0526,
+   "k": 40.0,
+   "line": 4.5,
+   "opp": "DAL",
+   "player": "Aday Mara",
+   "player_id": "5174983",
+   "price_observed_at": "2026-10-29T01:01:36Z",
+   "prob": 0.2065,
+   "prob_raw": 0.1487,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "away"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "ast",
+   "status": "research",
+   "text": "[research] Aday Mara over 4.5 ast (@ DAL): p=0.206 (raw 0.149) vs bet365 implied 0.053 EV +2.923 @ bet365 | career 0/4, season 0/4, last5 0/4, last10 0/4, away 0/1, rest 1 day 0/1"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
+   "ev": 6.4335,
+   "fair": null,
+   "game_id": "401909891",
+   "home": false,
+   "implied": 0.0278,
+   "k": 40.0,
+   "line": 6.5,
+   "opp": "DAL",
+   "player": "Aday Mara",
+   "player_id": "5174983",
+   "price_observed_at": "2026-10-29T01:01:36Z",
+   "prob": 0.2065,
+   "prob_raw": 0.1487,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "away"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "ast",
+   "status": "research",
+   "text": "[research] Aday Mara over 6.5 ast (@ DAL): p=0.206 (raw 0.149) vs bet365 implied 0.028 EV +6.434 @ bet365 | career 0/4, season 0/4, last5 0/4, last10 0/4, away 0/1, rest 1 day 0/1"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
    "ev": 0.0841,
    "fair": null,
    "game_id": "401909891",
@@ -176,6 +353,301 @@
    "stat": "fg3m",
    "status": "research",
    "text": "[research] Aday Mara over 2.5 fg3m (@ DAL): p=0.206 (raw 0.149) vs bet365 implied 0.028 EV +6.434 @ bet365 | career 0/4, season 0/4, last5 0/4, last10 0/4, away 0/1, rest 1 day 0/1"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
+   "ev": 0.2389,
+   "fair": null,
+   "game_id": "401909891",
+   "home": false,
+   "implied": 0.1667,
+   "k": 40.0,
+   "line": 14.5,
+   "opp": "DAL",
+   "player": "Aday Mara",
+   "player_id": "5174983",
+   "price_observed_at": "2026-10-29T01:01:36Z",
+   "prob": 0.2065,
+   "prob_raw": 0.1487,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "away"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Aday Mara over 14.5 pts (@ DAL): p=0.206 (raw 0.149) vs bet365 implied 0.167 EV +0.239 @ bet365 | career 0/4, season 0/4, last5 0/4, last10 0/4, away 0/1, rest 1 day 0/1"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
+   "ev": 2.3038,
+   "fair": null,
+   "game_id": "401909891",
+   "home": false,
+   "implied": 0.0625,
+   "k": 40.0,
+   "line": 19.5,
+   "opp": "DAL",
+   "player": "Aday Mara",
+   "player_id": "5174983",
+   "price_observed_at": "2026-10-29T01:01:36Z",
+   "prob": 0.2065,
+   "prob_raw": 0.1487,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "away"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Aday Mara over 19.5 pts (@ DAL): p=0.206 (raw 0.149) vs bet365 implied 0.062 EV +2.304 @ bet365 | career 0/4, season 0/4, last5 0/4, last10 0/4, away 0/1, rest 1 day 0/1"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
+   "ev": 6.4335,
+   "fair": null,
+   "game_id": "401909891",
+   "home": false,
+   "implied": 0.0278,
+   "k": 40.0,
+   "line": 24.5,
+   "opp": "DAL",
+   "player": "Aday Mara",
+   "player_id": "5174983",
+   "price_observed_at": "2026-10-29T01:01:36Z",
+   "prob": 0.2065,
+   "prob_raw": 0.1487,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "away"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Aday Mara over 24.5 pts (@ DAL): p=0.206 (raw 0.149) vs bet365 implied 0.028 EV +6.434 @ bet365 | career 0/4, season 0/4, last5 0/4, last10 0/4, away 0/1, rest 1 day 0/1"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
+   "ev": -0.4021,
+   "fair": null,
+   "game_id": "401909891",
+   "home": false,
+   "implied": 0.8462,
+   "k": 40.0,
+   "line": 4.5,
+   "opp": "DAL",
+   "player": "Aday Mara",
+   "player_id": "5174983",
+   "price_observed_at": "2026-10-29T01:01:36Z",
+   "prob": 0.5059,
+   "prob_raw": 0.5,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 2,
+     "n": 4,
+     "rate": 0.5,
+     "split": "career"
+    },
+    {
+     "hits": 2,
+     "n": 4,
+     "rate": 0.5,
+     "split": "season"
+    },
+    {
+     "hits": 2,
+     "n": 4,
+     "rate": 0.5,
+     "split": "last5"
+    },
+    {
+     "hits": 2,
+     "n": 4,
+     "rate": 0.5,
+     "split": "last10"
+    },
+    {
+     "hits": 1,
+     "n": 1,
+     "rate": 1.0,
+     "split": "away"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Aday Mara over 4.5 pts (@ DAL): p=0.506 (raw 0.500) vs bet365 implied 0.846 EV -0.402 @ bet365 | career 2/4, season 2/4, last5 2/4, last10 2/4, away 1/1, rest 1 day 0/1"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
+   "ev": -0.2152,
+   "fair": null,
+   "game_id": "401909891",
+   "home": false,
+   "implied": 0.4651,
+   "k": 40.0,
+   "line": 9.5,
+   "opp": "DAL",
+   "player": "Aday Mara",
+   "player_id": "5174983",
+   "price_observed_at": "2026-10-29T01:01:36Z",
+   "prob": 0.365,
+   "prob_raw": 0.3241,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 1,
+     "n": 4,
+     "rate": 0.25,
+     "split": "career"
+    },
+    {
+     "hits": 1,
+     "n": 4,
+     "rate": 0.25,
+     "split": "season"
+    },
+    {
+     "hits": 1,
+     "n": 4,
+     "rate": 0.25,
+     "split": "last5"
+    },
+    {
+     "hits": 1,
+     "n": 4,
+     "rate": 0.25,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "away"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Aday Mara over 9.5 pts (@ DAL): p=0.365 (raw 0.324) vs bet365 implied 0.465 EV -0.215 @ bet365 | career 1/4, season 1/4, last5 1/4, last10 1/4, away 0/1, rest 1 day 0/1"
   },
   {
    "book": "bet365",
@@ -16377,7 +16849,7 @@
    "opp": "DAL",
    "player": "Kenrich Williams",
    "player_id": "3133626",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.7551,
    "prob_raw": 0.8029,
    "side": "under",
@@ -16448,7 +16920,7 @@
    "opp": "DAL",
    "player": "Kenrich Williams",
    "player_id": "3133626",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.3565,
    "prob_raw": 0.3139,
    "side": "over",
@@ -16519,7 +16991,7 @@
    "opp": "DAL",
    "player": "Kenrich Williams",
    "player_id": "3133626",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6542,
    "prob_raw": 0.6861,
    "side": "under",
@@ -16793,17 +17265,17 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.5644,
+   "ev": -0.5618,
    "fair": null,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.6061,
+   "implied": 0.6024,
    "k": 40.0,
    "line": 5.5,
    "opp": "DAL",
    "player": "Kenrich Williams",
    "player_id": "3133626",
-   "price_observed_at": "2026-10-29T01:01:10Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.264,
    "prob_raw": 0.2082,
    "side": "over",
@@ -16859,22 +17331,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Kenrich Williams over 5.5 reb (@ DAL): p=0.264 (raw 0.208) vs DraftKings implied 0.606 EV -0.564 @ DraftKings | career 57/285, season 1/4, last5 1/5, last10 2/10, vs DAL 5/15, away 27/140, month 10 past seasons 3/6, rest 1 day 32/156"
+   "text": "[research] Kenrich Williams over 5.5 reb (@ DAL): p=0.264 (raw 0.208) vs DraftKings implied 0.602 EV -0.562 @ DraftKings | career 57/285, season 1/4, last5 1/5, last10 2/10, vs DAL 5/15, away 27/140, month 10 past seasons 3/6, rest 1 day 32/156"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.2293,
+   "ev": 0.2367,
    "fair": null,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.6061,
+   "implied": 0.6024,
    "k": 40.0,
    "line": 5.5,
    "opp": "DAL",
    "player": "Kenrich Williams",
    "player_id": "3133626",
-   "price_observed_at": "2026-10-29T01:01:10Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.745,
    "prob_raw": 0.7918,
    "side": "under",
@@ -16930,22 +17402,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Kenrich Williams under 5.5 reb (@ DAL): p=0.745 (raw 0.792) vs DraftKings implied 0.606 EV +0.229 @ DraftKings | career 228/285, season 3/4, last5 4/5, last10 8/10, vs DAL 10/15, away 113/140, month 10 past seasons 3/6, rest 1 day 124/156"
+   "text": "[research] Kenrich Williams under 5.5 reb (@ DAL): p=0.745 (raw 0.792) vs DraftKings implied 0.602 EV +0.237 @ DraftKings | career 228/285, season 3/4, last5 4/5, last10 8/10, vs DAL 10/15, away 113/140, month 10 past seasons 3/6, rest 1 day 124/156"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.4111,
+   "ev": -0.4212,
    "fair": null,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.5747,
+   "implied": 0.5848,
    "k": 40.0,
    "line": 10.5,
    "opp": "DAL",
    "player": "Isaiah Hartenstein",
    "player_id": "4222252",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.3385,
    "prob_raw": 0.2925,
    "side": "over",
@@ -17001,22 +17473,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Isaiah Hartenstein over 10.5 pts (@ DAL): p=0.339 (raw 0.292) vs DraftKings implied 0.575 EV -0.411 @ DraftKings | career 90/327, season 2/4, last5 2/5, last10 4/10, vs DAL 1/7, away 48/163, month 10 past seasons 6/16, rest 1 day 54/198"
+   "text": "[research] Isaiah Hartenstein over 10.5 pts (@ DAL): p=0.339 (raw 0.292) vs DraftKings implied 0.585 EV -0.421 @ DraftKings | career 90/327, season 2/4, last5 2/5, last10 4/10, vs DAL 1/7, away 48/163, month 10 past seasons 6/16, rest 1 day 54/198"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.1692,
+   "ev": 0.1491,
    "fair": null,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.5747,
+   "implied": 0.5848,
    "k": 40.0,
    "line": 10.5,
    "opp": "DAL",
    "player": "Isaiah Hartenstein",
    "player_id": "4222252",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.672,
    "prob_raw": 0.7075,
    "side": "under",
@@ -17072,7 +17544,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Isaiah Hartenstein under 10.5 pts (@ DAL): p=0.672 (raw 0.708) vs DraftKings implied 0.575 EV +0.169 @ DraftKings | career 237/327, season 2/4, last5 3/5, last10 6/10, vs DAL 6/7, away 115/163, month 10 past seasons 10/16, rest 1 day 144/198"
+   "text": "[research] Isaiah Hartenstein under 10.5 pts (@ DAL): p=0.672 (raw 0.708) vs DraftKings implied 0.585 EV +0.149 @ DraftKings | career 237/327, season 2/4, last5 3/5, last10 6/10, vs DAL 6/7, away 115/163, month 10 past seasons 10/16, rest 1 day 144/198"
   },
   {
    "book": "DraftKings",
@@ -17290,17 +17762,17 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.2703,
-   "fair": 0.4628,
+   "ev": 0.2892,
+   "fair": 0.4548,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.495,
+   "implied": 0.4878,
    "k": 40.0,
    "line": 9.5,
    "opp": "DAL",
    "player": "Isaiah Hartenstein",
    "player_id": "4222252",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6289,
    "prob_raw": 0.6551,
    "side": "under",
@@ -17356,22 +17828,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Isaiah Hartenstein under 9.5 reb (@ DAL): p=0.629 (raw 0.655) vs DraftKings implied 0.495 EV +0.270 @ DraftKings | career 217/327, season 2/4, last5 3/5, last10 6/10, vs DAL 4/7, away 106/163, month 10 past seasons 11/16, rest 1 day 133/198"
+   "text": "[research] Isaiah Hartenstein under 9.5 reb (@ DAL): p=0.629 (raw 0.655) vs DraftKings implied 0.488 EV +0.289 @ DraftKings | career 217/327, season 2/4, last5 3/5, last10 6/10, vs DAL 4/7, away 106/163, month 10 past seasons 11/16, rest 1 day 133/198"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.046,
+   "ev": 0.0403,
    "fair": null,
    "game_id": "401909891",
    "home": true,
-   "implied": 0.5464,
+   "implied": 0.5495,
    "k": 40.0,
    "line": 8.5,
    "opp": "OKC",
    "player": "Daniel Gafford",
    "player_id": "4278049",
-   "price_observed_at": "2026-10-29T00:27:55Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.5716,
    "prob_raw": 0.5835,
    "side": "over",
@@ -17427,22 +17899,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Daniel Gafford over 8.5 pts (vs OKC): p=0.572 (raw 0.584) vs DraftKings implied 0.546 EV +0.046 @ DraftKings | career 174/292, season 1/4, last5 1/5, last10 3/10, vs OKC 12/16, home 84/141, month 10 past seasons 7/14, rest 1 day 100/163"
+   "text": "[research] Daniel Gafford over 8.5 pts (vs OKC): p=0.572 (raw 0.584) vs DraftKings implied 0.549 EV +0.040 @ DraftKings | career 174/292, season 1/4, last5 1/5, last10 3/10, vs OKC 12/16, home 84/141, month 10 past seasons 7/14, rest 1 day 100/163"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.1949,
+   "ev": -0.1992,
    "fair": null,
    "game_id": "401909891",
    "home": true,
-   "implied": 0.5464,
+   "implied": 0.5495,
    "k": 40.0,
    "line": 8.5,
    "opp": "OKC",
    "player": "Daniel Gafford",
    "player_id": "4278049",
-   "price_observed_at": "2026-10-29T00:27:55Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.44,
    "prob_raw": 0.4165,
    "side": "under",
@@ -17498,7 +17970,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Daniel Gafford under 8.5 pts (vs OKC): p=0.440 (raw 0.416) vs DraftKings implied 0.546 EV -0.195 @ DraftKings | career 118/292, season 3/4, last5 4/5, last10 7/10, vs OKC 4/16, home 57/141, month 10 past seasons 7/14, rest 1 day 63/163"
+   "text": "[research] Daniel Gafford under 8.5 pts (vs OKC): p=0.440 (raw 0.416) vs DraftKings implied 0.549 EV -0.199 @ DraftKings | career 118/292, season 3/4, last5 4/5, last10 7/10, vs OKC 4/16, home 57/141, month 10 past seasons 7/14, rest 1 day 63/163"
   },
   {
    "book": "DraftKings",
@@ -17584,7 +18056,7 @@
    "opp": "OKC",
    "player": "Daniel Gafford",
    "player_id": "4278049",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.3866,
    "prob_raw": 0.3503,
    "side": "over",
@@ -17655,7 +18127,7 @@
    "opp": "OKC",
    "player": "Daniel Gafford",
    "player_id": "4278049",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6245,
    "prob_raw": 0.6497,
    "side": "under",
@@ -17716,17 +18188,17 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.0599,
+   "ev": 0.0541,
    "fair": null,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.5464,
+   "implied": 0.5495,
    "k": 40.0,
    "line": 6.5,
    "opp": "DAL",
    "player": "Shai Gilgeous-Alexander",
    "player_id": "4278073",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.5792,
    "prob_raw": 0.5931,
    "side": "under",
@@ -17782,7 +18254,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Shai Gilgeous-Alexander under 6.5 ast (@ DAL): p=0.579 (raw 0.593) vs DraftKings implied 0.546 EV +0.060 @ DraftKings | career 191/341, season 4/4, last5 4/5, last10 5/10, vs DAL 10/19, away 97/166, month 10 past seasons 10/19, rest 1 day 122/199"
+   "text": "[research] Shai Gilgeous-Alexander under 6.5 ast (@ DAL): p=0.579 (raw 0.593) vs DraftKings implied 0.549 EV +0.054 @ DraftKings | career 191/341, season 4/4, last5 4/5, last10 5/10, vs DAL 10/19, away 97/166, month 10 past seasons 10/19, rest 1 day 122/199"
   },
   {
    "book": "DraftKings",
@@ -17797,7 +18269,7 @@
    "opp": "DAL",
    "player": "Shai Gilgeous-Alexander",
    "player_id": "4278073",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.5512,
    "prob_raw": 0.5576,
    "side": "under",
@@ -18010,7 +18482,7 @@
    "opp": "DAL",
    "player": "Shai Gilgeous-Alexander",
    "player_id": "4278073",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.467,
    "prob_raw": 0.4506,
    "side": "over",
@@ -18081,7 +18553,7 @@
    "opp": "DAL",
    "player": "Shai Gilgeous-Alexander",
    "player_id": "4278073",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.5446,
    "prob_raw": 0.5494,
    "side": "under",
@@ -18294,7 +18766,7 @@
    "opp": "DAL",
    "player": "Shai Gilgeous-Alexander",
    "player_id": "4278073",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.4883,
    "prob_raw": 0.4776,
    "side": "under",
@@ -18355,17 +18827,17 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.0251,
-   "fair": 0.4628,
+   "ev": -0.1457,
+   "fair": null,
    "game_id": "401909891",
    "home": true,
-   "implied": 0.495,
+   "implied": 0.565,
    "k": 40.0,
    "line": 1.5,
    "opp": "OKC",
    "player": "P.J. Washington",
    "player_id": "4278078",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.4826,
    "prob_raw": 0.4704,
    "side": "under",
@@ -18421,7 +18893,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] P.J. Washington under 1.5 fg3m (vs OKC): p=0.483 (raw 0.470) vs DraftKings implied 0.495 EV -0.025 @ DraftKings | career 141/287, season 1/4, last5 1/5, last10 4/10, vs OKC 3/15, home 68/135, month 10 past seasons 10/20, rest 1 day 75/157"
+   "text": "[research] P.J. Washington under 1.5 fg3m (vs OKC): p=0.483 (raw 0.470) vs DraftKings implied 0.565 EV -0.146 @ DraftKings | career 141/287, season 1/4, last5 1/5, last10 4/10, vs OKC 3/15, home 68/135, month 10 past seasons 10/20, rest 1 day 75/157"
   },
   {
    "book": "DraftKings",
@@ -18436,7 +18908,7 @@
    "opp": "OKC",
    "player": "P.J. Washington",
    "player_id": "4278078",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.5123,
    "prob_raw": 0.5082,
    "side": "over",
@@ -18507,7 +18979,7 @@
    "opp": "OKC",
    "player": "P.J. Washington",
    "player_id": "4278078",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.4994,
    "prob_raw": 0.4918,
    "side": "under",
@@ -18720,7 +19192,7 @@
    "opp": "OKC",
    "player": "P.J. Washington",
    "player_id": "4278078",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.3439,
    "prob_raw": 0.2989,
    "side": "over",
@@ -18791,7 +19263,7 @@
    "opp": "OKC",
    "player": "P.J. Washington",
    "player_id": "4278078",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6666,
    "prob_raw": 0.7011,
    "side": "under",
@@ -18852,17 +19324,17 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.2729,
-   "fair": 0.4036,
+   "ev": 0.251,
+   "fair": 0.4109,
    "game_id": "401909891",
    "home": true,
-   "implied": 0.431,
+   "implied": 0.4386,
    "k": 40.0,
    "line": 1.5,
    "opp": "OKC",
    "player": "Max Christie",
    "player_id": "4432582",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.5487,
    "prob_raw": 0.5545,
    "side": "under",
@@ -18918,7 +19390,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Max Christie under 1.5 fg3m (vs OKC): p=0.549 (raw 0.554) vs DraftKings implied 0.431 EV +0.273 @ DraftKings | career 166/277, season 2/4, last5 2/5, last10 3/10, vs OKC 4/8, home 76/135, month 10 past seasons 9/13, rest 1 day 79/157"
+   "text": "[research] Max Christie under 1.5 fg3m (vs OKC): p=0.549 (raw 0.554) vs DraftKings implied 0.439 EV +0.251 @ DraftKings | career 166/277, season 2/4, last5 2/5, last10 3/10, vs OKC 4/8, home 76/135, month 10 past seasons 9/13, rest 1 day 79/157"
   },
   {
    "book": "DraftKings",
@@ -18933,7 +19405,7 @@
    "opp": "OKC",
    "player": "Max Christie",
    "player_id": "4432582",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.3976,
    "prob_raw": 0.3638,
    "side": "over",
@@ -19004,7 +19476,7 @@
    "opp": "OKC",
    "player": "Max Christie",
    "player_id": "4432582",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6136,
    "prob_raw": 0.6362,
    "side": "under",
@@ -19065,17 +19537,17 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.3708,
+   "ev": -0.3634,
    "fair": null,
    "game_id": "401909891",
    "home": true,
-   "implied": 0.5882,
+   "implied": 0.5814,
    "k": 40.0,
    "line": 3.5,
    "opp": "OKC",
    "player": "Max Christie",
    "player_id": "4432582",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.3701,
    "prob_raw": 0.3302,
    "side": "over",
@@ -19131,22 +19603,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Max Christie over 3.5 reb (vs OKC): p=0.370 (raw 0.330) vs DraftKings implied 0.588 EV -0.371 @ DraftKings | career 89/277, season 3/4, last5 3/5, last10 5/10, vs OKC 1/8, home 40/135, month 10 past seasons 0/13, rest 1 day 54/157"
+   "text": "[research] Max Christie over 3.5 reb (vs OKC): p=0.370 (raw 0.330) vs DraftKings implied 0.581 EV -0.363 @ DraftKings | career 89/277, season 3/4, last5 3/5, last10 5/10, vs OKC 1/8, home 40/135, month 10 past seasons 0/13, rest 1 day 54/157"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.0893,
+   "ev": 0.1022,
    "fair": null,
    "game_id": "401909891",
    "home": true,
-   "implied": 0.5882,
+   "implied": 0.5814,
    "k": 40.0,
    "line": 3.5,
    "opp": "OKC",
    "player": "Max Christie",
    "player_id": "4432582",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6408,
    "prob_raw": 0.6698,
    "side": "under",
@@ -19202,22 +19674,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Max Christie under 3.5 reb (vs OKC): p=0.641 (raw 0.670) vs DraftKings implied 0.588 EV +0.089 @ DraftKings | career 188/277, season 1/4, last5 2/5, last10 5/10, vs OKC 7/8, home 95/135, month 10 past seasons 13/13, rest 1 day 103/157"
+   "text": "[research] Max Christie under 3.5 reb (vs OKC): p=0.641 (raw 0.670) vs DraftKings implied 0.581 EV +0.102 @ DraftKings | career 188/277, season 1/4, last5 2/5, last10 5/10, vs OKC 7/8, home 95/135, month 10 past seasons 13/13, rest 1 day 103/157"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.4631,
+   "ev": -0.4473,
    "fair": null,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.5882,
+   "implied": 0.5714,
    "k": 40.0,
    "line": 1.5,
    "opp": "DAL",
    "player": "Jaylin Williams",
    "player_id": "4432823",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.3158,
    "prob_raw": 0.2661,
    "side": "over",
@@ -19273,22 +19745,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Jaylin Williams over 1.5 fg3m (@ DAL): p=0.316 (raw 0.266) vs DraftKings implied 0.588 EV -0.463 @ DraftKings | career 77/275, season 1/4, last5 1/5, last10 3/10, vs DAL 4/15, away 34/136, month 10 past seasons 1/7, rest 1 day 40/150"
+   "text": "[research] Jaylin Williams over 1.5 fg3m (@ DAL): p=0.316 (raw 0.266) vs DraftKings implied 0.571 EV -0.447 @ DraftKings | career 77/275, season 1/4, last5 1/5, last10 3/10, vs DAL 4/15, away 34/136, month 10 past seasons 1/7, rest 1 day 40/150"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.1802,
+   "ev": 0.2149,
    "fair": null,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.5882,
+   "implied": 0.5714,
    "k": 40.0,
    "line": 1.5,
    "opp": "DAL",
    "player": "Jaylin Williams",
    "player_id": "4432823",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6942,
    "prob_raw": 0.7339,
    "side": "under",
@@ -19344,22 +19816,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Jaylin Williams under 1.5 fg3m (@ DAL): p=0.694 (raw 0.734) vs DraftKings implied 0.588 EV +0.180 @ DraftKings | career 198/275, season 3/4, last5 4/5, last10 7/10, vs DAL 11/15, away 102/136, month 10 past seasons 6/7, rest 1 day 110/150"
+   "text": "[research] Jaylin Williams under 1.5 fg3m (@ DAL): p=0.694 (raw 0.734) vs DraftKings implied 0.571 EV +0.215 @ DraftKings | career 198/275, season 3/4, last5 4/5, last10 7/10, vs DAL 11/15, away 102/136, month 10 past seasons 6/7, rest 1 day 110/150"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.4645,
+   "ev": -0.4497,
    "fair": null,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.5525,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 7.5,
    "opp": "DAL",
    "player": "Jaylin Williams",
    "player_id": "4432823",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.2959,
    "prob_raw": 0.2434,
    "side": "over",
@@ -19415,22 +19887,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Jaylin Williams over 7.5 pts (@ DAL): p=0.296 (raw 0.243) vs DraftKings implied 0.552 EV -0.465 @ DraftKings | career 69/275, season 0/4, last5 1/5, last10 2/10, vs DAL 5/15, away 35/136, month 10 past seasons 0/7, rest 1 day 38/150"
+   "text": "[research] Jaylin Williams over 7.5 pts (@ DAL): p=0.296 (raw 0.243) vs DraftKings implied 0.538 EV -0.450 @ DraftKings | career 69/275, season 0/4, last5 1/5, last10 2/10, vs DAL 5/15, away 35/136, month 10 past seasons 0/7, rest 1 day 38/150"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.292,
+   "ev": 0.3277,
    "fair": null,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.5525,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 7.5,
    "opp": "DAL",
    "player": "Jaylin Williams",
    "player_id": "4432823",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.7138,
    "prob_raw": 0.7566,
    "side": "under",
@@ -19486,7 +19958,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Jaylin Williams under 7.5 pts (@ DAL): p=0.714 (raw 0.757) vs DraftKings implied 0.552 EV +0.292 @ DraftKings | career 206/275, season 4/4, last5 4/5, last10 8/10, vs DAL 10/15, away 101/136, month 10 past seasons 7/7, rest 1 day 112/150"
+   "text": "[research] Jaylin Williams under 7.5 pts (@ DAL): p=0.714 (raw 0.757) vs DraftKings implied 0.538 EV +0.328 @ DraftKings | career 206/275, season 4/4, last5 4/5, last10 8/10, vs DAL 10/15, away 101/136, month 10 past seasons 7/7, rest 1 day 112/150"
   },
   {
    "book": "DraftKings",
@@ -19501,7 +19973,7 @@
    "opp": "DAL",
    "player": "Jared McCain",
    "player_id": "4683778",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6441,
    "prob_raw": 0.6738,
    "side": "under",
@@ -19643,7 +20115,7 @@
    "opp": "DAL",
    "player": "Jared McCain",
    "player_id": "4683778",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.2914,
    "prob_raw": 0.2384,
    "side": "over",
@@ -19714,7 +20186,7 @@
    "opp": "DAL",
    "player": "Jared McCain",
    "player_id": "4683778",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.7182,
    "prob_raw": 0.7616,
    "side": "under",
@@ -19927,7 +20399,7 @@
    "opp": "DAL",
    "player": "Jared McCain",
    "player_id": "4683778",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.231,
    "prob_raw": 0.1734,
    "side": "over",
@@ -19998,7 +20470,7 @@
    "opp": "DAL",
    "player": "Jared McCain",
    "player_id": "4683778",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.7773,
    "prob_raw": 0.8266,
    "side": "under",
@@ -20211,7 +20683,7 @@
    "opp": "DAL",
    "player": "Ajay Mitchell",
    "player_id": "4900671",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.7423,
    "prob_raw": 0.7887,
    "side": "under",
@@ -20272,17 +20744,17 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.571,
+   "ev": -0.5757,
    "fair": null,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.5464,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 17.5,
    "opp": "DAL",
    "player": "Ajay Mitchell",
    "player_id": "4900671",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.2344,
    "prob_raw": 0.177,
    "side": "over",
@@ -20338,22 +20810,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Ajay Mitchell over 17.5 pts (@ DAL): p=0.234 (raw 0.177) vs DraftKings implied 0.546 EV -0.571 @ DraftKings | career 16/120, season 2/4, last5 2/5, last10 5/10, vs DAL 0/4, away 8/54, month 10 past seasons 3/10, rest 1 day 10/59"
+   "text": "[research] Ajay Mitchell over 17.5 pts (@ DAL): p=0.234 (raw 0.177) vs DraftKings implied 0.552 EV -0.576 @ DraftKings | career 16/120, season 2/4, last5 2/5, last10 5/10, vs DAL 0/4, away 8/54, month 10 past seasons 3/10, rest 1 day 10/59"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.4162,
+   "ev": 0.4007,
    "fair": null,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.5464,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 17.5,
    "opp": "DAL",
    "player": "Ajay Mitchell",
    "player_id": "4900671",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.7739,
    "prob_raw": 0.823,
    "side": "under",
@@ -20409,7 +20881,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Ajay Mitchell under 17.5 pts (@ DAL): p=0.774 (raw 0.823) vs DraftKings implied 0.546 EV +0.416 @ DraftKings | career 104/120, season 2/4, last5 3/5, last10 5/10, vs DAL 4/4, away 46/54, month 10 past seasons 7/10, rest 1 day 49/59"
+   "text": "[research] Ajay Mitchell under 17.5 pts (@ DAL): p=0.774 (raw 0.823) vs DraftKings implied 0.552 EV +0.401 @ DraftKings | career 104/120, season 2/4, last5 3/5, last10 5/10, vs DAL 4/4, away 46/54, month 10 past seasons 7/10, rest 1 day 49/59"
   },
   {
    "book": "DraftKings",
@@ -20566,7 +21038,7 @@
    "opp": "DAL",
    "player": "Ajay Mitchell",
    "player_id": "4900671",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.3659,
    "prob_raw": 0.3252,
    "side": "over",
@@ -20637,7 +21109,7 @@
    "opp": "DAL",
    "player": "Ajay Mitchell",
    "player_id": "4900671",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6449,
    "prob_raw": 0.6748,
    "side": "under",
@@ -20708,7 +21180,7 @@
    "opp": "OKC",
    "player": "Cooper Flagg",
    "player_id": "5041939",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.4105,
    "prob_raw": 0.3798,
    "side": "over",
@@ -20779,7 +21251,7 @@
    "opp": "OKC",
    "player": "Cooper Flagg",
    "player_id": "5041939",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6008,
    "prob_raw": 0.6202,
    "side": "under",
@@ -20921,7 +21393,7 @@
    "opp": "OKC",
    "player": "Cooper Flagg",
    "player_id": "5041939",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6434,
    "prob_raw": 0.6729,
    "side": "under",
@@ -21124,17 +21596,17 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.1494,
+   "ev": 0.1812,
    "fair": null,
    "game_id": "401909891",
    "home": true,
-   "implied": 0.5525,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 24.5,
    "opp": "OKC",
    "player": "Cooper Flagg",
    "player_id": "5041939",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.635,
    "prob_raw": 0.6627,
    "side": "under",
@@ -21190,7 +21662,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Cooper Flagg under 24.5 pts (vs OKC): p=0.635 (raw 0.663) vs DraftKings implied 0.552 EV +0.149 @ DraftKings | career 50/73, season 1/3, last5 2/5, last10 4/10, vs OKC 2/2, home 23/34, month 10 past seasons 5/5, rest 1 day 29/41"
+   "text": "[research] Cooper Flagg under 24.5 pts (vs OKC): p=0.635 (raw 0.663) vs DraftKings implied 0.538 EV +0.181 @ DraftKings | career 50/73, season 1/3, last5 2/5, last10 4/10, vs OKC 2/2, home 23/34, month 10 past seasons 5/5, rest 1 day 29/41"
   },
   {
    "book": "DraftKings",
@@ -21205,7 +21677,7 @@
    "opp": "OKC",
    "player": "Cooper Flagg",
    "player_id": "5041939",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.552,
    "prob_raw": 0.5587,
    "side": "under",
@@ -21408,17 +21880,17 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.321,
+   "ev": -0.3174,
    "fair": null,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.5376,
+   "implied": 0.5348,
    "k": 40.0,
    "line": 8.5,
    "opp": "DAL",
    "player": "Aday Mara",
    "player_id": "5174983",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.365,
    "prob_raw": 0.3241,
    "side": "over",
@@ -21462,22 +21934,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Aday Mara over 8.5 pts (@ DAL): p=0.365 (raw 0.324) vs DraftKings implied 0.538 EV -0.321 @ DraftKings | career 1/4, season 1/4, last5 1/4, last10 1/4, away 0/1, rest 1 day 0/1"
+   "text": "[research] Aday Mara over 8.5 pts (@ DAL): p=0.365 (raw 0.324) vs DraftKings implied 0.535 EV -0.317 @ DraftKings | career 1/4, season 1/4, last5 1/4, last10 1/4, away 0/1, rest 1 day 0/1"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.2012,
+   "ev": 0.2076,
    "fair": null,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.5376,
+   "implied": 0.5348,
    "k": 40.0,
    "line": 8.5,
    "opp": "DAL",
    "player": "Aday Mara",
    "player_id": "5174983",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6458,
    "prob_raw": 0.6759,
    "side": "under",
@@ -21521,22 +21993,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Aday Mara under 8.5 pts (@ DAL): p=0.646 (raw 0.676) vs DraftKings implied 0.538 EV +0.201 @ DraftKings | career 3/4, season 3/4, last5 3/4, last10 3/4, away 1/1, rest 1 day 1/1"
+   "text": "[research] Aday Mara under 8.5 pts (@ DAL): p=0.646 (raw 0.676) vs DraftKings implied 0.535 EV +0.208 @ DraftKings | career 3/4, season 3/4, last5 3/4, last10 3/4, away 1/1, rest 1 day 1/1"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.3648,
+   "ev": -0.3685,
    "fair": null,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.5747,
+   "implied": 0.578,
    "k": 40.0,
    "line": 5.5,
    "opp": "DAL",
    "player": "Aday Mara",
    "player_id": "5174983",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.365,
    "prob_raw": 0.3241,
    "side": "over",
@@ -21580,22 +22052,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Aday Mara over 5.5 reb (@ DAL): p=0.365 (raw 0.324) vs DraftKings implied 0.575 EV -0.365 @ DraftKings | career 1/4, season 1/4, last5 1/4, last10 1/4, away 0/1, rest 1 day 0/1"
+   "text": "[research] Aday Mara over 5.5 reb (@ DAL): p=0.365 (raw 0.324) vs DraftKings implied 0.578 EV -0.368 @ DraftKings | career 1/4, season 1/4, last5 1/4, last10 1/4, away 0/1, rest 1 day 0/1"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.1237,
+   "ev": 0.1172,
    "fair": null,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.5747,
+   "implied": 0.578,
    "k": 40.0,
    "line": 5.5,
    "opp": "DAL",
    "player": "Aday Mara",
    "player_id": "5174983",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6458,
    "prob_raw": 0.6759,
    "side": "under",
@@ -21639,7 +22111,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Aday Mara under 5.5 reb (@ DAL): p=0.646 (raw 0.676) vs DraftKings implied 0.575 EV +0.124 @ DraftKings | career 3/4, season 3/4, last5 3/4, last10 3/4, away 1/1, rest 1 day 1/1"
+   "text": "[research] Aday Mara under 5.5 reb (@ DAL): p=0.646 (raw 0.676) vs DraftKings implied 0.578 EV +0.117 @ DraftKings | career 3/4, season 3/4, last5 3/4, last10 3/4, away 1/1, rest 1 day 1/1"
   },
   {
    "book": "DraftKings",
@@ -21654,7 +22126,7 @@
    "opp": "OKC",
    "player": "Zaccharie Risacher",
    "player_id": "5211175",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.3997,
    "prob_raw": 0.3664,
    "side": "over",
@@ -21725,7 +22197,7 @@
    "opp": "OKC",
    "player": "Zaccharie Risacher",
    "player_id": "5211175",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6115,
    "prob_raw": 0.6336,
    "side": "under",
@@ -21796,7 +22268,7 @@
    "opp": "OKC",
    "player": "Zaccharie Risacher",
    "player_id": "5211175",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.509,
    "prob_raw": 0.504,
    "side": "over",
@@ -21867,7 +22339,7 @@
    "opp": "OKC",
    "player": "Zaccharie Risacher",
    "player_id": "5211175",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.5027,
    "prob_raw": 0.496,
    "side": "under",
@@ -21928,503 +22400,6 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.1779,
-   "fair": null,
-   "game_id": "401909891",
-   "home": true,
-   "implied": 0.5882,
-   "k": 40.0,
-   "line": 3.5,
-   "opp": "OKC",
-   "player": "Kyrie Irving",
-   "player_id": "6442",
-   "price_observed_at": "2026-10-29T01:06:46Z",
-   "prob": 0.6929,
-   "prob_raw": 0.7323,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 143,
-     "n": 193,
-     "rate": 0.741,
-     "split": "career"
-    },
-    {
-     "hits": 1,
-     "n": 3,
-     "rate": 0.333,
-     "split": "season"
-    },
-    {
-     "hits": 1,
-     "n": 5,
-     "rate": 0.2,
-     "split": "last5"
-    },
-    {
-     "hits": 5,
-     "n": 10,
-     "rate": 0.5,
-     "split": "last10"
-    },
-    {
-     "hits": 11,
-     "n": 13,
-     "rate": 0.846,
-     "split": "vs OKC"
-    },
-    {
-     "hits": 72,
-     "n": 95,
-     "rate": 0.758,
-     "split": "home"
-    },
-    {
-     "hits": 12,
-     "n": 14,
-     "rate": 0.857,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 78,
-     "n": 104,
-     "rate": 0.75,
-     "split": "rest 1 day"
-    }
-   ],
-   "stat": "ast",
-   "status": "research",
-   "text": "[research] Kyrie Irving over 3.5 ast (vs OKC): p=0.693 (raw 0.732) vs DraftKings implied 0.588 EV +0.178 @ DraftKings | career 143/193, season 1/3, last5 1/5, last10 5/10, vs OKC 11/13, home 72/95, month 10 past seasons 12/14, rest 1 day 78/104"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-10-28",
-   "ev": -0.4607,
-   "fair": null,
-   "game_id": "401909891",
-   "home": true,
-   "implied": 0.5882,
-   "k": 40.0,
-   "line": 3.5,
-   "opp": "OKC",
-   "player": "Kyrie Irving",
-   "player_id": "6442",
-   "price_observed_at": "2026-10-29T01:06:46Z",
-   "prob": 0.3172,
-   "prob_raw": 0.2677,
-   "side": "under",
-   "splits": [
-    {
-     "hits": 50,
-     "n": 193,
-     "rate": 0.259,
-     "split": "career"
-    },
-    {
-     "hits": 2,
-     "n": 3,
-     "rate": 0.667,
-     "split": "season"
-    },
-    {
-     "hits": 4,
-     "n": 5,
-     "rate": 0.8,
-     "split": "last5"
-    },
-    {
-     "hits": 5,
-     "n": 10,
-     "rate": 0.5,
-     "split": "last10"
-    },
-    {
-     "hits": 2,
-     "n": 13,
-     "rate": 0.154,
-     "split": "vs OKC"
-    },
-    {
-     "hits": 23,
-     "n": 95,
-     "rate": 0.242,
-     "split": "home"
-    },
-    {
-     "hits": 2,
-     "n": 14,
-     "rate": 0.143,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 26,
-     "n": 104,
-     "rate": 0.25,
-     "split": "rest 1 day"
-    }
-   ],
-   "stat": "ast",
-   "status": "research",
-   "text": "[research] Kyrie Irving under 3.5 ast (vs OKC): p=0.317 (raw 0.268) vs DraftKings implied 0.588 EV -0.461 @ DraftKings | career 50/193, season 2/3, last5 4/5, last10 5/10, vs OKC 2/13, home 23/95, month 10 past seasons 2/14, rest 1 day 26/104"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-10-28",
-   "ev": -0.1542,
-   "fair": null,
-   "game_id": "401909891",
-   "home": true,
-   "implied": 0.5405,
-   "k": 40.0,
-   "line": 2.5,
-   "opp": "OKC",
-   "player": "Kyrie Irving",
-   "player_id": "6442",
-   "price_observed_at": "2026-10-29T01:06:46Z",
-   "prob": 0.4572,
-   "prob_raw": 0.4382,
-   "side": "under",
-   "splits": [
-    {
-     "hits": 82,
-     "n": 193,
-     "rate": 0.425,
-     "split": "career"
-    },
-    {
-     "hits": 2,
-     "n": 3,
-     "rate": 0.667,
-     "split": "season"
-    },
-    {
-     "hits": 4,
-     "n": 5,
-     "rate": 0.8,
-     "split": "last5"
-    },
-    {
-     "hits": 6,
-     "n": 10,
-     "rate": 0.6,
-     "split": "last10"
-    },
-    {
-     "hits": 6,
-     "n": 13,
-     "rate": 0.462,
-     "split": "vs OKC"
-    },
-    {
-     "hits": 42,
-     "n": 95,
-     "rate": 0.442,
-     "split": "home"
-    },
-    {
-     "hits": 6,
-     "n": 14,
-     "rate": 0.429,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 42,
-     "n": 104,
-     "rate": 0.404,
-     "split": "rest 1 day"
-    }
-   ],
-   "stat": "fg3m",
-   "status": "research",
-   "text": "[research] Kyrie Irving under 2.5 fg3m (vs OKC): p=0.457 (raw 0.438) vs DraftKings implied 0.540 EV -0.154 @ DraftKings | career 82/193, season 2/3, last5 4/5, last10 6/10, vs OKC 6/13, home 42/95, month 10 past seasons 6/14, rest 1 day 42/104"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-10-28",
-   "ev": 0.2209,
-   "fair": null,
-   "game_id": "401909891",
-   "home": true,
-   "implied": 0.5435,
-   "k": 40.0,
-   "line": 20.5,
-   "opp": "OKC",
-   "player": "Kyrie Irving",
-   "player_id": "6442",
-   "price_observed_at": "2026-10-29T01:06:46Z",
-   "prob": 0.6635,
-   "prob_raw": 0.6974,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 138,
-     "n": 193,
-     "rate": 0.715,
-     "split": "career"
-    },
-    {
-     "hits": 1,
-     "n": 3,
-     "rate": 0.333,
-     "split": "season"
-    },
-    {
-     "hits": 2,
-     "n": 5,
-     "rate": 0.4,
-     "split": "last5"
-    },
-    {
-     "hits": 6,
-     "n": 10,
-     "rate": 0.6,
-     "split": "last10"
-    },
-    {
-     "hits": 7,
-     "n": 13,
-     "rate": 0.538,
-     "split": "vs OKC"
-    },
-    {
-     "hits": 69,
-     "n": 95,
-     "rate": 0.726,
-     "split": "home"
-    },
-    {
-     "hits": 11,
-     "n": 14,
-     "rate": 0.786,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 74,
-     "n": 104,
-     "rate": 0.712,
-     "split": "rest 1 day"
-    }
-   ],
-   "stat": "pts",
-   "status": "research",
-   "text": "[research] Kyrie Irving over 20.5 pts (vs OKC): p=0.663 (raw 0.697) vs DraftKings implied 0.543 EV +0.221 @ DraftKings | career 138/193, season 1/3, last5 2/5, last10 6/10, vs OKC 7/13, home 69/95, month 10 past seasons 11/14, rest 1 day 74/104"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-10-28",
-   "ev": -0.3615,
-   "fair": null,
-   "game_id": "401909891",
-   "home": true,
-   "implied": 0.5435,
-   "k": 40.0,
-   "line": 20.5,
-   "opp": "OKC",
-   "player": "Kyrie Irving",
-   "player_id": "6442",
-   "price_observed_at": "2026-10-29T01:06:46Z",
-   "prob": 0.347,
-   "prob_raw": 0.3026,
-   "side": "under",
-   "splits": [
-    {
-     "hits": 55,
-     "n": 193,
-     "rate": 0.285,
-     "split": "career"
-    },
-    {
-     "hits": 2,
-     "n": 3,
-     "rate": 0.667,
-     "split": "season"
-    },
-    {
-     "hits": 3,
-     "n": 5,
-     "rate": 0.6,
-     "split": "last5"
-    },
-    {
-     "hits": 4,
-     "n": 10,
-     "rate": 0.4,
-     "split": "last10"
-    },
-    {
-     "hits": 6,
-     "n": 13,
-     "rate": 0.462,
-     "split": "vs OKC"
-    },
-    {
-     "hits": 26,
-     "n": 95,
-     "rate": 0.274,
-     "split": "home"
-    },
-    {
-     "hits": 3,
-     "n": 14,
-     "rate": 0.214,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 30,
-     "n": 104,
-     "rate": 0.288,
-     "split": "rest 1 day"
-    }
-   ],
-   "stat": "pts",
-   "status": "research",
-   "text": "[research] Kyrie Irving under 20.5 pts (vs OKC): p=0.347 (raw 0.303) vs DraftKings implied 0.543 EV -0.361 @ DraftKings | career 55/193, season 2/3, last5 3/5, last10 4/10, vs OKC 6/13, home 26/95, month 10 past seasons 3/14, rest 1 day 30/104"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-10-28",
-   "ev": 0.1277,
-   "fair": null,
-   "game_id": "401909891",
-   "home": true,
-   "implied": 0.5917,
-   "k": 40.0,
-   "line": 3.5,
-   "opp": "OKC",
-   "player": "Kyrie Irving",
-   "player_id": "6442",
-   "price_observed_at": "2026-10-29T01:06:46Z",
-   "prob": 0.6673,
-   "prob_raw": 0.7019,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 132,
-     "n": 193,
-     "rate": 0.684,
-     "split": "career"
-    },
-    {
-     "hits": 2,
-     "n": 3,
-     "rate": 0.667,
-     "split": "season"
-    },
-    {
-     "hits": 3,
-     "n": 5,
-     "rate": 0.6,
-     "split": "last5"
-    },
-    {
-     "hits": 7,
-     "n": 10,
-     "rate": 0.7,
-     "split": "last10"
-    },
-    {
-     "hits": 5,
-     "n": 13,
-     "rate": 0.385,
-     "split": "vs OKC"
-    },
-    {
-     "hits": 71,
-     "n": 95,
-     "rate": 0.747,
-     "split": "home"
-    },
-    {
-     "hits": 8,
-     "n": 14,
-     "rate": 0.571,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 78,
-     "n": 104,
-     "rate": 0.75,
-     "split": "rest 1 day"
-    }
-   ],
-   "stat": "reb",
-   "status": "research",
-   "text": "[research] Kyrie Irving over 3.5 reb (vs OKC): p=0.667 (raw 0.702) vs DraftKings implied 0.592 EV +0.128 @ DraftKings | career 132/193, season 2/3, last5 3/5, last10 7/10, vs OKC 5/13, home 71/95, month 10 past seasons 8/14, rest 1 day 78/104"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-10-28",
-   "ev": -0.4199,
-   "fair": null,
-   "game_id": "401909891",
-   "home": true,
-   "implied": 0.5917,
-   "k": 40.0,
-   "line": 3.5,
-   "opp": "OKC",
-   "player": "Kyrie Irving",
-   "player_id": "6442",
-   "price_observed_at": "2026-10-29T01:06:46Z",
-   "prob": 0.3433,
-   "prob_raw": 0.2981,
-   "side": "under",
-   "splits": [
-    {
-     "hits": 61,
-     "n": 193,
-     "rate": 0.316,
-     "split": "career"
-    },
-    {
-     "hits": 1,
-     "n": 3,
-     "rate": 0.333,
-     "split": "season"
-    },
-    {
-     "hits": 2,
-     "n": 5,
-     "rate": 0.4,
-     "split": "last5"
-    },
-    {
-     "hits": 3,
-     "n": 10,
-     "rate": 0.3,
-     "split": "last10"
-    },
-    {
-     "hits": 8,
-     "n": 13,
-     "rate": 0.615,
-     "split": "vs OKC"
-    },
-    {
-     "hits": 24,
-     "n": 95,
-     "rate": 0.253,
-     "split": "home"
-    },
-    {
-     "hits": 6,
-     "n": 14,
-     "rate": 0.429,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 26,
-     "n": 104,
-     "rate": 0.25,
-     "split": "rest 1 day"
-    }
-   ],
-   "stat": "reb",
-   "status": "research",
-   "text": "[research] Kyrie Irving under 3.5 reb (vs OKC): p=0.343 (raw 0.298) vs DraftKings implied 0.592 EV -0.420 @ DraftKings | career 61/193, season 1/3, last5 2/5, last10 3/10, vs OKC 8/13, home 24/95, month 10 past seasons 6/14, rest 1 day 26/104"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-10-28",
    "ev": -0.3408,
    "fair": null,
    "game_id": "401909891",
@@ -22435,7 +22410,7 @@
    "opp": "OKC",
    "player": "Zaccharie Risacher",
    "player_id": "5211175",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.3602,
    "prob_raw": 0.3183,
    "side": "over",
@@ -22506,7 +22481,7 @@
    "opp": "OKC",
    "player": "Zaccharie Risacher",
    "player_id": "5211175",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6506,
    "prob_raw": 0.6817,
    "side": "under",
@@ -22565,45 +22540,601 @@
    "text": "[research] Zaccharie Risacher under 4.5 reb (vs OKC): p=0.651 (raw 0.682) vs DraftKings implied 0.546 EV +0.191 @ DraftKings | career 105/150, season 1/4, last5 2/5, last10 6/10, vs OKC 1/3, home 55/73, month 10 past seasons 7/9, rest 1 day 56/83"
   },
   {
-   "book": "bet365",
+   "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.4021,
+   "ev": 0.1779,
    "fair": null,
    "game_id": "401909891",
-   "home": false,
-   "implied": 0.8462,
+   "home": true,
+   "implied": 0.5882,
    "k": 40.0,
-   "line": 4.5,
-   "opp": "DAL",
-   "player": "Aday Mara",
-   "player_id": "5174983",
-   "price_observed_at": "2026-10-29T01:01:36Z",
-   "prob": 0.5059,
-   "prob_raw": 0.5,
+   "line": 3.5,
+   "opp": "OKC",
+   "player": "Kyrie Irving",
+   "player_id": "6442",
+   "price_observed_at": "2026-10-29T01:17:38Z",
+   "prob": 0.6929,
+   "prob_raw": 0.7323,
    "side": "over",
    "splits": [
     {
-     "hits": 2,
-     "n": 4,
+     "hits": 143,
+     "n": 193,
+     "rate": 0.741,
+     "split": "career"
+    },
+    {
+     "hits": 1,
+     "n": 3,
+     "rate": 0.333,
+     "split": "season"
+    },
+    {
+     "hits": 1,
+     "n": 5,
+     "rate": 0.2,
+     "split": "last5"
+    },
+    {
+     "hits": 5,
+     "n": 10,
      "rate": 0.5,
+     "split": "last10"
+    },
+    {
+     "hits": 11,
+     "n": 13,
+     "rate": 0.846,
+     "split": "vs OKC"
+    },
+    {
+     "hits": 72,
+     "n": 95,
+     "rate": 0.758,
+     "split": "home"
+    },
+    {
+     "hits": 12,
+     "n": 14,
+     "rate": 0.857,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 78,
+     "n": 104,
+     "rate": 0.75,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "ast",
+   "status": "research",
+   "text": "[research] Kyrie Irving over 3.5 ast (vs OKC): p=0.693 (raw 0.732) vs DraftKings implied 0.588 EV +0.178 @ DraftKings | career 143/193, season 1/3, last5 1/5, last10 5/10, vs OKC 11/13, home 72/95, month 10 past seasons 12/14, rest 1 day 78/104"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-10-28",
+   "ev": -0.4607,
+   "fair": null,
+   "game_id": "401909891",
+   "home": true,
+   "implied": 0.5882,
+   "k": 40.0,
+   "line": 3.5,
+   "opp": "OKC",
+   "player": "Kyrie Irving",
+   "player_id": "6442",
+   "price_observed_at": "2026-10-29T01:17:38Z",
+   "prob": 0.3172,
+   "prob_raw": 0.2677,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 50,
+     "n": 193,
+     "rate": 0.259,
      "split": "career"
     },
     {
      "hits": 2,
-     "n": 4,
+     "n": 3,
+     "rate": 0.667,
+     "split": "season"
+    },
+    {
+     "hits": 4,
+     "n": 5,
+     "rate": 0.8,
+     "split": "last5"
+    },
+    {
+     "hits": 5,
+     "n": 10,
      "rate": 0.5,
+     "split": "last10"
+    },
+    {
+     "hits": 2,
+     "n": 13,
+     "rate": 0.154,
+     "split": "vs OKC"
+    },
+    {
+     "hits": 23,
+     "n": 95,
+     "rate": 0.242,
+     "split": "home"
+    },
+    {
+     "hits": 2,
+     "n": 14,
+     "rate": 0.143,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 26,
+     "n": 104,
+     "rate": 0.25,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "ast",
+   "status": "research",
+   "text": "[research] Kyrie Irving under 3.5 ast (vs OKC): p=0.317 (raw 0.268) vs DraftKings implied 0.588 EV -0.461 @ DraftKings | career 50/193, season 2/3, last5 4/5, last10 5/10, vs OKC 2/13, home 23/95, month 10 past seasons 2/14, rest 1 day 26/104"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-10-28",
+   "ev": -0.1542,
+   "fair": null,
+   "game_id": "401909891",
+   "home": true,
+   "implied": 0.5405,
+   "k": 40.0,
+   "line": 2.5,
+   "opp": "OKC",
+   "player": "Kyrie Irving",
+   "player_id": "6442",
+   "price_observed_at": "2026-10-29T01:17:38Z",
+   "prob": 0.4572,
+   "prob_raw": 0.4382,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 82,
+     "n": 193,
+     "rate": 0.425,
+     "split": "career"
+    },
+    {
+     "hits": 2,
+     "n": 3,
+     "rate": 0.667,
+     "split": "season"
+    },
+    {
+     "hits": 4,
+     "n": 5,
+     "rate": 0.8,
+     "split": "last5"
+    },
+    {
+     "hits": 6,
+     "n": 10,
+     "rate": 0.6,
+     "split": "last10"
+    },
+    {
+     "hits": 6,
+     "n": 13,
+     "rate": 0.462,
+     "split": "vs OKC"
+    },
+    {
+     "hits": 42,
+     "n": 95,
+     "rate": 0.442,
+     "split": "home"
+    },
+    {
+     "hits": 6,
+     "n": 14,
+     "rate": 0.429,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 42,
+     "n": 104,
+     "rate": 0.404,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "fg3m",
+   "status": "research",
+   "text": "[research] Kyrie Irving under 2.5 fg3m (vs OKC): p=0.457 (raw 0.438) vs DraftKings implied 0.540 EV -0.154 @ DraftKings | career 82/193, season 2/3, last5 4/5, last10 6/10, vs OKC 6/13, home 42/95, month 10 past seasons 6/14, rest 1 day 42/104"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-10-28",
+   "ev": 0.2408,
+   "fair": null,
+   "game_id": "401909891",
+   "home": true,
+   "implied": 0.5348,
+   "k": 40.0,
+   "line": 20.5,
+   "opp": "OKC",
+   "player": "Kyrie Irving",
+   "player_id": "6442",
+   "price_observed_at": "2026-10-29T01:17:38Z",
+   "prob": 0.6635,
+   "prob_raw": 0.6974,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 138,
+     "n": 193,
+     "rate": 0.715,
+     "split": "career"
+    },
+    {
+     "hits": 1,
+     "n": 3,
+     "rate": 0.333,
      "split": "season"
     },
     {
      "hits": 2,
-     "n": 4,
-     "rate": 0.5,
+     "n": 5,
+     "rate": 0.4,
      "split": "last5"
     },
     {
+     "hits": 6,
+     "n": 10,
+     "rate": 0.6,
+     "split": "last10"
+    },
+    {
+     "hits": 7,
+     "n": 13,
+     "rate": 0.538,
+     "split": "vs OKC"
+    },
+    {
+     "hits": 69,
+     "n": 95,
+     "rate": 0.726,
+     "split": "home"
+    },
+    {
+     "hits": 11,
+     "n": 14,
+     "rate": 0.786,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 74,
+     "n": 104,
+     "rate": 0.712,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Kyrie Irving over 20.5 pts (vs OKC): p=0.663 (raw 0.697) vs DraftKings implied 0.535 EV +0.241 @ DraftKings | career 138/193, season 1/3, last5 2/5, last10 6/10, vs OKC 7/13, home 69/95, month 10 past seasons 11/14, rest 1 day 74/104"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-10-28",
+   "ev": -0.351,
+   "fair": null,
+   "game_id": "401909891",
+   "home": true,
+   "implied": 0.5348,
+   "k": 40.0,
+   "line": 20.5,
+   "opp": "OKC",
+   "player": "Kyrie Irving",
+   "player_id": "6442",
+   "price_observed_at": "2026-10-29T01:17:38Z",
+   "prob": 0.347,
+   "prob_raw": 0.3026,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 55,
+     "n": 193,
+     "rate": 0.285,
+     "split": "career"
+    },
+    {
      "hits": 2,
+     "n": 3,
+     "rate": 0.667,
+     "split": "season"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "last5"
+    },
+    {
+     "hits": 4,
+     "n": 10,
+     "rate": 0.4,
+     "split": "last10"
+    },
+    {
+     "hits": 6,
+     "n": 13,
+     "rate": 0.462,
+     "split": "vs OKC"
+    },
+    {
+     "hits": 26,
+     "n": 95,
+     "rate": 0.274,
+     "split": "home"
+    },
+    {
+     "hits": 3,
+     "n": 14,
+     "rate": 0.214,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 30,
+     "n": 104,
+     "rate": 0.288,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Kyrie Irving under 20.5 pts (vs OKC): p=0.347 (raw 0.303) vs DraftKings implied 0.535 EV -0.351 @ DraftKings | career 55/193, season 2/3, last5 3/5, last10 4/10, vs OKC 6/13, home 26/95, month 10 past seasons 3/14, rest 1 day 30/104"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-10-28",
+   "ev": 0.1277,
+   "fair": null,
+   "game_id": "401909891",
+   "home": true,
+   "implied": 0.5917,
+   "k": 40.0,
+   "line": 3.5,
+   "opp": "OKC",
+   "player": "Kyrie Irving",
+   "player_id": "6442",
+   "price_observed_at": "2026-10-29T01:17:38Z",
+   "prob": 0.6673,
+   "prob_raw": 0.7019,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 132,
+     "n": 193,
+     "rate": 0.684,
+     "split": "career"
+    },
+    {
+     "hits": 2,
+     "n": 3,
+     "rate": 0.667,
+     "split": "season"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "last5"
+    },
+    {
+     "hits": 7,
+     "n": 10,
+     "rate": 0.7,
+     "split": "last10"
+    },
+    {
+     "hits": 5,
+     "n": 13,
+     "rate": 0.385,
+     "split": "vs OKC"
+    },
+    {
+     "hits": 71,
+     "n": 95,
+     "rate": 0.747,
+     "split": "home"
+    },
+    {
+     "hits": 8,
+     "n": 14,
+     "rate": 0.571,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 78,
+     "n": 104,
+     "rate": 0.75,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "reb",
+   "status": "research",
+   "text": "[research] Kyrie Irving over 3.5 reb (vs OKC): p=0.667 (raw 0.702) vs DraftKings implied 0.592 EV +0.128 @ DraftKings | career 132/193, season 2/3, last5 3/5, last10 7/10, vs OKC 5/13, home 71/95, month 10 past seasons 8/14, rest 1 day 78/104"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-10-28",
+   "ev": -0.4199,
+   "fair": null,
+   "game_id": "401909891",
+   "home": true,
+   "implied": 0.5917,
+   "k": 40.0,
+   "line": 3.5,
+   "opp": "OKC",
+   "player": "Kyrie Irving",
+   "player_id": "6442",
+   "price_observed_at": "2026-10-29T01:17:38Z",
+   "prob": 0.3433,
+   "prob_raw": 0.2981,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 61,
+     "n": 193,
+     "rate": 0.316,
+     "split": "career"
+    },
+    {
+     "hits": 1,
+     "n": 3,
+     "rate": 0.333,
+     "split": "season"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "last5"
+    },
+    {
+     "hits": 3,
+     "n": 10,
+     "rate": 0.3,
+     "split": "last10"
+    },
+    {
+     "hits": 8,
+     "n": 13,
+     "rate": 0.615,
+     "split": "vs OKC"
+    },
+    {
+     "hits": 24,
+     "n": 95,
+     "rate": 0.253,
+     "split": "home"
+    },
+    {
+     "hits": 6,
+     "n": 14,
+     "rate": 0.429,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 26,
+     "n": 104,
+     "rate": 0.25,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "reb",
+   "status": "research",
+   "text": "[research] Kyrie Irving under 3.5 reb (vs OKC): p=0.343 (raw 0.298) vs DraftKings implied 0.592 EV -0.420 @ DraftKings | career 61/193, season 1/3, last5 2/5, last10 3/10, vs OKC 8/13, home 24/95, month 10 past seasons 6/14, rest 1 day 26/104"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-10-28",
+   "ev": -0.6242,
+   "fair": null,
+   "game_id": "401909891",
+   "home": false,
+   "implied": 0.5495,
+   "k": 40.0,
+   "line": 7.5,
+   "opp": "DAL",
+   "player": "Bennett Stirtz",
+   "player_id": "5241364",
+   "price_observed_at": "2026-10-29T01:17:38Z",
+   "prob": 0.2065,
+   "prob_raw": 0.1487,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 0,
      "n": 4,
-     "rate": 0.5,
+     "rate": 0.0,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "away"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Bennett Stirtz over 7.5 pts (@ DAL): p=0.206 (raw 0.149) vs DraftKings implied 0.549 EV -0.624 @ DraftKings | career 0/4, season 0/4, last5 0/4, last10 0/4, away 0/1, rest 1 day 0/1"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-10-28",
+   "ev": 0.458,
+   "fair": null,
+   "game_id": "401909891",
+   "home": false,
+   "implied": 0.5495,
+   "k": 40.0,
+   "line": 7.5,
+   "opp": "DAL",
+   "player": "Bennett Stirtz",
+   "player_id": "5241364",
+   "price_observed_at": "2026-10-29T01:17:38Z",
+   "prob": 0.8011,
+   "prob_raw": 0.8513,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 4,
+     "n": 4,
+     "rate": 1.0,
+     "split": "career"
+    },
+    {
+     "hits": 4,
+     "n": 4,
+     "rate": 1.0,
+     "split": "season"
+    },
+    {
+     "hits": 4,
+     "n": 4,
+     "rate": 1.0,
+     "split": "last5"
+    },
+    {
+     "hits": 4,
+     "n": 4,
+     "rate": 1.0,
      "split": "last10"
     },
     {
@@ -22613,428 +23144,370 @@
      "split": "away"
     },
     {
-     "hits": 0,
-     "n": 1,
-     "rate": 0.0,
-     "split": "rest 1 day"
-    }
-   ],
-   "stat": "pts",
-   "status": "research",
-   "text": "[research] Aday Mara over 4.5 pts (@ DAL): p=0.506 (raw 0.500) vs bet365 implied 0.846 EV -0.402 @ bet365 | career 2/4, season 2/4, last5 2/4, last10 2/4, away 1/1, rest 1 day 0/1"
-  },
-  {
-   "book": "bet365",
-   "date": "2026-10-28",
-   "ev": -0.2152,
-   "fair": null,
-   "game_id": "401909891",
-   "home": false,
-   "implied": 0.4651,
-   "k": 40.0,
-   "line": 9.5,
-   "opp": "DAL",
-   "player": "Aday Mara",
-   "player_id": "5174983",
-   "price_observed_at": "2026-10-29T01:01:36Z",
-   "prob": 0.365,
-   "prob_raw": 0.3241,
-   "side": "over",
-   "splits": [
-    {
      "hits": 1,
-     "n": 4,
-     "rate": 0.25,
-     "split": "career"
-    },
-    {
-     "hits": 1,
-     "n": 4,
-     "rate": 0.25,
-     "split": "season"
-    },
-    {
-     "hits": 1,
-     "n": 4,
-     "rate": 0.25,
-     "split": "last5"
-    },
-    {
-     "hits": 1,
-     "n": 4,
-     "rate": 0.25,
-     "split": "last10"
-    },
-    {
-     "hits": 0,
      "n": 1,
-     "rate": 0.0,
-     "split": "away"
-    },
-    {
-     "hits": 0,
-     "n": 1,
-     "rate": 0.0,
+     "rate": 1.0,
      "split": "rest 1 day"
     }
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Aday Mara over 9.5 pts (@ DAL): p=0.365 (raw 0.324) vs bet365 implied 0.465 EV -0.215 @ bet365 | career 1/4, season 1/4, last5 1/4, last10 1/4, away 0/1, rest 1 day 0/1"
+   "text": "[research] Bennett Stirtz under 7.5 pts (@ DAL): p=0.801 (raw 0.851) vs DraftKings implied 0.549 EV +0.458 @ DraftKings | career 4/4, season 4/4, last5 4/4, last10 4/4, away 1/1, rest 1 day 1/1"
   },
   {
-   "book": "bet365",
+   "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.2389,
+   "ev": -0.4325,
    "fair": null,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.1667,
-   "k": 40.0,
-   "line": 14.5,
-   "opp": "DAL",
-   "player": "Aday Mara",
-   "player_id": "5174983",
-   "price_observed_at": "2026-10-29T01:01:36Z",
-   "prob": 0.2065,
-   "prob_raw": 0.1487,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
-     "split": "career"
-    },
-    {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
-     "split": "season"
-    },
-    {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
-     "split": "last5"
-    },
-    {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
-     "split": "last10"
-    },
-    {
-     "hits": 0,
-     "n": 1,
-     "rate": 0.0,
-     "split": "away"
-    },
-    {
-     "hits": 0,
-     "n": 1,
-     "rate": 0.0,
-     "split": "rest 1 day"
-    }
-   ],
-   "stat": "pts",
-   "status": "research",
-   "text": "[research] Aday Mara over 14.5 pts (@ DAL): p=0.206 (raw 0.149) vs bet365 implied 0.167 EV +0.239 @ bet365 | career 0/4, season 0/4, last5 0/4, last10 0/4, away 0/1, rest 1 day 0/1"
-  },
-  {
-   "book": "bet365",
-   "date": "2026-10-28",
-   "ev": 2.3038,
-   "fair": null,
-   "game_id": "401909891",
-   "home": false,
-   "implied": 0.0625,
-   "k": 40.0,
-   "line": 19.5,
-   "opp": "DAL",
-   "player": "Aday Mara",
-   "player_id": "5174983",
-   "price_observed_at": "2026-10-29T01:01:36Z",
-   "prob": 0.2065,
-   "prob_raw": 0.1487,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
-     "split": "career"
-    },
-    {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
-     "split": "season"
-    },
-    {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
-     "split": "last5"
-    },
-    {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
-     "split": "last10"
-    },
-    {
-     "hits": 0,
-     "n": 1,
-     "rate": 0.0,
-     "split": "away"
-    },
-    {
-     "hits": 0,
-     "n": 1,
-     "rate": 0.0,
-     "split": "rest 1 day"
-    }
-   ],
-   "stat": "pts",
-   "status": "research",
-   "text": "[research] Aday Mara over 19.5 pts (@ DAL): p=0.206 (raw 0.149) vs bet365 implied 0.062 EV +2.304 @ bet365 | career 0/4, season 0/4, last5 0/4, last10 0/4, away 0/1, rest 1 day 0/1"
-  },
-  {
-   "book": "bet365",
-   "date": "2026-10-28",
-   "ev": 6.4335,
-   "fair": null,
-   "game_id": "401909891",
-   "home": false,
-   "implied": 0.0278,
-   "k": 40.0,
-   "line": 24.5,
-   "opp": "DAL",
-   "player": "Aday Mara",
-   "player_id": "5174983",
-   "price_observed_at": "2026-10-29T01:01:36Z",
-   "prob": 0.2065,
-   "prob_raw": 0.1487,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
-     "split": "career"
-    },
-    {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
-     "split": "season"
-    },
-    {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
-     "split": "last5"
-    },
-    {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
-     "split": "last10"
-    },
-    {
-     "hits": 0,
-     "n": 1,
-     "rate": 0.0,
-     "split": "away"
-    },
-    {
-     "hits": 0,
-     "n": 1,
-     "rate": 0.0,
-     "split": "rest 1 day"
-    }
-   ],
-   "stat": "pts",
-   "status": "research",
-   "text": "[research] Aday Mara over 24.5 pts (@ DAL): p=0.206 (raw 0.149) vs bet365 implied 0.028 EV +6.434 @ bet365 | career 0/4, season 0/4, last5 0/4, last10 0/4, away 0/1, rest 1 day 0/1"
-  },
-  {
-   "book": "bet365",
-   "date": "2026-10-28",
-   "ev": 0.1357,
-   "fair": null,
-   "game_id": "401909891",
-   "home": false,
-   "implied": 0.1818,
+   "implied": 0.5714,
    "k": 40.0,
    "line": 2.5,
    "opp": "DAL",
-   "player": "Aday Mara",
-   "player_id": "5174983",
-   "price_observed_at": "2026-10-29T01:01:36Z",
-   "prob": 0.2065,
-   "prob_raw": 0.1487,
+   "player": "Jaylin Williams",
+   "player_id": "4432823",
+   "price_observed_at": "2026-10-29T01:17:38Z",
+   "prob": 0.3243,
+   "prob_raw": 0.2759,
    "side": "over",
    "splits": [
     {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
+     "hits": 75,
+     "n": 275,
+     "rate": 0.273,
      "split": "career"
     },
     {
-     "hits": 0,
+     "hits": 2,
      "n": 4,
-     "rate": 0.0,
+     "rate": 0.5,
      "split": "season"
     },
     {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
      "split": "last5"
     },
     {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
+     "hits": 3,
+     "n": 10,
+     "rate": 0.3,
      "split": "last10"
     },
     {
-     "hits": 0,
-     "n": 1,
-     "rate": 0.0,
+     "hits": 3,
+     "n": 15,
+     "rate": 0.2,
+     "split": "vs DAL"
+    },
+    {
+     "hits": 36,
+     "n": 136,
+     "rate": 0.265,
      "split": "away"
     },
     {
-     "hits": 0,
-     "n": 1,
-     "rate": 0.0,
+     "hits": 2,
+     "n": 7,
+     "rate": 0.286,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 39,
+     "n": 150,
+     "rate": 0.26,
      "split": "rest 1 day"
     }
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Aday Mara over 2.5 ast (@ DAL): p=0.206 (raw 0.149) vs bet365 implied 0.182 EV +0.136 @ bet365 | career 0/4, season 0/4, last5 0/4, last10 0/4, away 0/1, rest 1 day 0/1"
+   "text": "[research] Jaylin Williams over 2.5 ast (@ DAL): p=0.324 (raw 0.276) vs DraftKings implied 0.571 EV -0.432 @ DraftKings | career 75/275, season 2/4, last5 3/5, last10 3/10, vs DAL 3/15, away 36/136, month 10 past seasons 2/7, rest 1 day 39/150"
   },
   {
-   "book": "bet365",
+   "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 2.9232,
+   "ev": 0.2004,
    "fair": null,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.0526,
+   "implied": 0.5714,
+   "k": 40.0,
+   "line": 2.5,
+   "opp": "DAL",
+   "player": "Jaylin Williams",
+   "player_id": "4432823",
+   "price_observed_at": "2026-10-29T01:17:38Z",
+   "prob": 0.6859,
+   "prob_raw": 0.7241,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 200,
+     "n": 275,
+     "rate": 0.727,
+     "split": "career"
+    },
+    {
+     "hits": 2,
+     "n": 4,
+     "rate": 0.5,
+     "split": "season"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "last5"
+    },
+    {
+     "hits": 7,
+     "n": 10,
+     "rate": 0.7,
+     "split": "last10"
+    },
+    {
+     "hits": 12,
+     "n": 15,
+     "rate": 0.8,
+     "split": "vs DAL"
+    },
+    {
+     "hits": 100,
+     "n": 136,
+     "rate": 0.735,
+     "split": "away"
+    },
+    {
+     "hits": 5,
+     "n": 7,
+     "rate": 0.714,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 111,
+     "n": 150,
+     "rate": 0.74,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "ast",
+   "status": "research",
+   "text": "[research] Jaylin Williams under 2.5 ast (@ DAL): p=0.686 (raw 0.724) vs DraftKings implied 0.571 EV +0.200 @ DraftKings | career 200/275, season 2/4, last5 2/5, last10 7/10, vs DAL 12/15, away 100/136, month 10 past seasons 5/7, rest 1 day 111/150"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-10-28",
+   "ev": 0.2102,
+   "fair": null,
+   "game_id": "401909891",
+   "home": false,
+   "implied": 0.6135,
    "k": 40.0,
    "line": 4.5,
    "opp": "DAL",
-   "player": "Aday Mara",
-   "player_id": "5174983",
-   "price_observed_at": "2026-10-29T01:01:36Z",
-   "prob": 0.2065,
-   "prob_raw": 0.1487,
-   "side": "over",
+   "player": "Ajay Mitchell",
+   "player_id": "4900671",
+   "price_observed_at": "2026-10-29T01:17:38Z",
+   "prob": 0.7424,
+   "prob_raw": 0.7889,
+   "side": "under",
    "splits": [
     {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
+     "hits": 98,
+     "n": 120,
+     "rate": 0.817,
      "split": "career"
     },
     {
-     "hits": 0,
+     "hits": 2,
      "n": 4,
-     "rate": 0.0,
+     "rate": 0.5,
      "split": "season"
     },
     {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
      "split": "last5"
     },
     {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
+     "hits": 5,
+     "n": 10,
+     "rate": 0.5,
      "split": "last10"
     },
     {
-     "hits": 0,
-     "n": 1,
-     "rate": 0.0,
+     "hits": 4,
+     "n": 4,
+     "rate": 1.0,
+     "split": "vs DAL"
+    },
+    {
+     "hits": 45,
+     "n": 54,
+     "rate": 0.833,
      "split": "away"
     },
     {
-     "hits": 0,
-     "n": 1,
-     "rate": 0.0,
+     "hits": 9,
+     "n": 10,
+     "rate": 0.9,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 46,
+     "n": 59,
+     "rate": 0.78,
      "split": "rest 1 day"
     }
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Aday Mara over 4.5 ast (@ DAL): p=0.206 (raw 0.149) vs bet365 implied 0.053 EV +2.923 @ bet365 | career 0/4, season 0/4, last5 0/4, last10 0/4, away 0/1, rest 1 day 0/1"
+   "text": "[research] Ajay Mitchell under 4.5 ast (@ DAL): p=0.742 (raw 0.789) vs DraftKings implied 0.614 EV +0.210 @ DraftKings | career 98/120, season 2/4, last5 3/5, last10 5/10, vs DAL 4/4, away 45/54, month 10 past seasons 9/10, rest 1 day 46/59"
   },
   {
-   "book": "bet365",
+   "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 6.4335,
+   "ev": -0.3632,
    "fair": null,
    "game_id": "401909891",
    "home": false,
-   "implied": 0.0278,
+   "implied": 0.5952,
    "k": 40.0,
-   "line": 6.5,
+   "line": 5.5,
    "opp": "DAL",
-   "player": "Aday Mara",
-   "player_id": "5174983",
-   "price_observed_at": "2026-10-29T01:01:36Z",
-   "prob": 0.2065,
-   "prob_raw": 0.1487,
+   "player": "Jaylin Williams",
+   "player_id": "4432823",
+   "price_observed_at": "2026-10-29T01:17:38Z",
+   "prob": 0.379,
+   "prob_raw": 0.341,
    "side": "over",
    "splits": [
     {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
+     "hits": 92,
+     "n": 275,
+     "rate": 0.335,
      "split": "career"
     },
     {
-     "hits": 0,
+     "hits": 2,
      "n": 4,
-     "rate": 0.0,
+     "rate": 0.5,
      "split": "season"
     },
     {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
      "split": "last5"
     },
     {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
+     "hits": 4,
+     "n": 10,
+     "rate": 0.4,
      "split": "last10"
     },
     {
-     "hits": 0,
-     "n": 1,
-     "rate": 0.0,
+     "hits": 5,
+     "n": 15,
+     "rate": 0.333,
+     "split": "vs DAL"
+    },
+    {
+     "hits": 43,
+     "n": 136,
+     "rate": 0.316,
      "split": "away"
     },
     {
-     "hits": 0,
-     "n": 1,
-     "rate": 0.0,
+     "hits": 3,
+     "n": 7,
+     "rate": 0.429,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 51,
+     "n": 150,
+     "rate": 0.34,
      "split": "rest 1 day"
     }
    ],
-   "stat": "ast",
+   "stat": "reb",
    "status": "research",
-   "text": "[research] Aday Mara over 6.5 ast (@ DAL): p=0.206 (raw 0.149) vs bet365 implied 0.028 EV +6.434 @ bet365 | career 0/4, season 0/4, last5 0/4, last10 0/4, away 0/1, rest 1 day 0/1"
+   "text": "[research] Jaylin Williams over 5.5 reb (@ DAL): p=0.379 (raw 0.341) vs DraftKings implied 0.595 EV -0.363 @ DraftKings | career 92/275, season 2/4, last5 3/5, last10 4/10, vs DAL 5/15, away 43/136, month 10 past seasons 3/7, rest 1 day 51/150"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-10-28",
+   "ev": 0.0617,
+   "fair": null,
+   "game_id": "401909891",
+   "home": false,
+   "implied": 0.5952,
+   "k": 40.0,
+   "line": 5.5,
+   "opp": "DAL",
+   "player": "Jaylin Williams",
+   "player_id": "4432823",
+   "price_observed_at": "2026-10-29T01:17:38Z",
+   "prob": 0.632,
+   "prob_raw": 0.659,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 183,
+     "n": 275,
+     "rate": 0.665,
+     "split": "career"
+    },
+    {
+     "hits": 2,
+     "n": 4,
+     "rate": 0.5,
+     "split": "season"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "last5"
+    },
+    {
+     "hits": 6,
+     "n": 10,
+     "rate": 0.6,
+     "split": "last10"
+    },
+    {
+     "hits": 10,
+     "n": 15,
+     "rate": 0.667,
+     "split": "vs DAL"
+    },
+    {
+     "hits": 93,
+     "n": 136,
+     "rate": 0.684,
+     "split": "away"
+    },
+    {
+     "hits": 4,
+     "n": 7,
+     "rate": 0.571,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 99,
+     "n": 150,
+     "rate": 0.66,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "reb",
+   "status": "research",
+   "text": "[research] Jaylin Williams under 5.5 reb (@ DAL): p=0.632 (raw 0.659) vs DraftKings implied 0.595 EV +0.062 @ DraftKings | career 183/275, season 2/4, last5 2/5, last10 6/10, vs DAL 10/15, away 93/136, month 10 past seasons 4/7, rest 1 day 99/150"
   },
   {
    "book": "bet365",
@@ -26656,6 +27129,716 @@
    "stat": "reb",
    "status": "research",
    "text": "[research] Brook Lopez over 9.5 reb (vs LAL): p=0.136 (raw 0.085) vs bet365 implied 0.071 EV +0.907 @ bet365 | career 30/333, season 1/3, last5 1/5, last10 2/10, vs LAL 2/10, home 12/170, month 10 past seasons 1/19, rest 2+ days 3/73"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
+   "ev": -0.0423,
+   "fair": null,
+   "game_id": "401909892",
+   "home": false,
+   "implied": 0.6552,
+   "k": 40.0,
+   "line": 2.5,
+   "opp": "LAC",
+   "player": "Collin Sexton",
+   "player_id": "4277811",
+   "price_observed_at": "2026-10-29T01:05:30Z",
+   "prob": 0.6274,
+   "prob_raw": 0.6534,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 179,
+     "n": 260,
+     "rate": 0.688,
+     "split": "career"
+    },
+    {
+     "hits": 1,
+     "n": 3,
+     "rate": 0.333,
+     "split": "season"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "last5"
+    },
+    {
+     "hits": 4,
+     "n": 10,
+     "rate": 0.4,
+     "split": "last10"
+    },
+    {
+     "hits": 4,
+     "n": 11,
+     "rate": 0.364,
+     "split": "vs LAC"
+    },
+    {
+     "hits": 89,
+     "n": 129,
+     "rate": 0.69,
+     "split": "away"
+    },
+    {
+     "hits": 10,
+     "n": 22,
+     "rate": 0.455,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 31,
+     "n": 43,
+     "rate": 0.721,
+     "split": "rest b2b"
+    }
+   ],
+   "stat": "ast",
+   "status": "research",
+   "text": "[research] Collin Sexton over 2.5 ast (@ LAC): p=0.627 (raw 0.653) vs bet365 implied 0.655 EV -0.042 @ bet365 | career 179/260, season 1/3, last5 2/5, last10 4/10, vs LAC 4/11, away 89/129, month 10 past seasons 10/22, rest b2b 31/43"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
+   "ev": 0.2046,
+   "fair": null,
+   "game_id": "401909892",
+   "home": false,
+   "implied": 0.2985,
+   "k": 40.0,
+   "line": 4.5,
+   "opp": "LAC",
+   "player": "Collin Sexton",
+   "player_id": "4277811",
+   "price_observed_at": "2026-10-29T01:05:30Z",
+   "prob": 0.3596,
+   "prob_raw": 0.3176,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 94,
+     "n": 260,
+     "rate": 0.362,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 3,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 5,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 1,
+     "n": 10,
+     "rate": 0.1,
+     "split": "last10"
+    },
+    {
+     "hits": 1,
+     "n": 11,
+     "rate": 0.091,
+     "split": "vs LAC"
+    },
+    {
+     "hits": 45,
+     "n": 129,
+     "rate": 0.349,
+     "split": "away"
+    },
+    {
+     "hits": 3,
+     "n": 22,
+     "rate": 0.136,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 15,
+     "n": 43,
+     "rate": 0.349,
+     "split": "rest b2b"
+    }
+   ],
+   "stat": "ast",
+   "status": "research",
+   "text": "[research] Collin Sexton over 4.5 ast (@ LAC): p=0.360 (raw 0.318) vs bet365 implied 0.298 EV +0.205 @ bet365 | career 94/260, season 0/3, last5 0/5, last10 1/10, vs LAC 1/11, away 45/129, month 10 past seasons 3/22, rest b2b 15/43"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
+   "ev": 0.7211,
+   "fair": null,
+   "game_id": "401909892",
+   "home": false,
+   "implied": 0.1111,
+   "k": 40.0,
+   "line": 6.5,
+   "opp": "LAC",
+   "player": "Collin Sexton",
+   "player_id": "4277811",
+   "price_observed_at": "2026-10-29T01:05:30Z",
+   "prob": 0.1912,
+   "prob_raw": 0.134,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 38,
+     "n": 260,
+     "rate": 0.146,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 3,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 5,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 1,
+     "n": 10,
+     "rate": 0.1,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 11,
+     "rate": 0.0,
+     "split": "vs LAC"
+    },
+    {
+     "hits": 21,
+     "n": 129,
+     "rate": 0.163,
+     "split": "away"
+    },
+    {
+     "hits": 1,
+     "n": 22,
+     "rate": 0.045,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 6,
+     "n": 43,
+     "rate": 0.14,
+     "split": "rest b2b"
+    }
+   ],
+   "stat": "ast",
+   "status": "research",
+   "text": "[research] Collin Sexton over 6.5 ast (@ LAC): p=0.191 (raw 0.134) vs bet365 implied 0.111 EV +0.721 @ bet365 | career 38/260, season 0/3, last5 0/5, last10 1/10, vs LAC 0/11, away 21/129, month 10 past seasons 1/22, rest b2b 6/43"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
+   "ev": 0.6892,
+   "fair": null,
+   "game_id": "401909892",
+   "home": false,
+   "implied": 0.0385,
+   "k": 40.0,
+   "line": 9.5,
+   "opp": "LAC",
+   "player": "Collin Sexton",
+   "player_id": "4277811",
+   "price_observed_at": "2026-10-29T01:05:30Z",
+   "prob": 0.065,
+   "prob_raw": 0.0315,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 8,
+     "n": 260,
+     "rate": 0.031,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 3,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 5,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 0,
+     "n": 10,
+     "rate": 0.0,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 11,
+     "rate": 0.0,
+     "split": "vs LAC"
+    },
+    {
+     "hits": 4,
+     "n": 129,
+     "rate": 0.031,
+     "split": "away"
+    },
+    {
+     "hits": 0,
+     "n": 22,
+     "rate": 0.0,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 3,
+     "n": 43,
+     "rate": 0.07,
+     "split": "rest b2b"
+    }
+   ],
+   "stat": "ast",
+   "status": "research",
+   "text": "[research] Collin Sexton over 9.5 ast (@ LAC): p=0.065 (raw 0.032) vs bet365 implied 0.038 EV +0.689 @ bet365 | career 8/260, season 0/3, last5 0/5, last10 0/10, vs LAC 0/11, away 4/129, month 10 past seasons 0/22, rest b2b 3/43"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
+   "ev": -0.1531,
+   "fair": null,
+   "game_id": "401909892",
+   "home": false,
+   "implied": 0.8148,
+   "k": 40.0,
+   "line": 0.5,
+   "opp": "LAC",
+   "player": "Collin Sexton",
+   "player_id": "4277811",
+   "price_observed_at": "2026-10-29T01:03:37Z",
+   "prob": 0.6901,
+   "prob_raw": 0.729,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 193,
+     "n": 260,
+     "rate": 0.742,
+     "split": "career"
+    },
+    {
+     "hits": 2,
+     "n": 3,
+     "rate": 0.667,
+     "split": "season"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "last5"
+    },
+    {
+     "hits": 8,
+     "n": 10,
+     "rate": 0.8,
+     "split": "last10"
+    },
+    {
+     "hits": 7,
+     "n": 11,
+     "rate": 0.636,
+     "split": "vs LAC"
+    },
+    {
+     "hits": 97,
+     "n": 129,
+     "rate": 0.752,
+     "split": "away"
+    },
+    {
+     "hits": 12,
+     "n": 22,
+     "rate": 0.545,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 32,
+     "n": 43,
+     "rate": 0.744,
+     "split": "rest b2b"
+    }
+   ],
+   "stat": "fg3m",
+   "status": "research",
+   "text": "[research] Collin Sexton over 0.5 fg3m (@ LAC): p=0.690 (raw 0.729) vs bet365 implied 0.815 EV -0.153 @ bet365 | career 193/260, season 2/3, last5 3/5, last10 8/10, vs LAC 7/11, away 97/129, month 10 past seasons 12/22, rest b2b 32/43"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
+   "ev": -0.1477,
+   "fair": null,
+   "game_id": "401909892",
+   "home": false,
+   "implied": 0.495,
+   "k": 40.0,
+   "line": 1.5,
+   "opp": "LAC",
+   "player": "Collin Sexton",
+   "player_id": "4277811",
+   "price_observed_at": "2026-10-29T01:03:37Z",
+   "prob": 0.4219,
+   "prob_raw": 0.3939,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 115,
+     "n": 260,
+     "rate": 0.442,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 3,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 5,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 2,
+     "n": 10,
+     "rate": 0.2,
+     "split": "last10"
+    },
+    {
+     "hits": 3,
+     "n": 11,
+     "rate": 0.273,
+     "split": "vs LAC"
+    },
+    {
+     "hits": 54,
+     "n": 129,
+     "rate": 0.419,
+     "split": "away"
+    },
+    {
+     "hits": 7,
+     "n": 22,
+     "rate": 0.318,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 16,
+     "n": 43,
+     "rate": 0.372,
+     "split": "rest b2b"
+    }
+   ],
+   "stat": "fg3m",
+   "status": "research",
+   "text": "[research] Collin Sexton over 1.5 fg3m (@ LAC): p=0.422 (raw 0.394) vs bet365 implied 0.495 EV -0.148 @ bet365 | career 115/260, season 0/3, last5 0/5, last10 2/10, vs LAC 3/11, away 54/129, month 10 past seasons 7/22, rest b2b 16/43"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
+   "ev": 0.0832,
+   "fair": null,
+   "game_id": "401909892",
+   "home": false,
+   "implied": 0.2439,
+   "k": 40.0,
+   "line": 2.5,
+   "opp": "LAC",
+   "player": "Collin Sexton",
+   "player_id": "4277811",
+   "price_observed_at": "2026-10-29T01:03:37Z",
+   "prob": 0.2642,
+   "prob_raw": 0.2084,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 61,
+     "n": 260,
+     "rate": 0.235,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 3,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 5,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 2,
+     "n": 10,
+     "rate": 0.2,
+     "split": "last10"
+    },
+    {
+     "hits": 1,
+     "n": 11,
+     "rate": 0.091,
+     "split": "vs LAC"
+    },
+    {
+     "hits": 28,
+     "n": 129,
+     "rate": 0.217,
+     "split": "away"
+    },
+    {
+     "hits": 3,
+     "n": 22,
+     "rate": 0.136,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 9,
+     "n": 43,
+     "rate": 0.209,
+     "split": "rest b2b"
+    }
+   ],
+   "stat": "fg3m",
+   "status": "research",
+   "text": "[research] Collin Sexton over 2.5 fg3m (@ LAC): p=0.264 (raw 0.208) vs bet365 implied 0.244 EV +0.083 @ bet365 | career 61/260, season 0/3, last5 0/5, last10 2/10, vs LAC 1/11, away 28/129, month 10 past seasons 3/22, rest b2b 9/43"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
+   "ev": -0.0507,
+   "fair": null,
+   "game_id": "401909892",
+   "home": false,
+   "implied": 0.1111,
+   "k": 40.0,
+   "line": 3.5,
+   "opp": "LAC",
+   "player": "Collin Sexton",
+   "player_id": "4277811",
+   "price_observed_at": "2026-10-29T01:03:37Z",
+   "prob": 0.1055,
+   "prob_raw": 0.0599,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 20,
+     "n": 260,
+     "rate": 0.077,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 3,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 5,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 1,
+     "n": 10,
+     "rate": 0.1,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 11,
+     "rate": 0.0,
+     "split": "vs LAC"
+    },
+    {
+     "hits": 9,
+     "n": 129,
+     "rate": 0.07,
+     "split": "away"
+    },
+    {
+     "hits": 0,
+     "n": 22,
+     "rate": 0.0,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 1,
+     "n": 43,
+     "rate": 0.023,
+     "split": "rest b2b"
+    }
+   ],
+   "stat": "fg3m",
+   "status": "research",
+   "text": "[research] Collin Sexton over 3.5 fg3m (@ LAC): p=0.105 (raw 0.060) vs bet365 implied 0.111 EV -0.051 @ bet365 | career 20/260, season 0/3, last5 0/5, last10 1/10, vs LAC 0/11, away 9/129, month 10 past seasons 0/22, rest b2b 1/43"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
+   "ev": -0.1312,
+   "fair": null,
+   "game_id": "401909892",
+   "home": false,
+   "implied": 0.0625,
+   "k": 40.0,
+   "line": 4.5,
+   "opp": "LAC",
+   "player": "Collin Sexton",
+   "player_id": "4277811",
+   "price_observed_at": "2026-10-29T01:03:37Z",
+   "prob": 0.0543,
+   "prob_raw": 0.0249,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 8,
+     "n": 260,
+     "rate": 0.031,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 3,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 5,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 1,
+     "n": 10,
+     "rate": 0.1,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 11,
+     "rate": 0.0,
+     "split": "vs LAC"
+    },
+    {
+     "hits": 4,
+     "n": 129,
+     "rate": 0.031,
+     "split": "away"
+    },
+    {
+     "hits": 0,
+     "n": 22,
+     "rate": 0.0,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 0,
+     "n": 43,
+     "rate": 0.0,
+     "split": "rest b2b"
+    }
+   ],
+   "stat": "fg3m",
+   "status": "research",
+   "text": "[research] Collin Sexton over 4.5 fg3m (@ LAC): p=0.054 (raw 0.025) vs bet365 implied 0.062 EV -0.131 @ bet365 | career 8/260, season 0/3, last5 0/5, last10 1/10, vs LAC 0/11, away 4/129, month 10 past seasons 0/22, rest b2b 0/43"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
+   "ev": -0.387,
+   "fair": null,
+   "game_id": "401909892",
+   "home": false,
+   "implied": 0.0345,
+   "k": 40.0,
+   "line": 5.5,
+   "opp": "LAC",
+   "player": "Collin Sexton",
+   "player_id": "4277811",
+   "price_observed_at": "2026-10-29T01:03:37Z",
+   "prob": 0.0211,
+   "prob_raw": 0.0073,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 2,
+     "n": 260,
+     "rate": 0.008,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 3,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 5,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 0,
+     "n": 10,
+     "rate": 0.0,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 11,
+     "rate": 0.0,
+     "split": "vs LAC"
+    },
+    {
+     "hits": 1,
+     "n": 129,
+     "rate": 0.008,
+     "split": "away"
+    },
+    {
+     "hits": 0,
+     "n": 22,
+     "rate": 0.0,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 0,
+     "n": 43,
+     "rate": 0.0,
+     "split": "rest b2b"
+    }
+   ],
+   "stat": "fg3m",
+   "status": "research",
+   "text": "[research] Collin Sexton over 5.5 fg3m (@ LAC): p=0.021 (raw 0.007) vs bet365 implied 0.035 EV -0.387 @ bet365 | career 2/260, season 0/3, last5 0/5, last10 0/10, vs LAC 0/11, away 1/129, month 10 past seasons 0/22, rest b2b 0/43"
   },
   {
    "book": "bet365",
@@ -42134,6 +43317,77 @@
   {
    "book": "bet365",
    "date": "2026-10-28",
+   "ev": 0.0387,
+   "fair": null,
+   "game_id": "401909892",
+   "home": false,
+   "implied": 0.0278,
+   "k": 40.0,
+   "line": 6.5,
+   "opp": "LAC",
+   "player": "Quentin Grimes",
+   "player_id": "4397014",
+   "price_observed_at": "2026-10-29T01:03:37Z",
+   "prob": 0.0289,
+   "prob_raw": 0.0109,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 2,
+     "n": 297,
+     "rate": 0.007,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 4,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 5,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 0,
+     "n": 10,
+     "rate": 0.0,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 9,
+     "rate": 0.0,
+     "split": "vs LAC"
+    },
+    {
+     "hits": 2,
+     "n": 151,
+     "rate": 0.013,
+     "split": "away"
+    },
+    {
+     "hits": 0,
+     "n": 14,
+     "rate": 0.0,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 1,
+     "n": 45,
+     "rate": 0.022,
+     "split": "rest b2b"
+    }
+   ],
+   "stat": "fg3m",
+   "status": "research",
+   "text": "[research] Quentin Grimes over 6.5 fg3m (@ LAC): p=0.029 (raw 0.011) vs bet365 implied 0.028 EV +0.039 @ bet365 | career 2/297, season 0/4, last5 0/5, last10 0/10, vs LAC 0/9, away 2/151, month 10 past seasons 0/14, rest b2b 1/45"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-28",
    "ev": -0.2066,
    "fair": null,
    "game_id": "401909892",
@@ -47033,17 +48287,17 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.2135,
-   "fair": 0.5356,
+   "ev": 0.2066,
+   "fair": 0.537,
    "game_id": "401909892",
    "home": true,
-   "implied": 0.5682,
+   "implied": 0.5714,
    "k": 40.0,
    "line": 9.5,
    "opp": "LAL",
    "player": "Kris Dunn",
    "player_id": "2991139",
-   "price_observed_at": "2026-10-29T01:01:10Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6895,
    "prob_raw": 0.7283,
    "side": "under",
@@ -47099,16 +48353,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Kris Dunn under 9.5 pts (vs LAL): p=0.690 (raw 0.728) vs DraftKings implied 0.568 EV +0.213 @ DraftKings | career 187/254, season 2/3, last5 4/5, last10 8/10, vs LAL 8/14, home 95/125, month 10 past seasons 12/14, rest 2+ days 39/59"
+   "text": "[research] Kris Dunn under 9.5 pts (vs LAL): p=0.690 (raw 0.728) vs DraftKings implied 0.571 EV +0.207 @ DraftKings | career 187/254, season 2/3, last5 4/5, last10 8/10, vs LAL 8/14, home 95/125, month 10 past seasons 12/14, rest 2+ days 39/59"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.1023,
-   "fair": 0.5744,
+   "ev": 0.1226,
+   "fair": 0.5643,
    "game_id": "401909892",
    "home": true,
-   "implied": 0.6135,
+   "implied": 0.6024,
    "k": 40.0,
    "line": 4.5,
    "opp": "LAL",
@@ -47170,7 +48424,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Kris Dunn under 4.5 reb (vs LAL): p=0.676 (raw 0.713) vs DraftKings implied 0.614 EV +0.102 @ DraftKings | career 185/254, season 1/3, last5 3/5, last10 5/10, vs LAL 8/14, home 95/125, month 10 past seasons 11/14, rest 2+ days 42/59"
+   "text": "[research] Kris Dunn under 4.5 reb (vs LAL): p=0.676 (raw 0.713) vs DraftKings implied 0.602 EV +0.123 @ DraftKings | career 185/254, season 1/3, last5 3/5, last10 5/10, vs LAL 8/14, home 95/125, month 10 past seasons 11/14, rest 2+ days 42/59"
   },
   {
    "book": "DraftKings",
@@ -47388,11 +48642,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.2297,
-   "fair": 0.5733,
+   "ev": -0.2249,
+   "fair": 0.5696,
    "game_id": "401909892",
    "home": true,
-   "implied": 0.6135,
+   "implied": 0.6098,
    "k": 40.0,
    "line": 4.5,
    "opp": "LAL",
@@ -47454,7 +48708,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Brook Lopez under 4.5 reb (vs LAL): p=0.473 (raw 0.458) vs DraftKings implied 0.614 EV -0.230 @ DraftKings | career 152/333, season 2/3, last5 2/5, last10 3/10, vs LAL 4/10, home 71/170, month 10 past seasons 10/19, rest 2+ days 36/73"
+   "text": "[research] Brook Lopez under 4.5 reb (vs LAL): p=0.473 (raw 0.458) vs DraftKings implied 0.610 EV -0.225 @ DraftKings | career 152/333, season 2/3, last5 2/5, last10 3/10, vs LAL 4/10, home 71/170, month 10 past seasons 10/19, rest 2+ days 36/73"
   },
   {
    "book": "DraftKings",
@@ -47540,7 +48794,7 @@
    "opp": "LAC",
    "player": "Matisse Thybulle",
    "player_id": "3907498",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.3231,
    "prob_raw": 0.2746,
    "side": "over",
@@ -47611,7 +48865,7 @@
    "opp": "LAC",
    "player": "Matisse Thybulle",
    "player_id": "3907498",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.687,
    "prob_raw": 0.7254,
    "side": "under",
@@ -47956,11 +49210,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.2955,
-   "fair": 0.5464,
+   "ev": 0.3182,
+   "fair": 0.5372,
    "game_id": "401909892",
    "home": true,
-   "implied": 0.5848,
+   "implied": 0.5747,
    "k": 40.0,
    "line": 4.5,
    "opp": "LAL",
@@ -48022,7 +49276,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Derrick Jones Jr. under 4.5 reb (vs LAL): p=0.758 (raw 0.805) vs DraftKings implied 0.585 EV +0.295 @ DraftKings | career 243/302, season 1/3, last5 3/5, last10 6/10, vs LAL 8/9, home 125/155, month 10 past seasons 17/18, rest 2+ days 61/70"
+   "text": "[research] Derrick Jones Jr. under 4.5 reb (vs LAL): p=0.758 (raw 0.805) vs DraftKings implied 0.575 EV +0.318 @ DraftKings | career 243/302, season 1/3, last5 3/5, last10 6/10, vs LAL 8/9, home 125/155, month 10 past seasons 17/18, rest 2+ days 61/70"
   },
   {
    "book": "DraftKings",
@@ -49305,77 +50559,6 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.1309,
-   "fair": 0.4536,
-   "game_id": "401909892",
-   "home": false,
-   "implied": 0.4854,
-   "k": 40.0,
-   "line": 1.5,
-   "opp": "LAC",
-   "player": "Collin Sexton",
-   "player_id": "4277811",
-   "price_observed_at": "2026-10-29T00:54:00Z",
-   "prob": 0.4219,
-   "prob_raw": 0.3939,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 115,
-     "n": 260,
-     "rate": 0.442,
-     "split": "career"
-    },
-    {
-     "hits": 0,
-     "n": 3,
-     "rate": 0.0,
-     "split": "season"
-    },
-    {
-     "hits": 0,
-     "n": 5,
-     "rate": 0.0,
-     "split": "last5"
-    },
-    {
-     "hits": 2,
-     "n": 10,
-     "rate": 0.2,
-     "split": "last10"
-    },
-    {
-     "hits": 3,
-     "n": 11,
-     "rate": 0.273,
-     "split": "vs LAC"
-    },
-    {
-     "hits": 54,
-     "n": 129,
-     "rate": 0.419,
-     "split": "away"
-    },
-    {
-     "hits": 7,
-     "n": 22,
-     "rate": 0.318,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 16,
-     "n": 43,
-     "rate": 0.372,
-     "split": "rest b2b"
-    }
-   ],
-   "stat": "fg3m",
-   "status": "research",
-   "text": "[research] Collin Sexton over 1.5 fg3m (@ LAC): p=0.422 (raw 0.394) vs DraftKings implied 0.485 EV -0.131 @ DraftKings | career 115/260, season 0/3, last5 0/5, last10 2/10, vs LAC 3/11, away 54/129, month 10 past seasons 7/22, rest b2b 16/43"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-10-28",
    "ev": 0.0081,
    "fair": 0.5464,
    "game_id": "401909892",
@@ -49457,7 +50640,7 @@
    "opp": "LAC",
    "player": "Collin Sexton",
    "player_id": "4277811",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.4151,
    "prob_raw": 0.3854,
    "side": "under",
@@ -49670,7 +50853,7 @@
    "opp": "LAC",
    "player": "Sandro Mamukelashvili",
    "player_id": "4278580",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6946,
    "prob_raw": 0.7343,
    "side": "under",
@@ -49883,7 +51066,7 @@
    "opp": "LAC",
    "player": "Sandro Mamukelashvili",
    "player_id": "4278580",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.2812,
    "prob_raw": 0.227,
    "side": "over",
@@ -49954,7 +51137,7 @@
    "opp": "LAC",
    "player": "Sandro Mamukelashvili",
    "player_id": "4278580",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.7282,
    "prob_raw": 0.773,
    "side": "under",
@@ -50025,7 +51208,7 @@
    "opp": "LAC",
    "player": "Sandro Mamukelashvili",
    "player_id": "4278580",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:13:00Z",
    "prob": 0.5869,
    "prob_raw": 0.6029,
    "side": "under",
@@ -50451,7 +51634,7 @@
    "opp": "LAL",
    "player": "Darius Garland",
    "player_id": "4396907",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.3472,
    "prob_raw": 0.3028,
    "side": "over",
@@ -50522,7 +51705,7 @@
    "opp": "LAL",
    "player": "Darius Garland",
    "player_id": "4396907",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6634,
    "prob_raw": 0.6972,
    "side": "under",
@@ -50735,7 +51918,7 @@
    "opp": "LAC",
    "player": "Quentin Grimes",
    "player_id": "4397014",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.5734,
    "prob_raw": 0.5858,
    "side": "under",
@@ -51161,7 +52344,7 @@
    "opp": "LAC",
    "player": "Quentin Grimes",
    "player_id": "4397014",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.37,
    "prob_raw": 0.3301,
    "side": "over",
@@ -51232,7 +52415,7 @@
    "opp": "LAC",
    "player": "Quentin Grimes",
    "player_id": "4397014",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6409,
    "prob_raw": 0.6699,
    "side": "under",
@@ -51293,17 +52476,159 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.0956,
-   "fair": 0.577,
+   "ev": -0.2907,
+   "fair": null,
    "game_id": "401909892",
    "home": false,
    "implied": 0.6173,
+   "k": 40.0,
+   "line": 3.5,
+   "opp": "LAC",
+   "player": "Quentin Grimes",
+   "player_id": "4397014",
+   "price_observed_at": "2026-10-29T01:06:46Z",
+   "prob": 0.4378,
+   "prob_raw": 0.4138,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 123,
+     "n": 297,
+     "rate": 0.414,
+     "split": "career"
+    },
+    {
+     "hits": 2,
+     "n": 4,
+     "rate": 0.5,
+     "split": "season"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "last5"
+    },
+    {
+     "hits": 3,
+     "n": 10,
+     "rate": 0.3,
+     "split": "last10"
+    },
+    {
+     "hits": 4,
+     "n": 9,
+     "rate": 0.444,
+     "split": "vs LAC"
+    },
+    {
+     "hits": 61,
+     "n": 151,
+     "rate": 0.404,
+     "split": "away"
+    },
+    {
+     "hits": 3,
+     "n": 14,
+     "rate": 0.214,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 21,
+     "n": 45,
+     "rate": 0.467,
+     "split": "rest b2b"
+    }
+   ],
+   "stat": "reb",
+   "status": "research",
+   "text": "[research] Quentin Grimes over 3.5 reb (@ LAC): p=0.438 (raw 0.414) vs DraftKings implied 0.617 EV -0.291 @ DraftKings | career 123/297, season 2/4, last5 2/5, last10 3/10, vs LAC 4/9, away 61/151, month 10 past seasons 3/14, rest b2b 21/45"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-10-28",
+   "ev": -0.0706,
+   "fair": null,
+   "game_id": "401909892",
+   "home": false,
+   "implied": 0.6173,
+   "k": 40.0,
+   "line": 3.5,
+   "opp": "LAC",
+   "player": "Quentin Grimes",
+   "player_id": "4397014",
+   "price_observed_at": "2026-10-29T01:06:46Z",
+   "prob": 0.5737,
+   "prob_raw": 0.5862,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 174,
+     "n": 297,
+     "rate": 0.586,
+     "split": "career"
+    },
+    {
+     "hits": 2,
+     "n": 4,
+     "rate": 0.5,
+     "split": "season"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "last5"
+    },
+    {
+     "hits": 7,
+     "n": 10,
+     "rate": 0.7,
+     "split": "last10"
+    },
+    {
+     "hits": 5,
+     "n": 9,
+     "rate": 0.556,
+     "split": "vs LAC"
+    },
+    {
+     "hits": 90,
+     "n": 151,
+     "rate": 0.596,
+     "split": "away"
+    },
+    {
+     "hits": 11,
+     "n": 14,
+     "rate": 0.786,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 24,
+     "n": 45,
+     "rate": 0.533,
+     "split": "rest b2b"
+    }
+   ],
+   "stat": "reb",
+   "status": "research",
+   "text": "[research] Quentin Grimes under 3.5 reb (@ LAC): p=0.574 (raw 0.586) vs DraftKings implied 0.617 EV -0.071 @ DraftKings | career 174/297, season 2/4, last5 3/5, last10 7/10, vs LAC 5/9, away 90/151, month 10 past seasons 11/14, rest b2b 24/45"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-10-28",
+   "ev": 0.1024,
+   "fair": 0.5744,
+   "game_id": "401909892",
+   "home": false,
+   "implied": 0.6135,
    "k": 40.0,
    "line": 4.5,
    "opp": "LAC",
    "player": "Quentin Grimes",
    "player_id": "4397014",
-   "price_observed_at": "2026-10-29T01:01:10Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.6763,
    "prob_raw": 0.7127,
    "side": "under",
@@ -51359,7 +52684,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Quentin Grimes under 4.5 reb (@ LAC): p=0.676 (raw 0.713) vs DraftKings implied 0.617 EV +0.096 @ DraftKings | career 215/297, season 3/4, last5 4/5, last10 8/10, vs LAC 5/9, away 108/151, month 10 past seasons 11/14, rest b2b 29/45"
+   "text": "[research] Quentin Grimes under 4.5 reb (@ LAC): p=0.676 (raw 0.713) vs DraftKings implied 0.614 EV +0.102 @ DraftKings | career 215/297, season 3/4, last5 4/5, last10 8/10, vs LAC 5/9, away 108/151, month 10 past seasons 11/14, rest b2b 29/45"
   },
   {
    "book": "DraftKings",
@@ -51577,17 +52902,17 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.5732,
-   "fair": 0.4444,
+   "ev": 0.5657,
+   "fair": 0.4471,
    "game_id": "401909892",
    "home": true,
-   "implied": 0.4762,
+   "implied": 0.4785,
    "k": 40.0,
    "line": 6.5,
    "opp": "LAL",
    "player": "Isaiah Jackson",
    "player_id": "4432170",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.7492,
    "prob_raw": 0.7963,
    "side": "under",
@@ -51643,7 +52968,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Isaiah Jackson under 6.5 reb (vs LAL): p=0.749 (raw 0.796) vs DraftKings implied 0.476 EV +0.573 @ DraftKings | career 156/200, season 3/3, last5 5/5, last10 10/10, vs LAL 6/6, home 75/96, month 10 past seasons 14/18, rest 2+ days 49/62"
+   "text": "[research] Isaiah Jackson under 6.5 reb (vs LAL): p=0.749 (raw 0.796) vs DraftKings implied 0.478 EV +0.566 @ DraftKings | career 156/200, season 3/3, last5 5/5, last10 10/10, vs LAL 6/6, home 75/96, month 10 past seasons 14/18, rest 2+ days 49/62"
   },
   {
    "book": "DraftKings",
@@ -52084,7 +53409,7 @@
    "opp": "LAC",
    "player": "Walker Kessler",
    "player_id": "4433136",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.2734,
    "prob_raw": 0.2185,
    "side": "over",
@@ -52155,7 +53480,7 @@
    "opp": "LAC",
    "player": "Walker Kessler",
    "player_id": "4433136",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.7358,
    "prob_raw": 0.7815,
    "side": "under",
@@ -53494,11 +54819,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": 0.0052,
-   "fair": null,
+   "ev": 0.3701,
+   "fair": 0.4083,
    "game_id": "401909892",
    "home": true,
-   "implied": 0.5952,
+   "implied": 0.4367,
    "k": 40.0,
    "line": 2.5,
    "opp": "LAL",
@@ -53560,7 +54885,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Kobe Sanders under 2.5 reb (vs LAL): p=0.598 (raw 0.617) vs DraftKings implied 0.595 EV +0.005 @ DraftKings | career 44/72, season 1/3, last5 2/5, last10 6/10, vs LAL 2/4, home 23/34, month 10 past seasons 2/2, rest 2+ days 15/20"
+   "text": "[research] Kobe Sanders under 2.5 reb (vs LAL): p=0.598 (raw 0.617) vs DraftKings implied 0.437 EV +0.370 @ DraftKings | career 44/72, season 1/3, last5 2/5, last10 6/10, vs LAL 2/4, home 23/34, month 10 past seasons 2/2, rest 2+ days 15/20"
   },
   {
    "book": "DraftKings",
@@ -53717,7 +55042,7 @@
    "opp": "LAL",
    "player": "Keaton Wagler",
    "player_id": "5254165",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.5887,
    "prob_raw": 0.6051,
    "side": "over",
@@ -53776,7 +55101,7 @@
    "opp": "LAL",
    "player": "Keaton Wagler",
    "player_id": "5254165",
-   "price_observed_at": "2026-10-29T01:06:46Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.4227,
    "prob_raw": 0.3949,
    "side": "under",
@@ -54002,17 +55327,17 @@
   {
    "book": "DraftKings",
    "date": "2026-10-28",
-   "ev": -0.3237,
+   "ev": -0.3068,
    "fair": null,
    "game_id": "401909892",
    "home": true,
-   "implied": 0.625,
+   "implied": 0.6098,
    "k": 40.0,
    "line": 4.5,
    "opp": "LAL",
    "player": "Keaton Wagler",
    "player_id": "5254165",
-   "price_observed_at": "2026-10-29T00:45:00Z",
+   "price_observed_at": "2026-10-29T01:17:38Z",
    "prob": 0.4227,
    "prob_raw": 0.3949,
    "side": "under",
@@ -54056,862 +55381,10 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Keaton Wagler under 4.5 reb (vs LAL): p=0.423 (raw 0.395) vs DraftKings implied 0.625 EV -0.324 @ DraftKings | career 1/3, season 1/3, last5 1/3, last10 1/3, vs LAL 1/1, home 0/1"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-10-28",
-   "ev": -0.2907,
-   "fair": null,
-   "game_id": "401909892",
-   "home": false,
-   "implied": 0.6173,
-   "k": 40.0,
-   "line": 3.5,
-   "opp": "LAC",
-   "player": "Quentin Grimes",
-   "player_id": "4397014",
-   "price_observed_at": "2026-10-29T01:06:46Z",
-   "prob": 0.4378,
-   "prob_raw": 0.4138,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 123,
-     "n": 297,
-     "rate": 0.414,
-     "split": "career"
-    },
-    {
-     "hits": 2,
-     "n": 4,
-     "rate": 0.5,
-     "split": "season"
-    },
-    {
-     "hits": 2,
-     "n": 5,
-     "rate": 0.4,
-     "split": "last5"
-    },
-    {
-     "hits": 3,
-     "n": 10,
-     "rate": 0.3,
-     "split": "last10"
-    },
-    {
-     "hits": 4,
-     "n": 9,
-     "rate": 0.444,
-     "split": "vs LAC"
-    },
-    {
-     "hits": 61,
-     "n": 151,
-     "rate": 0.404,
-     "split": "away"
-    },
-    {
-     "hits": 3,
-     "n": 14,
-     "rate": 0.214,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 21,
-     "n": 45,
-     "rate": 0.467,
-     "split": "rest b2b"
-    }
-   ],
-   "stat": "reb",
-   "status": "research",
-   "text": "[research] Quentin Grimes over 3.5 reb (@ LAC): p=0.438 (raw 0.414) vs DraftKings implied 0.617 EV -0.291 @ DraftKings | career 123/297, season 2/4, last5 2/5, last10 3/10, vs LAC 4/9, away 61/151, month 10 past seasons 3/14, rest b2b 21/45"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-10-28",
-   "ev": -0.0706,
-   "fair": null,
-   "game_id": "401909892",
-   "home": false,
-   "implied": 0.6173,
-   "k": 40.0,
-   "line": 3.5,
-   "opp": "LAC",
-   "player": "Quentin Grimes",
-   "player_id": "4397014",
-   "price_observed_at": "2026-10-29T01:06:46Z",
-   "prob": 0.5737,
-   "prob_raw": 0.5862,
-   "side": "under",
-   "splits": [
-    {
-     "hits": 174,
-     "n": 297,
-     "rate": 0.586,
-     "split": "career"
-    },
-    {
-     "hits": 2,
-     "n": 4,
-     "rate": 0.5,
-     "split": "season"
-    },
-    {
-     "hits": 3,
-     "n": 5,
-     "rate": 0.6,
-     "split": "last5"
-    },
-    {
-     "hits": 7,
-     "n": 10,
-     "rate": 0.7,
-     "split": "last10"
-    },
-    {
-     "hits": 5,
-     "n": 9,
-     "rate": 0.556,
-     "split": "vs LAC"
-    },
-    {
-     "hits": 90,
-     "n": 151,
-     "rate": 0.596,
-     "split": "away"
-    },
-    {
-     "hits": 11,
-     "n": 14,
-     "rate": 0.786,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 24,
-     "n": 45,
-     "rate": 0.533,
-     "split": "rest b2b"
-    }
-   ],
-   "stat": "reb",
-   "status": "research",
-   "text": "[research] Quentin Grimes under 3.5 reb (@ LAC): p=0.574 (raw 0.586) vs DraftKings implied 0.617 EV -0.071 @ DraftKings | career 174/297, season 2/4, last5 3/5, last10 7/10, vs LAC 5/9, away 90/151, month 10 past seasons 11/14, rest b2b 24/45"
-  },
-  {
-   "book": "bet365",
-   "date": "2026-10-28",
-   "ev": -0.0423,
-   "fair": null,
-   "game_id": "401909892",
-   "home": false,
-   "implied": 0.6552,
-   "k": 40.0,
-   "line": 2.5,
-   "opp": "LAC",
-   "player": "Collin Sexton",
-   "player_id": "4277811",
-   "price_observed_at": "2026-10-29T01:05:30Z",
-   "prob": 0.6274,
-   "prob_raw": 0.6534,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 179,
-     "n": 260,
-     "rate": 0.688,
-     "split": "career"
-    },
-    {
-     "hits": 1,
-     "n": 3,
-     "rate": 0.333,
-     "split": "season"
-    },
-    {
-     "hits": 2,
-     "n": 5,
-     "rate": 0.4,
-     "split": "last5"
-    },
-    {
-     "hits": 4,
-     "n": 10,
-     "rate": 0.4,
-     "split": "last10"
-    },
-    {
-     "hits": 4,
-     "n": 11,
-     "rate": 0.364,
-     "split": "vs LAC"
-    },
-    {
-     "hits": 89,
-     "n": 129,
-     "rate": 0.69,
-     "split": "away"
-    },
-    {
-     "hits": 10,
-     "n": 22,
-     "rate": 0.455,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 31,
-     "n": 43,
-     "rate": 0.721,
-     "split": "rest b2b"
-    }
-   ],
-   "stat": "ast",
-   "status": "research",
-   "text": "[research] Collin Sexton over 2.5 ast (@ LAC): p=0.627 (raw 0.653) vs bet365 implied 0.655 EV -0.042 @ bet365 | career 179/260, season 1/3, last5 2/5, last10 4/10, vs LAC 4/11, away 89/129, month 10 past seasons 10/22, rest b2b 31/43"
-  },
-  {
-   "book": "bet365",
-   "date": "2026-10-28",
-   "ev": 0.2046,
-   "fair": null,
-   "game_id": "401909892",
-   "home": false,
-   "implied": 0.2985,
-   "k": 40.0,
-   "line": 4.5,
-   "opp": "LAC",
-   "player": "Collin Sexton",
-   "player_id": "4277811",
-   "price_observed_at": "2026-10-29T01:05:30Z",
-   "prob": 0.3596,
-   "prob_raw": 0.3176,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 94,
-     "n": 260,
-     "rate": 0.362,
-     "split": "career"
-    },
-    {
-     "hits": 0,
-     "n": 3,
-     "rate": 0.0,
-     "split": "season"
-    },
-    {
-     "hits": 0,
-     "n": 5,
-     "rate": 0.0,
-     "split": "last5"
-    },
-    {
-     "hits": 1,
-     "n": 10,
-     "rate": 0.1,
-     "split": "last10"
-    },
-    {
-     "hits": 1,
-     "n": 11,
-     "rate": 0.091,
-     "split": "vs LAC"
-    },
-    {
-     "hits": 45,
-     "n": 129,
-     "rate": 0.349,
-     "split": "away"
-    },
-    {
-     "hits": 3,
-     "n": 22,
-     "rate": 0.136,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 15,
-     "n": 43,
-     "rate": 0.349,
-     "split": "rest b2b"
-    }
-   ],
-   "stat": "ast",
-   "status": "research",
-   "text": "[research] Collin Sexton over 4.5 ast (@ LAC): p=0.360 (raw 0.318) vs bet365 implied 0.298 EV +0.205 @ bet365 | career 94/260, season 0/3, last5 0/5, last10 1/10, vs LAC 1/11, away 45/129, month 10 past seasons 3/22, rest b2b 15/43"
-  },
-  {
-   "book": "bet365",
-   "date": "2026-10-28",
-   "ev": 0.7211,
-   "fair": null,
-   "game_id": "401909892",
-   "home": false,
-   "implied": 0.1111,
-   "k": 40.0,
-   "line": 6.5,
-   "opp": "LAC",
-   "player": "Collin Sexton",
-   "player_id": "4277811",
-   "price_observed_at": "2026-10-29T01:05:30Z",
-   "prob": 0.1912,
-   "prob_raw": 0.134,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 38,
-     "n": 260,
-     "rate": 0.146,
-     "split": "career"
-    },
-    {
-     "hits": 0,
-     "n": 3,
-     "rate": 0.0,
-     "split": "season"
-    },
-    {
-     "hits": 0,
-     "n": 5,
-     "rate": 0.0,
-     "split": "last5"
-    },
-    {
-     "hits": 1,
-     "n": 10,
-     "rate": 0.1,
-     "split": "last10"
-    },
-    {
-     "hits": 0,
-     "n": 11,
-     "rate": 0.0,
-     "split": "vs LAC"
-    },
-    {
-     "hits": 21,
-     "n": 129,
-     "rate": 0.163,
-     "split": "away"
-    },
-    {
-     "hits": 1,
-     "n": 22,
-     "rate": 0.045,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 6,
-     "n": 43,
-     "rate": 0.14,
-     "split": "rest b2b"
-    }
-   ],
-   "stat": "ast",
-   "status": "research",
-   "text": "[research] Collin Sexton over 6.5 ast (@ LAC): p=0.191 (raw 0.134) vs bet365 implied 0.111 EV +0.721 @ bet365 | career 38/260, season 0/3, last5 0/5, last10 1/10, vs LAC 0/11, away 21/129, month 10 past seasons 1/22, rest b2b 6/43"
-  },
-  {
-   "book": "bet365",
-   "date": "2026-10-28",
-   "ev": 0.6892,
-   "fair": null,
-   "game_id": "401909892",
-   "home": false,
-   "implied": 0.0385,
-   "k": 40.0,
-   "line": 9.5,
-   "opp": "LAC",
-   "player": "Collin Sexton",
-   "player_id": "4277811",
-   "price_observed_at": "2026-10-29T01:05:30Z",
-   "prob": 0.065,
-   "prob_raw": 0.0315,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 8,
-     "n": 260,
-     "rate": 0.031,
-     "split": "career"
-    },
-    {
-     "hits": 0,
-     "n": 3,
-     "rate": 0.0,
-     "split": "season"
-    },
-    {
-     "hits": 0,
-     "n": 5,
-     "rate": 0.0,
-     "split": "last5"
-    },
-    {
-     "hits": 0,
-     "n": 10,
-     "rate": 0.0,
-     "split": "last10"
-    },
-    {
-     "hits": 0,
-     "n": 11,
-     "rate": 0.0,
-     "split": "vs LAC"
-    },
-    {
-     "hits": 4,
-     "n": 129,
-     "rate": 0.031,
-     "split": "away"
-    },
-    {
-     "hits": 0,
-     "n": 22,
-     "rate": 0.0,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 3,
-     "n": 43,
-     "rate": 0.07,
-     "split": "rest b2b"
-    }
-   ],
-   "stat": "ast",
-   "status": "research",
-   "text": "[research] Collin Sexton over 9.5 ast (@ LAC): p=0.065 (raw 0.032) vs bet365 implied 0.038 EV +0.689 @ bet365 | career 8/260, season 0/3, last5 0/5, last10 0/10, vs LAC 0/11, away 4/129, month 10 past seasons 0/22, rest b2b 3/43"
-  },
-  {
-   "book": "bet365",
-   "date": "2026-10-28",
-   "ev": -0.1531,
-   "fair": null,
-   "game_id": "401909892",
-   "home": false,
-   "implied": 0.8148,
-   "k": 40.0,
-   "line": 0.5,
-   "opp": "LAC",
-   "player": "Collin Sexton",
-   "player_id": "4277811",
-   "price_observed_at": "2026-10-29T01:03:37Z",
-   "prob": 0.6901,
-   "prob_raw": 0.729,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 193,
-     "n": 260,
-     "rate": 0.742,
-     "split": "career"
-    },
-    {
-     "hits": 2,
-     "n": 3,
-     "rate": 0.667,
-     "split": "season"
-    },
-    {
-     "hits": 3,
-     "n": 5,
-     "rate": 0.6,
-     "split": "last5"
-    },
-    {
-     "hits": 8,
-     "n": 10,
-     "rate": 0.8,
-     "split": "last10"
-    },
-    {
-     "hits": 7,
-     "n": 11,
-     "rate": 0.636,
-     "split": "vs LAC"
-    },
-    {
-     "hits": 97,
-     "n": 129,
-     "rate": 0.752,
-     "split": "away"
-    },
-    {
-     "hits": 12,
-     "n": 22,
-     "rate": 0.545,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 32,
-     "n": 43,
-     "rate": 0.744,
-     "split": "rest b2b"
-    }
-   ],
-   "stat": "fg3m",
-   "status": "research",
-   "text": "[research] Collin Sexton over 0.5 fg3m (@ LAC): p=0.690 (raw 0.729) vs bet365 implied 0.815 EV -0.153 @ bet365 | career 193/260, season 2/3, last5 3/5, last10 8/10, vs LAC 7/11, away 97/129, month 10 past seasons 12/22, rest b2b 32/43"
-  },
-  {
-   "book": "bet365",
-   "date": "2026-10-28",
-   "ev": 0.0832,
-   "fair": null,
-   "game_id": "401909892",
-   "home": false,
-   "implied": 0.2439,
-   "k": 40.0,
-   "line": 2.5,
-   "opp": "LAC",
-   "player": "Collin Sexton",
-   "player_id": "4277811",
-   "price_observed_at": "2026-10-29T01:03:37Z",
-   "prob": 0.2642,
-   "prob_raw": 0.2084,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 61,
-     "n": 260,
-     "rate": 0.235,
-     "split": "career"
-    },
-    {
-     "hits": 0,
-     "n": 3,
-     "rate": 0.0,
-     "split": "season"
-    },
-    {
-     "hits": 0,
-     "n": 5,
-     "rate": 0.0,
-     "split": "last5"
-    },
-    {
-     "hits": 2,
-     "n": 10,
-     "rate": 0.2,
-     "split": "last10"
-    },
-    {
-     "hits": 1,
-     "n": 11,
-     "rate": 0.091,
-     "split": "vs LAC"
-    },
-    {
-     "hits": 28,
-     "n": 129,
-     "rate": 0.217,
-     "split": "away"
-    },
-    {
-     "hits": 3,
-     "n": 22,
-     "rate": 0.136,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 9,
-     "n": 43,
-     "rate": 0.209,
-     "split": "rest b2b"
-    }
-   ],
-   "stat": "fg3m",
-   "status": "research",
-   "text": "[research] Collin Sexton over 2.5 fg3m (@ LAC): p=0.264 (raw 0.208) vs bet365 implied 0.244 EV +0.083 @ bet365 | career 61/260, season 0/3, last5 0/5, last10 2/10, vs LAC 1/11, away 28/129, month 10 past seasons 3/22, rest b2b 9/43"
-  },
-  {
-   "book": "bet365",
-   "date": "2026-10-28",
-   "ev": -0.0507,
-   "fair": null,
-   "game_id": "401909892",
-   "home": false,
-   "implied": 0.1111,
-   "k": 40.0,
-   "line": 3.5,
-   "opp": "LAC",
-   "player": "Collin Sexton",
-   "player_id": "4277811",
-   "price_observed_at": "2026-10-29T01:03:37Z",
-   "prob": 0.1055,
-   "prob_raw": 0.0599,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 20,
-     "n": 260,
-     "rate": 0.077,
-     "split": "career"
-    },
-    {
-     "hits": 0,
-     "n": 3,
-     "rate": 0.0,
-     "split": "season"
-    },
-    {
-     "hits": 0,
-     "n": 5,
-     "rate": 0.0,
-     "split": "last5"
-    },
-    {
-     "hits": 1,
-     "n": 10,
-     "rate": 0.1,
-     "split": "last10"
-    },
-    {
-     "hits": 0,
-     "n": 11,
-     "rate": 0.0,
-     "split": "vs LAC"
-    },
-    {
-     "hits": 9,
-     "n": 129,
-     "rate": 0.07,
-     "split": "away"
-    },
-    {
-     "hits": 0,
-     "n": 22,
-     "rate": 0.0,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 1,
-     "n": 43,
-     "rate": 0.023,
-     "split": "rest b2b"
-    }
-   ],
-   "stat": "fg3m",
-   "status": "research",
-   "text": "[research] Collin Sexton over 3.5 fg3m (@ LAC): p=0.105 (raw 0.060) vs bet365 implied 0.111 EV -0.051 @ bet365 | career 20/260, season 0/3, last5 0/5, last10 1/10, vs LAC 0/11, away 9/129, month 10 past seasons 0/22, rest b2b 1/43"
-  },
-  {
-   "book": "bet365",
-   "date": "2026-10-28",
-   "ev": -0.1312,
-   "fair": null,
-   "game_id": "401909892",
-   "home": false,
-   "implied": 0.0625,
-   "k": 40.0,
-   "line": 4.5,
-   "opp": "LAC",
-   "player": "Collin Sexton",
-   "player_id": "4277811",
-   "price_observed_at": "2026-10-29T01:03:37Z",
-   "prob": 0.0543,
-   "prob_raw": 0.0249,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 8,
-     "n": 260,
-     "rate": 0.031,
-     "split": "career"
-    },
-    {
-     "hits": 0,
-     "n": 3,
-     "rate": 0.0,
-     "split": "season"
-    },
-    {
-     "hits": 0,
-     "n": 5,
-     "rate": 0.0,
-     "split": "last5"
-    },
-    {
-     "hits": 1,
-     "n": 10,
-     "rate": 0.1,
-     "split": "last10"
-    },
-    {
-     "hits": 0,
-     "n": 11,
-     "rate": 0.0,
-     "split": "vs LAC"
-    },
-    {
-     "hits": 4,
-     "n": 129,
-     "rate": 0.031,
-     "split": "away"
-    },
-    {
-     "hits": 0,
-     "n": 22,
-     "rate": 0.0,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 0,
-     "n": 43,
-     "rate": 0.0,
-     "split": "rest b2b"
-    }
-   ],
-   "stat": "fg3m",
-   "status": "research",
-   "text": "[research] Collin Sexton over 4.5 fg3m (@ LAC): p=0.054 (raw 0.025) vs bet365 implied 0.062 EV -0.131 @ bet365 | career 8/260, season 0/3, last5 0/5, last10 1/10, vs LAC 0/11, away 4/129, month 10 past seasons 0/22, rest b2b 0/43"
-  },
-  {
-   "book": "bet365",
-   "date": "2026-10-28",
-   "ev": -0.387,
-   "fair": null,
-   "game_id": "401909892",
-   "home": false,
-   "implied": 0.0345,
-   "k": 40.0,
-   "line": 5.5,
-   "opp": "LAC",
-   "player": "Collin Sexton",
-   "player_id": "4277811",
-   "price_observed_at": "2026-10-29T01:03:37Z",
-   "prob": 0.0211,
-   "prob_raw": 0.0073,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 2,
-     "n": 260,
-     "rate": 0.008,
-     "split": "career"
-    },
-    {
-     "hits": 0,
-     "n": 3,
-     "rate": 0.0,
-     "split": "season"
-    },
-    {
-     "hits": 0,
-     "n": 5,
-     "rate": 0.0,
-     "split": "last5"
-    },
-    {
-     "hits": 0,
-     "n": 10,
-     "rate": 0.0,
-     "split": "last10"
-    },
-    {
-     "hits": 0,
-     "n": 11,
-     "rate": 0.0,
-     "split": "vs LAC"
-    },
-    {
-     "hits": 1,
-     "n": 129,
-     "rate": 0.008,
-     "split": "away"
-    },
-    {
-     "hits": 0,
-     "n": 22,
-     "rate": 0.0,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 0,
-     "n": 43,
-     "rate": 0.0,
-     "split": "rest b2b"
-    }
-   ],
-   "stat": "fg3m",
-   "status": "research",
-   "text": "[research] Collin Sexton over 5.5 fg3m (@ LAC): p=0.021 (raw 0.007) vs bet365 implied 0.035 EV -0.387 @ bet365 | career 2/260, season 0/3, last5 0/5, last10 0/10, vs LAC 0/11, away 1/129, month 10 past seasons 0/22, rest b2b 0/43"
-  },
-  {
-   "book": "bet365",
-   "date": "2026-10-28",
-   "ev": 0.0387,
-   "fair": null,
-   "game_id": "401909892",
-   "home": false,
-   "implied": 0.0278,
-   "k": 40.0,
-   "line": 6.5,
-   "opp": "LAC",
-   "player": "Quentin Grimes",
-   "player_id": "4397014",
-   "price_observed_at": "2026-10-29T01:03:37Z",
-   "prob": 0.0289,
-   "prob_raw": 0.0109,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 2,
-     "n": 297,
-     "rate": 0.007,
-     "split": "career"
-    },
-    {
-     "hits": 0,
-     "n": 4,
-     "rate": 0.0,
-     "split": "season"
-    },
-    {
-     "hits": 0,
-     "n": 5,
-     "rate": 0.0,
-     "split": "last5"
-    },
-    {
-     "hits": 0,
-     "n": 10,
-     "rate": 0.0,
-     "split": "last10"
-    },
-    {
-     "hits": 0,
-     "n": 9,
-     "rate": 0.0,
-     "split": "vs LAC"
-    },
-    {
-     "hits": 2,
-     "n": 151,
-     "rate": 0.013,
-     "split": "away"
-    },
-    {
-     "hits": 0,
-     "n": 14,
-     "rate": 0.0,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 1,
-     "n": 45,
-     "rate": 0.022,
-     "split": "rest b2b"
-    }
-   ],
-   "stat": "fg3m",
-   "status": "research",
-   "text": "[research] Quentin Grimes over 6.5 fg3m (@ LAC): p=0.029 (raw 0.011) vs bet365 implied 0.028 EV +0.039 @ bet365 | career 2/297, season 0/4, last5 0/5, last10 0/10, vs LAC 0/9, away 2/151, month 10 past seasons 0/14, rest b2b 1/45"
+   "text": "[research] Keaton Wagler under 4.5 reb (vs LAL): p=0.423 (raw 0.395) vs DraftKings implied 0.610 EV -0.307 @ DraftKings | career 1/3, season 1/3, last5 1/3, last10 1/3, vs LAL 1/1, home 0/1"
   }
  ],
- "run_id": "run-2026-10-29T01:06:46Z",
+ "run_id": "run-2026-10-29T01:17:38Z",
  "slate": "2026-10-28",
  "status": "research/watchlist only"
 }
