@@ -1,9 +1,9 @@
-# Backup and restore (free, on change)
+# Backup and restore (free, daily and on change)
 
 Goal: never depend on GitHub alone. Two copies, both free.
 
 ## 1. Automatic bundle (no action needed)
-Workflow `nba-backup` builds `nba-picks.bundle` (every branch, full history) and attaches it to the run as the artifact `nba-picks-bundle`, kept 90 days. It runs when `main` changes: on every push and after each `nba-daily`, `nba-backfill`, `nba-research` and `nba-backtest` run. Nothing is created when nothing changed.
+Workflow `nba-backup` builds `nba-picks.bundle` (every branch, full history) and attaches it to the run as the artifact `nba-picks-bundle`, kept 90 days. It runs on every push to `main` and once a day at 14:15 UTC, which picks up the bot's data commits from `nba-daily`, `nba-backfill`, `nba-research` and `nba-backtest` (bot commits do not trigger push workflows). It no longer runs after every data run: that doubled the Actions minutes of each cron slot. To back up right away, run it by hand (Actions → nba-backup → Run workflow).
 To keep it: GitHub → Actions → nba-backup → latest run → download `nba-picks-bundle`, unzip and store the file somewhere outside GitHub (Mac, external drive, iCloud/Drive).
 
 ## 2. Local mirror on your Mac (recommended, 30 seconds)
