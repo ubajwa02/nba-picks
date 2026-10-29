@@ -2,33 +2,33 @@
  "espn_boxscore": {
   "consecutive_failures": 0,
   "last_detail": "",
-  "last_ok": "2026-10-29T01:49:36Z"
+  "last_ok": "2026-10-29T02:24:48Z"
  },
  "espn_injuries": {
   "consecutive_failures": 0,
   "last_detail": "87 listed",
-  "last_ok": "2026-10-29T01:54:34Z"
+  "last_ok": "2026-10-29T02:24:48Z"
  },
  "espn_odds": {
   "consecutive_failures": 0,
   "last_detail": "",
-  "last_ok": "2026-10-29T01:54:34Z"
+  "last_ok": "2026-10-29T02:24:48Z"
  },
  "espn_props": {
   "consecutive_failures": 0,
   "last_detail": "",
   "last_error": "2026-10-28T06:28:24Z",
   "last_error_detail": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909892/competitions/401909892/odds/100/propBets?limit=1000: 404 Not Found",
-  "last_ok": "2026-10-29T01:54:34Z"
+  "last_ok": "2026-10-29T02:24:48Z"
  },
  "espn_scoreboard": {
   "consecutive_failures": 0,
   "last_detail": "",
-  "last_ok": "2026-10-29T01:54:34Z"
+  "last_ok": "2026-10-29T02:24:48Z"
  },
  "moviodds": {
   "consecutive_failures": 0,
-  "last_detail": "297 quotes; 0 unmapped",
-  "last_ok": "2026-10-29T01:54:34Z"
+  "last_detail": "315 quotes; 0 unmapped",
+  "last_ok": "2026-10-29T02:24:48Z"
  }
 }

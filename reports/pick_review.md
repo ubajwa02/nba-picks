@@ -2,16 +2,19 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 26-14 on 40 graded posted picks, +5.01u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 20-11 (+2.87u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 13-6 (+5.17u); gap<5pts 10-7 (-1.61u); gap>=15pts 3-1 (+1.44u).
-- By closing-line move: flat 8-3 (+3.56u); moved away 3-0 (+1.51u); moved toward us 4-2 (+1.68u).
-- Wider settled predictions (n=6306): model Brier 0.1489 vs book 0.1482 (lower is better).
+- 29-14 on 43 graded posted picks, +6.77u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 23-11 (+4.63u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 13-6 (+5.17u); gap<5pts 13-7 (+0.15u); gap>=15pts 3-1 (+1.44u).
+- By closing-line move: flat 8-3 (+3.56u); moved away 3-0 (+1.51u); moved toward us 5-2 (+2.26u).
+- Wider settled predictions (n=7984): model Brier 0.1479 vs book 0.1458 (lower is better).
 
 ## 2026-10-28
 
 | Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
 |---|---|---|---|---|---|---|---|
+| Zion Williamson u3.5 ast | win | +0.64 | 0.636 | 0.609 | +0.04 |  | career 81/195, season 3/3, last10 9/10 |
+| Jeremiah Fears o2.5 reb | win | +0.58 | 0.627 | 0.632 | -0.01 | +0.011 | career 58/85, season 2/3, last10 7/10 |
+| Jay Huff u1.5 fg3m | win | +0.54 | 0.681 | 0.649 | +0.05 |  | career 113/178, season 2/3, last10 4/10 |
 | Evan Mobley u1.5 fg3m | loss | -1.00 | 0.644 | 0.645 | -0.00 |  | career 244/307, season 1/3, last10 5/10 |
 | Dennis Schroder u1.5 fg3m | loss | -1.00 | 0.659 | 0.636 | +0.04 |  | career 213/331, season 3/4, last10 8/10 |
 | Alex Sarr o1.5 ast | win | +0.53 | 0.683 | 0.654 | +0.04 |  | career 83/119, season 3/4, last10 6/10 |
