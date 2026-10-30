@@ -1,25 +1,27 @@
 {
  "candidates": 498,
  "decisions": {
-  "ml:reject": 4,
+  "ml:reject": 2,
+  "ml:watch": 2,
   "prop:hold": 5,
   "prop:reject": 481,
-  "spread:reject": 4,
+  "spread:hold": 2,
+  "spread:reject": 2,
   "total:reject": 3,
   "total:watch": 1
  },
  "eligible": 0,
  "games": 1,
- "injuries_observed_at": "2026-10-30T01:12:24Z",
+ "injuries_observed_at": "2026-10-30T01:22:34Z",
  "lottos": 0,
  "model": "ratings-v1-trend",
  "model_ready": true,
  "parlays": 0,
  "pred_ids": [
-  "8cf8270d3e4d0a46",
-  "3e77085088ce8c0a",
-  "e665daf41734a543",
-  "a8e4cf36ada631ef",
+  "71f3c14721c5b663",
+  "0cff870712bb0250",
+  "714d3cffbc7fe360",
+  "5f3477ead5a44912",
   "9ec6d8b865f518c2",
   "14110d333d38f9b9",
   "12aec153db1584e8",
@@ -506,12 +508,12 @@
   "253da0671a8c3937",
   "b670b45e63ed289d",
   "27b8fe27b035f914",
-  "5477759622f12d65",
-  "a09a6b9fcc37a755",
-  "f80539286037d978",
-  "bcf398e93d0d3b9e",
-  "37b1d678414b502f",
-  "2964cd9693280a35",
+  "608766e9919e9c45",
+  "55bb2bacd287d938",
+  "668bf960739d1266",
+  "e907b35f89ba9fe0",
+  "7b4be86729fa2d50",
+  "7acecae84879a846",
   "0cd26e951e067283",
   "6b5d4b07ac14f65f"
  ],
@@ -527,8 +529,8 @@
    "pairs_verified": 0
   }
  },
- "run_id": "run-2026-10-30T01:12:24Z",
+ "run_id": "run-2026-10-30T01:22:34Z",
  "slate": "2026-10-29",
  "split_cards": 444,
- "written": 30
+ "written": 10
 }
