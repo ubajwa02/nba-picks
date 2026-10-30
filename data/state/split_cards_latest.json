@@ -23464,11 +23464,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.2715,
-   "fair": 0.5464,
+   "ev": -0.2757,
+   "fair": 0.5491,
    "game_id": "401909895",
    "home": false,
-   "implied": 0.5848,
+   "implied": 0.5882,
    "k": 40.0,
    "line": 1.5,
    "opp": "POR",
@@ -23524,16 +23524,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Jerami Grant under 1.5 fg3m (@ POR): p=0.426 (raw 0.399) vs DraftKings implied 0.585 EV -0.272 @ DraftKings | career 87/231, season 2/4, last5 3/5, last10 6/10, away 50/119, month 10 past seasons 8/21, rest 2+ days 21/57"
+   "text": "[research] Jerami Grant under 1.5 fg3m (@ POR): p=0.426 (raw 0.399) vs DraftKings implied 0.588 EV -0.276 @ DraftKings | career 87/231, season 2/4, last5 3/5, last10 6/10, away 50/119, month 10 past seasons 8/21, rest 2+ days 21/57"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": 0.3685,
+   "ev": 0.3609,
    "fair": null,
    "game_id": "401909895",
    "home": false,
-   "implied": 0.5525,
+   "implied": 0.5556,
    "k": 40.0,
    "line": 10.5,
    "opp": "POR",
@@ -23589,16 +23589,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Jerami Grant over 10.5 pts (@ POR): p=0.756 (raw 0.804) vs DraftKings implied 0.552 EV +0.368 @ DraftKings | career 192/231, season 2/4, last5 3/5, last10 6/10, away 93/119, month 10 past seasons 18/21, rest 2+ days 49/57"
+   "text": "[research] Jerami Grant over 10.5 pts (@ POR): p=0.756 (raw 0.804) vs DraftKings implied 0.556 EV +0.361 @ DraftKings | career 192/231, season 2/4, last5 3/5, last10 6/10, away 93/119, month 10 past seasons 18/21, rest 2+ days 49/57"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.5426,
+   "ev": -0.5451,
    "fair": null,
    "game_id": "401909895",
    "home": false,
-   "implied": 0.5525,
+   "implied": 0.5556,
    "k": 40.0,
    "line": 10.5,
    "opp": "POR",
@@ -23654,7 +23654,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Jerami Grant under 10.5 pts (@ POR): p=0.253 (raw 0.196) vs DraftKings implied 0.552 EV -0.543 @ DraftKings | career 39/231, season 2/4, last5 2/5, last10 4/10, away 26/119, month 10 past seasons 3/21, rest 2+ days 8/57"
+   "text": "[research] Jerami Grant under 10.5 pts (@ POR): p=0.253 (raw 0.196) vs DraftKings implied 0.556 EV -0.545 @ DraftKings | career 39/231, season 2/4, last5 2/5, last10 4/10, away 26/119, month 10 past seasons 3/21, rest 2+ days 8/57"
   },
   {
    "book": "DraftKings",
@@ -23724,11 +23724,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.3603,
-   "fair": 0.5917,
+   "ev": -0.3441,
+   "fair": 0.577,
    "game_id": "401909895",
    "home": false,
-   "implied": 0.6329,
+   "implied": 0.6173,
    "k": 40.0,
    "line": 2.5,
    "opp": "POR",
@@ -23784,16 +23784,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Jerami Grant under 2.5 reb (@ POR): p=0.405 (raw 0.373) vs DraftKings implied 0.633 EV -0.360 @ DraftKings | career 82/231, season 2/4, last5 3/5, last10 7/10, away 43/119, month 10 past seasons 5/21, rest 2+ days 23/57"
+   "text": "[research] Jerami Grant under 2.5 reb (@ POR): p=0.405 (raw 0.373) vs DraftKings implied 0.617 EV -0.344 @ DraftKings | career 82/231, season 2/4, last5 3/5, last10 7/10, away 43/119, month 10 past seasons 5/21, rest 2+ days 23/57"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": 0.116,
+   "ev": 0.1293,
    "fair": null,
    "game_id": "401909895",
    "home": true,
-   "implied": 0.5988,
+   "implied": 0.5917,
    "k": 40.0,
    "line": 3.5,
    "opp": "MEM",
@@ -23855,16 +23855,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Jrue Holiday over 3.5 ast (vs MEM): p=0.668 (raw 0.703) vs DraftKings implied 0.599 EV +0.116 @ DraftKings | career 210/292, season 1/3, last5 3/5, last10 7/10, vs MEM 6/7, home 102/145, month 10 past seasons 16/20, rest 1 day 112/160"
+   "text": "[research] Jrue Holiday over 3.5 ast (vs MEM): p=0.668 (raw 0.703) vs DraftKings implied 0.592 EV +0.129 @ DraftKings | career 210/292, season 1/3, last5 3/5, last10 7/10, vs MEM 6/7, home 102/145, month 10 past seasons 16/20, rest 1 day 112/160"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.4284,
+   "ev": -0.4216,
    "fair": null,
    "game_id": "401909895",
    "home": true,
-   "implied": 0.5988,
+   "implied": 0.5917,
    "k": 40.0,
    "line": 3.5,
    "opp": "MEM",
@@ -23926,16 +23926,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Jrue Holiday under 3.5 ast (vs MEM): p=0.342 (raw 0.297) vs DraftKings implied 0.599 EV -0.428 @ DraftKings | career 82/292, season 2/3, last5 2/5, last10 3/10, vs MEM 1/7, home 43/145, month 10 past seasons 4/20, rest 1 day 48/160"
+   "text": "[research] Jrue Holiday under 3.5 ast (vs MEM): p=0.342 (raw 0.297) vs DraftKings implied 0.592 EV -0.422 @ DraftKings | career 82/292, season 2/3, last5 2/5, last10 3/10, vs MEM 1/7, home 43/145, month 10 past seasons 4/20, rest 1 day 48/160"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.1215,
-   "fair": 0.4357,
+   "ev": -0.1051,
+   "fair": 0.4267,
    "game_id": "401909895",
    "home": true,
-   "implied": 0.4651,
+   "implied": 0.4566,
    "k": 40.0,
    "line": 1.5,
    "opp": "MEM",
@@ -23997,7 +23997,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Jrue Holiday under 1.5 fg3m (vs MEM): p=0.409 (raw 0.377) vs DraftKings implied 0.465 EV -0.121 @ DraftKings | career 112/292, season 1/3, last5 2/5, last10 3/10, vs MEM 3/7, home 57/145, month 10 past seasons 8/20, rest 1 day 57/160"
+   "text": "[research] Jrue Holiday under 1.5 fg3m (vs MEM): p=0.409 (raw 0.377) vs DraftKings implied 0.457 EV -0.105 @ DraftKings | career 112/292, season 1/3, last5 2/5, last10 3/10, vs MEM 3/7, home 57/145, month 10 past seasons 8/20, rest 1 day 57/160"
   },
   {
    "book": "DraftKings",
@@ -24641,17 +24641,17 @@
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": 0.4993,
+   "ev": 0.5407,
    "fair": null,
    "game_id": "401909895",
    "home": false,
-   "implied": 0.5525,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 24.5,
    "opp": "POR",
    "player": "Ty Jerome",
    "player_id": "4065733",
-   "price_observed_at": "2026-10-30T01:06:05Z",
+   "price_observed_at": "2026-10-30T01:12:24Z",
    "prob": 0.8283,
    "prob_raw": 0.8781,
    "side": "under",
@@ -24707,7 +24707,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Ty Jerome under 24.5 pts (@ POR): p=0.828 (raw 0.878) vs DraftKings implied 0.552 EV +0.499 @ DraftKings | career 133/145, season 1/4, last5 2/5, last10 6/10, vs POR 4/6, away 68/74, month 10 past seasons 11/11, rest 2+ days 45/48"
+   "text": "[research] Ty Jerome under 24.5 pts (@ POR): p=0.828 (raw 0.878) vs DraftKings implied 0.538 EV +0.541 @ DraftKings | career 133/145, season 1/4, last5 2/5, last10 6/10, vs POR 4/6, away 68/74, month 10 past seasons 11/11, rest 2+ days 45/48"
   },
   {
    "book": "DraftKings",
@@ -25280,11 +25280,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": 0.2196,
+   "ev": 0.1978,
    "fair": null,
    "game_id": "401909895",
    "home": true,
-   "implied": 0.5952,
+   "implied": 0.6061,
    "k": 40.0,
    "line": 5.5,
    "opp": "MEM",
@@ -25340,16 +25340,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Ja Morant over 5.5 ast (vs MEM): p=0.726 (raw 0.770) vs DraftKings implied 0.595 EV +0.220 @ DraftKings | career 118/153, season 2/3, last5 4/5, last10 7/10, home 65/81, month 10 past seasons 13/17, rest 1 day 58/76"
+   "text": "[research] Ja Morant over 5.5 ast (vs MEM): p=0.726 (raw 0.770) vs DraftKings implied 0.606 EV +0.198 @ DraftKings | career 118/153, season 2/3, last5 4/5, last10 7/10, home 65/81, month 10 past seasons 13/17, rest 1 day 58/76"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.5237,
+   "ev": -0.5322,
    "fair": null,
    "game_id": "401909895",
    "home": true,
-   "implied": 0.5952,
+   "implied": 0.6061,
    "k": 40.0,
    "line": 5.5,
    "opp": "MEM",
@@ -25405,7 +25405,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Ja Morant under 5.5 ast (vs MEM): p=0.283 (raw 0.230) vs DraftKings implied 0.595 EV -0.524 @ DraftKings | career 35/153, season 1/3, last5 1/5, last10 3/10, home 16/81, month 10 past seasons 4/17, rest 1 day 18/76"
+   "text": "[research] Ja Morant under 5.5 ast (vs MEM): p=0.283 (raw 0.230) vs DraftKings implied 0.606 EV -0.532 @ DraftKings | career 35/153, season 1/3, last5 1/5, last10 3/10, home 16/81, month 10 past seasons 4/17, rest 1 day 18/76"
   },
   {
    "book": "DraftKings",
@@ -26295,7 +26295,7 @@
    "opp": "MEM",
    "player": "Toumani Camara",
    "player_id": "4431736",
-   "price_observed_at": "2026-10-30T01:06:05Z",
+   "price_observed_at": "2026-10-30T01:12:24Z",
    "prob": 0.6512,
    "prob_raw": 0.6825,
    "side": "over",
@@ -26366,7 +26366,7 @@
    "opp": "MEM",
    "player": "Toumani Camara",
    "player_id": "4431736",
-   "price_observed_at": "2026-10-30T01:06:05Z",
+   "price_observed_at": "2026-10-30T01:12:24Z",
    "prob": 0.3595,
    "prob_raw": 0.3175,
    "side": "under",
@@ -26498,11 +26498,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": 0.222,
+   "ev": 0.1822,
    "fair": null,
    "game_id": "401909895",
    "home": false,
-   "implied": 0.5435,
+   "implied": 0.5618,
    "k": 40.0,
    "line": 5.5,
    "opp": "POR",
@@ -26564,16 +26564,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Isaiah Stewart over 5.5 pts (@ POR): p=0.664 (raw 0.698) vs DraftKings implied 0.543 EV +0.222 @ DraftKings | career 180/242, season 1/3, last5 1/5, last10 2/10, vs POR 3/6, away 79/115, month 10 past seasons 17/22, rest 2+ days 44/61"
+   "text": "[research] Isaiah Stewart over 5.5 pts (@ POR): p=0.664 (raw 0.698) vs DraftKings implied 0.562 EV +0.182 @ DraftKings | career 180/242, season 1/3, last5 1/5, last10 2/10, vs POR 3/6, away 79/115, month 10 past seasons 17/22, rest 2+ days 44/61"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.3626,
+   "ev": -0.3833,
    "fair": null,
    "game_id": "401909895",
    "home": false,
-   "implied": 0.5435,
+   "implied": 0.5618,
    "k": 40.0,
    "line": 5.5,
    "opp": "POR",
@@ -26635,16 +26635,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Isaiah Stewart under 5.5 pts (@ POR): p=0.346 (raw 0.302) vs DraftKings implied 0.543 EV -0.363 @ DraftKings | career 62/242, season 2/3, last5 4/5, last10 8/10, vs POR 3/6, away 36/115, month 10 past seasons 5/22, rest 2+ days 17/61"
+   "text": "[research] Isaiah Stewart under 5.5 pts (@ POR): p=0.346 (raw 0.302) vs DraftKings implied 0.562 EV -0.383 @ DraftKings | career 62/242, season 2/3, last5 4/5, last10 8/10, vs POR 3/6, away 36/115, month 10 past seasons 5/22, rest 2+ days 17/61"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": 0.3071,
+   "ev": 0.3217,
    "fair": null,
    "game_id": "401909895",
    "home": false,
-   "implied": 0.5556,
+   "implied": 0.5495,
    "k": 40.0,
    "line": 3.5,
    "opp": "POR",
@@ -26706,16 +26706,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Isaiah Stewart over 3.5 reb (@ POR): p=0.726 (raw 0.771) vs DraftKings implied 0.556 EV +0.307 @ DraftKings | career 189/242, season 2/3, last5 2/5, last10 2/10, vs POR 5/6, away 88/115, month 10 past seasons 21/22, rest 2+ days 47/61"
+   "text": "[research] Isaiah Stewart over 3.5 reb (@ POR): p=0.726 (raw 0.771) vs DraftKings implied 0.549 EV +0.322 @ DraftKings | career 189/242, season 2/3, last5 2/5, last10 2/10, vs POR 5/6, away 88/115, month 10 past seasons 21/22, rest 2+ days 47/61"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.4901,
+   "ev": -0.4845,
    "fair": null,
    "game_id": "401909895",
    "home": false,
-   "implied": 0.5556,
+   "implied": 0.5495,
    "k": 40.0,
    "line": 3.5,
    "opp": "POR",
@@ -26777,16 +26777,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Isaiah Stewart under 3.5 reb (@ POR): p=0.283 (raw 0.229) vs DraftKings implied 0.556 EV -0.490 @ DraftKings | career 53/242, season 1/3, last5 3/5, last10 8/10, vs POR 1/6, away 27/115, month 10 past seasons 1/22, rest 2+ days 14/61"
+   "text": "[research] Isaiah Stewart under 3.5 reb (@ POR): p=0.283 (raw 0.229) vs DraftKings implied 0.549 EV -0.484 @ DraftKings | career 53/242, season 1/3, last5 3/5, last10 8/10, vs POR 1/6, away 27/115, month 10 past seasons 1/22, rest 2+ days 14/61"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.2412,
-   "fair": 0.4368,
+   "ev": -0.2164,
+   "fair": 0.423,
    "game_id": "401909895",
    "home": false,
-   "implied": 0.4673,
+   "implied": 0.4525,
    "k": 40.0,
    "line": 2.5,
    "opp": "POR",
@@ -26848,16 +26848,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Cam Spencer under 2.5 ast (@ POR): p=0.355 (raw 0.312) vs DraftKings implied 0.467 EV -0.241 @ DraftKings | career 29/101, season 3/4, last5 3/5, last10 3/10, vs POR 1/4, away 12/50, month 10 past seasons 1/6, rest 2+ days 11/34"
+   "text": "[research] Cam Spencer under 2.5 ast (@ POR): p=0.355 (raw 0.312) vs DraftKings implied 0.453 EV -0.216 @ DraftKings | career 29/101, season 3/4, last5 3/5, last10 3/10, vs POR 1/4, away 12/50, month 10 past seasons 1/6, rest 2+ days 11/34"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.523,
-   "fair": null,
+   "ev": -0.1277,
+   "fair": 0.3504,
    "game_id": "401909895",
    "home": false,
-   "implied": 0.6849,
+   "implied": 0.3745,
    "k": 40.0,
    "line": 0.5,
    "opp": "POR",
@@ -26919,7 +26919,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Cam Spencer under 0.5 fg3m (@ POR): p=0.327 (raw 0.279) vs DraftKings implied 0.685 EV -0.523 @ DraftKings | career 27/101, season 0/4, last5 0/5, last10 2/10, vs POR 1/4, away 18/50, month 10 past seasons 1/6, rest 2+ days 12/34"
+   "text": "[research] Cam Spencer under 0.5 fg3m (@ POR): p=0.327 (raw 0.279) vs DraftKings implied 0.374 EV -0.128 @ DraftKings | career 27/101, season 0/4, last5 0/5, last10 2/10, vs POR 1/4, away 18/50, month 10 past seasons 1/6, rest 2+ days 12/34"
   },
   {
    "book": "DraftKings",
@@ -27208,11 +27208,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.1487,
+   "ev": -0.13,
    "fair": null,
    "game_id": "401909895",
    "home": false,
-   "implied": 0.5495,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 8.5,
    "opp": "POR",
@@ -27274,16 +27274,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Zach Edey over 8.5 pts (@ POR): p=0.468 (raw 0.452) vs DraftKings implied 0.549 EV -0.149 @ DraftKings | career 40/86, season 0/3, last5 2/5, last10 5/10, vs POR 2/3, away 22/47, month 10 past seasons 3/6, rest 2+ days 11/21"
+   "text": "[research] Zach Edey over 8.5 pts (@ POR): p=0.468 (raw 0.452) vs DraftKings implied 0.538 EV -0.130 @ DraftKings | career 40/86, season 0/3, last5 2/5, last10 5/10, vs POR 2/3, away 22/47, month 10 past seasons 3/6, rest 2+ days 11/21"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.0101,
+   "ev": 0.0117,
    "fair": null,
    "game_id": "401909895",
    "home": false,
-   "implied": 0.5495,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 8.5,
    "opp": "POR",
@@ -27345,7 +27345,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Zach Edey under 8.5 pts (@ POR): p=0.544 (raw 0.548) vs DraftKings implied 0.549 EV -0.010 @ DraftKings | career 46/86, season 3/3, last5 3/5, last10 5/10, vs POR 1/3, away 25/47, month 10 past seasons 3/6, rest 2+ days 10/21"
+   "text": "[research] Zach Edey under 8.5 pts (@ POR): p=0.544 (raw 0.548) vs DraftKings implied 0.538 EV +0.012 @ DraftKings | career 46/86, season 3/3, last5 3/5, last10 5/10, vs POR 1/3, away 25/47, month 10 past seasons 3/6, rest 2+ days 10/21"
   },
   {
    "book": "DraftKings",
@@ -27989,11 +27989,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.3591,
+   "ev": -0.3483,
    "fair": null,
    "game_id": "401909895",
    "home": true,
-   "implied": 0.5618,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 9.5,
    "opp": "MEM",
@@ -28055,7 +28055,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Scoot Henderson under 9.5 pts (vs MEM): p=0.360 (raw 0.318) vs DraftKings implied 0.562 EV -0.359 @ DraftKings | career 49/167, season 2/3, last5 4/5, last10 5/10, vs MEM 3/4, home 22/81, month 10 past seasons 3/9, rest 1 day 34/106"
+   "text": "[research] Scoot Henderson under 9.5 pts (vs MEM): p=0.360 (raw 0.318) vs DraftKings implied 0.552 EV -0.348 @ DraftKings | career 49/167, season 2/3, last5 4/5, last10 5/10, vs MEM 3/4, home 22/81, month 10 past seasons 3/9, rest 1 day 34/106"
   },
   {
    "book": "DraftKings",
@@ -28699,11 +28699,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": 0.3308,
+   "ev": 0.3147,
    "fair": null,
    "game_id": "401909895",
    "home": false,
-   "implied": 0.6024,
+   "implied": 0.6098,
    "k": 40.0,
    "line": 3.5,
    "opp": "POR",
@@ -28747,16 +28747,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Cameron Boozer over 3.5 ast (@ POR): p=0.802 (raw 0.852) vs DraftKings implied 0.602 EV +0.331 @ DraftKings | career 4/4, season 4/4, last5 4/4, last10 4/4, away 3/3"
+   "text": "[research] Cameron Boozer over 3.5 ast (@ POR): p=0.802 (raw 0.852) vs DraftKings implied 0.610 EV +0.315 @ DraftKings | career 4/4, season 4/4, last5 4/4, last10 4/4, away 3/3"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.6582,
+   "ev": -0.6623,
    "fair": null,
    "game_id": "401909895",
    "home": false,
-   "implied": 0.6024,
+   "implied": 0.6098,
    "k": 40.0,
    "line": 3.5,
    "opp": "POR",
@@ -28800,7 +28800,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Cameron Boozer under 3.5 ast (@ POR): p=0.206 (raw 0.148) vs DraftKings implied 0.602 EV -0.658 @ DraftKings | career 0/4, season 0/4, last5 0/4, last10 0/4, away 0/3"
+   "text": "[research] Cameron Boozer under 3.5 ast (@ POR): p=0.206 (raw 0.148) vs DraftKings implied 0.610 EV -0.662 @ DraftKings | career 0/4, season 0/4, last5 0/4, last10 0/4, away 0/3"
   },
   {
    "book": "DraftKings",
@@ -28858,11 +28858,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.068,
+   "ev": -0.0883,
    "fair": null,
    "game_id": "401909895",
    "home": false,
-   "implied": 0.5435,
+   "implied": 0.5556,
    "k": 40.0,
    "line": 15.5,
    "opp": "POR",
@@ -28906,16 +28906,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Cameron Boozer over 15.5 pts (@ POR): p=0.506 (raw 0.501) vs DraftKings implied 0.543 EV -0.068 @ DraftKings | career 2/4, season 2/4, last5 2/4, last10 2/4, away 2/3"
+   "text": "[research] Cameron Boozer over 15.5 pts (@ POR): p=0.506 (raw 0.501) vs DraftKings implied 0.556 EV -0.088 @ DraftKings | career 2/4, season 2/4, last5 2/4, last10 2/4, away 2/3"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.0704,
+   "ev": -0.0906,
    "fair": null,
    "game_id": "401909895",
    "home": false,
-   "implied": 0.5435,
+   "implied": 0.5556,
    "k": 40.0,
    "line": 15.5,
    "opp": "POR",
@@ -28959,7 +28959,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Cameron Boozer under 15.5 pts (@ POR): p=0.505 (raw 0.499) vs DraftKings implied 0.543 EV -0.070 @ DraftKings | career 2/4, season 2/4, last5 2/4, last10 2/4, away 1/3"
+   "text": "[research] Cameron Boozer under 15.5 pts (@ POR): p=0.505 (raw 0.499) vs DraftKings implied 0.556 EV -0.091 @ DraftKings | career 2/4, season 2/4, last5 2/4, last10 2/4, away 1/3"
   },
   {
    "book": "DraftKings",
@@ -29176,11 +29176,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": 0.3358,
-   "fair": 0.3838,
+   "ev": 0.3248,
+   "fair": 0.3873,
    "game_id": "401909895",
    "home": true,
-   "implied": 0.4098,
+   "implied": 0.4132,
    "k": 40.0,
    "line": 0.5,
    "opp": "MEM",
@@ -29242,16 +29242,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Donovan Clingan under 0.5 fg3m (vs MEM): p=0.547 (raw 0.553) vs DraftKings implied 0.410 EV +0.336 @ DraftKings | career 86/153, season 1/3, last5 1/5, last10 3/10, vs MEM 3/5, home 44/76, month 10 past seasons 7/11, rest 1 day 52/92"
+   "text": "[research] Donovan Clingan under 0.5 fg3m (vs MEM): p=0.547 (raw 0.553) vs DraftKings implied 0.413 EV +0.325 @ DraftKings | career 86/153, season 1/3, last5 1/5, last10 3/10, vs MEM 3/5, home 44/76, month 10 past seasons 7/11, rest 1 day 52/92"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.3016,
+   "ev": -0.2899,
    "fair": null,
    "game_id": "401909895",
    "home": true,
-   "implied": 0.5618,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 10.5,
    "opp": "MEM",
@@ -29313,16 +29313,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Donovan Clingan over 10.5 pts (vs MEM): p=0.392 (raw 0.357) vs DraftKings implied 0.562 EV -0.302 @ DraftKings | career 57/153, season 1/3, last5 1/5, last10 2/10, vs MEM 3/5, home 28/76, month 10 past seasons 2/11, rest 1 day 32/92"
+   "text": "[research] Donovan Clingan over 10.5 pts (vs MEM): p=0.392 (raw 0.357) vs DraftKings implied 0.552 EV -0.290 @ DraftKings | career 57/153, season 1/3, last5 1/5, last10 2/10, vs MEM 3/5, home 28/76, month 10 past seasons 2/11, rest 1 day 32/92"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": 0.1015,
+   "ev": 0.1201,
    "fair": null,
    "game_id": "401909895",
    "home": true,
-   "implied": 0.5618,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 10.5,
    "opp": "MEM",
@@ -29384,7 +29384,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Donovan Clingan under 10.5 pts (vs MEM): p=0.619 (raw 0.643) vs DraftKings implied 0.562 EV +0.102 @ DraftKings | career 96/153, season 2/3, last5 4/5, last10 8/10, vs MEM 2/5, home 48/76, month 10 past seasons 9/11, rest 1 day 60/92"
+   "text": "[research] Donovan Clingan under 10.5 pts (vs MEM): p=0.619 (raw 0.643) vs DraftKings implied 0.552 EV +0.120 @ DraftKings | career 96/153, season 2/3, last5 4/5, last10 8/10, vs MEM 2/5, home 48/76, month 10 past seasons 9/11, rest 1 day 60/92"
   },
   {
    "book": "DraftKings",
@@ -29683,7 +29683,7 @@
    "opp": "POR",
    "player": "Jaylen Wells",
    "player_id": "5112087",
-   "price_observed_at": "2026-10-30T01:06:05Z",
+   "price_observed_at": "2026-10-30T01:12:24Z",
    "prob": 0.512,
    "prob_raw": 0.5078,
    "side": "over",
@@ -29754,7 +29754,7 @@
    "opp": "POR",
    "player": "Jaylen Wells",
    "player_id": "5112087",
-   "price_observed_at": "2026-10-30T01:06:05Z",
+   "price_observed_at": "2026-10-30T01:12:24Z",
    "prob": 0.4998,
    "prob_raw": 0.4922,
    "side": "under",
@@ -29886,11 +29886,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": 0.3568,
+   "ev": 0.3484,
    "fair": null,
    "game_id": "401909895",
    "home": true,
-   "implied": 0.6135,
+   "implied": 0.6173,
    "k": 40.0,
    "line": 3.5,
    "opp": "MEM",
@@ -29952,16 +29952,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Damian Lillard over 3.5 ast (vs MEM): p=0.832 (raw 0.882) vs DraftKings implied 0.614 EV +0.357 @ DraftKings | career 182/200, season 2/3, last5 3/5, last10 7/10, vs MEM 4/4, home 97/108, month 10 past seasons 10/13, rest 1 day 96/109"
+   "text": "[research] Damian Lillard over 3.5 ast (vs MEM): p=0.832 (raw 0.882) vs DraftKings implied 0.617 EV +0.348 @ DraftKings | career 182/200, season 2/3, last5 3/5, last10 7/10, vs MEM 4/4, home 97/108, month 10 past seasons 10/13, rest 1 day 96/109"
   },
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.7159,
+   "ev": -0.7176,
    "fair": null,
    "game_id": "401909895",
    "home": true,
-   "implied": 0.6135,
+   "implied": 0.6173,
    "k": 40.0,
    "line": 3.5,
    "opp": "MEM",
@@ -30023,7 +30023,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Damian Lillard under 3.5 ast (vs MEM): p=0.174 (raw 0.118) vs DraftKings implied 0.614 EV -0.716 @ DraftKings | career 18/200, season 1/3, last5 2/5, last10 3/10, vs MEM 0/4, home 11/108, month 10 past seasons 3/13, rest 1 day 13/109"
+   "text": "[research] Damian Lillard under 3.5 ast (vs MEM): p=0.174 (raw 0.118) vs DraftKings implied 0.617 EV -0.718 @ DraftKings | career 18/200, season 1/3, last5 2/5, last10 3/10, vs MEM 0/4, home 11/108, month 10 past seasons 3/13, rest 1 day 13/109"
   },
   {
    "book": "DraftKings",
@@ -30099,11 +30099,11 @@
   {
    "book": "DraftKings",
    "date": "2026-10-29",
-   "ev": -0.0734,
-   "fair": 0.4167,
+   "ev": -0.0569,
+   "fair": 0.4109,
    "game_id": "401909895",
    "home": true,
-   "implied": 0.4464,
+   "implied": 0.4386,
    "k": 40.0,
    "line": 2.5,
    "opp": "MEM",
@@ -30165,7 +30165,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Damian Lillard under 2.5 fg3m (vs MEM): p=0.414 (raw 0.384) vs DraftKings implied 0.446 EV -0.073 @ DraftKings | career 75/200, season 1/3, last5 3/5, last10 7/10, vs MEM 2/4, home 39/108, month 10 past seasons 6/13, rest 1 day 42/109"
+   "text": "[research] Damian Lillard under 2.5 fg3m (vs MEM): p=0.414 (raw 0.384) vs DraftKings implied 0.439 EV -0.057 @ DraftKings | career 75/200, season 1/3, last5 3/5, last10 7/10, vs MEM 2/4, home 39/108, month 10 past seasons 6/13, rest 1 day 42/109"
   },
   {
    "book": "DraftKings",
@@ -30180,7 +30180,7 @@
    "opp": "MEM",
    "player": "Damian Lillard",
    "player_id": "6606",
-   "price_observed_at": "2026-10-30T01:06:05Z",
+   "price_observed_at": "2026-10-30T01:12:24Z",
    "prob": 0.7109,
    "prob_raw": 0.7532,
    "side": "over",
@@ -30251,7 +30251,7 @@
    "opp": "MEM",
    "player": "Damian Lillard",
    "player_id": "6606",
-   "price_observed_at": "2026-10-30T01:06:05Z",
+   "price_observed_at": "2026-10-30T01:12:24Z",
    "prob": 0.2989,
    "prob_raw": 0.2468,
    "side": "under",
@@ -30523,7 +30523,7 @@
    "text": "[research] Damian Lillard under 4.5 reb (vs MEM): p=0.531 (raw 0.532) vs DraftKings implied 0.599 EV -0.113 @ DraftKings | career 108/200, season 1/3, last5 3/5, last10 6/10, vs MEM 2/4, home 60/108, month 10 past seasons 6/13, rest 1 day 57/109"
   }
  ],
- "run_id": "run-2026-10-30T01:06:05Z",
+ "run_id": "run-2026-10-30T01:12:24Z",
  "slate": "2026-10-29",
  "status": "research/watchlist only"
 }
