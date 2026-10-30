@@ -3,7 +3,7 @@
  "decisions": {},
  "eligible": 0,
  "games": 0,
- "injuries_observed_at": "2026-10-30T02:05:47Z",
+ "injuries_observed_at": "2026-10-30T02:34:57Z",
  "lottos": 0,
  "model": "ratings-v1-trend",
  "model_ready": true,
@@ -11,7 +11,7 @@
  "pred_ids": [],
  "prop_model": "props-v1",
  "prop_side_check": {},
- "run_id": "run-2026-10-30T02:05:47Z",
+ "run_id": "run-2026-10-30T02:34:57Z",
  "slate": "2026-10-29",
  "split_cards": 0,
  "written": 0

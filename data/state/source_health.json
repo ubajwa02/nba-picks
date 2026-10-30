@@ -2,17 +2,17 @@
  "espn_boxscore": {
   "consecutive_failures": 0,
   "last_detail": "",
-  "last_ok": "2026-10-29T10:14:23Z"
+  "last_ok": "2026-10-30T02:34:57Z"
  },
  "espn_injuries": {
   "consecutive_failures": 0,
   "last_detail": "94 listed",
-  "last_ok": "2026-10-30T02:05:47Z"
+  "last_ok": "2026-10-30T02:34:57Z"
  },
  "espn_odds": {
   "consecutive_failures": 0,
   "last_detail": "",
-  "last_ok": "2026-10-30T02:05:47Z"
+  "last_ok": "2026-10-30T02:34:57Z"
  },
  "espn_props": {
   "consecutive_failures": 0,
@@ -24,11 +24,11 @@
  "espn_scoreboard": {
   "consecutive_failures": 0,
   "last_detail": "",
-  "last_ok": "2026-10-30T02:05:47Z"
+  "last_ok": "2026-10-30T02:34:57Z"
  },
  "moviodds": {
   "consecutive_failures": 0,
-  "last_detail": "2175 quotes; 6 unmapped",
-  "last_ok": "2026-10-30T02:05:47Z"
+  "last_detail": "1933 quotes; 6 unmapped",
+  "last_ok": "2026-10-30T02:34:57Z"
  }
 }

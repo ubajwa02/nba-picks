@@ -2,11 +2,20 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 29-14 on 43 graded posted picks, +6.77u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 23-11 (+4.63u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 13-6 (+5.17u); gap<5pts 13-7 (+0.15u); gap>=15pts 3-1 (+1.44u).
-- By closing-line move: flat 8-3 (+3.56u); moved away 3-0 (+1.51u); moved toward us 5-2 (+2.26u).
-- Wider settled predictions (n=9540): model Brier 0.1497 vs book 0.1472 (lower is better).
+- 33-14 on 47 graded posted picks, +9.15u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 27-11 (+7.01u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 13-6 (+5.17u); gap<5pts 17-7 (+2.53u); gap>=15pts 3-1 (+1.44u).
+- By closing-line move: flat 8-3 (+3.56u); moved away 5-0 (+2.73u); moved toward us 5-2 (+2.26u).
+- Wider settled predictions (n=10237): model Brier 0.1499 vs book 0.1477 (lower is better).
+
+## 2026-10-29
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Zion Williamson o4.5 reb | win | +0.63 | 0.640 | 0.614 | +0.04 | -0.031 | career 139/196, season 2/4, last10 6/10 |
+| Luguentz Dort u3.5 reb | win | +0.62 | 0.653 | 0.617 | +0.06 |  | career 168/348, season 3/5, last10 5/10 |
+| Jeremiah Fears o2.5 reb | win | +0.60 | 0.636 | 0.625 | +0.02 | -0.060 | career 59/86, season 3/4, last10 8/10 |
+| CJ McCollum u2.5 fg3m | win | +0.53 | 0.658 | 0.654 | +0.01 |  | career 130/290, season 3/5, last10 6/10 |
 
 ## 2026-10-28
 
