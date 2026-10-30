@@ -42,7 +42,7 @@ Brier: model 0.1494 vs market-implied 0.1477 (n=10657; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 33-16-0, +7.15u, pending 0.
+Record 33-16-0, +7.15u, pending 6.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -95,6 +95,12 @@ Record 33-16-0, +7.15u, pending 0.
 | 2026-10-29 | Zion Williamson o4.5 reb | -159 | 6 | win | +0.63 |
 | 2026-10-29 | Jeremiah Fears o2.5 reb | -167 | 8 | win | +0.60 |
 | 2026-10-29 | Ja Morant o5.5 ast | -154 | 3 | loss | -1.00 |
+| 2026-10-30 | Alex Sarr o1.5 ast | -179 | None | pending | +0.00 |
+| 2026-10-30 | Brandon Miller u3.5 ast | -159 | None | pending | +0.00 |
+| 2026-10-30 | Mikal Bridges u1.5 fg3m | -192 | None | pending | +0.00 |
+| 2026-10-30 | Jay Huff u1.5 fg3m | -185 | None | pending | +0.00 |
+| 2026-10-30 | Tyrese Maxey u4.5 reb | -167 | None | pending | +0.00 |
+| 2026-10-30 | Duncan Robinson o2.5 fg3m | -175 | None | pending | +0.00 |
 
 ## Rows
 
