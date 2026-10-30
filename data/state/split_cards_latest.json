@@ -7877,6 +7877,77 @@
   {
    "book": "bet365",
    "date": "2026-10-29",
+   "ev": -0.1647,
+   "fair": null,
+   "game_id": "401909895",
+   "home": true,
+   "implied": 0.0278,
+   "k": 40.0,
+   "line": 16.5,
+   "opp": "MEM",
+   "player": "Deni Avdija",
+   "player_id": "4683021",
+   "price_observed_at": "2026-10-29T22:08:05Z",
+   "prob": 0.0232,
+   "prob_raw": 0.0082,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 2,
+     "n": 298,
+     "rate": 0.007,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 3,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 5,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 0,
+     "n": 10,
+     "rate": 0.0,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 8,
+     "rate": 0.0,
+     "split": "vs MEM"
+    },
+    {
+     "hits": 2,
+     "n": 145,
+     "rate": 0.014,
+     "split": "home"
+    },
+    {
+     "hits": 0,
+     "n": 21,
+     "rate": 0.0,
+     "split": "month 10 past seasons"
+    },
+    {
+     "hits": 1,
+     "n": 178,
+     "rate": 0.006,
+     "split": "rest 1 day"
+    }
+   ],
+   "stat": "reb",
+   "status": "research",
+   "text": "[research] Deni Avdija over 16.5 reb (vs MEM): p=0.023 (raw 0.008) vs bet365 implied 0.028 EV -0.165 @ bet365 | career 2/298, season 0/3, last5 0/5, last10 0/10, vs MEM 0/8, home 2/145, month 10 past seasons 0/21, rest 1 day 1/178"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-10-29",
    "ev": -0.1016,
    "fair": null,
    "game_id": "401909895",
@@ -24580,7 +24651,7 @@
    "opp": "POR",
    "player": "Ty Jerome",
    "player_id": "4065733",
-   "price_observed_at": "2026-10-30T00:03:26Z",
+   "price_observed_at": "2026-10-30T00:28:14Z",
    "prob": 0.8283,
    "prob_raw": 0.8781,
    "side": "under",
@@ -26224,7 +26295,7 @@
    "opp": "MEM",
    "player": "Toumani Camara",
    "player_id": "4431736",
-   "price_observed_at": "2026-10-30T00:03:26Z",
+   "price_observed_at": "2026-10-30T00:28:14Z",
    "prob": 0.6512,
    "prob_raw": 0.6825,
    "side": "over",
@@ -26295,7 +26366,7 @@
    "opp": "MEM",
    "player": "Toumani Camara",
    "player_id": "4431736",
-   "price_observed_at": "2026-10-30T00:03:26Z",
+   "price_observed_at": "2026-10-30T00:28:14Z",
    "prob": 0.3595,
    "prob_raw": 0.3175,
    "side": "under",
@@ -29612,7 +29683,7 @@
    "opp": "POR",
    "player": "Jaylen Wells",
    "player_id": "5112087",
-   "price_observed_at": "2026-10-30T00:03:26Z",
+   "price_observed_at": "2026-10-30T00:28:14Z",
    "prob": 0.512,
    "prob_raw": 0.5078,
    "side": "over",
@@ -29683,7 +29754,7 @@
    "opp": "POR",
    "player": "Jaylen Wells",
    "player_id": "5112087",
-   "price_observed_at": "2026-10-30T00:03:26Z",
+   "price_observed_at": "2026-10-30T00:28:14Z",
    "prob": 0.4998,
    "prob_raw": 0.4922,
    "side": "under",
@@ -30109,7 +30180,7 @@
    "opp": "MEM",
    "player": "Damian Lillard",
    "player_id": "6606",
-   "price_observed_at": "2026-10-30T00:03:26Z",
+   "price_observed_at": "2026-10-30T00:28:14Z",
    "prob": 0.7109,
    "prob_raw": 0.7532,
    "side": "over",
@@ -30180,7 +30251,7 @@
    "opp": "MEM",
    "player": "Damian Lillard",
    "player_id": "6606",
-   "price_observed_at": "2026-10-30T00:03:26Z",
+   "price_observed_at": "2026-10-30T00:28:14Z",
    "prob": 0.2989,
    "prob_raw": 0.2468,
    "side": "under",
@@ -30450,80 +30521,9 @@
    "stat": "reb",
    "status": "research",
    "text": "[research] Damian Lillard under 4.5 reb (vs MEM): p=0.531 (raw 0.532) vs DraftKings implied 0.599 EV -0.113 @ DraftKings | career 108/200, season 1/3, last5 3/5, last10 6/10, vs MEM 2/4, home 60/108, month 10 past seasons 6/13, rest 1 day 57/109"
-  },
-  {
-   "book": "bet365",
-   "date": "2026-10-29",
-   "ev": -0.1647,
-   "fair": null,
-   "game_id": "401909895",
-   "home": true,
-   "implied": 0.0278,
-   "k": 40.0,
-   "line": 16.5,
-   "opp": "MEM",
-   "player": "Deni Avdija",
-   "player_id": "4683021",
-   "price_observed_at": "2026-10-29T22:08:05Z",
-   "prob": 0.0232,
-   "prob_raw": 0.0082,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 2,
-     "n": 298,
-     "rate": 0.007,
-     "split": "career"
-    },
-    {
-     "hits": 0,
-     "n": 3,
-     "rate": 0.0,
-     "split": "season"
-    },
-    {
-     "hits": 0,
-     "n": 5,
-     "rate": 0.0,
-     "split": "last5"
-    },
-    {
-     "hits": 0,
-     "n": 10,
-     "rate": 0.0,
-     "split": "last10"
-    },
-    {
-     "hits": 0,
-     "n": 8,
-     "rate": 0.0,
-     "split": "vs MEM"
-    },
-    {
-     "hits": 2,
-     "n": 145,
-     "rate": 0.014,
-     "split": "home"
-    },
-    {
-     "hits": 0,
-     "n": 21,
-     "rate": 0.0,
-     "split": "month 10 past seasons"
-    },
-    {
-     "hits": 1,
-     "n": 178,
-     "rate": 0.006,
-     "split": "rest 1 day"
-    }
-   ],
-   "stat": "reb",
-   "status": "research",
-   "text": "[research] Deni Avdija over 16.5 reb (vs MEM): p=0.023 (raw 0.008) vs bet365 implied 0.028 EV -0.165 @ bet365 | career 2/298, season 0/3, last5 0/5, last10 0/10, vs MEM 0/8, home 2/145, month 10 past seasons 0/21, rest 1 day 1/178"
   }
  ],
- "run_id": "run-2026-10-30T00:03:26Z",
+ "run_id": "run-2026-10-30T00:28:14Z",
  "slate": "2026-10-29",
  "status": "research/watchlist only"
 }
