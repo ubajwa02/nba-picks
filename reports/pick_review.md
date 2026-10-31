@@ -2,11 +2,18 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 33-16 on 49 graded posted picks, +7.15u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 27-13 (+5.01u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 13-6 (+5.17u); gap<5pts 17-9 (+0.53u); gap>=15pts 3-1 (+1.44u).
+- 34-17 on 51 graded posted picks, +6.78u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 28-14 (+4.64u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 14-6 (+5.80u); gap<5pts 17-10 (-0.47u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 5-0 (+2.73u); moved toward us 5-3 (+1.26u).
-- Wider settled predictions (n=10657): model Brier 0.1494 vs book 0.1477 (lower is better).
+- Wider settled predictions (n=10783): model Brier 0.1506 vs book 0.149 (lower is better).
+
+## 2026-10-30
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Brandon Miller u3.5 ast | win | +0.63 | 0.679 | 0.614 | +0.11 |  | career 116/173, season 4/5, last10 8/10 |
+| Alex Sarr o1.5 ast | loss | -1.00 | 0.688 | 0.642 | +0.07 |  | career 84/120, season 4/5, last10 7/10 |
 
 ## 2026-10-29
 
