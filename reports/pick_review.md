@@ -2,16 +2,19 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 34-17 on 51 graded posted picks, +6.78u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 28-14 (+4.64u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 14-6 (+5.80u); gap<5pts 17-10 (-0.47u); gap>=15pts 3-1 (+1.44u).
-- By closing-line move: flat 8-3 (+3.56u); moved away 5-0 (+2.73u); moved toward us 5-3 (+1.26u).
-- Wider settled predictions (n=10783): model Brier 0.1506 vs book 0.149 (lower is better).
+- 35-19 on 54 graded posted picks, +5.37u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 29-16 (+3.24u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 14-6 (+5.80u); gap<5pts 18-12 (-1.87u); gap>=15pts 3-1 (+1.44u).
+- By closing-line move: flat 8-3 (+3.56u); moved away 5-1 (+1.74u); moved toward us 5-3 (+1.26u).
+- Wider settled predictions (n=12394): model Brier 0.1497 vs book 0.148 (lower is better).
 
 ## 2026-10-30
 
 | Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
 |---|---|---|---|---|---|---|---|
+| Tyrese Maxey u4.5 reb | win | +0.60 | 0.650 | 0.625 | +0.04 |  | career 206/287, season 3/5, last10 7/10 |
+| Mikal Bridges u1.5 fg3m | loss | -1.00 | 0.673 | 0.657 | +0.02 |  | career 144/371, season 4/5, last10 7/10 |
+| Duncan Robinson o2.5 fg3m | loss | -1.00 | 0.634 | 0.636 | -0.00 | -0.014 | career 151/313, season 4/5, last10 8/10 |
 | Brandon Miller u3.5 ast | win | +0.63 | 0.679 | 0.614 | +0.11 |  | career 116/173, season 4/5, last10 8/10 |
 | Alex Sarr o1.5 ast | loss | -1.00 | 0.688 | 0.642 | +0.07 |  | career 84/120, season 4/5, last10 7/10 |
 
