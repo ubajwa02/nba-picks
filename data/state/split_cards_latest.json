@@ -16628,6 +16628,101 @@
   {
    "book": "bet365",
    "date": "2026-11-01",
+   "ev": -0.1536,
+   "fair": null,
+   "game_id": "401909903",
+   "home": false,
+   "implied": 0.0278,
+   "k": 40.0,
+   "line": 12.5,
+   "opp": "ORL",
+   "player": "Jordan Walsh",
+   "player_id": "4683689",
+   "price_observed_at": "2026-11-01T19:01:00Z",
+   "prob": 0.0235,
+   "prob_raw": 0.0084,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 1,
+     "n": 147,
+     "rate": 0.007,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 5,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 5,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 0,
+     "n": 10,
+     "rate": 0.0,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 8,
+     "rate": 0.0,
+     "split": "vs ORL"
+    },
+    {
+     "hits": 1,
+     "n": 72,
+     "rate": 0.014,
+     "split": "away"
+    },
+    {
+     "hits": 0,
+     "n": 23,
+     "rate": 0.0,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 1,
+     "n": 68,
+     "rate": 0.015,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 0,
+     "n": 49,
+     "rate": 0.0,
+     "split": "opp defence soft"
+    },
+    {
+     "hits": 0,
+     "n": 73,
+     "rate": 0.0,
+     "split": "with Jayson Tatum"
+    },
+    {
+     "hits": 0,
+     "n": 5,
+     "rate": 0.0,
+     "split": "with Paul George"
+    },
+    {
+     "hits": 1,
+     "n": 135,
+     "rate": 0.007,
+     "split": "with Derrick White"
+    }
+   ],
+   "stat": "reb",
+   "status": "research",
+   "text": "[research] Jordan Walsh over 12.5 reb (@ ORL): p=0.024 (raw 0.008) vs bet365 implied 0.028 EV -0.154 @ bet365 | career 1/147, season 0/5, last5 0/5, last10 0/10, vs ORL 0/8, away 1/72, month 11 past seasons 0/23, rest 1 day 1/68, opp defence soft 0/49, with Jayson Tatum 0/73, with Paul George 0/5, with Derrick White 1/135"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-11-01",
    "ev": -0.349,
    "fair": null,
    "game_id": "401909903",
@@ -30318,7 +30413,7 @@
    "opp": "ORL",
    "player": "Derrick White",
    "player_id": "3078576",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.3588,
    "prob_raw": 0.3167,
    "side": "over",
@@ -30413,7 +30508,7 @@
    "opp": "ORL",
    "player": "Derrick White",
    "player_id": "3078576",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.6519,
    "prob_raw": 0.6833,
    "side": "under",
@@ -31743,7 +31838,7 @@
    "opp": "ORL",
    "player": "Sam Hauser",
    "player_id": "4065804",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.4273,
    "prob_raw": 0.4006,
    "side": "under",
@@ -31838,7 +31933,7 @@
    "opp": "ORL",
    "player": "Sam Hauser",
    "player_id": "4065804",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.4723,
    "prob_raw": 0.4573,
    "side": "over",
@@ -31933,7 +32028,7 @@
    "opp": "ORL",
    "player": "Sam Hauser",
    "player_id": "4065804",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.5394,
    "prob_raw": 0.5427,
    "side": "under",
@@ -35448,7 +35543,7 @@
    "opp": "ORL",
    "player": "Neemias Queta",
    "player_id": "4397424",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.6592,
    "prob_raw": 0.6922,
    "side": "under",
@@ -35638,7 +35733,7 @@
    "opp": "ORL",
    "player": "Neemias Queta",
    "player_id": "4397424",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:41:00Z",
    "prob": 0.3759,
    "prob_raw": 0.3372,
    "side": "over",
@@ -35733,7 +35828,7 @@
    "opp": "ORL",
    "player": "Neemias Queta",
    "player_id": "4397424",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:41:00Z",
    "prob": 0.6351,
    "prob_raw": 0.6628,
    "side": "under",
@@ -38569,101 +38664,6 @@
    "stat": "reb",
    "status": "research",
    "text": "[research] Jase Richardson under 2.5 reb (vs BOS): p=0.757 (raw 0.805) vs DraftKings implied 0.495 EV +0.529 @ DraftKings | career 49/61, season 4/5, last5 4/5, last10 9/10, vs BOS 0/1, home 22/27, month 11 past seasons 6/7, rest 1 day 26/31, opp defence soft 16/19, with Franz Wagner 23/28, with Desmond Bane 49/61, with Wendell Carter Jr. 46/57"
-  },
-  {
-   "book": "bet365",
-   "date": "2026-11-01",
-   "ev": -0.1536,
-   "fair": null,
-   "game_id": "401909903",
-   "home": false,
-   "implied": 0.0278,
-   "k": 40.0,
-   "line": 12.5,
-   "opp": "ORL",
-   "player": "Jordan Walsh",
-   "player_id": "4683689",
-   "price_observed_at": "2026-11-01T19:01:00Z",
-   "prob": 0.0235,
-   "prob_raw": 0.0084,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 1,
-     "n": 147,
-     "rate": 0.007,
-     "split": "career"
-    },
-    {
-     "hits": 0,
-     "n": 5,
-     "rate": 0.0,
-     "split": "season"
-    },
-    {
-     "hits": 0,
-     "n": 5,
-     "rate": 0.0,
-     "split": "last5"
-    },
-    {
-     "hits": 0,
-     "n": 10,
-     "rate": 0.0,
-     "split": "last10"
-    },
-    {
-     "hits": 0,
-     "n": 8,
-     "rate": 0.0,
-     "split": "vs ORL"
-    },
-    {
-     "hits": 1,
-     "n": 72,
-     "rate": 0.014,
-     "split": "away"
-    },
-    {
-     "hits": 0,
-     "n": 23,
-     "rate": 0.0,
-     "split": "month 11 past seasons"
-    },
-    {
-     "hits": 1,
-     "n": 68,
-     "rate": 0.015,
-     "split": "rest 1 day"
-    },
-    {
-     "hits": 0,
-     "n": 49,
-     "rate": 0.0,
-     "split": "opp defence soft"
-    },
-    {
-     "hits": 0,
-     "n": 73,
-     "rate": 0.0,
-     "split": "with Jayson Tatum"
-    },
-    {
-     "hits": 0,
-     "n": 5,
-     "rate": 0.0,
-     "split": "with Paul George"
-    },
-    {
-     "hits": 1,
-     "n": 135,
-     "rate": 0.007,
-     "split": "with Derrick White"
-    }
-   ],
-   "stat": "reb",
-   "status": "research",
-   "text": "[research] Jordan Walsh over 12.5 reb (@ ORL): p=0.024 (raw 0.008) vs bet365 implied 0.028 EV -0.154 @ bet365 | career 1/147, season 0/5, last5 0/5, last10 0/10, vs ORL 0/8, away 1/72, month 11 past seasons 0/23, rest 1 day 1/68, opp defence soft 0/49, with Jayson Tatum 0/73, with Paul George 0/5, with Derrick White 1/135"
   },
   {
    "book": "bet365",
@@ -68603,7 +68603,7 @@
    "opp": "BKN",
    "player": "Kelly Oubre Jr.",
    "player_id": "3133603",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.6955,
    "prob_raw": 0.7353,
    "side": "over",
@@ -68698,7 +68698,7 @@
    "opp": "BKN",
    "player": "Kelly Oubre Jr.",
    "player_id": "3133603",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.3146,
    "prob_raw": 0.2647,
    "side": "under",
@@ -69363,7 +69363,7 @@
    "opp": "BKN",
    "player": "Pascal Siakam",
    "player_id": "3149673",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.4318,
    "prob_raw": 0.4062,
    "side": "over",
@@ -69458,7 +69458,7 @@
    "opp": "BKN",
    "player": "Pascal Siakam",
    "player_id": "3149673",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.5797,
    "prob_raw": 0.5938,
    "side": "under",
@@ -69553,7 +69553,7 @@
    "opp": "BKN",
    "player": "Pascal Siakam",
    "player_id": "3149673",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.4268,
    "prob_raw": 0.4,
    "side": "over",
@@ -69648,7 +69648,7 @@
    "opp": "BKN",
    "player": "Pascal Siakam",
    "player_id": "3149673",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.5847,
    "prob_raw": 0.6,
    "side": "under",
@@ -73163,7 +73163,7 @@
    "opp": "BKN",
    "player": "Aaron Nesmith",
    "player_id": "4396909",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.5237,
    "prob_raw": 0.5228,
    "side": "over",
@@ -73258,7 +73258,7 @@
    "opp": "BKN",
    "player": "Aaron Nesmith",
    "player_id": "4396909",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.488,
    "prob_raw": 0.4772,
    "side": "under",
@@ -74493,7 +74493,7 @@
    "opp": "IND",
    "player": "Keon Ellis",
    "player_id": "4702177",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.5191,
    "prob_raw": 0.5168,
    "side": "over",
@@ -74588,7 +74588,7 @@
    "opp": "IND",
    "player": "Keon Ellis",
    "player_id": "4702177",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.4927,
    "prob_raw": 0.4832,
    "side": "under",
@@ -76393,7 +76393,7 @@
    "opp": "IND",
    "player": "Nolan Traore",
    "player_id": "5279130",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.3701,
    "prob_raw": 0.3302,
    "side": "over",
@@ -76488,7 +76488,7 @@
    "opp": "IND",
    "player": "Nolan Traore",
    "player_id": "5279130",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.6408,
    "prob_raw": 0.6698,
    "side": "under",
@@ -104346,11 +104346,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": -0.1033,
+   "ev": -0.1375,
    "fair": null,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.5435,
+   "implied": 0.565,
    "k": 40.0,
    "line": 1.5,
    "opp": "LAC",
@@ -104436,7 +104436,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Georges Niang under 1.5 fg3m (vs LAC): p=0.487 (raw 0.476) vs DraftKings implied 0.543 EV -0.103 @ DraftKings | career 126/268, season 4/6, last5 3/5, last10 5/10, vs LAC 2/5, home 52/136, month 11 past seasons 20/44, rest 1 day 79/161, opp defence tough 54/106, with Yaxel Lendeborg 4/6, with Draymond Green 3/5, with Stephen Curry 3/5"
+   "text": "[research] Georges Niang under 1.5 fg3m (vs LAC): p=0.487 (raw 0.476) vs DraftKings implied 0.565 EV -0.138 @ DraftKings | career 126/268, season 4/6, last5 3/5, last10 5/10, vs LAC 2/5, home 52/136, month 11 past seasons 20/44, rest 1 day 79/161, opp defence tough 54/106, with Yaxel Lendeborg 4/6, with Draymond Green 3/5, with Stephen Curry 3/5"
   },
   {
    "book": "DraftKings",
@@ -104631,11 +104631,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": -0.5211,
+   "ev": -0.5297,
    "fair": null,
    "game_id": "401909905",
    "home": false,
-   "implied": 0.5952,
+   "implied": 0.6061,
    "k": 40.0,
    "line": 5.5,
    "opp": "GS",
@@ -104721,16 +104721,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Kris Dunn over 5.5 ast (@ GS): p=0.285 (raw 0.231) vs DraftKings implied 0.595 EV -0.521 @ DraftKings | career 57/256, season 3/5, last5 3/5, last10 5/10, vs GS 4/11, away 32/130, month 11 past seasons 4/39, rest 1 day 30/148, opp defence soft 18/95, with Darius Garland 6/25, with Derrick Jones Jr. 26/132, with Keaton Wagler 3/5"
+   "text": "[research] Kris Dunn over 5.5 ast (@ GS): p=0.285 (raw 0.231) vs DraftKings implied 0.606 EV -0.530 @ DraftKings | career 57/256, season 3/5, last5 3/5, last10 5/10, vs GS 4/11, away 32/130, month 11 past seasons 4/39, rest 1 day 30/148, opp defence soft 18/95, with Darius Garland 6/25, with Derrick Jones Jr. 26/132, with Keaton Wagler 3/5"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": 0.2171,
+   "ev": 0.1953,
    "fair": null,
    "game_id": "401909905",
    "home": false,
-   "implied": 0.5952,
+   "implied": 0.6061,
    "k": 40.0,
    "line": 5.5,
    "opp": "GS",
@@ -104816,7 +104816,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Kris Dunn under 5.5 ast (@ GS): p=0.724 (raw 0.769) vs DraftKings implied 0.595 EV +0.217 @ DraftKings | career 199/256, season 2/5, last5 2/5, last10 5/10, vs GS 7/11, away 98/130, month 11 past seasons 35/39, rest 1 day 118/148, opp defence soft 77/95, with Darius Garland 19/25, with Derrick Jones Jr. 106/132, with Keaton Wagler 2/5"
+   "text": "[research] Kris Dunn under 5.5 ast (@ GS): p=0.724 (raw 0.769) vs DraftKings implied 0.606 EV +0.195 @ DraftKings | career 199/256, season 2/5, last5 2/5, last10 5/10, vs GS 7/11, away 98/130, month 11 past seasons 35/39, rest 1 day 118/148, opp defence soft 77/95, with Darius Garland 19/25, with Derrick Jones Jr. 106/132, with Keaton Wagler 2/5"
   },
   {
    "book": "DraftKings",
@@ -105306,7 +105306,7 @@
    "opp": "GS",
    "player": "Kris Dunn",
    "player_id": "2991139",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.671,
    "prob_raw": 0.7063,
    "side": "under",
@@ -105391,11 +105391,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": -0.1017,
-   "fair": 0.5707,
+   "ev": -0.1072,
+   "fair": 0.5733,
    "game_id": "401909905",
    "home": false,
-   "implied": 0.6098,
+   "implied": 0.6135,
    "k": 40.0,
    "line": 1.5,
    "opp": "GS",
@@ -105481,16 +105481,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Brook Lopez under 1.5 fg3m (@ GS): p=0.548 (raw 0.553) vs DraftKings implied 0.610 EV -0.102 @ DraftKings | career 180/335, season 3/5, last5 3/5, last10 6/10, vs GS 10/11, away 94/164, month 11 past seasons 25/56, rest 1 day 103/202, opp defence middle 54/103, with Darius Garland 16/25, with Kris Dunn 51/81, with Derrick Jones Jr. 34/56"
+   "text": "[research] Brook Lopez under 1.5 fg3m (@ GS): p=0.548 (raw 0.553) vs DraftKings implied 0.614 EV -0.107 @ DraftKings | career 180/335, season 3/5, last5 3/5, last10 6/10, vs GS 10/11, away 94/164, month 11 past seasons 25/56, rest 1 day 103/202, opp defence middle 54/103, with Darius Garland 16/25, with Kris Dunn 51/81, with Derrick Jones Jr. 34/56"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": -0.01,
+   "ev": -0.0156,
    "fair": null,
    "game_id": "401909905",
    "home": false,
-   "implied": 0.5587,
+   "implied": 0.5618,
    "k": 40.0,
    "line": 10.5,
    "opp": "GS",
@@ -105576,16 +105576,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Brook Lopez over 10.5 pts (@ GS): p=0.553 (raw 0.560) vs DraftKings implied 0.559 EV -0.010 @ DraftKings | career 196/335, season 4/5, last5 4/5, last10 7/10, vs GS 4/11, away 98/164, month 11 past seasons 32/56, rest 1 day 123/202, opp defence middle 55/97, with Darius Garland 13/25, with Kris Dunn 28/81, with Derrick Jones Jr. 22/56"
+   "text": "[research] Brook Lopez over 10.5 pts (@ GS): p=0.553 (raw 0.560) vs DraftKings implied 0.562 EV -0.016 @ DraftKings | career 196/335, season 4/5, last5 4/5, last10 7/10, vs GS 4/11, away 98/164, month 11 past seasons 32/56, rest 1 day 123/202, opp defence middle 55/97, with Darius Garland 13/25, with Kris Dunn 28/81, with Derrick Jones Jr. 22/56"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": -0.1791,
+   "ev": -0.1837,
    "fair": null,
    "game_id": "401909905",
    "home": false,
-   "implied": 0.5587,
+   "implied": 0.5618,
    "k": 40.0,
    "line": 10.5,
    "opp": "GS",
@@ -105671,7 +105671,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Brook Lopez under 10.5 pts (@ GS): p=0.459 (raw 0.440) vs DraftKings implied 0.559 EV -0.179 @ DraftKings | career 139/335, season 1/5, last5 1/5, last10 3/10, vs GS 7/11, away 66/164, month 11 past seasons 24/56, rest 1 day 79/202, opp defence middle 42/97, with Darius Garland 12/25, with Kris Dunn 53/81, with Derrick Jones Jr. 34/56"
+   "text": "[research] Brook Lopez under 10.5 pts (@ GS): p=0.459 (raw 0.440) vs DraftKings implied 0.562 EV -0.184 @ DraftKings | career 139/335, season 1/5, last5 1/5, last10 3/10, vs GS 7/11, away 66/164, month 11 past seasons 24/56, rest 1 day 79/202, opp defence middle 42/97, with Darius Garland 12/25, with Kris Dunn 53/81, with Derrick Jones Jr. 34/56"
   },
   {
    "book": "DraftKings",
@@ -105686,7 +105686,7 @@
    "opp": "GS",
    "player": "Brook Lopez",
    "player_id": "3448",
-   "price_observed_at": "2026-11-01T16:41:21Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.6095,
    "prob_raw": 0.6312,
    "side": "over",
@@ -105781,7 +105781,7 @@
    "opp": "GS",
    "player": "Brook Lopez",
    "player_id": "3448",
-   "price_observed_at": "2026-11-01T16:41:21Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.4017,
    "prob_raw": 0.3688,
    "side": "under",
@@ -106341,11 +106341,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": 0.1093,
-   "fair": 0.4667,
+   "ev": -0.1181,
+   "fair": null,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.5,
+   "implied": 0.6289,
    "k": 40.0,
    "line": 2.5,
    "opp": "LAC",
@@ -106431,16 +106431,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] De'Anthony Melton under 2.5 ast (vs LAC): p=0.555 (raw 0.562) vs DraftKings implied 0.500 EV +0.109 @ DraftKings | career 106/190, season 3/6, last5 2/5, last10 4/10, vs LAC 5/7, home 51/94, month 11 past seasons 11/30, rest 1 day 73/113, opp defence tough 47/66, with Yaxel Lendeborg 3/6, with Draymond Green 28/57, with Stephen Curry 20/38"
+   "text": "[research] De'Anthony Melton under 2.5 ast (vs LAC): p=0.555 (raw 0.562) vs DraftKings implied 0.629 EV -0.118 @ DraftKings | career 106/190, season 3/6, last5 2/5, last10 4/10, vs LAC 5/7, home 51/94, month 11 past seasons 11/30, rest 1 day 73/113, opp defence tough 47/66, with Yaxel Lendeborg 3/6, with Draymond Green 28/57, with Stephen Curry 20/38"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": -0.1733,
+   "ev": -0.1594,
    "fair": null,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.5618,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 1.5,
    "opp": "LAC",
@@ -106526,16 +106526,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] De'Anthony Melton under 1.5 fg3m (vs LAC): p=0.464 (raw 0.447) vs DraftKings implied 0.562 EV -0.173 @ DraftKings | career 83/190, season 2/6, last5 1/5, last10 4/10, vs LAC 5/7, home 42/94, month 11 past seasons 10/30, rest 1 day 53/113, opp defence tough 35/70, with Yaxel Lendeborg 2/6, with Draymond Green 29/57, with Stephen Curry 19/38"
+   "text": "[research] De'Anthony Melton under 1.5 fg3m (vs LAC): p=0.464 (raw 0.447) vs DraftKings implied 0.552 EV -0.159 @ DraftKings | career 83/190, season 2/6, last5 1/5, last10 4/10, vs LAC 5/7, home 42/94, month 11 past seasons 10/30, rest 1 day 53/113, opp defence tough 35/70, with Yaxel Lendeborg 2/6, with Draymond Green 29/57, with Stephen Curry 19/38"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": -0.225,
+   "ev": -0.2417,
    "fair": null,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.5376,
+   "implied": 0.5495,
    "k": 40.0,
    "line": 12.5,
    "opp": "LAC",
@@ -106621,16 +106621,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] De'Anthony Melton over 12.5 pts (vs LAC): p=0.417 (raw 0.387) vs DraftKings implied 0.538 EV -0.225 @ DraftKings | career 73/190, season 2/6, last5 2/5, last10 4/10, vs LAC 1/7, home 34/94, month 11 past seasons 15/30, rest 1 day 44/113, opp defence middle 21/54, with Yaxel Lendeborg 2/6, with Draymond Green 25/57, with Stephen Curry 14/38"
+   "text": "[research] De'Anthony Melton over 12.5 pts (vs LAC): p=0.417 (raw 0.387) vs DraftKings implied 0.549 EV -0.242 @ DraftKings | career 73/190, season 2/6, last5 2/5, last10 4/10, vs LAC 1/7, home 34/94, month 11 past seasons 15/30, rest 1 day 44/113, opp defence middle 21/54, with Yaxel Lendeborg 2/6, with Draymond Green 25/57, with Stephen Curry 14/38"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": 0.1062,
+   "ev": 0.0824,
    "fair": null,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.5376,
+   "implied": 0.5495,
    "k": 40.0,
    "line": 12.5,
    "opp": "LAC",
@@ -106716,16 +106716,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] De'Anthony Melton under 12.5 pts (vs LAC): p=0.595 (raw 0.613) vs DraftKings implied 0.538 EV +0.106 @ DraftKings | career 117/190, season 4/6, last5 3/5, last10 6/10, vs LAC 6/7, home 60/94, month 11 past seasons 15/30, rest 1 day 69/113, opp defence middle 33/54, with Yaxel Lendeborg 4/6, with Draymond Green 32/57, with Stephen Curry 24/38"
+   "text": "[research] De'Anthony Melton under 12.5 pts (vs LAC): p=0.595 (raw 0.613) vs DraftKings implied 0.549 EV +0.082 @ DraftKings | career 117/190, season 4/6, last5 3/5, last10 6/10, vs LAC 6/7, home 60/94, month 11 past seasons 15/30, rest 1 day 69/113, opp defence middle 33/54, with Yaxel Lendeborg 4/6, with Draymond Green 32/57, with Stephen Curry 24/38"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": -0.0768,
+   "ev": -0.0668,
    "fair": null,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.5435,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 3.5,
    "opp": "LAC",
@@ -106811,16 +106811,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] De'Anthony Melton over 3.5 reb (vs LAC): p=0.502 (raw 0.495) vs DraftKings implied 0.543 EV -0.077 @ DraftKings | career 90/190, season 4/6, last5 4/5, last10 7/10, vs LAC 2/7, home 46/94, month 11 past seasons 21/30, rest 1 day 54/113, opp defence middle 31/59, with Yaxel Lendeborg 4/6, with Draymond Green 24/57, with Stephen Curry 14/38"
+   "text": "[research] De'Anthony Melton over 3.5 reb (vs LAC): p=0.502 (raw 0.495) vs DraftKings implied 0.538 EV -0.067 @ DraftKings | career 90/190, season 4/6, last5 4/5, last10 7/10, vs LAC 2/7, home 46/94, month 11 past seasons 21/30, rest 1 day 54/113, opp defence middle 31/59, with Yaxel Lendeborg 4/6, with Draymond Green 24/57, with Stephen Curry 14/38"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": -0.0616,
+   "ev": -0.0514,
    "fair": null,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.5435,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 3.5,
    "opp": "LAC",
@@ -106906,16 +106906,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] De'Anthony Melton under 3.5 reb (vs LAC): p=0.510 (raw 0.505) vs DraftKings implied 0.543 EV -0.062 @ DraftKings | career 100/190, season 2/6, last5 1/5, last10 3/10, vs LAC 5/7, home 48/94, month 11 past seasons 9/30, rest 1 day 59/113, opp defence middle 28/59, with Yaxel Lendeborg 2/6, with Draymond Green 33/57, with Stephen Curry 24/38"
+   "text": "[research] De'Anthony Melton under 3.5 reb (vs LAC): p=0.510 (raw 0.505) vs DraftKings implied 0.538 EV -0.051 @ DraftKings | career 100/190, season 2/6, last5 1/5, last10 3/10, vs LAC 5/7, home 48/94, month 11 past seasons 9/30, rest 1 day 59/113, opp defence middle 28/59, with Yaxel Lendeborg 2/6, with Draymond Green 33/57, with Stephen Curry 24/38"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": 0.2598,
-   "fair": 0.3974,
+   "ev": 0.2384,
+   "fair": 0.4046,
    "game_id": "401909905",
    "home": false,
-   "implied": 0.4255,
+   "implied": 0.4329,
    "k": 40.0,
    "line": 1.5,
    "opp": "GS",
@@ -107001,7 +107001,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Rui Hachimura under 1.5 fg3m (@ GS): p=0.536 (raw 0.538) vs DraftKings implied 0.425 EV +0.260 @ DraftKings | career 168/301, season 1/4, last5 1/5, last10 1/10, vs GS 11/20, away 77/146, month 11 past seasons 18/39, rest 1 day 101/172, opp defence middle 48/78, with Darius Garland 1/4, with Kris Dunn 1/4, with Derrick Jones Jr. 1/4"
+   "text": "[research] Rui Hachimura under 1.5 fg3m (@ GS): p=0.536 (raw 0.538) vs DraftKings implied 0.433 EV +0.238 @ DraftKings | career 168/301, season 1/4, last5 1/5, last10 1/10, vs GS 11/20, away 77/146, month 11 past seasons 18/39, rest 1 day 101/172, opp defence middle 48/78, with Darius Garland 1/4, with Kris Dunn 1/4, with Derrick Jones Jr. 1/4"
   },
   {
    "book": "DraftKings",
@@ -107386,11 +107386,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": -0.3129,
+   "ev": -0.3009,
    "fair": null,
    "game_id": "401909905",
    "home": false,
-   "implied": 0.5848,
+   "implied": 0.5747,
    "k": 40.0,
    "line": 7.5,
    "opp": "GS",
@@ -107476,16 +107476,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Darius Garland over 7.5 ast (@ GS): p=0.402 (raw 0.369) vs DraftKings implied 0.585 EV -0.313 @ DraftKings | career 105/274, season 1/5, last5 1/5, last10 2/10, vs GS 4/10, away 47/136, month 11 past seasons 23/49, rest 1 day 62/158, opp defence soft 34/78, with Kris Dunn 6/25, with Derrick Jones Jr. 6/25, with Keaton Wagler 1/5"
+   "text": "[research] Darius Garland over 7.5 ast (@ GS): p=0.402 (raw 0.369) vs DraftKings implied 0.575 EV -0.301 @ DraftKings | career 105/274, season 1/5, last5 1/5, last10 2/10, vs GS 4/10, away 47/136, month 11 past seasons 23/49, rest 1 day 62/158, opp defence soft 34/78, with Kris Dunn 6/25, with Derrick Jones Jr. 6/25, with Keaton Wagler 1/5"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": 0.0422,
+   "ev": 0.0604,
    "fair": null,
    "game_id": "401909905",
    "home": false,
-   "implied": 0.5848,
+   "implied": 0.5747,
    "k": 40.0,
    "line": 7.5,
    "opp": "GS",
@@ -107571,16 +107571,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Darius Garland under 7.5 ast (@ GS): p=0.610 (raw 0.631) vs DraftKings implied 0.585 EV +0.042 @ DraftKings | career 169/274, season 4/5, last5 4/5, last10 8/10, vs GS 6/10, away 89/136, month 11 past seasons 26/49, rest 1 day 96/158, opp defence soft 44/78, with Kris Dunn 19/25, with Derrick Jones Jr. 19/25, with Keaton Wagler 4/5"
+   "text": "[research] Darius Garland under 7.5 ast (@ GS): p=0.610 (raw 0.631) vs DraftKings implied 0.575 EV +0.060 @ DraftKings | career 169/274, season 4/5, last5 4/5, last10 8/10, vs GS 6/10, away 89/136, month 11 past seasons 26/49, rest 1 day 96/158, opp defence soft 44/78, with Kris Dunn 19/25, with Derrick Jones Jr. 19/25, with Keaton Wagler 4/5"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": 0.1596,
-   "fair": 0.4433,
+   "ev": 0.1376,
+   "fair": 0.4509,
    "game_id": "401909905",
    "home": false,
-   "implied": 0.4739,
+   "implied": 0.4831,
    "k": 40.0,
    "line": 2.5,
    "opp": "GS",
@@ -107666,7 +107666,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Darius Garland under 2.5 fg3m (@ GS): p=0.550 (raw 0.556) vs DraftKings implied 0.474 EV +0.160 @ DraftKings | career 156/274, season 2/5, last5 2/5, last10 7/10, vs GS 6/10, away 85/136, month 11 past seasons 28/49, rest 1 day 87/158, opp defence middle 46/84, with Kris Dunn 11/25, with Derrick Jones Jr. 11/25, with Keaton Wagler 2/5"
+   "text": "[research] Darius Garland under 2.5 fg3m (@ GS): p=0.550 (raw 0.556) vs DraftKings implied 0.483 EV +0.138 @ DraftKings | career 156/274, season 2/5, last5 2/5, last10 7/10, vs GS 6/10, away 85/136, month 11 past seasons 28/49, rest 1 day 87/158, opp defence middle 46/84, with Kris Dunn 11/25, with Derrick Jones Jr. 11/25, with Keaton Wagler 2/5"
   },
   {
    "book": "DraftKings",
@@ -107956,11 +107956,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": -0.2624,
+   "ev": -0.2941,
    "fair": null,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.5376,
+   "implied": 0.5618,
    "k": 40.0,
    "line": 3.5,
    "opp": "LAC",
@@ -108046,16 +108046,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Brandon Williams over 3.5 ast (vs LAC): p=0.397 (raw 0.362) vs DraftKings implied 0.538 EV -0.262 @ DraftKings | career 47/123, season 1/6, last5 1/5, last10 4/10, vs LAC 2/2, home 22/60, month 11 past seasons 9/20, rest 1 day 25/56, opp defence tough 9/32, with Yaxel Lendeborg 1/6, with Draymond Green 0/5, with Stephen Curry 0/5"
+   "text": "[research] Brandon Williams over 3.5 ast (vs LAC): p=0.397 (raw 0.362) vs DraftKings implied 0.562 EV -0.294 @ DraftKings | career 47/123, season 1/6, last5 1/5, last10 4/10, vs LAC 2/2, home 22/60, month 11 past seasons 9/20, rest 1 day 25/56, opp defence tough 9/32, with Yaxel Lendeborg 1/6, with Draymond Green 0/5, with Stephen Curry 0/5"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": 0.1432,
+   "ev": 0.094,
    "fair": null,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.5376,
+   "implied": 0.5618,
    "k": 40.0,
    "line": 3.5,
    "opp": "LAC",
@@ -108141,7 +108141,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Brandon Williams under 3.5 ast (vs LAC): p=0.615 (raw 0.637) vs DraftKings implied 0.538 EV +0.143 @ DraftKings | career 76/123, season 5/6, last5 4/5, last10 6/10, vs LAC 0/2, home 38/60, month 11 past seasons 11/20, rest 1 day 31/56, opp defence tough 23/32, with Yaxel Lendeborg 5/6, with Draymond Green 5/5, with Stephen Curry 5/5"
+   "text": "[research] Brandon Williams under 3.5 ast (vs LAC): p=0.615 (raw 0.637) vs DraftKings implied 0.562 EV +0.094 @ DraftKings | career 76/123, season 5/6, last5 4/5, last10 6/10, vs LAC 0/2, home 38/60, month 11 past seasons 11/20, rest 1 day 31/56, opp defence tough 23/32, with Yaxel Lendeborg 5/6, with Draymond Green 5/5, with Stephen Curry 5/5"
   },
   {
    "book": "DraftKings",
@@ -108346,7 +108346,7 @@
    "opp": "LAC",
    "player": "Brandon Williams",
    "player_id": "4397040",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.2739,
    "prob_raw": 0.2189,
    "side": "over",
@@ -108441,7 +108441,7 @@
    "opp": "LAC",
    "player": "Brandon Williams",
    "player_id": "4397040",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.7354,
    "prob_raw": 0.7811,
    "side": "under",
@@ -108526,11 +108526,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": -0.2443,
+   "ev": -0.2606,
    "fair": null,
    "game_id": "401909905",
    "home": false,
-   "implied": 0.5405,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 8.5,
    "opp": "GS",
@@ -108616,16 +108616,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Isaiah Jackson over 8.5 pts (@ GS): p=0.408 (raw 0.377) vs DraftKings implied 0.540 EV -0.244 @ DraftKings | career 71/202, season 3/5, last5 3/5, last10 6/10, vs GS 3/4, away 36/105, month 11 past seasons 11/37, rest 1 day 41/109, opp defence middle 13/48, with Darius Garland 10/16, with Kris Dunn 11/22, with Derrick Jones Jr. 11/22"
+   "text": "[research] Isaiah Jackson over 8.5 pts (@ GS): p=0.408 (raw 0.377) vs DraftKings implied 0.552 EV -0.261 @ DraftKings | career 71/202, season 3/5, last5 3/5, last10 6/10, vs GS 3/4, away 36/105, month 11 past seasons 11/37, rest 1 day 41/109, opp defence middle 13/48, with Darius Garland 10/16, with Kris Dunn 11/22, with Derrick Jones Jr. 11/22"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": 0.1152,
+   "ev": 0.0911,
    "fair": null,
    "game_id": "401909905",
    "home": false,
-   "implied": 0.5405,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 8.5,
    "opp": "GS",
@@ -108711,7 +108711,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Isaiah Jackson under 8.5 pts (@ GS): p=0.603 (raw 0.623) vs DraftKings implied 0.540 EV +0.115 @ DraftKings | career 131/202, season 2/5, last5 2/5, last10 4/10, vs GS 1/4, away 69/105, month 11 past seasons 26/37, rest 1 day 68/109, opp defence middle 35/48, with Darius Garland 6/16, with Kris Dunn 11/22, with Derrick Jones Jr. 11/22"
+   "text": "[research] Isaiah Jackson under 8.5 pts (@ GS): p=0.603 (raw 0.623) vs DraftKings implied 0.552 EV +0.091 @ DraftKings | career 131/202, season 2/5, last5 2/5, last10 4/10, vs GS 1/4, away 69/105, month 11 past seasons 26/37, rest 1 day 68/109, opp defence middle 35/48, with Darius Garland 6/16, with Kris Dunn 11/22, with Derrick Jones Jr. 11/22"
   },
   {
    "book": "DraftKings",
@@ -109001,11 +109001,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": 0.1562,
-   "fair": 0.5346,
+   "ev": 0.1165,
+   "fair": 0.5517,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.5714,
+   "implied": 0.5917,
    "k": 40.0,
    "line": 4.5,
    "opp": "LAC",
@@ -109091,16 +109091,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Brandin Podziemski under 4.5 ast (vs LAC): p=0.661 (raw 0.694) vs DraftKings implied 0.571 EV +0.156 @ DraftKings | career 164/239, season 1/4, last5 2/5, last10 7/10, vs LAC 11/13, home 77/117, month 11 past seasons 32/39, rest 1 day 100/140, opp defence tough 63/84, with Yaxel Lendeborg 1/4, with Draymond Green 133/191, with Stephen Curry 130/178"
+   "text": "[research] Brandin Podziemski under 4.5 ast (vs LAC): p=0.661 (raw 0.694) vs DraftKings implied 0.592 EV +0.117 @ DraftKings | career 164/239, season 1/4, last5 2/5, last10 7/10, vs LAC 11/13, home 77/117, month 11 past seasons 32/39, rest 1 day 100/140, opp defence tough 63/84, with Yaxel Lendeborg 1/4, with Draymond Green 133/191, with Stephen Curry 130/178"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": 0.1904,
-   "fair": 0.5684,
+   "ev": 0.1614,
+   "fair": 0.5833,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.6098,
+   "implied": 0.625,
    "k": 40.0,
    "line": 2.5,
    "opp": "LAC",
@@ -109186,16 +109186,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Brandin Podziemski under 2.5 fg3m (vs LAC): p=0.726 (raw 0.770) vs DraftKings implied 0.610 EV +0.190 @ DraftKings | career 184/239, season 2/4, last5 2/5, last10 5/10, vs LAC 11/13, home 88/117, month 11 past seasons 34/39, rest 1 day 101/140, opp defence tough 77/93, with Yaxel Lendeborg 2/4, with Draymond Green 150/191, with Stephen Curry 144/178"
+   "text": "[research] Brandin Podziemski under 2.5 fg3m (vs LAC): p=0.726 (raw 0.770) vs DraftKings implied 0.625 EV +0.161 @ DraftKings | career 184/239, season 2/4, last5 2/5, last10 5/10, vs LAC 11/13, home 88/117, month 11 past seasons 34/39, rest 1 day 101/140, opp defence tough 77/93, with Yaxel Lendeborg 2/4, with Draymond Green 150/191, with Stephen Curry 144/178"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": -0.4516,
+   "ev": -0.4664,
    "fair": null,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.5405,
+   "implied": 0.5556,
    "k": 40.0,
    "line": 16.5,
    "opp": "LAC",
@@ -109281,16 +109281,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Brandin Podziemski over 16.5 pts (vs LAC): p=0.296 (raw 0.244) vs DraftKings implied 0.540 EV -0.452 @ DraftKings | career 56/239, season 3/4, last5 4/5, last10 8/10, vs LAC 4/13, home 28/117, month 11 past seasons 4/39, rest 1 day 32/140, opp defence middle 16/66, with Yaxel Lendeborg 3/4, with Draymond Green 45/191, with Stephen Curry 33/178"
+   "text": "[research] Brandin Podziemski over 16.5 pts (vs LAC): p=0.296 (raw 0.244) vs DraftKings implied 0.556 EV -0.466 @ DraftKings | career 56/239, season 3/4, last5 4/5, last10 8/10, vs LAC 4/13, home 28/117, month 11 past seasons 4/39, rest 1 day 32/140, opp defence middle 16/66, with Yaxel Lendeborg 3/4, with Draymond Green 45/191, with Stephen Curry 33/178"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": 0.3196,
+   "ev": 0.2839,
    "fair": null,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.5405,
+   "implied": 0.5556,
    "k": 40.0,
    "line": 16.5,
    "opp": "LAC",
@@ -109376,16 +109376,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Brandin Podziemski under 16.5 pts (vs LAC): p=0.713 (raw 0.756) vs DraftKings implied 0.540 EV +0.320 @ DraftKings | career 183/239, season 1/4, last5 1/5, last10 2/10, vs LAC 9/13, home 89/117, month 11 past seasons 35/39, rest 1 day 108/140, opp defence middle 50/66, with Yaxel Lendeborg 1/4, with Draymond Green 146/191, with Stephen Curry 145/178"
+   "text": "[research] Brandin Podziemski under 16.5 pts (vs LAC): p=0.713 (raw 0.756) vs DraftKings implied 0.556 EV +0.284 @ DraftKings | career 183/239, season 1/4, last5 1/5, last10 2/10, vs LAC 9/13, home 89/117, month 11 past seasons 35/39, rest 1 day 108/140, opp defence middle 50/66, with Yaxel Lendeborg 1/4, with Draymond Green 146/191, with Stephen Curry 145/178"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": -0.1862,
+   "ev": -0.1996,
    "fair": null,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.5464,
+   "implied": 0.5556,
    "k": 40.0,
    "line": 5.5,
    "opp": "LAC",
@@ -109471,16 +109471,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Brandin Podziemski over 5.5 reb (vs LAC): p=0.445 (raw 0.422) vs DraftKings implied 0.546 EV -0.186 @ DraftKings | career 107/239, season 1/4, last5 2/5, last10 3/10, vs LAC 7/13, home 51/117, month 11 past seasons 12/39, rest 1 day 61/140, opp defence middle 31/70, with Yaxel Lendeborg 1/4, with Draymond Green 86/191, with Stephen Curry 68/178"
+   "text": "[research] Brandin Podziemski over 5.5 reb (vs LAC): p=0.445 (raw 0.422) vs DraftKings implied 0.556 EV -0.200 @ DraftKings | career 107/239, season 1/4, last5 2/5, last10 3/10, vs LAC 7/13, home 51/117, month 11 past seasons 12/39, rest 1 day 61/140, opp defence middle 31/70, with Yaxel Lendeborg 1/4, with Draymond Green 86/191, with Stephen Curry 68/178"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": 0.0374,
+   "ev": 0.0204,
    "fair": null,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.5464,
+   "implied": 0.5556,
    "k": 40.0,
    "line": 5.5,
    "opp": "LAC",
@@ -109566,16 +109566,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Brandin Podziemski under 5.5 reb (vs LAC): p=0.567 (raw 0.578) vs DraftKings implied 0.546 EV +0.037 @ DraftKings | career 132/239, season 3/4, last5 3/5, last10 7/10, vs LAC 6/13, home 66/117, month 11 past seasons 27/39, rest 1 day 79/140, opp defence middle 39/70, with Yaxel Lendeborg 3/4, with Draymond Green 105/191, with Stephen Curry 110/178"
+   "text": "[research] Brandin Podziemski under 5.5 reb (vs LAC): p=0.567 (raw 0.578) vs DraftKings implied 0.556 EV +0.020 @ DraftKings | career 132/239, season 3/4, last5 3/5, last10 7/10, vs LAC 6/13, home 66/117, month 11 past seasons 27/39, rest 1 day 79/140, opp defence middle 39/70, with Yaxel Lendeborg 3/4, with Draymond Green 105/191, with Stephen Curry 110/178"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": 0.3458,
-   "fair": null,
+   "ev": 0.2873,
+   "fair": 0.5307,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.5435,
+   "implied": 0.5682,
    "k": 40.0,
    "line": 2.5,
    "opp": "LAC",
@@ -109661,16 +109661,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Gui Santos under 2.5 ast (vs LAC): p=0.731 (raw 0.777) vs DraftKings implied 0.543 EV +0.346 @ DraftKings | career 124/165, season 4/5, last5 4/5, last10 6/10, vs LAC 4/6, home 65/76, month 11 past seasons 14/14, rest 1 day 52/77, opp defence tough 44/55, with Yaxel Lendeborg 4/5, with Draymond Green 101/134, with Stephen Curry 96/114"
+   "text": "[research] Gui Santos under 2.5 ast (vs LAC): p=0.731 (raw 0.777) vs DraftKings implied 0.568 EV +0.287 @ DraftKings | career 124/165, season 4/5, last5 4/5, last10 6/10, vs LAC 4/6, home 65/76, month 11 past seasons 14/14, rest 1 day 52/77, opp defence tough 44/55, with Yaxel Lendeborg 4/5, with Draymond Green 101/134, with Stephen Curry 96/114"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": 0.3951,
-   "fair": 0.3397,
+   "ev": 0.3344,
+   "fair": 0.3545,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.3623,
+   "implied": 0.3788,
    "k": 40.0,
    "line": 0.5,
    "opp": "LAC",
@@ -109756,7 +109756,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Gui Santos under 0.5 fg3m (vs LAC): p=0.505 (raw 0.499) vs DraftKings implied 0.362 EV +0.395 @ DraftKings | career 83/165, season 1/5, last5 1/5, last10 3/10, vs LAC 3/6, home 40/76, month 11 past seasons 8/14, rest 1 day 38/77, opp defence tough 29/56, with Yaxel Lendeborg 1/5, with Draymond Green 70/134, with Stephen Curry 64/114"
+   "text": "[research] Gui Santos under 0.5 fg3m (vs LAC): p=0.505 (raw 0.499) vs DraftKings implied 0.379 EV +0.334 @ DraftKings | career 83/165, season 1/5, last5 1/5, last10 3/10, vs LAC 3/6, home 40/76, month 11 past seasons 8/14, rest 1 day 38/77, opp defence tough 29/56, with Yaxel Lendeborg 1/5, with Draymond Green 70/134, with Stephen Curry 64/114"
   },
   {
    "book": "DraftKings",
@@ -110123,11 +110123,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": 0.4222,
-   "fair": 0.4046,
+   "ev": 0.3607,
+   "fair": 0.423,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.4329,
+   "implied": 0.4525,
    "k": 40.0,
    "line": 1.5,
    "opp": "LAC",
@@ -110195,16 +110195,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Yaxel Lendeborg under 1.5 fg3m (vs LAC): p=0.616 (raw 0.639) vs DraftKings implied 0.433 EV +0.422 @ DraftKings | career 4/6, season 4/6, last5 3/5, last10 4/6, home 2/2, rest 1 day 3/4, with Draymond Green 4/5, with Stephen Curry 4/5, with Gui Santos 4/5"
+   "text": "[research] Yaxel Lendeborg under 1.5 fg3m (vs LAC): p=0.616 (raw 0.639) vs DraftKings implied 0.453 EV +0.361 @ DraftKings | career 4/6, season 4/6, last5 3/5, last10 4/6, home 2/2, rest 1 day 3/4, with Draymond Green 4/5, with Stephen Curry 4/5, with Gui Santos 4/5"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": -0.0748,
+   "ev": -0.0899,
    "fair": null,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.5435,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 20.5,
    "opp": "LAC",
@@ -110278,16 +110278,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Yaxel Lendeborg over 20.5 pts (vs LAC): p=0.503 (raw 0.496) vs DraftKings implied 0.543 EV -0.075 @ DraftKings | career 3/6, season 3/6, last5 3/5, last10 3/6, home 0/2, rest 1 day 2/4, opp defence middle 0/1, with Draymond Green 2/5, with Stephen Curry 2/5, with Gui Santos 2/5"
+   "text": "[research] Yaxel Lendeborg over 20.5 pts (vs LAC): p=0.503 (raw 0.496) vs DraftKings implied 0.552 EV -0.090 @ DraftKings | career 3/6, season 3/6, last5 3/5, last10 3/6, home 0/2, rest 1 day 2/4, opp defence middle 0/1, with Draymond Green 2/5, with Stephen Curry 2/5, with Gui Santos 2/5"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": -0.0636,
+   "ev": -0.0788,
    "fair": null,
    "game_id": "401909905",
    "home": true,
-   "implied": 0.5435,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 20.5,
    "opp": "LAC",
@@ -110361,7 +110361,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Yaxel Lendeborg under 20.5 pts (vs LAC): p=0.509 (raw 0.504) vs DraftKings implied 0.543 EV -0.064 @ DraftKings | career 3/6, season 3/6, last5 2/5, last10 3/6, home 2/2, rest 1 day 2/4, opp defence middle 1/1, with Draymond Green 3/5, with Stephen Curry 3/5, with Gui Santos 3/5"
+   "text": "[research] Yaxel Lendeborg under 20.5 pts (vs LAC): p=0.509 (raw 0.504) vs DraftKings implied 0.552 EV -0.079 @ DraftKings | career 3/6, season 3/6, last5 2/5, last10 3/6, home 2/2, rest 1 day 2/4, opp defence middle 1/1, with Draymond Green 3/5, with Stephen Curry 3/5, with Gui Santos 3/5"
   },
   {
    "book": "DraftKings",
@@ -110840,11 +110840,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": -0.0599,
-   "fair": 0.4459,
+   "ev": -0.0868,
+   "fair": 0.4574,
    "game_id": "401909905",
    "home": false,
-   "implied": 0.4762,
+   "implied": 0.4902,
    "k": 40.0,
    "line": 1.5,
    "opp": "GS",
@@ -110912,7 +110912,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Keaton Wagler under 1.5 fg3m (@ GS): p=0.448 (raw 0.426) vs DraftKings implied 0.476 EV -0.060 @ DraftKings | career 2/5, season 2/5, last5 2/5, last10 2/5, away 2/3, rest 1 day 2/3, with Darius Garland 2/5, with Kris Dunn 2/5, with Derrick Jones Jr. 2/5"
+   "text": "[research] Keaton Wagler under 1.5 fg3m (@ GS): p=0.448 (raw 0.426) vs DraftKings implied 0.490 EV -0.087 @ DraftKings | career 2/5, season 2/5, last5 2/5, last10 2/5, away 2/3, rest 1 day 2/3, with Darius Garland 2/5, with Kris Dunn 2/5, with Derrick Jones Jr. 2/5"
   },
   {
    "book": "DraftKings",
@@ -111237,17 +111237,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-01",
-   "ev": -0.2882,
-   "fair": 0.5833,
+   "ev": -0.2926,
+   "fair": 0.5881,
    "game_id": "401909905",
    "home": false,
-   "implied": 0.625,
+   "implied": 0.6289,
    "k": 40.0,
    "line": 4.5,
    "opp": "GS",
    "player": "Keaton Wagler",
    "player_id": "5254165",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.4449,
    "prob_raw": 0.4227,
    "side": "under",
@@ -111315,7 +111315,541 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Keaton Wagler under 4.5 reb (@ GS): p=0.445 (raw 0.423) vs DraftKings implied 0.625 EV -0.288 @ DraftKings | career 2/5, season 2/5, last5 2/5, last10 2/5, away 1/3, rest 1 day 1/3, opp defence tough 0/1, with Darius Garland 2/5, with Kris Dunn 2/5, with Derrick Jones Jr. 2/5"
+   "text": "[research] Keaton Wagler under 4.5 reb (@ GS): p=0.445 (raw 0.423) vs DraftKings implied 0.629 EV -0.293 @ DraftKings | career 2/5, season 2/5, last5 2/5, last10 2/5, away 1/3, rest 1 day 1/3, opp defence tough 0/1, with Darius Garland 2/5, with Kris Dunn 2/5, with Derrick Jones Jr. 2/5"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-01",
+   "ev": 0.011,
+   "fair": null,
+   "game_id": "401909905",
+   "home": true,
+   "implied": 0.565,
+   "k": 40.0,
+   "line": 7.5,
+   "opp": "LAC",
+   "player": "Georges Niang",
+   "player_id": "2990969",
+   "price_observed_at": "2026-11-01T19:44:04Z",
+   "prob": 0.5712,
+   "prob_raw": 0.583,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 153,
+     "n": 268,
+     "rate": 0.571,
+     "split": "career"
+    },
+    {
+     "hits": 2,
+     "n": 6,
+     "rate": 0.333,
+     "split": "season"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "last5"
+    },
+    {
+     "hits": 6,
+     "n": 10,
+     "rate": 0.6,
+     "split": "last10"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "vs LAC"
+    },
+    {
+     "hits": 84,
+     "n": 136,
+     "rate": 0.618,
+     "split": "home"
+    },
+    {
+     "hits": 31,
+     "n": 44,
+     "rate": 0.705,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 88,
+     "n": 161,
+     "rate": 0.547,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 56,
+     "n": 83,
+     "rate": 0.675,
+     "split": "opp defence middle"
+    },
+    {
+     "hits": 2,
+     "n": 6,
+     "rate": 0.333,
+     "split": "with Yaxel Lendeborg"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "with Draymond Green"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "with Stephen Curry"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Georges Niang over 7.5 pts (vs LAC): p=0.571 (raw 0.583) vs DraftKings implied 0.565 EV +0.011 @ DraftKings | career 153/268, season 2/6, last5 2/5, last10 6/10, vs LAC 3/5, home 84/136, month 11 past seasons 31/44, rest 1 day 88/161, opp defence middle 56/83, with Yaxel Lendeborg 2/6, with Draymond Green 2/5, with Stephen Curry 2/5"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-01",
+   "ev": -0.2206,
+   "fair": null,
+   "game_id": "401909905",
+   "home": true,
+   "implied": 0.565,
+   "k": 40.0,
+   "line": 7.5,
+   "opp": "LAC",
+   "player": "Georges Niang",
+   "player_id": "2990969",
+   "price_observed_at": "2026-11-01T19:44:04Z",
+   "prob": 0.4403,
+   "prob_raw": 0.417,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 115,
+     "n": 268,
+     "rate": 0.429,
+     "split": "career"
+    },
+    {
+     "hits": 4,
+     "n": 6,
+     "rate": 0.667,
+     "split": "season"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "last5"
+    },
+    {
+     "hits": 4,
+     "n": 10,
+     "rate": 0.4,
+     "split": "last10"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "vs LAC"
+    },
+    {
+     "hits": 52,
+     "n": 136,
+     "rate": 0.382,
+     "split": "home"
+    },
+    {
+     "hits": 13,
+     "n": 44,
+     "rate": 0.295,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 73,
+     "n": 161,
+     "rate": 0.453,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 27,
+     "n": 83,
+     "rate": 0.325,
+     "split": "opp defence middle"
+    },
+    {
+     "hits": 4,
+     "n": 6,
+     "rate": 0.667,
+     "split": "with Yaxel Lendeborg"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "with Draymond Green"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "with Stephen Curry"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Georges Niang under 7.5 pts (vs LAC): p=0.440 (raw 0.417) vs DraftKings implied 0.565 EV -0.221 @ DraftKings | career 115/268, season 4/6, last5 3/5, last10 4/10, vs LAC 2/5, home 52/136, month 11 past seasons 13/44, rest 1 day 73/161, opp defence middle 27/83, with Yaxel Lendeborg 4/6, with Draymond Green 3/5, with Stephen Curry 3/5"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-01",
+   "ev": 0.4574,
+   "fair": 0.4656,
+   "game_id": "401909905",
+   "home": true,
+   "implied": 0.495,
+   "k": 40.0,
+   "line": 9.5,
+   "opp": "LAC",
+   "player": "Gui Santos",
+   "player_id": "4997536",
+   "price_observed_at": "2026-11-01T19:44:04Z",
+   "prob": 0.7215,
+   "prob_raw": 0.7654,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 124,
+     "n": 165,
+     "rate": 0.752,
+     "split": "career"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "season"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "last5"
+    },
+    {
+     "hits": 6,
+     "n": 10,
+     "rate": 0.6,
+     "split": "last10"
+    },
+    {
+     "hits": 5,
+     "n": 6,
+     "rate": 0.833,
+     "split": "vs LAC"
+    },
+    {
+     "hits": 60,
+     "n": 76,
+     "rate": 0.789,
+     "split": "home"
+    },
+    {
+     "hits": 14,
+     "n": 14,
+     "rate": 1.0,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 56,
+     "n": 77,
+     "rate": 0.727,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 33,
+     "n": 47,
+     "rate": 0.702,
+     "split": "opp defence middle"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "with Yaxel Lendeborg"
+    },
+    {
+     "hits": 103,
+     "n": 134,
+     "rate": 0.769,
+     "split": "with Draymond Green"
+    },
+    {
+     "hits": 100,
+     "n": 114,
+     "rate": 0.877,
+     "split": "with Stephen Curry"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Gui Santos under 9.5 pts (vs LAC): p=0.722 (raw 0.765) vs DraftKings implied 0.495 EV +0.457 @ DraftKings | career 124/165, season 3/5, last5 3/5, last10 6/10, vs LAC 5/6, home 60/76, month 11 past seasons 14/14, rest 1 day 56/77, opp defence middle 33/47, with Yaxel Lendeborg 3/5, with Draymond Green 103/134, with Stephen Curry 100/114"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-01",
+   "ev": -0.1906,
+   "fair": null,
+   "game_id": "401909905",
+   "home": true,
+   "implied": 0.625,
+   "k": 40.0,
+   "line": 3.5,
+   "opp": "LAC",
+   "player": "Yaxel Lendeborg",
+   "player_id": "5175737",
+   "price_observed_at": "2026-11-01T10:21:00Z",
+   "prob": 0.5059,
+   "prob_raw": 0.5,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 3,
+     "n": 6,
+     "rate": 0.5,
+     "split": "career"
+    },
+    {
+     "hits": 3,
+     "n": 6,
+     "rate": 0.5,
+     "split": "season"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "last5"
+    },
+    {
+     "hits": 3,
+     "n": 6,
+     "rate": 0.5,
+     "split": "last10"
+    },
+    {
+     "hits": 1,
+     "n": 2,
+     "rate": 0.5,
+     "split": "home"
+    },
+    {
+     "hits": 2,
+     "n": 4,
+     "rate": 0.5,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "with Draymond Green"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "with Stephen Curry"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "with Gui Santos"
+    }
+   ],
+   "stat": "ast",
+   "status": "research",
+   "text": "[research] Yaxel Lendeborg over 3.5 ast (vs LAC): p=0.506 (raw 0.500) vs DraftKings implied 0.625 EV -0.191 @ DraftKings | career 3/6, season 3/6, last5 3/5, last10 3/6, home 1/2, rest 1 day 2/4, with Draymond Green 2/5, with Stephen Curry 2/5, with Gui Santos 3/5"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-01",
+   "ev": -0.1906,
+   "fair": null,
+   "game_id": "401909905",
+   "home": true,
+   "implied": 0.625,
+   "k": 40.0,
+   "line": 3.5,
+   "opp": "LAC",
+   "player": "Yaxel Lendeborg",
+   "player_id": "5175737",
+   "price_observed_at": "2026-11-01T10:21:00Z",
+   "prob": 0.5059,
+   "prob_raw": 0.5,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 3,
+     "n": 6,
+     "rate": 0.5,
+     "split": "career"
+    },
+    {
+     "hits": 3,
+     "n": 6,
+     "rate": 0.5,
+     "split": "season"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "last5"
+    },
+    {
+     "hits": 3,
+     "n": 6,
+     "rate": 0.5,
+     "split": "last10"
+    },
+    {
+     "hits": 1,
+     "n": 2,
+     "rate": 0.5,
+     "split": "home"
+    },
+    {
+     "hits": 2,
+     "n": 4,
+     "rate": 0.5,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "with Draymond Green"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "with Stephen Curry"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "with Gui Santos"
+    }
+   ],
+   "stat": "ast",
+   "status": "research",
+   "text": "[research] Yaxel Lendeborg under 3.5 ast (vs LAC): p=0.506 (raw 0.500) vs DraftKings implied 0.625 EV -0.191 @ DraftKings | career 3/6, season 3/6, last5 2/5, last10 3/6, home 1/2, rest 1 day 2/4, with Draymond Green 3/5, with Stephen Curry 3/5, with Gui Santos 2/5"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-01",
+   "ev": 0.1543,
+   "fair": 0.3405,
+   "game_id": "401909905",
+   "home": false,
+   "implied": 0.3636,
+   "k": 40.0,
+   "line": 0.5,
+   "opp": "GS",
+   "player": "Kris Dunn",
+   "player_id": "2991139",
+   "price_observed_at": "2026-11-01T19:44:04Z",
+   "prob": 0.4197,
+   "prob_raw": 0.3912,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 108,
+     "n": 256,
+     "rate": 0.422,
+     "split": "career"
+    },
+    {
+     "hits": 1,
+     "n": 5,
+     "rate": 0.2,
+     "split": "season"
+    },
+    {
+     "hits": 1,
+     "n": 5,
+     "rate": 0.2,
+     "split": "last5"
+    },
+    {
+     "hits": 3,
+     "n": 10,
+     "rate": 0.3,
+     "split": "last10"
+    },
+    {
+     "hits": 3,
+     "n": 11,
+     "rate": 0.273,
+     "split": "vs GS"
+    },
+    {
+     "hits": 50,
+     "n": 130,
+     "rate": 0.385,
+     "split": "away"
+    },
+    {
+     "hits": 14,
+     "n": 39,
+     "rate": 0.359,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 63,
+     "n": 148,
+     "rate": 0.426,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 33,
+     "n": 80,
+     "rate": 0.412,
+     "split": "opp defence middle"
+    },
+    {
+     "hits": 9,
+     "n": 25,
+     "rate": 0.36,
+     "split": "with Darius Garland"
+    },
+    {
+     "hits": 49,
+     "n": 132,
+     "rate": 0.371,
+     "split": "with Derrick Jones Jr."
+    },
+    {
+     "hits": 1,
+     "n": 5,
+     "rate": 0.2,
+     "split": "with Keaton Wagler"
+    }
+   ],
+   "stat": "fg3m",
+   "status": "research",
+   "text": "[research] Kris Dunn under 0.5 fg3m (@ GS): p=0.420 (raw 0.391) vs DraftKings implied 0.364 EV +0.154 @ DraftKings | career 108/256, season 1/5, last5 1/5, last10 3/10, vs GS 3/11, away 50/130, month 11 past seasons 14/39, rest 1 day 63/148, opp defence middle 33/80, with Darius Garland 9/25, with Derrick Jones Jr. 49/132, with Keaton Wagler 1/5"
   },
   {
    "book": "bet365",
@@ -128420,6 +128954,101 @@
   {
    "book": "bet365",
    "date": "2026-11-01",
+   "ev": -0.7206,
+   "fair": null,
+   "game_id": "401909906",
+   "home": true,
+   "implied": 0.0278,
+   "k": 40.0,
+   "line": 24.5,
+   "opp": "TOR",
+   "player": "Matisse Thybulle",
+   "player_id": "3907498",
+   "price_observed_at": "2026-11-01T19:01:14Z",
+   "prob": 0.0078,
+   "prob_raw": 0.002,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 0,
+     "n": 190,
+     "rate": 0.0,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 6,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 5,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 0,
+     "n": 10,
+     "rate": 0.0,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 6,
+     "rate": 0.0,
+     "split": "vs TOR"
+    },
+    {
+     "hits": 0,
+     "n": 100,
+     "rate": 0.0,
+     "split": "home"
+    },
+    {
+     "hits": 0,
+     "n": 25,
+     "rate": 0.0,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 0,
+     "n": 111,
+     "rate": 0.0,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 0,
+     "n": 45,
+     "rate": 0.0,
+     "split": "opp defence tough"
+    },
+    {
+     "hits": 0,
+     "n": 5,
+     "rate": 0.0,
+     "split": "with Luka Doncic"
+    },
+    {
+     "hits": 0,
+     "n": 6,
+     "rate": 0.0,
+     "split": "with Austin Reaves"
+    },
+    {
+     "hits": 0,
+     "n": 6,
+     "rate": 0.0,
+     "split": "with Walker Kessler"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Matisse Thybulle over 24.5 pts (vs TOR): p=0.008 (raw 0.002) vs bet365 implied 0.028 EV -0.721 @ bet365 | career 0/190, season 0/6, last5 0/5, last10 0/10, vs TOR 0/6, home 0/100, month 11 past seasons 0/25, rest 1 day 0/111, opp defence tough 0/45, with Luka Doncic 0/5, with Austin Reaves 0/6, with Walker Kessler 0/6"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-11-01",
    "ev": -0.3275,
    "fair": null,
    "game_id": "401909906",
@@ -138595,7 +139224,7 @@
    "opp": "LAL",
    "player": "Jakob Poeltl",
    "player_id": "3134908",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.7218,
    "prob_raw": 0.7658,
    "side": "over",
@@ -138690,7 +139319,7 @@
    "opp": "LAL",
    "player": "Jakob Poeltl",
    "player_id": "3134908",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.2877,
    "prob_raw": 0.2342,
    "side": "under",
@@ -140685,7 +141314,7 @@
    "opp": "TOR",
    "player": "Austin Reaves",
    "player_id": "4066457",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.4288,
    "prob_raw": 0.4025,
    "side": "under",
@@ -140875,7 +141504,7 @@
    "opp": "TOR",
    "player": "Austin Reaves",
    "player_id": "4066457",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.3347,
    "prob_raw": 0.288,
    "side": "over",
@@ -140970,7 +141599,7 @@
    "opp": "TOR",
    "player": "Austin Reaves",
    "player_id": "4066457",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.6757,
    "prob_raw": 0.712,
    "side": "under",
@@ -141730,7 +142359,7 @@
    "opp": "TOR",
    "player": "Collin Sexton",
    "player_id": "4277811",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.5595,
    "prob_raw": 0.5683,
    "side": "under",
@@ -142585,7 +143214,7 @@
    "opp": "TOR",
    "player": "Sandro Mamukelashvili",
    "player_id": "4278580",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.4313,
    "prob_raw": 0.4057,
    "side": "over",
@@ -142680,7 +143309,7 @@
    "opp": "TOR",
    "player": "Sandro Mamukelashvili",
    "player_id": "4278580",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.5801,
    "prob_raw": 0.5943,
    "side": "under",
@@ -143155,7 +143784,7 @@
    "opp": "LAL",
    "player": "RJ Barrett",
    "player_id": "4395625",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.4966,
    "prob_raw": 0.4882,
    "side": "over",
@@ -143250,7 +143879,7 @@
    "opp": "LAL",
    "player": "RJ Barrett",
    "player_id": "4395625",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.5152,
    "prob_raw": 0.5118,
    "side": "under",
@@ -145140,6 +145769,196 @@
   {
    "book": "DraftKings",
    "date": "2026-11-01",
+   "ev": -0.3832,
+   "fair": null,
+   "game_id": "401909906",
+   "home": false,
+   "implied": 0.5556,
+   "k": 40.0,
+   "line": 22.5,
+   "opp": "LAL",
+   "player": "Scottie Barnes",
+   "player_id": "4433134",
+   "price_observed_at": "2026-11-01T19:44:04Z",
+   "prob": 0.3427,
+   "prob_raw": 0.2975,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 79,
+     "n": 294,
+     "rate": 0.269,
+     "split": "career"
+    },
+    {
+     "hits": 4,
+     "n": 5,
+     "rate": 0.8,
+     "split": "season"
+    },
+    {
+     "hits": 4,
+     "n": 5,
+     "rate": 0.8,
+     "split": "last5"
+    },
+    {
+     "hits": 8,
+     "n": 10,
+     "rate": 0.8,
+     "split": "last10"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "vs LAL"
+    },
+    {
+     "hits": 40,
+     "n": 146,
+     "rate": 0.274,
+     "split": "away"
+    },
+    {
+     "hits": 12,
+     "n": 47,
+     "rate": 0.255,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 51,
+     "n": 178,
+     "rate": 0.287,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 22,
+     "n": 80,
+     "rate": 0.275,
+     "split": "opp defence middle"
+    },
+    {
+     "hits": 36,
+     "n": 132,
+     "rate": 0.273,
+     "split": "with RJ Barrett"
+    },
+    {
+     "hits": 33,
+     "n": 127,
+     "rate": 0.26,
+     "split": "with Immanuel Quickley"
+    },
+    {
+     "hits": 37,
+     "n": 124,
+     "rate": 0.298,
+     "split": "with Ja'Kobe Walter"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Scottie Barnes over 22.5 pts (@ LAL): p=0.343 (raw 0.297) vs DraftKings implied 0.556 EV -0.383 @ DraftKings | career 79/294, season 4/5, last5 4/5, last10 8/10, vs LAL 3/5, away 40/146, month 11 past seasons 12/47, rest 1 day 51/178, opp defence middle 22/80, with RJ Barrett 36/132, with Immanuel Quickley 33/127, with Ja'Kobe Walter 37/124"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-01",
+   "ev": 0.2021,
+   "fair": null,
+   "game_id": "401909906",
+   "home": false,
+   "implied": 0.5556,
+   "k": 40.0,
+   "line": 22.5,
+   "opp": "LAL",
+   "player": "Scottie Barnes",
+   "player_id": "4433134",
+   "price_observed_at": "2026-11-01T19:44:04Z",
+   "prob": 0.6678,
+   "prob_raw": 0.7025,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 215,
+     "n": 294,
+     "rate": 0.731,
+     "split": "career"
+    },
+    {
+     "hits": 1,
+     "n": 5,
+     "rate": 0.2,
+     "split": "season"
+    },
+    {
+     "hits": 1,
+     "n": 5,
+     "rate": 0.2,
+     "split": "last5"
+    },
+    {
+     "hits": 2,
+     "n": 10,
+     "rate": 0.2,
+     "split": "last10"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "vs LAL"
+    },
+    {
+     "hits": 106,
+     "n": 146,
+     "rate": 0.726,
+     "split": "away"
+    },
+    {
+     "hits": 35,
+     "n": 47,
+     "rate": 0.745,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 127,
+     "n": 178,
+     "rate": 0.713,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 58,
+     "n": 80,
+     "rate": 0.725,
+     "split": "opp defence middle"
+    },
+    {
+     "hits": 96,
+     "n": 132,
+     "rate": 0.727,
+     "split": "with RJ Barrett"
+    },
+    {
+     "hits": 94,
+     "n": 127,
+     "rate": 0.74,
+     "split": "with Immanuel Quickley"
+    },
+    {
+     "hits": 87,
+     "n": 124,
+     "rate": 0.702,
+     "split": "with Ja'Kobe Walter"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Scottie Barnes under 22.5 pts (@ LAL): p=0.668 (raw 0.703) vs DraftKings implied 0.556 EV +0.202 @ DraftKings | career 215/294, season 1/5, last5 1/5, last10 2/10, vs LAL 2/5, away 106/146, month 11 past seasons 35/47, rest 1 day 127/178, opp defence middle 58/80, with RJ Barrett 96/132, with Immanuel Quickley 94/127, with Ja'Kobe Walter 87/124"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-01",
    "ev": -0.4708,
    "fair": null,
    "game_id": "401909906",
@@ -146195,7 +147014,7 @@
    "opp": "TOR",
    "player": "Ziaire Williams",
    "player_id": "4433137",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.5226,
    "prob_raw": 0.5213,
    "side": "over",
@@ -146290,7 +147109,7 @@
    "opp": "TOR",
    "player": "Ziaire Williams",
    "player_id": "4433137",
-   "price_observed_at": "2026-11-01T19:23:10Z",
+   "price_observed_at": "2026-11-01T19:44:04Z",
    "prob": 0.4891,
    "prob_raw": 0.4787,
    "side": "under",
@@ -147986,294 +148805,9 @@
    "stat": "reb",
    "status": "research",
    "text": "[research] Collin Murray-Boyles under 5.5 reb (@ LAL): p=0.623 (raw 0.648) vs DraftKings implied 0.540 EV +0.153 @ DraftKings | career 45/68, season 3/5, last5 3/5, last10 5/10, vs LAL 1/2, away 20/31, month 11 past seasons 9/12, rest 1 day 20/35, opp defence tough 13/20, with Scottie Barnes 43/66, with RJ Barrett 32/47, with Immanuel Quickley 34/52"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-11-01",
-   "ev": -0.3832,
-   "fair": null,
-   "game_id": "401909906",
-   "home": false,
-   "implied": 0.5556,
-   "k": 40.0,
-   "line": 22.5,
-   "opp": "LAL",
-   "player": "Scottie Barnes",
-   "player_id": "4433134",
-   "price_observed_at": "2026-11-01T19:23:10Z",
-   "prob": 0.3427,
-   "prob_raw": 0.2975,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 79,
-     "n": 294,
-     "rate": 0.269,
-     "split": "career"
-    },
-    {
-     "hits": 4,
-     "n": 5,
-     "rate": 0.8,
-     "split": "season"
-    },
-    {
-     "hits": 4,
-     "n": 5,
-     "rate": 0.8,
-     "split": "last5"
-    },
-    {
-     "hits": 8,
-     "n": 10,
-     "rate": 0.8,
-     "split": "last10"
-    },
-    {
-     "hits": 3,
-     "n": 5,
-     "rate": 0.6,
-     "split": "vs LAL"
-    },
-    {
-     "hits": 40,
-     "n": 146,
-     "rate": 0.274,
-     "split": "away"
-    },
-    {
-     "hits": 12,
-     "n": 47,
-     "rate": 0.255,
-     "split": "month 11 past seasons"
-    },
-    {
-     "hits": 51,
-     "n": 178,
-     "rate": 0.287,
-     "split": "rest 1 day"
-    },
-    {
-     "hits": 22,
-     "n": 80,
-     "rate": 0.275,
-     "split": "opp defence middle"
-    },
-    {
-     "hits": 36,
-     "n": 132,
-     "rate": 0.273,
-     "split": "with RJ Barrett"
-    },
-    {
-     "hits": 33,
-     "n": 127,
-     "rate": 0.26,
-     "split": "with Immanuel Quickley"
-    },
-    {
-     "hits": 37,
-     "n": 124,
-     "rate": 0.298,
-     "split": "with Ja'Kobe Walter"
-    }
-   ],
-   "stat": "pts",
-   "status": "research",
-   "text": "[research] Scottie Barnes over 22.5 pts (@ LAL): p=0.343 (raw 0.297) vs DraftKings implied 0.556 EV -0.383 @ DraftKings | career 79/294, season 4/5, last5 4/5, last10 8/10, vs LAL 3/5, away 40/146, month 11 past seasons 12/47, rest 1 day 51/178, opp defence middle 22/80, with RJ Barrett 36/132, with Immanuel Quickley 33/127, with Ja'Kobe Walter 37/124"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-11-01",
-   "ev": 0.2021,
-   "fair": null,
-   "game_id": "401909906",
-   "home": false,
-   "implied": 0.5556,
-   "k": 40.0,
-   "line": 22.5,
-   "opp": "LAL",
-   "player": "Scottie Barnes",
-   "player_id": "4433134",
-   "price_observed_at": "2026-11-01T19:23:10Z",
-   "prob": 0.6678,
-   "prob_raw": 0.7025,
-   "side": "under",
-   "splits": [
-    {
-     "hits": 215,
-     "n": 294,
-     "rate": 0.731,
-     "split": "career"
-    },
-    {
-     "hits": 1,
-     "n": 5,
-     "rate": 0.2,
-     "split": "season"
-    },
-    {
-     "hits": 1,
-     "n": 5,
-     "rate": 0.2,
-     "split": "last5"
-    },
-    {
-     "hits": 2,
-     "n": 10,
-     "rate": 0.2,
-     "split": "last10"
-    },
-    {
-     "hits": 2,
-     "n": 5,
-     "rate": 0.4,
-     "split": "vs LAL"
-    },
-    {
-     "hits": 106,
-     "n": 146,
-     "rate": 0.726,
-     "split": "away"
-    },
-    {
-     "hits": 35,
-     "n": 47,
-     "rate": 0.745,
-     "split": "month 11 past seasons"
-    },
-    {
-     "hits": 127,
-     "n": 178,
-     "rate": 0.713,
-     "split": "rest 1 day"
-    },
-    {
-     "hits": 58,
-     "n": 80,
-     "rate": 0.725,
-     "split": "opp defence middle"
-    },
-    {
-     "hits": 96,
-     "n": 132,
-     "rate": 0.727,
-     "split": "with RJ Barrett"
-    },
-    {
-     "hits": 94,
-     "n": 127,
-     "rate": 0.74,
-     "split": "with Immanuel Quickley"
-    },
-    {
-     "hits": 87,
-     "n": 124,
-     "rate": 0.702,
-     "split": "with Ja'Kobe Walter"
-    }
-   ],
-   "stat": "pts",
-   "status": "research",
-   "text": "[research] Scottie Barnes under 22.5 pts (@ LAL): p=0.668 (raw 0.703) vs DraftKings implied 0.556 EV +0.202 @ DraftKings | career 215/294, season 1/5, last5 1/5, last10 2/10, vs LAL 2/5, away 106/146, month 11 past seasons 35/47, rest 1 day 127/178, opp defence middle 58/80, with RJ Barrett 96/132, with Immanuel Quickley 94/127, with Ja'Kobe Walter 87/124"
-  },
-  {
-   "book": "bet365",
-   "date": "2026-11-01",
-   "ev": -0.7206,
-   "fair": null,
-   "game_id": "401909906",
-   "home": true,
-   "implied": 0.0278,
-   "k": 40.0,
-   "line": 24.5,
-   "opp": "TOR",
-   "player": "Matisse Thybulle",
-   "player_id": "3907498",
-   "price_observed_at": "2026-11-01T19:01:14Z",
-   "prob": 0.0078,
-   "prob_raw": 0.002,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 0,
-     "n": 190,
-     "rate": 0.0,
-     "split": "career"
-    },
-    {
-     "hits": 0,
-     "n": 6,
-     "rate": 0.0,
-     "split": "season"
-    },
-    {
-     "hits": 0,
-     "n": 5,
-     "rate": 0.0,
-     "split": "last5"
-    },
-    {
-     "hits": 0,
-     "n": 10,
-     "rate": 0.0,
-     "split": "last10"
-    },
-    {
-     "hits": 0,
-     "n": 6,
-     "rate": 0.0,
-     "split": "vs TOR"
-    },
-    {
-     "hits": 0,
-     "n": 100,
-     "rate": 0.0,
-     "split": "home"
-    },
-    {
-     "hits": 0,
-     "n": 25,
-     "rate": 0.0,
-     "split": "month 11 past seasons"
-    },
-    {
-     "hits": 0,
-     "n": 111,
-     "rate": 0.0,
-     "split": "rest 1 day"
-    },
-    {
-     "hits": 0,
-     "n": 45,
-     "rate": 0.0,
-     "split": "opp defence tough"
-    },
-    {
-     "hits": 0,
-     "n": 5,
-     "rate": 0.0,
-     "split": "with Luka Doncic"
-    },
-    {
-     "hits": 0,
-     "n": 6,
-     "rate": 0.0,
-     "split": "with Austin Reaves"
-    },
-    {
-     "hits": 0,
-     "n": 6,
-     "rate": 0.0,
-     "split": "with Walker Kessler"
-    }
-   ],
-   "stat": "pts",
-   "status": "research",
-   "text": "[research] Matisse Thybulle over 24.5 pts (vs TOR): p=0.008 (raw 0.002) vs bet365 implied 0.028 EV -0.721 @ bet365 | career 0/190, season 0/6, last5 0/5, last10 0/10, vs TOR 0/6, home 0/100, month 11 past seasons 0/25, rest 1 day 0/111, opp defence tough 0/45, with Luka Doncic 0/5, with Austin Reaves 0/6, with Walker Kessler 0/6"
   }
  ],
- "run_id": "run-2026-11-01T19:23:10Z",
+ "run_id": "run-2026-11-01T19:44:04Z",
  "slate": "2026-11-01",
  "status": "research/watchlist only"
 }
