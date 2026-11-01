@@ -2,17 +2,19 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 36-20 on 56 graded posted picks, +4.95u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 30-17 (+2.81u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 14-6 (+5.80u); gap<5pts 19-13 (-2.30u); gap>=15pts 3-1 (+1.44u).
+- 38-20 on 58 graded posted picks, +6.05u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 32-17 (+3.91u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 14-6 (+5.80u); gap<5pts 21-13 (-1.20u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 5-1 (+1.74u); moved toward us 5-3 (+1.26u).
-- Wider settled predictions (n=14821): model Brier 0.1508 vs book 0.1496 (lower is better).
+- Wider settled predictions (n=15261): model Brier 0.1501 vs book 0.1494 (lower is better).
 
 ## 2026-10-31
 
 | Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
 |---|---|---|---|---|---|---|---|
 | Jrue Holiday u2.5 fg3m | win | +0.57 | 0.655 | 0.636 | +0.03 |  | career 190/293, season 3/4, last10 6/10 |
+| CJ McCollum u2.5 fg3m | win | +0.58 | 0.654 | 0.632 | +0.03 |  | career 131/291, season 4/6, last10 7/10 |
+| Aaron Wiggins u2.5 fg3m | win | +0.52 | 0.698 | 0.657 | +0.06 |  | career 295/340, season 2/6, last10 6/10 |
 
 ## 2026-10-30
 
