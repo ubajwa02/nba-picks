@@ -42,7 +42,7 @@ Brier: model 0.1508 vs market-implied 0.1501 (n=16741; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 40-20-0, +7.28u, pending 0.
+Record 40-20-0, +7.28u, pending 6.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -107,6 +107,12 @@ Record 40-20-0, +7.28u, pending 0.
 | 2026-10-31 | Jrue Holiday u2.5 fg3m | -175 | 2 | win | +0.57 |
 | 2026-10-31 | CJ McCollum u2.5 fg3m | -172 | 2 | win | +0.58 |
 | 2026-10-31 | Ty Jerome o2.5 reb | -164 | None | void | +0.00 |
+| 2026-11-01 | Tristan da Silva u2.5 fg3m | -175 | None | pending | +0.00 |
+| 2026-11-01 | Aaron Nesmith u3.5 reb | -169 | None | pending | +0.00 |
+| 2026-11-01 | Brook Lopez u4.5 reb | -161 | None | pending | +0.00 |
+| 2026-11-01 | Austin Reaves u2.5 fg3m | -196 | None | pending | +0.00 |
+| 2026-11-01 | Keaton Wagler o3.5 reb | -167 | None | pending | +0.00 |
+| 2026-11-01 | Paul George u18.5 pts | -122 | None | pending | +0.00 |
 
 ## Rows
 
