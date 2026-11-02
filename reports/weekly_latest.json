@@ -1,0 +1,94 @@
+{
+ "at": "2026-11-02T19:58:43Z",
+ "commit": "3563c36",
+ "diagnostics": {
+  "markets": {
+   "ml": {
+    "n": 227,
+    "calibration_error": 0.17731581125700668,
+    "logloss": 0.6642809909067992,
+    "market_logloss": 0.5852397865704669,
+    "brier_drift": 0.024833852542645946
+   },
+   "spread": {
+    "n": 240,
+    "calibration_error": 0.19097475161446584,
+    "logloss": 0.7339000846831857,
+    "market_logloss": 0.6933807190417044,
+    "brier_drift": -0.004582007016194656
+   },
+   "total": {
+    "n": 239,
+    "calibration_error": 0.06443286913990454,
+    "logloss": 0.682919637840045,
+    "market_logloss": 0.6918091088998354,
+    "brier_drift": 0.008938065340267837
+   },
+   "prop": {
+    "n": 27369,
+    "calibration_error": 0.009684985975976286,
+    "logloss": 0.4386100434205506,
+    "market_logloss": 0.6740759089283666,
+    "brier_drift": 0.012870627573003557
+   }
+  },
+  "findings": 8,
+  "queued": 3,
+  "probation": [
+   [
+    "ml",
+    "calibration error 0.177"
+   ],
+   [
+    "spread",
+    "calibration error 0.191"
+   ],
+   [
+    "total",
+    "calibration error 0.064"
+   ]
+  ]
+ },
+ "forward_prop_check": {
+  "model": "props-v1",
+  "n": 150,
+  "calibration_error": 0.12237729879409401,
+  "threshold": 0.06,
+  "action": "demoted to props-v0"
+ },
+ "game_challengers": "ran queued challengers (see reports/research_latest.md)",
+ "prop_challengers": {
+  "props-v1": {
+   "champion": "props-v0",
+   "challenger": "props-v1",
+   "per_stat": {
+    "pts": {
+     "n": 4183,
+     "gain": 0.025984,
+     "t": 5.23,
+     "ok": true
+    },
+    "reb": {
+     "n": 3468,
+     "gain": 0.027094,
+     "t": 5.76,
+     "ok": true
+    },
+    "ast": {
+     "n": 2362,
+     "gain": 0.020245,
+     "t": 3.7,
+     "ok": true
+    },
+    "fg3m": {
+     "n": 2592,
+     "gain": 0.02233,
+     "t": 4.97,
+     "ok": true
+    }
+   },
+   "min_t": 2.0,
+   "passes": true
+  }
+ }
+}
