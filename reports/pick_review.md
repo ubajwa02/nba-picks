@@ -1,12 +1,20 @@
-# Pick review (cumulative, as of 2026-11-01)
+# Pick review (cumulative, as of 2026-11-02)
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 40-20 on 60 graded posted picks, +7.28u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 34-17 (+5.14u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 15-6 (+6.51u); gap<5pts 22-13 (-0.68u); gap>=15pts 3-1 (+1.44u).
+- 42-21 on 63 graded posted picks, +7.69u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 36-18 (+5.55u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 16-7 (+6.33u); gap<5pts 23-13 (-0.08u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 5-1 (+1.74u); moved toward us 5-3 (+1.26u).
-- Wider settled predictions (n=16741): model Brier 0.1508 vs book 0.1501 (lower is better).
+- Wider settled predictions (n=17535): model Brier 0.1507 vs book 0.1499 (lower is better).
+
+## 2026-11-01
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Tristan da Silva u2.5 fg3m | loss | -1.00 | 0.695 | 0.636 | +0.09 |  | career 135/168, season 2/5, last10 7/10 |
+| Paul George u18.5 pts | win | +0.82 | 0.613 | 0.549 | +0.12 |  | career 104/231, season 3/5, last10 7/10 |
+| Aaron Nesmith u3.5 reb | win | +0.59 | 0.643 | 0.628 | +0.02 |  | career 130/281, season 4/5, last10 8/10 |
 
 ## 2026-10-31
 
