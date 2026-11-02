@@ -42,7 +42,7 @@ Brier: model 0.1513 vs market-implied 0.1501 (n=18320; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 45-21-0, +9.42u, pending 0.
+Record 45-21-0, +9.42u, pending 6.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -113,6 +113,12 @@ Record 45-21-0, +9.42u, pending 0.
 | 2026-11-01 | Austin Reaves u2.5 fg3m | -196 | 2 | win | +0.51 |
 | 2026-11-01 | Keaton Wagler o3.5 reb | -167 | 4 | win | +0.60 |
 | 2026-11-01 | Paul George u18.5 pts | -122 | 17 | win | +0.82 |
+| 2026-11-02 | Cameron Boozer o1.5 fg3m | -192 | None | pending | +0.00 |
+| 2026-11-02 | Dejounte Murray u1.5 fg3m | -179 | None | pending | +0.00 |
+| 2026-11-02 | Obi Toppin u2.5 fg3m | -185 | None | pending | +0.00 |
+| 2026-11-02 | Terrence Shannon Jr. u2.5 ast | -185 | None | pending | +0.00 |
+| 2026-11-02 | Trae Young u2.5 fg3m | -169 | None | pending | +0.00 |
+| 2026-11-02 | LaMelo Ball u4.5 reb | -159 | None | pending | +0.00 |
 
 ## Rows
 

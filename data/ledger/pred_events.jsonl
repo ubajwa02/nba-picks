@@ -37107,3 +37107,15 @@
 {"at": "2026-11-02T11:28:48Z", "data": {"stake": 1.0}, "event_id": "e82a7f59433cc017", "net_units": -1.0, "pred_id": "9f164868f24f5db2", "result": "loss", "type": "settled"}
 {"at": "2026-11-02T11:28:48Z", "data": {"stake": 1.0}, "event_id": "232d8f7648f9aff6", "net_units": 2.3304, "pred_id": "7f856d22ecd67876", "result": "win", "type": "settled"}
 {"at": "2026-11-02T11:28:48Z", "data": {"stake": 1.0}, "event_id": "cb797fea39256e72", "net_units": 2.2037, "pred_id": "ae41ef32d8169dc2", "result": "win", "type": "settled"}
+{"at": "2026-11-02T21:48:34Z", "data": {"paper_record": true}, "event_id": "fc75a1bb2dbf78d2", "pred_id": "f52cad4715bb1ac8", "type": "note"}
+{"at": "2026-11-02T21:48:34Z", "data": {"paper_record": true}, "event_id": "6f55f6d901f911b8", "pred_id": "f3f33411d0b46349", "type": "note"}
+{"at": "2026-11-02T21:48:34Z", "data": {"paper_record": true}, "event_id": "86dba06e88f80f30", "pred_id": "934ff9f42eefd4a3", "type": "note"}
+{"at": "2026-11-02T21:48:34Z", "data": {"paper_record": true}, "event_id": "df1c5db036a3cafb", "pred_id": "3ab6ac741a0ff03b", "type": "note"}
+{"at": "2026-11-02T21:48:34Z", "data": {"paper_record": true}, "event_id": "17882c01f263e46d", "pred_id": "a807f4ad7b12f8a8", "type": "note"}
+{"at": "2026-11-02T21:48:34Z", "data": {"paper_record": true}, "event_id": "0fce9b2b1d4f3e1b", "pred_id": "edee962e82345369", "type": "note"}
+{"at": "2026-11-02T21:48:34Z", "data": {"paper_record": true}, "event_id": "d8440242c129c113", "pred_id": "a8cb1a03a6490f35", "type": "note"}
+{"at": "2026-11-02T21:48:34Z", "data": {"paper_record": true}, "event_id": "a8d8d9317f778595", "pred_id": "9181ada1f8f444c9", "type": "note"}
+{"at": "2026-11-02T21:48:34Z", "data": {"paper_record": true}, "event_id": "edbce017b8ebc8c8", "pred_id": "0a1b9a92fca2ef96", "type": "note"}
+{"at": "2026-11-02T21:48:34Z", "data": {"paper_record": true}, "event_id": "80a95f6bb0ed4178", "pred_id": "def9faca7f755a9f", "type": "note"}
+{"at": "2026-11-02T21:48:34Z", "data": {"paper_record": true}, "event_id": "be30814c72bd8c04", "pred_id": "a1def61f1bb6fec3", "type": "note"}
+{"at": "2026-11-02T21:48:34Z", "data": {"paper_record": true}, "event_id": "7672aff3bdf69017", "pred_id": "659fd3087e524eb9", "type": "note"}
