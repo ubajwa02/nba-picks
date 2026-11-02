@@ -2,11 +2,11 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 42-21 on 63 graded posted picks, +7.69u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 36-18 (+5.55u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 16-7 (+6.33u); gap<5pts 23-13 (-0.08u); gap>=15pts 3-1 (+1.44u).
+- 45-21 on 66 graded posted picks, +9.42u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 39-18 (+7.29u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 16-7 (+6.33u); gap<5pts 26-13 (+1.65u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 5-1 (+1.74u); moved toward us 5-3 (+1.26u).
-- Wider settled predictions (n=17535): model Brier 0.1507 vs book 0.1499 (lower is better).
+- Wider settled predictions (n=18320): model Brier 0.1513 vs book 0.1501 (lower is better).
 
 ## 2026-11-01
 
@@ -14,6 +14,9 @@ Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/pri
 |---|---|---|---|---|---|---|---|
 | Tristan da Silva u2.5 fg3m | loss | -1.00 | 0.695 | 0.636 | +0.09 |  | career 135/168, season 2/5, last10 7/10 |
 | Paul George u18.5 pts | win | +0.82 | 0.613 | 0.549 | +0.12 |  | career 104/231, season 3/5, last10 7/10 |
+| Keaton Wagler o3.5 reb | win | +0.60 | 0.617 | 0.625 | -0.01 |  | career 4/5, season 4/5, last10 4/5 |
+| Brook Lopez u4.5 reb | win | +0.62 | 0.633 | 0.617 | +0.03 |  | career 153/335, season 3/5, last10 3/10 |
+| Austin Reaves u2.5 fg3m | win | +0.51 | 0.628 | 0.662 | -0.05 |  | career 203/311, season 3/6, last10 5/10 |
 | Aaron Nesmith u3.5 reb | win | +0.59 | 0.643 | 0.628 | +0.02 |  | career 130/281, season 4/5, last10 8/10 |
 
 ## 2026-10-31
