@@ -257,6 +257,9 @@ function banner() {
 
 const R = {};
 
+// the posted leans are props: research or paper until the prop market is promoted to live
+const leansLive = () => (((D.meta || {}).market_status || {}).prop) === "live";
+const LEANS_NOTE = "Research picks, not qualified picks: the prop market has not passed its promotion gates.";
 const kind1 = k => k === "lotto" ? "Lotto" : "Parlay";
 const ticketRows = kind => (((D.tickets || {}).rows) || []).filter(t => t.kind === kind);
 const ticketNotes = (date, kind) => ((((D.tickets || {}).notes) || {})[date] || []).filter(n => kind === "lotto" ? /lotto/i.test(n) : !/lotto/i.test(n));
@@ -291,10 +294,11 @@ R.today = () => {
     <p class="sub">${n} ${n === 1 ? "game" : "games"} on the slate · updated ${time(D.meta.generated_at)}</p></div>
     <div class="herostats">
       <div><b>${picks.length}</b><span>Straight Picks</span></div><div><b>${par.length}</b><span>Parlays</span></div><div><b>${lot.length}</b><span>Lotto</span></div>
-      <div class="sep"></div><div><b class="${cls(st.net)}">${st.n ? st.w + "-" + st.l : "–"}</b><span>Season Record</span></div><div><b class="${cls(st.net)}">${st.n ? u(st.net) : "–"}</b><span>Net Units</span></div>
+      <div class="sep"></div><div><b class="${cls(st.net)}">${st.n ? st.w + "-" + st.l : "–"}</b><span>${leansLive() ? "Season Record" : "Research Record"}</span></div><div><b class="${cls(st.net)}">${st.n ? u(st.net) : "–"}</b><span>${leansLive() ? "Net Units" : "Theoretical Units"}</span></div>
       ${ls ? `<div><b class="${cls(ls.net)}">${ls.w}-${ls.l}</b><span>${esc(new Date(last + "T12:00:00").toLocaleDateString([], {weekday: "long"}))}</span></div>` : ""}
     </div></section>
-  <h2 class="sec">Straight Picks</h2>
+  <h2 class="sec">Straight Picks${leansLive() ? "" : ' <span class="tag">Research</span>'}</h2>
+  ${leansLive() ? "" : `<p class="sub">${LEANS_NOTE} Records are theoretical, at the posted prices.</p>`}
   ${picks.length ? `<div class="panel flush">${pickTable(picks, "")}</div>` : `<p class="note">${"Today's picks post at 4:30 PM ET on weekdays and 11:00 AM ET on weekends."}</p>`}
   <h2 class="sec">Parlays And Lotto <span class="tag">Research</span></h2>
   <p class="sub">Built from the most likely props in different games. The edge shown is the model's own estimate against the price, and it can be negative.</p>
@@ -317,7 +321,7 @@ R.results = (sub) => {
     const days = [...new Set([td, ...rows.map(r => r.slate)])].sort().reverse();
     body = days.map(d => ticketDay(d, rows.filter(r => r.slate === d), d === td, kind)).join("");
   }
-  return `${banner()}<h2 class="sec first">Results</h2><p class="sub">${k === "straights" ? "Stake: 1 unit on every pick." : "Research tickets, 1 unit each. The model edge is its own estimate and is shown even when negative."}</p>${seg}${kpis(k, rows)}${body}`;
+  return `${banner()}<h2 class="sec first">Results</h2><p class="sub">${k === "straights" ? (leansLive() ? "Stake: 1 unit on every pick." : `${LEANS_NOTE} 1 unit each, graded at the posted price.`) : "Research tickets, 1 unit each. The model edge is its own estimate and is shown even when negative."}</p>${seg}${kpis(k, rows)}${body}`;
 };
 R.players = () => {
   const ids = new Set(((D.today || {}).games || []).map(g => String(g.game_id)));
