@@ -3,7 +3,8 @@
 Rule, fixed here and in config/nbapicks.yaml `leans:` and never tuned on results:
   leans   props-v1 prop predictions for today's slate with a verified over/under side, a price of at
           least `min_decimal`, at least `min_last10` games of recent history and no milestone or
-          side-unverified flag; probability >= `min_prob`; one per player, `per_game` per game; the
+          side-unverified flag, no unresolved injury status and a quote no older than
+          quality.max_odds_age_minutes at posting; probability >= `min_prob`; one per player, `per_game` per game; the
           `max_leans` most likely. Posted once per slate. Nothing is posted when a critical source is
           failing, the injury report is stale, or the global pause is on.
   parlays 2..`max_legs` leans from different games (independent product), priced below the lotto
@@ -15,6 +16,7 @@ Fewer than the ceiling is normal: each ceiling is a maximum, and the reason for 
 """
 from __future__ import annotations
 
+import datetime as dt
 import itertools
 import json
 import math
@@ -53,6 +55,26 @@ def _clean_decision(p: dict) -> bool:
     return bool(parts) and all(any(k in x for k in SOFT) for x in parts)
 
 
+def _quote_age_minutes(p: dict, now_iso: str) -> float | None:
+    try:
+        now = dt.datetime.fromisoformat(now_iso.replace("Z", "+00:00"))
+        seen = dt.datetime.fromisoformat(str(p["price_observed_at"]).replace("Z", "+00:00"))
+    except (KeyError, TypeError, ValueError):
+        return None
+    return (now - seen).total_seconds() / 60
+
+
+def _injury_blocked(p: dict, cfg: dict) -> bool:
+    """The player is listed Out or with an unresolved status, or the injury report was stale.
+    qualify.judge drops its injury hold from the reason when EV is under the threshold, so the
+    decision alone cannot be trusted for this (Ty Jerome 2026-10-31: Day-To-Day, did not play)."""
+    inp = _inputs(p)
+    status = (inp.get("explain") or {}).get("injury_status")
+    bad = set((cfg.get("quality") or {}).get("unresolved_statuses") or []) | {"Out"}
+    flags = list(inp.get("quality_flags") or []) + list((inp.get("explain") or {}).get("flags") or [])
+    return status in bad or any(str(f).startswith("injury") for f in flags)
+
+
 def lean_label(p: dict) -> str:
     name = p.get("player_name") or p.get("player") or "?"
     return f"{name} {p['selection'][0]}{p['line']:g} {p['stat']}"
@@ -76,6 +98,11 @@ def pick_leans(preds: list[dict], cfg: dict, slate: str, now_iso: str, pool: boo
             continue
         if p.get("start_utc") and p["start_utc"] <= now_iso:
             continue                      # already started
+        if _injury_blocked(p, cfg):
+            continue                      # same rule as qualify's injury hold
+        age = _quote_age_minutes(p, now_iso)
+        if age is not None and age > cfg["quality"]["max_odds_age_minutes"]:
+            continue                      # the quote is older than the freshness rule at posting time
         ex = _inputs(p).get("explain") or {}
         flags = list(ex.get("flags") or []) + list(_inputs(p).get("quality_flags") or [])
         if any(k in f for f in flags for k in JUNK_FLAGS):
