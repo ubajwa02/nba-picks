@@ -17,6 +17,9 @@ on:
     - cron: "30 21 * * 1-5"   # 16:30 EST
     - cron: "50 21 * * 1-5"
     - cron: "20 22 * * 1-5"
+    - cron: "40 21 * * 1-5"   # extra EST backups (GitHub drops/delays cron)
+    - cron: "0 22 * * 1-5"
+    - cron: "40 22 * * 1-5"
     - cron: "0 15 * * 0,6"    # 11:00 EDT
     - cron: "20 15 * * 0,6"
     - cron: "50 15 * * 0,6"
@@ -69,7 +72,7 @@ jobs:
           PICKS="ingest catchup predict publish leans settle export"
           if [ "$MIN" -lt "$TARGET" ]; then PICKS="ingest catchup predict settle export"; fi
           case "$SCHED" in
-            "30 20 * * 1-5"|"50 20 * * 1-5"|"20 21 * * 1-5"|"30 21 * * 1-5"|"50 21 * * 1-5"|"20 22 * * 1-5"|\
+            "30 20 * * 1-5"|"50 20 * * 1-5"|"20 21 * * 1-5"|"30 21 * * 1-5"|"50 21 * * 1-5"|"20 22 * * 1-5"|"40 21 * * 1-5"|"0 22 * * 1-5"|"40 22 * * 1-5"|\
             "0 15 * * 0,6"|"20 15 * * 0,6"|"50 15 * * 0,6"|"0 16 * * 0,6"|"20 16 * * 0,6"|"50 16 * * 0,6") S="$PICKS" ;;
             "30 3 * * *"|"30 4 * * *"|"0 7 * * *"|"40 8 * * *"|"0 13 * * *") S="ingest catchup settle recap diagnose export" ;;
             "") S="${INPUT:-ingest catchup predict settle export}" ;;
