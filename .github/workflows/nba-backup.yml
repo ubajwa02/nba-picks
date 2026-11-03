@@ -1,12 +1,12 @@
 name: nba-backup
-# A downloadable copy of the whole repo (all branches and history) whenever it changes.
-# Bot commits do not trigger push workflows, so the data runs trigger it through workflow_run.
+# A downloadable copy of the whole repo (all branches and history): on every human push to main, and once a day.
+# Bot commits do not trigger push workflows, so the data runs are covered by the daily slot. It used to run after every
+# nba-daily/backfill/research/backtest run (workflow_run), which doubled the Actions minutes of every cron slot.
 on:
   push:
     branches: [main]
-  workflow_run:
-    workflows: [nba-daily, nba-backfill, nba-research, nba-backtest]
-    types: [completed]
+  schedule:
+    - cron: "15 14 * * *"   # ~09:15-10:15 ET, after the overnight results and the 13:00 UTC catch-up
   workflow_dispatch:
 concurrency:
   group: nba-backup

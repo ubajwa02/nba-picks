@@ -7,7 +7,7 @@
 | 3 | Real historical prop prices cover only Oct-Nov 2025 and Apr-Jun 2026 | Small sample for any ROI claim | Holdout 2026-02-01..06-30 untouched, scored once per frozen candidate | none |
 | 4 | Backtest uses the game's own box score to know who sat | Flatters teammates-out results | Flagged in the model notes and reports | No historical injury reports exist to fix it |
 | 5 | A data source changes shape or goes down | Wrong or stale picks | `nbapicks/validate.py` (schema, duplicates, impossible values, time zones, team conflicts); empty injury feed keeps the old file so it goes stale and holds; failing critical sources hold all picks | none |
-| 6 | Lost GitHub access again | Code and ledger unreachable | `nba-backup` workflow bundle on change, `tools/backup_local.sh`, restore steps in `docs/BACKUP.md` | Keep a copy outside GitHub; a second mirror is optional |
+| 6 | Lost GitHub access again | Code and ledger unreachable | `nba-backup` workflow bundle daily and on push, `tools/backup_local.sh`, restore steps in `docs/BACKUP.md` | Keep a copy outside GitHub; a second mirror is optional |
 | 7 | Repo is public | Ledger and dashboard data visible | none | Uday to switch the repo to private; never add wager data while public |
 | 8 | A bad model promotion | Worse probabilities | Promotion needs gates plus a recorded independent review; weekly automatic demotion; `python -m nbapicks.rollback` or the `nba-rollback` workflow | none |
 | 9 | Scheduler jitter and no per-game timing on Actions | Prices a few minutes old | Pre-tip refresh runs at 22:30 and 23:15 UTC; stale odds hold picks (120 min) | Per-game timing needs a server (not chosen) |
