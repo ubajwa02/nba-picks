@@ -2,17 +2,18 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 46-21 on 67 graded posted picks, +10.01u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 40-18 (+7.88u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 16-7 (+6.33u); gap<5pts 27-13 (+2.24u); gap>=15pts 3-1 (+1.44u).
+- 46-22 on 68 graded posted picks, +9.01u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 40-19 (+6.88u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 16-7 (+6.33u); gap<5pts 27-14 (+1.24u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 5-1 (+1.74u); moved toward us 5-3 (+1.26u).
-- Wider settled predictions (n=19795): model Brier 0.1521 vs book 0.1504 (lower is better).
+- Wider settled predictions (n=20635): model Brier 0.1516 vs book 0.1501 (lower is better).
 
 ## 2026-11-02
 
 | Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
 |---|---|---|---|---|---|---|---|
 | Trae Young u2.5 fg3m | win | +0.59 | 0.644 | 0.628 | +0.03 |  | career 129/234, season 4/6, last10 6/10 |
+| LaMelo Ball u4.5 reb | loss | -1.00 | 0.641 | 0.614 | +0.04 |  | career 79/186, season 5/7, last10 6/10 |
 
 ## 2026-11-01
 

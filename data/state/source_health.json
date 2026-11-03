@@ -2,12 +2,14 @@
  "espn_boxscore": {
   "consecutive_failures": 0,
   "last_detail": "",
-  "last_ok": "2026-11-03T03:06:21Z"
+  "last_error": "2026-11-03T03:29:08Z",
+  "last_error_detail": "401909910: played without minutes for player 4687718",
+  "last_ok": "2026-11-03T03:29:08Z"
  },
  "espn_injuries": {
   "consecutive_failures": 0,
   "last_detail": "93 listed",
-  "last_ok": "2026-11-03T03:06:21Z"
+  "last_ok": "2026-11-03T03:29:08Z"
  },
  "espn_odds": {
   "consecutive_failures": 0,
@@ -24,11 +26,11 @@
  "espn_scoreboard": {
   "consecutive_failures": 0,
   "last_detail": "",
-  "last_ok": "2026-11-03T03:06:21Z"
+  "last_ok": "2026-11-03T03:29:08Z"
  },
  "moviodds": {
   "consecutive_failures": 0,
-  "last_detail": "937 quotes; 5 unmapped",
-  "last_ok": "2026-11-03T03:06:21Z"
+  "last_detail": "0 quotes; 5 unmapped",
+  "last_ok": "2026-11-03T03:29:08Z"
  }
 }
