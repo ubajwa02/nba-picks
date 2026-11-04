@@ -559,6 +559,10 @@ def export(ctx: Ctx, out_dir: str = SITE, max_bytes: int = MAX_BYTES) -> dict:
                          key=lambda r: -(r["ev"] or -9)),
         research=[r for r in cur if r["category"] in ("parlay", "lotto")],
         leans=sorted([l for l in leans if l.get("slate") == today], key=lambda l: l.get("label") or ""),
+        # DraftKings links per scheduled game (site convenience; see espn.parse_dk_links)
+        dk_links={gid: dict(event_url=v.get("event_url"), outcomes=v.get("outcomes") or [])
+                  for gid, v in (jload(f"{ctx.root}/state/dk_links.json", {}) or {}).items()
+                  if any(g["game_id"] == gid and g["status"] == "scheduled" for g in tg)},
         candidate_ids=[r["pred_id"] for r in cur], candidate_count=len(cur), candidate_source=cur_src,
         decision_counts=dict(Counter(r["decision"] for r in cur)),
         predict_run=dict(run_id=last.get("run_id"), slate=last.get("slate"), model=last.get("model"),

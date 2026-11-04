@@ -146,6 +146,8 @@ h2.sec .tag { margin: 0; font-size: 11px; }
 .ln .mu { font-weight: 400; }
 .legs .mono { font: 14px var(--mono); text-align: right; }
 @media (max-width: 560px) { .legs li { grid-template-columns: auto 1fr auto; } .legs .ln { grid-column: 1 / -1; } .kp .s3 { grid-column: span 6; } .kpi .v { font-size: 26px; } }
+.dk { display: inline-block; margin-left: 8px; font: 600 11px/1.6 var(--mono); color: var(--info); border: 1px solid color-mix(in srgb, var(--info) 45%, transparent); border-radius: 4px; padding: 0 6px; text-decoration: none; white-space: nowrap; vertical-align: 1px; }
+.dk:hover { background: color-mix(in srgb, var(--info) 12%, transparent); }
 .guide { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px; }
 .door { text-decoration: none; color: var(--fg); display: flex; flex-direction: column; gap: 4px; }
 .door b { font: 700 18px var(--display); }
@@ -208,7 +210,23 @@ const bar = p => `<span class="wc"><b>${pct(p)}</b><span class="meter"><i style=
 const finalText = r => r.result === "pending" || !r.result ? "" : r.market === "prop" ? (r.stat_value ?? "–") : (r.score || "");
 const gameMap = () => { const m = {}; for (const g of (D.today || {}).games || []) m[String(g.game_id)] = `${g.away} @ ${g.home}`; return m; };
 const matchOf = r => r.matchup || gameMap()[String(r.game_id)] || "–";
-const pickRow = r => `<tr><td><b>${esc(pickText(r))}</b></td><td class="mu">${esc(matchOf(r))}</td><td class="n">${bar(r.prob)}</td><td class="n">${amS(r.price_american)}</td><td class="meta">${esc(finalText(r))}</td><td>${resPill(r.result)}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`;
+/* ---- DraftKings links: game lines open with the bet on the slip; props open the game page ---- */
+function dkLink(r) {
+  const g = (((D.today || {}).dk_links) || {})[String(r.game_id)];
+  if (!g || !g.event_url || !/^https:\/\/sportsbook\.draftkings\.com\/event\/\d+$/.test(g.event_url)) return null;
+  if (r.market !== "prop") {
+    // exact line if DraftKings has it, otherwise its main line for the same side (the closest bet it offers)
+    const same = (g.outcomes || []).filter(o => o.market === r.market && o.selection === r.selection);
+    const o = same.find(o => r.market === "ml" || (o.line != null && r.line != null && Math.abs(o.line - r.line) < 1e-6))
+      || same.filter(o => o.line != null && r.line != null).sort((a, b) => Math.abs(a.line - r.line) - Math.abs(b.line - r.line))[0];
+    if (o) return {url: `${g.event_url}?outcomes=${encodeURIComponent(o.outcome_id)}`, slip: true,
+                   other: r.market !== "ml" && Math.abs(o.line - r.line) > 1e-6 ? (r.market === "total" ? String(o.line) : fmtLine(o.line)) : null};
+  }
+  return {url: g.event_url, slip: false};
+}
+const fmtLine = x => (x > 0 ? "+" : "") + x;
+const dkA = r => { const k = dkLink(r); return k ? `<a class="dk" href="${esc(k.url)}" target="_blank" rel="noopener noreferrer" title="${k.other != null ? `DraftKings only offers ${k.other} right now; opens the slip with that line. Check it before placing.` : k.slip ? "Opens DraftKings with this bet on the slip. Check the line and price before placing." : "Opens this game on DraftKings. The prop is not pre-selected."}">${k.other != null ? `DK slip ${esc(k.other)} ↗` : k.slip ? "DK slip ↗" : "DK game ↗"}</a>` : ""; };
+const pickRow = r => `<tr><td><b>${esc(pickText(r))}</b>${dkA(r)}</td><td class="mu">${esc(matchOf(r))}</td><td class="n">${bar(r.prob)}</td><td class="n">${amS(r.price_american)}</td><td class="meta">${esc(finalText(r))}</td><td>${resPill(r.result)}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`;
 const pickTable = (rows, empty) => tbl(["Pick", "Matchup", "#Win Chance", "#Price", "Final", "Result", "#Units"], rows.map(pickRow), empty);
 
 const allPicks = () => ((D.performance.posted_leans || {}).rows || []).slice().sort((a, b) => String(b.slate).localeCompare(String(a.slate)));
@@ -264,7 +282,7 @@ const evText = ev => ev == null ? "–" : spct(ev);
 function ticketCard(t) {
   return `<article class="ticket"><div class="th"><div><b>${t.legs.length}-Leg ${kind1(t.kind)}</b> <span class="tag">Research</span></div>
     <div class="tstats"><span>Win Chance <b>${pct(t.prob)}</b></span><span>Pays <b>${amS(t.price_american)}</b></span><span>Model Edge <b class="${cls(t.ev)}">${evText(t.ev)}</b></span>${resPill(t.result)}<b class="${cls(t.net_units)}">${t.net_units == null ? "" : u(t.net_units)}</b></div></div>
-    <ul class="legs">${t.legs.map(l => `<li><b class="ln">${esc(pickText(l))}<span class="mu"> · ${esc(matchOf(l))}</span></b>${bar(l.prob)}<span class="mono">${amS(l.price_american)}</span>${resPill(l.result)}</li>`).join("")}</ul></article>`;
+    <ul class="legs">${t.legs.map(l => `<li><b class="ln">${esc(pickText(l))}<span class="mu"> · ${esc(matchOf(l))}</span>${dkA(l)}</b>${bar(l.prob)}<span class="mono">${amS(l.price_american)}</span>${resPill(l.result)}</li>`).join("")}</ul></article>`;
 }
 function dayShell(date, rows, isToday, countLabel, body) {
   const s = dayStats(rows);
@@ -295,6 +313,7 @@ R.today = () => {
       ${ls ? `<div><b class="${cls(ls.net)}">${ls.w}-${ls.l}</b><span>${esc(new Date(last + "T12:00:00").toLocaleDateString([], {weekday: "long"}))}</span></div>` : ""}
     </div></section>
   <h2 class="sec">Straight Picks</h2>
+  ${Object.keys(T.dk_links || {}).length ? `<p class="sub">DK slip opens DraftKings with that bet already on the slip. DK game opens the game page, where you pick the prop yourself. Always check the line and price before you place anything.</p>` : ""}
   ${picks.length ? `<div class="panel flush">${pickTable(picks, "")}</div>` : `<p class="note">${"Today's picks post at 4:30 PM ET on weekdays and 11:00 AM ET on weekends."}</p>`}
   <h2 class="sec">Parlays And Lotto <span class="tag">Research</span></h2>
   <p class="sub">Built from the most likely props in different games. The edge shown is the model's own estimate against the price, and it can be negative.</p>
