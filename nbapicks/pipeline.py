@@ -25,7 +25,7 @@ from .models.ratings import Game, RatingsModel, RatingsParams, add_rest_days
 from .props import STATS, PropModel, _norm, pair_key, verified_pairs, verify_prop_sides
 from .qualify import Candidate, judge, portfolio
 from .settle import GameResult, settle_leg, net_profit, settle_parlay
-from .sources import espn, moviodds
+from .sources import espn, moviodds, oddsapi
 from .store import Store, stable_id
 
 log = logging.getLogger("nbapicks")
@@ -120,6 +120,36 @@ def put_odds(ctx: Ctx, rows: list[dict]) -> int:
     return n
 
 
+def book_links(ctx: Ctx, upcoming: list[dict], keep: set, now: str) -> None:
+    """DraftKings + FanDuel bet-slip links (props included) from The Odds API, for the site only.
+
+    Off without ODDS_API_KEY. Each of today's games is refetched at most every
+    links.refresh_minutes (default 240) to bound credit use; see sources/oddsapi.py.
+    """
+    key = oddsapi.api_key()
+    if not key:
+        return
+    path = f"{ctx.root}/state/book_links.json"
+    ttl = float((ctx.cfg.get("links") or {}).get("refresh_minutes", 240))
+    cache = {k: v for k, v in jload(path, {}).items() if not keep or k in keep}
+    todo = [g for g in upcoming if slate_of(g["start_utc"], ctx.tz) == ctx.today.isoformat()
+            and (g["game_id"] not in cache
+                 or (ctx.now - dt.datetime.fromisoformat(cache[g["game_id"]]["observed_at"].replace("Z", "+00:00"))).total_seconds() > ttl * 60)]
+    try:
+        n = 0
+        if todo:
+            ev = oddsapi.match_events(oddsapi.fetch_events(key), todo)
+            for g in todo:
+                if g["game_id"] in ev:
+                    books = oddsapi.parse_event_links(oddsapi.fetch_event_links(key, ev[g["game_id"]]), g["home"], g["away"])
+                    cache[g["game_id"]] = dict(books=books, observed_at=now)
+                    n += 1
+        ctx.ok("oddsapi_links", f"{n} games refreshed")
+    except Exception as e:
+        ctx.fail("oddsapi_links", e)
+    jsave(path, cache)
+
+
 def ingest(ctx: Ctx) -> dict:
     now = iso(ctx.now)
     out = defaultdict(int)
@@ -186,6 +216,7 @@ def ingest(ctx: Ctx) -> dict:
             except Exception as e:
                 ctx.fail("espn_props", e)
     jsave(dk_path, dk_links)
+    book_links(ctx, upcoming, keep, now)
     try:
         inj, bad = validate.validate_injuries(espn.parse_injuries(espn.fetch_injuries(), now), ctx.now)
         if bad and not inj:

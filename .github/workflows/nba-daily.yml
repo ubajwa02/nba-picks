@@ -84,6 +84,7 @@ jobs:
         id: run
         env:
           NBA_DISCORD_WEBHOOK_URL: ${{ secrets.NBA_DISCORD_WEBHOOK_URL }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}   # optional: bet-slip links only
           STEPS: ${{ steps.steps.outputs.steps }}
         run: |
           set +e
