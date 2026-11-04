@@ -34,5 +34,5 @@ jobs:
           path: |
             nba-picks.bundle
             nba-picks.bundle.txt
-          retention-days: 90
+          retention-days: 7
           compression-level: 0
