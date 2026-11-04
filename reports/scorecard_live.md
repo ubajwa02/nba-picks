@@ -42,7 +42,7 @@ Brier: model 0.1513 vs market-implied 0.1495 (n=23801; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 47-22-0, +9.53u, pending 0.
+Record 47-22-0, +9.53u, pending 6.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -119,6 +119,12 @@ Record 47-22-0, +9.53u, pending 0.
 | 2026-11-02 | Terrence Shannon Jr. u2.5 ast | -185 | None | void | +0.00 |
 | 2026-11-02 | Trae Young u2.5 fg3m | -169 | 2 | win | +0.59 |
 | 2026-11-02 | LaMelo Ball u4.5 reb | -159 | 6 | loss | -1.00 |
+| 2026-11-04 | Landry Shamet u2.5 fg3m | -189 | None | pending | +0.00 |
+| 2026-11-04 | Cameron Boozer o1.5 fg3m | -192 | None | pending | +0.00 |
+| 2026-11-04 | Max Strus o3.5 reb | -154 | None | pending | +0.00 |
+| 2026-11-04 | Tre Jones o2.5 ast | -169 | None | pending | +0.00 |
+| 2026-11-04 | Brook Lopez o4.5 reb | -147 | None | pending | +0.00 |
+| 2026-11-04 | Keldon Johnson o3.5 reb | -161 | None | pending | +0.00 |
 
 ## Rows
 
