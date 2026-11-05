@@ -2,11 +2,19 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 47-22 on 69 graded posted picks, +9.53u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 41-19 (+7.40u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 16-7 (+6.33u); gap<5pts 28-14 (+1.76u); gap>=15pts 3-1 (+1.44u).
-- By closing-line move: flat 8-3 (+3.56u); moved away 6-1 (+2.26u); moved toward us 5-3 (+1.26u).
-- Wider settled predictions (n=24122): model Brier 0.1515 vs book 0.1494 (lower is better).
+- 50-22 on 72 graded posted picks, +11.17u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 44-19 (+9.04u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 16-7 (+6.33u); gap<5pts 31-14 (+3.40u); gap>=15pts 3-1 (+1.44u).
+- By closing-line move: flat 8-3 (+3.56u); moved away 7-1 (+2.78u); moved toward us 6-3 (+1.85u).
+- Wider settled predictions (n=25778): model Brier 0.1514 vs book 0.1498 (lower is better).
+
+## 2026-11-04
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Tre Jones o2.5 ast | win | +0.59 | 0.633 | 0.628 | +0.01 | +0.038 | career 227/263, season 5/7, last10 7/10 |
+| Landry Shamet u2.5 fg3m | win | +0.53 | 0.659 | 0.654 | +0.01 |  | career 180/232, season 4/7, last10 7/10 |
+| Cameron Boozer o1.5 fg3m | win | +0.52 | 0.658 | 0.657 | +0.00 | -0.035 | career 5/7, season 5/7, last10 5/7 |
 
 ## 2026-11-02
 
