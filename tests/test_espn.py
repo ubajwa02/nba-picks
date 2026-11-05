@@ -110,3 +110,22 @@ def test_old_box_files_without_new_columns_still_read(tmp_path):
     back = read_csv(str(tmp_path / "box_new.csv.gz"))
     assert BOX_COLS[-6:] == ["fga", "fg3a", "fta", "oreb", "dreb", "plus_minus"]
     assert back[0]["fga"] == "9" and back[0]["plus_minus"] == "1"
+
+
+def test_dk_links_from_core_odds():
+    lk = espn.parse_dk_links(load("espn_core_odds_pre.json"))
+    assert lk["event_url"] == "https://sportsbook.draftkings.com/event/34520235"   # affiliate gateway dropped
+    oc = {(o["market"], o["selection"]): o for o in lk["outcomes"]}
+    assert oc[("ml", "home")]["outcome_id"] == "0ML85871430_1" and oc[("ml", "home")]["line"] is None
+    # lines decoded from the id agree with the parsed DraftKings quote (home -2.5, total 235.5)
+    assert oc[("spread", "home")]["line"] == -2.5 and oc[("spread", "away")]["line"] == 2.5
+    assert oc[("total", "over")]["line"] == 235.5 and oc[("total", "under")]["outcome_id"].startswith("0OU")
+
+
+def test_dk_links_reject_foreign_or_odd_urls():
+    def item(href, rel):
+        return {"items": [{"provider": {"name": "Draft Kings"}, "links": [{"href": href, "rel": [rel]}]}]}
+    assert espn.parse_dk_links(item("https://evil.example/event/1?outcomes=0ML1_1", "home")) is None
+    assert espn.parse_dk_links({"items": [{"provider": {"name": "ESPN BET"}}]}) is None
+    lk = espn.parse_dk_links(item("https://sportsbook.draftkings.com/event/9?outcomes=0OU1O2350_1", "home"))
+    assert lk == {"event_url": "https://sportsbook.draftkings.com/event/9", "outcomes": []}   # market mismatch dropped

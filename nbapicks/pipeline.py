@@ -155,10 +155,21 @@ def ingest(ctx: Ctx) -> dict:
                 ctx.fail("espn_boxscore", e)
     upcoming = [g for g in games if g["status"] == "scheduled"
                 and 0 < (dt.datetime.fromisoformat(g["start_utc"].replace("Z", "+00:00")) - ctx.now).total_seconds() < 36 * 3600]
+    # DraftKings bet-slip links for the site cards (state, not ledger: overwritten each run)
+    dk_path = f"{ctx.root}/state/dk_links.json"
+    keep = {g["game_id"] for g in games}
+    dk_links = {k: v for k, v in jload(dk_path, {}).items() if not keep or k in keep}
     for g in upcoming:
         try:
-            out["odds_snaps"] += put_odds(ctx, espn.parse_core_odds(espn.fetch_core_odds(g["game_id"]), g["game_id"], now))
+            core = espn.fetch_core_odds(g["game_id"])
+            out["odds_snaps"] += put_odds(ctx, espn.parse_core_odds(core, g["game_id"], now))
             ctx.ok("espn_odds")
+            try:
+                lk = espn.parse_dk_links(core)
+                if lk:
+                    dk_links[g["game_id"]] = dict(lk, observed_at=now)
+            except Exception as e:   # links are a convenience; never fail the odds step for them
+                ctx.notes.append(f"dk_links {g['game_id']}: {e}")
         except Exception as e:
             ctx.fail("espn_odds", e)
         if slate_of(g["start_utc"], ctx.tz) == ctx.today.isoformat():
@@ -174,6 +185,7 @@ def ingest(ctx: Ctx) -> dict:
                 ctx.ok("espn_props")
             except Exception as e:
                 ctx.fail("espn_props", e)
+    jsave(dk_path, dk_links)
     try:
         inj, bad = validate.validate_injuries(espn.parse_injuries(espn.fetch_injuries(), now), ctx.now)
         if bad and not inj:

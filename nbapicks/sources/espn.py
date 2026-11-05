@@ -9,6 +9,8 @@ Every parse function is pure and tested against captured real responses.
 from __future__ import annotations
 
 import datetime as dt
+import re
+from urllib.parse import parse_qs, urlparse
 from typing import Any
 
 from .. import odds as O
@@ -127,6 +129,73 @@ def parse_core_odds(d: dict, game_id: str, observed_at: str, game_final: bool = 
     # drop rows whose price is missing or nonsensical (ESPN uses 0 for "no line"), and lines
     # that cannot be real (ESPN BET 2022-23 carries the American price in the spread field)
     return [r for r in out if r["price_dec"] is not None and _line_ok(r)]
+
+
+# ---- DraftKings bet-slip links (convenience only; never used for pricing) ----------
+# ESPN's core odds item for DraftKings carries one link per side, e.g.
+#   gateway?...&preurl=https://sportsbook.draftkings.com/event/34937000?outcomes=0HC87027713P550_1
+# The outcome id encodes the line (P/N = +/- spread, O/U = over/under total, hundredths).
+DK_REL = {"home": ("ml", "home"), "away": ("ml", "away"), "homeSpread": ("spread", "home"),
+          "awaySpread": ("spread", "away"), "over": ("total", "over"), "under": ("total", "under")}
+_DK_EVENT = re.compile(r"^https://sportsbook\.draftkings\.com/event/(\d+)$")
+_DK_OUTCOME = re.compile(r"^0(ML|HC|OU)\d+(?:([PNOU])(\d+))?_\d+$")
+
+
+def _dk_direct(href: str) -> tuple[str, str | None] | None:
+    """(event url, outcome id) from an ESPN DraftKings link, dropping ESPN's affiliate gateway."""
+    u = urlparse(href or "")
+    if u.netloc != "sportsbook.draftkings.com":
+        return None
+    if u.path.startswith("/gateway"):
+        pre = (parse_qs(u.query).get("preurl") or [None])[0]
+        if not pre:
+            return None
+        u = urlparse(pre)
+    base = f"{u.scheme}://{u.netloc}{u.path}"
+    if not _DK_EVENT.match(base):
+        return None
+    oc = (parse_qs(u.query).get("outcomes") or [None])[0]
+    return base, oc
+
+
+def _dk_line(market: str, outcome_id: str) -> float | None | bool:
+    """Signed line encoded in the outcome id; None for moneyline; False if it does not parse."""
+    m = _DK_OUTCOME.match(outcome_id or "")
+    if not m or {"ml": "ML", "spread": "HC", "total": "OU"}[market] != m.group(1):
+        return False
+    if market == "ml":
+        return None if m.group(2) is None else False
+    if m.group(2) is None:
+        return False
+    v = int(m.group(3)) / 100
+    return -v if m.group(2) == "N" else v
+
+
+def parse_dk_links(d: dict) -> dict | None:
+    """DraftKings event page + bet-slip outcome per (market, side) from a core odds response.
+
+    Returns {"event_url", "outcomes": [{market, selection, line, outcome_id}]} or None when ESPN
+    carries no DraftKings links. Outcomes whose id does not encode the expected market are dropped.
+    """
+    for it in d.get("items", []):
+        if canon_book((it.get("provider") or {}).get("name", "")) != "DraftKings":
+            continue
+        event_url, outcomes = None, []
+        for link in it.get("links") or []:
+            got = _dk_direct(link.get("href"))
+            if not got:
+                continue
+            base, oc = got
+            event_url = event_url or base
+            rel = next((r for r in link.get("rel") or [] if r in DK_REL), None)
+            if rel and oc:
+                market, sel = DK_REL[rel]
+                line = _dk_line(market, oc)
+                if line is not False:
+                    outcomes.append(dict(market=market, selection=sel, line=line, outcome_id=oc))
+        if event_url:
+            return dict(event_url=event_url, outcomes=outcomes)
+    return None
 
 
 def _line_ok(r: dict) -> bool:
