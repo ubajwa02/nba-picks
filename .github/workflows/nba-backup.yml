@@ -1,12 +1,9 @@
 name: nba-backup
-# A downloadable copy of the whole repo (all branches and history) whenever it changes.
-# Bot commits do not trigger push workflows, so the data runs trigger it through workflow_run.
+# A downloadable copy of the whole repo (all branches and history), on demand only.
+# Picks, predictions and results are already committed to git under data/ledger, so this
+# bundle is a spare copy. It used to run after every data run (~110 MB each), which filled
+# the account's Actions artifact storage and blocked the trading bots' log uploads.
 on:
-  push:
-    branches: [main]
-  workflow_run:
-    workflows: [nba-daily, nba-backfill, nba-research, nba-backtest]
-    types: [completed]
   workflow_dispatch:
 concurrency:
   group: nba-backup
@@ -34,5 +31,5 @@ jobs:
           path: |
             nba-picks.bundle
             nba-picks.bundle.txt
-          retention-days: 7
+          retention-days: 1
           compression-level: 0
