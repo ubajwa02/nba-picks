@@ -1,4 +1,4 @@
-updated: '2026-11-05T12:39:20Z'
+updated: '2026-11-05T15:00:04Z'
 queue:
 - kind: overconfident
   market: ml
@@ -6,7 +6,7 @@ queue:
   variant: blend toward market / wider sigma
   hypothesis: A model weight below the current blend or a larger sigma fixes overconfidence
     seen live.
-  added: '2026-11-05T12:39:20Z'
+  added: '2026-11-05T15:00:04Z'
 probation:
 - market: ml
   reason: calibration error 0.099
