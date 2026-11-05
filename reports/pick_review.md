@@ -2,19 +2,22 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 50-22 on 72 graded posted picks, +11.17u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 44-19 (+9.04u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 16-7 (+6.33u); gap<5pts 31-14 (+3.40u); gap>=15pts 3-1 (+1.44u).
-- By closing-line move: flat 8-3 (+3.56u); moved away 7-1 (+2.78u); moved toward us 6-3 (+1.85u).
-- Wider settled predictions (n=25778): model Brier 0.1514 vs book 0.1498 (lower is better).
+- 53-22 on 75 graded posted picks, +13.12u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 47-19 (+10.99u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 16-7 (+6.33u); gap<5pts 34-14 (+5.35u); gap>=15pts 3-1 (+1.44u).
+- By closing-line move: flat 8-3 (+3.56u); moved away 8-1 (+3.46u); moved toward us 6-3 (+1.85u).
+- Wider settled predictions (n=29065): model Brier 0.151 vs book 0.1491 (lower is better).
 
 ## 2026-11-04
 
 | Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
 |---|---|---|---|---|---|---|---|
 | Tre Jones o2.5 ast | win | +0.59 | 0.633 | 0.628 | +0.01 | +0.038 | career 227/263, season 5/7, last10 7/10 |
+| Max Strus o3.5 reb | win | +0.65 | 0.635 | 0.606 | +0.05 |  | career 162/273, season 1/1, last10 7/10 |
 | Landry Shamet u2.5 fg3m | win | +0.53 | 0.659 | 0.654 | +0.01 |  | career 180/232, season 4/7, last10 7/10 |
+| Keldon Johnson o3.5 reb | win | +0.62 | 0.611 | 0.617 | -0.01 |  | career 226/321, season 7/7, last10 9/10 |
 | Cameron Boozer o1.5 fg3m | win | +0.52 | 0.658 | 0.657 | +0.00 | -0.035 | career 5/7, season 5/7, last10 5/7 |
+| Brook Lopez o4.5 reb | win | +0.68 | 0.612 | 0.595 | +0.03 | -0.021 | career 183/337, season 3/7, last10 6/10 |
 
 ## 2026-11-02
 
