@@ -42,7 +42,7 @@ Brier: model 0.151 vs market-implied 0.1491 (n=29065; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 53-22-0, +13.12u, pending 0.
+Record 53-22-0, +13.12u, pending 4.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -125,6 +125,10 @@ Record 53-22-0, +13.12u, pending 0.
 | 2026-11-04 | Tre Jones o2.5 ast | -169 | 4 | win | +0.59 |
 | 2026-11-04 | Brook Lopez o4.5 reb | -147 | 8 | win | +0.68 |
 | 2026-11-04 | Keldon Johnson o3.5 reb | -161 | 5 | win | +0.62 |
+| 2026-11-05 | Dillon Brooks o1.5 fg3m | -175 | None | pending | +0.00 |
+| 2026-11-05 | Desmond Bane o2.5 fg3m | -169 | None | pending | +0.00 |
+| 2026-11-05 | Yaxel Lendeborg o1.5 fg3m | -169 | None | pending | +0.00 |
+| 2026-11-05 | Draymond Green u5.5 reb | -149 | None | pending | +0.00 |
 
 ## Rows
 
