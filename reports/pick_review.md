@@ -2,11 +2,20 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 53-22 on 75 graded posted picks, +13.12u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 47-19 (+10.99u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 16-7 (+6.33u); gap<5pts 34-14 (+5.35u); gap>=15pts 3-1 (+1.44u).
-- By closing-line move: flat 8-3 (+3.56u); moved away 8-1 (+3.46u); moved toward us 6-3 (+1.85u).
-- Wider settled predictions (n=29065): model Brier 0.151 vs book 0.1491 (lower is better).
+- 56-23 on 79 graded posted picks, +13.96u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 50-20 (+11.82u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 16-7 (+6.33u); gap<5pts 37-15 (+6.19u); gap>=15pts 3-1 (+1.44u).
+- By closing-line move: flat 8-3 (+3.56u); moved away 9-1 (+4.03u); moved toward us 7-4 (+1.44u).
+- Wider settled predictions (n=29963): model Brier 0.1511 vs book 0.149 (lower is better).
+
+## 2026-11-05
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Yaxel Lendeborg o1.5 fg3m | loss | -1.00 | 0.629 | 0.628 | +0.00 | +0.015 | career 4/8, season 4/8, last10 4/8 |
+| Draymond Green u5.5 reb | win | +0.67 | 0.627 | 0.598 | +0.05 |  | career 122/298, season 5/6, last10 8/10 |
+| Dillon Brooks o1.5 fg3m | win | +0.57 | 0.654 | 0.636 | +0.03 | -0.021 | career 181/300, season 3/6, last10 7/10 |
+| Desmond Bane o2.5 fg3m | win | +0.59 | 0.639 | 0.628 | +0.02 | +0.027 | career 133/279, season 5/7, last10 8/10 |
 
 ## 2026-11-04
 
