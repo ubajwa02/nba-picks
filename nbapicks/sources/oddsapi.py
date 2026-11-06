@@ -5,7 +5,8 @@ modelled or graded; pricing stays on ESPN/DraftKings as before.
 
 Off unless the ODDS_API_KEY environment variable is set (GitHub secret of the same name).
 Cost: /events is free; /events/{id}/odds costs (markets returned) x (regions), where two
-bookmakers count as one region, so one game with MARKETS below costs up to 7 credits.
+bookmakers count as one region. pipeline.book_links asks only for the markets today's picks
+use, once per game per day (~10 credits a slate), so the free 500/month tier is enough.
 The key is never logged: errors are re-raised with it redacted.
 """
 from __future__ import annotations
@@ -42,9 +43,20 @@ def fetch_events(key: str) -> list[dict]:
     return _get("/events", key)
 
 
-def fetch_event_links(key: str, event_id: str) -> dict:
-    return _get(f"/events/{event_id}/odds", key, bookmakers=",".join(BOOKS), markets=",".join(MARKETS),
+def fetch_event_links(key: str, event_id: str, markets=MARKETS) -> dict:
+    return _get(f"/events/{event_id}/odds", key, bookmakers=",".join(BOOKS), markets=",".join(markets),
                 oddsFormat="american", includeLinks="true", includeSids="true")
+
+
+_STAT_MARKET = {v: k for k, v in PROP_MARKETS.items()}
+_GAME_MARKET = {v: k for k, v in GAME_MARKETS.items()}
+
+
+def market_key(r: dict) -> str | None:
+    """Odds API market key for a pick/leg/outcome row (prop stat -> player_*, ml -> h2h ...)."""
+    if r.get("market") == "prop":
+        return _STAT_MARKET.get(r.get("stat"))
+    return _GAME_MARKET.get(r.get("market"))
 
 
 def match_events(events: list[dict], games: list[dict]) -> dict[str, str]:

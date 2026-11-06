@@ -59,36 +59,59 @@ def test_key_is_redacted_from_errors(monkeypatch):
     assert "SECRETKEY123" not in str(e.value) and "***" in str(e.value)
 
 
+def test_market_key():
+    assert oddsapi.market_key(dict(market="prop", stat="reb")) == "player_rebounds"
+    assert oddsapi.market_key(dict(market="ml")) == "h2h" and oddsapi.market_key(dict(market="prop", stat="stl")) is None
+
+
+class _Ctx:
+    def __init__(self, root):
+        import datetime as dt
+        self.root, self.tz, self.cfg, self.notes, self.health = str(root), "America/New_York", {}, [], {}
+        self.now = dt.datetime(2026, 11, 4, 22, 0, tzinfo=dt.timezone.utc)
+        self.today = dt.date(2026, 11, 4)
+        games = [dict(game_id="401", home="LAC", away="MIA", start_utc="2026-11-05T03:30Z"),
+                 dict(game_id="402", home="BOS", away="NY", start_utc="2026-11-04T21:00Z")]   # already started
+        self.store = type("S", (), {"q": lambda _s, sql, p=(): games})()
+
+    def ok(self, *a):
+        pass
+
+    def fail(self, s, e):
+        raise e
+
+
+def _ledgers(root):
+    import json, os
+    os.makedirs(root / "ledger", exist_ok=True)
+    leans = [dict(slate="2026-11-04", game_id="401", market="prop", stat="reb", selection="over", line=4.5, label="Brook Lopez o4.5 reb"),
+             dict(slate="2026-11-04", game_id="402", market="prop", stat="pts", selection="over", line=9.5, label="X o9.5 pts"),
+             dict(slate="2026-11-03", game_id="401", market="ml", selection="home", label="old")]
+    (root / "ledger" / "posted_leans.jsonl").write_text("".join(json.dumps(x) + "\n" for x in leans))
+    t = dict(slate="2026-11-04", kind="parlay", legs=[dict(game_id="401", market="prop", stat="fg3m", selection="over", line=1.5)])
+    (root / "ledger" / "posted_tickets.jsonl").write_text(json.dumps(t) + "\n")
+
+
 def test_off_without_key(monkeypatch, tmp_path):
     from nbapicks import pipeline
     monkeypatch.delenv("ODDS_API_KEY", raising=False)
-    called = []
-    monkeypatch.setattr(oddsapi, "fetch_events", lambda k: called.append(k) or [])
-
-    class C:
-        root = str(tmp_path)
-    pipeline.book_links(C(), [dict(game_id="1")], set(), "now")
-    assert not called and not (tmp_path / "state" / "book_links.json").exists()
+    monkeypatch.setattr(oddsapi, "fetch_events", lambda k: pytest.fail("fetched without a key"))
+    assert pipeline.book_links(_Ctx(tmp_path)) == dict(status="off")
+    assert not (tmp_path / "state" / "book_links.json").exists()
 
 
-def test_book_links_fetches_today_and_respects_refresh(monkeypatch, tmp_path):
-    import datetime as dt, json
+def test_book_links_fetches_only_needed_markets_once_per_day(monkeypatch, tmp_path):
+    import json
     from nbapicks import pipeline
     monkeypatch.setenv("ODDS_API_KEY", "k")
+    _ledgers(tmp_path)
     calls = []
     monkeypatch.setattr(oddsapi, "fetch_events", lambda k: [EVENT])
-    monkeypatch.setattr(oddsapi, "fetch_event_links", lambda k, eid: calls.append(eid) or EVENT)
-    g = dict(game_id="401", home="LAC", away="MIA", start_utc="2026-11-05T03:30Z")
-
-    class C:
-        root, tz, cfg, notes, health = str(tmp_path), "America/New_York", {}, [], {}
-        now = dt.datetime(2026, 11, 4, 22, 0, tzinfo=dt.timezone.utc)
-        today = dt.date(2026, 11, 4)
-        ok = lambda self, *a: None
-        fail = lambda self, s, e: (_ for _ in ()).throw(e)
-    c = C()
-    pipeline.book_links(c, [g], {"401"}, "2026-11-04T22:00:00Z")
-    pipeline.book_links(c, [g], {"401"}, "2026-11-04T22:00:00Z")   # within refresh window: no second call
-    assert calls == ["e1"]
+    monkeypatch.setattr(oddsapi, "fetch_event_links", lambda k, eid, mk: calls.append((eid, tuple(mk))) or EVENT)
+    c = _Ctx(tmp_path)
+    assert pipeline.book_links(c)["fetched"] == 1
+    # only game 401 (402 has started), only the two markets its picks use; old slate ignored
+    assert calls == [("e1", ("player_rebounds", "player_threes"))]
+    assert pipeline.book_links(c)["fetched"] == 0 and len(calls) == 1      # same day: no second call
     saved = json.load(open(tmp_path / "state" / "book_links.json"))
-    assert saved["401"]["books"]["fanduel"][0]["stat"] == "fg3m"
+    assert saved["401"]["slate"] == "2026-11-04" and saved["401"]["books"]["fanduel"][0]["stat"] == "fg3m"

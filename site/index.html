@@ -236,12 +236,28 @@ function slipLinks(r) {
       hit = closest(dk.outcomes || [], r);
       url = hit && `${dk.event_url}?outcomes=${encodeURIComponent(hit.o.outcome_id)}`;
     }
-    if (hit && okHost(url, host)) out.push({url, label: `${short} slip${hit.other != null ? " " + hit.other : ""}`,
+    if (hit && okHost(url, host)) out.push({url, book, label: `${short} slip${hit.other != null ? " " + hit.other : ""}`,
       title: hit.other != null ? `${short} only offers ${hit.other} right now; opens the slip with that line.` : `Opens ${short} with this bet on the slip.`});
   }
   if (!out.some(x => x.label.startsWith("DK")) && dk && okHost(dk.event_url, "sportsbook.draftkings.com"))
     out.push({url: dk.event_url, label: "DK game", title: "Opens this game on DraftKings. The bet is not pre-selected."});
   return out;
+}
+/* one link for a whole parlay, only when every leg has a pre-selected link on that book (beta: formats
+   are DK ?outcomes=a+b and FD addToBetslip?marketId[i]=..&selectionId[i]=..) */
+function parlayLinks(t) {
+  const out = [];
+  for (const [book, short] of BOOKS) {
+    const legs = (t.legs || []).map(l => slipLinks(l).find(k => k.book === book));
+    if (!legs.length || legs.some(k => !k)) continue;
+    const qs = legs.map(k => new URL(k.url).searchParams);
+    let url;
+    if (book === "draftkings") url = "https://sportsbook.draftkings.com/?outcomes=" + qs.map(q => encodeURIComponent(q.get("outcomes") || "")).join("+");
+    else url = "https://sportsbook.fanduel.com/addToBetslip?" + qs.map((q, i) => `marketId[${i}]=${encodeURIComponent(q.get("marketId") || "")}&selectionId[${i}]=${encodeURIComponent(q.get("selectionId") || "")}`).join("&");
+    if (qs.every(q => q.get(book === "draftkings" ? "outcomes" : "selectionId")))
+      out.push(`<a class="dk" href="${esc(url)}" target="_blank" rel="noopener noreferrer" title="Tries to put every leg on one ${short} slip. New: check all ${legs.length} legs are on the slip before placing.">${short} parlay ↗</a>`);
+  }
+  return out.join("");
 }
 const dkA = r => slipLinks(r).map(k => `<a class="dk" href="${esc(k.url)}" target="_blank" rel="noopener noreferrer" title="${esc(k.title + " Check the line and price before placing.")}">${esc(k.label)} ↗</a>`).join("");
 const pickRow = r => `<tr><td><b>${esc(pickText(r))}</b>${dkA(r)}</td><td class="mu">${esc(matchOf(r))}</td><td class="n">${bar(r.prob)}</td><td class="n">${amS(r.price_american)}</td><td class="meta">${esc(finalText(r))}</td><td>${resPill(r.result)}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`;
@@ -298,7 +314,7 @@ const ticketRows = kind => (((D.tickets || {}).rows) || []).filter(t => t.kind =
 const ticketNotes = (date, kind) => ((((D.tickets || {}).notes) || {})[date] || []).filter(n => kind === "lotto" ? /lotto/i.test(n) : !/lotto/i.test(n));
 const evText = ev => ev == null ? "–" : spct(ev);
 function ticketCard(t) {
-  return `<article class="ticket"><div class="th"><div><b>${t.legs.length}-Leg ${kind1(t.kind)}</b> <span class="tag">Research</span></div>
+  return `<article class="ticket"><div class="th"><div><b>${t.legs.length}-Leg ${kind1(t.kind)}</b> <span class="tag">Research</span>${parlayLinks(t)}</div>
     <div class="tstats"><span>Win Chance <b>${pct(t.prob)}</b></span><span>Pays <b>${amS(t.price_american)}</b></span><span>Model Edge <b class="${cls(t.ev)}">${evText(t.ev)}</b></span>${resPill(t.result)}<b class="${cls(t.net_units)}">${t.net_units == null ? "" : u(t.net_units)}</b></div></div>
     <ul class="legs">${t.legs.map(l => `<li><b class="ln">${esc(pickText(l))}<span class="mu"> · ${esc(matchOf(l))}</span>${dkA(l)}</b>${bar(l.prob)}<span class="mono">${amS(l.price_american)}</span>${resPill(l.result)}</li>`).join("")}</ul></article>`;
 }
