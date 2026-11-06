@@ -20,6 +20,13 @@ on:
     - cron: "40 21 * * 1-5"   # extra EST backups (GitHub drops/delays cron)
     - cron: "0 22 * * 1-5"
     - cron: "40 22 * * 1-5"
+    # Early-tip slots (weekday holidays such as MLK Day, Christmas, Black Friday): they post picks only
+    # when ops/picks_target.py moved today's target earlier (2 h before the first tip, not before 10:00),
+    # and otherwise end in seconds without running the pipeline.
+    - cron: "0 16 * * 1-5"
+    - cron: "0 17 * * 1-5"
+    - cron: "0 18 * * 1-5"
+    - cron: "0 19 * * 1-5"
     - cron: "0 15 * * 0,6"    # 11:00 EDT
     - cron: "20 15 * * 0,6"
     - cron: "50 15 * * 0,6"
@@ -66,14 +73,19 @@ jobs:
           SCHED: ${{ github.event.schedule }}
           INPUT: ${{ inputs.steps }}
         run: |
-          # New York clock: picks go out at 16:30 on weekdays, 11:00 on weekends, never earlier.
-          DOW=$(TZ=America/New_York date +%u); MIN=$(( 10#$(TZ=America/New_York date +%H) * 60 + 10#$(TZ=America/New_York date +%M) ))
-          if [ "$DOW" -ge 6 ]; then TARGET=660; else TARGET=990; fi
+          # New York clock: picks go out at 16:30 on weekdays, 11:00 on weekends, or 2 h before today's
+          # first tip when that is earlier (never before 10:00); see ops/picks_target.py.
+          MIN=$(( 10#$(TZ=America/New_York date +%H) * 60 + 10#$(TZ=America/New_York date +%M) ))
+          TARGET=$(python3 ops/picks_target.py data/ledger/games.jsonl 2>/dev/null) || TARGET=""
+          if [ -z "$TARGET" ]; then if [ "$(TZ=America/New_York date +%u)" -ge 6 ]; then TARGET=660; else TARGET=990; fi; fi
+          echo "picks target: $((TARGET / 60)):$(printf %02d $((TARGET % 60))) ET"
           PICKS="ingest catchup predict publish leans settle export"
           if [ "$MIN" -lt "$TARGET" ]; then PICKS="ingest catchup predict settle export"; fi
           case "$SCHED" in
             "30 20 * * 1-5"|"50 20 * * 1-5"|"20 21 * * 1-5"|"30 21 * * 1-5"|"50 21 * * 1-5"|"20 22 * * 1-5"|"40 21 * * 1-5"|"0 22 * * 1-5"|"40 22 * * 1-5"|\
             "0 15 * * 0,6"|"20 15 * * 0,6"|"50 15 * * 0,6"|"0 16 * * 0,6"|"20 16 * * 0,6"|"50 16 * * 0,6") S="$PICKS" ;;
+            "0 16 * * 1-5"|"0 17 * * 1-5"|"0 18 * * 1-5"|"0 19 * * 1-5")
+              if [ "$MIN" -ge "$TARGET" ]; then S="$PICKS"; else S="skip"; fi ;;
             "30 3 * * *"|"30 4 * * *"|"0 7 * * *"|"40 8 * * *"|"0 13 * * *") S="ingest catchup settle recap diagnose export" ;;
             "") S="${INPUT:-ingest catchup predict settle export}" ;;
             *) S="ingest catchup predict settle export" ;;
@@ -82,6 +94,7 @@ jobs:
           echo "steps=$S" >> "$GITHUB_OUTPUT"; echo "steps: $S"
       - name: Run
         id: run
+        if: steps.steps.outputs.steps != 'skip'
         env:
           NBA_DISCORD_WEBHOOK_URL: ${{ secrets.NBA_DISCORD_WEBHOOK_URL }}
           STEPS: ${{ steps.steps.outputs.steps }}
@@ -90,11 +103,11 @@ jobs:
           python -m nbapicks.pipeline $STEPS 2>&1 | tee /tmp/run.log
           echo "code=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
       - name: Commit ledger and dashboard data
-        if: always()
+        if: always() && steps.steps.outputs.steps != 'skip'
         env:
           STEPS: ${{ steps.steps.outputs.steps }}
         run: |
           ops/commit_changed.sh "nba: $STEPS" data/ledger data/state data/ref data/research reports site
       - name: Fail if a step failed
-        if: steps.run.outputs.code != '0'
+        if: steps.steps.outputs.steps != 'skip' && steps.run.outputs.code != '0'
         run: tail -n 60 /tmp/run.log; exit 1
