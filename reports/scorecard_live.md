@@ -42,7 +42,7 @@ Brier: model 0.1511 vs market-implied 0.149 (n=29963; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 56-23-0, +13.96u, pending 0.
+Record 56-23-0, +13.96u, pending 6.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -129,6 +129,12 @@ Record 56-23-0, +13.96u, pending 0.
 | 2026-11-05 | Desmond Bane o2.5 fg3m | -169 | 3 | win | +0.59 |
 | 2026-11-05 | Yaxel Lendeborg o1.5 fg3m | -169 | 1 | loss | -1.00 |
 | 2026-11-05 | Draymond Green u5.5 reb | -149 | 5 | win | +0.67 |
+| 2026-11-06 | Peyton Watson u1.5 fg3m | -200 | None | pending | +0.00 |
+| 2026-11-06 | Jrue Holiday o1.5 fg3m | -196 | None | pending | +0.00 |
+| 2026-11-06 | Ja'Kobe Walter u3.5 reb | -164 | None | pending | +0.00 |
+| 2026-11-06 | Tyler Herro o3.5 ast | -169 | None | pending | +0.00 |
+| 2026-11-06 | Kyrie Irving o3.5 reb | -164 | None | pending | +0.00 |
+| 2026-11-06 | CJ McCollum o1.5 fg3m | -161 | None | pending | +0.00 |
 
 ## Rows
 
