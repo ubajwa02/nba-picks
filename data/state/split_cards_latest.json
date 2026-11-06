@@ -31560,11 +31560,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.2021,
-   "fair": 0.5632,
+   "ev": -0.1732,
+   "fair": 0.5426,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.6024,
+   "implied": 0.5814,
    "k": 40.0,
    "line": 1.5,
    "opp": "MIA",
@@ -31650,16 +31650,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Georges Niang under 1.5 fg3m (vs MIA): p=0.481 (raw 0.468) vs DraftKings implied 0.602 EV -0.202 @ DraftKings | career 128/270, season 6/8, last5 3/5, last10 7/10, vs MIA 4/12, home 54/138, month 11 past seasons 20/44, rest 2+ days 26/59, opp defence soft 26/73, with Brandin Podziemski 4/6, with Yaxel Lendeborg 6/8, with Stephen Curry 4/6"
+   "text": "[research] Georges Niang under 1.5 fg3m (vs MIA): p=0.481 (raw 0.468) vs DraftKings implied 0.581 EV -0.173 @ DraftKings | career 128/270, season 6/8, last5 3/5, last10 7/10, vs MIA 4/12, home 54/138, month 11 past seasons 20/44, rest 2+ days 26/59, opp defence soft 26/73, with Brandin Podziemski 4/6, with Yaxel Lendeborg 6/8, with Stephen Curry 4/6"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": 0.0421,
+   "ev": 0.0535,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5495,
+   "implied": 0.5435,
    "k": 40.0,
    "line": 7.5,
    "opp": "MIA",
@@ -31745,16 +31745,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Georges Niang over 7.5 pts (vs MIA): p=0.573 (raw 0.585) vs DraftKings implied 0.549 EV +0.042 @ DraftKings | career 154/270, season 3/8, last5 3/5, last10 5/10, vs MIA 7/12, home 85/138, month 11 past seasons 31/44, rest 2+ days 37/59, opp defence soft 44/68, with Brandin Podziemski 3/6, with Yaxel Lendeborg 3/8, with Stephen Curry 3/6"
+   "text": "[research] Georges Niang over 7.5 pts (vs MIA): p=0.573 (raw 0.585) vs DraftKings implied 0.543 EV +0.053 @ DraftKings | career 154/270, season 3/8, last5 3/5, last10 5/10, vs MIA 7/12, home 85/138, month 11 past seasons 31/44, rest 2+ days 37/59, opp defence soft 44/68, with Brandin Podziemski 3/6, with Yaxel Lendeborg 3/8, with Stephen Curry 3/6"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.2011,
+   "ev": -0.1923,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5495,
+   "implied": 0.5435,
    "k": 40.0,
    "line": 7.5,
    "opp": "MIA",
@@ -31840,7 +31840,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Georges Niang under 7.5 pts (vs MIA): p=0.439 (raw 0.415) vs DraftKings implied 0.549 EV -0.201 @ DraftKings | career 116/270, season 5/8, last5 2/5, last10 5/10, vs MIA 5/12, home 53/138, month 11 past seasons 13/44, rest 2+ days 22/59, opp defence soft 24/68, with Brandin Podziemski 3/6, with Yaxel Lendeborg 5/8, with Stephen Curry 3/6"
+   "text": "[research] Georges Niang under 7.5 pts (vs MIA): p=0.439 (raw 0.415) vs DraftKings implied 0.543 EV -0.192 @ DraftKings | career 116/270, season 5/8, last5 2/5, last10 5/10, vs MIA 5/12, home 53/138, month 11 past seasons 13/44, rest 2+ days 22/59, opp defence soft 24/68, with Brandin Podziemski 3/6, with Yaxel Lendeborg 5/8, with Stephen Curry 3/6"
   },
   {
    "book": "DraftKings",
@@ -32035,17 +32035,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.1345,
+   "ev": -0.1189,
    "fair": null,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.6024,
+   "implied": 0.5917,
    "k": 40.0,
    "line": 5.5,
    "opp": "GS",
    "player": "Giannis Antetokounmpo",
    "player_id": "3032977",
-   "price_observed_at": "2026-11-06T02:43:57Z",
+   "price_observed_at": "2026-11-06T02:47:01Z",
    "prob": 0.5214,
    "prob_raw": 0.5197,
    "side": "over",
@@ -32125,22 +32125,22 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Giannis Antetokounmpo over 5.5 ast (@ GS): p=0.521 (raw 0.520) vs DraftKings implied 0.602 EV -0.135 @ DraftKings | career 133/256, season 4/8, last5 4/5, last10 5/10, vs GS 2/5, away 66/122, month 11 past seasons 25/49, rest b2b 18/37, opp defence soft 43/81, with Davion Mitchell 4/8, with Bam Adebayo 4/8, with Pelle Larsson 4/8"
+   "text": "[research] Giannis Antetokounmpo over 5.5 ast (@ GS): p=0.521 (raw 0.520) vs DraftKings implied 0.592 EV -0.119 @ DraftKings | career 133/256, season 4/8, last5 4/5, last10 5/10, vs GS 2/5, away 66/122, month 11 past seasons 25/49, rest b2b 18/37, opp defence soft 43/81, with Davion Mitchell 4/8, with Bam Adebayo 4/8, with Pelle Larsson 4/8"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.186,
+   "ev": -0.1713,
    "fair": null,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.6024,
+   "implied": 0.5917,
    "k": 40.0,
    "line": 5.5,
    "opp": "GS",
    "player": "Giannis Antetokounmpo",
    "player_id": "3032977",
-   "price_observed_at": "2026-11-06T02:43:57Z",
+   "price_observed_at": "2026-11-06T02:47:01Z",
    "prob": 0.4904,
    "prob_raw": 0.4803,
    "side": "under",
@@ -32220,7 +32220,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Giannis Antetokounmpo under 5.5 ast (@ GS): p=0.490 (raw 0.480) vs DraftKings implied 0.602 EV -0.186 @ DraftKings | career 123/256, season 4/8, last5 1/5, last10 5/10, vs GS 3/5, away 56/122, month 11 past seasons 24/49, rest b2b 19/37, opp defence soft 38/81, with Davion Mitchell 4/8, with Bam Adebayo 4/8, with Pelle Larsson 4/8"
+   "text": "[research] Giannis Antetokounmpo under 5.5 ast (@ GS): p=0.490 (raw 0.480) vs DraftKings implied 0.592 EV -0.171 @ DraftKings | career 123/256, season 4/8, last5 1/5, last10 5/10, vs GS 3/5, away 56/122, month 11 past seasons 24/49, rest b2b 19/37, opp defence soft 38/81, with Davion Mitchell 4/8, with Bam Adebayo 4/8, with Pelle Larsson 4/8"
   },
   {
    "book": "DraftKings",
@@ -32320,11 +32320,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": 0.1053,
+   "ev": 0.0934,
    "fair": null,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.5376,
+   "implied": 0.5435,
    "k": 40.0,
    "line": 28.5,
    "opp": "GS",
@@ -32410,16 +32410,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Giannis Antetokounmpo over 28.5 pts (@ GS): p=0.594 (raw 0.612) vs DraftKings implied 0.538 EV +0.105 @ DraftKings | career 155/256, season 5/8, last5 3/5, last10 7/10, vs GS 3/5, away 72/122, month 11 past seasons 30/49, rest b2b 24/37, opp defence middle 47/75, with Davion Mitchell 5/8, with Bam Adebayo 5/8, with Pelle Larsson 5/8"
+   "text": "[research] Giannis Antetokounmpo over 28.5 pts (@ GS): p=0.594 (raw 0.612) vs DraftKings implied 0.543 EV +0.093 @ DraftKings | career 155/256, season 5/8, last5 3/5, last10 7/10, vs GS 3/5, away 72/122, month 11 past seasons 30/49, rest b2b 24/37, opp defence middle 47/75, with Davion Mitchell 5/8, with Bam Adebayo 5/8, with Pelle Larsson 5/8"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.2241,
+   "ev": -0.2325,
    "fair": null,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.5376,
+   "implied": 0.5435,
    "k": 40.0,
    "line": 28.5,
    "opp": "GS",
@@ -32505,7 +32505,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Giannis Antetokounmpo under 28.5 pts (@ GS): p=0.417 (raw 0.388) vs DraftKings implied 0.538 EV -0.224 @ DraftKings | career 101/256, season 3/8, last5 2/5, last10 3/10, vs GS 2/5, away 50/122, month 11 past seasons 19/49, rest b2b 13/37, opp defence middle 28/75, with Davion Mitchell 3/8, with Bam Adebayo 3/8, with Pelle Larsson 3/8"
+   "text": "[research] Giannis Antetokounmpo under 28.5 pts (@ GS): p=0.417 (raw 0.388) vs DraftKings implied 0.543 EV -0.233 @ DraftKings | career 101/256, season 3/8, last5 2/5, last10 3/10, vs GS 2/5, away 50/122, month 11 past seasons 19/49, rest b2b 13/37, opp defence middle 28/75, with Davion Mitchell 3/8, with Bam Adebayo 3/8, with Pelle Larsson 3/8"
   },
   {
    "book": "DraftKings",
@@ -32605,17 +32605,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": 0.0179,
+   "ev": 0.0357,
    "fair": null,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.5848,
+   "implied": 0.5747,
    "k": 40.0,
    "line": 10.5,
    "opp": "GS",
    "player": "Giannis Antetokounmpo",
    "player_id": "3032977",
-   "price_observed_at": "2026-11-06T02:43:57Z",
+   "price_observed_at": "2026-11-06T02:47:01Z",
    "prob": 0.5952,
    "prob_raw": 0.6133,
    "side": "over",
@@ -32695,22 +32695,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Giannis Antetokounmpo over 10.5 reb (@ GS): p=0.595 (raw 0.613) vs DraftKings implied 0.585 EV +0.018 @ DraftKings | career 157/256, season 6/8, last5 5/5, last10 7/10, vs GS 1/5, away 74/122, month 11 past seasons 28/49, rest b2b 20/37, opp defence tough 54/94, with Davion Mitchell 6/8, with Bam Adebayo 6/8, with Pelle Larsson 6/8"
+   "text": "[research] Giannis Antetokounmpo over 10.5 reb (@ GS): p=0.595 (raw 0.613) vs DraftKings implied 0.575 EV +0.036 @ DraftKings | career 157/256, season 6/8, last5 5/5, last10 7/10, vs GS 1/5, away 74/122, month 11 past seasons 28/49, rest b2b 20/37, opp defence tough 54/94, with Davion Mitchell 6/8, with Bam Adebayo 6/8, with Pelle Larsson 6/8"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.2884,
+   "ev": -0.2759,
    "fair": null,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.5848,
+   "implied": 0.5747,
    "k": 40.0,
    "line": 10.5,
    "opp": "GS",
    "player": "Giannis Antetokounmpo",
    "player_id": "3032977",
-   "price_observed_at": "2026-11-06T02:43:57Z",
+   "price_observed_at": "2026-11-06T02:47:01Z",
    "prob": 0.4161,
    "prob_raw": 0.3867,
    "side": "under",
@@ -32790,7 +32790,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Giannis Antetokounmpo under 10.5 reb (@ GS): p=0.416 (raw 0.387) vs DraftKings implied 0.585 EV -0.288 @ DraftKings | career 99/256, season 2/8, last5 0/5, last10 3/10, vs GS 4/5, away 48/122, month 11 past seasons 21/49, rest b2b 17/37, opp defence tough 40/94, with Davion Mitchell 2/8, with Bam Adebayo 2/8, with Pelle Larsson 2/8"
+   "text": "[research] Giannis Antetokounmpo under 10.5 reb (@ GS): p=0.416 (raw 0.387) vs DraftKings implied 0.575 EV -0.276 @ DraftKings | career 99/256, season 2/8, last5 0/5, last10 3/10, vs GS 4/5, away 48/122, month 11 past seasons 21/49, rest b2b 17/37, opp defence tough 40/94, with Davion Mitchell 2/8, with Bam Adebayo 2/8, with Pelle Larsson 2/8"
   },
   {
    "book": "DraftKings",
@@ -33365,17 +33365,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": 0.1325,
+   "ev": 0.1075,
    "fair": null,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.5525,
+   "implied": 0.565,
    "k": 40.0,
    "line": 11.5,
    "opp": "GS",
    "player": "Andrew Wiggins",
    "player_id": "3059319",
-   "price_observed_at": "2026-11-05T22:13:01Z",
+   "price_observed_at": "2026-11-06T02:47:01Z",
    "prob": 0.6257,
    "prob_raw": 0.6512,
    "side": "over",
@@ -33455,22 +33455,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Andrew Wiggins over 11.5 pts (@ GS): p=0.626 (raw 0.651) vs DraftKings implied 0.552 EV +0.133 @ DraftKings | career 180/265, season 3/8, last5 3/5, last10 4/10, vs GS 2/3, away 86/128, month 11 past seasons 39/53, rest b2b 23/42, opp defence middle 60/87, with Davion Mitchell 61/89, with Giannis Antetokounmpo 3/8, with Bam Adebayo 62/92"
+   "text": "[research] Andrew Wiggins over 11.5 pts (@ GS): p=0.626 (raw 0.651) vs DraftKings implied 0.565 EV +0.107 @ DraftKings | career 180/265, season 3/8, last5 3/5, last10 4/10, vs GS 2/3, away 86/128, month 11 past seasons 39/53, rest b2b 23/42, opp defence middle 60/87, with Davion Mitchell 61/89, with Giannis Antetokounmpo 3/8, with Bam Adebayo 62/92"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.3025,
+   "ev": -0.3179,
    "fair": null,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.5525,
+   "implied": 0.565,
    "k": 40.0,
    "line": 11.5,
    "opp": "GS",
    "player": "Andrew Wiggins",
    "player_id": "3059319",
-   "price_observed_at": "2026-11-05T22:13:01Z",
+   "price_observed_at": "2026-11-06T02:47:01Z",
    "prob": 0.3854,
    "prob_raw": 0.3488,
    "side": "under",
@@ -33550,7 +33550,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Andrew Wiggins under 11.5 pts (@ GS): p=0.385 (raw 0.349) vs DraftKings implied 0.552 EV -0.302 @ DraftKings | career 85/265, season 5/8, last5 2/5, last10 6/10, vs GS 1/3, away 42/128, month 11 past seasons 14/53, rest b2b 19/42, opp defence middle 27/87, with Davion Mitchell 28/89, with Giannis Antetokounmpo 5/8, with Bam Adebayo 30/92"
+   "text": "[research] Andrew Wiggins under 11.5 pts (@ GS): p=0.385 (raw 0.349) vs DraftKings implied 0.565 EV -0.318 @ DraftKings | career 85/265, season 5/8, last5 2/5, last10 6/10, vs GS 1/3, away 42/128, month 11 past seasons 14/53, rest b2b 19/42, opp defence middle 27/87, with Davion Mitchell 28/89, with Giannis Antetokounmpo 5/8, with Bam Adebayo 30/92"
   },
   {
    "book": "DraftKings",
@@ -33935,11 +33935,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.0965,
-   "fair": 0.5928,
+   "ev": -0.1079,
+   "fair": 0.6,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.6329,
+   "implied": 0.641,
    "k": 40.0,
    "line": 1.5,
    "opp": "GS",
@@ -34025,16 +34025,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Bobby Portis under 1.5 fg3m (@ GS): p=0.572 (raw 0.584) vs DraftKings implied 0.633 EV -0.097 @ DraftKings | career 171/293, season 4/8, last5 3/5, last10 6/10, vs GS 2/7, away 97/146, month 11 past seasons 40/59, rest b2b 24/46, opp defence middle 49/94, with Davion Mitchell 4/8, with Giannis Antetokounmpo 4/8, with Bam Adebayo 4/8"
+   "text": "[research] Bobby Portis under 1.5 fg3m (@ GS): p=0.572 (raw 0.584) vs DraftKings implied 0.641 EV -0.108 @ DraftKings | career 171/293, season 4/8, last5 3/5, last10 6/10, vs GS 2/7, away 97/146, month 11 past seasons 40/59, rest b2b 24/46, opp defence middle 49/94, with Davion Mitchell 4/8, with Giannis Antetokounmpo 4/8, with Bam Adebayo 4/8"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": 0.3005,
+   "ev": 0.2934,
    "fair": null,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.5435,
+   "implied": 0.5464,
    "k": 40.0,
    "line": 8.5,
    "opp": "GS",
@@ -34120,16 +34120,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Bobby Portis over 8.5 pts (@ GS): p=0.707 (raw 0.749) vs DraftKings implied 0.543 EV +0.300 @ DraftKings | career 234/293, season 4/8, last5 2/5, last10 6/10, vs GS 5/7, away 112/146, month 11 past seasons 47/59, rest b2b 35/46, opp defence middle 62/83, with Davion Mitchell 4/8, with Giannis Antetokounmpo 4/8, with Bam Adebayo 4/8"
+   "text": "[research] Bobby Portis over 8.5 pts (@ GS): p=0.707 (raw 0.749) vs DraftKings implied 0.546 EV +0.293 @ DraftKings | career 234/293, season 4/8, last5 2/5, last10 6/10, vs GS 5/7, away 112/146, month 11 past seasons 47/59, rest b2b 35/46, opp defence middle 62/83, with Davion Mitchell 4/8, with Giannis Antetokounmpo 4/8, with Bam Adebayo 4/8"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.4424,
+   "ev": -0.4454,
    "fair": null,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.5435,
+   "implied": 0.5464,
    "k": 40.0,
    "line": 8.5,
    "opp": "GS",
@@ -34215,16 +34215,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Bobby Portis under 8.5 pts (@ GS): p=0.303 (raw 0.252) vs DraftKings implied 0.543 EV -0.442 @ DraftKings | career 59/293, season 4/8, last5 3/5, last10 4/10, vs GS 2/7, away 34/146, month 11 past seasons 12/59, rest b2b 11/46, opp defence middle 21/83, with Davion Mitchell 4/8, with Giannis Antetokounmpo 4/8, with Bam Adebayo 4/8"
+   "text": "[research] Bobby Portis under 8.5 pts (@ GS): p=0.303 (raw 0.252) vs DraftKings implied 0.546 EV -0.445 @ DraftKings | career 59/293, season 4/8, last5 3/5, last10 4/10, vs GS 2/7, away 34/146, month 11 past seasons 12/59, rest b2b 11/46, opp defence middle 21/83, with Davion Mitchell 4/8, with Giannis Antetokounmpo 4/8, with Bam Adebayo 4/8"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": 0.2052,
+   "ev": 0.2123,
    "fair": null,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.5848,
+   "implied": 0.5814,
    "k": 40.0,
    "line": 5.5,
    "opp": "GS",
@@ -34310,16 +34310,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Bobby Portis over 5.5 reb (@ GS): p=0.705 (raw 0.746) vs DraftKings implied 0.585 EV +0.205 @ DraftKings | career 225/293, season 5/8, last5 3/5, last10 7/10, vs GS 6/7, away 112/146, month 11 past seasons 47/59, rest b2b 38/46, opp defence tough 65/98, with Davion Mitchell 5/8, with Giannis Antetokounmpo 5/8, with Bam Adebayo 5/8"
+   "text": "[research] Bobby Portis over 5.5 reb (@ GS): p=0.705 (raw 0.746) vs DraftKings implied 0.581 EV +0.212 @ DraftKings | career 225/293, season 5/8, last5 3/5, last10 7/10, vs GS 6/7, away 112/146, month 11 past seasons 47/59, rest b2b 38/46, opp defence tough 65/98, with Davion Mitchell 5/8, with Giannis Antetokounmpo 5/8, with Bam Adebayo 5/8"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.4784,
+   "ev": -0.4753,
    "fair": null,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.5848,
+   "implied": 0.5814,
    "k": 40.0,
    "line": 5.5,
    "opp": "GS",
@@ -34405,7 +34405,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Bobby Portis under 5.5 reb (@ GS): p=0.305 (raw 0.254) vs DraftKings implied 0.585 EV -0.478 @ DraftKings | career 68/293, season 3/8, last5 2/5, last10 3/10, vs GS 1/7, away 34/146, month 11 past seasons 12/59, rest b2b 8/46, opp defence tough 33/98, with Davion Mitchell 3/8, with Giannis Antetokounmpo 3/8, with Bam Adebayo 3/8"
+   "text": "[research] Bobby Portis under 5.5 reb (@ GS): p=0.305 (raw 0.254) vs DraftKings implied 0.581 EV -0.475 @ DraftKings | career 68/293, season 3/8, last5 2/5, last10 3/10, vs GS 1/7, away 34/146, month 11 past seasons 12/59, rest b2b 8/46, opp defence tough 33/98, with Davion Mitchell 3/8, with Giannis Antetokounmpo 3/8, with Bam Adebayo 3/8"
   },
   {
    "book": "DraftKings",
@@ -34695,17 +34695,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.1035,
-   "fair": 0.5567,
+   "ev": -0.1195,
+   "fair": 0.5669,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5952,
+   "implied": 0.6061,
    "k": 40.0,
    "line": 4.5,
    "opp": "MIA",
    "player": "Stephen Curry",
    "player_id": "3975",
-   "price_observed_at": "2026-11-05T23:46:00Z",
+   "price_observed_at": "2026-11-06T02:47:01Z",
    "prob": 0.5336,
    "prob_raw": 0.5354,
    "side": "under",
@@ -34785,7 +34785,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Stephen Curry under 4.5 fg3m (vs MIA): p=0.534 (raw 0.535) vs DraftKings implied 0.595 EV -0.103 @ DraftKings | career 147/274, season 3/6, last5 2/5, last10 6/10, vs MIA 3/6, home 67/132, month 11 past seasons 22/48, rest 2+ days 43/78, opp defence soft 47/78, with Brandin Podziemski 96/179, with Yaxel Lendeborg 3/6, with Draymond Green 128/234"
+   "text": "[research] Stephen Curry under 4.5 fg3m (vs MIA): p=0.534 (raw 0.535) vs DraftKings implied 0.606 EV -0.119 @ DraftKings | career 147/274, season 3/6, last5 2/5, last10 6/10, vs MIA 3/6, home 67/132, month 11 past seasons 22/48, rest 2+ days 43/78, opp defence soft 47/78, with Brandin Podziemski 96/179, with Yaxel Lendeborg 3/6, with Draymond Green 128/234"
   },
   {
    "book": "DraftKings",
@@ -35170,11 +35170,201 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": 0.104,
+   "ev": -0.1592,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5525,
+   "implied": 0.5376,
+   "k": 40.0,
+   "line": 28.5,
+   "opp": "MIA",
+   "player": "Stephen Curry",
+   "player_id": "3975",
+   "price_observed_at": "2026-11-06T02:43:57Z",
+   "prob": 0.4521,
+   "prob_raw": 0.4317,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 117,
+     "n": 274,
+     "rate": 0.427,
+     "split": "career"
+    },
+    {
+     "hits": 3,
+     "n": 6,
+     "rate": 0.5,
+     "split": "season"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "last5"
+    },
+    {
+     "hits": 4,
+     "n": 10,
+     "rate": 0.4,
+     "split": "last10"
+    },
+    {
+     "hits": 2,
+     "n": 6,
+     "rate": 0.333,
+     "split": "vs MIA"
+    },
+    {
+     "hits": 60,
+     "n": 132,
+     "rate": 0.455,
+     "split": "home"
+    },
+    {
+     "hits": 21,
+     "n": 48,
+     "rate": 0.438,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 32,
+     "n": 78,
+     "rate": 0.41,
+     "split": "rest 2+ days"
+    },
+    {
+     "hits": 36,
+     "n": 79,
+     "rate": 0.456,
+     "split": "opp defence soft"
+    },
+    {
+     "hits": 69,
+     "n": 179,
+     "rate": 0.385,
+     "split": "with Brandin Podziemski"
+    },
+    {
+     "hits": 3,
+     "n": 6,
+     "rate": 0.5,
+     "split": "with Yaxel Lendeborg"
+    },
+    {
+     "hits": 103,
+     "n": 234,
+     "rate": 0.44,
+     "split": "with Draymond Green"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Stephen Curry over 28.5 pts (vs MIA): p=0.452 (raw 0.432) vs DraftKings implied 0.538 EV -0.159 @ DraftKings | career 117/274, season 3/6, last5 3/5, last10 4/10, vs MIA 2/6, home 60/132, month 11 past seasons 21/48, rest 2+ days 32/78, opp defence soft 36/79, with Brandin Podziemski 69/179, with Yaxel Lendeborg 3/6, with Draymond Green 103/234"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-05",
+   "ev": 0.0408,
+   "fair": null,
+   "game_id": "401909937",
+   "home": true,
+   "implied": 0.5376,
+   "k": 40.0,
+   "line": 28.5,
+   "opp": "MIA",
+   "player": "Stephen Curry",
+   "player_id": "3975",
+   "price_observed_at": "2026-11-06T02:43:57Z",
+   "prob": 0.5595,
+   "prob_raw": 0.5683,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 157,
+     "n": 274,
+     "rate": 0.573,
+     "split": "career"
+    },
+    {
+     "hits": 3,
+     "n": 6,
+     "rate": 0.5,
+     "split": "season"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "last5"
+    },
+    {
+     "hits": 6,
+     "n": 10,
+     "rate": 0.6,
+     "split": "last10"
+    },
+    {
+     "hits": 4,
+     "n": 6,
+     "rate": 0.667,
+     "split": "vs MIA"
+    },
+    {
+     "hits": 72,
+     "n": 132,
+     "rate": 0.545,
+     "split": "home"
+    },
+    {
+     "hits": 27,
+     "n": 48,
+     "rate": 0.562,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 46,
+     "n": 78,
+     "rate": 0.59,
+     "split": "rest 2+ days"
+    },
+    {
+     "hits": 43,
+     "n": 79,
+     "rate": 0.544,
+     "split": "opp defence soft"
+    },
+    {
+     "hits": 110,
+     "n": 179,
+     "rate": 0.615,
+     "split": "with Brandin Podziemski"
+    },
+    {
+     "hits": 3,
+     "n": 6,
+     "rate": 0.5,
+     "split": "with Yaxel Lendeborg"
+    },
+    {
+     "hits": 131,
+     "n": 234,
+     "rate": 0.56,
+     "split": "with Draymond Green"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Stephen Curry under 28.5 pts (vs MIA): p=0.559 (raw 0.568) vs DraftKings implied 0.538 EV +0.041 @ DraftKings | career 157/274, season 3/6, last5 2/5, last10 6/10, vs MIA 4/6, home 72/132, month 11 past seasons 27/48, rest 2+ days 46/78, opp defence soft 43/79, with Brandin Podziemski 110/179, with Yaxel Lendeborg 3/6, with Draymond Green 131/234"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-05",
+   "ev": 0.0979,
+   "fair": null,
+   "game_id": "401909937",
+   "home": true,
+   "implied": 0.5556,
    "k": 40.0,
    "line": 3.5,
    "opp": "MIA",
@@ -35260,16 +35450,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Stephen Curry over 3.5 reb (vs MIA): p=0.610 (raw 0.632) vs DraftKings implied 0.552 EV +0.104 @ DraftKings | career 176/274, season 3/6, last5 3/5, last10 5/10, vs MIA 4/6, home 81/132, month 11 past seasons 36/48, rest 2+ days 49/78, opp defence soft 48/72, with Brandin Podziemski 102/179, with Yaxel Lendeborg 3/6, with Draymond Green 155/234"
+   "text": "[research] Stephen Curry over 3.5 reb (vs MIA): p=0.610 (raw 0.632) vs DraftKings implied 0.556 EV +0.098 @ DraftKings | career 176/274, season 3/6, last5 3/5, last10 5/10, vs MIA 4/6, home 81/132, month 11 past seasons 36/48, rest 2+ days 49/78, opp defence soft 48/72, with Brandin Podziemski 102/179, with Yaxel Lendeborg 3/6, with Draymond Green 155/234"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.2737,
+   "ev": -0.2777,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5525,
+   "implied": 0.5556,
    "k": 40.0,
    "line": 3.5,
    "opp": "MIA",
@@ -35355,7 +35545,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Stephen Curry under 3.5 reb (vs MIA): p=0.401 (raw 0.368) vs DraftKings implied 0.552 EV -0.274 @ DraftKings | career 98/274, season 3/6, last5 2/5, last10 5/10, vs MIA 2/6, home 51/132, month 11 past seasons 12/48, rest 2+ days 29/78, opp defence soft 24/72, with Brandin Podziemski 77/179, with Yaxel Lendeborg 3/6, with Draymond Green 79/234"
+   "text": "[research] Stephen Curry under 3.5 reb (vs MIA): p=0.401 (raw 0.368) vs DraftKings implied 0.556 EV -0.278 @ DraftKings | career 98/274, season 3/6, last5 2/5, last10 5/10, vs MIA 2/6, home 51/132, month 11 past seasons 12/48, rest 2+ days 29/78, opp defence soft 24/72, with Brandin Podziemski 77/179, with Yaxel Lendeborg 3/6, with Draymond Green 79/234"
   },
   {
    "book": "DraftKings",
@@ -35646,7 +35836,7 @@
    "book": "DraftKings",
    "date": "2026-11-05",
    "ev": 0.0442,
-   "fair": 0.6595,
+   "fair": 0.6603,
    "game_id": "401909937",
    "home": false,
    "implied": 0.7042,
@@ -35655,7 +35845,7 @@
    "opp": "GS",
    "player": "Bam Adebayo",
    "player_id": "4066261",
-   "price_observed_at": "2026-11-05T23:46:00Z",
+   "price_observed_at": "2026-11-06T02:47:01Z",
    "prob": 0.7354,
    "prob_raw": 0.781,
    "side": "under",
@@ -35740,11 +35930,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.0378,
+   "ev": -0.0325,
    "fair": null,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.5435,
+   "implied": 0.5405,
    "k": 40.0,
    "line": 18.5,
    "opp": "GS",
@@ -35830,16 +36020,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Bam Adebayo over 18.5 pts (@ GS): p=0.523 (raw 0.522) vs DraftKings implied 0.543 EV -0.038 @ DraftKings | career 181/344, season 4/8, last5 3/5, last10 5/10, vs GS 6/8, away 91/175, month 11 past seasons 27/48, rest b2b 28/53, opp defence middle 49/102, with Davion Mitchell 54/103, with Giannis Antetokounmpo 4/8, with Pelle Larsson 66/126"
+   "text": "[research] Bam Adebayo over 18.5 pts (@ GS): p=0.523 (raw 0.522) vs DraftKings implied 0.540 EV -0.033 @ DraftKings | career 181/344, season 4/8, last5 3/5, last10 5/10, vs GS 6/8, away 91/175, month 11 past seasons 27/48, rest b2b 28/53, opp defence middle 49/102, with Davion Mitchell 54/103, with Giannis Antetokounmpo 4/8, with Pelle Larsson 66/126"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.1006,
+   "ev": -0.0958,
    "fair": null,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.5435,
+   "implied": 0.5405,
    "k": 40.0,
    "line": 18.5,
    "opp": "GS",
@@ -35925,7 +36115,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Bam Adebayo under 18.5 pts (@ GS): p=0.489 (raw 0.478) vs DraftKings implied 0.543 EV -0.101 @ DraftKings | career 163/344, season 4/8, last5 2/5, last10 5/10, vs GS 2/8, away 84/175, month 11 past seasons 21/48, rest b2b 25/53, opp defence middle 53/102, with Davion Mitchell 49/103, with Giannis Antetokounmpo 4/8, with Pelle Larsson 60/126"
+   "text": "[research] Bam Adebayo under 18.5 pts (@ GS): p=0.489 (raw 0.478) vs DraftKings implied 0.540 EV -0.096 @ DraftKings | career 163/344, season 4/8, last5 2/5, last10 5/10, vs GS 2/8, away 84/175, month 11 past seasons 21/48, rest b2b 25/53, opp defence middle 53/102, with Davion Mitchell 49/103, with Giannis Antetokounmpo 4/8, with Pelle Larsson 60/126"
   },
   {
    "book": "DraftKings",
@@ -36700,7 +36890,7 @@
    "opp": "GS",
    "player": "Bam Adebayo",
    "player_id": "4066261",
-   "price_observed_at": "2026-11-05T22:13:01Z",
+   "price_observed_at": "2026-11-06T02:47:01Z",
    "prob": 0.5224,
    "prob_raw": 0.5211,
    "side": "under",
@@ -36785,11 +36975,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.1735,
-   "fair": 0.5907,
+   "ev": -0.163,
+   "fair": 0.5844,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.6329,
+   "implied": 0.625,
    "k": 40.0,
    "line": 2.5,
    "opp": "MIA",
@@ -36875,7 +37065,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] De'Anthony Melton under 2.5 ast (vs MIA): p=0.523 (raw 0.522) vs DraftKings implied 0.633 EV -0.173 @ DraftKings | career 107/192, season 4/8, last5 2/5, last10 4/10, vs MIA 3/4, home 52/96, month 11 past seasons 11/30, rest 2+ days 25/51, opp defence soft 26/54, with Brandin Podziemski 32/63, with Yaxel Lendeborg 4/8, with Stephen Curry 21/39"
+   "text": "[research] De'Anthony Melton under 2.5 ast (vs MIA): p=0.523 (raw 0.522) vs DraftKings implied 0.625 EV -0.163 @ DraftKings | career 107/192, season 4/8, last5 2/5, last10 4/10, vs MIA 3/4, home 52/96, month 11 past seasons 11/30, rest 2+ days 25/51, opp defence soft 26/54, with Brandin Podziemski 32/63, with Yaxel Lendeborg 4/8, with Stephen Curry 21/39"
   },
   {
    "book": "DraftKings",
@@ -36975,11 +37165,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.1131,
+   "ev": -0.1082,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5435,
+   "implied": 0.5405,
    "k": 40.0,
    "line": 10.5,
    "opp": "MIA",
@@ -37065,16 +37255,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] De'Anthony Melton over 10.5 pts (vs MIA): p=0.482 (raw 0.470) vs DraftKings implied 0.543 EV -0.113 @ DraftKings | career 90/192, season 3/8, last5 2/5, last10 4/10, vs MIA 1/4, home 42/96, month 11 past seasons 17/30, rest 2+ days 25/51, opp defence soft 29/53, with Brandin Podziemski 32/63, with Yaxel Lendeborg 3/8, with Stephen Curry 17/39"
+   "text": "[research] De'Anthony Melton over 10.5 pts (vs MIA): p=0.482 (raw 0.470) vs DraftKings implied 0.540 EV -0.108 @ DraftKings | career 90/192, season 3/8, last5 2/5, last10 4/10, vs MIA 1/4, home 42/96, month 11 past seasons 17/30, rest 2+ days 25/51, opp defence soft 29/53, with Brandin Podziemski 32/63, with Yaxel Lendeborg 3/8, with Stephen Curry 17/39"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.0254,
+   "ev": -0.0201,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5435,
+   "implied": 0.5405,
    "k": 40.0,
    "line": 10.5,
    "opp": "MIA",
@@ -37160,16 +37350,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] De'Anthony Melton under 10.5 pts (vs MIA): p=0.530 (raw 0.530) vs DraftKings implied 0.543 EV -0.025 @ DraftKings | career 102/192, season 5/8, last5 3/5, last10 6/10, vs MIA 3/4, home 54/96, month 11 past seasons 13/30, rest 2+ days 26/51, opp defence soft 24/53, with Brandin Podziemski 31/63, with Yaxel Lendeborg 5/8, with Stephen Curry 22/39"
+   "text": "[research] De'Anthony Melton under 10.5 pts (vs MIA): p=0.530 (raw 0.530) vs DraftKings implied 0.540 EV -0.020 @ DraftKings | career 102/192, season 5/8, last5 3/5, last10 6/10, vs MIA 3/4, home 54/96, month 11 past seasons 13/30, rest 2+ days 26/51, opp defence soft 24/53, with Brandin Podziemski 31/63, with Yaxel Lendeborg 5/8, with Stephen Curry 22/39"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.0706,
+   "ev": -0.0446,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5587,
+   "implied": 0.5435,
    "k": 40.0,
    "line": 3.5,
    "opp": "MIA",
@@ -37255,16 +37445,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] De'Anthony Melton over 3.5 reb (vs MIA): p=0.519 (raw 0.517) vs DraftKings implied 0.559 EV -0.071 @ DraftKings | career 92/192, season 6/8, last5 5/5, last10 8/10, vs MIA 2/4, home 48/96, month 11 past seasons 21/30, rest 2+ days 26/51, opp defence soft 27/51, with Brandin Podziemski 27/63, with Yaxel Lendeborg 6/8, with Stephen Curry 15/39"
+   "text": "[research] De'Anthony Melton over 3.5 reb (vs MIA): p=0.519 (raw 0.517) vs DraftKings implied 0.543 EV -0.045 @ DraftKings | career 92/192, season 6/8, last5 5/5, last10 8/10, vs MIA 2/4, home 48/96, month 11 past seasons 21/30, rest 2+ days 26/51, opp defence soft 27/51, with Brandin Podziemski 27/63, with Yaxel Lendeborg 6/8, with Stephen Curry 15/39"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.1184,
+   "ev": -0.0938,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5587,
+   "implied": 0.5435,
    "k": 40.0,
    "line": 3.5,
    "opp": "MIA",
@@ -37350,7 +37540,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] De'Anthony Melton under 3.5 reb (vs MIA): p=0.492 (raw 0.483) vs DraftKings implied 0.559 EV -0.118 @ DraftKings | career 100/192, season 2/8, last5 0/5, last10 2/10, vs MIA 2/4, home 48/96, month 11 past seasons 9/30, rest 2+ days 25/51, opp defence soft 24/51, with Brandin Podziemski 36/63, with Yaxel Lendeborg 2/8, with Stephen Curry 24/39"
+   "text": "[research] De'Anthony Melton under 3.5 reb (vs MIA): p=0.492 (raw 0.483) vs DraftKings implied 0.543 EV -0.094 @ DraftKings | career 100/192, season 2/8, last5 0/5, last10 2/10, vs MIA 2/4, home 48/96, month 11 past seasons 9/30, rest 2+ days 25/51, opp defence soft 24/51, with Brandin Podziemski 36/63, with Yaxel Lendeborg 2/8, with Stephen Curry 24/39"
   },
   {
    "book": "DraftKings",
@@ -37365,7 +37555,7 @@
    "opp": "GS",
    "player": "Davion Mitchell",
    "player_id": "4278053",
-   "price_observed_at": "2026-11-06T02:43:57Z",
+   "price_observed_at": "2026-11-06T02:47:01Z",
    "prob": 0.278,
    "prob_raw": 0.2234,
    "side": "over",
@@ -37460,7 +37650,7 @@
    "opp": "GS",
    "player": "Davion Mitchell",
    "player_id": "4278053",
-   "price_observed_at": "2026-11-06T02:43:57Z",
+   "price_observed_at": "2026-11-06T02:47:01Z",
    "prob": 0.7314,
    "prob_raw": 0.7766,
    "side": "under",
@@ -37840,7 +38030,7 @@
    "opp": "GS",
    "player": "Davion Mitchell",
    "player_id": "4278053",
-   "price_observed_at": "2026-11-06T02:43:57Z",
+   "price_observed_at": "2026-11-06T02:47:01Z",
    "prob": 0.2805,
    "prob_raw": 0.2262,
    "side": "over",
@@ -37935,7 +38125,7 @@
    "opp": "GS",
    "player": "Davion Mitchell",
    "player_id": "4278053",
-   "price_observed_at": "2026-11-06T02:43:57Z",
+   "price_observed_at": "2026-11-06T02:47:01Z",
    "prob": 0.7289,
    "prob_raw": 0.7738,
    "side": "under",
@@ -38210,11 +38400,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": 0.121,
-   "fair": 0.5385,
+   "ev": 0.1017,
+   "fair": 0.5452,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.5747,
+   "implied": 0.5848,
    "k": 40.0,
    "line": 2.5,
    "opp": "GS",
@@ -38300,16 +38490,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Davion Mitchell under 2.5 reb (@ GS): p=0.644 (raw 0.674) vs DraftKings implied 0.575 EV +0.121 @ DraftKings | career 221/319, season 7/8, last5 4/5, last10 8/10, vs GS 15/20, away 115/157, month 11 past seasons 34/55, rest b2b 36/51, opp defence tough 58/88, with Giannis Antetokounmpo 7/8, with Bam Adebayo 55/103, with Pelle Larsson 48/92"
+   "text": "[research] Davion Mitchell under 2.5 reb (@ GS): p=0.644 (raw 0.674) vs DraftKings implied 0.585 EV +0.102 @ DraftKings | career 221/319, season 7/8, last5 4/5, last10 8/10, vs GS 15/20, away 115/157, month 11 past seasons 34/55, rest b2b 36/51, opp defence tough 58/88, with Giannis Antetokounmpo 7/8, with Bam Adebayo 55/103, with Pelle Larsson 48/92"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.321,
+   "ev": -0.3173,
    "fair": null,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.5464,
+   "implied": 0.5435,
    "k": 40.0,
    "line": 3.5,
    "opp": "GS",
@@ -38395,16 +38585,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Pelle Larsson over 3.5 ast (@ GS): p=0.371 (raw 0.331) vs DraftKings implied 0.546 EV -0.321 @ DraftKings | career 39/137, season 5/8, last5 3/5, last10 6/10, vs GS 1/4, away 16/68, month 11 past seasons 9/26, rest b2b 8/20, opp defence soft 16/38, with Davion Mitchell 32/92, with Giannis Antetokounmpo 5/8, with Bam Adebayo 33/126"
+   "text": "[research] Pelle Larsson over 3.5 ast (@ GS): p=0.371 (raw 0.331) vs DraftKings implied 0.543 EV -0.317 @ DraftKings | career 39/137, season 5/8, last5 3/5, last10 6/10, vs GS 1/4, away 16/68, month 11 past seasons 9/26, rest b2b 8/20, opp defence soft 16/38, with Davion Mitchell 32/92, with Giannis Antetokounmpo 5/8, with Bam Adebayo 33/126"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": 0.171,
+   "ev": 0.1774,
    "fair": null,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.5464,
+   "implied": 0.5435,
    "k": 40.0,
    "line": 3.5,
    "opp": "GS",
@@ -38490,7 +38680,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Pelle Larsson under 3.5 ast (@ GS): p=0.640 (raw 0.669) vs DraftKings implied 0.546 EV +0.171 @ DraftKings | career 98/137, season 3/8, last5 2/5, last10 4/10, vs GS 3/4, away 52/68, month 11 past seasons 17/26, rest b2b 12/20, opp defence soft 22/38, with Davion Mitchell 60/92, with Giannis Antetokounmpo 3/8, with Bam Adebayo 93/126"
+   "text": "[research] Pelle Larsson under 3.5 ast (@ GS): p=0.640 (raw 0.669) vs DraftKings implied 0.543 EV +0.177 @ DraftKings | career 98/137, season 3/8, last5 2/5, last10 4/10, vs GS 3/4, away 52/68, month 11 past seasons 17/26, rest b2b 12/20, opp defence soft 22/38, with Davion Mitchell 60/92, with Giannis Antetokounmpo 3/8, with Bam Adebayo 93/126"
   },
   {
    "book": "DraftKings",
@@ -39540,17 +39730,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": 0.1326,
-   "fair": 0.5943,
+   "ev": 0.1181,
+   "fair": 0.6036,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.6369,
+   "implied": 0.6452,
    "k": 40.0,
    "line": 2.5,
    "opp": "MIA",
    "player": "Brandin Podziemski",
    "player_id": "4709138",
-   "price_observed_at": "2026-11-05T23:46:00Z",
+   "price_observed_at": "2026-11-06T02:47:01Z",
    "prob": 0.7214,
    "prob_raw": 0.7652,
    "side": "under",
@@ -39630,16 +39820,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Brandin Podziemski under 2.5 fg3m (vs MIA): p=0.721 (raw 0.765) vs DraftKings implied 0.637 EV +0.133 @ DraftKings | career 185/241, season 3/6, last5 2/5, last10 5/10, vs MIA 4/5, home 89/119, month 11 past seasons 34/39, rest 2+ days 45/55, opp defence soft 49/64, with Yaxel Lendeborg 3/6, with Stephen Curry 144/179, with Draymond Green 150/192"
+   "text": "[research] Brandin Podziemski under 2.5 fg3m (vs MIA): p=0.721 (raw 0.765) vs DraftKings implied 0.645 EV +0.118 @ DraftKings | career 185/241, season 3/6, last5 2/5, last10 5/10, vs MIA 4/5, home 89/119, month 11 past seasons 34/39, rest 2+ days 45/55, opp defence soft 49/64, with Yaxel Lendeborg 3/6, with Stephen Curry 144/179, with Draymond Green 150/192"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.4113,
+   "ev": -0.4145,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5376,
+   "implied": 0.5405,
    "k": 40.0,
    "line": 16.5,
    "opp": "MIA",
@@ -39725,16 +39915,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Brandin Podziemski over 16.5 pts (vs MIA): p=0.317 (raw 0.267) vs DraftKings implied 0.538 EV -0.411 @ DraftKings | career 58/241, season 5/6, last5 4/5, last10 8/10, vs MIA 2/5, home 30/119, month 11 past seasons 4/39, rest 2+ days 14/55, opp defence soft 20/70, with Yaxel Lendeborg 5/6, with Stephen Curry 34/179, with Draymond Green 46/192"
+   "text": "[research] Brandin Podziemski over 16.5 pts (vs MIA): p=0.317 (raw 0.267) vs DraftKings implied 0.540 EV -0.414 @ DraftKings | career 58/241, season 5/6, last5 4/5, last10 8/10, vs MIA 2/5, home 30/119, month 11 past seasons 4/39, rest 2+ days 14/55, opp defence soft 20/70, with Yaxel Lendeborg 5/6, with Stephen Curry 34/179, with Draymond Green 46/192"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": 0.2901,
+   "ev": 0.2832,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5376,
+   "implied": 0.5405,
    "k": 40.0,
    "line": 16.5,
    "opp": "MIA",
@@ -39820,7 +40010,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Brandin Podziemski under 16.5 pts (vs MIA): p=0.694 (raw 0.733) vs DraftKings implied 0.538 EV +0.290 @ DraftKings | career 183/241, season 1/6, last5 1/5, last10 2/10, vs MIA 3/5, home 89/119, month 11 past seasons 35/39, rest 2+ days 41/55, opp defence soft 50/70, with Yaxel Lendeborg 1/6, with Stephen Curry 145/179, with Draymond Green 146/192"
+   "text": "[research] Brandin Podziemski under 16.5 pts (vs MIA): p=0.694 (raw 0.733) vs DraftKings implied 0.540 EV +0.283 @ DraftKings | career 183/241, season 1/6, last5 1/5, last10 2/10, vs MIA 3/5, home 89/119, month 11 past seasons 35/39, rest 2+ days 41/55, opp defence soft 50/70, with Yaxel Lendeborg 1/6, with Stephen Curry 145/179, with Draymond Green 146/192"
   },
   {
    "book": "DraftKings",
@@ -40015,11 +40205,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.2178,
+   "ev": -0.2311,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5682,
+   "implied": 0.578,
    "k": 40.0,
    "line": 5.5,
    "opp": "MIA",
@@ -40105,16 +40295,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Brandin Podziemski over 5.5 reb (vs MIA): p=0.444 (raw 0.422) vs DraftKings implied 0.568 EV -0.218 @ DraftKings | career 108/241, season 2/6, last5 2/5, last10 4/10, vs MIA 2/5, home 52/119, month 11 past seasons 12/39, rest 2+ days 24/55, opp defence soft 30/67, with Yaxel Lendeborg 2/6, with Stephen Curry 68/179, with Draymond Green 86/192"
+   "text": "[research] Brandin Podziemski over 5.5 reb (vs MIA): p=0.444 (raw 0.422) vs DraftKings implied 0.578 EV -0.231 @ DraftKings | career 108/241, season 2/6, last5 2/5, last10 4/10, vs MIA 2/5, home 52/119, month 11 past seasons 12/39, rest 2+ days 24/55, opp defence soft 30/67, with Yaxel Lendeborg 2/6, with Stephen Curry 68/179, with Draymond Green 86/192"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.0018,
+   "ev": -0.0188,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5682,
+   "implied": 0.578,
    "k": 40.0,
    "line": 5.5,
    "opp": "MIA",
@@ -40200,22 +40390,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Brandin Podziemski under 5.5 reb (vs MIA): p=0.567 (raw 0.578) vs DraftKings implied 0.568 EV -0.002 @ DraftKings | career 133/241, season 4/6, last5 3/5, last10 6/10, vs MIA 3/5, home 67/119, month 11 past seasons 27/39, rest 2+ days 31/55, opp defence soft 37/67, with Yaxel Lendeborg 4/6, with Stephen Curry 111/179, with Draymond Green 106/192"
+   "text": "[research] Brandin Podziemski under 5.5 reb (vs MIA): p=0.567 (raw 0.578) vs DraftKings implied 0.578 EV -0.019 @ DraftKings | career 133/241, season 4/6, last5 3/5, last10 6/10, vs MIA 3/5, home 67/119, month 11 past seasons 27/39, rest 2+ days 31/55, opp defence soft 37/67, with Yaxel Lendeborg 4/6, with Stephen Curry 111/179, with Draymond Green 106/192"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": 0.0439,
-   "fair": 0.6413,
+   "ev": 0.0153,
+   "fair": 0.6611,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.6849,
+   "implied": 0.7042,
    "k": 40.0,
    "line": 1.5,
    "opp": "MIA",
    "player": "Will Richard",
    "player_id": "4897262",
-   "price_observed_at": "2026-11-05T11:05:00Z",
+   "price_observed_at": "2026-11-05T19:53:00Z",
    "prob": 0.715,
    "prob_raw": 0.758,
    "side": "under",
@@ -40295,22 +40485,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Will Richard under 1.5 fg3m (vs MIA): p=0.715 (raw 0.758) vs DraftKings implied 0.685 EV +0.044 @ DraftKings | career 60/78, season 6/8, last5 4/5, last10 8/10, vs MIA 2/2, home 30/39, month 11 past seasons 8/13, rest 2+ days 14/19, opp defence soft 13/20, with Brandin Podziemski 59/76, with Yaxel Lendeborg 6/8, with Stephen Curry 34/44"
+   "text": "[research] Will Richard under 1.5 fg3m (vs MIA): p=0.715 (raw 0.758) vs DraftKings implied 0.704 EV +0.015 @ DraftKings | career 60/78, season 6/8, last5 4/5, last10 8/10, vs MIA 2/2, home 30/39, month 11 past seasons 8/13, rest 2+ days 14/19, opp defence soft 13/20, with Brandin Podziemski 59/76, with Yaxel Lendeborg 6/8, with Stephen Curry 34/44"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.1666,
+   "ev": -0.1192,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5682,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 5.5,
    "opp": "MIA",
    "player": "Will Richard",
    "player_id": "4897262",
-   "price_observed_at": "2026-11-05T16:49:37Z",
+   "price_observed_at": "2026-11-05T19:53:00Z",
    "prob": 0.4735,
    "prob_raw": 0.4589,
    "side": "over",
@@ -40390,22 +40580,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Will Richard over 5.5 pts (vs MIA): p=0.473 (raw 0.459) vs DraftKings implied 0.568 EV -0.167 @ DraftKings | career 36/78, season 4/8, last5 2/5, last10 4/10, vs MIA 0/2, home 14/39, month 11 past seasons 9/13, rest 2+ days 8/19, opp defence soft 12/24, with Brandin Podziemski 34/76, with Yaxel Lendeborg 4/8, with Stephen Curry 20/44"
+   "text": "[research] Will Richard over 5.5 pts (vs MIA): p=0.473 (raw 0.459) vs DraftKings implied 0.538 EV -0.119 @ DraftKings | career 36/78, season 4/8, last5 2/5, last10 4/10, vs MIA 0/2, home 14/39, month 11 past seasons 9/13, rest 2+ days 8/19, opp defence soft 12/24, with Brandin Podziemski 34/76, with Yaxel Lendeborg 4/8, with Stephen Curry 20/44"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.0528,
+   "ev": 0.001,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5682,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 5.5,
    "opp": "MIA",
    "player": "Will Richard",
    "player_id": "4897262",
-   "price_observed_at": "2026-11-05T16:49:37Z",
+   "price_observed_at": "2026-11-05T19:53:00Z",
    "prob": 0.5382,
    "prob_raw": 0.5411,
    "side": "under",
@@ -40485,7 +40675,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Will Richard under 5.5 pts (vs MIA): p=0.538 (raw 0.541) vs DraftKings implied 0.568 EV -0.053 @ DraftKings | career 42/78, season 4/8, last5 3/5, last10 6/10, vs MIA 2/2, home 25/39, month 11 past seasons 4/13, rest 2+ days 11/19, opp defence soft 12/24, with Brandin Podziemski 42/76, with Yaxel Lendeborg 4/8, with Stephen Curry 24/44"
+   "text": "[research] Will Richard under 5.5 pts (vs MIA): p=0.538 (raw 0.541) vs DraftKings implied 0.538 EV +0.001 @ DraftKings | career 42/78, season 4/8, last5 3/5, last10 6/10, vs MIA 2/2, home 25/39, month 11 past seasons 4/13, rest 2+ days 11/19, opp defence soft 12/24, with Brandin Podziemski 42/76, with Yaxel Lendeborg 4/8, with Stephen Curry 24/44"
   },
   {
    "book": "DraftKings",
@@ -40680,17 +40870,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": 0.0346,
-   "fair": null,
+   "ev": 0.0113,
+   "fair": 0.5372,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5618,
+   "implied": 0.5747,
    "k": 40.0,
    "line": 2.5,
    "opp": "MIA",
    "player": "Will Richard",
    "player_id": "4897262",
-   "price_observed_at": "2026-11-05T10:52:00Z",
+   "price_observed_at": "2026-11-05T19:53:00Z",
    "prob": 0.5812,
    "prob_raw": 0.5957,
    "side": "under",
@@ -40770,16 +40960,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Will Richard under 2.5 reb (vs MIA): p=0.581 (raw 0.596) vs DraftKings implied 0.562 EV +0.035 @ DraftKings | career 48/78, season 4/8, last5 2/5, last10 6/10, vs MIA 0/2, home 23/39, month 11 past seasons 6/13, rest 2+ days 10/19, opp defence soft 8/18, with Brandin Podziemski 47/76, with Yaxel Lendeborg 4/8, with Stephen Curry 31/44"
+   "text": "[research] Will Richard under 2.5 reb (vs MIA): p=0.581 (raw 0.596) vs DraftKings implied 0.575 EV +0.011 @ DraftKings | career 48/78, season 4/8, last5 2/5, last10 6/10, vs MIA 0/2, home 23/39, month 11 past seasons 6/13, rest 2+ days 10/19, opp defence soft 8/18, with Brandin Podziemski 47/76, with Yaxel Lendeborg 4/8, with Stephen Curry 31/44"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": 0.0103,
+   "ev": 0.0279,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5814,
+   "implied": 0.5714,
    "k": 40.0,
    "line": 3.5,
    "opp": "MIA",
@@ -40841,16 +41031,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Yaxel Lendeborg over 3.5 ast (vs MIA): p=0.587 (raw 0.603) vs DraftKings implied 0.581 EV +0.010 @ DraftKings | career 5/8, season 5/8, last5 3/5, last10 5/8, home 3/4, with Brandin Podziemski 4/6, with Stephen Curry 3/6, with Draymond Green 3/6"
+   "text": "[research] Yaxel Lendeborg over 3.5 ast (vs MIA): p=0.587 (raw 0.603) vs DraftKings implied 0.571 EV +0.028 @ DraftKings | career 5/8, season 5/8, last5 3/5, last10 5/8, home 3/4, with Brandin Podziemski 4/6, with Stephen Curry 3/6, with Draymond Green 3/6"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.2706,
+   "ev": -0.2579,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5814,
+   "implied": 0.5714,
    "k": 40.0,
    "line": 3.5,
    "opp": "MIA",
@@ -40912,16 +41102,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Yaxel Lendeborg under 3.5 ast (vs MIA): p=0.424 (raw 0.397) vs DraftKings implied 0.581 EV -0.271 @ DraftKings | career 3/8, season 3/8, last5 2/5, last10 3/8, home 1/4, with Brandin Podziemski 2/6, with Stephen Curry 3/6, with Draymond Green 3/6"
+   "text": "[research] Yaxel Lendeborg under 3.5 ast (vs MIA): p=0.424 (raw 0.397) vs DraftKings implied 0.571 EV -0.258 @ DraftKings | career 3/8, season 3/8, last5 2/5, last10 3/8, home 1/4, with Brandin Podziemski 2/6, with Stephen Curry 3/6, with Draymond Green 3/6"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": 0.1359,
-   "fair": 0.4193,
+   "ev": 0.1053,
+   "fair": 0.4304,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.4484,
+   "implied": 0.4608,
    "k": 40.0,
    "line": 1.5,
    "opp": "MIA",
@@ -40983,7 +41173,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Yaxel Lendeborg under 1.5 fg3m (vs MIA): p=0.509 (raw 0.504) vs DraftKings implied 0.448 EV +0.136 @ DraftKings | career 4/8, season 4/8, last5 2/5, last10 4/8, home 2/4, with Brandin Podziemski 3/6, with Stephen Curry 4/6, with Draymond Green 4/6"
+   "text": "[research] Yaxel Lendeborg under 1.5 fg3m (vs MIA): p=0.509 (raw 0.504) vs DraftKings implied 0.461 EV +0.105 @ DraftKings | career 4/8, season 4/8, last5 2/5, last10 4/8, home 2/4, with Brandin Podziemski 3/6, with Stephen Curry 4/6, with Draymond Green 4/6"
   },
   {
    "book": "DraftKings",
@@ -41130,17 +41320,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.07,
+   "ev": -0.0751,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5495,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 19.5,
    "opp": "MIA",
    "player": "Yaxel Lendeborg",
    "player_id": "5175737",
-   "price_observed_at": "2026-11-06T02:43:57Z",
+   "price_observed_at": "2026-11-06T02:47:01Z",
    "prob": 0.511,
    "prob_raw": 0.5065,
    "side": "under",
@@ -41196,7 +41386,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Yaxel Lendeborg under 19.5 pts (vs MIA): p=0.511 (raw 0.506) vs DraftKings implied 0.549 EV -0.070 @ DraftKings | career 4/8, season 4/8, last5 2/5, last10 4/8, home 3/4, with Brandin Podziemski 3/6, with Stephen Curry 4/6, with Draymond Green 4/6"
+   "text": "[research] Yaxel Lendeborg under 19.5 pts (vs MIA): p=0.511 (raw 0.506) vs DraftKings implied 0.552 EV -0.075 @ DraftKings | career 4/8, season 4/8, last5 2/5, last10 4/8, home 3/4, with Brandin Podziemski 3/6, with Stephen Curry 4/6, with Draymond Green 4/6"
   },
   {
    "book": "DraftKings",
@@ -41414,11 +41604,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.0879,
-   "fair": 0.4072,
+   "ev": -0.0998,
+   "fair": 0.4119,
    "game_id": "401909937",
    "home": false,
-   "implied": 0.4348,
+   "implied": 0.4405,
    "k": 40.0,
    "line": 2.5,
    "opp": "GS",
@@ -41504,7 +41694,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Klay Thompson under 2.5 fg3m (@ GS): p=0.397 (raw 0.362) vs DraftKings implied 0.435 EV -0.088 @ DraftKings | career 111/311, season 3/8, last5 2/5, last10 4/10, vs GS 2/7, away 55/151, month 11 past seasons 20/54, rest b2b 12/34, opp defence middle 37/102, with Davion Mitchell 3/8, with Giannis Antetokounmpo 3/8, with Bam Adebayo 3/8"
+   "text": "[research] Klay Thompson under 2.5 fg3m (@ GS): p=0.397 (raw 0.362) vs DraftKings implied 0.441 EV -0.100 @ DraftKings | career 111/311, season 3/8, last5 2/5, last10 4/10, vs GS 2/7, away 55/151, month 11 past seasons 20/54, rest b2b 12/34, opp defence middle 37/102, with Davion Mitchell 3/8, with Giannis Antetokounmpo 3/8, with Bam Adebayo 3/8"
   },
   {
    "book": "DraftKings",
@@ -42175,7 +42365,7 @@
    "book": "DraftKings",
    "date": "2026-11-05",
    "ev": -0.0647,
-   "fair": 0.5684,
+   "fair": 0.5696,
    "game_id": "401909937",
    "home": true,
    "implied": 0.6098,
@@ -42184,7 +42374,7 @@
    "opp": "MIA",
    "player": "Draymond Green",
    "player_id": "6589",
-   "price_observed_at": "2026-11-05T23:46:00Z",
+   "price_observed_at": "2026-11-06T02:47:01Z",
    "prob": 0.5703,
    "prob_raw": 0.5819,
    "side": "under",
@@ -42269,11 +42459,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.0421,
-   "fair": 0.4368,
+   "ev": -0.0689,
+   "fair": 0.4483,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.4673,
+   "implied": 0.4808,
    "k": 40.0,
    "line": 0.5,
    "opp": "MIA",
@@ -42359,7 +42549,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Draymond Green under 0.5 fg3m (vs MIA): p=0.448 (raw 0.426) vs DraftKings implied 0.467 EV -0.042 @ DraftKings | career 128/298, season 4/6, last5 3/5, last10 6/10, vs MIA 4/5, home 59/146, month 11 past seasons 16/48, rest 2+ days 33/85, opp defence soft 37/85, with Brandin Podziemski 69/192, with Yaxel Lendeborg 4/6, with Stephen Curry 109/234"
+   "text": "[research] Draymond Green under 0.5 fg3m (vs MIA): p=0.448 (raw 0.426) vs DraftKings implied 0.481 EV -0.069 @ DraftKings | career 128/298, season 4/6, last5 3/5, last10 6/10, vs MIA 4/5, home 59/146, month 11 past seasons 16/48, rest 2+ days 33/85, opp defence soft 37/85, with Brandin Podziemski 69/192, with Yaxel Lendeborg 4/6, with Stephen Curry 109/234"
   },
   {
    "book": "DraftKings",
@@ -42554,11 +42744,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.0528,
+   "ev": -0.0414,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.6061,
+   "implied": 0.5988,
    "k": 40.0,
    "line": 5.5,
    "opp": "MIA",
@@ -42644,16 +42834,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Draymond Green over 5.5 reb (vs MIA): p=0.574 (raw 0.587) vs DraftKings implied 0.606 EV -0.053 @ DraftKings | career 176/298, season 1/6, last5 1/5, last10 2/10, vs MIA 4/5, home 92/146, month 11 past seasons 30/48, rest 2+ days 55/85, opp defence soft 55/83, with Brandin Podziemski 108/192, with Yaxel Lendeborg 1/6, with Stephen Curry 144/234"
+   "text": "[research] Draymond Green over 5.5 reb (vs MIA): p=0.574 (raw 0.587) vs DraftKings implied 0.599 EV -0.041 @ DraftKings | career 176/298, season 1/6, last5 1/5, last10 2/10, vs MIA 4/5, home 92/146, month 11 past seasons 30/48, rest 2+ days 55/85, opp defence soft 55/83, with Brandin Podziemski 108/192, with Yaxel Lendeborg 1/6, with Stephen Curry 144/234"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.2781,
+   "ev": -0.2694,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.6061,
+   "implied": 0.5988,
    "k": 40.0,
    "line": 5.5,
    "opp": "MIA",
@@ -42739,125 +42929,30 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Draymond Green under 5.5 reb (vs MIA): p=0.438 (raw 0.413) vs DraftKings implied 0.606 EV -0.278 @ DraftKings | career 122/298, season 5/6, last5 4/5, last10 8/10, vs MIA 1/5, home 54/146, month 11 past seasons 18/48, rest 2+ days 30/85, opp defence soft 28/83, with Brandin Podziemski 84/192, with Yaxel Lendeborg 5/6, with Stephen Curry 90/234"
+   "text": "[research] Draymond Green under 5.5 reb (vs MIA): p=0.438 (raw 0.413) vs DraftKings implied 0.599 EV -0.269 @ DraftKings | career 122/298, season 5/6, last5 4/5, last10 8/10, vs MIA 1/5, home 54/146, month 11 past seasons 18/48, rest 2+ days 30/85, opp defence soft 28/83, with Brandin Podziemski 84/192, with Yaxel Lendeborg 5/6, with Stephen Curry 90/234"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": -0.1592,
+   "ev": 0.0652,
    "fair": null,
    "game_id": "401909937",
    "home": true,
-   "implied": 0.5376,
+   "implied": 0.5525,
    "k": 40.0,
-   "line": 28.5,
+   "line": 29.5,
    "opp": "MIA",
    "player": "Stephen Curry",
    "player_id": "3975",
-   "price_observed_at": "2026-11-06T02:43:57Z",
-   "prob": 0.4521,
-   "prob_raw": 0.4317,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 117,
-     "n": 274,
-     "rate": 0.427,
-     "split": "career"
-    },
-    {
-     "hits": 3,
-     "n": 6,
-     "rate": 0.5,
-     "split": "season"
-    },
-    {
-     "hits": 3,
-     "n": 5,
-     "rate": 0.6,
-     "split": "last5"
-    },
-    {
-     "hits": 4,
-     "n": 10,
-     "rate": 0.4,
-     "split": "last10"
-    },
-    {
-     "hits": 2,
-     "n": 6,
-     "rate": 0.333,
-     "split": "vs MIA"
-    },
-    {
-     "hits": 60,
-     "n": 132,
-     "rate": 0.455,
-     "split": "home"
-    },
-    {
-     "hits": 21,
-     "n": 48,
-     "rate": 0.438,
-     "split": "month 11 past seasons"
-    },
-    {
-     "hits": 32,
-     "n": 78,
-     "rate": 0.41,
-     "split": "rest 2+ days"
-    },
-    {
-     "hits": 36,
-     "n": 79,
-     "rate": 0.456,
-     "split": "opp defence soft"
-    },
-    {
-     "hits": 69,
-     "n": 179,
-     "rate": 0.385,
-     "split": "with Brandin Podziemski"
-    },
-    {
-     "hits": 3,
-     "n": 6,
-     "rate": 0.5,
-     "split": "with Yaxel Lendeborg"
-    },
-    {
-     "hits": 103,
-     "n": 234,
-     "rate": 0.44,
-     "split": "with Draymond Green"
-    }
-   ],
-   "stat": "pts",
-   "status": "research",
-   "text": "[research] Stephen Curry over 28.5 pts (vs MIA): p=0.452 (raw 0.432) vs DraftKings implied 0.538 EV -0.159 @ DraftKings | career 117/274, season 3/6, last5 3/5, last10 4/10, vs MIA 2/6, home 60/132, month 11 past seasons 21/48, rest 2+ days 32/78, opp defence soft 36/79, with Brandin Podziemski 69/179, with Yaxel Lendeborg 3/6, with Draymond Green 103/234"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-11-05",
-   "ev": 0.0408,
-   "fair": null,
-   "game_id": "401909937",
-   "home": true,
-   "implied": 0.5376,
-   "k": 40.0,
-   "line": 28.5,
-   "opp": "MIA",
-   "player": "Stephen Curry",
-   "player_id": "3975",
-   "price_observed_at": "2026-11-06T02:43:57Z",
-   "prob": 0.5595,
-   "prob_raw": 0.5683,
+   "price_observed_at": "2026-11-06T02:47:01Z",
+   "prob": 0.5885,
+   "prob_raw": 0.6048,
    "side": "under",
    "splits": [
     {
-     "hits": 157,
+     "hits": 169,
      "n": 274,
-     "rate": 0.573,
+     "rate": 0.617,
      "split": "career"
     },
     {
@@ -42885,33 +42980,33 @@
      "split": "vs MIA"
     },
     {
-     "hits": 72,
+     "hits": 77,
      "n": 132,
-     "rate": 0.545,
+     "rate": 0.583,
      "split": "home"
     },
     {
-     "hits": 27,
+     "hits": 28,
      "n": 48,
-     "rate": 0.562,
+     "rate": 0.583,
      "split": "month 11 past seasons"
     },
     {
-     "hits": 46,
+     "hits": 49,
      "n": 78,
-     "rate": 0.59,
+     "rate": 0.628,
      "split": "rest 2+ days"
     },
     {
-     "hits": 43,
+     "hits": 45,
      "n": 79,
-     "rate": 0.544,
+     "rate": 0.57,
      "split": "opp defence soft"
     },
     {
-     "hits": 110,
+     "hits": 116,
      "n": 179,
-     "rate": 0.615,
+     "rate": 0.648,
      "split": "with Brandin Podziemski"
     },
     {
@@ -42921,18 +43016,113 @@
      "split": "with Yaxel Lendeborg"
     },
     {
-     "hits": 131,
+     "hits": 143,
      "n": 234,
-     "rate": 0.56,
+     "rate": 0.611,
      "split": "with Draymond Green"
     }
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Stephen Curry under 28.5 pts (vs MIA): p=0.559 (raw 0.568) vs DraftKings implied 0.538 EV +0.041 @ DraftKings | career 157/274, season 3/6, last5 2/5, last10 6/10, vs MIA 4/6, home 72/132, month 11 past seasons 27/48, rest 2+ days 46/78, opp defence soft 43/79, with Brandin Podziemski 110/179, with Yaxel Lendeborg 3/6, with Draymond Green 131/234"
+   "text": "[research] Stephen Curry under 29.5 pts (vs MIA): p=0.589 (raw 0.605) vs DraftKings implied 0.552 EV +0.065 @ DraftKings | career 169/274, season 3/6, last5 2/5, last10 6/10, vs MIA 4/6, home 77/132, month 11 past seasons 28/48, rest 2+ days 49/78, opp defence soft 45/79, with Brandin Podziemski 116/179, with Yaxel Lendeborg 3/6, with Draymond Green 143/234"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-05",
+   "ev": 0.0515,
+   "fair": 0.4204,
+   "game_id": "401909937",
+   "home": true,
+   "implied": 0.4505,
+   "k": 40.0,
+   "line": 2.5,
+   "opp": "MIA",
+   "player": "Georges Niang",
+   "player_id": "2990969",
+   "price_observed_at": "2026-11-06T02:47:01Z",
+   "prob": 0.4737,
+   "prob_raw": 0.459,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 126,
+     "n": 270,
+     "rate": 0.467,
+     "split": "career"
+    },
+    {
+     "hits": 3,
+     "n": 8,
+     "rate": 0.375,
+     "split": "season"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "last5"
+    },
+    {
+     "hits": 3,
+     "n": 10,
+     "rate": 0.3,
+     "split": "last10"
+    },
+    {
+     "hits": 2,
+     "n": 12,
+     "rate": 0.167,
+     "split": "vs MIA"
+    },
+    {
+     "hits": 65,
+     "n": 138,
+     "rate": 0.471,
+     "split": "home"
+    },
+    {
+     "hits": 19,
+     "n": 44,
+     "rate": 0.432,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 31,
+     "n": 59,
+     "rate": 0.525,
+     "split": "rest 2+ days"
+    },
+    {
+     "hits": 43,
+     "n": 86,
+     "rate": 0.5,
+     "split": "opp defence soft"
+    },
+    {
+     "hits": 2,
+     "n": 6,
+     "rate": 0.333,
+     "split": "with Brandin Podziemski"
+    },
+    {
+     "hits": 3,
+     "n": 8,
+     "rate": 0.375,
+     "split": "with Yaxel Lendeborg"
+    },
+    {
+     "hits": 2,
+     "n": 6,
+     "rate": 0.333,
+     "split": "with Stephen Curry"
+    }
+   ],
+   "stat": "reb",
+   "status": "research",
+   "text": "[research] Georges Niang under 2.5 reb (vs MIA): p=0.474 (raw 0.459) vs DraftKings implied 0.451 EV +0.051 @ DraftKings | career 126/270, season 3/8, last5 2/5, last10 3/10, vs MIA 2/12, home 65/138, month 11 past seasons 19/44, rest 2+ days 31/59, opp defence soft 43/86, with Brandin Podziemski 2/6, with Yaxel Lendeborg 3/8, with Stephen Curry 2/6"
   }
  ],
- "run_id": "run-2026-11-06T02:43:57Z",
+ "run_id": "run-2026-11-06T02:47:01Z",
  "slate": "2026-11-05",
  "status": "research/watchlist only"
 }
