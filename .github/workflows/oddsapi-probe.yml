@@ -1,0 +1,19 @@
+name: oddsapi-probe
+# One-off check that ODDS_API_KEY works and what its link fields look like. Temporary branch; delete after.
+on:
+  push:
+    branches: [claude/oddsapi-probe]
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python tools/oddsapi_probe.py
