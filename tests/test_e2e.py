@@ -82,6 +82,9 @@ def test_full_day(env, tmp_path):
     elig = [p for p in preds if p["decision"] == "eligible" and p["category"] == "straight"]
     assert len(elig) <= cfg["targets"]["straight"]
     assert sum(p["stake_units"] for p in elig) <= cfg["risk"]["max_units_per_day"]
+    # one eligible quote per bet: other books' or lines' quotes of the same bet are held, not extra picks
+    keys = [(p["game_id"], p["market"], p["selection"], p["player_id"] or p["player_name"], p["stat"]) for p in elig]
+    assert len(keys) == len(set(keys))
     # unverified prop sides never become picks
     assert not [p for p in preds if p["market"] == "prop" and p["decision"] == "eligible" and p["selection"].startswith("side")]
     par = [p for p in preds if p["category"] in ("parlay", "lotto")]
