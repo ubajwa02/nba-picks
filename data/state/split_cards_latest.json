@@ -98,17 +98,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.3987,
+   "ev": -0.4078,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.8333,
+   "implied": 0.8462,
    "k": 40.0,
    "line": 2.5,
    "opp": "PHX",
    "player": "Anthony Black",
    "player_id": "4712849",
-   "price_observed_at": "2026-11-06T01:35:29Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.5011,
    "prob_raw": 0.4939,
    "side": "over",
@@ -188,22 +188,22 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Anthony Black over 2.5 ast (@ PHX): p=0.501 (raw 0.494) vs bet365 implied 0.833 EV -0.399 @ bet365 | career 108/230, season 3/4, last5 3/5, last10 4/10, vs PHX 2/5, away 54/113, month 11 past seasons 24/44, rest 2+ days 23/56, opp defence soft 37/66, with Franz Wagner 68/168, with Desmond Bane 52/77, with Wendell Carter Jr. 86/187"
+   "text": "[research] Anthony Black over 2.5 ast (@ PHX): p=0.501 (raw 0.494) vs bet365 implied 0.846 EV -0.408 @ bet365 | career 108/230, season 3/4, last5 3/5, last10 4/10, vs PHX 2/5, away 54/113, month 11 past seasons 24/44, rest 2+ days 23/56, opp defence soft 37/66, with Franz Wagner 68/168, with Desmond Bane 52/77, with Wendell Carter Jr. 86/187"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.5224,
+   "ev": -0.533,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.5122,
+   "implied": 0.5238,
    "k": 40.0,
    "line": 4.5,
    "opp": "PHX",
    "player": "Anthony Black",
    "player_id": "4712849",
-   "price_observed_at": "2026-11-06T01:35:31Z",
+   "price_observed_at": "2026-11-06T01:49:24Z",
    "prob": 0.2446,
    "prob_raw": 0.1876,
    "side": "over",
@@ -283,22 +283,22 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Anthony Black over 4.5 ast (@ PHX): p=0.245 (raw 0.188) vs bet365 implied 0.512 EV -0.522 @ bet365 | career 41/230, season 2/4, last5 2/5, last10 2/10, vs PHX 1/5, away 22/113, month 11 past seasons 9/44, rest 2+ days 5/56, opp defence soft 13/66, with Franz Wagner 23/168, with Desmond Bane 22/77, with Wendell Carter Jr. 30/187"
+   "text": "[research] Anthony Black over 4.5 ast (@ PHX): p=0.245 (raw 0.188) vs bet365 implied 0.524 EV -0.533 @ bet365 | career 41/230, season 2/4, last5 2/5, last10 2/10, vs PHX 1/5, away 22/113, month 11 past seasons 9/44, rest 2+ days 5/56, opp defence soft 13/66, with Franz Wagner 23/168, with Desmond Bane 22/77, with Wendell Carter Jr. 30/187"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.5851,
+   "ev": -0.6128,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.2222,
+   "implied": 0.2381,
    "k": 40.0,
    "line": 6.5,
    "opp": "PHX",
    "player": "Anthony Black",
    "player_id": "4712849",
-   "price_observed_at": "2026-11-06T01:36:01Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0922,
    "prob_raw": 0.0501,
    "side": "over",
@@ -378,7 +378,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Anthony Black over 6.5 ast (@ PHX): p=0.092 (raw 0.050) vs bet365 implied 0.222 EV -0.585 @ bet365 | career 10/230, season 1/4, last5 1/5, last10 1/10, vs PHX 1/5, away 6/113, month 11 past seasons 2/44, rest 2+ days 2/56, opp defence soft 2/66, with Franz Wagner 5/168, with Desmond Bane 6/77, with Wendell Carter Jr. 6/187"
+   "text": "[research] Anthony Black over 6.5 ast (@ PHX): p=0.092 (raw 0.050) vs bet365 implied 0.238 EV -0.613 @ bet365 | career 10/230, season 1/4, last5 1/5, last10 1/10, vs PHX 1/5, away 6/113, month 11 past seasons 2/44, rest 2+ days 2/56, opp defence soft 2/66, with Franz Wagner 5/168, with Desmond Bane 6/77, with Wendell Carter Jr. 6/187"
   },
   {
    "book": "bet365",
@@ -763,17 +763,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.1996,
+   "ev": -0.1443,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.1379,
+   "implied": 0.129,
    "k": 40.0,
    "line": 3.5,
    "opp": "PHX",
    "player": "Anthony Black",
    "player_id": "4712849",
-   "price_observed_at": "2026-11-06T01:36:01Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.1104,
    "prob_raw": 0.0637,
    "side": "over",
@@ -853,7 +853,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Anthony Black over 3.5 fg3m (@ PHX): p=0.110 (raw 0.064) vs bet365 implied 0.138 EV -0.200 @ bet365 | career 12/230, season 1/4, last5 1/5, last10 2/10, vs PHX 0/5, away 8/113, month 11 past seasons 1/44, rest 2+ days 4/56, opp defence soft 3/79, with Franz Wagner 6/168, with Desmond Bane 9/77, with Wendell Carter Jr. 12/187"
+   "text": "[research] Anthony Black over 3.5 fg3m (@ PHX): p=0.110 (raw 0.064) vs bet365 implied 0.129 EV -0.144 @ bet365 | career 12/230, season 1/4, last5 1/5, last10 2/10, vs PHX 0/5, away 8/113, month 11 past seasons 1/44, rest 2+ days 4/56, opp defence soft 3/79, with Franz Wagner 6/168, with Desmond Bane 9/77, with Wendell Carter Jr. 12/187"
   },
   {
    "book": "bet365",
@@ -1238,17 +1238,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.2971,
+   "ev": -0.2875,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.274,
+   "implied": 0.2703,
    "k": 40.0,
    "line": 19.5,
    "opp": "PHX",
    "player": "Anthony Black",
    "player_id": "4712849",
-   "price_observed_at": "2026-11-06T00:50:09Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.1926,
    "prob_raw": 0.1352,
    "side": "over",
@@ -1328,7 +1328,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Anthony Black over 19.5 pts (@ PHX): p=0.193 (raw 0.135) vs bet365 implied 0.274 EV -0.297 @ bet365 | career 29/230, season 1/4, last5 1/5, last10 1/10, vs PHX 1/5, away 14/113, month 11 past seasons 3/44, rest 2+ days 8/56, opp defence soft 13/77, with Franz Wagner 13/168, with Desmond Bane 20/77, with Wendell Carter Jr. 26/187"
+   "text": "[research] Anthony Black over 19.5 pts (@ PHX): p=0.193 (raw 0.135) vs bet365 implied 0.270 EV -0.287 @ bet365 | career 29/230, season 1/4, last5 1/5, last10 1/10, vs PHX 1/5, away 14/113, month 11 past seasons 3/44, rest 2+ days 8/56, opp defence soft 13/77, with Franz Wagner 13/168, with Desmond Bane 20/77, with Wendell Carter Jr. 26/187"
   },
   {
    "book": "bet365",
@@ -1713,17 +1713,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.4471,
+   "ev": -0.4542,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.8462,
+   "implied": 0.8571,
    "k": 40.0,
    "line": 9.5,
    "opp": "PHX",
    "player": "Anthony Black",
    "player_id": "4712849",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.4678,
    "prob_raw": 0.4516,
    "side": "over",
@@ -1803,7 +1803,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Anthony Black over 9.5 pts (@ PHX): p=0.468 (raw 0.452) vs bet365 implied 0.846 EV -0.447 @ bet365 | career 98/230, season 3/4, last5 4/5, last10 5/10, vs PHX 2/5, away 57/113, month 11 past seasons 17/44, rest 2+ days 20/56, opp defence soft 31/77, with Franz Wagner 58/168, with Desmond Bane 53/77, with Wendell Carter Jr. 84/187"
+   "text": "[research] Anthony Black over 9.5 pts (@ PHX): p=0.468 (raw 0.452) vs bet365 implied 0.857 EV -0.454 @ bet365 | career 98/230, season 3/4, last5 4/5, last10 5/10, vs PHX 2/5, away 57/113, month 11 past seasons 17/44, rest 2+ days 20/56, opp defence soft 31/77, with Franz Wagner 58/168, with Desmond Bane 53/77, with Wendell Carter Jr. 84/187"
   },
   {
    "book": "bet365",
@@ -1998,17 +1998,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.4904,
+   "ev": -0.4991,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.5556,
+   "implied": 0.5652,
    "k": 40.0,
    "line": 4.5,
    "opp": "PHX",
    "player": "Anthony Black",
    "player_id": "4712849",
-   "price_observed_at": "2026-11-06T01:31:32Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.2831,
    "prob_raw": 0.2291,
    "side": "over",
@@ -2088,7 +2088,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Anthony Black over 4.5 reb (@ PHX): p=0.283 (raw 0.229) vs bet365 implied 0.556 EV -0.490 @ bet365 | career 51/230, season 2/4, last5 3/5, last10 4/10, vs PHX 0/5, away 26/113, month 11 past seasons 5/44, rest 2+ days 8/56, opp defence soft 20/73, with Franz Wagner 33/168, with Desmond Bane 24/77, with Wendell Carter Jr. 41/187"
+   "text": "[research] Anthony Black over 4.5 reb (@ PHX): p=0.283 (raw 0.229) vs bet365 implied 0.565 EV -0.499 @ bet365 | career 51/230, season 2/4, last5 3/5, last10 4/10, vs PHX 0/5, away 26/113, month 11 past seasons 5/44, rest 2+ days 8/56, opp defence soft 20/73, with Franz Wagner 33/168, with Desmond Bane 24/77, with Wendell Carter Jr. 41/187"
   },
   {
    "book": "bet365",
@@ -2663,17 +2663,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.4851,
+   "ev": 0.5633,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.0526,
+   "implied": 0.05,
    "k": 40.0,
    "line": 9.5,
    "opp": "ORL",
    "player": "Collin Gillespie",
    "player_id": "4278585",
-   "price_observed_at": "2026-11-06T01:38:17Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.0782,
    "prob_raw": 0.0402,
    "side": "over",
@@ -2753,22 +2753,22 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Collin Gillespie over 9.5 ast (vs ORL): p=0.078 (raw 0.040) vs bet365 implied 0.053 EV +0.485 @ bet365 | career 5/147, season 1/6, last5 1/5, last10 1/10, vs ORL 0/2, home 1/77, month 11 past seasons 0/23, rest b2b 0/21, opp defence soft 1/42, with Devin Booker 4/105, with Miles Bridges 1/6, with Dillon Brooks 2/66"
+   "text": "[research] Collin Gillespie over 9.5 ast (vs ORL): p=0.078 (raw 0.040) vs bet365 implied 0.050 EV +0.563 @ bet365 | career 5/147, season 1/6, last5 1/5, last10 1/10, vs ORL 0/2, home 1/77, month 11 past seasons 0/23, rest b2b 0/21, opp defence soft 1/42, with Devin Booker 4/105, with Miles Bridges 1/6, with Dillon Brooks 2/66"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.2144,
+   "ev": -0.2089,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.9231,
+   "implied": 0.9167,
    "k": 40.0,
    "line": 0.5,
    "opp": "ORL",
    "player": "Collin Gillespie",
    "player_id": "4278585",
-   "price_observed_at": "2026-11-06T01:33:24Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.7251,
    "prob_raw": 0.7695,
    "side": "over",
@@ -2848,7 +2848,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Collin Gillespie over 0.5 fg3m (vs ORL): p=0.725 (raw 0.769) vs bet365 implied 0.923 EV -0.214 @ bet365 | career 111/147, season 4/6, last5 4/5, last10 7/10, vs ORL 2/2, home 58/77, month 11 past seasons 17/23, rest b2b 18/21, opp defence tough 31/47, with Devin Booker 85/105, with Miles Bridges 4/6, with Dillon Brooks 60/66"
+   "text": "[research] Collin Gillespie over 0.5 fg3m (vs ORL): p=0.725 (raw 0.769) vs bet365 implied 0.917 EV -0.209 @ bet365 | career 111/147, season 4/6, last5 4/5, last10 7/10, vs ORL 2/2, home 58/77, month 11 past seasons 17/23, rest b2b 18/21, opp defence tough 31/47, with Devin Booker 85/105, with Miles Bridges 4/6, with Dillon Brooks 60/66"
   },
   {
    "book": "bet365",
@@ -3518,17 +3518,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.44,
+   "ev": 0.52,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.2222,
+   "implied": 0.2105,
    "k": 40.0,
    "line": 14.5,
    "opp": "ORL",
    "player": "Collin Gillespie",
    "player_id": "4278585",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.32,
    "prob_raw": 0.2709,
    "side": "over",
@@ -3608,22 +3608,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Collin Gillespie over 14.5 pts (vs ORL): p=0.320 (raw 0.271) vs bet365 implied 0.222 EV +0.440 @ bet365 | career 39/147, season 1/6, last5 1/5, last10 1/10, vs ORL 1/2, home 19/77, month 11 past seasons 8/23, rest b2b 6/21, opp defence middle 10/40, with Devin Booker 29/105, with Miles Bridges 1/6, with Dillon Brooks 25/66"
+   "text": "[research] Collin Gillespie over 14.5 pts (vs ORL): p=0.320 (raw 0.271) vs bet365 implied 0.210 EV +0.520 @ bet365 | career 39/147, season 1/6, last5 1/5, last10 1/10, vs ORL 1/2, home 19/77, month 11 past seasons 8/23, rest b2b 6/21, opp defence middle 10/40, with Devin Booker 29/105, with Miles Bridges 1/6, with Dillon Brooks 25/66"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.2675,
+   "ev": 0.3252,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.0909,
+   "implied": 0.087,
    "k": 40.0,
    "line": 19.5,
    "opp": "ORL",
    "player": "Collin Gillespie",
    "player_id": "4278585",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.1152,
    "prob_raw": 0.0675,
    "side": "over",
@@ -3703,22 +3703,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Collin Gillespie over 19.5 pts (vs ORL): p=0.115 (raw 0.068) vs bet365 implied 0.091 EV +0.268 @ bet365 | career 11/147, season 0/6, last5 0/5, last10 0/10, vs ORL 0/2, home 3/77, month 11 past seasons 3/23, rest b2b 0/21, opp defence middle 2/40, with Devin Booker 9/105, with Miles Bridges 0/6, with Dillon Brooks 7/66"
+   "text": "[research] Collin Gillespie over 19.5 pts (vs ORL): p=0.115 (raw 0.068) vs bet365 implied 0.087 EV +0.325 @ bet365 | career 11/147, season 0/6, last5 0/5, last10 0/10, vs ORL 0/2, home 3/77, month 11 past seasons 3/23, rest b2b 0/21, opp defence middle 2/40, with Devin Booker 9/105, with Miles Bridges 0/6, with Dillon Brooks 7/66"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.0947,
+   "ev": -0.0085,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.0476,
+   "implied": 0.0435,
    "k": 40.0,
    "line": 24.5,
    "opp": "ORL",
    "player": "Collin Gillespie",
    "player_id": "4278585",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.0431,
    "prob_raw": 0.0184,
    "side": "over",
@@ -3798,7 +3798,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Collin Gillespie over 24.5 pts (vs ORL): p=0.043 (raw 0.018) vs bet365 implied 0.048 EV -0.095 @ bet365 | career 3/147, season 0/6, last5 0/5, last10 0/10, vs ORL 0/2, home 0/77, month 11 past seasons 0/23, rest b2b 0/21, opp defence middle 1/40, with Devin Booker 2/105, with Miles Bridges 0/6, with Dillon Brooks 3/66"
+   "text": "[research] Collin Gillespie over 24.5 pts (vs ORL): p=0.043 (raw 0.018) vs bet365 implied 0.043 EV -0.009 @ bet365 | career 3/147, season 0/6, last5 0/5, last10 0/10, vs ORL 0/2, home 0/77, month 11 past seasons 0/23, rest b2b 0/21, opp defence middle 1/40, with Devin Booker 2/105, with Miles Bridges 0/6, with Dillon Brooks 3/66"
   },
   {
    "book": "bet365",
@@ -4278,17 +4278,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.0003,
+   "ev": 0.0157,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.3077,
+   "implied": 0.303,
    "k": 40.0,
    "line": 4.5,
    "opp": "ORL",
    "player": "Collin Gillespie",
    "player_id": "4278585",
-   "price_observed_at": "2026-11-06T01:35:59Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.3078,
    "prob_raw": 0.2569,
    "side": "over",
@@ -4368,7 +4368,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Collin Gillespie over 4.5 reb (vs ORL): p=0.308 (raw 0.257) vs bet365 implied 0.308 EV +0.000 @ bet365 | career 39/147, season 0/6, last5 0/5, last10 2/10, vs ORL 1/2, home 18/77, month 11 past seasons 6/23, rest b2b 6/21, opp defence middle 9/43, with Devin Booker 34/105, with Miles Bridges 0/6, with Dillon Brooks 24/66"
+   "text": "[research] Collin Gillespie over 4.5 reb (vs ORL): p=0.308 (raw 0.257) vs bet365 implied 0.303 EV +0.016 @ bet365 | career 39/147, season 0/6, last5 0/5, last10 2/10, vs ORL 1/2, home 18/77, month 11 past seasons 6/23, rest b2b 6/21, opp defence middle 9/43, with Devin Booker 34/105, with Miles Bridges 0/6, with Dillon Brooks 24/66"
   },
   {
    "book": "bet365",
@@ -4468,17 +4468,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.1915,
+   "ev": -0.0982,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.0385,
+   "implied": 0.0345,
    "k": 40.0,
    "line": 9.5,
    "opp": "ORL",
    "player": "Collin Gillespie",
    "player_id": "4278585",
-   "price_observed_at": "2026-11-06T01:32:22Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0311,
    "prob_raw": 0.012,
    "side": "over",
@@ -4558,7 +4558,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Collin Gillespie over 9.5 reb (vs ORL): p=0.031 (raw 0.012) vs bet365 implied 0.038 EV -0.192 @ bet365 | career 1/147, season 0/6, last5 0/5, last10 1/10, vs ORL 0/2, home 1/77, month 11 past seasons 0/23, rest b2b 0/21, opp defence middle 1/43, with Devin Booker 1/105, with Miles Bridges 0/6, with Dillon Brooks 1/66"
+   "text": "[research] Collin Gillespie over 9.5 reb (vs ORL): p=0.031 (raw 0.012) vs bet365 implied 0.035 EV -0.098 @ bet365 | career 1/147, season 0/6, last5 0/5, last10 1/10, vs ORL 0/2, home 1/77, month 11 past seasons 0/23, rest b2b 0/21, opp defence middle 1/43, with Devin Booker 1/105, with Miles Bridges 0/6, with Dillon Brooks 1/66"
   },
   {
    "book": "bet365",
@@ -4658,17 +4658,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.5211,
+   "ev": 0.5438,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.2985,
+   "implied": 0.2941,
    "k": 40.0,
    "line": 4.5,
    "opp": "PHX",
    "player": "Desmond Bane",
    "player_id": "4066320",
-   "price_observed_at": "2026-11-06T01:35:29Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.4541,
    "prob_raw": 0.4342,
    "side": "over",
@@ -4748,7 +4748,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Desmond Bane over 4.5 ast (@ PHX): p=0.454 (raw 0.434) vs bet365 implied 0.298 EV +0.521 @ bet365 | career 133/279, season 1/7, last5 1/5, last10 1/10, vs PHX 8/13, away 58/141, month 11 past seasons 26/41, rest 2+ days 27/63, opp defence soft 41/79, with Franz Wagner 20/47, with Wendell Carter Jr. 37/94, with Tristan da Silva 35/93"
+   "text": "[research] Desmond Bane over 4.5 ast (@ PHX): p=0.454 (raw 0.434) vs bet365 implied 0.294 EV +0.544 @ bet365 | career 133/279, season 1/7, last5 1/5, last10 1/10, vs PHX 8/13, away 58/141, month 11 past seasons 26/41, rest 2+ days 27/63, opp defence soft 41/79, with Franz Wagner 20/47, with Wendell Carter Jr. 37/94, with Tristan da Silva 35/93"
   },
   {
    "book": "bet365",
@@ -5133,17 +5133,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.2654,
+   "ev": -0.2722,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.6491,
+   "implied": 0.6552,
    "k": 40.0,
    "line": 2.5,
    "opp": "PHX",
    "player": "Desmond Bane",
    "player_id": "4066320",
-   "price_observed_at": "2026-11-06T01:32:22Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.4768,
    "prob_raw": 0.4631,
    "side": "over",
@@ -5223,7 +5223,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Desmond Bane over 2.5 fg3m (@ PHX): p=0.477 (raw 0.463) vs bet365 implied 0.649 EV -0.265 @ bet365 | career 133/279, season 5/7, last5 4/5, last10 8/10, vs PHX 5/13, away 64/141, month 11 past seasons 18/41, rest 2+ days 30/63, opp defence soft 37/83, with Franz Wagner 17/47, with Wendell Carter Jr. 37/94, with Tristan da Silva 37/93"
+   "text": "[research] Desmond Bane over 2.5 fg3m (@ PHX): p=0.477 (raw 0.463) vs bet365 implied 0.655 EV -0.272 @ bet365 | career 133/279, season 5/7, last5 4/5, last10 8/10, vs PHX 5/13, away 64/141, month 11 past seasons 18/41, rest 2+ days 30/63, opp defence soft 37/83, with Franz Wagner 17/47, with Wendell Carter Jr. 37/94, with Tristan da Silva 37/93"
   },
   {
    "book": "bet365",
@@ -5513,17 +5513,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.4154,
+   "ev": -0.3889,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.0909,
+   "implied": 0.087,
    "k": 40.0,
    "line": 6.5,
    "opp": "PHX",
    "player": "Desmond Bane",
    "player_id": "4066320",
-   "price_observed_at": "2026-11-06T01:35:59Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0531,
    "prob_raw": 0.0242,
    "side": "over",
@@ -5603,7 +5603,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Desmond Bane over 6.5 fg3m (@ PHX): p=0.053 (raw 0.024) vs bet365 implied 0.091 EV -0.415 @ bet365 | career 7/279, season 0/7, last5 0/5, last10 0/10, vs PHX 0/13, away 1/141, month 11 past seasons 2/41, rest 2+ days 1/63, opp defence soft 3/83, with Franz Wagner 2/47, with Wendell Carter Jr. 3/94, with Tristan da Silva 3/93"
+   "text": "[research] Desmond Bane over 6.5 fg3m (@ PHX): p=0.053 (raw 0.024) vs bet365 implied 0.087 EV -0.389 @ bet365 | career 7/279, season 0/7, last5 0/5, last10 0/10, vs PHX 0/13, away 1/141, month 11 past seasons 2/41, rest 2+ days 1/63, opp defence soft 3/83, with Franz Wagner 2/47, with Wendell Carter Jr. 3/94, with Tristan da Silva 3/93"
   },
   {
    "book": "bet365",
@@ -5893,17 +5893,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.1047,
+   "ev": -0.1183,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.8333,
+   "implied": 0.8462,
    "k": 40.0,
    "line": 14.5,
    "opp": "PHX",
    "player": "Desmond Bane",
    "player_id": "4066320",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.7461,
    "prob_raw": 0.7929,
    "side": "over",
@@ -5983,7 +5983,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Desmond Bane over 14.5 pts (@ PHX): p=0.746 (raw 0.793) vs bet365 implied 0.833 EV -0.105 @ bet365 | career 228/279, season 5/7, last5 4/5, last10 8/10, vs PHX 10/13, away 115/141, month 11 past seasons 30/41, rest 2+ days 56/63, opp defence soft 65/78, with Franz Wagner 30/47, with Wendell Carter Jr. 71/94, with Tristan da Silva 71/93"
+   "text": "[research] Desmond Bane over 14.5 pts (@ PHX): p=0.746 (raw 0.793) vs bet365 implied 0.846 EV -0.118 @ bet365 | career 228/279, season 5/7, last5 4/5, last10 8/10, vs PHX 10/13, away 115/141, month 11 past seasons 30/41, rest 2+ days 56/63, opp defence soft 65/78, with Franz Wagner 30/47, with Wendell Carter Jr. 71/94, with Tristan da Silva 71/93"
   },
   {
    "book": "bet365",
@@ -6083,17 +6083,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.1202,
+   "ev": -0.1109,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.3546,
+   "implied": 0.3509,
    "k": 40.0,
    "line": 24.5,
    "opp": "PHX",
    "player": "Desmond Bane",
    "player_id": "4066320",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.312,
    "prob_raw": 0.2617,
    "side": "over",
@@ -6173,22 +6173,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Desmond Bane over 24.5 pts (@ PHX): p=0.312 (raw 0.262) vs bet365 implied 0.355 EV -0.120 @ bet365 | career 77/279, season 1/7, last5 1/5, last10 1/10, vs PHX 5/13, away 40/141, month 11 past seasons 12/41, rest 2+ days 17/63, opp defence soft 23/78, with Franz Wagner 11/47, with Wendell Carter Jr. 22/94, with Tristan da Silva 23/93"
+   "text": "[research] Desmond Bane over 24.5 pts (@ PHX): p=0.312 (raw 0.262) vs bet365 implied 0.351 EV -0.111 @ bet365 | career 77/279, season 1/7, last5 1/5, last10 1/10, vs PHX 5/13, away 40/141, month 11 past seasons 12/41, rest 2+ days 17/63, opp defence soft 23/78, with Franz Wagner 11/47, with Wendell Carter Jr. 22/94, with Tristan da Silva 23/93"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.0926,
+   "ev": 0.1401,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.1739,
+   "implied": 0.1667,
    "k": 40.0,
    "line": 29.5,
    "opp": "PHX",
    "player": "Desmond Bane",
    "player_id": "4066320",
-   "price_observed_at": "2026-11-06T01:35:29Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.19,
    "prob_raw": 0.1328,
    "side": "over",
@@ -6268,7 +6268,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Desmond Bane over 29.5 pts (@ PHX): p=0.190 (raw 0.133) vs bet365 implied 0.174 EV +0.093 @ bet365 | career 41/279, season 0/7, last5 0/5, last10 0/10, vs PHX 2/13, away 23/141, month 11 past seasons 6/41, rest 2+ days 8/63, opp defence soft 13/78, with Franz Wagner 4/47, with Wendell Carter Jr. 13/94, with Tristan da Silva 12/93"
+   "text": "[research] Desmond Bane over 29.5 pts (@ PHX): p=0.190 (raw 0.133) vs bet365 implied 0.167 EV +0.140 @ bet365 | career 41/279, season 0/7, last5 0/5, last10 0/10, vs PHX 2/13, away 23/141, month 11 past seasons 6/41, rest 2+ days 8/63, opp defence soft 13/78, with Franz Wagner 4/47, with Wendell Carter Jr. 13/94, with Tristan da Silva 12/93"
   },
   {
    "book": "bet365",
@@ -6368,17 +6368,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.6446,
+   "ev": -0.6259,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.0526,
+   "implied": 0.05,
    "k": 40.0,
    "line": 39.5,
    "opp": "PHX",
    "player": "Desmond Bane",
    "player_id": "4066320",
-   "price_observed_at": "2026-11-06T01:35:29Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0187,
    "prob_raw": 0.0062,
    "side": "over",
@@ -6458,7 +6458,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Desmond Bane over 39.5 pts (@ PHX): p=0.019 (raw 0.006) vs bet365 implied 0.053 EV -0.645 @ bet365 | career 2/279, season 0/7, last5 0/5, last10 0/10, vs PHX 0/13, away 2/141, month 11 past seasons 0/41, rest 2+ days 1/63, opp defence soft 1/78, with Franz Wagner 0/47, with Wendell Carter Jr. 0/94, with Tristan da Silva 0/93"
+   "text": "[research] Desmond Bane over 39.5 pts (@ PHX): p=0.019 (raw 0.006) vs bet365 implied 0.050 EV -0.626 @ bet365 | career 2/279, season 0/7, last5 0/5, last10 0/10, vs PHX 0/13, away 2/141, month 11 past seasons 0/41, rest 2+ days 1/63, opp defence soft 1/78, with Franz Wagner 0/47, with Wendell Carter Jr. 0/94, with Tristan da Silva 0/93"
   },
   {
    "book": "bet365",
@@ -6748,17 +6748,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.0589,
+   "ev": -0.0761,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.8182,
+   "implied": 0.8333,
    "k": 40.0,
    "line": 2.5,
    "opp": "PHX",
    "player": "Desmond Bane",
    "player_id": "4066320",
-   "price_observed_at": "2026-11-06T01:35:31Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.77,
    "prob_raw": 0.8189,
    "side": "over",
@@ -6838,7 +6838,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Desmond Bane over 2.5 reb (@ PHX): p=0.770 (raw 0.819) vs bet365 implied 0.818 EV -0.059 @ bet365 | career 235/279, season 4/7, last5 3/5, last10 7/10, vs PHX 12/13, away 120/141, month 11 past seasons 36/41, rest 2+ days 58/63, opp defence soft 65/80, with Franz Wagner 37/47, with Wendell Carter Jr. 74/94, with Tristan da Silva 73/93"
+   "text": "[research] Desmond Bane over 2.5 reb (@ PHX): p=0.770 (raw 0.819) vs bet365 implied 0.833 EV -0.076 @ bet365 | career 235/279, season 4/7, last5 3/5, last10 7/10, vs PHX 12/13, away 120/141, month 11 past seasons 36/41, rest 2+ days 58/63, opp defence soft 65/80, with Franz Wagner 37/47, with Wendell Carter Jr. 74/94, with Tristan da Silva 73/93"
   },
   {
    "book": "bet365",
@@ -7508,17 +7508,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.7702,
+   "ev": 0.8545,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.0952,
+   "implied": 0.0909,
    "k": 40.0,
    "line": 9.5,
    "opp": "ORL",
    "player": "Devin Booker",
    "player_id": "3136193",
-   "price_observed_at": "2026-11-06T01:38:17Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.1686,
    "prob_raw": 0.1128,
    "side": "over",
@@ -7598,22 +7598,22 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Devin Booker over 9.5 ast (vs ORL): p=0.169 (raw 0.113) vs bet365 implied 0.095 EV +0.770 @ bet365 | career 38/286, season 0/6, last5 0/5, last10 0/10, vs ORL 0/7, home 23/142, month 11 past seasons 11/53, rest b2b 5/43, opp defence soft 10/84, with Miles Bridges 0/6, with Dillon Brooks 2/53, with Jalen Green 1/38"
+   "text": "[research] Devin Booker over 9.5 ast (vs ORL): p=0.169 (raw 0.113) vs bet365 implied 0.091 EV +0.855 @ bet365 | career 38/286, season 0/6, last5 0/5, last10 0/10, vs ORL 0/7, home 23/142, month 11 past seasons 11/53, rest b2b 5/43, opp defence soft 10/84, with Miles Bridges 0/6, with Dillon Brooks 2/53, with Jalen Green 1/38"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.0826,
+   "ev": -0.0927,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.8571,
+   "implied": 0.8667,
    "k": 40.0,
    "line": 0.5,
    "opp": "ORL",
    "player": "Devin Booker",
    "player_id": "3136193",
-   "price_observed_at": "2026-11-06T01:35:59Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.7863,
    "prob_raw": 0.8361,
    "side": "over",
@@ -7693,7 +7693,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Devin Booker over 0.5 fg3m (vs ORL): p=0.786 (raw 0.836) vs bet365 implied 0.857 EV -0.083 @ bet365 | career 243/286, season 4/6, last5 4/5, last10 6/10, vs ORL 7/7, home 120/142, month 11 past seasons 44/53, rest b2b 40/43, opp defence tough 80/90, with Miles Bridges 4/6, with Dillon Brooks 41/53, with Jalen Green 30/38"
+   "text": "[research] Devin Booker over 0.5 fg3m (vs ORL): p=0.786 (raw 0.836) vs bet365 implied 0.867 EV -0.093 @ bet365 | career 243/286, season 4/6, last5 4/5, last10 6/10, vs ORL 7/7, home 120/142, month 11 past seasons 44/53, rest b2b 40/43, opp defence tough 80/90, with Miles Bridges 4/6, with Dillon Brooks 41/53, with Jalen Green 30/38"
   },
   {
    "book": "bet365",
@@ -7983,17 +7983,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.6778,
+   "ev": 0.6079,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.0833,
+   "implied": 0.087,
    "k": 40.0,
    "line": 4.5,
    "opp": "ORL",
    "player": "Devin Booker",
    "player_id": "3136193",
-   "price_observed_at": "2026-11-06T01:35:59Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.1398,
    "prob_raw": 0.0876,
    "side": "over",
@@ -8073,7 +8073,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Devin Booker over 4.5 fg3m (vs ORL): p=0.140 (raw 0.088) vs bet365 implied 0.083 EV +0.678 @ bet365 | career 34/286, season 0/6, last5 0/5, last10 0/10, vs ORL 0/7, home 17/142, month 11 past seasons 6/53, rest b2b 3/43, opp defence tough 6/90, with Miles Bridges 0/6, with Dillon Brooks 1/53, with Jalen Green 2/38"
+   "text": "[research] Devin Booker over 4.5 fg3m (vs ORL): p=0.140 (raw 0.088) vs bet365 implied 0.087 EV +0.608 @ bet365 | career 34/286, season 0/6, last5 0/5, last10 0/10, vs ORL 0/7, home 17/142, month 11 past seasons 6/53, rest b2b 3/43, opp defence tough 6/90, with Miles Bridges 0/6, with Dillon Brooks 1/53, with Jalen Green 2/38"
   },
   {
    "book": "bet365",
@@ -8363,17 +8363,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.0756,
+   "ev": -0.0803,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.7959,
+   "implied": 0.8,
    "k": 40.0,
    "line": 19.5,
    "opp": "ORL",
    "player": "Devin Booker",
    "player_id": "3136193",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.7357,
    "prob_raw": 0.7815,
    "side": "over",
@@ -8453,7 +8453,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Devin Booker over 19.5 pts (vs ORL): p=0.736 (raw 0.781) vs bet365 implied 0.796 EV -0.076 @ bet365 | career 222/286, season 5/6, last5 4/5, last10 8/10, vs ORL 4/7, home 108/142, month 11 past seasons 40/53, rest b2b 35/43, opp defence middle 65/83, with Miles Bridges 5/6, with Dillon Brooks 41/53, with Jalen Green 32/38"
+   "text": "[research] Devin Booker over 19.5 pts (vs ORL): p=0.736 (raw 0.781) vs bet365 implied 0.800 EV -0.080 @ bet365 | career 222/286, season 5/6, last5 4/5, last10 8/10, vs ORL 4/7, home 108/142, month 11 past seasons 40/53, rest b2b 35/43, opp defence middle 65/83, with Miles Bridges 5/6, with Dillon Brooks 41/53, with Jalen Green 32/38"
   },
   {
    "book": "bet365",
@@ -8648,17 +8648,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.1534,
+   "ev": 0.2058,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.1818,
+   "implied": 0.1739,
    "k": 40.0,
    "line": 34.5,
    "opp": "ORL",
    "player": "Devin Booker",
    "player_id": "3136193",
-   "price_observed_at": "2026-11-06T01:38:52Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.2097,
    "prob_raw": 0.1519,
    "side": "over",
@@ -8738,7 +8738,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Devin Booker over 34.5 pts (vs ORL): p=0.210 (raw 0.152) vs bet365 implied 0.182 EV +0.153 @ bet365 | career 52/286, season 1/6, last5 1/5, last10 1/10, vs ORL 1/7, home 19/142, month 11 past seasons 6/53, rest b2b 4/43, opp defence middle 18/83, with Miles Bridges 1/6, with Dillon Brooks 3/53, with Jalen Green 5/38"
+   "text": "[research] Devin Booker over 34.5 pts (vs ORL): p=0.210 (raw 0.152) vs bet365 implied 0.174 EV +0.206 @ bet365 | career 52/286, season 1/6, last5 1/5, last10 1/10, vs ORL 1/7, home 19/142, month 11 past seasons 6/53, rest b2b 4/43, opp defence middle 18/83, with Miles Bridges 1/6, with Dillon Brooks 3/53, with Jalen Green 5/38"
   },
   {
    "book": "bet365",
@@ -9408,17 +9408,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.504,
+   "ev": 0.5577,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.1429,
+   "implied": 0.1379,
    "k": 40.0,
    "line": 6.5,
    "opp": "ORL",
    "player": "Devin Booker",
    "player_id": "3136193",
-   "price_observed_at": "2026-11-06T01:32:31Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.2149,
    "prob_raw": 0.157,
    "side": "over",
@@ -9498,22 +9498,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Devin Booker over 6.5 reb (vs ORL): p=0.215 (raw 0.157) vs bet365 implied 0.143 EV +0.504 @ bet365 | career 42/286, season 1/6, last5 1/5, last10 2/10, vs ORL 1/7, home 20/142, month 11 past seasons 14/53, rest b2b 6/43, opp defence middle 16/84, with Miles Bridges 1/6, with Dillon Brooks 7/53, with Jalen Green 4/38"
+   "text": "[research] Devin Booker over 6.5 reb (vs ORL): p=0.215 (raw 0.157) vs bet365 implied 0.138 EV +0.558 @ bet365 | career 42/286, season 1/6, last5 1/5, last10 2/10, vs ORL 1/7, home 20/142, month 11 past seasons 14/53, rest b2b 6/43, opp defence middle 16/84, with Miles Bridges 1/6, with Dillon Brooks 7/53, with Jalen Green 4/38"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.1528,
+   "ev": -0.0721,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.0476,
+   "implied": 0.0435,
    "k": 40.0,
    "line": 9.5,
    "opp": "ORL",
    "player": "Devin Booker",
    "player_id": "3136193",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0403,
    "prob_raw": 0.0169,
    "side": "over",
@@ -9593,7 +9593,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Devin Booker over 9.5 reb (vs ORL): p=0.040 (raw 0.017) vs bet365 implied 0.048 EV -0.153 @ bet365 | career 4/286, season 0/6, last5 0/5, last10 0/10, vs ORL 0/7, home 2/142, month 11 past seasons 2/53, rest b2b 1/43, opp defence middle 1/84, with Miles Bridges 0/6, with Dillon Brooks 1/53, with Jalen Green 1/38"
+   "text": "[research] Devin Booker over 9.5 reb (vs ORL): p=0.040 (raw 0.017) vs bet365 implied 0.043 EV -0.072 @ bet365 | career 4/286, season 0/6, last5 0/5, last10 0/10, vs ORL 0/7, home 2/142, month 11 past seasons 2/53, rest b2b 1/43, opp defence middle 1/84, with Miles Bridges 0/6, with Dillon Brooks 1/53, with Jalen Green 1/38"
   },
   {
    "book": "bet365",
@@ -9978,17 +9978,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.073,
+   "ev": -0.0669,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.8947,
+   "implied": 0.8889,
    "k": 40.0,
    "line": 0.5,
    "opp": "ORL",
    "player": "Dillon Brooks",
    "player_id": "3155526",
-   "price_observed_at": "2026-11-06T01:35:59Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.8294,
    "prob_raw": 0.8791,
    "side": "over",
@@ -10068,7 +10068,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Dillon Brooks over 0.5 fg3m (vs ORL): p=0.829 (raw 0.879) vs bet365 implied 0.895 EV -0.073 @ bet365 | career 266/300, season 5/6, last5 4/5, last10 9/10, vs ORL 8/8, home 130/151, month 11 past seasons 45/54, rest b2b 39/45, opp defence tough 72/84, with Devin Booker 51/53, with Miles Bridges 5/6, with Jalen Green 21/23"
+   "text": "[research] Dillon Brooks over 0.5 fg3m (vs ORL): p=0.829 (raw 0.879) vs bet365 implied 0.889 EV -0.067 @ bet365 | career 266/300, season 5/6, last5 4/5, last10 9/10, vs ORL 8/8, home 130/151, month 11 past seasons 45/54, rest b2b 39/45, opp defence tough 72/84, with Devin Booker 51/53, with Miles Bridges 5/6, with Jalen Green 21/23"
   },
   {
    "book": "bet365",
@@ -10168,17 +10168,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.0995,
+   "ev": 0.0623,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.339,
+   "implied": 0.3509,
    "k": 40.0,
    "line": 2.5,
    "opp": "ORL",
    "player": "Dillon Brooks",
    "player_id": "3155526",
-   "price_observed_at": "2026-11-06T01:33:54Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.3727,
    "prob_raw": 0.3334,
    "side": "over",
@@ -10258,22 +10258,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Dillon Brooks over 2.5 fg3m (vs ORL): p=0.373 (raw 0.333) vs bet365 implied 0.339 EV +0.100 @ bet365 | career 97/300, season 2/6, last5 2/5, last10 6/10, vs ORL 4/8, home 45/151, month 11 past seasons 19/54, rest b2b 13/45, opp defence tough 26/84, with Devin Booker 24/53, with Miles Bridges 2/6, with Jalen Green 8/23"
+   "text": "[research] Dillon Brooks over 2.5 fg3m (vs ORL): p=0.373 (raw 0.333) vs bet365 implied 0.351 EV +0.062 @ bet365 | career 97/300, season 2/6, last5 2/5, last10 6/10, vs ORL 4/8, home 45/151, month 11 past seasons 19/54, rest b2b 13/45, opp defence tough 26/84, with Devin Booker 24/53, with Miles Bridges 2/6, with Jalen Green 8/23"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.4849,
+   "ev": 0.4255,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.16,
+   "implied": 0.1667,
    "k": 40.0,
    "line": 3.5,
    "opp": "ORL",
    "player": "Dillon Brooks",
    "player_id": "3155526",
-   "price_observed_at": "2026-11-06T01:33:54Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.2376,
    "prob_raw": 0.1802,
    "side": "over",
@@ -10353,22 +10353,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Dillon Brooks over 3.5 fg3m (vs ORL): p=0.238 (raw 0.180) vs bet365 implied 0.160 EV +0.485 @ bet365 | career 54/300, season 1/6, last5 1/5, last10 3/10, vs ORL 1/8, home 31/151, month 11 past seasons 9/54, rest b2b 6/45, opp defence tough 12/84, with Devin Booker 13/53, with Miles Bridges 1/6, with Jalen Green 4/23"
+   "text": "[research] Dillon Brooks over 3.5 fg3m (vs ORL): p=0.238 (raw 0.180) vs bet365 implied 0.167 EV +0.425 @ bet365 | career 54/300, season 1/6, last5 1/5, last10 3/10, vs ORL 1/8, home 31/151, month 11 past seasons 9/54, rest b2b 6/45, opp defence tough 12/84, with Devin Booker 13/53, with Miles Bridges 1/6, with Jalen Green 4/23"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.4495,
+   "ev": 0.3891,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.0833,
+   "implied": 0.087,
    "k": 40.0,
    "line": 4.5,
    "opp": "ORL",
    "player": "Dillon Brooks",
    "player_id": "3155526",
-   "price_observed_at": "2026-11-06T01:38:52Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.1208,
    "prob_raw": 0.0719,
    "side": "over",
@@ -10448,7 +10448,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Dillon Brooks over 4.5 fg3m (vs ORL): p=0.121 (raw 0.072) vs bet365 implied 0.083 EV +0.450 @ bet365 | career 25/300, season 0/6, last5 0/5, last10 1/10, vs ORL 0/8, home 15/151, month 11 past seasons 4/54, rest b2b 2/45, opp defence tough 4/84, with Devin Booker 5/53, with Miles Bridges 0/6, with Jalen Green 1/23"
+   "text": "[research] Dillon Brooks over 4.5 fg3m (vs ORL): p=0.121 (raw 0.072) vs bet365 implied 0.087 EV +0.389 @ bet365 | career 25/300, season 0/6, last5 0/5, last10 1/10, vs ORL 0/8, home 15/151, month 11 past seasons 4/54, rest b2b 2/45, opp defence tough 4/84, with Devin Booker 5/53, with Miles Bridges 0/6, with Jalen Green 1/23"
   },
   {
    "book": "bet365",
@@ -10463,7 +10463,7 @@
    "opp": "ORL",
    "player": "Dillon Brooks",
    "player_id": "3155526",
-   "price_observed_at": "2026-11-06T01:35:29Z",
+   "price_observed_at": "2026-11-06T01:49:49Z",
    "prob": 0.0569,
    "prob_raw": 0.0264,
    "side": "over",
@@ -10643,17 +10643,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.0652,
+   "ev": -0.0786,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.5833,
+   "implied": 0.5918,
    "k": 40.0,
    "line": 14.5,
    "opp": "ORL",
    "player": "Dillon Brooks",
    "player_id": "3155526",
-   "price_observed_at": "2026-11-06T01:36:01Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.5453,
    "prob_raw": 0.5502,
    "side": "over",
@@ -10733,7 +10733,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Dillon Brooks over 14.5 pts (vs ORL): p=0.545 (raw 0.550) vs bet365 implied 0.583 EV -0.065 @ bet365 | career 147/300, season 5/6, last5 5/5, last10 8/10, vs ORL 3/8, home 77/151, month 11 past seasons 29/54, rest b2b 25/45, opp defence middle 45/102, with Devin Booker 42/53, with Miles Bridges 5/6, with Jalen Green 15/23"
+   "text": "[research] Dillon Brooks over 14.5 pts (vs ORL): p=0.545 (raw 0.550) vs bet365 implied 0.592 EV -0.079 @ bet365 | career 147/300, season 5/6, last5 5/5, last10 8/10, vs ORL 3/8, home 77/151, month 11 past seasons 29/54, rest b2b 25/45, opp defence middle 45/102, with Devin Booker 42/53, with Miles Bridges 5/6, with Jalen Green 15/23"
   },
   {
    "book": "bet365",
@@ -11308,17 +11308,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.1315,
+   "ev": -0.141,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.8571,
+   "implied": 0.8667,
    "k": 40.0,
    "line": 9.5,
    "opp": "ORL",
    "player": "Dillon Brooks",
    "player_id": "3155526",
-   "price_observed_at": "2026-11-06T01:33:44Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.7445,
    "prob_raw": 0.7912,
    "side": "over",
@@ -11398,7 +11398,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Dillon Brooks over 9.5 pts (vs ORL): p=0.745 (raw 0.791) vs bet365 implied 0.857 EV -0.132 @ bet365 | career 228/300, season 6/6, last5 5/5, last10 10/10, vs ORL 6/8, home 111/151, month 11 past seasons 43/54, rest b2b 35/45, opp defence middle 70/102, with Devin Booker 50/53, with Miles Bridges 6/6, with Jalen Green 20/23"
+   "text": "[research] Dillon Brooks over 9.5 pts (vs ORL): p=0.745 (raw 0.791) vs bet365 implied 0.867 EV -0.141 @ bet365 | career 228/300, season 6/6, last5 5/5, last10 10/10, vs ORL 6/8, home 111/151, month 11 past seasons 43/54, rest b2b 35/45, opp defence middle 70/102, with Devin Booker 50/53, with Miles Bridges 6/6, with Jalen Green 20/23"
   },
   {
    "book": "bet365",
@@ -11498,17 +11498,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.1951,
+   "ev": -0.1855,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.8095,
+   "implied": 0.8,
    "k": 40.0,
    "line": 2.5,
    "opp": "ORL",
    "player": "Dillon Brooks",
    "player_id": "3155526",
-   "price_observed_at": "2026-11-06T01:35:31Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.6516,
    "prob_raw": 0.6829,
    "side": "over",
@@ -11588,22 +11588,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Dillon Brooks over 2.5 reb (vs ORL): p=0.652 (raw 0.683) vs bet365 implied 0.809 EV -0.195 @ bet365 | career 201/300, season 4/6, last5 3/5, last10 7/10, vs ORL 8/8, home 101/151, month 11 past seasons 37/54, rest b2b 33/45, opp defence middle 56/84, with Devin Booker 39/53, with Miles Bridges 4/6, with Jalen Green 16/23"
+   "text": "[research] Dillon Brooks over 2.5 reb (vs ORL): p=0.652 (raw 0.683) vs bet365 implied 0.800 EV -0.185 @ bet365 | career 201/300, season 4/6, last5 3/5, last10 7/10, vs ORL 8/8, home 101/151, month 11 past seasons 37/54, rest b2b 33/45, opp defence middle 56/84, with Devin Booker 39/53, with Miles Bridges 4/6, with Jalen Green 16/23"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.1433,
+   "ev": -0.1623,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.4444,
+   "implied": 0.4545,
    "k": 40.0,
    "line": 4.5,
    "opp": "ORL",
    "player": "Dillon Brooks",
    "player_id": "3155526",
-   "price_observed_at": "2026-11-06T01:38:52Z",
+   "price_observed_at": "2026-11-06T01:49:24Z",
    "prob": 0.3808,
    "prob_raw": 0.3431,
    "side": "over",
@@ -11683,7 +11683,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Dillon Brooks over 4.5 reb (vs ORL): p=0.381 (raw 0.343) vs bet365 implied 0.444 EV -0.143 @ bet365 | career 93/300, season 3/6, last5 3/5, last10 6/10, vs ORL 3/8, home 48/151, month 11 past seasons 17/54, rest b2b 17/45, opp defence middle 26/84, with Devin Booker 20/53, with Miles Bridges 3/6, with Jalen Green 11/23"
+   "text": "[research] Dillon Brooks over 4.5 reb (vs ORL): p=0.381 (raw 0.343) vs bet365 implied 0.455 EV -0.162 @ bet365 | career 93/300, season 3/6, last5 3/5, last10 6/10, vs ORL 3/8, home 48/151, month 11 past seasons 17/54, rest b2b 17/45, opp defence middle 26/84, with Devin Booker 20/53, with Miles Bridges 3/6, with Jalen Green 11/23"
   },
   {
    "book": "bet365",
@@ -12448,17 +12448,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.0998,
+   "ev": -0.106,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.7674,
+   "implied": 0.7727,
    "k": 40.0,
    "line": 0.5,
    "opp": "PHX",
    "player": "Franz Wagner",
    "player_id": "4566434",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.6908,
    "prob_raw": 0.7299,
    "side": "over",
@@ -12538,22 +12538,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Franz Wagner over 0.5 fg3m (@ PHX): p=0.691 (raw 0.730) vs bet365 implied 0.767 EV -0.100 @ bet365 | career 205/272, season 5/7, last5 3/5, last10 7/10, vs PHX 4/5, away 98/136, month 11 past seasons 46/59, rest 2+ days 38/55, opp defence soft 64/89, with Desmond Bane 31/47, with Wendell Carter Jr. 156/212, with Tristan da Silva 73/102"
+   "text": "[research] Franz Wagner over 0.5 fg3m (@ PHX): p=0.691 (raw 0.730) vs bet365 implied 0.773 EV -0.106 @ bet365 | career 205/272, season 5/7, last5 3/5, last10 7/10, vs PHX 4/5, away 98/136, month 11 past seasons 46/59, rest 2+ days 38/55, opp defence soft 64/89, with Desmond Bane 31/47, with Wendell Carter Jr. 156/212, with Tristan da Silva 73/102"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.0076,
+   "ev": -0.0274,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.4348,
+   "implied": 0.4505,
    "k": 40.0,
    "line": 1.5,
    "opp": "PHX",
    "player": "Franz Wagner",
    "player_id": "4566434",
-   "price_observed_at": "2026-11-06T01:34:26Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.4381,
    "prob_raw": 0.4141,
    "side": "over",
@@ -12633,22 +12633,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Franz Wagner over 1.5 fg3m (@ PHX): p=0.438 (raw 0.414) vs bet365 implied 0.435 EV +0.008 @ bet365 | career 116/272, season 2/7, last5 1/5, last10 2/10, vs PHX 3/5, away 60/136, month 11 past seasons 27/59, rest 2+ days 20/55, opp defence soft 44/89, with Desmond Bane 17/47, with Wendell Carter Jr. 86/212, with Tristan da Silva 41/102"
+   "text": "[research] Franz Wagner over 1.5 fg3m (@ PHX): p=0.438 (raw 0.414) vs bet365 implied 0.451 EV -0.027 @ bet365 | career 116/272, season 2/7, last5 1/5, last10 2/10, vs PHX 3/5, away 60/136, month 11 past seasons 27/59, rest 2+ days 20/55, opp defence soft 44/89, with Desmond Bane 17/47, with Wendell Carter Jr. 86/212, with Tristan da Silva 41/102"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.2394,
+   "ev": 0.3013,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.2,
+   "implied": 0.1905,
    "k": 40.0,
    "line": 2.5,
    "opp": "PHX",
    "player": "Franz Wagner",
    "player_id": "4566434",
-   "price_observed_at": "2026-11-06T01:32:22Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.2479,
    "prob_raw": 0.191,
    "side": "over",
@@ -12728,22 +12728,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Franz Wagner over 2.5 fg3m (@ PHX): p=0.248 (raw 0.191) vs bet365 implied 0.200 EV +0.239 @ bet365 | career 54/272, season 0/7, last5 0/5, last10 0/10, vs PHX 1/5, away 30/136, month 11 past seasons 14/59, rest 2+ days 8/55, opp defence soft 24/89, with Desmond Bane 8/47, with Wendell Carter Jr. 38/212, with Tristan da Silva 22/102"
+   "text": "[research] Franz Wagner over 2.5 fg3m (@ PHX): p=0.248 (raw 0.191) vs bet365 implied 0.191 EV +0.301 @ bet365 | career 54/272, season 0/7, last5 0/5, last10 0/10, vs PHX 1/5, away 30/136, month 11 past seasons 14/59, rest 2+ days 8/55, opp defence soft 24/89, with Desmond Bane 8/47, with Wendell Carter Jr. 38/212, with Tristan da Silva 22/102"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.2475,
+   "ev": 0.3069,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.0952,
+   "implied": 0.0909,
    "k": 40.0,
    "line": 3.5,
    "opp": "PHX",
    "player": "Franz Wagner",
    "player_id": "4566434",
-   "price_observed_at": "2026-11-06T01:33:24Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.1188,
    "prob_raw": 0.0703,
    "side": "over",
@@ -12823,7 +12823,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Franz Wagner over 3.5 fg3m (@ PHX): p=0.119 (raw 0.070) vs bet365 implied 0.095 EV +0.247 @ bet365 | career 20/272, season 0/7, last5 0/5, last10 0/10, vs PHX 1/5, away 10/136, month 11 past seasons 7/59, rest 2+ days 5/55, opp defence soft 8/89, with Desmond Bane 2/47, with Wendell Carter Jr. 11/212, with Tristan da Silva 8/102"
+   "text": "[research] Franz Wagner over 3.5 fg3m (@ PHX): p=0.119 (raw 0.070) vs bet365 implied 0.091 EV +0.307 @ bet365 | career 20/272, season 0/7, last5 0/5, last10 0/10, vs PHX 1/5, away 10/136, month 11 past seasons 7/59, rest 2+ days 5/55, opp defence soft 8/89, with Desmond Bane 2/47, with Wendell Carter Jr. 11/212, with Tristan da Silva 8/102"
   },
   {
    "book": "bet365",
@@ -13018,17 +13018,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.1724,
+   "ev": -0.1782,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.9167,
+   "implied": 0.9231,
    "k": 40.0,
    "line": 14.5,
    "opp": "PHX",
    "player": "Franz Wagner",
    "player_id": "4566434",
-   "price_observed_at": "2026-11-06T01:35:59Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.7586,
    "prob_raw": 0.8067,
    "side": "over",
@@ -13108,7 +13108,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Franz Wagner over 14.5 pts (@ PHX): p=0.759 (raw 0.807) vs bet365 implied 0.917 EV -0.172 @ bet365 | career 215/272, season 6/7, last5 4/5, last10 8/10, vs PHX 4/5, away 101/136, month 11 past seasons 54/59, rest 2+ days 41/55, opp defence soft 68/83, with Desmond Bane 38/47, with Wendell Carter Jr. 165/212, with Tristan da Silva 89/102"
+   "text": "[research] Franz Wagner over 14.5 pts (@ PHX): p=0.759 (raw 0.807) vs bet365 implied 0.923 EV -0.178 @ bet365 | career 215/272, season 6/7, last5 4/5, last10 8/10, vs PHX 4/5, away 101/136, month 11 past seasons 54/59, rest 2+ days 41/55, opp defence soft 68/83, with Desmond Bane 38/47, with Wendell Carter Jr. 165/212, with Tristan da Silva 89/102"
   },
   {
    "book": "bet365",
@@ -13303,17 +13303,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.4169,
+   "ev": -0.4023,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.25,
+   "implied": 0.2439,
    "k": 40.0,
    "line": 29.5,
    "opp": "PHX",
    "player": "Franz Wagner",
    "player_id": "4566434",
-   "price_observed_at": "2026-11-05T20:33:39Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.1458,
    "prob_raw": 0.0926,
    "side": "over",
@@ -13393,22 +13393,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Franz Wagner over 29.5 pts (@ PHX): p=0.146 (raw 0.093) vs bet365 implied 0.250 EV -0.417 @ bet365 | career 28/272, season 0/7, last5 0/5, last10 0/10, vs PHX 1/5, away 8/136, month 11 past seasons 9/59, rest 2+ days 4/55, opp defence soft 11/83, with Desmond Bane 2/47, with Wendell Carter Jr. 18/212, with Tristan da Silva 16/102"
+   "text": "[research] Franz Wagner over 29.5 pts (@ PHX): p=0.146 (raw 0.093) vs bet365 implied 0.244 EV -0.402 @ bet365 | career 28/272, season 0/7, last5 0/5, last10 0/10, vs PHX 1/5, away 8/136, month 11 past seasons 9/59, rest 2+ days 4/55, opp defence soft 11/83, with Desmond Bane 2/47, with Wendell Carter Jr. 18/212, with Tristan da Silva 16/102"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.5092,
+   "ev": -0.4803,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.1176,
+   "implied": 0.1111,
    "k": 40.0,
    "line": 34.5,
    "opp": "PHX",
    "player": "Franz Wagner",
    "player_id": "4566434",
-   "price_observed_at": "2026-11-06T00:50:51Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0577,
    "prob_raw": 0.027,
    "side": "over",
@@ -13488,7 +13488,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Franz Wagner over 34.5 pts (@ PHX): p=0.058 (raw 0.027) vs bet365 implied 0.118 EV -0.509 @ bet365 | career 7/272, season 0/7, last5 0/5, last10 0/10, vs PHX 0/5, away 4/136, month 11 past seasons 2/59, rest 2+ days 0/55, opp defence soft 4/83, with Desmond Bane 1/47, with Wendell Carter Jr. 6/212, with Tristan da Silva 5/102"
+   "text": "[research] Franz Wagner over 34.5 pts (@ PHX): p=0.058 (raw 0.027) vs bet365 implied 0.111 EV -0.480 @ bet365 | career 7/272, season 0/7, last5 0/5, last10 0/10, vs PHX 0/5, away 4/136, month 11 past seasons 2/59, rest 2+ days 0/55, opp defence soft 4/83, with Desmond Bane 1/47, with Wendell Carter Jr. 6/212, with Tristan da Silva 5/102"
   },
   {
    "book": "bet365",
@@ -13588,17 +13588,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.8708,
+   "ev": -0.8396,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.0345,
+   "implied": 0.0278,
    "k": 40.0,
    "line": 44.5,
    "opp": "PHX",
    "player": "Franz Wagner",
    "player_id": "4566434",
-   "price_observed_at": "2026-11-06T00:44:51Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0045,
    "prob_raw": 0.001,
    "side": "over",
@@ -13678,7 +13678,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Franz Wagner over 44.5 pts (@ PHX): p=0.004 (raw 0.001) vs bet365 implied 0.035 EV -0.871 @ bet365 | career 0/272, season 0/7, last5 0/5, last10 0/10, vs PHX 0/5, away 0/136, month 11 past seasons 0/59, rest 2+ days 0/55, opp defence soft 0/83, with Desmond Bane 0/47, with Wendell Carter Jr. 0/212, with Tristan da Silva 0/102"
+   "text": "[research] Franz Wagner over 44.5 pts (@ PHX): p=0.004 (raw 0.001) vs bet365 implied 0.028 EV -0.840 @ bet365 | career 0/272, season 0/7, last5 0/5, last10 0/10, vs PHX 0/5, away 0/136, month 11 past seasons 0/59, rest 2+ days 0/55, opp defence soft 0/83, with Desmond Bane 0/47, with Wendell Carter Jr. 0/212, with Tristan da Silva 0/102"
   },
   {
    "book": "bet365",
@@ -14073,7 +14073,7 @@
    "opp": "PHX",
    "player": "Franz Wagner",
    "player_id": "4566434",
-   "price_observed_at": "2026-11-06T01:36:38Z",
+   "price_observed_at": "2026-11-06T01:49:49Z",
    "prob": 0.6202,
    "prob_raw": 0.6445,
    "side": "over",
@@ -14253,17 +14253,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.4965,
+   "ev": -0.5139,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.1379,
+   "implied": 0.1429,
    "k": 40.0,
    "line": 9.5,
    "opp": "PHX",
    "player": "Franz Wagner",
    "player_id": "4566434",
-   "price_observed_at": "2026-11-06T01:35:59Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0694,
    "prob_raw": 0.0344,
    "side": "over",
@@ -14343,7 +14343,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Franz Wagner over 9.5 reb (@ PHX): p=0.069 (raw 0.034) vs bet365 implied 0.138 EV -0.496 @ bet365 | career 7/272, season 1/7, last5 1/5, last10 1/10, vs PHX 1/5, away 2/136, month 11 past seasons 1/59, rest 2+ days 2/55, opp defence soft 3/81, with Desmond Bane 1/47, with Wendell Carter Jr. 6/212, with Tristan da Silva 4/102"
+   "text": "[research] Franz Wagner over 9.5 reb (@ PHX): p=0.069 (raw 0.034) vs bet365 implied 0.143 EV -0.514 @ bet365 | career 7/272, season 1/7, last5 1/5, last10 1/10, vs PHX 1/5, away 2/136, month 11 past seasons 1/59, rest 2+ days 2/55, opp defence soft 3/81, with Desmond Bane 1/47, with Wendell Carter Jr. 6/212, with Tristan da Silva 4/102"
   },
   {
    "book": "bet365",
@@ -14738,7 +14738,7 @@
    "opp": "ORL",
    "player": "Jalen Green",
    "player_id": "4437244",
-   "price_observed_at": "2026-11-05T21:53:31Z",
+   "price_observed_at": "2026-11-06T01:49:49Z",
    "prob": 0.7956,
    "prob_raw": 0.8456,
    "side": "over",
@@ -15013,17 +15013,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.8136,
+   "ev": 0.738,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.1667,
+   "implied": 0.1739,
    "k": 40.0,
    "line": 3.5,
    "opp": "ORL",
    "player": "Jalen Green",
    "player_id": "4437244",
-   "price_observed_at": "2026-11-06T00:44:44Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.3023,
    "prob_raw": 0.2506,
    "side": "over",
@@ -15103,22 +15103,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Jalen Green over 3.5 fg3m (vs ORL): p=0.302 (raw 0.251) vs bet365 implied 0.167 EV +0.814 @ bet365 | career 81/290, season 0/6, last5 0/5, last10 1/10, vs ORL 2/8, home 47/148, month 11 past seasons 11/43, rest b2b 14/49, opp defence tough 27/84, with Devin Booker 6/38, with Miles Bridges 0/6, with Dillon Brooks 1/23"
+   "text": "[research] Jalen Green over 3.5 fg3m (vs ORL): p=0.302 (raw 0.251) vs bet365 implied 0.174 EV +0.738 @ bet365 | career 81/290, season 0/6, last5 0/5, last10 1/10, vs ORL 2/8, home 47/148, month 11 past seasons 11/43, rest b2b 14/49, opp defence tough 27/84, with Devin Booker 6/38, with Miles Bridges 0/6, with Dillon Brooks 1/23"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 1.3014,
+   "ev": 1.1013,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.087,
+   "implied": 0.0952,
    "k": 40.0,
    "line": 4.5,
    "opp": "ORL",
    "player": "Jalen Green",
    "player_id": "4437244",
-   "price_observed_at": "2026-11-06T01:35:29Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.2001,
    "prob_raw": 0.1425,
    "side": "over",
@@ -15198,22 +15198,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Jalen Green over 4.5 fg3m (vs ORL): p=0.200 (raw 0.142) vs bet365 implied 0.087 EV +1.301 @ bet365 | career 45/290, season 0/6, last5 0/5, last10 1/10, vs ORL 1/8, home 24/148, month 11 past seasons 7/43, rest b2b 7/49, opp defence tough 17/84, with Devin Booker 4/38, with Miles Bridges 0/6, with Dillon Brooks 1/23"
+   "text": "[research] Jalen Green over 4.5 fg3m (vs ORL): p=0.200 (raw 0.142) vs bet365 implied 0.095 EV +1.101 @ bet365 | career 45/290, season 0/6, last5 0/5, last10 1/10, vs ORL 1/8, home 24/148, month 11 past seasons 7/43, rest b2b 7/49, opp defence tough 17/84, with Devin Booker 4/38, with Miles Bridges 0/6, with Dillon Brooks 1/23"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.9506,
+   "ev": 0.848,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.0526,
+   "implied": 0.0556,
    "k": 40.0,
    "line": 5.5,
    "opp": "ORL",
    "player": "Jalen Green",
    "player_id": "4437244",
-   "price_observed_at": "2026-11-05T21:42:01Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.1027,
    "prob_raw": 0.0578,
    "side": "over",
@@ -15293,22 +15293,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Jalen Green over 5.5 fg3m (vs ORL): p=0.103 (raw 0.058) vs bet365 implied 0.053 EV +0.951 @ bet365 | career 19/290, season 0/6, last5 0/5, last10 1/10, vs ORL 0/8, home 8/148, month 11 past seasons 2/43, rest b2b 4/49, opp defence tough 4/84, with Devin Booker 3/38, with Miles Bridges 0/6, with Dillon Brooks 1/23"
+   "text": "[research] Jalen Green over 5.5 fg3m (vs ORL): p=0.103 (raw 0.058) vs bet365 implied 0.056 EV +0.848 @ bet365 | career 19/290, season 0/6, last5 0/5, last10 1/10, vs ORL 0/8, home 8/148, month 11 past seasons 2/43, rest b2b 4/49, opp defence tough 4/84, with Devin Booker 3/38, with Miles Bridges 0/6, with Dillon Brooks 1/23"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 1.0086,
+   "ev": 0.618,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.0278,
+   "implied": 0.0345,
    "k": 40.0,
    "line": 6.5,
    "opp": "ORL",
    "player": "Jalen Green",
    "player_id": "4437244",
-   "price_observed_at": "2026-11-05T21:42:01Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0558,
    "prob_raw": 0.0258,
    "side": "over",
@@ -15388,7 +15388,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Jalen Green over 6.5 fg3m (vs ORL): p=0.056 (raw 0.026) vs bet365 implied 0.028 EV +1.009 @ bet365 | career 9/290, season 0/6, last5 0/5, last10 1/10, vs ORL 0/8, home 3/148, month 11 past seasons 0/43, rest b2b 1/49, opp defence tough 2/84, with Devin Booker 2/38, with Miles Bridges 0/6, with Dillon Brooks 1/23"
+   "text": "[research] Jalen Green over 6.5 fg3m (vs ORL): p=0.056 (raw 0.026) vs bet365 implied 0.035 EV +0.618 @ bet365 | career 9/290, season 0/6, last5 0/5, last10 1/10, vs ORL 0/8, home 3/148, month 11 past seasons 0/43, rest b2b 1/49, opp defence tough 2/84, with Devin Booker 2/38, with Miles Bridges 0/6, with Dillon Brooks 1/23"
   },
   {
    "book": "bet365",
@@ -15773,17 +15773,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 1.8325,
+   "ev": 1.5395,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.0345,
+   "implied": 0.0385,
    "k": 40.0,
    "line": 34.5,
    "opp": "ORL",
    "player": "Jalen Green",
    "player_id": "4437244",
-   "price_observed_at": "2026-11-06T01:38:52Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.0977,
    "prob_raw": 0.0541,
    "side": "over",
@@ -15863,7 +15863,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Jalen Green over 34.5 pts (vs ORL): p=0.098 (raw 0.054) vs bet365 implied 0.035 EV +1.833 @ bet365 | career 17/290, season 0/6, last5 0/5, last10 1/10, vs ORL 0/8, home 11/148, month 11 past seasons 1/43, rest b2b 1/49, opp defence middle 6/95, with Devin Booker 3/38, with Miles Bridges 0/6, with Dillon Brooks 2/23"
+   "text": "[research] Jalen Green over 34.5 pts (vs ORL): p=0.098 (raw 0.054) vs bet365 implied 0.038 EV +1.540 @ bet365 | career 17/290, season 0/6, last5 0/5, last10 1/10, vs ORL 0/8, home 11/148, month 11 past seasons 1/43, rest b2b 1/49, opp defence middle 6/95, with Devin Booker 3/38, with Miles Bridges 0/6, with Dillon Brooks 2/23"
   },
   {
    "book": "bet365",
@@ -16058,17 +16058,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.091,
+   "ev": -0.0969,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.8889,
+   "implied": 0.8947,
    "k": 40.0,
    "line": 9.5,
    "opp": "ORL",
    "player": "Jalen Green",
    "player_id": "4437244",
-   "price_observed_at": "2026-11-06T01:35:31Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.808,
    "prob_raw": 0.8582,
    "side": "over",
@@ -16148,22 +16148,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Jalen Green over 9.5 pts (vs ORL): p=0.808 (raw 0.858) vs bet365 implied 0.889 EV -0.091 @ bet365 | career 253/290, season 5/6, last5 4/5, last10 9/10, vs ORL 7/8, home 130/148, month 11 past seasons 37/43, rest b2b 41/49, opp defence middle 82/95, with Devin Booker 31/38, with Miles Bridges 5/6, with Dillon Brooks 17/23"
+   "text": "[research] Jalen Green over 9.5 pts (vs ORL): p=0.808 (raw 0.858) vs bet365 implied 0.895 EV -0.097 @ bet365 | career 253/290, season 5/6, last5 4/5, last10 9/10, vs ORL 7/8, home 130/148, month 11 past seasons 37/43, rest b2b 41/49, opp defence middle 82/95, with Devin Booker 31/38, with Miles Bridges 5/6, with Dillon Brooks 17/23"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.0753,
+   "ev": -0.0817,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.7674,
+   "implied": 0.7727,
    "k": 40.0,
    "line": 2.5,
    "opp": "ORL",
    "player": "Jalen Green",
    "player_id": "4437244",
-   "price_observed_at": "2026-11-06T01:43:24Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.7096,
    "prob_raw": 0.7518,
    "side": "over",
@@ -16243,7 +16243,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Jalen Green over 2.5 reb (vs ORL): p=0.710 (raw 0.752) vs bet365 implied 0.767 EV -0.075 @ bet365 | career 227/290, season 2/6, last5 2/5, last10 6/10, vs ORL 6/8, home 118/148, month 11 past seasons 33/43, rest b2b 38/49, opp defence middle 70/80, with Devin Booker 27/38, with Miles Bridges 2/6, with Dillon Brooks 13/23"
+   "text": "[research] Jalen Green over 2.5 reb (vs ORL): p=0.710 (raw 0.752) vs bet365 implied 0.773 EV -0.082 @ bet365 | career 227/290, season 2/6, last5 2/5, last10 6/10, vs ORL 6/8, home 118/148, month 11 past seasons 33/43, rest b2b 38/49, opp defence middle 70/80, with Devin Booker 27/38, with Miles Bridges 2/6, with Dillon Brooks 13/23"
   },
   {
    "book": "bet365",
@@ -16828,7 +16828,7 @@
    "opp": "PHX",
    "player": "Jamal Cain",
    "player_id": "4278572",
-   "price_observed_at": "2026-11-06T01:33:44Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.2148,
    "prob_raw": 0.157,
    "side": "over",
@@ -17293,17 +17293,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.063,
+   "ev": 0.0364,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.1,
+   "implied": 0.1026,
    "k": 40.0,
    "line": 14.5,
    "opp": "PHX",
    "player": "Jamal Cain",
    "player_id": "4278572",
-   "price_observed_at": "2026-11-06T01:38:52Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.1063,
    "prob_raw": 0.0606,
    "side": "over",
@@ -17383,7 +17383,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Jamal Cain over 14.5 pts (@ PHX): p=0.106 (raw 0.061) vs bet365 implied 0.100 EV +0.063 @ bet365 | career 10/131, season 0/7, last5 0/5, last10 0/10, vs PHX 0/4, away 6/72, month 11 past seasons 0/22, rest 2+ days 1/50, opp defence soft 1/38, with Franz Wagner 2/23, with Desmond Bane 4/53, with Wendell Carter Jr. 3/49"
+   "text": "[research] Jamal Cain over 14.5 pts (@ PHX): p=0.106 (raw 0.061) vs bet365 implied 0.103 EV +0.036 @ bet365 | career 10/131, season 0/7, last5 0/5, last10 0/10, vs PHX 0/4, away 6/72, month 11 past seasons 0/22, rest 2+ days 1/50, opp defence soft 1/38, with Franz Wagner 2/23, with Desmond Bane 4/53, with Wendell Carter Jr. 3/49"
   },
   {
    "book": "bet365",
@@ -17673,17 +17673,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.0852,
+   "ev": -0.1238,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.2817,
+   "implied": 0.2941,
    "k": 40.0,
    "line": 9.5,
    "opp": "PHX",
    "player": "Jamal Cain",
    "player_id": "4278572",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.2577,
    "prob_raw": 0.2014,
    "side": "over",
@@ -17763,7 +17763,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Jamal Cain over 9.5 pts (@ PHX): p=0.258 (raw 0.201) vs bet365 implied 0.282 EV -0.085 @ bet365 | career 26/131, season 2/7, last5 2/5, last10 2/10, vs PHX 1/4, away 15/72, month 11 past seasons 3/22, rest 2+ days 7/50, opp defence soft 7/38, with Franz Wagner 4/23, with Desmond Bane 11/53, with Wendell Carter Jr. 10/49"
+   "text": "[research] Jamal Cain over 9.5 pts (@ PHX): p=0.258 (raw 0.201) vs bet365 implied 0.294 EV -0.124 @ bet365 | career 26/131, season 2/7, last5 2/5, last10 2/10, vs PHX 1/4, away 15/72, month 11 past seasons 3/22, rest 2+ days 7/50, opp defence soft 7/38, with Franz Wagner 4/23, with Desmond Bane 11/53, with Wendell Carter Jr. 10/49"
   },
   {
    "book": "bet365",
@@ -17778,7 +17778,7 @@
    "opp": "PHX",
    "player": "Jamal Cain",
    "player_id": "4278572",
-   "price_observed_at": "2026-11-06T01:36:38Z",
+   "price_observed_at": "2026-11-06T01:49:49Z",
    "prob": 0.3898,
    "prob_raw": 0.3542,
    "side": "over",
@@ -18148,17 +18148,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.4564,
+   "ev": -0.4696,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.4878,
+   "implied": 0.5,
    "k": 40.0,
    "line": 2.5,
    "opp": "PHX",
    "player": "Jase Richardson",
    "player_id": "5239561",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.2652,
    "prob_raw": 0.2095,
    "side": "over",
@@ -18232,7 +18232,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Jase Richardson over 2.5 ast (@ PHX): p=0.265 (raw 0.209) vs bet365 implied 0.488 EV -0.456 @ bet365 | career 11/63, season 4/7, last5 2/5, last10 4/10, away 5/34, month 11 past seasons 0/7, rest 2+ days 3/24, opp defence soft 2/17, with Franz Wagner 5/30, with Desmond Bane 11/63, with Wendell Carter Jr. 11/59"
+   "text": "[research] Jase Richardson over 2.5 ast (@ PHX): p=0.265 (raw 0.209) vs bet365 implied 0.500 EV -0.470 @ bet365 | career 11/63, season 4/7, last5 2/5, last10 4/10, away 5/34, month 11 past seasons 0/7, rest 2+ days 3/24, opp defence soft 2/17, with Franz Wagner 5/30, with Desmond Bane 11/63, with Wendell Carter Jr. 11/59"
   },
   {
    "book": "bet365",
@@ -18504,17 +18504,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.3922,
+   "ev": -0.3994,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.7059,
+   "implied": 0.7143,
    "k": 40.0,
    "line": 0.5,
    "opp": "PHX",
    "player": "Jase Richardson",
    "player_id": "5239561",
-   "price_observed_at": "2026-11-06T01:33:44Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.429,
    "prob_raw": 0.4028,
    "side": "over",
@@ -18588,22 +18588,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Jase Richardson over 0.5 fg3m (@ PHX): p=0.429 (raw 0.403) vs bet365 implied 0.706 EV -0.392 @ bet365 | career 25/63, season 3/7, last5 2/5, last10 4/10, away 14/34, month 11 past seasons 3/7, rest 2+ days 10/24, opp defence soft 10/22, with Franz Wagner 11/30, with Desmond Bane 25/63, with Wendell Carter Jr. 23/59"
+   "text": "[research] Jase Richardson over 0.5 fg3m (@ PHX): p=0.429 (raw 0.403) vs bet365 implied 0.714 EV -0.399 @ bet365 | career 25/63, season 3/7, last5 2/5, last10 4/10, away 14/34, month 11 past seasons 3/7, rest 2+ days 10/24, opp defence soft 10/22, with Franz Wagner 11/30, with Desmond Bane 25/63, with Wendell Carter Jr. 23/59"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.4153,
+   "ev": -0.4112,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.3571,
+   "implied": 0.3546,
    "k": 40.0,
    "line": 1.5,
    "opp": "PHX",
    "player": "Jase Richardson",
    "player_id": "5239561",
-   "price_observed_at": "2026-11-06T01:36:38Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.2088,
    "prob_raw": 0.151,
    "side": "over",
@@ -18677,22 +18677,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Jase Richardson over 1.5 fg3m (@ PHX): p=0.209 (raw 0.151) vs bet365 implied 0.357 EV -0.415 @ bet365 | career 8/63, season 2/7, last5 2/5, last10 3/10, away 6/34, month 11 past seasons 1/7, rest 2+ days 3/24, opp defence soft 3/22, with Franz Wagner 4/30, with Desmond Bane 8/63, with Wendell Carter Jr. 7/59"
+   "text": "[research] Jase Richardson over 1.5 fg3m (@ PHX): p=0.209 (raw 0.151) vs bet365 implied 0.355 EV -0.411 @ bet365 | career 8/63, season 2/7, last5 2/5, last10 3/10, away 6/34, month 11 past seasons 1/7, rest 2+ days 3/24, opp defence soft 3/22, with Franz Wagner 4/30, with Desmond Bane 8/63, with Wendell Carter Jr. 7/59"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.5118,
+   "ev": -0.4944,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.1429,
+   "implied": 0.1379,
    "k": 40.0,
    "line": 2.5,
    "opp": "PHX",
    "player": "Jase Richardson",
    "player_id": "5239561",
-   "price_observed_at": "2026-11-06T01:36:38Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0697,
    "prob_raw": 0.0346,
    "side": "over",
@@ -18766,7 +18766,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Jase Richardson over 2.5 fg3m (@ PHX): p=0.070 (raw 0.035) vs bet365 implied 0.143 EV -0.512 @ bet365 | career 2/63, season 0/7, last5 0/5, last10 0/10, away 2/34, month 11 past seasons 1/7, rest 2+ days 0/24, opp defence soft 1/22, with Franz Wagner 1/30, with Desmond Bane 2/63, with Wendell Carter Jr. 1/59"
+   "text": "[research] Jase Richardson over 2.5 fg3m (@ PHX): p=0.070 (raw 0.035) vs bet365 implied 0.138 EV -0.494 @ bet365 | career 2/63, season 0/7, last5 0/5, last10 0/10, away 2/34, month 11 past seasons 1/7, rest 2+ days 0/24, opp defence soft 1/22, with Franz Wagner 1/30, with Desmond Bane 2/63, with Wendell Carter Jr. 1/59"
   },
   {
    "book": "bet365",
@@ -18860,17 +18860,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.4052,
+   "ev": -0.4668,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.0345,
+   "implied": 0.0385,
    "k": 40.0,
    "line": 4.5,
    "opp": "PHX",
    "player": "Jase Richardson",
    "player_id": "5239561",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.0205,
    "prob_raw": 0.007,
    "side": "over",
@@ -18944,7 +18944,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Jase Richardson over 4.5 fg3m (@ PHX): p=0.021 (raw 0.007) vs bet365 implied 0.035 EV -0.405 @ bet365 | career 0/63, season 0/7, last5 0/5, last10 0/10, away 0/34, month 11 past seasons 0/7, rest 2+ days 0/24, opp defence soft 0/22, with Franz Wagner 0/30, with Desmond Bane 0/63, with Wendell Carter Jr. 0/59"
+   "text": "[research] Jase Richardson over 4.5 fg3m (@ PHX): p=0.021 (raw 0.007) vs bet365 implied 0.038 EV -0.467 @ bet365 | career 0/63, season 0/7, last5 0/5, last10 0/10, away 0/34, month 11 past seasons 0/7, rest 2+ days 0/24, opp defence soft 0/22, with Franz Wagner 0/30, with Desmond Bane 0/63, with Wendell Carter Jr. 0/59"
   },
   {
    "book": "bet365",
@@ -19127,17 +19127,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.183,
+   "ev": -0.2311,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.0588,
+   "implied": 0.0625,
    "k": 40.0,
    "line": 19.5,
    "opp": "PHX",
    "player": "Jase Richardson",
    "player_id": "5239561",
-   "price_observed_at": "2026-11-06T01:35:59Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0481,
    "prob_raw": 0.0212,
    "side": "over",
@@ -19211,7 +19211,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Jase Richardson over 19.5 pts (@ PHX): p=0.048 (raw 0.021) vs bet365 implied 0.059 EV -0.183 @ bet365 | career 1/63, season 0/7, last5 0/5, last10 0/10, away 1/34, month 11 past seasons 0/7, rest 2+ days 0/24, opp defence soft 1/20, with Franz Wagner 0/30, with Desmond Bane 1/63, with Wendell Carter Jr. 1/59"
+   "text": "[research] Jase Richardson over 19.5 pts (@ PHX): p=0.048 (raw 0.021) vs bet365 implied 0.062 EV -0.231 @ bet365 | career 1/63, season 0/7, last5 0/5, last10 0/10, away 1/34, month 11 past seasons 0/7, rest 2+ days 0/24, opp defence soft 1/20, with Franz Wagner 0/30, with Desmond Bane 1/63, with Wendell Carter Jr. 1/59"
   },
   {
    "book": "bet365",
@@ -19661,17 +19661,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.7332,
+   "ev": -0.7126,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.0769,
+   "implied": 0.0714,
    "k": 40.0,
    "line": 6.5,
    "opp": "PHX",
    "player": "Jase Richardson",
    "player_id": "5239561",
-   "price_observed_at": "2026-11-06T01:36:38Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0205,
    "prob_raw": 0.007,
    "side": "over",
@@ -19745,7 +19745,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Jase Richardson over 6.5 reb (@ PHX): p=0.021 (raw 0.007) vs bet365 implied 0.077 EV -0.733 @ bet365 | career 0/63, season 0/7, last5 0/5, last10 0/10, away 0/34, month 11 past seasons 0/7, rest 2+ days 0/24, opp defence soft 0/21, with Franz Wagner 0/30, with Desmond Bane 0/63, with Wendell Carter Jr. 0/59"
+   "text": "[research] Jase Richardson over 6.5 reb (@ PHX): p=0.021 (raw 0.007) vs bet365 implied 0.071 EV -0.713 @ bet365 | career 0/63, season 0/7, last5 0/5, last10 0/10, away 0/34, month 11 past seasons 0/7, rest 2+ days 0/24, opp defence soft 0/21, with Franz Wagner 0/30, with Desmond Bane 0/63, with Wendell Carter Jr. 0/59"
   },
   {
    "book": "bet365",
@@ -19839,17 +19839,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.1863,
+   "ev": -0.1654,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.1026,
+   "implied": 0.1,
    "k": 40.0,
    "line": 2.5,
    "opp": "ORL",
    "player": "Khaman Maluach",
    "player_id": "5203685",
-   "price_observed_at": "2026-11-06T01:36:01Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0835,
    "prob_raw": 0.0439,
    "side": "over",
@@ -19929,7 +19929,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Khaman Maluach over 2.5 ast (vs ORL): p=0.084 (raw 0.044) vs bet365 implied 0.103 EV -0.186 @ bet365 | career 1/56, season 1/6, last5 1/5, last10 1/10, vs ORL 0/1, home 1/31, month 11 past seasons 0/6, rest b2b 0/8, opp defence soft 0/14, with Devin Booker 1/45, with Miles Bridges 1/6, with Dillon Brooks 1/35"
+   "text": "[research] Khaman Maluach over 2.5 ast (vs ORL): p=0.084 (raw 0.044) vs bet365 implied 0.100 EV -0.165 @ bet365 | career 1/56, season 1/6, last5 1/5, last10 1/10, vs ORL 0/1, home 1/31, month 11 past seasons 0/6, rest b2b 0/8, opp defence soft 0/14, with Devin Booker 1/45, with Miles Bridges 1/6, with Dillon Brooks 1/35"
   },
   {
    "book": "bet365",
@@ -20029,17 +20029,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.2935,
+   "ev": -0.2563,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.2105,
+   "implied": 0.2,
    "k": 40.0,
    "line": 0.5,
    "opp": "ORL",
    "player": "Khaman Maluach",
    "player_id": "5203685",
-   "price_observed_at": "2026-11-06T01:36:01Z",
+   "price_observed_at": "2026-11-06T01:49:24Z",
    "prob": 0.1487,
    "prob_raw": 0.0952,
    "side": "over",
@@ -20119,7 +20119,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Khaman Maluach over 0.5 fg3m (vs ORL): p=0.149 (raw 0.095) vs bet365 implied 0.210 EV -0.293 @ bet365 | career 5/56, season 1/6, last5 1/5, last10 1/10, vs ORL 0/1, home 4/31, month 11 past seasons 0/6, rest b2b 1/8, opp defence tough 1/13, with Devin Booker 2/45, with Miles Bridges 1/6, with Dillon Brooks 1/35"
+   "text": "[research] Khaman Maluach over 0.5 fg3m (vs ORL): p=0.149 (raw 0.095) vs bet365 implied 0.200 EV -0.256 @ bet365 | career 5/56, season 1/6, last5 1/5, last10 1/10, vs ORL 0/1, home 4/31, month 11 past seasons 0/6, rest b2b 1/8, opp defence tough 1/13, with Devin Booker 2/45, with Miles Bridges 1/6, with Dillon Brooks 1/35"
   },
   {
    "book": "bet365",
@@ -20599,17 +20599,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.351,
+   "ev": -0.3228,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.1739,
+   "implied": 0.1667,
    "k": 40.0,
    "line": 9.5,
    "opp": "ORL",
    "player": "Khaman Maluach",
    "player_id": "5203685",
-   "price_observed_at": "2026-11-06T01:38:59Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.1129,
    "prob_raw": 0.0656,
    "side": "over",
@@ -20689,7 +20689,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Khaman Maluach over 9.5 pts (vs ORL): p=0.113 (raw 0.066) vs bet365 implied 0.174 EV -0.351 @ bet365 | career 3/56, season 1/6, last5 1/5, last10 1/10, vs ORL 0/1, home 1/31, month 11 past seasons 0/6, rest b2b 0/8, opp defence middle 0/15, with Devin Booker 2/45, with Miles Bridges 1/6, with Dillon Brooks 1/35"
+   "text": "[research] Khaman Maluach over 9.5 pts (vs ORL): p=0.113 (raw 0.066) vs bet365 implied 0.167 EV -0.323 @ bet365 | career 3/56, season 1/6, last5 1/5, last10 1/10, vs ORL 0/1, home 1/31, month 11 past seasons 0/6, rest b2b 0/8, opp defence middle 0/15, with Devin Booker 2/45, with Miles Bridges 1/6, with Dillon Brooks 1/35"
   },
   {
    "book": "bet365",
@@ -20979,17 +20979,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.4681,
+   "ev": -0.4739,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.8571,
+   "implied": 0.8667,
    "k": 40.0,
    "line": 2.5,
    "opp": "ORL",
    "player": "Khaman Maluach",
    "player_id": "5203685",
-   "price_observed_at": "2026-11-06T01:38:52Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.4559,
    "prob_raw": 0.4366,
    "side": "over",
@@ -21069,7 +21069,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Khaman Maluach over 2.5 reb (vs ORL): p=0.456 (raw 0.437) vs bet365 implied 0.857 EV -0.468 @ bet365 | career 23/56, season 5/6, last5 4/5, last10 6/10, vs ORL 0/1, home 11/31, month 11 past seasons 0/6, rest b2b 3/8, opp defence middle 7/16, with Devin Booker 17/45, with Miles Bridges 5/6, with Dillon Brooks 11/35"
+   "text": "[research] Khaman Maluach over 2.5 reb (vs ORL): p=0.456 (raw 0.437) vs bet365 implied 0.867 EV -0.474 @ bet365 | career 23/56, season 5/6, last5 4/5, last10 6/10, vs ORL 0/1, home 11/31, month 11 past seasons 0/6, rest b2b 3/8, opp defence middle 7/16, with Devin Booker 17/45, with Miles Bridges 5/6, with Dillon Brooks 11/35"
   },
   {
    "book": "bet365",
@@ -21369,7 +21369,7 @@
    "opp": "ORL",
    "player": "Miles Bridges",
    "player_id": "4066383",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.6251,
    "prob_raw": 0.6505,
    "side": "over",
@@ -21454,17 +21454,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.7452,
+   "ev": 0.662,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.1905,
+   "implied": 0.2,
    "k": 40.0,
    "line": 4.5,
    "opp": "ORL",
    "player": "Miles Bridges",
    "player_id": "4066383",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.3324,
    "prob_raw": 0.2854,
    "side": "over",
@@ -21544,7 +21544,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Miles Bridges over 4.5 ast (vs ORL): p=0.332 (raw 0.285) vs bet365 implied 0.191 EV +0.745 @ bet365 | career 61/218, season 1/6, last5 1/5, last10 1/10, vs ORL 2/11, home 31/107, month 11 past seasons 9/29, rest b2b 15/40, opp defence soft 23/66, with Devin Booker 1/6, with Dillon Brooks 1/6, with Jalen Green 1/6"
+   "text": "[research] Miles Bridges over 4.5 ast (vs ORL): p=0.332 (raw 0.285) vs bet365 implied 0.200 EV +0.662 @ bet365 | career 61/218, season 1/6, last5 1/5, last10 1/10, vs ORL 2/11, home 31/107, month 11 past seasons 9/29, rest b2b 15/40, opp defence soft 23/66, with Devin Booker 1/6, with Dillon Brooks 1/6, with Jalen Green 1/6"
   },
   {
    "book": "bet365",
@@ -21834,17 +21834,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.0066,
+   "ev": 0.0204,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.6,
+   "implied": 0.5918,
    "k": 40.0,
    "line": 1.5,
    "opp": "ORL",
    "player": "Miles Bridges",
    "player_id": "4066383",
-   "price_observed_at": "2026-11-06T01:35:31Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.6039,
    "prob_raw": 0.6242,
    "side": "over",
@@ -21924,22 +21924,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Miles Bridges over 1.5 fg3m (vs ORL): p=0.604 (raw 0.624) vs bet365 implied 0.600 EV +0.007 @ bet365 | career 131/218, season 5/6, last5 5/5, last10 6/10, vs ORL 4/11, home 67/107, month 11 past seasons 21/29, rest b2b 24/40, opp defence tough 39/70, with Devin Booker 5/6, with Dillon Brooks 5/6, with Jalen Green 5/6"
+   "text": "[research] Miles Bridges over 1.5 fg3m (vs ORL): p=0.604 (raw 0.624) vs bet365 implied 0.592 EV +0.020 @ bet365 | career 131/218, season 5/6, last5 5/5, last10 6/10, vs ORL 4/11, home 67/107, month 11 past seasons 21/29, rest b2b 24/40, opp defence tough 39/70, with Devin Booker 5/6, with Dillon Brooks 5/6, with Jalen Green 5/6"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.1304,
+   "ev": 0.1499,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.3448,
+   "implied": 0.339,
    "k": 40.0,
    "line": 2.5,
    "opp": "ORL",
    "player": "Miles Bridges",
    "player_id": "4066383",
-   "price_observed_at": "2026-11-06T01:36:01Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.3898,
    "prob_raw": 0.3542,
    "side": "over",
@@ -22019,22 +22019,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Miles Bridges over 2.5 fg3m (vs ORL): p=0.390 (raw 0.354) vs bet365 implied 0.345 EV +0.130 @ bet365 | career 82/218, season 2/6, last5 2/5, last10 3/10, vs ORL 1/11, home 33/107, month 11 past seasons 14/29, rest b2b 17/40, opp defence tough 20/70, with Devin Booker 2/6, with Dillon Brooks 2/6, with Jalen Green 2/6"
+   "text": "[research] Miles Bridges over 2.5 fg3m (vs ORL): p=0.390 (raw 0.354) vs bet365 implied 0.339 EV +0.150 @ bet365 | career 82/218, season 2/6, last5 2/5, last10 3/10, vs ORL 1/11, home 33/107, month 11 past seasons 14/29, rest b2b 17/40, opp defence tough 20/70, with Devin Booker 2/6, with Dillon Brooks 2/6, with Jalen Green 2/6"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.3397,
+   "ev": 0.3955,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.1667,
+   "implied": 0.16,
    "k": 40.0,
    "line": 3.5,
    "opp": "ORL",
    "player": "Miles Bridges",
    "player_id": "4066383",
-   "price_observed_at": "2026-11-06T01:36:01Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.2233,
    "prob_raw": 0.1655,
    "side": "over",
@@ -22114,7 +22114,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Miles Bridges over 3.5 fg3m (vs ORL): p=0.223 (raw 0.166) vs bet365 implied 0.167 EV +0.340 @ bet365 | career 38/218, season 1/6, last5 1/5, last10 2/10, vs ORL 1/11, home 17/107, month 11 past seasons 5/29, rest b2b 6/40, opp defence tough 10/70, with Devin Booker 1/6, with Dillon Brooks 1/6, with Jalen Green 1/6"
+   "text": "[research] Miles Bridges over 3.5 fg3m (vs ORL): p=0.223 (raw 0.166) vs bet365 implied 0.160 EV +0.396 @ bet365 | career 38/218, season 1/6, last5 1/5, last10 2/10, vs ORL 1/11, home 17/107, month 11 past seasons 5/29, rest b2b 6/40, opp defence tough 10/70, with Devin Booker 1/6, with Dillon Brooks 1/6, with Jalen Green 1/6"
   },
   {
    "book": "bet365",
@@ -22499,17 +22499,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.5492,
+   "ev": 0.5734,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.3125,
+   "implied": 0.3077,
    "k": 40.0,
    "line": 19.5,
    "opp": "ORL",
    "player": "Miles Bridges",
    "player_id": "4066383",
-   "price_observed_at": "2026-11-06T01:36:01Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.4841,
    "prob_raw": 0.4723,
    "side": "over",
@@ -22589,22 +22589,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Miles Bridges over 19.5 pts (vs ORL): p=0.484 (raw 0.472) vs bet365 implied 0.312 EV +0.549 @ bet365 | career 104/218, season 2/6, last5 2/5, last10 3/10, vs ORL 2/11, home 54/107, month 11 past seasons 16/29, rest b2b 19/40, opp defence middle 39/75, with Devin Booker 2/6, with Dillon Brooks 2/6, with Jalen Green 2/6"
+   "text": "[research] Miles Bridges over 19.5 pts (vs ORL): p=0.484 (raw 0.472) vs bet365 implied 0.308 EV +0.573 @ bet365 | career 104/218, season 2/6, last5 2/5, last10 3/10, vs ORL 2/11, home 54/107, month 11 past seasons 16/29, rest b2b 19/40, opp defence middle 39/75, with Devin Booker 2/6, with Dillon Brooks 2/6, with Jalen Green 2/6"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 1.0841,
+   "ev": 1.0169,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.129,
+   "implied": 0.1333,
    "k": 40.0,
    "line": 24.5,
    "opp": "ORL",
    "player": "Miles Bridges",
    "player_id": "4066383",
-   "price_observed_at": "2026-11-06T01:35:31Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.2689,
    "prob_raw": 0.2136,
    "side": "over",
@@ -22684,22 +22684,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Miles Bridges over 24.5 pts (vs ORL): p=0.269 (raw 0.214) vs bet365 implied 0.129 EV +1.084 @ bet365 | career 49/218, season 0/6, last5 0/5, last10 1/10, vs ORL 0/11, home 25/107, month 11 past seasons 8/29, rest b2b 13/40, opp defence middle 18/75, with Devin Booker 0/6, with Dillon Brooks 0/6, with Jalen Green 0/6"
+   "text": "[research] Miles Bridges over 24.5 pts (vs ORL): p=0.269 (raw 0.214) vs bet365 implied 0.133 EV +1.017 @ bet365 | career 49/218, season 0/6, last5 0/5, last10 1/10, vs ORL 0/11, home 25/107, month 11 past seasons 8/29, rest b2b 13/40, opp defence middle 18/75, with Devin Booker 0/6, with Dillon Brooks 0/6, with Jalen Green 0/6"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 1.1611,
+   "ev": 1.2961,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.0625,
+   "implied": 0.0588,
    "k": 40.0,
    "line": 29.5,
    "opp": "ORL",
    "player": "Miles Bridges",
    "player_id": "4066383",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.1351,
    "prob_raw": 0.0836,
    "side": "over",
@@ -22779,7 +22779,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Miles Bridges over 29.5 pts (vs ORL): p=0.135 (raw 0.084) vs bet365 implied 0.062 EV +1.161 @ bet365 | career 18/218, season 0/6, last5 0/5, last10 0/10, vs ORL 0/11, home 12/107, month 11 past seasons 5/29, rest b2b 3/40, opp defence middle 7/75, with Devin Booker 0/6, with Dillon Brooks 0/6, with Jalen Green 0/6"
+   "text": "[research] Miles Bridges over 29.5 pts (vs ORL): p=0.135 (raw 0.084) vs bet365 implied 0.059 EV +1.296 @ bet365 | career 18/218, season 0/6, last5 0/5, last10 0/10, vs ORL 0/11, home 12/107, month 11 past seasons 5/29, rest b2b 3/40, opp defence middle 7/75, with Devin Booker 0/6, with Dillon Brooks 0/6, with Jalen Green 0/6"
   },
   {
    "book": "bet365",
@@ -23164,17 +23164,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.0721,
+   "ev": 0.1351,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.0588,
+   "implied": 0.0556,
    "k": 40.0,
    "line": 12.5,
    "opp": "ORL",
    "player": "Miles Bridges",
    "player_id": "4066383",
-   "price_observed_at": "2026-11-06T01:35:59Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0631,
    "prob_raw": 0.0303,
    "side": "over",
@@ -23254,7 +23254,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Miles Bridges over 12.5 reb (vs ORL): p=0.063 (raw 0.030) vs bet365 implied 0.059 EV +0.072 @ bet365 | career 8/218, season 0/6, last5 0/5, last10 0/10, vs ORL 0/11, home 3/107, month 11 past seasons 1/29, rest b2b 2/40, opp defence middle 1/72, with Devin Booker 0/6, with Dillon Brooks 0/6, with Jalen Green 0/6"
+   "text": "[research] Miles Bridges over 12.5 reb (vs ORL): p=0.063 (raw 0.030) vs bet365 implied 0.056 EV +0.135 @ bet365 | career 8/218, season 0/6, last5 0/5, last10 0/10, vs ORL 0/11, home 3/107, month 11 past seasons 1/29, rest b2b 2/40, opp defence middle 1/72, with Devin Booker 0/6, with Dillon Brooks 0/6, with Jalen Green 0/6"
   },
   {
    "book": "bet365",
@@ -23734,17 +23734,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.3373,
+   "ev": -0.3479,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.5652,
+   "implied": 0.5745,
    "k": 40.0,
    "line": 2.5,
    "opp": "ORL",
    "player": "Oso Ighodaro",
    "player_id": "4601023",
-   "price_observed_at": "2026-11-06T01:38:17Z",
+   "price_observed_at": "2026-11-06T01:49:24Z",
    "prob": 0.3746,
    "prob_raw": 0.3357,
    "side": "over",
@@ -23824,7 +23824,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Oso Ighodaro over 2.5 ast (vs ORL): p=0.375 (raw 0.336) vs bet365 implied 0.565 EV -0.337 @ bet365 | career 46/151, season 3/4, last5 4/5, last10 8/10, vs ORL 2/4, home 23/75, month 11 past seasons 7/25, rest b2b 9/27, opp defence soft 12/46, with Devin Booker 39/128, with Miles Bridges 3/4, with Dillon Brooks 24/65"
+   "text": "[research] Oso Ighodaro over 2.5 ast (vs ORL): p=0.375 (raw 0.336) vs bet365 implied 0.575 EV -0.348 @ bet365 | career 46/151, season 3/4, last5 4/5, last10 8/10, vs ORL 2/4, home 23/75, month 11 past seasons 7/25, rest b2b 9/27, opp defence soft 12/46, with Devin Booker 39/128, with Miles Bridges 3/4, with Dillon Brooks 24/65"
   },
   {
    "book": "bet365",
@@ -23924,17 +23924,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.1594,
+   "ev": -0.1944,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.0833,
+   "implied": 0.087,
    "k": 40.0,
    "line": 6.5,
    "opp": "ORL",
    "player": "Oso Ighodaro",
    "player_id": "4601023",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0701,
    "prob_raw": 0.0348,
    "side": "over",
@@ -24014,7 +24014,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Oso Ighodaro over 6.5 ast (vs ORL): p=0.070 (raw 0.035) vs bet365 implied 0.083 EV -0.159 @ bet365 | career 4/151, season 1/4, last5 1/5, last10 1/10, vs ORL 0/4, home 1/75, month 11 past seasons 0/25, rest b2b 0/27, opp defence soft 1/46, with Devin Booker 4/128, with Miles Bridges 1/4, with Dillon Brooks 1/65"
+   "text": "[research] Oso Ighodaro over 6.5 ast (vs ORL): p=0.070 (raw 0.035) vs bet365 implied 0.087 EV -0.194 @ bet365 | career 4/151, season 1/4, last5 1/5, last10 1/10, vs ORL 0/4, home 1/75, month 11 past seasons 0/25, rest b2b 0/27, opp defence soft 1/46, with Devin Booker 4/128, with Miles Bridges 1/4, with Dillon Brooks 1/65"
   },
   {
    "book": "bet365",
@@ -24114,17 +24114,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.0467,
+   "ev": -0.0405,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.0833,
+   "implied": 0.0909,
    "k": 40.0,
    "line": 14.5,
    "opp": "ORL",
    "player": "Oso Ighodaro",
    "player_id": "4601023",
-   "price_observed_at": "2026-11-06T01:36:01Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0872,
    "prob_raw": 0.0465,
    "side": "over",
@@ -24204,7 +24204,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Oso Ighodaro over 14.5 pts (vs ORL): p=0.087 (raw 0.046) vs bet365 implied 0.083 EV +0.047 @ bet365 | career 6/151, season 0/4, last5 1/5, last10 1/10, vs ORL 0/4, home 4/75, month 11 past seasons 1/25, rest b2b 2/27, opp defence middle 2/43, with Devin Booker 6/128, with Miles Bridges 0/4, with Dillon Brooks 3/65"
+   "text": "[research] Oso Ighodaro over 14.5 pts (vs ORL): p=0.087 (raw 0.046) vs bet365 implied 0.091 EV -0.041 @ bet365 | career 6/151, season 0/4, last5 1/5, last10 1/10, vs ORL 0/4, home 4/75, month 11 past seasons 1/25, rest b2b 2/27, opp defence middle 2/43, with Devin Booker 6/128, with Miles Bridges 0/4, with Dillon Brooks 3/65"
   },
   {
    "book": "bet365",
@@ -24304,17 +24304,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.2564,
+   "ev": -0.2666,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.7333,
+   "implied": 0.7436,
    "k": 40.0,
    "line": 4.5,
    "opp": "ORL",
    "player": "Oso Ighodaro",
    "player_id": "4601023",
-   "price_observed_at": "2026-11-06T01:36:01Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.5453,
    "prob_raw": 0.5502,
    "side": "over",
@@ -24394,22 +24394,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Oso Ighodaro over 4.5 pts (vs ORL): p=0.545 (raw 0.550) vs bet365 implied 0.733 EV -0.256 @ bet365 | career 81/151, season 3/4, last5 4/5, last10 6/10, vs ORL 3/4, home 38/75, month 11 past seasons 12/25, rest b2b 14/27, opp defence middle 23/43, with Devin Booker 68/128, with Miles Bridges 3/4, with Dillon Brooks 41/65"
+   "text": "[research] Oso Ighodaro over 4.5 pts (vs ORL): p=0.545 (raw 0.550) vs bet365 implied 0.744 EV -0.267 @ bet365 | career 81/151, season 3/4, last5 4/5, last10 6/10, vs ORL 3/4, home 38/75, month 11 past seasons 12/25, rest b2b 14/27, opp defence middle 23/43, with Devin Booker 68/128, with Miles Bridges 3/4, with Dillon Brooks 41/65"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.1381,
+   "ev": -0.1642,
    "fair": null,
    "game_id": "401909936",
    "home": true,
-   "implied": 0.303,
+   "implied": 0.3125,
    "k": 40.0,
    "line": 9.5,
    "opp": "ORL",
    "player": "Oso Ighodaro",
    "player_id": "4601023",
-   "price_observed_at": "2026-11-06T01:36:01Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.2612,
    "prob_raw": 0.2052,
    "side": "over",
@@ -24489,7 +24489,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Oso Ighodaro over 9.5 pts (vs ORL): p=0.261 (raw 0.205) vs bet365 implied 0.303 EV -0.138 @ bet365 | career 29/151, season 1/4, last5 2/5, last10 3/10, vs ORL 2/4, home 15/75, month 11 past seasons 4/25, rest b2b 6/27, opp defence middle 11/43, with Devin Booker 25/128, with Miles Bridges 1/4, with Dillon Brooks 13/65"
+   "text": "[research] Oso Ighodaro over 9.5 pts (vs ORL): p=0.261 (raw 0.205) vs bet365 implied 0.312 EV -0.164 @ bet365 | career 29/151, season 1/4, last5 2/5, last10 3/10, vs ORL 2/4, home 15/75, month 11 past seasons 4/25, rest b2b 6/27, opp defence middle 11/43, with Devin Booker 25/128, with Miles Bridges 1/4, with Dillon Brooks 13/65"
   },
   {
    "book": "bet365",
@@ -25064,17 +25064,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.2713,
+   "ev": -0.2589,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.339,
+   "implied": 0.3333,
    "k": 40.0,
    "line": 2.5,
    "opp": "PHX",
    "player": "Tristan da Silva",
    "player_id": "4702382",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.247,
    "prob_raw": 0.1901,
    "side": "over",
@@ -25154,22 +25154,22 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Tristan da Silva over 2.5 ast (@ PHX): p=0.247 (raw 0.190) vs bet365 implied 0.339 EV -0.271 @ bet365 | career 32/170, season 2/7, last5 1/5, last10 2/10, vs PHX 2/4, away 18/82, month 11 past seasons 5/30, rest 2+ days 3/36, opp defence soft 10/51, with Franz Wagner 15/102, with Desmond Bane 19/93, with Wendell Carter Jr. 29/152"
+   "text": "[research] Tristan da Silva over 2.5 ast (@ PHX): p=0.247 (raw 0.190) vs bet365 implied 0.333 EV -0.259 @ bet365 | career 32/170, season 2/7, last5 1/5, last10 2/10, vs PHX 2/4, away 18/82, month 11 past seasons 5/30, rest 2+ days 3/36, opp defence soft 10/51, with Franz Wagner 15/102, with Desmond Bane 19/93, with Wendell Carter Jr. 29/152"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.0392,
+   "ev": 0.0481,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.0909,
+   "implied": 0.0833,
    "k": 40.0,
    "line": 4.5,
    "opp": "PHX",
    "player": "Tristan da Silva",
    "player_id": "4702382",
-   "price_observed_at": "2026-11-06T01:35:29Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0873,
    "prob_raw": 0.0466,
    "side": "over",
@@ -25249,7 +25249,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Tristan da Silva over 4.5 ast (@ PHX): p=0.087 (raw 0.047) vs bet365 implied 0.091 EV -0.039 @ bet365 | career 8/170, season 0/7, last5 0/5, last10 0/10, vs PHX 1/4, away 5/82, month 11 past seasons 1/30, rest 2+ days 1/36, opp defence soft 5/51, with Franz Wagner 4/102, with Desmond Bane 4/93, with Wendell Carter Jr. 7/152"
+   "text": "[research] Tristan da Silva over 4.5 ast (@ PHX): p=0.087 (raw 0.047) vs bet365 implied 0.083 EV +0.048 @ bet365 | career 8/170, season 0/7, last5 0/5, last10 0/10, vs PHX 1/4, away 5/82, month 11 past seasons 1/30, rest 2+ days 1/36, opp defence soft 5/51, with Franz Wagner 4/102, with Desmond Bane 4/93, with Wendell Carter Jr. 7/152"
   },
   {
    "book": "bet365",
@@ -25539,17 +25539,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.4217,
+   "ev": -0.4302,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.4878,
+   "implied": 0.495,
    "k": 40.0,
    "line": 2.5,
    "opp": "PHX",
    "player": "Tristan da Silva",
    "player_id": "4702382",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:49:49Z",
    "prob": 0.2821,
    "prob_raw": 0.228,
    "side": "over",
@@ -25629,22 +25629,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Tristan da Silva over 2.5 fg3m (@ PHX): p=0.282 (raw 0.228) vs bet365 implied 0.488 EV -0.422 @ bet365 | career 34/170, season 4/7, last5 3/5, last10 4/10, vs PHX 0/4, away 16/82, month 11 past seasons 7/30, rest 2+ days 9/36, opp defence soft 9/60, with Franz Wagner 17/102, with Desmond Bane 25/93, with Wendell Carter Jr. 32/152"
+   "text": "[research] Tristan da Silva over 2.5 fg3m (@ PHX): p=0.282 (raw 0.228) vs bet365 implied 0.495 EV -0.430 @ bet365 | career 34/170, season 4/7, last5 3/5, last10 4/10, vs PHX 0/4, away 16/82, month 11 past seasons 7/30, rest 2+ days 9/36, opp defence soft 9/60, with Franz Wagner 17/102, with Desmond Bane 25/93, with Wendell Carter Jr. 32/152"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.3706,
+   "ev": -0.3619,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.2778,
+   "implied": 0.274,
    "k": 40.0,
    "line": 3.5,
    "opp": "PHX",
    "player": "Tristan da Silva",
    "player_id": "4702382",
-   "price_observed_at": "2026-11-06T01:36:38Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.1748,
    "prob_raw": 0.1185,
    "side": "over",
@@ -25724,7 +25724,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Tristan da Silva over 3.5 fg3m (@ PHX): p=0.175 (raw 0.118) vs bet365 implied 0.278 EV -0.371 @ bet365 | career 15/170, season 4/7, last5 3/5, last10 4/10, vs PHX 0/4, away 7/82, month 11 past seasons 2/30, rest 2+ days 4/36, opp defence soft 4/60, with Franz Wagner 8/102, with Desmond Bane 9/93, with Wendell Carter Jr. 14/152"
+   "text": "[research] Tristan da Silva over 3.5 fg3m (@ PHX): p=0.175 (raw 0.118) vs bet365 implied 0.274 EV -0.362 @ bet365 | career 15/170, season 4/7, last5 3/5, last10 4/10, vs PHX 0/4, away 7/82, month 11 past seasons 2/30, rest 2+ days 4/36, opp defence soft 4/60, with Franz Wagner 8/102, with Desmond Bane 9/93, with Wendell Carter Jr. 14/152"
   },
   {
    "book": "bet365",
@@ -26109,17 +26109,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.2184,
+   "ev": -0.231,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.3226,
+   "implied": 0.3279,
    "k": 40.0,
    "line": 14.5,
    "opp": "PHX",
    "player": "Tristan da Silva",
    "player_id": "4702382",
-   "price_observed_at": "2026-11-06T01:38:52Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.2521,
    "prob_raw": 0.1955,
    "side": "over",
@@ -26199,7 +26199,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Tristan da Silva over 14.5 pts (@ PHX): p=0.252 (raw 0.196) vs bet365 implied 0.323 EV -0.218 @ bet365 | career 31/170, season 3/7, last5 3/5, last10 3/10, vs PHX 0/4, away 10/82, month 11 past seasons 5/30, rest 2+ days 9/36, opp defence soft 9/55, with Franz Wagner 15/102, with Desmond Bane 21/93, with Wendell Carter Jr. 29/152"
+   "text": "[research] Tristan da Silva over 14.5 pts (@ PHX): p=0.252 (raw 0.196) vs bet365 implied 0.328 EV -0.231 @ bet365 | career 31/170, season 3/7, last5 3/5, last10 3/10, vs PHX 0/4, away 10/82, month 11 past seasons 5/30, rest 2+ days 9/36, opp defence soft 9/55, with Franz Wagner 15/102, with Desmond Bane 21/93, with Wendell Carter Jr. 29/152"
   },
   {
    "book": "bet365",
@@ -26299,17 +26299,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.4805,
+   "ev": -0.5094,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.0556,
+   "implied": 0.0588,
    "k": 40.0,
    "line": 24.5,
    "opp": "PHX",
    "player": "Tristan da Silva",
    "player_id": "4702382",
-   "price_observed_at": "2026-11-06T01:38:52Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.0289,
    "prob_raw": 0.0109,
    "side": "over",
@@ -26389,7 +26389,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Tristan da Silva over 24.5 pts (@ PHX): p=0.029 (raw 0.011) vs bet365 implied 0.056 EV -0.480 @ bet365 | career 2/170, season 0/7, last5 0/5, last10 0/10, vs PHX 0/4, away 1/82, month 11 past seasons 0/30, rest 2+ days 0/36, opp defence soft 2/55, with Franz Wagner 0/102, with Desmond Bane 1/93, with Wendell Carter Jr. 2/152"
+   "text": "[research] Tristan da Silva over 24.5 pts (@ PHX): p=0.029 (raw 0.011) vs bet365 implied 0.059 EV -0.509 @ bet365 | career 2/170, season 0/7, last5 0/5, last10 0/10, vs PHX 0/4, away 1/82, month 11 past seasons 0/30, rest 2+ days 0/36, opp defence soft 2/55, with Franz Wagner 0/102, with Desmond Bane 1/93, with Wendell Carter Jr. 2/152"
   },
   {
    "book": "bet365",
@@ -26584,17 +26584,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.3475,
+   "ev": -0.3598,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.6429,
+   "implied": 0.6552,
    "k": 40.0,
    "line": 9.5,
    "opp": "PHX",
    "player": "Tristan da Silva",
    "player_id": "4702382",
-   "price_observed_at": "2026-11-06T01:36:01Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.4194,
    "prob_raw": 0.3908,
    "side": "over",
@@ -26674,7 +26674,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Tristan da Silva over 9.5 pts (@ PHX): p=0.419 (raw 0.391) vs bet365 implied 0.643 EV -0.347 @ bet365 | career 63/170, season 5/7, last5 4/5, last10 6/10, vs PHX 0/4, away 27/82, month 11 past seasons 13/30, rest 2+ days 12/36, opp defence soft 20/55, with Franz Wagner 29/102, with Desmond Bane 44/93, with Wendell Carter Jr. 57/152"
+   "text": "[research] Tristan da Silva over 9.5 pts (@ PHX): p=0.419 (raw 0.391) vs bet365 implied 0.655 EV -0.360 @ bet365 | career 63/170, season 5/7, last5 4/5, last10 6/10, vs PHX 0/4, away 27/82, month 11 past seasons 13/30, rest 2+ days 12/36, opp defence soft 20/55, with Franz Wagner 29/102, with Desmond Bane 44/93, with Wendell Carter Jr. 57/152"
   },
   {
    "book": "bet365",
@@ -26879,7 +26879,7 @@
    "opp": "PHX",
    "player": "Tristan da Silva",
    "player_id": "4702382",
-   "price_observed_at": "2026-11-06T01:35:29Z",
+   "price_observed_at": "2026-11-06T01:49:49Z",
    "prob": 0.3027,
    "prob_raw": 0.2511,
    "side": "over",
@@ -26964,17 +26964,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.3777,
+   "ev": -0.4104,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.2105,
+   "implied": 0.2222,
    "k": 40.0,
    "line": 6.5,
    "opp": "PHX",
    "player": "Tristan da Silva",
    "player_id": "4702382",
-   "price_observed_at": "2026-11-06T01:38:52Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.131,
    "prob_raw": 0.0802,
    "side": "over",
@@ -27054,22 +27054,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Tristan da Silva over 6.5 reb (@ PHX): p=0.131 (raw 0.080) vs bet365 implied 0.210 EV -0.378 @ bet365 | career 14/170, season 1/7, last5 1/5, last10 1/10, vs PHX 1/4, away 4/82, month 11 past seasons 3/30, rest 2+ days 1/36, opp defence soft 7/58, with Franz Wagner 4/102, with Desmond Bane 9/93, with Wendell Carter Jr. 12/152"
+   "text": "[research] Tristan da Silva over 6.5 reb (@ PHX): p=0.131 (raw 0.080) vs bet365 implied 0.222 EV -0.410 @ bet365 | career 14/170, season 1/7, last5 1/5, last10 1/10, vs PHX 1/4, away 4/82, month 11 past seasons 3/30, rest 2+ days 1/36, opp defence soft 7/58, with Franz Wagner 4/102, with Desmond Bane 9/93, with Wendell Carter Jr. 12/152"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.164,
+   "ev": -0.2105,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.0556,
+   "implied": 0.0588,
    "k": 40.0,
    "line": 9.5,
    "opp": "PHX",
    "player": "Tristan da Silva",
    "player_id": "4702382",
-   "price_observed_at": "2026-11-06T01:38:52Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.0464,
    "prob_raw": 0.0203,
    "side": "over",
@@ -27149,22 +27149,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Tristan da Silva over 9.5 reb (@ PHX): p=0.046 (raw 0.020) vs bet365 implied 0.056 EV -0.164 @ bet365 | career 2/170, season 1/7, last5 1/5, last10 1/10, vs PHX 0/4, away 0/82, month 11 past seasons 0/30, rest 2+ days 0/36, opp defence soft 2/58, with Franz Wagner 1/102, with Desmond Bane 1/93, with Wendell Carter Jr. 2/152"
+   "text": "[research] Tristan da Silva over 9.5 reb (@ PHX): p=0.046 (raw 0.020) vs bet365 implied 0.059 EV -0.210 @ bet365 | career 2/170, season 1/7, last5 1/5, last10 1/10, vs PHX 0/4, away 0/82, month 11 past seasons 0/30, rest 2+ days 0/36, opp defence soft 2/58, with Franz Wagner 1/102, with Desmond Bane 1/93, with Wendell Carter Jr. 2/152"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.103,
+   "ev": 0.1199,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.3077,
+   "implied": 0.303,
    "k": 40.0,
    "line": 2.5,
    "opp": "PHX",
    "player": "Wendell Carter Jr.",
    "player_id": "4277847",
-   "price_observed_at": "2026-11-06T01:38:17Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.3394,
    "prob_raw": 0.2935,
    "side": "over",
@@ -27244,22 +27244,22 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Wendell Carter Jr. over 2.5 ast (@ PHX): p=0.339 (raw 0.293) vs bet365 implied 0.308 EV +0.103 @ bet365 | career 87/287, season 1/7, last5 1/5, last10 2/10, vs PHX 2/7, away 44/145, month 11 past seasons 10/25, rest 2+ days 18/67, opp defence soft 21/82, with Franz Wagner 62/212, with Desmond Bane 31/94, with Tristan da Silva 49/152"
+   "text": "[research] Wendell Carter Jr. over 2.5 ast (@ PHX): p=0.339 (raw 0.293) vs bet365 implied 0.303 EV +0.120 @ bet365 | career 87/287, season 1/7, last5 1/5, last10 2/10, vs PHX 2/7, away 44/145, month 11 past seasons 10/25, rest 2+ days 18/67, opp defence soft 21/82, with Franz Wagner 62/212, with Desmond Bane 31/94, with Tristan da Silva 49/152"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.027,
+   "ev": 0.0716,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.087,
+   "implied": 0.0833,
    "k": 40.0,
    "line": 4.5,
    "opp": "PHX",
    "player": "Wendell Carter Jr.",
    "player_id": "4277847",
-   "price_observed_at": "2026-11-06T01:34:56Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.0893,
    "prob_raw": 0.048,
    "side": "over",
@@ -27339,7 +27339,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Wendell Carter Jr. over 4.5 ast (@ PHX): p=0.089 (raw 0.048) vs bet365 implied 0.087 EV +0.027 @ bet365 | career 14/287, season 0/7, last5 0/5, last10 0/10, vs PHX 1/7, away 6/145, month 11 past seasons 5/25, rest 2+ days 2/67, opp defence soft 5/82, with Franz Wagner 12/212, with Desmond Bane 3/94, with Tristan da Silva 8/152"
+   "text": "[research] Wendell Carter Jr. over 4.5 ast (@ PHX): p=0.089 (raw 0.048) vs bet365 implied 0.083 EV +0.072 @ bet365 | career 14/287, season 0/7, last5 0/5, last10 0/10, vs PHX 1/7, away 6/145, month 11 past seasons 5/25, rest 2+ days 2/67, opp defence soft 5/82, with Franz Wagner 12/212, with Desmond Bane 3/94, with Tristan da Silva 8/152"
   },
   {
    "book": "bet365",
@@ -27439,17 +27439,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.0812,
+   "ev": -0.0619,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.6429,
+   "implied": 0.6296,
    "k": 40.0,
    "line": 0.5,
    "opp": "PHX",
    "player": "Wendell Carter Jr.",
    "player_id": "4277847",
-   "price_observed_at": "2026-11-06T01:33:54Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.5907,
    "prob_raw": 0.6076,
    "side": "over",
@@ -27529,22 +27529,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Wendell Carter Jr. over 0.5 fg3m (@ PHX): p=0.591 (raw 0.608) vs bet365 implied 0.643 EV -0.081 @ bet365 | career 174/287, season 4/7, last5 2/5, last10 7/10, vs PHX 5/7, away 92/145, month 11 past seasons 21/25, rest 2+ days 38/67, opp defence soft 62/96, with Franz Wagner 132/212, with Desmond Bane 57/94, with Tristan da Silva 78/152"
+   "text": "[research] Wendell Carter Jr. over 0.5 fg3m (@ PHX): p=0.591 (raw 0.608) vs bet365 implied 0.630 EV -0.062 @ bet365 | career 174/287, season 4/7, last5 2/5, last10 7/10, vs PHX 5/7, away 92/145, month 11 past seasons 21/25, rest 2+ days 38/67, opp defence soft 62/96, with Franz Wagner 132/212, with Desmond Bane 57/94, with Tristan da Silva 78/152"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.2012,
+   "ev": 0.1852,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.2667,
+   "implied": 0.2703,
    "k": 40.0,
    "line": 1.5,
    "opp": "PHX",
    "player": "Wendell Carter Jr.",
    "player_id": "4277847",
-   "price_observed_at": "2026-11-06T01:38:52Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.3203,
    "prob_raw": 0.2713,
    "side": "over",
@@ -27624,22 +27624,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Wendell Carter Jr. over 1.5 fg3m (@ PHX): p=0.320 (raw 0.271) vs bet365 implied 0.267 EV +0.201 @ bet365 | career 77/287, season 1/7, last5 0/5, last10 1/10, vs PHX 3/7, away 48/145, month 11 past seasons 11/25, rest 2+ days 18/67, opp defence soft 35/96, with Franz Wagner 64/212, with Desmond Bane 22/94, with Tristan da Silva 28/152"
+   "text": "[research] Wendell Carter Jr. over 1.5 fg3m (@ PHX): p=0.320 (raw 0.271) vs bet365 implied 0.270 EV +0.185 @ bet365 | career 77/287, season 1/7, last5 0/5, last10 1/10, vs PHX 3/7, away 48/145, month 11 past seasons 11/25, rest 2+ days 18/67, opp defence soft 35/96, with Franz Wagner 64/212, with Desmond Bane 22/94, with Tristan da Silva 28/152"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": 0.2151,
+   "ev": 0.184,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.1026,
+   "implied": 0.1053,
    "k": 40.0,
    "line": 2.5,
    "opp": "PHX",
    "player": "Wendell Carter Jr.",
    "player_id": "4277847",
-   "price_observed_at": "2026-11-06T01:35:59Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.1246,
    "prob_raw": 0.075,
    "side": "over",
@@ -27719,7 +27719,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Wendell Carter Jr. over 2.5 fg3m (@ PHX): p=0.125 (raw 0.075) vs bet365 implied 0.103 EV +0.215 @ bet365 | career 22/287, season 1/7, last5 0/5, last10 1/10, vs PHX 1/7, away 14/145, month 11 past seasons 2/25, rest 2+ days 5/67, opp defence soft 8/96, with Franz Wagner 19/212, with Desmond Bane 4/94, with Tristan da Silva 5/152"
+   "text": "[research] Wendell Carter Jr. over 2.5 fg3m (@ PHX): p=0.125 (raw 0.075) vs bet365 implied 0.105 EV +0.184 @ bet365 | career 22/287, season 1/7, last5 0/5, last10 1/10, vs PHX 1/7, away 14/145, month 11 past seasons 2/25, rest 2+ days 5/67, opp defence soft 8/96, with Franz Wagner 19/212, with Desmond Bane 4/94, with Tristan da Silva 5/152"
   },
   {
    "book": "bet365",
@@ -28009,17 +28009,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.0777,
+   "ev": -0.1132,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.1538,
+   "implied": 0.16,
    "k": 40.0,
    "line": 19.5,
    "opp": "PHX",
    "player": "Wendell Carter Jr.",
    "player_id": "4277847",
-   "price_observed_at": "2026-11-06T01:35:29Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.1419,
    "prob_raw": 0.0893,
    "side": "over",
@@ -28099,22 +28099,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Wendell Carter Jr. over 19.5 pts (@ PHX): p=0.142 (raw 0.089) vs bet365 implied 0.154 EV -0.078 @ bet365 | career 21/287, season 3/7, last5 1/5, last10 3/10, vs PHX 1/7, away 12/145, month 11 past seasons 4/25, rest 2+ days 7/67, opp defence soft 2/91, with Franz Wagner 16/212, with Desmond Bane 8/94, with Tristan da Silva 7/152"
+   "text": "[research] Wendell Carter Jr. over 19.5 pts (@ PHX): p=0.142 (raw 0.089) vs bet365 implied 0.160 EV -0.113 @ bet365 | career 21/287, season 3/7, last5 1/5, last10 3/10, vs PHX 1/7, away 12/145, month 11 past seasons 4/25, rest 2+ days 7/67, opp defence soft 2/91, with Franz Wagner 16/212, with Desmond Bane 8/94, with Tristan da Silva 7/152"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.2445,
+   "ev": -0.339,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.0625,
+   "implied": 0.0714,
    "k": 40.0,
    "line": 24.5,
    "opp": "PHX",
    "player": "Wendell Carter Jr.",
    "player_id": "4277847",
-   "price_observed_at": "2026-11-06T01:33:54Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0472,
    "prob_raw": 0.0207,
    "side": "over",
@@ -28194,22 +28194,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Wendell Carter Jr. over 24.5 pts (@ PHX): p=0.047 (raw 0.021) vs bet365 implied 0.062 EV -0.244 @ bet365 | career 7/287, season 0/7, last5 0/5, last10 0/10, vs PHX 0/7, away 5/145, month 11 past seasons 1/25, rest 2+ days 2/67, opp defence soft 1/91, with Franz Wagner 5/212, with Desmond Bane 2/94, with Tristan da Silva 1/152"
+   "text": "[research] Wendell Carter Jr. over 24.5 pts (@ PHX): p=0.047 (raw 0.021) vs bet365 implied 0.071 EV -0.339 @ bet365 | career 7/287, season 0/7, last5 0/5, last10 0/10, vs PHX 0/7, away 5/145, month 11 past seasons 1/25, rest 2+ days 2/67, opp defence soft 1/91, with Franz Wagner 5/212, with Desmond Bane 2/94, with Tristan da Silva 1/152"
   },
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.5976,
+   "ev": -0.6759,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.0278,
+   "implied": 0.0345,
    "k": 40.0,
    "line": 29.5,
    "opp": "PHX",
    "player": "Wendell Carter Jr.",
    "player_id": "4277847",
-   "price_observed_at": "2026-11-05T21:53:31Z",
+   "price_observed_at": "2026-11-06T01:49:55Z",
    "prob": 0.0112,
    "prob_raw": 0.0032,
    "side": "over",
@@ -28289,7 +28289,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Wendell Carter Jr. over 29.5 pts (@ PHX): p=0.011 (raw 0.003) vs bet365 implied 0.028 EV -0.598 @ bet365 | career 1/287, season 0/7, last5 0/5, last10 0/10, vs PHX 0/7, away 1/145, month 11 past seasons 1/25, rest 2+ days 0/67, opp defence soft 0/91, with Franz Wagner 1/212, with Desmond Bane 0/94, with Tristan da Silva 0/152"
+   "text": "[research] Wendell Carter Jr. over 29.5 pts (@ PHX): p=0.011 (raw 0.003) vs bet365 implied 0.035 EV -0.676 @ bet365 | career 1/287, season 0/7, last5 0/5, last10 0/10, vs PHX 0/7, away 1/145, month 11 past seasons 1/25, rest 2+ days 0/67, opp defence soft 0/91, with Franz Wagner 1/212, with Desmond Bane 0/94, with Tristan da Silva 0/152"
   },
   {
    "book": "bet365",
@@ -28389,17 +28389,17 @@
   {
    "book": "bet365",
    "date": "2026-11-05",
-   "ev": -0.2266,
+   "ev": -0.2328,
    "fair": null,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.75,
+   "implied": 0.7561,
    "k": 40.0,
    "line": 9.5,
    "opp": "PHX",
    "player": "Wendell Carter Jr.",
    "player_id": "4277847",
-   "price_observed_at": "2026-11-06T00:50:09Z",
+   "price_observed_at": "2026-11-06T01:50:19Z",
    "prob": 0.5801,
    "prob_raw": 0.5942,
    "side": "over",
@@ -28479,7 +28479,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Wendell Carter Jr. over 9.5 pts (@ PHX): p=0.580 (raw 0.594) vs bet365 implied 0.750 EV -0.227 @ bet365 | career 173/287, season 3/7, last5 1/5, last10 4/10, vs PHX 4/7, away 86/145, month 11 past seasons 20/25, rest 2+ days 40/67, opp defence soft 61/91, with Franz Wagner 128/212, with Desmond Bane 57/94, with Tristan da Silva 81/152"
+   "text": "[research] Wendell Carter Jr. over 9.5 pts (@ PHX): p=0.580 (raw 0.594) vs bet365 implied 0.756 EV -0.233 @ bet365 | career 173/287, season 3/7, last5 1/5, last10 4/10, vs PHX 4/7, away 86/145, month 11 past seasons 20/25, rest 2+ days 40/67, opp defence soft 61/91, with Franz Wagner 128/212, with Desmond Bane 57/94, with Tristan da Silva 81/152"
   },
   {
    "book": "bet365",
@@ -29349,7 +29349,7 @@
    "opp": "ORL",
    "player": "Devin Booker",
    "player_id": "3136193",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.5526,
    "prob_raw": 0.5594,
    "side": "over",
@@ -29444,7 +29444,7 @@
    "opp": "ORL",
    "player": "Devin Booker",
    "player_id": "3136193",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.4591,
    "prob_raw": 0.4406,
    "side": "under",
@@ -29539,7 +29539,7 @@
    "opp": "ORL",
    "player": "Devin Booker",
    "player_id": "3136193",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.4265,
    "prob_raw": 0.3996,
    "side": "under",
@@ -29634,7 +29634,7 @@
    "opp": "ORL",
    "player": "Devin Booker",
    "player_id": "3136193",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.471,
    "prob_raw": 0.4557,
    "side": "under",
@@ -29919,7 +29919,7 @@
    "opp": "ORL",
    "player": "Devin Booker",
    "player_id": "3136193",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.5601,
    "prob_raw": 0.569,
    "side": "over",
@@ -30014,7 +30014,7 @@
    "opp": "ORL",
    "player": "Devin Booker",
    "player_id": "3136193",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.4515,
    "prob_raw": 0.431,
    "side": "under",
@@ -30109,7 +30109,7 @@
    "opp": "ORL",
    "player": "Dillon Brooks",
    "player_id": "3155526",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.6424,
    "prob_raw": 0.6717,
    "side": "under",
@@ -30204,7 +30204,7 @@
    "opp": "ORL",
    "player": "Dillon Brooks",
    "player_id": "3155526",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.4388,
    "prob_raw": 0.415,
    "side": "under",
@@ -30299,7 +30299,7 @@
    "opp": "ORL",
    "player": "Dillon Brooks",
    "player_id": "3155526",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.485,
    "prob_raw": 0.4734,
    "side": "over",
@@ -30394,7 +30394,7 @@
    "opp": "ORL",
    "player": "Dillon Brooks",
    "player_id": "3155526",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.5268,
    "prob_raw": 0.5266,
    "side": "under",
@@ -30869,7 +30869,7 @@
    "opp": "ORL",
    "player": "Dillon Brooks",
    "player_id": "3155526",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.6303,
    "prob_raw": 0.6569,
    "side": "under",
@@ -31819,7 +31819,7 @@
    "opp": "ORL",
    "player": "Miles Bridges",
    "player_id": "4066383",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.386,
    "prob_raw": 0.3495,
    "side": "under",
@@ -31914,7 +31914,7 @@
    "opp": "ORL",
    "player": "Miles Bridges",
    "player_id": "4066383",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.4074,
    "prob_raw": 0.3758,
    "side": "under",
@@ -32009,7 +32009,7 @@
    "opp": "ORL",
    "player": "Miles Bridges",
    "player_id": "4066383",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.6768,
    "prob_raw": 0.7133,
    "side": "over",
@@ -32104,7 +32104,7 @@
    "opp": "ORL",
    "player": "Miles Bridges",
    "player_id": "4066383",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.3335,
    "prob_raw": 0.2867,
    "side": "under",
@@ -32389,7 +32389,7 @@
    "opp": "ORL",
    "player": "Miles Bridges",
    "player_id": "4066383",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.4815,
    "prob_raw": 0.469,
    "side": "under",
@@ -33339,7 +33339,7 @@
    "opp": "PHX",
    "player": "Wendell Carter Jr.",
    "player_id": "4277847",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.6833,
    "prob_raw": 0.721,
    "side": "under",
@@ -33909,7 +33909,7 @@
    "opp": "ORL",
    "player": "Collin Gillespie",
    "player_id": "4278585",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.4928,
    "prob_raw": 0.4834,
    "side": "over",
@@ -34004,7 +34004,7 @@
    "opp": "ORL",
    "player": "Collin Gillespie",
    "player_id": "4278585",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.5189,
    "prob_raw": 0.5166,
    "side": "under",
@@ -34099,7 +34099,7 @@
    "opp": "ORL",
    "player": "Collin Gillespie",
    "player_id": "4278585",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.4607,
    "prob_raw": 0.4427,
    "side": "under",
@@ -34289,7 +34289,7 @@
    "opp": "ORL",
    "player": "Collin Gillespie",
    "player_id": "4278585",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.5179,
    "prob_raw": 0.5154,
    "side": "under",
@@ -34384,7 +34384,7 @@
    "opp": "ORL",
    "player": "Collin Gillespie",
    "player_id": "4278585",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.4247,
    "prob_raw": 0.3974,
    "side": "over",
@@ -34479,7 +34479,7 @@
    "opp": "ORL",
    "player": "Collin Gillespie",
    "player_id": "4278585",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.5867,
    "prob_raw": 0.6026,
    "side": "under",
@@ -34574,7 +34574,7 @@
    "opp": "ORL",
    "player": "Jalen Green",
    "player_id": "4437244",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.4402,
    "prob_raw": 0.4167,
    "side": "over",
@@ -34669,7 +34669,7 @@
    "opp": "ORL",
    "player": "Jalen Green",
    "player_id": "4437244",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.5714,
    "prob_raw": 0.5833,
    "side": "under",
@@ -34764,7 +34764,7 @@
    "opp": "ORL",
    "player": "Jalen Green",
    "player_id": "4437244",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.3945,
    "prob_raw": 0.3599,
    "side": "under",
@@ -34859,7 +34859,7 @@
    "opp": "ORL",
    "player": "Jalen Green",
    "player_id": "4437244",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.5651,
    "prob_raw": 0.5753,
    "side": "over",
@@ -34954,7 +34954,7 @@
    "opp": "ORL",
    "player": "Jalen Green",
    "player_id": "4437244",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.4465,
    "prob_raw": 0.4247,
    "side": "under",
@@ -35049,7 +35049,7 @@
    "opp": "ORL",
    "player": "Jalen Green",
    "player_id": "4437244",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.5752,
    "prob_raw": 0.5881,
    "side": "over",
@@ -35144,7 +35144,7 @@
    "opp": "ORL",
    "player": "Jalen Green",
    "player_id": "4437244",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.4363,
    "prob_raw": 0.4119,
    "side": "under",
@@ -35619,7 +35619,7 @@
    "opp": "PHX",
    "player": "Franz Wagner",
    "player_id": "4566434",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.3674,
    "prob_raw": 0.327,
    "side": "over",
@@ -35714,7 +35714,7 @@
    "opp": "PHX",
    "player": "Franz Wagner",
    "player_id": "4566434",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.6434,
    "prob_raw": 0.673,
    "side": "under",
@@ -36094,7 +36094,7 @@
    "opp": "ORL",
    "player": "Oso Ighodaro",
    "player_id": "4601023",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.6364,
    "prob_raw": 0.6643,
    "side": "under",
@@ -36365,6 +36365,196 @@
    "stat": "pts",
    "status": "research",
    "text": "[research] Oso Ighodaro under 6.5 pts (vs ORL): p=0.596 (raw 0.615) vs DraftKings implied 0.552 EV +0.079 @ DraftKings | career 97/151, season 1/4, last5 1/5, last10 4/10, vs ORL 2/4, home 49/75, month 11 past seasons 18/25, rest b2b 16/27, opp defence middle 26/43, with Devin Booker 83/128, with Miles Bridges 1/4, with Dillon Brooks 38/65"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-05",
+   "ev": -0.3148,
+   "fair": null,
+   "game_id": "401909936",
+   "home": true,
+   "implied": 0.5714,
+   "k": 40.0,
+   "line": 7.5,
+   "opp": "ORL",
+   "player": "Oso Ighodaro",
+   "player_id": "4601023",
+   "price_observed_at": "2026-11-06T01:50:23Z",
+   "prob": 0.3915,
+   "prob_raw": 0.3563,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 49,
+     "n": 151,
+     "rate": 0.325,
+     "split": "career"
+    },
+    {
+     "hits": 3,
+     "n": 4,
+     "rate": 0.75,
+     "split": "season"
+    },
+    {
+     "hits": 4,
+     "n": 5,
+     "rate": 0.8,
+     "split": "last5"
+    },
+    {
+     "hits": 5,
+     "n": 10,
+     "rate": 0.5,
+     "split": "last10"
+    },
+    {
+     "hits": 2,
+     "n": 4,
+     "rate": 0.5,
+     "split": "vs ORL"
+    },
+    {
+     "hits": 23,
+     "n": 75,
+     "rate": 0.307,
+     "split": "home"
+    },
+    {
+     "hits": 6,
+     "n": 25,
+     "rate": 0.24,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 11,
+     "n": 27,
+     "rate": 0.407,
+     "split": "rest b2b"
+    },
+    {
+     "hits": 17,
+     "n": 43,
+     "rate": 0.395,
+     "split": "opp defence middle"
+    },
+    {
+     "hits": 41,
+     "n": 128,
+     "rate": 0.32,
+     "split": "with Devin Booker"
+    },
+    {
+     "hits": 3,
+     "n": 4,
+     "rate": 0.75,
+     "split": "with Miles Bridges"
+    },
+    {
+     "hits": 25,
+     "n": 65,
+     "rate": 0.385,
+     "split": "with Dillon Brooks"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Oso Ighodaro over 7.5 pts (vs ORL): p=0.392 (raw 0.356) vs DraftKings implied 0.571 EV -0.315 @ DraftKings | career 49/151, season 3/4, last5 4/5, last10 5/10, vs ORL 2/4, home 23/75, month 11 past seasons 6/25, rest b2b 11/27, opp defence middle 17/43, with Devin Booker 41/128, with Miles Bridges 3/4, with Dillon Brooks 25/65"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-05",
+   "ev": 0.0843,
+   "fair": null,
+   "game_id": "401909936",
+   "home": true,
+   "implied": 0.5714,
+   "k": 40.0,
+   "line": 7.5,
+   "opp": "ORL",
+   "player": "Oso Ighodaro",
+   "player_id": "4601023",
+   "price_observed_at": "2026-11-06T01:50:23Z",
+   "prob": 0.6196,
+   "prob_raw": 0.6437,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 102,
+     "n": 151,
+     "rate": 0.675,
+     "split": "career"
+    },
+    {
+     "hits": 1,
+     "n": 4,
+     "rate": 0.25,
+     "split": "season"
+    },
+    {
+     "hits": 1,
+     "n": 5,
+     "rate": 0.2,
+     "split": "last5"
+    },
+    {
+     "hits": 5,
+     "n": 10,
+     "rate": 0.5,
+     "split": "last10"
+    },
+    {
+     "hits": 2,
+     "n": 4,
+     "rate": 0.5,
+     "split": "vs ORL"
+    },
+    {
+     "hits": 52,
+     "n": 75,
+     "rate": 0.693,
+     "split": "home"
+    },
+    {
+     "hits": 19,
+     "n": 25,
+     "rate": 0.76,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 16,
+     "n": 27,
+     "rate": 0.593,
+     "split": "rest b2b"
+    },
+    {
+     "hits": 26,
+     "n": 43,
+     "rate": 0.605,
+     "split": "opp defence middle"
+    },
+    {
+     "hits": 87,
+     "n": 128,
+     "rate": 0.68,
+     "split": "with Devin Booker"
+    },
+    {
+     "hits": 1,
+     "n": 4,
+     "rate": 0.25,
+     "split": "with Miles Bridges"
+    },
+    {
+     "hits": 40,
+     "n": 65,
+     "rate": 0.615,
+     "split": "with Dillon Brooks"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Oso Ighodaro under 7.5 pts (vs ORL): p=0.620 (raw 0.644) vs DraftKings implied 0.571 EV +0.084 @ DraftKings | career 102/151, season 1/4, last5 1/5, last10 5/10, vs ORL 2/4, home 52/75, month 11 past seasons 19/25, rest b2b 16/27, opp defence middle 26/43, with Devin Booker 87/128, with Miles Bridges 1/4, with Dillon Brooks 40/65"
   },
   {
    "book": "DraftKings",
@@ -36650,6 +36840,101 @@
    "stat": "reb",
    "status": "research",
    "text": "[research] Oso Ighodaro under 5.5 reb (vs ORL): p=0.610 (raw 0.632) vs DraftKings implied 0.610 EV +0.000 @ DraftKings | career 99/151, season 2/4, last5 3/5, last10 4/10, vs ORL 1/4, home 49/75, month 11 past seasons 18/25, rest b2b 13/27, opp defence middle 29/48, with Devin Booker 84/128, with Miles Bridges 2/4, with Dillon Brooks 40/65"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-05",
+   "ev": 0.2054,
+   "fair": 0.5438,
+   "game_id": "401909936",
+   "home": true,
+   "implied": 0.5814,
+   "k": 40.0,
+   "line": 6.5,
+   "opp": "ORL",
+   "player": "Oso Ighodaro",
+   "player_id": "4601023",
+   "price_observed_at": "2026-11-06T01:50:23Z",
+   "prob": 0.7008,
+   "prob_raw": 0.7415,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 117,
+     "n": 151,
+     "rate": 0.775,
+     "split": "career"
+    },
+    {
+     "hits": 2,
+     "n": 4,
+     "rate": 0.5,
+     "split": "season"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "last5"
+    },
+    {
+     "hits": 6,
+     "n": 10,
+     "rate": 0.6,
+     "split": "last10"
+    },
+    {
+     "hits": 1,
+     "n": 4,
+     "rate": 0.25,
+     "split": "vs ORL"
+    },
+    {
+     "hits": 57,
+     "n": 75,
+     "rate": 0.76,
+     "split": "home"
+    },
+    {
+     "hits": 19,
+     "n": 25,
+     "rate": 0.76,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 18,
+     "n": 27,
+     "rate": 0.667,
+     "split": "rest b2b"
+    },
+    {
+     "hits": 37,
+     "n": 48,
+     "rate": 0.771,
+     "split": "opp defence middle"
+    },
+    {
+     "hits": 98,
+     "n": 128,
+     "rate": 0.766,
+     "split": "with Devin Booker"
+    },
+    {
+     "hits": 2,
+     "n": 4,
+     "rate": 0.5,
+     "split": "with Miles Bridges"
+    },
+    {
+     "hits": 45,
+     "n": 65,
+     "rate": 0.692,
+     "split": "with Dillon Brooks"
+    }
+   ],
+   "stat": "reb",
+   "status": "research",
+   "text": "[research] Oso Ighodaro under 6.5 reb (vs ORL): p=0.701 (raw 0.742) vs DraftKings implied 0.581 EV +0.205 @ DraftKings | career 117/151, season 2/4, last5 3/5, last10 6/10, vs ORL 1/4, home 57/75, month 11 past seasons 19/25, rest b2b 18/27, opp defence middle 37/48, with Devin Booker 98/128, with Miles Bridges 2/4, with Dillon Brooks 45/65"
   },
   {
    "book": "DraftKings",
@@ -37139,7 +37424,7 @@
    "opp": "PHX",
    "player": "Tristan da Silva",
    "player_id": "4702382",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.3085,
    "prob_raw": 0.2577,
    "side": "over",
@@ -37234,7 +37519,7 @@
    "opp": "PHX",
    "player": "Tristan da Silva",
    "player_id": "4702382",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.7015,
    "prob_raw": 0.7423,
    "side": "under",
@@ -37415,7 +37700,7 @@
    "book": "DraftKings",
    "date": "2026-11-05",
    "ev": -0.4238,
-   "fair": null,
+   "fair": 0.5632,
    "game_id": "401909936",
    "home": false,
    "implied": 0.6024,
@@ -37509,11 +37794,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
-   "ev": 0.1014,
-   "fair": null,
+   "ev": 0.4198,
+   "fair": 0.4368,
    "game_id": "401909936",
    "home": false,
-   "implied": 0.6024,
+   "implied": 0.4673,
    "k": 40.0,
    "line": 3.5,
    "opp": "PHX",
@@ -37599,7 +37884,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Anthony Black under 3.5 ast (@ PHX): p=0.663 (raw 0.697) vs DraftKings implied 0.602 EV +0.101 @ DraftKings | career 164/230, season 2/4, last5 3/5, last10 8/10, vs PHX 3/5, away 79/113, month 11 past seasons 28/44, rest 2+ days 44/56, opp defence soft 43/66, with Franz Wagner 129/168, with Desmond Bane 42/77, with Wendell Carter Jr. 136/187"
+   "text": "[research] Anthony Black under 3.5 ast (@ PHX): p=0.663 (raw 0.697) vs DraftKings implied 0.467 EV +0.420 @ DraftKings | career 164/230, season 2/4, last5 3/5, last10 8/10, vs PHX 3/5, away 79/113, month 11 past seasons 28/44, rest 2+ days 44/56, opp defence soft 43/66, with Franz Wagner 129/168, with Desmond Bane 42/77, with Wendell Carter Jr. 136/187"
   },
   {
    "book": "DraftKings",
@@ -38922,6 +39207,184 @@
   {
    "book": "DraftKings",
    "date": "2026-11-05",
+   "ev": -0.446,
+   "fair": null,
+   "game_id": "401909936",
+   "home": false,
+   "implied": 0.5682,
+   "k": 40.0,
+   "line": 7.5,
+   "opp": "PHX",
+   "player": "Jase Richardson",
+   "player_id": "5239561",
+   "price_observed_at": "2026-11-06T01:50:23Z",
+   "prob": 0.3148,
+   "prob_raw": 0.2649,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 16,
+     "n": 63,
+     "rate": 0.254,
+     "split": "career"
+    },
+    {
+     "hits": 2,
+     "n": 7,
+     "rate": 0.286,
+     "split": "season"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "last5"
+    },
+    {
+     "hits": 3,
+     "n": 10,
+     "rate": 0.3,
+     "split": "last10"
+    },
+    {
+     "hits": 9,
+     "n": 34,
+     "rate": 0.265,
+     "split": "away"
+    },
+    {
+     "hits": 1,
+     "n": 7,
+     "rate": 0.143,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 8,
+     "n": 24,
+     "rate": 0.333,
+     "split": "rest 2+ days"
+    },
+    {
+     "hits": 6,
+     "n": 20,
+     "rate": 0.3,
+     "split": "opp defence soft"
+    },
+    {
+     "hits": 7,
+     "n": 30,
+     "rate": 0.233,
+     "split": "with Franz Wagner"
+    },
+    {
+     "hits": 16,
+     "n": 63,
+     "rate": 0.254,
+     "split": "with Desmond Bane"
+    },
+    {
+     "hits": 15,
+     "n": 59,
+     "rate": 0.254,
+     "split": "with Wendell Carter Jr."
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Jase Richardson over 7.5 pts (@ PHX): p=0.315 (raw 0.265) vs DraftKings implied 0.568 EV -0.446 @ DraftKings | career 16/63, season 2/7, last5 2/5, last10 3/10, away 9/34, month 11 past seasons 1/7, rest 2+ days 8/24, opp defence soft 6/20, with Franz Wagner 7/30, with Desmond Bane 16/63, with Wendell Carter Jr. 15/59"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-05",
+   "ev": 0.2237,
+   "fair": null,
+   "game_id": "401909936",
+   "home": false,
+   "implied": 0.5682,
+   "k": 40.0,
+   "line": 7.5,
+   "opp": "PHX",
+   "player": "Jase Richardson",
+   "player_id": "5239561",
+   "price_observed_at": "2026-11-06T01:50:23Z",
+   "prob": 0.6953,
+   "prob_raw": 0.7351,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 47,
+     "n": 63,
+     "rate": 0.746,
+     "split": "career"
+    },
+    {
+     "hits": 5,
+     "n": 7,
+     "rate": 0.714,
+     "split": "season"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "last5"
+    },
+    {
+     "hits": 7,
+     "n": 10,
+     "rate": 0.7,
+     "split": "last10"
+    },
+    {
+     "hits": 25,
+     "n": 34,
+     "rate": 0.735,
+     "split": "away"
+    },
+    {
+     "hits": 6,
+     "n": 7,
+     "rate": 0.857,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 16,
+     "n": 24,
+     "rate": 0.667,
+     "split": "rest 2+ days"
+    },
+    {
+     "hits": 14,
+     "n": 20,
+     "rate": 0.7,
+     "split": "opp defence soft"
+    },
+    {
+     "hits": 23,
+     "n": 30,
+     "rate": 0.767,
+     "split": "with Franz Wagner"
+    },
+    {
+     "hits": 47,
+     "n": 63,
+     "rate": 0.746,
+     "split": "with Desmond Bane"
+    },
+    {
+     "hits": 44,
+     "n": 59,
+     "rate": 0.746,
+     "split": "with Wendell Carter Jr."
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Jase Richardson under 7.5 pts (@ PHX): p=0.695 (raw 0.735) vs DraftKings implied 0.568 EV +0.224 @ DraftKings | career 47/63, season 5/7, last5 3/5, last10 7/10, away 25/34, month 11 past seasons 6/7, rest 2+ days 16/24, opp defence soft 14/20, with Franz Wagner 23/30, with Desmond Bane 47/63, with Wendell Carter Jr. 44/59"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-05",
    "ev": -0.5229,
    "fair": null,
    "game_id": "401909936",
@@ -39185,469 +39648,6 @@
    "stat": "reb",
    "status": "research",
    "text": "[research] Jase Richardson under 2.5 reb (@ PHX): p=0.764 (raw 0.812) vs DraftKings implied 0.592 EV +0.291 @ DraftKings | career 51/63, season 6/7, last5 4/5, last10 9/10, away 27/34, month 11 past seasons 6/7, rest 2+ days 19/24, opp defence soft 18/21, with Franz Wagner 25/30, with Desmond Bane 51/63, with Wendell Carter Jr. 48/59"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-11-05",
-   "ev": -0.3148,
-   "fair": null,
-   "game_id": "401909936",
-   "home": true,
-   "implied": 0.5714,
-   "k": 40.0,
-   "line": 7.5,
-   "opp": "ORL",
-   "player": "Oso Ighodaro",
-   "player_id": "4601023",
-   "price_observed_at": "2026-11-06T01:47:34Z",
-   "prob": 0.3915,
-   "prob_raw": 0.3563,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 49,
-     "n": 151,
-     "rate": 0.325,
-     "split": "career"
-    },
-    {
-     "hits": 3,
-     "n": 4,
-     "rate": 0.75,
-     "split": "season"
-    },
-    {
-     "hits": 4,
-     "n": 5,
-     "rate": 0.8,
-     "split": "last5"
-    },
-    {
-     "hits": 5,
-     "n": 10,
-     "rate": 0.5,
-     "split": "last10"
-    },
-    {
-     "hits": 2,
-     "n": 4,
-     "rate": 0.5,
-     "split": "vs ORL"
-    },
-    {
-     "hits": 23,
-     "n": 75,
-     "rate": 0.307,
-     "split": "home"
-    },
-    {
-     "hits": 6,
-     "n": 25,
-     "rate": 0.24,
-     "split": "month 11 past seasons"
-    },
-    {
-     "hits": 11,
-     "n": 27,
-     "rate": 0.407,
-     "split": "rest b2b"
-    },
-    {
-     "hits": 17,
-     "n": 43,
-     "rate": 0.395,
-     "split": "opp defence middle"
-    },
-    {
-     "hits": 41,
-     "n": 128,
-     "rate": 0.32,
-     "split": "with Devin Booker"
-    },
-    {
-     "hits": 3,
-     "n": 4,
-     "rate": 0.75,
-     "split": "with Miles Bridges"
-    },
-    {
-     "hits": 25,
-     "n": 65,
-     "rate": 0.385,
-     "split": "with Dillon Brooks"
-    }
-   ],
-   "stat": "pts",
-   "status": "research",
-   "text": "[research] Oso Ighodaro over 7.5 pts (vs ORL): p=0.392 (raw 0.356) vs DraftKings implied 0.571 EV -0.315 @ DraftKings | career 49/151, season 3/4, last5 4/5, last10 5/10, vs ORL 2/4, home 23/75, month 11 past seasons 6/25, rest b2b 11/27, opp defence middle 17/43, with Devin Booker 41/128, with Miles Bridges 3/4, with Dillon Brooks 25/65"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-11-05",
-   "ev": 0.0843,
-   "fair": null,
-   "game_id": "401909936",
-   "home": true,
-   "implied": 0.5714,
-   "k": 40.0,
-   "line": 7.5,
-   "opp": "ORL",
-   "player": "Oso Ighodaro",
-   "player_id": "4601023",
-   "price_observed_at": "2026-11-06T01:47:34Z",
-   "prob": 0.6196,
-   "prob_raw": 0.6437,
-   "side": "under",
-   "splits": [
-    {
-     "hits": 102,
-     "n": 151,
-     "rate": 0.675,
-     "split": "career"
-    },
-    {
-     "hits": 1,
-     "n": 4,
-     "rate": 0.25,
-     "split": "season"
-    },
-    {
-     "hits": 1,
-     "n": 5,
-     "rate": 0.2,
-     "split": "last5"
-    },
-    {
-     "hits": 5,
-     "n": 10,
-     "rate": 0.5,
-     "split": "last10"
-    },
-    {
-     "hits": 2,
-     "n": 4,
-     "rate": 0.5,
-     "split": "vs ORL"
-    },
-    {
-     "hits": 52,
-     "n": 75,
-     "rate": 0.693,
-     "split": "home"
-    },
-    {
-     "hits": 19,
-     "n": 25,
-     "rate": 0.76,
-     "split": "month 11 past seasons"
-    },
-    {
-     "hits": 16,
-     "n": 27,
-     "rate": 0.593,
-     "split": "rest b2b"
-    },
-    {
-     "hits": 26,
-     "n": 43,
-     "rate": 0.605,
-     "split": "opp defence middle"
-    },
-    {
-     "hits": 87,
-     "n": 128,
-     "rate": 0.68,
-     "split": "with Devin Booker"
-    },
-    {
-     "hits": 1,
-     "n": 4,
-     "rate": 0.25,
-     "split": "with Miles Bridges"
-    },
-    {
-     "hits": 40,
-     "n": 65,
-     "rate": 0.615,
-     "split": "with Dillon Brooks"
-    }
-   ],
-   "stat": "pts",
-   "status": "research",
-   "text": "[research] Oso Ighodaro under 7.5 pts (vs ORL): p=0.620 (raw 0.644) vs DraftKings implied 0.571 EV +0.084 @ DraftKings | career 102/151, season 1/4, last5 1/5, last10 5/10, vs ORL 2/4, home 52/75, month 11 past seasons 19/25, rest b2b 16/27, opp defence middle 26/43, with Devin Booker 87/128, with Miles Bridges 1/4, with Dillon Brooks 40/65"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-11-05",
-   "ev": -0.446,
-   "fair": null,
-   "game_id": "401909936",
-   "home": false,
-   "implied": 0.5682,
-   "k": 40.0,
-   "line": 7.5,
-   "opp": "PHX",
-   "player": "Jase Richardson",
-   "player_id": "5239561",
-   "price_observed_at": "2026-11-06T01:47:34Z",
-   "prob": 0.3148,
-   "prob_raw": 0.2649,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 16,
-     "n": 63,
-     "rate": 0.254,
-     "split": "career"
-    },
-    {
-     "hits": 2,
-     "n": 7,
-     "rate": 0.286,
-     "split": "season"
-    },
-    {
-     "hits": 2,
-     "n": 5,
-     "rate": 0.4,
-     "split": "last5"
-    },
-    {
-     "hits": 3,
-     "n": 10,
-     "rate": 0.3,
-     "split": "last10"
-    },
-    {
-     "hits": 9,
-     "n": 34,
-     "rate": 0.265,
-     "split": "away"
-    },
-    {
-     "hits": 1,
-     "n": 7,
-     "rate": 0.143,
-     "split": "month 11 past seasons"
-    },
-    {
-     "hits": 8,
-     "n": 24,
-     "rate": 0.333,
-     "split": "rest 2+ days"
-    },
-    {
-     "hits": 6,
-     "n": 20,
-     "rate": 0.3,
-     "split": "opp defence soft"
-    },
-    {
-     "hits": 7,
-     "n": 30,
-     "rate": 0.233,
-     "split": "with Franz Wagner"
-    },
-    {
-     "hits": 16,
-     "n": 63,
-     "rate": 0.254,
-     "split": "with Desmond Bane"
-    },
-    {
-     "hits": 15,
-     "n": 59,
-     "rate": 0.254,
-     "split": "with Wendell Carter Jr."
-    }
-   ],
-   "stat": "pts",
-   "status": "research",
-   "text": "[research] Jase Richardson over 7.5 pts (@ PHX): p=0.315 (raw 0.265) vs DraftKings implied 0.568 EV -0.446 @ DraftKings | career 16/63, season 2/7, last5 2/5, last10 3/10, away 9/34, month 11 past seasons 1/7, rest 2+ days 8/24, opp defence soft 6/20, with Franz Wagner 7/30, with Desmond Bane 16/63, with Wendell Carter Jr. 15/59"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-11-05",
-   "ev": 0.2237,
-   "fair": null,
-   "game_id": "401909936",
-   "home": false,
-   "implied": 0.5682,
-   "k": 40.0,
-   "line": 7.5,
-   "opp": "PHX",
-   "player": "Jase Richardson",
-   "player_id": "5239561",
-   "price_observed_at": "2026-11-06T01:47:34Z",
-   "prob": 0.6953,
-   "prob_raw": 0.7351,
-   "side": "under",
-   "splits": [
-    {
-     "hits": 47,
-     "n": 63,
-     "rate": 0.746,
-     "split": "career"
-    },
-    {
-     "hits": 5,
-     "n": 7,
-     "rate": 0.714,
-     "split": "season"
-    },
-    {
-     "hits": 3,
-     "n": 5,
-     "rate": 0.6,
-     "split": "last5"
-    },
-    {
-     "hits": 7,
-     "n": 10,
-     "rate": 0.7,
-     "split": "last10"
-    },
-    {
-     "hits": 25,
-     "n": 34,
-     "rate": 0.735,
-     "split": "away"
-    },
-    {
-     "hits": 6,
-     "n": 7,
-     "rate": 0.857,
-     "split": "month 11 past seasons"
-    },
-    {
-     "hits": 16,
-     "n": 24,
-     "rate": 0.667,
-     "split": "rest 2+ days"
-    },
-    {
-     "hits": 14,
-     "n": 20,
-     "rate": 0.7,
-     "split": "opp defence soft"
-    },
-    {
-     "hits": 23,
-     "n": 30,
-     "rate": 0.767,
-     "split": "with Franz Wagner"
-    },
-    {
-     "hits": 47,
-     "n": 63,
-     "rate": 0.746,
-     "split": "with Desmond Bane"
-    },
-    {
-     "hits": 44,
-     "n": 59,
-     "rate": 0.746,
-     "split": "with Wendell Carter Jr."
-    }
-   ],
-   "stat": "pts",
-   "status": "research",
-   "text": "[research] Jase Richardson under 7.5 pts (@ PHX): p=0.695 (raw 0.735) vs DraftKings implied 0.568 EV +0.224 @ DraftKings | career 47/63, season 5/7, last5 3/5, last10 7/10, away 25/34, month 11 past seasons 6/7, rest 2+ days 16/24, opp defence soft 14/20, with Franz Wagner 23/30, with Desmond Bane 47/63, with Wendell Carter Jr. 44/59"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-11-05",
-   "ev": 0.2054,
-   "fair": 0.5438,
-   "game_id": "401909936",
-   "home": true,
-   "implied": 0.5814,
-   "k": 40.0,
-   "line": 6.5,
-   "opp": "ORL",
-   "player": "Oso Ighodaro",
-   "player_id": "4601023",
-   "price_observed_at": "2026-11-06T01:47:34Z",
-   "prob": 0.7008,
-   "prob_raw": 0.7415,
-   "side": "under",
-   "splits": [
-    {
-     "hits": 117,
-     "n": 151,
-     "rate": 0.775,
-     "split": "career"
-    },
-    {
-     "hits": 2,
-     "n": 4,
-     "rate": 0.5,
-     "split": "season"
-    },
-    {
-     "hits": 3,
-     "n": 5,
-     "rate": 0.6,
-     "split": "last5"
-    },
-    {
-     "hits": 6,
-     "n": 10,
-     "rate": 0.6,
-     "split": "last10"
-    },
-    {
-     "hits": 1,
-     "n": 4,
-     "rate": 0.25,
-     "split": "vs ORL"
-    },
-    {
-     "hits": 57,
-     "n": 75,
-     "rate": 0.76,
-     "split": "home"
-    },
-    {
-     "hits": 19,
-     "n": 25,
-     "rate": 0.76,
-     "split": "month 11 past seasons"
-    },
-    {
-     "hits": 18,
-     "n": 27,
-     "rate": 0.667,
-     "split": "rest b2b"
-    },
-    {
-     "hits": 37,
-     "n": 48,
-     "rate": 0.771,
-     "split": "opp defence middle"
-    },
-    {
-     "hits": 98,
-     "n": 128,
-     "rate": 0.766,
-     "split": "with Devin Booker"
-    },
-    {
-     "hits": 2,
-     "n": 4,
-     "rate": 0.5,
-     "split": "with Miles Bridges"
-    },
-    {
-     "hits": 45,
-     "n": 65,
-     "rate": 0.692,
-     "split": "with Dillon Brooks"
-    }
-   ],
-   "stat": "reb",
-   "status": "research",
-   "text": "[research] Oso Ighodaro under 6.5 reb (vs ORL): p=0.701 (raw 0.742) vs DraftKings implied 0.581 EV +0.205 @ DraftKings | career 117/151, season 2/4, last5 3/5, last10 6/10, vs ORL 1/4, home 57/75, month 11 past seasons 19/25, rest b2b 18/27, opp defence middle 37/48, with Devin Booker 98/128, with Miles Bridges 2/4, with Dillon Brooks 45/65"
   },
   {
    "book": "bet365",
@@ -71694,7 +71694,7 @@
    "opp": "GS",
    "player": "Giannis Antetokounmpo",
    "player_id": "3032977",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.5214,
    "prob_raw": 0.5197,
    "side": "over",
@@ -71789,7 +71789,7 @@
    "opp": "GS",
    "player": "Giannis Antetokounmpo",
    "player_id": "3032977",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.4904,
    "prob_raw": 0.4803,
    "side": "under",
@@ -72264,7 +72264,7 @@
    "opp": "GS",
    "player": "Giannis Antetokounmpo",
    "player_id": "3032977",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.5952,
    "prob_raw": 0.6133,
    "side": "over",
@@ -72359,7 +72359,7 @@
    "opp": "GS",
    "player": "Giannis Antetokounmpo",
    "player_id": "3032977",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.4161,
    "prob_raw": 0.3867,
    "side": "under",
@@ -72834,7 +72834,7 @@
    "opp": "GS",
    "player": "Andrew Wiggins",
    "player_id": "3059319",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.6891,
    "prob_raw": 0.7279,
    "side": "over",
@@ -72929,7 +72929,7 @@
    "opp": "GS",
    "player": "Andrew Wiggins",
    "player_id": "3059319",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.321,
    "prob_raw": 0.2721,
    "side": "under",
@@ -77014,7 +77014,7 @@
    "opp": "GS",
    "player": "Davion Mitchell",
    "player_id": "4278053",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.278,
    "prob_raw": 0.2234,
    "side": "over",
@@ -77109,7 +77109,7 @@
    "opp": "GS",
    "player": "Davion Mitchell",
    "player_id": "4278053",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.7314,
    "prob_raw": 0.7766,
    "side": "under",
@@ -77489,7 +77489,7 @@
    "opp": "GS",
    "player": "Davion Mitchell",
    "player_id": "4278053",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.2805,
    "prob_raw": 0.2262,
    "side": "over",
@@ -77584,7 +77584,7 @@
    "opp": "GS",
    "player": "Davion Mitchell",
    "player_id": "4278053",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.7289,
    "prob_raw": 0.7738,
    "side": "under",
@@ -80789,7 +80789,7 @@
    "opp": "MIA",
    "player": "Yaxel Lendeborg",
    "player_id": "5175737",
-   "price_observed_at": "2026-11-06T01:47:34Z",
+   "price_observed_at": "2026-11-06T01:50:23Z",
    "prob": 0.511,
    "prob_raw": 0.5065,
    "side": "under",
@@ -82391,7 +82391,7 @@
    "text": "[research] Draymond Green under 5.5 reb (vs MIA): p=0.438 (raw 0.413) vs DraftKings implied 0.599 EV -0.269 @ DraftKings | career 122/298, season 5/6, last5 4/5, last10 8/10, vs MIA 1/5, home 54/146, month 11 past seasons 18/48, rest 2+ days 30/85, opp defence soft 28/83, with Brandin Podziemski 84/192, with Yaxel Lendeborg 5/6, with Stephen Curry 90/234"
   }
  ],
- "run_id": "run-2026-11-06T01:47:34Z",
+ "run_id": "run-2026-11-06T01:50:23Z",
  "slate": "2026-11-05",
  "status": "research/watchlist only"
 }
