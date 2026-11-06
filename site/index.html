@@ -210,22 +210,60 @@ const bar = p => `<span class="wc"><b>${pct(p)}</b><span class="meter"><i style=
 const finalText = r => r.result === "pending" || !r.result ? "" : r.market === "prop" ? (r.stat_value ?? "–") : (r.score || "");
 const gameMap = () => { const m = {}; for (const g of (D.today || {}).games || []) m[String(g.game_id)] = `${g.away} @ ${g.home}`; return m; };
 const matchOf = r => r.matchup || gameMap()[String(r.game_id)] || "–";
-/* ---- DraftKings links: game lines open with the bet on the slip; props open the game page ---- */
-function dkLink(r) {
-  const g = (((D.today || {}).dk_links) || {})[String(r.game_id)];
-  if (!g || !g.event_url || !/^https:\/\/sportsbook\.draftkings\.com\/event\/\d+$/.test(g.event_url)) return null;
-  if (r.market !== "prop") {
-    // exact line if DraftKings has it, otherwise its main line for the same side (the closest bet it offers)
-    const same = (g.outcomes || []).filter(o => o.market === r.market && o.selection === r.selection);
-    const o = same.find(o => r.market === "ml" || (o.line != null && r.line != null && Math.abs(o.line - r.line) < 1e-6))
-      || same.filter(o => o.line != null && r.line != null).sort((a, b) => Math.abs(a.line - r.line) - Math.abs(b.line - r.line))[0];
-    if (o) return {url: `${g.event_url}?outcomes=${encodeURIComponent(o.outcome_id)}`, slip: true,
-                   other: r.market !== "ml" && Math.abs(o.line - r.line) > 1e-6 ? (r.market === "total" ? String(o.line) : fmtLine(o.line)) : null};
-  }
-  return {url: g.event_url, slip: false};
-}
+/* ---- bet-slip links. DK/FD buttons open the book with the bet on the slip; if the book's line differs,
+   the button shows the book's line (the closest bet it offers). "DK game" = game page only (prop not pre-selected).
+   Sources: ESPN's DraftKings game-line links (today.dk_links) and, with ODDS_API_KEY set, The Odds API's
+   DraftKings + FanDuel links incl. props (today.book_links). ---- */
+const BOOKS = [["draftkings", "DK", "sportsbook.draftkings.com"], ["fanduel", "FD", "sportsbook.fanduel.com"]];
 const fmtLine = x => (x > 0 ? "+" : "") + x;
-const dkA = r => { const k = dkLink(r); return k ? `<a class="dk" href="${esc(k.url)}" target="_blank" rel="noopener noreferrer" title="${k.other != null ? `DraftKings only offers ${k.other} right now; opens the slip with that line. Check it before placing.` : k.slip ? "Opens DraftKings with this bet on the slip. Check the line and price before placing." : "Opens this game on DraftKings. The prop is not pre-selected."}">${k.other != null ? `DK slip ${esc(k.other)} ↗` : k.slip ? "DK slip ↗" : "DK game ↗"}</a>` : ""; };
+const normName = s => String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/-/g, " ")
+  .replace(/[^a-z ]/g, "").split(/\s+/).filter(w => w && !["jr", "sr", "ii", "iii", "iv"].includes(w)).join(" ");
+const propPlayer = r => { const m = /^(.*?) [ou]\d+(?:\.\d+)? \w+$/.exec(String(r.label || "")); return normName(m ? m[1] : r.player); };
+function closest(outs, r) {
+  const same = outs.filter(o => o.market === r.market && o.selection === r.selection
+    && (r.market !== "prop" || (o.stat === r.stat && o.player === propPlayer(r))));
+  const o = same.find(o => r.market === "ml" || (o.line != null && r.line != null && Math.abs(o.line - r.line) < 1e-6))
+    || same.filter(o => o.line != null && r.line != null).sort((a, b) => Math.abs(a.line - r.line) - Math.abs(b.line - r.line))[0];
+  return o ? {o, other: r.market !== "ml" && Math.abs(o.line - r.line) > 1e-6 ? (r.market === "spread" ? fmtLine(o.line) : String(o.line)) : null} : null;
+}
+const okHost = (url, host) => { try { const u = new URL(url); return u.protocol === "https:" && u.host === host; } catch (e) { return false; } };
+function slipLinks(r) {
+  const T = D.today || {}, gid = String(r.game_id), bl = (T.book_links || {})[gid] || {}, dk = (T.dk_links || {})[gid];
+  const out = [];
+  for (const [book, short, host] of BOOKS) {
+    let hit = closest(bl[book] || [], r), url = hit && hit.o.link;
+    if (!hit && book === "draftkings" && dk && r.market !== "prop") {
+      hit = closest(dk.outcomes || [], r);
+      url = hit && `${dk.event_url}?outcomes=${encodeURIComponent(hit.o.outcome_id)}`;
+    }
+    if (hit && okHost(url, host)) out.push({url, book, label: `${short} slip${hit.other != null ? " " + hit.other : ""}`,
+      title: hit.other != null ? `${short} only offers ${hit.other} right now; opens the slip with that line.` : `Opens ${short} with this bet on the slip.`});
+  }
+  if (!out.some(x => x.label.startsWith("DK")) && dk && okHost(dk.event_url, "sportsbook.draftkings.com"))
+    out.push({url: dk.event_url, label: "DK game", title: "Opens this game on DraftKings. The bet is not pre-selected."});
+  return out;
+}
+/* one link for a whole parlay, only when every leg has a pre-selected link on that book (beta: formats
+   are DK ?outcomes=a+b and FD addToBetslip?marketId[i]=..&selectionId[i]=..) */
+function comboLinks(items, what, title) {
+  const out = [];
+  for (const [book, short] of BOOKS) {
+    const legs = items.map(l => slipLinks(l).find(k => k.book === book && k.label.includes("slip")));
+    if (legs.length < 2 || legs.some(k => !k)) continue;
+    const qs = legs.map(k => new URL(k.url).searchParams);
+    let url;
+    if (book === "draftkings") url = "https://sportsbook.draftkings.com/?outcomes=" + qs.map(q => encodeURIComponent(q.get("outcomes") || "")).join("+");
+    else url = "https://sportsbook.fanduel.com/addToBetslip?" + qs.map((q, i) => `marketId[${i}]=${encodeURIComponent(q.get("marketId") || "")}&selectionId[${i}]=${encodeURIComponent(q.get("selectionId") || "")}`).join("&");
+    if (qs.every(q => q.get(book === "draftkings" ? "outcomes" : "selectionId")))
+      out.push(`<a class="dk" href="${esc(url)}" target="_blank" rel="noopener noreferrer" title="${esc(title(short, legs.length))}">${esc(short + " " + what(legs.length))} ↗</a>`);
+  }
+  return out.join("");
+}
+const parlayLinks = t => comboLinks(t.legs || [], () => "parlay", (s, n) => `Tries to put every leg on one ${s} slip. New: check all ${n} legs are on the slip before placing.`);
+/* every straight pick whose game has not started, on one slip; the book's slip lets you bet them as singles */
+const gameOpen = r => { const g = ((D.today || {}).games || []).find(g => String(g.game_id) === String(r.game_id)); return !g || !g.status || g.status === "scheduled"; };
+const allStraightLinks = picks => comboLinks(picks.filter(gameOpen), n => `all ${n} straights`, (s, n) => `Puts all ${n} straight picks on one ${s} slip. Choose singles (straight bets) on the slip, not a parlay, and check each line and price before placing.`);
+const dkA = r => slipLinks(r).map(k => `<a class="dk" href="${esc(k.url)}" target="_blank" rel="noopener noreferrer" title="${esc(k.title + " Check the line and price before placing.")}">${esc(k.label)} ↗</a>`).join("");
 const pickRow = r => `<tr><td><b>${esc(pickText(r))}</b>${dkA(r)}</td><td class="mu">${esc(matchOf(r))}</td><td class="n">${bar(r.prob)}</td><td class="n">${amS(r.price_american)}</td><td class="meta">${esc(finalText(r))}</td><td>${resPill(r.result)}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`;
 const pickTable = (rows, empty) => tbl(["Pick", "Matchup", "#Win Chance", "#Price", "Final", "Result", "#Units"], rows.map(pickRow), empty);
 
@@ -280,7 +318,7 @@ const ticketRows = kind => (((D.tickets || {}).rows) || []).filter(t => t.kind =
 const ticketNotes = (date, kind) => ((((D.tickets || {}).notes) || {})[date] || []).filter(n => kind === "lotto" ? /lotto/i.test(n) : !/lotto/i.test(n));
 const evText = ev => ev == null ? "–" : spct(ev);
 function ticketCard(t) {
-  return `<article class="ticket"><div class="th"><div><b>${t.legs.length}-Leg ${kind1(t.kind)}</b> <span class="tag">Research</span></div>
+  return `<article class="ticket"><div class="th"><div><b>${t.legs.length}-Leg ${kind1(t.kind)}</b> <span class="tag">Research</span>${parlayLinks(t)}</div>
     <div class="tstats"><span>Win Chance <b>${pct(t.prob)}</b></span><span>Pays <b>${amS(t.price_american)}</b></span><span>Model Edge <b class="${cls(t.ev)}">${evText(t.ev)}</b></span>${resPill(t.result)}<b class="${cls(t.net_units)}">${t.net_units == null ? "" : u(t.net_units)}</b></div></div>
     <ul class="legs">${t.legs.map(l => `<li><b class="ln">${esc(pickText(l))}<span class="mu"> · ${esc(matchOf(l))}</span>${dkA(l)}</b>${bar(l.prob)}<span class="mono">${amS(l.price_american)}</span>${resPill(l.result)}</li>`).join("")}</ul></article>`;
 }
@@ -313,7 +351,8 @@ R.today = () => {
       ${ls ? `<div><b class="${cls(ls.net)}">${ls.w}-${ls.l}</b><span>${esc(new Date(last + "T12:00:00").toLocaleDateString([], {weekday: "long"}))}</span></div>` : ""}
     </div></section>
   <h2 class="sec">Straight Picks</h2>
-  ${Object.keys(T.dk_links || {}).length ? `<p class="sub">DK slip opens DraftKings with that bet already on the slip. DK game opens the game page, where you pick the prop yourself. Always check the line and price before you place anything.</p>` : ""}
+  ${Object.keys(T.dk_links || {}).length || Object.keys(T.book_links || {}).length ? `<p class="sub">DK slip / FD slip opens DraftKings or FanDuel with that bet already on the slip; a number after it means the book's line differs and its closest line is used. DK game opens the game page, where you pick the bet yourself. Always check the line and price before you place anything.</p>` : ""}
+  ${allStraightLinks(picks) ? `<p class="sub">${allStraightLinks(picks)}</p>` : ""}
   ${picks.length ? `<div class="panel flush">${pickTable(picks, "")}</div>` : `<p class="note">${"Today's picks post at 4:30 PM ET on weekdays and 11:00 AM ET on weekends."}</p>`}
   <h2 class="sec">Parlays And Lotto <span class="tag">Research</span></h2>
   <p class="sub">Built from the most likely props in different games. The edge shown is the model's own estimate against the price, and it can be negative.</p>

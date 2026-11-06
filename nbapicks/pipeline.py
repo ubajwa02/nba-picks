@@ -25,7 +25,7 @@ from .models.ratings import Game, RatingsModel, RatingsParams, add_rest_days
 from .props import STATS, PropModel, _norm, pair_key, verified_pairs, verify_prop_sides
 from .qualify import Candidate, judge, portfolio
 from .settle import GameResult, settle_leg, net_profit, settle_parlay
-from .sources import espn, moviodds
+from .sources import espn, moviodds, oddsapi
 from .store import Store, stable_id
 
 log = logging.getLogger("nbapicks")
@@ -118,6 +118,60 @@ def put_odds(ctx: Ctx, rows: list[dict]) -> int:
         if r.get("source_updated_at"):
             ctx.seen[k]["source_updated_at"] = r["source_updated_at"]
     return n
+
+
+def book_links(ctx: Ctx) -> dict:
+    """DraftKings + FanDuel bet-slip links (props included) from The Odds API, for the site only.
+
+    Off without ODDS_API_KEY. Runs before export, after leans/tickets exist, and fetches only
+    what today's posted picks need: for each game with a not-yet-started pick or parlay leg,
+    only the markets those picks use, each (game, market) once per day. That keeps a typical
+    slate around 10 credits, inside the free 500/month tier (see sources/oddsapi.py).
+    """
+    key = oddsapi.api_key()
+    if not key:
+        return dict(status="off")
+    from . import leans as LN, track
+    today = ctx.today.isoformat()
+    need: dict[str, set] = defaultdict(set)
+    rows = [l for l in track.load(ctx.root) if l.get("slate") == today]
+    rows += [leg for t in LN.load_tickets(ctx.root) if t.get("slate") == today for leg in t.get("legs") or []]
+    for r in rows:
+        mk = oddsapi.market_key(r)
+        if mk and r.get("game_id"):
+            need[str(r["game_id"])].add(mk)
+    games = {g["game_id"]: g for g in ctx.store.q("SELECT game_id, home, away, start_utc FROM games")}
+    path = f"{ctx.root}/state/book_links.json"
+    cache = {k: v for k, v in jload(path, {}).items() if v.get("slate") == today}
+    todo = {}
+    for gid, mks in need.items():
+        g = games.get(gid)
+        if not g or dt.datetime.fromisoformat(g["start_utc"].replace("Z", "+00:00")) <= ctx.now:
+            continue
+        miss = sorted(mks - set((cache.get(gid) or {}).get("markets") or []))
+        if miss:
+            todo[gid] = miss
+    out = dict(games_needed=len(need), fetched=0)
+    if not todo:
+        return out
+    try:
+        ev = oddsapi.match_events(oddsapi.fetch_events(key), [games[g] for g in todo])
+        for gid, miss in todo.items():
+            if gid not in ev:
+                continue
+            g = games[gid]
+            books = oddsapi.parse_event_links(oddsapi.fetch_event_links(key, ev[gid], miss), g["home"], g["away"])
+            c = cache.setdefault(gid, dict(slate=today, markets=[], books={}))
+            c["markets"] = sorted(set(c["markets"]) | set(miss))
+            for book, outs in books.items():
+                c["books"][book] = [o for o in c["books"].get(book, []) if oddsapi.market_key(o) not in miss] + outs
+            c["observed_at"] = iso(ctx.now)
+            out["fetched"] += 1
+        ctx.ok("oddsapi_links", f"{out['fetched']} games")
+    except Exception as e:
+        ctx.fail("oddsapi_links", e)
+    jsave(path, cache)
+    return out
 
 
 def ingest(ctx: Ctx) -> dict:
@@ -1141,7 +1195,13 @@ def main(argv=None):
                 r = diag(ctx)
             else:
                 from .dashboard import export
+                try:
+                    links = book_links(ctx)
+                except Exception as e:   # links are a convenience; never block the export
+                    links = dict(error=str(e)[:200])
                 r = export(ctx)
+                if isinstance(r, dict):
+                    r = dict(r, book_links=links)
             report["steps"][s] = dict(status="completed", result=r)
         except Exception as e:
             report["ok"] = False
