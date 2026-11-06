@@ -1,7 +1,7 @@
 {
  "401909287": {
   "event_url": "https://sportsbook.draftkings.com/event/34961206",
-  "observed_at": "2026-11-06T12:21:54Z",
+  "observed_at": "2026-11-06T14:40:57Z",
   "outcomes": [
    {
     "line": null,
@@ -16,34 +16,34 @@
     "selection": "away"
    },
    {
-    "line": -6.5,
+    "line": -7.5,
     "market": "spread",
-    "outcome_id": "0HC87090085N650_1",
+    "outcome_id": "0HC87090085N750_1",
     "selection": "home"
    },
    {
-    "line": 6.5,
+    "line": 7.5,
     "market": "spread",
-    "outcome_id": "0HC87090085P650_3",
+    "outcome_id": "0HC87090085P750_3",
     "selection": "away"
    },
    {
-    "line": 227.5,
+    "line": 228.5,
     "market": "total",
-    "outcome_id": "0OU87090085O22750_1",
+    "outcome_id": "0OU87090085O22850_1",
     "selection": "over"
    },
    {
-    "line": 227.5,
+    "line": 228.5,
     "market": "total",
-    "outcome_id": "0OU87090085U22750_3",
+    "outcome_id": "0OU87090085U22850_3",
     "selection": "under"
    }
   ]
  },
  "401909288": {
   "event_url": "https://sportsbook.draftkings.com/event/34960992",
-  "observed_at": "2026-11-06T12:21:54Z",
+  "observed_at": "2026-11-06T14:40:57Z",
   "outcomes": [
    {
     "line": null,
@@ -70,22 +70,22 @@
     "selection": "away"
    },
    {
-    "line": 209.5,
+    "line": 207.5,
     "market": "total",
-    "outcome_id": "0OU87089560O20950_1",
+    "outcome_id": "0OU87089560O20750_1",
     "selection": "over"
    },
    {
-    "line": 209.5,
+    "line": 207.5,
     "market": "total",
-    "outcome_id": "0OU87089560U20950_3",
+    "outcome_id": "0OU87089560U20750_3",
     "selection": "under"
    }
   ]
  },
  "401909289": {
   "event_url": "https://sportsbook.draftkings.com/event/34516239",
-  "observed_at": "2026-11-06T12:21:54Z",
+  "observed_at": "2026-11-06T14:40:57Z",
   "outcomes": [
    {
     "line": null,
@@ -127,7 +127,7 @@
  },
  "401909290": {
   "event_url": "https://sportsbook.draftkings.com/event/34960997",
-  "observed_at": "2026-11-06T12:21:54Z",
+  "observed_at": "2026-11-06T14:40:57Z",
   "outcomes": [
    {
     "line": null,
@@ -169,7 +169,7 @@
  },
  "401909291": {
   "event_url": "https://sportsbook.draftkings.com/event/34960998",
-  "observed_at": "2026-11-06T12:21:54Z",
+  "observed_at": "2026-11-06T14:40:57Z",
   "outcomes": [
    {
     "line": null,
@@ -196,22 +196,22 @@
     "selection": "away"
    },
    {
-    "line": 225.5,
+    "line": 224.5,
     "market": "total",
-    "outcome_id": "0OU87089589O22550_1",
+    "outcome_id": "0OU87089589O22450_1",
     "selection": "over"
    },
    {
-    "line": 225.5,
+    "line": 224.5,
     "market": "total",
-    "outcome_id": "0OU87089589U22550_3",
+    "outcome_id": "0OU87089589U22450_3",
     "selection": "under"
    }
   ]
  },
  "401909292": {
   "event_url": "https://sportsbook.draftkings.com/event/34961001",
-  "observed_at": "2026-11-06T12:21:54Z",
+  "observed_at": "2026-11-06T14:40:57Z",
   "outcomes": [
    {
     "line": null,
@@ -253,7 +253,7 @@
  },
  "401909293": {
   "event_url": "https://sportsbook.draftkings.com/event/34961000",
-  "observed_at": "2026-11-06T12:21:54Z",
+  "observed_at": "2026-11-06T14:40:57Z",
   "outcomes": [
    {
     "line": null,
@@ -295,7 +295,7 @@
  },
  "401909294": {
   "event_url": "https://sportsbook.draftkings.com/event/34516240",
-  "observed_at": "2026-11-06T12:21:54Z",
+  "observed_at": "2026-11-06T14:40:57Z",
   "outcomes": [
    {
     "line": null,
@@ -322,22 +322,22 @@
     "selection": "away"
    },
    {
-    "line": 231.5,
+    "line": 232.5,
     "market": "total",
-    "outcome_id": "0OU85859629O23150_1",
+    "outcome_id": "0OU85859629O23250_1",
     "selection": "over"
    },
    {
-    "line": 231.5,
+    "line": 232.5,
     "market": "total",
-    "outcome_id": "0OU85859629U23150_3",
+    "outcome_id": "0OU85859629U23250_3",
     "selection": "under"
    }
   ]
  },
  "401909295": {
   "event_url": "https://sportsbook.draftkings.com/event/34961002",
-  "observed_at": "2026-11-06T12:21:54Z",
+  "observed_at": "2026-11-06T14:40:57Z",
   "outcomes": [
    {
     "line": null,
