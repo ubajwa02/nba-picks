@@ -67848,3 +67848,14 @@
 {"at": "2026-11-07T10:29:35Z", "data": {"stake": 1.0}, "event_id": "0b94f6835760f742", "net_units": -1.0, "pred_id": "049e00484b750e3f", "result": "loss", "type": "settled"}
 {"at": "2026-11-07T10:29:35Z", "data": {"stake": 1.0}, "event_id": "2ab28794e8dee577", "net_units": -1.0, "pred_id": "21b1c1e3db78befe", "result": "loss", "type": "settled"}
 {"at": "2026-11-07T10:29:35Z", "data": {"stake": 1.0}, "event_id": "98bceb49739d86c6", "net_units": -1.0, "pred_id": "cf7050255577f839", "result": "loss", "type": "settled"}
+{"at": "2026-11-07T15:42:04Z", "data": {"paper_record": true}, "event_id": "5a902cff4736982b", "pred_id": "fdd33467e16cf05e", "type": "note"}
+{"at": "2026-11-07T15:42:04Z", "data": {"paper_record": true}, "event_id": "ef0360e06043f18a", "pred_id": "ea4f3170acd4bd43", "type": "note"}
+{"at": "2026-11-07T15:42:04Z", "data": {"paper_record": true}, "event_id": "e9c6f8e0fbb748ab", "pred_id": "e5d1f6def32bbdf5", "type": "note"}
+{"at": "2026-11-07T15:42:04Z", "data": {"paper_record": true}, "event_id": "d042ec4d74f967d2", "pred_id": "f00cd88439622a9c", "type": "note"}
+{"at": "2026-11-07T15:42:04Z", "data": {"paper_record": true}, "event_id": "d5169d4f2872b586", "pred_id": "a8bb1b8a628df179", "type": "note"}
+{"at": "2026-11-07T15:42:04Z", "data": {"paper_record": true}, "event_id": "20bc85f5cc12fdc9", "pred_id": "b897c4a728ae7c6c", "type": "note"}
+{"at": "2026-11-07T15:42:04Z", "data": {"paper_record": true}, "event_id": "f33fc550f47f3c42", "pred_id": "c75ec2c853270b30", "type": "note"}
+{"at": "2026-11-07T15:42:04Z", "data": {"paper_record": true}, "event_id": "0402d11f81c80578", "pred_id": "8b636b83a33113f3", "type": "note"}
+{"at": "2026-11-07T15:42:04Z", "data": {"paper_record": true}, "event_id": "a155903d38bcee96", "pred_id": "81e742bed0855d57", "type": "note"}
+{"at": "2026-11-07T15:42:04Z", "data": {"paper_record": true}, "event_id": "7fde9bf5bf280a3d", "pred_id": "ff6e91f0dd733385", "type": "note"}
+{"at": "2026-11-07T15:42:04Z", "data": {"paper_record": true}, "event_id": "3dfcf7f2e2327bb7", "pred_id": "ba3669a7211bd587", "type": "note"}

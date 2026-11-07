@@ -42,7 +42,7 @@ Brier: model 0.1528 vs market-implied 0.1496 (n=33238; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 59-26-0, +12.56u, pending 0.
+Record 59-26-0, +12.56u, pending 5.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -135,6 +135,11 @@ Record 59-26-0, +12.56u, pending 0.
 | 2026-11-06 | Tyler Herro o3.5 ast | -169 | 10 | win | +0.59 |
 | 2026-11-06 | Kyrie Irving o3.5 reb | -164 | 2 | loss | -1.00 |
 | 2026-11-06 | CJ McCollum o1.5 fg3m | -161 | 0 | loss | -1.00 |
+| 2026-11-07 | Nickeil Alexander-Walker u3.5 ast | -159 | None | pending | +0.00 |
+| 2026-11-07 | CJ McCollum u3.5 ast | -127 | None | pending | +0.00 |
+| 2026-11-07 | Deni Avdija o5.5 ast | -156 | None | pending | +0.00 |
+| 2026-11-07 | Mikal Bridges o2.5 reb | -175 | None | pending | +0.00 |
+| 2026-11-07 | Jalen Brunson o2.5 reb | -175 | None | pending | +0.00 |
 
 ## Rows
 
