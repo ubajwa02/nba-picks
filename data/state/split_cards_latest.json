@@ -488,7 +488,7 @@
    "opp": "POR",
    "player": "Austin Reaves",
    "player_id": "4066457",
-   "price_observed_at": "2026-11-07T00:21:52Z",
+   "price_observed_at": "2026-11-07T01:01:55Z",
    "prob": 0.8252,
    "prob_raw": 0.8751,
    "side": "over",
@@ -3148,7 +3148,7 @@
    "opp": "POR",
    "player": "Collin Sexton",
    "player_id": "4277811",
-   "price_observed_at": "2026-11-07T00:22:07Z",
+   "price_observed_at": "2026-11-07T01:02:23Z",
    "prob": 0.0551,
    "prob_raw": 0.0254,
    "side": "over",
@@ -4858,7 +4858,7 @@
    "opp": "LAL",
    "player": "Damian Lillard",
    "player_id": "6606",
-   "price_observed_at": "2026-11-07T00:21:52Z",
+   "price_observed_at": "2026-11-07T01:01:55Z",
    "prob": 0.5815,
    "prob_raw": 0.596,
    "side": "over",
@@ -6178,17 +6178,17 @@
   {
    "book": "bet365",
    "date": "2026-11-06",
-   "ev": -0.0452,
+   "ev": -0.0408,
    "fair": null,
    "game_id": "401909294",
    "home": false,
-   "implied": 0.9722,
+   "implied": 0.9677,
    "k": 40.0,
    "line": 9.5,
    "opp": "LAL",
    "player": "Damian Lillard",
    "player_id": "6606",
-   "price_observed_at": "2026-11-07T00:52:22Z",
+   "price_observed_at": "2026-11-07T01:06:22Z",
    "prob": 0.9283,
    "prob_raw": 0.962,
    "side": "over",
@@ -6268,22 +6268,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Damian Lillard over 9.5 pts (@ LAL): p=0.928 (raw 0.962) vs bet365 implied 0.972 EV -0.045 @ bet365 | career 198/204, season 6/7, last5 4/5, last10 7/10, vs LAL 7/7, away 93/95, month 11 past seasons 31/31, rest 1 day 111/113, opp defence middle 53/55, with Deni Avdija 6/7, with Toumani Camara 6/7, with Jrue Holiday 6/7"
+   "text": "[research] Damian Lillard over 9.5 pts (@ LAL): p=0.928 (raw 0.962) vs bet365 implied 0.968 EV -0.041 @ bet365 | career 198/204, season 6/7, last5 4/5, last10 7/10, vs LAL 7/7, away 93/95, month 11 past seasons 31/31, rest 1 day 111/113, opp defence middle 53/55, with Deni Avdija 6/7, with Toumani Camara 6/7, with Jrue Holiday 6/7"
   },
   {
    "book": "bet365",
    "date": "2026-11-06",
-   "ev": -0.0062,
+   "ev": -0.0004,
    "fair": null,
    "game_id": "401909294",
    "home": false,
-   "implied": 0.7872,
+   "implied": 0.7826,
    "k": 40.0,
    "line": 2.5,
    "opp": "LAL",
    "player": "Damian Lillard",
    "player_id": "6606",
-   "price_observed_at": "2026-11-07T00:22:07Z",
+   "price_observed_at": "2026-11-07T01:01:52Z",
    "prob": 0.7823,
    "prob_raw": 0.8319,
    "side": "over",
@@ -6363,7 +6363,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Damian Lillard over 2.5 reb (@ LAL): p=0.782 (raw 0.832) vs bet365 implied 0.787 EV -0.006 @ bet365 | career 172/204, season 6/7, last5 4/5, last10 8/10, vs LAL 7/7, away 79/95, month 11 past seasons 26/31, rest 1 day 90/113, opp defence tough 50/61, with Deni Avdija 6/7, with Toumani Camara 6/7, with Jrue Holiday 6/7"
+   "text": "[research] Damian Lillard over 2.5 reb (@ LAL): p=0.782 (raw 0.832) vs bet365 implied 0.783 EV -0.000 @ bet365 | career 172/204, season 6/7, last5 4/5, last10 8/10, vs LAL 7/7, away 79/95, month 11 past seasons 26/31, rest 1 day 90/113, opp defence tough 50/61, with Deni Avdija 6/7, with Toumani Camara 6/7, with Jrue Holiday 6/7"
   },
   {
    "book": "bet365",
@@ -8753,7 +8753,7 @@
    "opp": "LAL",
    "player": "Deni Avdija",
    "player_id": "4683021",
-   "price_observed_at": "2026-11-07T00:17:57Z",
+   "price_observed_at": "2026-11-07T01:02:23Z",
    "prob": 0.0894,
    "prob_raw": 0.048,
    "side": "over",
@@ -9798,7 +9798,7 @@
    "opp": "LAL",
    "player": "Donovan Clingan",
    "player_id": "5105565",
-   "price_observed_at": "2026-11-07T00:21:52Z",
+   "price_observed_at": "2026-11-07T01:01:55Z",
    "prob": 0.2345,
    "prob_raw": 0.177,
    "side": "over",
@@ -10938,7 +10938,7 @@
    "opp": "LAL",
    "player": "Donovan Clingan",
    "player_id": "5105565",
-   "price_observed_at": "2026-11-07T00:17:57Z",
+   "price_observed_at": "2026-11-07T01:02:23Z",
    "prob": 0.2011,
    "prob_raw": 0.1435,
    "side": "over",
@@ -11213,17 +11213,17 @@
   {
    "book": "bet365",
    "date": "2026-11-06",
-   "ev": -0.1311,
+   "ev": -0.1347,
    "fair": null,
    "game_id": "401909294",
    "home": false,
-   "implied": 0.9615,
+   "implied": 0.9655,
    "k": 40.0,
    "line": 4.5,
    "opp": "LAL",
    "player": "Donovan Clingan",
    "player_id": "5105565",
-   "price_observed_at": "2026-11-07T00:00:24Z",
+   "price_observed_at": "2026-11-07T01:01:52Z",
    "prob": 0.8355,
    "prob_raw": 0.8849,
    "side": "over",
@@ -11303,7 +11303,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Donovan Clingan over 4.5 reb (@ LAL): p=0.836 (raw 0.885) vs bet365 implied 0.962 EV -0.131 @ bet365 | career 139/157, season 7/7, last5 5/5, last10 10/10, vs LAL 5/7, away 71/80, month 11 past seasons 19/25, rest 1 day 87/96, opp defence tough 47/56, with Deni Avdija 116/134, with Damian Lillard 7/7, with Toumani Camara 136/154"
+   "text": "[research] Donovan Clingan over 4.5 reb (@ LAL): p=0.836 (raw 0.885) vs bet365 implied 0.966 EV -0.135 @ bet365 | career 139/157, season 7/7, last5 5/5, last10 10/10, vs LAL 5/7, away 71/80, month 11 past seasons 19/25, rest 1 day 87/96, opp defence tough 47/56, with Deni Avdija 116/134, with Damian Lillard 7/7, with Toumani Camara 136/154"
   },
   {
    "book": "bet365",
@@ -11983,7 +11983,7 @@
    "opp": "POR",
    "player": "Jake LaRavia",
    "player_id": "4592691",
-   "price_observed_at": "2026-11-07T00:16:22Z",
+   "price_observed_at": "2026-11-07T01:01:55Z",
    "prob": 0.0657,
    "prob_raw": 0.032,
    "side": "over",
@@ -14073,7 +14073,7 @@
    "opp": "LAL",
    "player": "Jrue Holiday",
    "player_id": "3995",
-   "price_observed_at": "2026-11-07T00:16:59Z",
+   "price_observed_at": "2026-11-07T01:01:55Z",
    "prob": 0.039,
    "prob_raw": 0.0161,
    "side": "over",
@@ -16068,7 +16068,7 @@
    "opp": "POR",
    "player": "Luka Doncic",
    "player_id": "3945274",
-   "price_observed_at": "2026-11-07T00:17:15Z",
+   "price_observed_at": "2026-11-07T01:02:23Z",
    "prob": 0.5415,
    "prob_raw": 0.5454,
    "side": "over",
@@ -16353,7 +16353,7 @@
    "opp": "POR",
    "player": "Luka Doncic",
    "player_id": "3945274",
-   "price_observed_at": "2026-11-07T00:21:52Z",
+   "price_observed_at": "2026-11-07T01:01:55Z",
    "prob": 0.1479,
    "prob_raw": 0.0945,
    "side": "over",
@@ -16448,7 +16448,7 @@
    "opp": "POR",
    "player": "Luka Doncic",
    "player_id": "3945274",
-   "price_observed_at": "2026-11-07T00:21:52Z",
+   "price_observed_at": "2026-11-07T01:01:55Z",
    "prob": 0.1032,
    "prob_raw": 0.0582,
    "side": "over",
@@ -17768,17 +17768,17 @@
   {
    "book": "bet365",
    "date": "2026-11-06",
-   "ev": -0.0309,
+   "ev": -0.0333,
    "fair": null,
    "game_id": "401909294",
    "home": true,
-   "implied": 0.9877,
+   "implied": 0.9901,
    "k": 40.0,
    "line": 2.5,
    "opp": "POR",
    "player": "Luka Doncic",
    "player_id": "3945274",
-   "price_observed_at": "2026-11-07T00:00:24Z",
+   "price_observed_at": "2026-11-07T01:01:52Z",
    "prob": 0.9571,
    "prob_raw": 0.9806,
    "side": "over",
@@ -17858,7 +17858,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Luka Doncic over 2.5 reb (vs POR): p=0.957 (raw 0.981) vs bet365 implied 0.988 EV -0.031 @ bet365 | career 279/285, season 8/8, last5 5/5, last10 10/10, vs POR 9/9, home 148/150, month 11 past seasons 47/48, rest 1 day 155/159, opp defence tough 106/108, with Austin Reaves 78/80, with Walker Kessler 8/8, with Quentin Grimes 8/8"
+   "text": "[research] Luka Doncic over 2.5 reb (vs POR): p=0.957 (raw 0.981) vs bet365 implied 0.990 EV -0.033 @ bet365 | career 279/285, season 8/8, last5 5/5, last10 10/10, vs POR 9/9, home 148/150, month 11 past seasons 47/48, rest 1 day 155/159, opp defence tough 106/108, with Austin Reaves 78/80, with Walker Kessler 8/8, with Quentin Grimes 8/8"
   },
   {
    "book": "bet365",
@@ -17873,7 +17873,7 @@
    "opp": "POR",
    "player": "Luka Doncic",
    "player_id": "3945274",
-   "price_observed_at": "2026-11-07T00:22:07Z",
+   "price_observed_at": "2026-11-07T01:02:23Z",
    "prob": 0.8889,
    "prob_raw": 0.9321,
    "side": "over",
@@ -18728,7 +18728,7 @@
    "opp": "POR",
    "player": "Matisse Thybulle",
    "player_id": "3907498",
-   "price_observed_at": "2026-11-07T00:17:15Z",
+   "price_observed_at": "2026-11-07T01:02:23Z",
    "prob": 0.0271,
    "prob_raw": 0.0101,
    "side": "over",
@@ -20248,7 +20248,7 @@
    "opp": "POR",
    "player": "Quentin Grimes",
    "player_id": "4397014",
-   "price_observed_at": "2026-11-07T00:21:52Z",
+   "price_observed_at": "2026-11-07T01:01:55Z",
    "prob": 0.6894,
    "prob_raw": 0.7282,
    "side": "over",
@@ -20343,7 +20343,7 @@
    "opp": "POR",
    "player": "Quentin Grimes",
    "player_id": "4397014",
-   "price_observed_at": "2026-11-07T00:21:52Z",
+   "price_observed_at": "2026-11-07T01:01:55Z",
    "prob": 0.4668,
    "prob_raw": 0.4503,
    "side": "over",
@@ -21388,7 +21388,7 @@
    "opp": "POR",
    "player": "Quentin Grimes",
    "player_id": "4397014",
-   "price_observed_at": "2026-11-07T00:17:33Z",
+   "price_observed_at": "2026-11-07T01:01:55Z",
    "prob": 0.3033,
    "prob_raw": 0.2518,
    "side": "over",
@@ -23098,7 +23098,7 @@
    "opp": "POR",
    "player": "Sandro Mamukelashvili",
    "player_id": "4278580",
-   "price_observed_at": "2026-11-07T00:21:52Z",
+   "price_observed_at": "2026-11-07T01:01:55Z",
    "prob": 0.4094,
    "prob_raw": 0.3784,
    "side": "over",
@@ -23193,7 +23193,7 @@
    "opp": "POR",
    "player": "Sandro Mamukelashvili",
    "player_id": "4278580",
-   "price_observed_at": "2026-11-07T00:21:52Z",
+   "price_observed_at": "2026-11-07T01:01:55Z",
    "prob": 0.2645,
    "prob_raw": 0.2087,
    "side": "over",
@@ -23668,7 +23668,7 @@
    "opp": "LAL",
    "player": "Scoot Henderson",
    "player_id": "4683678",
-   "price_observed_at": "2026-11-06T21:41:47Z",
+   "price_observed_at": "2026-11-07T01:02:23Z",
    "prob": 0.0867,
    "prob_raw": 0.0462,
    "side": "over",
@@ -24238,7 +24238,7 @@
    "opp": "LAL",
    "player": "Scoot Henderson",
    "player_id": "4683678",
-   "price_observed_at": "2026-11-07T00:21:52Z",
+   "price_observed_at": "2026-11-07T01:01:55Z",
    "prob": 0.0187,
    "prob_raw": 0.0062,
    "side": "over",
@@ -24798,17 +24798,17 @@
   {
    "book": "bet365",
    "date": "2026-11-06",
-   "ev": -0.1114,
+   "ev": -0.1154,
    "fair": null,
    "game_id": "401909294",
    "home": false,
-   "implied": 0.9333,
+   "implied": 0.9375,
    "k": 40.0,
    "line": 4.5,
    "opp": "LAL",
    "player": "Scoot Henderson",
    "player_id": "4683678",
-   "price_observed_at": "2026-11-07T00:52:22Z",
+   "price_observed_at": "2026-11-07T01:06:22Z",
    "prob": 0.8294,
    "prob_raw": 0.8791,
    "side": "over",
@@ -24888,7 +24888,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Scoot Henderson over 4.5 pts (@ LAL): p=0.829 (raw 0.879) vs bet365 implied 0.933 EV -0.111 @ bet365 | career 154/171, season 5/7, last5 4/5, last10 7/10, vs LAL 3/5, away 79/89, month 11 past seasons 14/16, rest 1 day 98/110, opp defence middle 47/54, with Deni Avdija 86/95, with Damian Lillard 5/7, with Toumani Camara 142/159"
+   "text": "[research] Scoot Henderson over 4.5 pts (@ LAL): p=0.829 (raw 0.879) vs bet365 implied 0.938 EV -0.115 @ bet365 | career 154/171, season 5/7, last5 4/5, last10 7/10, vs LAL 3/5, away 79/89, month 11 past seasons 14/16, rest 1 day 98/110, opp defence middle 47/54, with Deni Avdija 86/95, with Damian Lillard 5/7, with Toumani Camara 142/159"
   },
   {
    "book": "bet365",
@@ -25853,7 +25853,7 @@
    "opp": "LAL",
    "player": "Sidy Cissoko",
    "player_id": "5081727",
-   "price_observed_at": "2026-11-07T00:22:07Z",
+   "price_observed_at": "2026-11-07T01:02:23Z",
    "prob": 0.0933,
    "prob_raw": 0.0509,
    "side": "over",
@@ -26708,7 +26708,7 @@
    "opp": "LAL",
    "player": "Sidy Cissoko",
    "player_id": "5081727",
-   "price_observed_at": "2026-11-07T00:22:07Z",
+   "price_observed_at": "2026-11-07T01:02:23Z",
    "prob": 0.0675,
    "prob_raw": 0.0332,
    "side": "over",
@@ -27658,7 +27658,7 @@
    "opp": "LAL",
    "player": "Toumani Camara",
    "player_id": "4431736",
-   "price_observed_at": "2026-11-07T00:22:07Z",
+   "price_observed_at": "2026-11-07T01:02:23Z",
    "prob": 0.047,
    "prob_raw": 0.0206,
    "side": "over",
@@ -28513,7 +28513,7 @@
    "opp": "LAL",
    "player": "Toumani Camara",
    "player_id": "4431736",
-   "price_observed_at": "2026-11-07T00:21:52Z",
+   "price_observed_at": "2026-11-07T01:01:55Z",
    "prob": 0.7779,
    "prob_raw": 0.8273,
    "side": "over",
@@ -30023,17 +30023,17 @@
   {
    "book": "bet365",
    "date": "2026-11-06",
-   "ev": -0.1406,
+   "ev": -0.1376,
    "fair": null,
    "game_id": "401909294",
    "home": true,
-   "implied": 0.9756,
+   "implied": 0.9722,
    "k": 40.0,
    "line": 4.5,
    "opp": "POR",
    "player": "Walker Kessler",
    "player_id": "4433136",
-   "price_observed_at": "2026-11-07T00:00:24Z",
+   "price_observed_at": "2026-11-07T01:01:52Z",
    "prob": 0.8385,
    "prob_raw": 0.8877,
    "side": "over",
@@ -30113,7 +30113,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Walker Kessler over 4.5 reb (vs POR): p=0.839 (raw 0.888) vs bet365 implied 0.976 EV -0.141 @ bet365 | career 184/210, season 9/9, last5 5/5, last10 10/10, vs POR 10/10, home 99/109, month 11 past seasons 21/32, rest 1 day 101/119, opp defence tough 53/59, with Austin Reaves 9/9, with Luka Doncic 8/8, with Quentin Grimes 9/9"
+   "text": "[research] Walker Kessler over 4.5 reb (vs POR): p=0.839 (raw 0.888) vs bet365 implied 0.972 EV -0.138 @ bet365 | career 184/210, season 9/9, last5 5/5, last10 10/10, vs POR 10/10, home 99/109, month 11 past seasons 21/32, rest 1 day 101/119, opp defence tough 53/59, with Austin Reaves 9/9, with Luka Doncic 8/8, with Quentin Grimes 9/9"
   },
   {
    "book": "bet365",
@@ -30128,7 +30128,7 @@
    "opp": "POR",
    "player": "Walker Kessler",
    "player_id": "4433136",
-   "price_observed_at": "2026-11-07T00:22:07Z",
+   "price_observed_at": "2026-11-07T01:02:23Z",
    "prob": 0.7279,
    "prob_raw": 0.7727,
    "side": "over",
@@ -36113,7 +36113,7 @@
    "opp": "POR",
    "player": "Quentin Grimes",
    "player_id": "4397014",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.622,
    "prob_raw": 0.6466,
    "side": "over",
@@ -36208,7 +36208,7 @@
    "opp": "POR",
    "player": "Quentin Grimes",
    "player_id": "4397014",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.3891,
    "prob_raw": 0.3534,
    "side": "under",
@@ -38203,7 +38203,7 @@
    "opp": "POR",
    "player": "Jake LaRavia",
    "player_id": "4592691",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.3873,
    "prob_raw": 0.3511,
    "side": "under",
@@ -39628,7 +39628,7 @@
    "opp": "LAL",
    "player": "Scoot Henderson",
    "player_id": "4683678",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.5415,
    "prob_raw": 0.5453,
    "side": "over",
@@ -39723,7 +39723,7 @@
    "opp": "LAL",
    "player": "Scoot Henderson",
    "player_id": "4683678",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.4702,
    "prob_raw": 0.4547,
    "side": "under",
@@ -42278,6 +42278,101 @@
   {
    "book": "bet365",
    "date": "2026-11-06",
+   "ev": -0.6605,
+   "fair": null,
+   "game_id": "401909294",
+   "home": false,
+   "implied": 0.0278,
+   "k": 40.0,
+   "line": 12.5,
+   "opp": "LAL",
+   "player": "Jrue Holiday",
+   "player_id": "3995",
+   "price_observed_at": "2026-11-07T01:01:52Z",
+   "prob": 0.0094,
+   "prob_raw": 0.0026,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 1,
+     "n": 296,
+     "rate": 0.003,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 7,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 5,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 0,
+     "n": 10,
+     "rate": 0.0,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 10,
+     "rate": 0.0,
+     "split": "vs LAL"
+    },
+    {
+     "hits": 0,
+     "n": 150,
+     "rate": 0.0,
+     "split": "away"
+    },
+    {
+     "hits": 0,
+     "n": 42,
+     "rate": 0.0,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 1,
+     "n": 164,
+     "rate": 0.006,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 0,
+     "n": 111,
+     "rate": 0.0,
+     "split": "opp defence tough"
+    },
+    {
+     "hits": 0,
+     "n": 51,
+     "rate": 0.0,
+     "split": "with Deni Avdija"
+    },
+    {
+     "hits": 0,
+     "n": 7,
+     "rate": 0.0,
+     "split": "with Damian Lillard"
+    },
+    {
+     "hits": 0,
+     "n": 66,
+     "rate": 0.0,
+     "split": "with Toumani Camara"
+    }
+   ],
+   "stat": "reb",
+   "status": "research",
+   "text": "[research] Jrue Holiday over 12.5 reb (@ LAL): p=0.009 (raw 0.003) vs bet365 implied 0.028 EV -0.660 @ bet365 | career 1/296, season 0/7, last5 0/5, last10 0/10, vs LAL 0/10, away 0/150, month 11 past seasons 0/42, rest 1 day 1/164, opp defence tough 0/111, with Deni Avdija 0/51, with Damian Lillard 0/7, with Toumani Camara 0/66"
+  },
+  {
+   "book": "bet365",
+   "date": "2026-11-06",
    "ev": 4.436,
    "fair": null,
    "game_id": "401909295",
@@ -42555,7 +42650,7 @@
    "opp": "SA",
    "player": "Darius Acuff Jr.",
    "player_id": "5142620",
-   "price_observed_at": "2026-11-07T01:00:33Z",
+   "price_observed_at": "2026-11-07T01:01:04Z",
    "prob": 0.6821,
    "prob_raw": 0.7196,
    "side": "over",
@@ -53242,17 +53337,17 @@
   {
    "book": "bet365",
    "date": "2026-11-06",
-   "ev": -0.5471,
+   "ev": -0.5394,
    "fair": null,
    "game_id": "401909295",
    "home": false,
-   "implied": 0.339,
+   "implied": 0.3333,
    "k": 40.0,
    "line": 6.5,
    "opp": "SAC",
    "player": "Dylan Harper",
    "player_id": "5037871",
-   "price_observed_at": "2026-11-07T01:00:30Z",
+   "price_observed_at": "2026-11-07T01:01:46Z",
    "prob": 0.1535,
    "prob_raw": 0.0994,
    "side": "over",
@@ -53332,7 +53427,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Dylan Harper over 6.5 ast (@ SAC): p=0.153 (raw 0.099) vs bet365 implied 0.339 EV -0.547 @ bet365 | career 8/100, season 2/8, last5 2/5, last10 2/10, vs SAC 0/3, away 4/51, month 11 past seasons 0/4, rest 1 day 5/55, opp defence soft 2/23, with Devin Vassell 8/85, with Victor Wembanyama 8/85, with De'Aaron Fox 6/90"
+   "text": "[research] Dylan Harper over 6.5 ast (@ SAC): p=0.153 (raw 0.099) vs bet365 implied 0.333 EV -0.539 @ bet365 | career 8/100, season 2/8, last5 2/5, last10 2/10, vs SAC 0/3, away 4/51, month 11 past seasons 0/4, rest 1 day 5/55, opp defence soft 2/23, with Devin Vassell 8/85, with Victor Wembanyama 8/85, with De'Aaron Fox 6/90"
   },
   {
    "book": "bet365",
@@ -54012,7 +54107,7 @@
    "opp": "SAC",
    "player": "Dylan Harper",
    "player_id": "5037871",
-   "price_observed_at": "2026-11-07T00:49:01Z",
+   "price_observed_at": "2026-11-07T01:01:04Z",
    "prob": 0.447,
    "prob_raw": 0.4253,
    "side": "over",
@@ -54202,7 +54297,7 @@
    "opp": "SAC",
    "player": "Dylan Harper",
    "player_id": "5037871",
-   "price_observed_at": "2026-11-07T00:49:01Z",
+   "price_observed_at": "2026-11-07T01:01:04Z",
    "prob": 0.0731,
    "prob_raw": 0.0368,
    "side": "over",
@@ -54297,7 +54392,7 @@
    "opp": "SAC",
    "player": "Dylan Harper",
    "player_id": "5037871",
-   "price_observed_at": "2026-11-07T00:49:01Z",
+   "price_observed_at": "2026-11-07T01:01:04Z",
    "prob": 0.0116,
    "prob_raw": 0.0034,
    "side": "over",
@@ -54392,7 +54487,7 @@
    "opp": "SAC",
    "player": "Dylan Harper",
    "player_id": "5037871",
-   "price_observed_at": "2026-11-07T00:49:01Z",
+   "price_observed_at": "2026-11-07T01:01:04Z",
    "prob": 0.0116,
    "prob_raw": 0.0034,
    "side": "over",
@@ -55142,17 +55237,17 @@
   {
    "book": "bet365",
    "date": "2026-11-06",
-   "ev": -0.0402,
+   "ev": 0.0283,
    "fair": null,
    "game_id": "401909295",
    "home": false,
-   "implied": 0.2381,
+   "implied": 0.2222,
    "k": 40.0,
    "line": 2.5,
    "opp": "SAC",
    "player": "Julian Champagnie",
    "player_id": "4592479",
-   "price_observed_at": "2026-11-07T01:00:30Z",
+   "price_observed_at": "2026-11-07T01:01:46Z",
    "prob": 0.2285,
    "prob_raw": 0.1709,
    "side": "over",
@@ -55232,7 +55327,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Julian Champagnie over 2.5 ast (@ SAC): p=0.229 (raw 0.171) vs bet365 implied 0.238 EV -0.040 @ bet365 | career 45/286, season 3/8, last5 2/5, last10 4/10, vs SAC 3/12, away 24/145, month 11 past seasons 5/39, rest 1 day 23/169, opp defence soft 17/82, with Dylan Harper 20/100, with Devin Vassell 31/227, with Victor Wembanyama 29/203"
+   "text": "[research] Julian Champagnie over 2.5 ast (@ SAC): p=0.229 (raw 0.171) vs bet365 implied 0.222 EV +0.028 @ bet365 | career 45/286, season 3/8, last5 2/5, last10 4/10, vs SAC 3/12, away 24/145, month 11 past seasons 5/39, rest 1 day 23/169, opp defence soft 17/82, with Dylan Harper 20/100, with Devin Vassell 31/227, with Victor Wembanyama 29/203"
   },
   {
    "book": "bet365",
@@ -57232,17 +57327,17 @@
   {
    "book": "bet365",
    "date": "2026-11-06",
-   "ev": 0.8055,
+   "ev": 0.8876,
    "fair": null,
    "game_id": "401909295",
    "home": false,
-   "implied": 0.1818,
+   "implied": 0.1739,
    "k": 40.0,
    "line": 2.5,
    "opp": "SAC",
    "player": "Keldon Johnson",
    "player_id": "4395723",
-   "price_observed_at": "2026-11-07T01:00:30Z",
+   "price_observed_at": "2026-11-07T01:01:46Z",
    "prob": 0.3283,
    "prob_raw": 0.2805,
    "side": "over",
@@ -57322,7 +57417,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Keldon Johnson over 2.5 ast (@ SAC): p=0.328 (raw 0.281) vs bet365 implied 0.182 EV +0.805 @ bet365 | career 103/322, season 1/8, last5 0/5, last10 1/10, vs SAC 5/13, away 48/158, month 11 past seasons 24/53, rest 1 day 57/186, opp defence soft 31/89, with Dylan Harper 11/100, with Devin Vassell 75/252, with Victor Wembanyama 47/197"
+   "text": "[research] Keldon Johnson over 2.5 ast (@ SAC): p=0.328 (raw 0.281) vs bet365 implied 0.174 EV +0.888 @ bet365 | career 103/322, season 1/8, last5 0/5, last10 1/10, vs SAC 5/13, away 48/158, month 11 past seasons 24/53, rest 1 day 57/186, opp defence soft 31/89, with Dylan Harper 11/100, with Devin Vassell 75/252, with Victor Wembanyama 47/197"
   },
   {
    "book": "bet365",
@@ -64367,7 +64462,7 @@
    "opp": "SAC",
    "player": "Stephon Castle",
    "player_id": "4845367",
-   "price_observed_at": "2026-11-07T01:00:33Z",
+   "price_observed_at": "2026-11-07T01:01:04Z",
    "prob": 0.3767,
    "prob_raw": 0.3382,
    "side": "over",
@@ -68917,17 +69012,17 @@
   {
    "book": "bet365",
    "date": "2026-11-06",
-   "ev": 0.2775,
+   "ev": 0.3087,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5122,
+   "implied": 0.5,
    "k": 40.0,
    "line": 2.5,
    "opp": "SA",
    "player": "Zach LaVine",
    "player_id": "3064440",
-   "price_observed_at": "2026-11-07T01:00:30Z",
+   "price_observed_at": "2026-11-07T01:01:46Z",
    "prob": 0.6543,
    "prob_raw": 0.6863,
    "side": "over",
@@ -69007,7 +69102,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Zach LaVine over 2.5 ast (vs SA): p=0.654 (raw 0.686) vs bet365 implied 0.512 EV +0.278 @ bet365 | career 162/226, season 4/8, last5 2/5, last10 5/10, vs SA 7/7, home 85/115, month 11 past seasons 40/54, rest 1 day 94/132, opp defence tough 50/75, with Darius Acuff Jr. 4/8, with Domantas Sabonis 29/49, with De'Andre Hunter 5/10"
+   "text": "[research] Zach LaVine over 2.5 ast (vs SA): p=0.654 (raw 0.686) vs bet365 implied 0.500 EV +0.309 @ bet365 | career 162/226, season 4/8, last5 2/5, last10 5/10, vs SA 7/7, home 85/115, month 11 past seasons 40/54, rest 1 day 94/132, opp defence tough 50/75, with Darius Acuff Jr. 4/8, with Domantas Sabonis 29/49, with De'Andre Hunter 5/10"
   },
   {
    "book": "bet365",
@@ -69022,7 +69117,7 @@
    "opp": "SA",
    "player": "Zach LaVine",
    "player_id": "3064440",
-   "price_observed_at": "2026-11-07T01:00:33Z",
+   "price_observed_at": "2026-11-07T01:01:04Z",
    "prob": 0.3639,
    "prob_raw": 0.3227,
    "side": "over",
@@ -71292,17 +71387,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": -0.3906,
-   "fair": 0.5464,
+   "ev": -0.3764,
+   "fair": 0.5346,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5848,
+   "implied": 0.5714,
    "k": 40.0,
    "line": 2.5,
    "opp": "SA",
    "player": "Zach LaVine",
    "player_id": "3064440",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.3564,
    "prob_raw": 0.3137,
    "side": "under",
@@ -71382,22 +71477,22 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Zach LaVine under 2.5 ast (vs SA): p=0.356 (raw 0.314) vs DraftKings implied 0.585 EV -0.391 @ DraftKings | career 64/226, season 4/8, last5 3/5, last10 5/10, vs SA 0/7, home 30/115, month 11 past seasons 14/54, rest 1 day 38/132, opp defence tough 25/75, with Darius Acuff Jr. 4/8, with Domantas Sabonis 20/49, with De'Andre Hunter 5/10"
+   "text": "[research] Zach LaVine under 2.5 ast (vs SA): p=0.356 (raw 0.314) vs DraftKings implied 0.571 EV -0.376 @ DraftKings | career 64/226, season 4/8, last5 3/5, last10 5/10, vs SA 0/7, home 30/115, month 11 past seasons 14/54, rest 1 day 38/132, opp defence tough 25/75, with Darius Acuff Jr. 4/8, with Domantas Sabonis 20/49, with De'Andre Hunter 5/10"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": -0.136,
+   "ev": -0.1546,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5376,
+   "implied": 0.5495,
    "k": 40.0,
    "line": 2.5,
    "opp": "SA",
    "player": "Zach LaVine",
    "player_id": "3064440",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.4645,
    "prob_raw": 0.4474,
    "side": "under",
@@ -71477,7 +71572,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Zach LaVine under 2.5 fg3m (vs SA): p=0.465 (raw 0.447) vs DraftKings implied 0.538 EV -0.136 @ DraftKings | career 112/226, season 1/8, last5 1/5, last10 3/10, vs SA 4/7, home 58/115, month 11 past seasons 28/54, rest 1 day 60/132, opp defence middle 30/65, with Darius Acuff Jr. 1/8, with Domantas Sabonis 19/49, with De'Andre Hunter 3/10"
+   "text": "[research] Zach LaVine under 2.5 fg3m (vs SA): p=0.465 (raw 0.447) vs DraftKings implied 0.549 EV -0.155 @ DraftKings | career 112/226, season 1/8, last5 1/5, last10 3/10, vs SA 4/7, home 58/115, month 11 past seasons 28/54, rest 1 day 60/132, opp defence middle 30/65, with Darius Acuff Jr. 1/8, with Domantas Sabonis 19/49, with De'Andre Hunter 3/10"
   },
   {
    "book": "DraftKings",
@@ -71767,17 +71862,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": 0.0425,
+   "ev": 0.0481,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5376,
+   "implied": 0.5348,
    "k": 40.0,
    "line": 20.5,
    "opp": "SA",
    "player": "Zach LaVine",
    "player_id": "3064440",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.5605,
    "prob_raw": 0.5695,
    "side": "over",
@@ -71857,22 +71952,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Zach LaVine over 20.5 pts (vs SA): p=0.560 (raw 0.570) vs DraftKings implied 0.538 EV +0.043 @ DraftKings | career 129/226, season 7/8, last5 4/5, last10 7/10, vs SA 3/7, home 58/115, month 11 past seasons 27/54, rest 1 day 82/132, opp defence tough 26/72, with Darius Acuff Jr. 7/8, with Domantas Sabonis 28/49, with De'Andre Hunter 7/10"
+   "text": "[research] Zach LaVine over 20.5 pts (vs SA): p=0.560 (raw 0.570) vs DraftKings implied 0.535 EV +0.048 @ DraftKings | career 129/226, season 7/8, last5 4/5, last10 7/10, vs SA 3/7, home 58/115, month 11 past seasons 27/54, rest 1 day 82/132, opp defence tough 26/72, with Darius Acuff Jr. 7/8, with Domantas Sabonis 28/49, with De'Andre Hunter 7/10"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": -0.1609,
+   "ev": -0.1564,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5376,
+   "implied": 0.5348,
    "k": 40.0,
    "line": 20.5,
    "opp": "SA",
    "player": "Zach LaVine",
    "player_id": "3064440",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.4511,
    "prob_raw": 0.4305,
    "side": "under",
@@ -71952,22 +72047,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Zach LaVine under 20.5 pts (vs SA): p=0.451 (raw 0.430) vs DraftKings implied 0.538 EV -0.161 @ DraftKings | career 97/226, season 1/8, last5 1/5, last10 3/10, vs SA 4/7, home 57/115, month 11 past seasons 27/54, rest 1 day 50/132, opp defence tough 46/72, with Darius Acuff Jr. 1/8, with Domantas Sabonis 21/49, with De'Andre Hunter 3/10"
+   "text": "[research] Zach LaVine under 20.5 pts (vs SA): p=0.451 (raw 0.430) vs DraftKings implied 0.535 EV -0.156 @ DraftKings | career 97/226, season 1/8, last5 1/5, last10 3/10, vs SA 4/7, home 57/115, month 11 past seasons 27/54, rest 1 day 50/132, opp defence tough 46/72, with Darius Acuff Jr. 1/8, with Domantas Sabonis 21/49, with De'Andre Hunter 3/10"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": -0.3453,
-   "fair": 0.4536,
+   "ev": -0.3294,
+   "fair": 0.4433,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.4854,
+   "implied": 0.4739,
    "k": 40.0,
    "line": 2.5,
    "opp": "SA",
    "player": "Zach LaVine",
    "player_id": "3064440",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.3178,
    "prob_raw": 0.2684,
    "side": "under",
@@ -72047,7 +72142,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Zach LaVine under 2.5 reb (vs SA): p=0.318 (raw 0.268) vs DraftKings implied 0.485 EV -0.345 @ DraftKings | career 58/226, season 2/8, last5 1/5, last10 4/10, vs SA 1/7, home 28/115, month 11 past seasons 13/54, rest 1 day 37/132, opp defence soft 18/73, with Darius Acuff Jr. 2/8, with Domantas Sabonis 20/49, with De'Andre Hunter 4/10"
+   "text": "[research] Zach LaVine under 2.5 reb (vs SA): p=0.318 (raw 0.268) vs DraftKings implied 0.474 EV -0.329 @ DraftKings | career 58/226, season 2/8, last5 1/5, last10 4/10, vs SA 1/7, home 28/115, month 11 past seasons 13/54, rest 1 day 37/132, opp defence soft 18/73, with Darius Acuff Jr. 2/8, with Domantas Sabonis 20/49, with De'Andre Hunter 4/10"
   },
   {
    "book": "DraftKings",
@@ -72242,11 +72337,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": 0.0432,
+   "ev": 0.0676,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5848,
+   "implied": 0.5714,
    "k": 40.0,
    "line": 5.5,
    "opp": "SA",
@@ -72332,16 +72427,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Domantas Sabonis over 5.5 ast (vs SA): p=0.610 (raw 0.632) vs DraftKings implied 0.585 EV +0.043 @ DraftKings | career 174/268, season 5/8, last5 3/5, last10 5/10, vs SA 7/12, home 87/131, month 11 past seasons 32/49, rest 1 day 107/158, opp defence tough 57/89, with Darius Acuff Jr. 5/8, with Zach LaVine 19/49, with De'Andre Hunter 5/9"
+   "text": "[research] Domantas Sabonis over 5.5 ast (vs SA): p=0.610 (raw 0.632) vs DraftKings implied 0.571 EV +0.068 @ DraftKings | career 174/268, season 5/8, last5 3/5, last10 5/10, vs SA 7/12, home 87/131, month 11 past seasons 32/49, rest 1 day 107/158, opp defence tough 57/89, with Darius Acuff Jr. 5/8, with Zach LaVine 19/49, with De'Andre Hunter 5/9"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": -0.314,
+   "ev": -0.298,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5848,
+   "implied": 0.5714,
    "k": 40.0,
    "line": 5.5,
    "opp": "SA",
@@ -72427,22 +72522,22 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Domantas Sabonis under 5.5 ast (vs SA): p=0.401 (raw 0.368) vs DraftKings implied 0.585 EV -0.314 @ DraftKings | career 94/268, season 3/8, last5 2/5, last10 5/10, vs SA 5/12, home 44/131, month 11 past seasons 17/49, rest 1 day 51/158, opp defence tough 32/89, with Darius Acuff Jr. 3/8, with Zach LaVine 30/49, with De'Andre Hunter 4/9"
+   "text": "[research] Domantas Sabonis under 5.5 ast (vs SA): p=0.401 (raw 0.368) vs DraftKings implied 0.571 EV -0.298 @ DraftKings | career 94/268, season 3/8, last5 2/5, last10 5/10, vs SA 5/12, home 44/131, month 11 past seasons 17/49, rest 1 day 51/158, opp defence tough 32/89, with Darius Acuff Jr. 3/8, with Zach LaVine 30/49, with De'Andre Hunter 4/9"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": 0.3437,
+   "ev": 0.3147,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5405,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 13.5,
    "opp": "SA",
    "player": "Domantas Sabonis",
    "player_id": "3155942",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.7263,
    "prob_raw": 0.7709,
    "side": "over",
@@ -72522,22 +72617,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Domantas Sabonis over 13.5 pts (vs SA): p=0.726 (raw 0.771) vs DraftKings implied 0.540 EV +0.344 @ DraftKings | career 213/268, season 5/8, last5 2/5, last10 7/10, vs SA 12/12, home 102/131, month 11 past seasons 38/49, rest 1 day 125/158, opp defence tough 70/83, with Darius Acuff Jr. 5/8, with Zach LaVine 30/49, with De'Andre Hunter 6/9"
+   "text": "[research] Domantas Sabonis over 13.5 pts (vs SA): p=0.726 (raw 0.771) vs DraftKings implied 0.552 EV +0.315 @ DraftKings | career 213/268, season 5/8, last5 2/5, last10 7/10, vs SA 12/12, home 102/131, month 11 past seasons 38/49, rest 1 day 125/158, opp defence tough 70/83, with Darius Acuff Jr. 5/8, with Zach LaVine 30/49, with De'Andre Hunter 6/9"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": -0.4763,
+   "ev": -0.4876,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5405,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 13.5,
    "opp": "SA",
    "player": "Domantas Sabonis",
    "player_id": "3155942",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.2831,
    "prob_raw": 0.2291,
    "side": "under",
@@ -72617,7 +72712,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Domantas Sabonis under 13.5 pts (vs SA): p=0.283 (raw 0.229) vs DraftKings implied 0.540 EV -0.476 @ DraftKings | career 55/268, season 3/8, last5 3/5, last10 3/10, vs SA 0/12, home 29/131, month 11 past seasons 11/49, rest 1 day 33/158, opp defence tough 13/83, with Darius Acuff Jr. 3/8, with Zach LaVine 19/49, with De'Andre Hunter 3/9"
+   "text": "[research] Domantas Sabonis under 13.5 pts (vs SA): p=0.283 (raw 0.229) vs DraftKings implied 0.552 EV -0.488 @ DraftKings | career 55/268, season 3/8, last5 3/5, last10 3/10, vs SA 0/12, home 29/131, month 11 past seasons 11/49, rest 1 day 33/158, opp defence tough 13/83, with Darius Acuff Jr. 3/8, with Zach LaVine 19/49, with De'Andre Hunter 3/9"
   },
   {
    "book": "DraftKings",
@@ -72717,17 +72812,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": -0.15,
+   "ev": -0.1407,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5464,
+   "implied": 0.5405,
    "k": 40.0,
    "line": 12.5,
    "opp": "SA",
    "player": "Domantas Sabonis",
    "player_id": "3155942",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.4645,
    "prob_raw": 0.4474,
    "side": "under",
@@ -72807,7 +72902,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Domantas Sabonis under 12.5 reb (vs SA): p=0.465 (raw 0.447) vs DraftKings implied 0.546 EV -0.150 @ DraftKings | career 129/268, season 1/8, last5 1/5, last10 2/10, vs SA 5/12, home 66/131, month 11 past seasons 29/49, rest 1 day 78/158, opp defence soft 36/83, with Darius Acuff Jr. 1/8, with Zach LaVine 19/49, with De'Andre Hunter 1/9"
+   "text": "[research] Domantas Sabonis under 12.5 reb (vs SA): p=0.465 (raw 0.447) vs DraftKings implied 0.540 EV -0.141 @ DraftKings | career 129/268, season 1/8, last5 1/5, last10 2/10, vs SA 5/12, home 66/131, month 11 past seasons 29/49, rest 1 day 78/158, opp defence soft 36/83, with Darius Acuff Jr. 1/8, with Zach LaVine 19/49, with De'Andre Hunter 1/9"
   },
   {
    "book": "DraftKings",
@@ -74522,17 +74617,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": -0.0996,
+   "ev": -0.0565,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5988,
+   "implied": 0.5714,
    "k": 40.0,
    "line": 3.5,
    "opp": "SA",
    "player": "Malik Monk",
    "player_id": "4066262",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.5391,
    "prob_raw": 0.5424,
    "side": "over",
@@ -74612,22 +74707,22 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Malik Monk over 3.5 ast (vs SA): p=0.539 (raw 0.542) vs DraftKings implied 0.599 EV -0.100 @ DraftKings | career 168/290, season 2/7, last5 2/5, last10 2/10, vs SA 8/11, home 77/140, month 11 past seasons 24/50, rest 1 day 96/165, opp defence tough 50/93, with Darius Acuff Jr. 2/7, with Domantas Sabonis 148/234, with Zach LaVine 26/64"
+   "text": "[research] Malik Monk over 3.5 ast (vs SA): p=0.539 (raw 0.542) vs DraftKings implied 0.571 EV -0.057 @ DraftKings | career 168/290, season 2/7, last5 2/5, last10 2/10, vs SA 8/11, home 77/140, month 11 past seasons 24/50, rest 1 day 96/165, opp defence tough 50/93, with Darius Acuff Jr. 2/7, with Domantas Sabonis 148/234, with Zach LaVine 26/64"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": -0.2108,
+   "ev": -0.173,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5988,
+   "implied": 0.5714,
    "k": 40.0,
    "line": 3.5,
    "opp": "SA",
    "player": "Malik Monk",
    "player_id": "4066262",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.4726,
    "prob_raw": 0.4576,
    "side": "under",
@@ -74707,7 +74802,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Malik Monk under 3.5 ast (vs SA): p=0.473 (raw 0.458) vs DraftKings implied 0.599 EV -0.211 @ DraftKings | career 122/290, season 5/7, last5 3/5, last10 8/10, vs SA 3/11, home 63/140, month 11 past seasons 26/50, rest 1 day 69/165, opp defence tough 43/93, with Darius Acuff Jr. 5/7, with Domantas Sabonis 86/234, with Zach LaVine 38/64"
+   "text": "[research] Malik Monk under 3.5 ast (vs SA): p=0.473 (raw 0.458) vs DraftKings implied 0.571 EV -0.173 @ DraftKings | career 122/290, season 5/7, last5 3/5, last10 8/10, vs SA 3/11, home 63/140, month 11 past seasons 26/50, rest 1 day 69/165, opp defence tough 43/93, with Darius Acuff Jr. 5/7, with Domantas Sabonis 86/234, with Zach LaVine 38/64"
   },
   {
    "book": "DraftKings",
@@ -74807,17 +74902,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": -0.1803,
+   "ev": -0.143,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5682,
+   "implied": 0.5435,
    "k": 40.0,
    "line": 1.5,
    "opp": "SA",
    "player": "Malik Monk",
    "player_id": "4066262",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.4658,
    "prob_raw": 0.449,
    "side": "under",
@@ -74897,7 +74992,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Malik Monk under 1.5 fg3m (vs SA): p=0.466 (raw 0.449) vs DraftKings implied 0.568 EV -0.180 @ DraftKings | career 125/290, season 5/7, last5 3/5, last10 7/10, vs SA 3/11, home 57/140, month 11 past seasons 20/50, rest 1 day 75/165, opp defence middle 42/96, with Darius Acuff Jr. 5/7, with Domantas Sabonis 100/234, with Zach LaVine 30/64"
+   "text": "[research] Malik Monk under 1.5 fg3m (vs SA): p=0.466 (raw 0.449) vs DraftKings implied 0.543 EV -0.143 @ DraftKings | career 125/290, season 5/7, last5 3/5, last10 7/10, vs SA 3/11, home 57/140, month 11 past seasons 20/50, rest 1 day 75/165, opp defence middle 42/96, with Darius Acuff Jr. 5/7, with Domantas Sabonis 100/234, with Zach LaVine 30/64"
   },
   {
    "book": "DraftKings",
@@ -75092,17 +75187,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": 0.0385,
+   "ev": 0.0846,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5556,
+   "implied": 0.5319,
    "k": 40.0,
    "line": 12.5,
    "opp": "SA",
    "player": "Malik Monk",
    "player_id": "4066262",
-   "price_observed_at": "2026-11-06T21:47:37Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.5769,
    "prob_raw": 0.5903,
    "side": "over",
@@ -75182,22 +75277,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Malik Monk over 12.5 pts (vs SA): p=0.577 (raw 0.590) vs DraftKings implied 0.556 EV +0.038 @ DraftKings | career 174/290, season 2/7, last5 2/5, last10 2/10, vs SA 9/11, home 86/140, month 11 past seasons 31/50, rest 1 day 96/165, opp defence tough 57/89, with Darius Acuff Jr. 2/7, with Domantas Sabonis 147/234, with Zach LaVine 39/64"
+   "text": "[research] Malik Monk over 12.5 pts (vs SA): p=0.577 (raw 0.590) vs DraftKings implied 0.532 EV +0.085 @ DraftKings | career 174/290, season 2/7, last5 2/5, last10 2/10, vs SA 9/11, home 86/140, month 11 past seasons 31/50, rest 1 day 96/165, opp defence tough 57/89, with Darius Acuff Jr. 2/7, with Domantas Sabonis 147/234, with Zach LaVine 39/64"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": -0.2177,
+   "ev": -0.183,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5556,
+   "implied": 0.5319,
    "k": 40.0,
    "line": 12.5,
    "opp": "SA",
    "player": "Malik Monk",
    "player_id": "4066262",
-   "price_observed_at": "2026-11-06T21:47:37Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.4346,
    "prob_raw": 0.4097,
    "side": "under",
@@ -75277,7 +75372,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Malik Monk under 12.5 pts (vs SA): p=0.435 (raw 0.410) vs DraftKings implied 0.556 EV -0.218 @ DraftKings | career 116/290, season 5/7, last5 3/5, last10 8/10, vs SA 2/11, home 54/140, month 11 past seasons 19/50, rest 1 day 69/165, opp defence tough 32/89, with Darius Acuff Jr. 5/7, with Domantas Sabonis 87/234, with Zach LaVine 25/64"
+   "text": "[research] Malik Monk under 12.5 pts (vs SA): p=0.435 (raw 0.410) vs DraftKings implied 0.532 EV -0.183 @ DraftKings | career 116/290, season 5/7, last5 3/5, last10 8/10, vs SA 2/11, home 54/140, month 11 past seasons 19/50, rest 1 day 69/165, opp defence tough 32/89, with Darius Acuff Jr. 5/7, with Domantas Sabonis 87/234, with Zach LaVine 25/64"
   },
   {
    "book": "DraftKings",
@@ -76147,7 +76242,7 @@
    "opp": "SAC",
    "player": "Keldon Johnson",
    "player_id": "4395723",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.6017,
    "prob_raw": 0.6214,
    "side": "over",
@@ -76242,7 +76337,7 @@
    "opp": "SAC",
    "player": "Keldon Johnson",
    "player_id": "4395723",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.4096,
    "prob_raw": 0.3786,
    "side": "under",
@@ -76422,11 +76517,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": -0.1133,
+   "ev": -0.1036,
    "fair": null,
    "game_id": "401909295",
    "home": false,
-   "implied": 0.5464,
+   "implied": 0.5405,
    "k": 40.0,
    "line": 4.5,
    "opp": "SAC",
@@ -76512,22 +76607,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Keldon Johnson under 4.5 reb (@ SAC): p=0.484 (raw 0.473) vs DraftKings implied 0.546 EV -0.113 @ DraftKings | career 151/322, season 2/8, last5 1/5, last10 3/10, vs SAC 8/13, away 85/158, month 11 past seasons 17/53, rest 1 day 84/186, opp defence middle 62/111, with Dylan Harper 49/100, with Devin Vassell 119/252, with Victor Wembanyama 104/197"
+   "text": "[research] Keldon Johnson under 4.5 reb (@ SAC): p=0.484 (raw 0.473) vs DraftKings implied 0.540 EV -0.104 @ DraftKings | career 151/322, season 2/8, last5 1/5, last10 3/10, vs SAC 8/13, away 85/158, month 11 past seasons 17/53, rest 1 day 84/186, opp defence middle 62/111, with Dylan Harper 49/100, with Devin Vassell 119/252, with Victor Wembanyama 104/197"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": -0.1867,
+   "ev": -0.1734,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5435,
+   "implied": 0.5348,
    "k": 40.0,
    "line": 8.5,
    "opp": "SA",
    "player": "Precious Achiuwa",
    "player_id": "4431679",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.442,
    "prob_raw": 0.419,
    "side": "over",
@@ -76607,22 +76702,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Precious Achiuwa over 8.5 pts (vs SA): p=0.442 (raw 0.419) vs DraftKings implied 0.543 EV -0.187 @ DraftKings | career 119/285, season 4/8, last5 1/5, last10 5/10, vs SA 4/9, home 66/149, month 11 past seasons 13/29, rest 1 day 69/174, opp defence tough 35/99, with Darius Acuff Jr. 4/8, with Domantas Sabonis 7/20, with Zach LaVine 18/39"
+   "text": "[research] Precious Achiuwa over 8.5 pts (vs SA): p=0.442 (raw 0.419) vs DraftKings implied 0.535 EV -0.173 @ DraftKings | career 119/285, season 4/8, last5 1/5, last10 5/10, vs SA 4/9, home 66/149, month 11 past seasons 13/29, rest 1 day 69/174, opp defence tough 35/99, with Darius Acuff Jr. 4/8, with Domantas Sabonis 7/20, with Zach LaVine 18/39"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": 0.048,
+   "ev": 0.0651,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5435,
+   "implied": 0.5348,
    "k": 40.0,
    "line": 8.5,
    "opp": "SA",
    "player": "Precious Achiuwa",
    "player_id": "4431679",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.5696,
    "prob_raw": 0.581,
    "side": "under",
@@ -76702,7 +76797,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Precious Achiuwa under 8.5 pts (vs SA): p=0.570 (raw 0.581) vs DraftKings implied 0.543 EV +0.048 @ DraftKings | career 166/285, season 4/8, last5 4/5, last10 5/10, vs SA 5/9, home 83/149, month 11 past seasons 16/29, rest 1 day 105/174, opp defence tough 64/99, with Darius Acuff Jr. 4/8, with Domantas Sabonis 13/20, with Zach LaVine 21/39"
+   "text": "[research] Precious Achiuwa under 8.5 pts (vs SA): p=0.570 (raw 0.581) vs DraftKings implied 0.535 EV +0.065 @ DraftKings | career 166/285, season 4/8, last5 4/5, last10 5/10, vs SA 5/9, home 83/149, month 11 past seasons 16/29, rest 1 day 105/174, opp defence tough 64/99, with Darius Acuff Jr. 4/8, with Domantas Sabonis 13/20, with Zach LaVine 21/39"
   },
   {
    "book": "DraftKings",
@@ -76992,17 +77087,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": 0.0139,
-   "fair": 0.5556,
+   "ev": 0.026,
+   "fair": 0.5491,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5952,
+   "implied": 0.5882,
    "k": 40.0,
    "line": 6.5,
    "opp": "SA",
    "player": "Precious Achiuwa",
    "player_id": "4431679",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.6035,
    "prob_raw": 0.6237,
    "side": "under",
@@ -77082,7 +77177,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Precious Achiuwa under 6.5 reb (vs SA): p=0.604 (raw 0.624) vs DraftKings implied 0.595 EV +0.014 @ DraftKings | career 177/285, season 5/8, last5 3/5, last10 6/10, vs SA 6/9, home 87/149, month 11 past seasons 21/29, rest 1 day 110/174, opp defence soft 49/79, with Darius Acuff Jr. 5/8, with Domantas Sabonis 14/20, with Zach LaVine 24/39"
+   "text": "[research] Precious Achiuwa under 6.5 reb (vs SA): p=0.604 (raw 0.624) vs DraftKings implied 0.588 EV +0.026 @ DraftKings | career 177/285, season 5/8, last5 3/5, last10 6/10, vs SA 6/9, home 87/149, month 11 past seasons 21/29, rest 1 day 110/174, opp defence soft 49/79, with Darius Acuff Jr. 5/8, with Domantas Sabonis 14/20, with Zach LaVine 24/39"
   },
   {
    "book": "DraftKings",
@@ -77277,11 +77372,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": -0.111,
+   "ev": -0.1163,
    "fair": null,
    "game_id": "401909295",
    "home": false,
-   "implied": 0.5988,
+   "implied": 0.6024,
    "k": 40.0,
    "line": 4.5,
    "opp": "SAC",
@@ -77367,7 +77462,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Julian Champagnie under 4.5 reb (@ SAC): p=0.532 (raw 0.534) vs DraftKings implied 0.599 EV -0.111 @ DraftKings | career 158/286, season 5/8, last5 3/5, last10 5/10, vs SAC 8/12, away 78/145, month 11 past seasons 24/39, rest 1 day 91/169, opp defence middle 46/96, with Dylan Harper 35/100, with Devin Vassell 133/227, with Victor Wembanyama 108/203"
+   "text": "[research] Julian Champagnie under 4.5 reb (@ SAC): p=0.532 (raw 0.534) vs DraftKings implied 0.602 EV -0.116 @ DraftKings | career 158/286, season 5/8, last5 3/5, last10 5/10, vs SAC 8/12, away 78/145, month 11 past seasons 24/39, rest 1 day 91/169, opp defence middle 46/96, with Dylan Harper 35/100, with Devin Vassell 133/227, with Victor Wembanyama 108/203"
   },
   {
    "book": "DraftKings",
@@ -78617,7 +78712,7 @@
    "opp": "SAC",
    "player": "Dylan Harper",
    "player_id": "5037871",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.3126,
    "prob_raw": 0.2624,
    "side": "over",
@@ -78712,7 +78807,7 @@
    "opp": "SAC",
    "player": "Dylan Harper",
    "player_id": "5037871",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.6974,
    "prob_raw": 0.7376,
    "side": "under",
@@ -79082,11 +79177,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": -0.0234,
-   "fair": 0.4156,
+   "ev": -0.0407,
+   "fair": 0.423,
    "game_id": "401909295",
    "home": false,
-   "implied": 0.4444,
+   "implied": 0.4525,
    "k": 40.0,
    "line": 1.5,
    "opp": "SAC",
@@ -79172,7 +79267,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Victor Wembanyama under 1.5 fg3m (@ SAC): p=0.434 (raw 0.409) vs DraftKings implied 0.444 EV -0.023 @ DraftKings | career 83/211, season 4/8, last5 3/5, last10 5/10, vs SAC 3/7, away 43/102, month 11 past seasons 11/32, rest 1 day 45/118, opp defence middle 13/46, with Dylan Harper 42/85, with Devin Vassell 71/176, with De'Aaron Fox 38/87"
+   "text": "[research] Victor Wembanyama under 1.5 fg3m (@ SAC): p=0.434 (raw 0.409) vs DraftKings implied 0.453 EV -0.041 @ DraftKings | career 83/211, season 4/8, last5 3/5, last10 5/10, vs SAC 3/7, away 43/102, month 11 past seasons 11/32, rest 1 day 45/118, opp defence middle 13/46, with Dylan Harper 42/85, with Devin Vassell 71/176, with De'Aaron Fox 38/87"
   },
   {
    "book": "DraftKings",
@@ -79747,11 +79842,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": -0.0802,
+   "ev": -0.0955,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5525,
+   "implied": 0.5618,
    "k": 40.0,
    "line": 5.5,
    "opp": "SA",
@@ -79831,16 +79926,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Darius Acuff Jr. over 5.5 ast (vs SA): p=0.508 (raw 0.503) vs DraftKings implied 0.552 EV -0.080 @ DraftKings | career 4/8, season 4/8, last5 3/5, last10 4/8, vs SA 0/1, home 2/3, rest 1 day 4/7, opp defence tough 0/1, with Domantas Sabonis 4/8, with Zach LaVine 4/8, with De'Andre Hunter 4/8"
+   "text": "[research] Darius Acuff Jr. over 5.5 ast (vs SA): p=0.508 (raw 0.503) vs DraftKings implied 0.562 EV -0.096 @ DraftKings | career 4/8, season 4/8, last5 3/5, last10 4/8, vs SA 0/1, home 2/3, rest 1 day 4/7, opp defence tough 0/1, with Domantas Sabonis 4/8, with Zach LaVine 4/8, with De'Andre Hunter 4/8"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": -0.0885,
+   "ev": -0.1036,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5525,
+   "implied": 0.5618,
    "k": 40.0,
    "line": 5.5,
    "opp": "SA",
@@ -79920,7 +80015,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Darius Acuff Jr. under 5.5 ast (vs SA): p=0.504 (raw 0.497) vs DraftKings implied 0.552 EV -0.088 @ DraftKings | career 4/8, season 4/8, last5 2/5, last10 4/8, vs SA 1/1, home 1/3, rest 1 day 3/7, opp defence tough 1/1, with Domantas Sabonis 4/8, with Zach LaVine 4/8, with De'Andre Hunter 4/8"
+   "text": "[research] Darius Acuff Jr. under 5.5 ast (vs SA): p=0.504 (raw 0.497) vs DraftKings implied 0.562 EV -0.104 @ DraftKings | career 4/8, season 4/8, last5 2/5, last10 4/8, vs SA 1/1, home 1/3, rest 1 day 3/7, opp defence tough 1/1, with Domantas Sabonis 4/8, with Zach LaVine 4/8, with De'Andre Hunter 4/8"
   },
   {
    "book": "DraftKings",
@@ -80374,7 +80469,7 @@
    "opp": "SA",
    "player": "Darius Acuff Jr.",
    "player_id": "5142620",
-   "price_observed_at": "2026-11-07T01:00:34Z",
+   "price_observed_at": "2026-11-07T01:10:57Z",
    "prob": 0.5044,
    "prob_raw": 0.4981,
    "side": "under",
@@ -80453,11 +80548,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": -0.2396,
+   "ev": -0.2734,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5556,
+   "implied": 0.5814,
    "k": 40.0,
    "line": 3.5,
    "opp": "SA",
@@ -80531,16 +80626,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Darius Acuff Jr. over 3.5 reb (vs SA): p=0.422 (raw 0.395) vs DraftKings implied 0.556 EV -0.240 @ DraftKings | career 3/8, season 3/8, last5 3/5, last10 3/8, vs SA 0/1, home 0/3, rest 1 day 3/7, with Domantas Sabonis 3/8, with Zach LaVine 3/8, with De'Andre Hunter 3/8"
+   "text": "[research] Darius Acuff Jr. over 3.5 reb (vs SA): p=0.422 (raw 0.395) vs DraftKings implied 0.581 EV -0.273 @ DraftKings | career 3/8, season 3/8, last5 3/5, last10 3/8, vs SA 0/1, home 0/3, rest 1 day 3/7, with Domantas Sabonis 3/8, with Zach LaVine 3/8, with De'Andre Hunter 3/8"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-06",
-   "ev": 0.0601,
+   "ev": 0.013,
    "fair": null,
    "game_id": "401909295",
    "home": true,
-   "implied": 0.5556,
+   "implied": 0.5814,
    "k": 40.0,
    "line": 3.5,
    "opp": "SA",
@@ -80614,10 +80709,663 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Darius Acuff Jr. under 3.5 reb (vs SA): p=0.589 (raw 0.605) vs DraftKings implied 0.556 EV +0.060 @ DraftKings | career 5/8, season 5/8, last5 2/5, last10 5/8, vs SA 1/1, home 3/3, rest 1 day 4/7, with Domantas Sabonis 5/8, with Zach LaVine 5/8, with De'Andre Hunter 5/8"
+   "text": "[research] Darius Acuff Jr. under 3.5 reb (vs SA): p=0.589 (raw 0.605) vs DraftKings implied 0.581 EV +0.013 @ DraftKings | career 5/8, season 5/8, last5 2/5, last10 5/8, vs SA 1/1, home 3/3, rest 1 day 4/7, with Domantas Sabonis 5/8, with Zach LaVine 5/8, with De'Andre Hunter 5/8"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-06",
+   "ev": -0.1339,
+   "fair": null,
+   "game_id": "401909295",
+   "home": true,
+   "implied": 0.6098,
+   "k": 40.0,
+   "line": 4.5,
+   "opp": "SA",
+   "player": "Dylan Cardwell",
+   "player_id": "4433174",
+   "price_observed_at": "2026-11-07T01:10:57Z",
+   "prob": 0.5281,
+   "prob_raw": 0.5283,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 24,
+     "n": 45,
+     "rate": 0.533,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 4,
+     "n": 5,
+     "rate": 0.8,
+     "split": "last5"
+    },
+    {
+     "hits": 5,
+     "n": 10,
+     "rate": 0.5,
+     "split": "last10"
+    },
+    {
+     "hits": 1,
+     "n": 1,
+     "rate": 1.0,
+     "split": "vs SA"
+    },
+    {
+     "hits": 13,
+     "n": 24,
+     "rate": 0.542,
+     "split": "home"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 16,
+     "n": 24,
+     "rate": 0.667,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 8,
+     "n": 14,
+     "rate": 0.571,
+     "split": "opp defence tough"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "with Darius Acuff Jr."
+    },
+    {
+     "hits": 4,
+     "n": 11,
+     "rate": 0.364,
+     "split": "with Domantas Sabonis"
+    },
+    {
+     "hits": 9,
+     "n": 19,
+     "rate": 0.474,
+     "split": "with Zach LaVine"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Dylan Cardwell over 4.5 pts (vs SA): p=0.528 (raw 0.528) vs DraftKings implied 0.610 EV -0.134 @ DraftKings | career 24/45, season 0/1, last5 4/5, last10 5/10, vs SA 1/1, home 13/24, month 11 past seasons 0/1, rest 1 day 16/24, opp defence tough 8/14, with Darius Acuff Jr. 0/1, with Domantas Sabonis 4/11, with Zach LaVine 9/19"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-06",
+   "ev": -0.2069,
+   "fair": null,
+   "game_id": "401909295",
+   "home": true,
+   "implied": 0.6098,
+   "k": 40.0,
+   "line": 4.5,
+   "opp": "SA",
+   "player": "Dylan Cardwell",
+   "player_id": "4433174",
+   "price_observed_at": "2026-11-07T01:10:57Z",
+   "prob": 0.4836,
+   "prob_raw": 0.4717,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 21,
+     "n": 45,
+     "rate": 0.467,
+     "split": "career"
+    },
+    {
+     "hits": 1,
+     "n": 1,
+     "rate": 1.0,
+     "split": "season"
+    },
+    {
+     "hits": 1,
+     "n": 5,
+     "rate": 0.2,
+     "split": "last5"
+    },
+    {
+     "hits": 5,
+     "n": 10,
+     "rate": 0.5,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "vs SA"
+    },
+    {
+     "hits": 11,
+     "n": 24,
+     "rate": 0.458,
+     "split": "home"
+    },
+    {
+     "hits": 1,
+     "n": 1,
+     "rate": 1.0,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 8,
+     "n": 24,
+     "rate": 0.333,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 6,
+     "n": 14,
+     "rate": 0.429,
+     "split": "opp defence tough"
+    },
+    {
+     "hits": 1,
+     "n": 1,
+     "rate": 1.0,
+     "split": "with Darius Acuff Jr."
+    },
+    {
+     "hits": 7,
+     "n": 11,
+     "rate": 0.636,
+     "split": "with Domantas Sabonis"
+    },
+    {
+     "hits": 10,
+     "n": 19,
+     "rate": 0.526,
+     "split": "with Zach LaVine"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Dylan Cardwell under 4.5 pts (vs SA): p=0.484 (raw 0.472) vs DraftKings implied 0.610 EV -0.207 @ DraftKings | career 21/45, season 1/1, last5 1/5, last10 5/10, vs SA 0/1, home 11/24, month 11 past seasons 1/1, rest 1 day 8/24, opp defence tough 6/14, with Darius Acuff Jr. 1/1, with Domantas Sabonis 7/11, with Zach LaVine 10/19"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-06",
+   "ev": -0.3882,
+   "fair": null,
+   "game_id": "401909295",
+   "home": true,
+   "implied": 0.5376,
+   "k": 40.0,
+   "line": 5.5,
+   "opp": "SA",
+   "player": "Emanuel Sharp",
+   "player_id": "5106058",
+   "price_observed_at": "2026-11-07T01:10:57Z",
+   "prob": 0.3289,
+   "prob_raw": 0.2813,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 2,
+     "n": 8,
+     "rate": 0.25,
+     "split": "career"
+    },
+    {
+     "hits": 2,
+     "n": 8,
+     "rate": 0.25,
+     "split": "season"
+    },
+    {
+     "hits": 1,
+     "n": 5,
+     "rate": 0.2,
+     "split": "last5"
+    },
+    {
+     "hits": 2,
+     "n": 8,
+     "rate": 0.25,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "vs SA"
+    },
+    {
+     "hits": 0,
+     "n": 3,
+     "rate": 0.0,
+     "split": "home"
+    },
+    {
+     "hits": 1,
+     "n": 7,
+     "rate": 0.143,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "opp defence tough"
+    },
+    {
+     "hits": 2,
+     "n": 8,
+     "rate": 0.25,
+     "split": "with Darius Acuff Jr."
+    },
+    {
+     "hits": 2,
+     "n": 8,
+     "rate": 0.25,
+     "split": "with Domantas Sabonis"
+    },
+    {
+     "hits": 2,
+     "n": 8,
+     "rate": 0.25,
+     "split": "with Zach LaVine"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Emanuel Sharp over 5.5 pts (vs SA): p=0.329 (raw 0.281) vs DraftKings implied 0.538 EV -0.388 @ DraftKings | career 2/8, season 2/8, last5 1/5, last10 2/8, vs SA 0/1, home 0/3, rest 1 day 1/7, opp defence tough 0/1, with Darius Acuff Jr. 2/8, with Domantas Sabonis 2/8, with Zach LaVine 2/8"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-06",
+   "ev": 0.2674,
+   "fair": null,
+   "game_id": "401909295",
+   "home": true,
+   "implied": 0.5376,
+   "k": 40.0,
+   "line": 5.5,
+   "opp": "SA",
+   "player": "Emanuel Sharp",
+   "player_id": "5106058",
+   "price_observed_at": "2026-11-07T01:10:57Z",
+   "prob": 0.6814,
+   "prob_raw": 0.7187,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 6,
+     "n": 8,
+     "rate": 0.75,
+     "split": "career"
+    },
+    {
+     "hits": 6,
+     "n": 8,
+     "rate": 0.75,
+     "split": "season"
+    },
+    {
+     "hits": 4,
+     "n": 5,
+     "rate": 0.8,
+     "split": "last5"
+    },
+    {
+     "hits": 6,
+     "n": 8,
+     "rate": 0.75,
+     "split": "last10"
+    },
+    {
+     "hits": 1,
+     "n": 1,
+     "rate": 1.0,
+     "split": "vs SA"
+    },
+    {
+     "hits": 3,
+     "n": 3,
+     "rate": 1.0,
+     "split": "home"
+    },
+    {
+     "hits": 6,
+     "n": 7,
+     "rate": 0.857,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 1,
+     "n": 1,
+     "rate": 1.0,
+     "split": "opp defence tough"
+    },
+    {
+     "hits": 6,
+     "n": 8,
+     "rate": 0.75,
+     "split": "with Darius Acuff Jr."
+    },
+    {
+     "hits": 6,
+     "n": 8,
+     "rate": 0.75,
+     "split": "with Domantas Sabonis"
+    },
+    {
+     "hits": 6,
+     "n": 8,
+     "rate": 0.75,
+     "split": "with Zach LaVine"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Emanuel Sharp under 5.5 pts (vs SA): p=0.681 (raw 0.719) vs DraftKings implied 0.538 EV +0.267 @ DraftKings | career 6/8, season 6/8, last5 4/5, last10 6/8, vs SA 1/1, home 3/3, rest 1 day 6/7, opp defence tough 1/1, with Darius Acuff Jr. 6/8, with Domantas Sabonis 6/8, with Zach LaVine 6/8"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-06",
+   "ev": -0.1344,
+   "fair": 0.577,
+   "game_id": "401909295",
+   "home": true,
+   "implied": 0.6173,
+   "k": 40.0,
+   "line": 2.5,
+   "opp": "SA",
+   "player": "Malik Monk",
+   "player_id": "4066262",
+   "price_observed_at": "2026-11-06T19:08:00Z",
+   "prob": 0.5343,
+   "prob_raw": 0.5362,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 143,
+     "n": 290,
+     "rate": 0.493,
+     "split": "career"
+    },
+    {
+     "hits": 7,
+     "n": 7,
+     "rate": 1.0,
+     "split": "season"
+    },
+    {
+     "hits": 5,
+     "n": 5,
+     "rate": 1.0,
+     "split": "last5"
+    },
+    {
+     "hits": 10,
+     "n": 10,
+     "rate": 1.0,
+     "split": "last10"
+    },
+    {
+     "hits": 4,
+     "n": 11,
+     "rate": 0.364,
+     "split": "vs SA"
+    },
+    {
+     "hits": 77,
+     "n": 140,
+     "rate": 0.55,
+     "split": "home"
+    },
+    {
+     "hits": 27,
+     "n": 50,
+     "rate": 0.54,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 82,
+     "n": 165,
+     "rate": 0.497,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 40,
+     "n": 88,
+     "rate": 0.455,
+     "split": "opp defence soft"
+    },
+    {
+     "hits": 7,
+     "n": 7,
+     "rate": 1.0,
+     "split": "with Darius Acuff Jr."
+    },
+    {
+     "hits": 109,
+     "n": 234,
+     "rate": 0.466,
+     "split": "with Domantas Sabonis"
+    },
+    {
+     "hits": 38,
+     "n": 64,
+     "rate": 0.594,
+     "split": "with Zach LaVine"
+    }
+   ],
+   "stat": "reb",
+   "status": "research",
+   "text": "[research] Malik Monk under 2.5 reb (vs SA): p=0.534 (raw 0.536) vs DraftKings implied 0.617 EV -0.134 @ DraftKings | career 143/290, season 7/7, last5 5/5, last10 10/10, vs SA 4/11, home 77/140, month 11 past seasons 27/50, rest 1 day 82/165, opp defence soft 40/88, with Darius Acuff Jr. 7/7, with Domantas Sabonis 109/234, with Zach LaVine 38/64"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-06",
+   "ev": 0.3404,
+   "fair": null,
+   "game_id": "401909295",
+   "home": true,
+   "implied": 0.5464,
+   "k": 40.0,
+   "line": 5.5,
+   "opp": "SA",
+   "player": "Dylan Cardwell",
+   "player_id": "4433174",
+   "price_observed_at": "2026-11-07T01:10:57Z",
+   "prob": 0.7325,
+   "prob_raw": 0.7778,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 35,
+     "n": 45,
+     "rate": 0.778,
+     "split": "career"
+    },
+    {
+     "hits": 1,
+     "n": 1,
+     "rate": 1.0,
+     "split": "season"
+    },
+    {
+     "hits": 5,
+     "n": 5,
+     "rate": 1.0,
+     "split": "last5"
+    },
+    {
+     "hits": 8,
+     "n": 10,
+     "rate": 0.8,
+     "split": "last10"
+    },
+    {
+     "hits": 1,
+     "n": 1,
+     "rate": 1.0,
+     "split": "vs SA"
+    },
+    {
+     "hits": 21,
+     "n": 24,
+     "rate": 0.875,
+     "split": "home"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 20,
+     "n": 24,
+     "rate": 0.833,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 8,
+     "n": 11,
+     "rate": 0.727,
+     "split": "opp defence soft"
+    },
+    {
+     "hits": 1,
+     "n": 1,
+     "rate": 1.0,
+     "split": "with Darius Acuff Jr."
+    },
+    {
+     "hits": 7,
+     "n": 11,
+     "rate": 0.636,
+     "split": "with Domantas Sabonis"
+    },
+    {
+     "hits": 13,
+     "n": 19,
+     "rate": 0.684,
+     "split": "with Zach LaVine"
+    }
+   ],
+   "stat": "reb",
+   "status": "research",
+   "text": "[research] Dylan Cardwell over 5.5 reb (vs SA): p=0.733 (raw 0.778) vs DraftKings implied 0.546 EV +0.340 @ DraftKings | career 35/45, season 1/1, last5 5/5, last10 8/10, vs SA 1/1, home 21/24, month 11 past seasons 0/1, rest 1 day 20/24, opp defence soft 8/11, with Darius Acuff Jr. 1/1, with Domantas Sabonis 7/11, with Zach LaVine 13/19"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-06",
+   "ev": -0.4934,
+   "fair": null,
+   "game_id": "401909295",
+   "home": true,
+   "implied": 0.5464,
+   "k": 40.0,
+   "line": 5.5,
+   "opp": "SA",
+   "player": "Dylan Cardwell",
+   "player_id": "4433174",
+   "price_observed_at": "2026-11-07T01:10:57Z",
+   "prob": 0.2768,
+   "prob_raw": 0.2222,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 10,
+     "n": 45,
+     "rate": 0.222,
+     "split": "career"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "season"
+    },
+    {
+     "hits": 0,
+     "n": 5,
+     "rate": 0.0,
+     "split": "last5"
+    },
+    {
+     "hits": 2,
+     "n": 10,
+     "rate": 0.2,
+     "split": "last10"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "vs SA"
+    },
+    {
+     "hits": 3,
+     "n": 24,
+     "rate": 0.125,
+     "split": "home"
+    },
+    {
+     "hits": 1,
+     "n": 1,
+     "rate": 1.0,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 4,
+     "n": 24,
+     "rate": 0.167,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 3,
+     "n": 11,
+     "rate": 0.273,
+     "split": "opp defence soft"
+    },
+    {
+     "hits": 0,
+     "n": 1,
+     "rate": 0.0,
+     "split": "with Darius Acuff Jr."
+    },
+    {
+     "hits": 4,
+     "n": 11,
+     "rate": 0.364,
+     "split": "with Domantas Sabonis"
+    },
+    {
+     "hits": 6,
+     "n": 19,
+     "rate": 0.316,
+     "split": "with Zach LaVine"
+    }
+   ],
+   "stat": "reb",
+   "status": "research",
+   "text": "[research] Dylan Cardwell under 5.5 reb (vs SA): p=0.277 (raw 0.222) vs DraftKings implied 0.546 EV -0.493 @ DraftKings | career 10/45, season 0/1, last5 0/5, last10 2/10, vs SA 0/1, home 3/24, month 11 past seasons 1/1, rest 1 day 4/24, opp defence soft 3/11, with Darius Acuff Jr. 0/1, with Domantas Sabonis 4/11, with Zach LaVine 6/19"
   }
  ],
- "run_id": "run-2026-11-07T01:00:34Z",
+ "run_id": "run-2026-11-07T01:10:57Z",
  "slate": "2026-11-06",
  "status": "research/watchlist only"
 }
