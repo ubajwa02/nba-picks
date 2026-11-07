@@ -2,11 +2,17 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 56-23 on 79 graded posted picks, +13.96u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 50-20 (+11.82u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 16-7 (+6.33u); gap<5pts 37-15 (+6.19u); gap>=15pts 3-1 (+1.44u).
-- By closing-line move: flat 8-3 (+3.56u); moved away 9-1 (+4.03u); moved toward us 7-4 (+1.44u).
-- Wider settled predictions (n=29963): model Brier 0.1511 vs book 0.149 (lower is better).
+- 56-24 on 80 graded posted picks, +12.96u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 50-21 (+10.82u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 16-7 (+6.33u); gap<5pts 37-16 (+5.19u); gap>=15pts 3-1 (+1.44u).
+- By closing-line move: flat 8-3 (+3.56u); moved away 9-1 (+4.03u); moved toward us 7-5 (+0.44u).
+- Wider settled predictions (n=30270): model Brier 0.1516 vs book 0.1491 (lower is better).
+
+## 2026-11-06
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| CJ McCollum o1.5 fg3m | loss | -1.00 | 0.641 | 0.617 | +0.04 | +0.050 | career 207/294, season 6/9, last10 6/10 |
 
 ## 2026-11-05
 

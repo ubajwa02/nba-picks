@@ -1,48 +1,48 @@
 # Live scorecard
 
-Settled predictions since 2026-10-20: **29963** (deduplicated). Descriptive only: tiny sample, no inference. Market prob = 1/price (includes vig).
+Settled predictions since 2026-10-20: **30270** (deduplicated). Descriptive only: tiny sample, no inference. Market prob = 1/price (includes vig).
 
-Brier: model 0.1511 vs market-implied 0.149 (n=29963; lower is better).
+Brier: model 0.1516 vs market-implied 0.1491 (n=30270; lower is better).
 
 ## Calibration
 
 | prob bucket | n | predicted | market | actual |
 |---|---|---|---|---|
-| <40% | 16775 | 0.126 | 0.176 | 0.133 |
-| 40-50% | 3469 | 0.452 | 0.541 | 0.480 |
-| 50-60% | 3500 | 0.549 | 0.579 | 0.528 |
-| 60-70% | 2467 | 0.645 | 0.638 | 0.620 |
-| >=70% | 3752 | 0.829 | 0.835 | 0.798 |
+| <40% | 16967 | 0.125 | 0.177 | 0.134 |
+| 40-50% | 3493 | 0.452 | 0.541 | 0.481 |
+| 50-60% | 3528 | 0.549 | 0.580 | 0.528 |
+| 60-70% | 2493 | 0.645 | 0.638 | 0.618 |
+| >=70% | 3789 | 0.829 | 0.834 | 0.798 |
 
 ## By EV bucket
 
 | group | n | wins | win rate | units |
 |---|---|---|---|---|
-| EV 0-5% | 419 | 210 | 0.501 | -39.16 |
-| EV 5-15% | 576 | 307 | 0.533 | -22.38 |
-| EV<0 | 3641 | 1766 | 0.485 | -472.05 |
-| EV>=15% | 664 | 365 | 0.550 | +8.72 |
+| EV 0-5% | 423 | 210 | 0.496 | -43.16 |
+| EV 5-15% | 585 | 311 | 0.532 | -24.09 |
+| EV<0 | 3689 | 1796 | 0.487 | -467.22 |
+| EV>=15% | 681 | 370 | 0.543 | +0.04 |
 
 ## By market
 
 | group | n | wins | win rate | units |
 |---|---|---|---|---|
-| ml | 192 | 96 | 0.500 | -21.01 |
-| prop | 29130 | 9850 | 0.338 | -8192.79 |
-| spread | 288 | 144 | 0.500 | -13.09 |
-| total | 353 | 176 | 0.499 | -17.01 |
+| ml | 194 | 97 | 0.500 | -21.68 |
+| prop | 29427 | 9963 | 0.339 | -8173.94 |
+| spread | 292 | 146 | 0.500 | -13.27 |
+| total | 357 | 178 | 0.499 | -17.19 |
 
 ## By decision
 
 | group | n | wins | win rate | units |
 |---|---|---|---|---|
-| hold | 1214 | 661 | 0.544 | -8.37 |
-| reject | 28620 | 9532 | 0.333 | -8239.54 |
+| hold | 1240 | 670 | 0.540 | -18.76 |
+| reject | 28901 | 9641 | 0.334 | -8211.33 |
 | watch | 129 | 73 | 0.566 | +4.00 |
 
 ## Posted leans (1u flat)
 
-Record 56-23-0, +13.96u, pending 6.
+Record 56-24-0, +12.96u, pending 5.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -134,7 +134,7 @@ Record 56-23-0, +13.96u, pending 6.
 | 2026-11-06 | Ja'Kobe Walter u3.5 reb | -164 | None | pending | +0.00 |
 | 2026-11-06 | Tyler Herro o3.5 ast | -169 | None | pending | +0.00 |
 | 2026-11-06 | Kyrie Irving o3.5 reb | -164 | None | pending | +0.00 |
-| 2026-11-06 | CJ McCollum o1.5 fg3m | -161 | None | pending | +0.00 |
+| 2026-11-06 | CJ McCollum o1.5 fg3m | -161 | 0 | loss | -1.00 |
 
 ## Rows
 
@@ -224,6 +224,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Scoot Henderson pts under 14.5 (401909896) | hold | 0.806 | 0.562 | +0.434 | win |
 | prop | Bennett Stirtz pts under 7.5 (401909902) | hold | 0.774 | 0.541 | +0.432 | loss |
 | prop | Jared McCain pts under 16.5 (401909891) | hold | 0.765 | 0.535 | +0.431 | win |
+| prop | Luguentz Dort pts under 9.5 (401909287) | hold | 0.782 | 0.546 | +0.431 | loss |
 | prop | Giannis Antetokounmpo pts under 30.5 (401909921) | hold | 0.790 | 0.552 | +0.429 | win |
 | prop | Brayden Burries pts under 11.5 (401909924) | hold | 0.777 | 0.543 | +0.429 | win |
 | prop | Ziaire Williams pts over 8.5 (401909934) | hold | 0.785 | 0.549 | +0.428 | win |
@@ -240,6 +241,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Landry Shamet reb under 2.5 (401909926) | hold | 0.764 | 0.538 | +0.421 | win |
 | total | under 237.5 (401909093) | hold | 0.744 | 0.524 | +0.420 | win |
 | prop | Zaccharie Risacher pts under 10.5 (401909913) | hold | 0.793 | 0.559 | +0.419 | win |
+| prop | Dyson Daniels pts under 12.5 (401909287) | hold | 0.770 | 0.543 | +0.417 | loss |
 | prop | Miles McBride fg3m under 1.5 (401909926) | hold | 0.652 | 0.461 | +0.415 | loss |
 | prop | Ziaire Williams pts over 8.5 (401909921) | hold | 0.800 | 0.565 | +0.415 | win |
 | total | under 232.5 (401909089) | hold | 0.757 | 0.535 | +0.415 | win |
@@ -253,6 +255,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Paul George pts under 22.5 (401909924) | hold | 0.781 | 0.556 | +0.406 | loss |
 | prop | Jase Richardson pts under 7.5 (401909885) | hold | 0.791 | 0.565 | +0.400 | loss |
 | prop | Moritz Wagner pts under 9.5 (401909910) | hold | 0.777 | 0.556 | +0.399 | win |
+| prop | Onyeka Okongwu pts under 15.5 (401909287) | hold | 0.760 | 0.543 | +0.398 | loss |
 | prop | Baylor Scheierman pts under 9.5 (401909924) | hold | 0.759 | 0.543 | +0.397 | win |
 | prop | Kyrie Irving ast under 4.5 (401909871) | hold | 0.836 | 0.599 | +0.397 | loss |
 | prop | Jay Huff pts under 10.5 (401909872) | hold | 0.776 | 0.556 | +0.396 | win |
@@ -434,6 +437,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Jay Huff reb under 4.5 (401909282) | hold | 0.751 | 0.588 | +0.276 | win |
 | prop | Jalen Brunson ast under 7.5 (401909926) | hold | 0.769 | 0.602 | +0.276 | win |
 | prop | Zaccharie Risacher fg3m under 1.5 (401909933) | hold | 0.802 | 0.629 | +0.275 | win |
+| prop | Trae Young pts under 20.5 (401909287) | hold | 0.688 | 0.541 | +0.273 | loss |
 | prop | Dyson Daniels pts under 11.5 (401909909) | hold | 0.680 | 0.535 | +0.272 | win |
 | prop | Andrew Nembhard reb under 3.5 (401909927) | hold | 0.770 | 0.606 | +0.271 | win |
 | spread | away 5.5 (401909931) | hold | 0.683 | 0.537 | +0.271 | loss |
@@ -479,6 +483,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Ryan Rollins ast over 3.5 (401909924) | hold | 0.737 | 0.588 | +0.253 | win |
 | prop | Mario Hezonja pts under 9.5 (401909929) | hold | 0.696 | 0.556 | +0.253 | loss |
 | prop | Saddiq Bey fg3m over 1.5 (401909914) | hold | 0.712 | 0.568 | +0.253 | win |
+| prop | Nickeil Alexander-Walker pts under 21.5 (401909287) | hold | 0.685 | 0.546 | +0.253 | loss |
 | prop | Anthony Edwards pts under 27.5 (401909869) | hold | 0.670 | 0.535 | +0.253 | loss |
 | spread | home 7.5 (401909884) | hold | 0.653 | 0.522 | +0.252 | win |
 | prop | RJ Barrett pts over 20.5 (401909931) | hold | 0.680 | 0.543 | +0.251 | win |
@@ -496,11 +501,13 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Kel'el Ware fg3m over 0.5 (401909924) | hold | 0.761 | 0.610 | +0.248 | loss |
 | prop | Deni Avdija fg3m under 1.5 (401909896) | hold | 0.509 | 0.408 | +0.248 | loss |
 | prop | Nickeil Alexander-Walker reb under 3.5 (401909909) | hold | 0.734 | 0.588 | +0.248 | loss |
+| prop | Trae Young ast under 9.5 (401909287) | hold | 0.689 | 0.552 | +0.247 | loss |
 | prop | Donovan Mitchell ast under 5.5 (401909929) | hold | 0.733 | 0.588 | +0.246 | loss |
 | prop | LaMelo Ball reb under 4.5 (401909869) | hold | 0.692 | 0.556 | +0.246 | win |
 | prop | Ajay Mitchell fg3m under 1.5 (401909902) | hold | 0.750 | 0.602 | +0.246 | win |
 | prop | Neemias Queta reb under 7.5 (401909903) | hold | 0.688 | 0.552 | +0.245 | loss |
 | total | under 221.5 (401909088) | hold | 0.638 | 0.512 | +0.245 | loss |
+| prop | Alex Sarr reb under 7.5 (401909287) | hold | 0.741 | 0.595 | +0.244 | loss |
 | prop | Derrick White pts under 14.5 (401909877) | hold | 0.684 | 0.549 | +0.244 | loss |
 | spread | home -2.5 (401909922) | hold | 0.654 | 0.526 | +0.244 | loss |
 | prop | Shai Gilgeous-Alexander pts under 31.5 (401909891) | hold | 0.661 | 0.532 | +0.243 | win |
@@ -508,6 +515,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Cedric Coward fg3m under 1.5 (401909838) | hold | 0.573 | 0.461 | +0.243 | win |
 | prop | Shai Gilgeous-Alexander pts under 32.5 (401909891) | hold | 0.683 | 0.549 | +0.243 | win |
 | prop | Ayo Dosunmu pts under 16.5 (401909284) | hold | 0.691 | 0.556 | +0.243 | win |
+| prop | Kingston Flemings pts under 9.5 (401909287) | hold | 0.683 | 0.549 | +0.243 | loss |
 | prop | Terrence Shannon Jr. pts under 14.5 (401909284) | hold | 0.672 | 0.541 | +0.243 | win |
 | prop | Isaiah Hartenstein reb under 10.5 (401909929) | hold | 0.683 | 0.549 | +0.242 | loss |
 | prop | Isaiah Hartenstein reb under 9.5 (401909891) | hold | 0.606 | 0.488 | +0.241 | loss |
@@ -520,6 +528,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Sandro Mamukelashvili pts under 12.5 (401909892) | hold | 0.688 | 0.556 | +0.238 | loss |
 | prop | Jared McCain fg3m under 3.5 (401909891) | hold | 0.793 | 0.641 | +0.238 | win |
 | prop | Naz Reid pts under 18.5 (401909883) | hold | 0.688 | 0.556 | +0.238 | win |
+| prop | Alex Sarr pts under 12.5 (401909287) | hold | 0.680 | 0.549 | +0.237 | loss |
 | prop | Kyrie Irving pts over 18.5 (401909933) | hold | 0.687 | 0.556 | +0.236 | win |
 | prop | Khaman Maluach reb under 8.5 (401909873) | hold | 0.710 | 0.575 | +0.236 | win |
 | prop | Zaccharie Risacher reb over 4.5 (401909283) | hold | 0.572 | 0.463 | +0.235 | win |
@@ -613,6 +622,7 @@ Record 56-23-0, +13.96u, pending 6.
 | ml | home (401909919) | hold | 0.700 | 0.582 | +0.203 | win |
 | prop | Sidy Cissoko reb under 2.5 (401909932) | hold | 0.668 | 0.556 | +0.202 | loss |
 | prop | Derrick White pts under 15.5 (401909278) | hold | 0.664 | 0.552 | +0.202 | win |
+| prop | Nickeil Alexander-Walker reb under 3.5 (401909287) | hold | 0.720 | 0.599 | +0.202 | win |
 | prop | Kentavious Caldwell-Pope pts over 6.5 (401909093) | hold | 0.690 | 0.575 | +0.201 | loss |
 | prop | Nickeil Alexander-Walker ast under 2.5 (401909909) | hold | 0.522 | 0.435 | +0.201 | loss |
 | prop | Sidy Cissoko fg3m under 0.5 (401909932) | hold | 0.674 | 0.562 | +0.200 | loss |
@@ -623,6 +633,7 @@ Record 56-23-0, +13.96u, pending 6.
 | spread | home -3.5 (401909919) | hold | 0.608 | 0.507 | +0.198 | loss |
 | prop | Jamal Shead reb under 2.5 (401909885) | hold | 0.788 | 0.658 | +0.198 | loss |
 | prop | Desmond Bane pts under 20.5 (401909911) | hold | 0.644 | 0.538 | +0.198 | win |
+| prop | Kyshawn George reb under 4.5 (401909287) | hold | 0.717 | 0.599 | +0.197 | win |
 | prop | Karl-Anthony Towns ast under 3.5 (401909926) | hold | 0.647 | 0.541 | +0.197 | win |
 | prop | Naz Reid pts under 17.5 (401909883) | hold | 0.651 | 0.543 | +0.197 | win |
 | total | under 233.5 (401909869) | hold | 0.630 | 0.526 | +0.197 | loss |
@@ -696,6 +707,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Zaccharie Risacher pts under 7.5 (401909933) | hold | 0.654 | 0.556 | +0.178 | win |
 | prop | Tim Hardaway Jr. pts over 6.5 (401909935) | hold | 0.644 | 0.546 | +0.178 | loss |
 | prop | Damian Lillard pts under 20.5 (401909895) | hold | 0.633 | 0.538 | +0.178 | win |
+| prop | Kingston Flemings ast under 5.5 (401909287) | hold | 0.701 | 0.595 | +0.178 | loss |
 | prop | Derrick White ast under 5.5 (401909903) | hold | 0.726 | 0.617 | +0.177 | win |
 | total | under 231.5 (401909923) | hold | 0.619 | 0.526 | +0.177 | win |
 | prop | Julius Randle ast under 5.5 (401909279) | hold | 0.722 | 0.613 | +0.176 | win |
@@ -711,7 +723,9 @@ Record 56-23-0, +13.96u, pending 6.
 | spread | away 4.5 (401909907) | hold | 0.626 | 0.533 | +0.174 | win |
 | prop | Jaime Jaquez Jr. ast over 2.5 (401909924) | hold | 0.729 | 0.621 | +0.174 | loss |
 | prop | Toumani Camara pts under 12.5 (401909896) | hold | 0.627 | 0.535 | +0.173 | loss |
+| prop | Nickeil Alexander-Walker ast under 3.5 (401909287) | hold | 0.720 | 0.613 | +0.173 | win |
 | prop | Andrew Nembhard fg3m over 2.5 (401909904) | hold | 0.495 | 0.422 | +0.173 | win |
+| prop | Trae Young fg3m under 2.5 (401909287) | hold | 0.694 | 0.592 | +0.173 | loss |
 | prop | Max Christie ast under 2.5 (401909871) | hold | 0.690 | 0.588 | +0.172 | loss |
 | prop | Jaylen Wells fg3m over 1.5 (401909895) | hold | 0.586 | 0.500 | +0.172 | win |
 | spread | home -5.5 (401909927) | hold | 0.624 | 0.533 | +0.172 | loss |
@@ -742,6 +756,8 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Isaiah Hartenstein ast under 3.5 (401909929) | hold | 0.720 | 0.617 | +0.166 | loss |
 | ml | away (401909891) | hold | 0.755 | 0.648 | +0.166 | loss |
 | total | under 226.5 (401909281) | hold | 0.597 | 0.512 | +0.166 | loss |
+| prop | Onyeka Okongwu reb under 8.5 (401909287) | hold | 0.634 | 0.543 | +0.166 | loss |
+| prop | Onyeka Okongwu ast under 3.5 (401909287) | hold | 0.729 | 0.625 | +0.166 | win |
 | prop | Derrick Jones Jr. pts under 9.5 (401909935) | hold | 0.577 | 0.495 | +0.166 | loss |
 | total | over 220.5 (401909903) | hold | 0.610 | 0.524 | +0.165 | loss |
 | ml | home (401909889) | hold | 0.459 | 0.394 | +0.165 | loss |
@@ -754,6 +770,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Jaden McDaniels pts under 15.5 (401909869) | hold | 0.622 | 0.535 | +0.164 | win |
 | prop | Kobe Sanders ast under 2.5 (401909892) | hold | 0.647 | 0.556 | +0.164 | win |
 | prop | Donovan Mitchell ast under 4.5 (401909869) | hold | 0.669 | 0.575 | +0.164 | loss |
+| prop | Bilal Coulibaly pts over 7.5 (401909287) | hold | 0.665 | 0.571 | +0.164 | win |
 | total | under 233.5 (401909880) | hold | 0.617 | 0.531 | +0.163 | loss |
 | prop | Anfernee Simons fg3m over 1.5 (401909912) | hold | 0.735 | 0.633 | +0.162 | loss |
 | prop | De'Andre Hunter pts under 13.5 (401909934) | hold | 0.624 | 0.538 | +0.161 | loss |
@@ -978,6 +995,7 @@ Record 56-23-0, +13.96u, pending 6.
 | ml | home (401909842) | watch | 0.724 | 0.649 | +0.115 | win |
 | prop | Jared McCain fg3m under 2.5 (401909902) | watch | 0.627 | 0.562 | +0.115 | win |
 | prop | Dennis Schroder ast under 5.5 (401909897) | hold | 0.626 | 0.562 | +0.115 | loss |
+| prop | Onyeka Okongwu fg3m under 1.5 (401909287) | hold | 0.606 | 0.543 | +0.115 | loss |
 | prop | Quentin Grimes pts over 8.5 (401909285) | watch | 0.626 | 0.562 | +0.115 | loss |
 | total | over 212.5 (401909883) | hold | 0.584 | 0.524 | +0.114 | loss |
 | prop | Fred VanVleet pts over 11.5 (401909930) | hold | 0.609 | 0.546 | +0.114 | win |
@@ -1011,11 +1029,13 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Dean Wade pts under 4.5 (401909912) | hold | 0.627 | 0.565 | +0.110 | loss |
 | spread | home 6.5 (401909920) | hold | 0.584 | 0.526 | +0.110 | loss |
 | prop | Mikal Bridges pts under 10.5 (401909926) | hold | 0.616 | 0.556 | +0.110 | win |
+| prop | Luguentz Dort fg3m under 1.5 (401909287) | hold | 0.664 | 0.599 | +0.110 | loss |
 | spread | away -2.5 (401909932) | hold | 0.596 | 0.537 | +0.109 | win |
 | prop | Josh Giddey pts under 11.5 (401909926) | hold | 0.623 | 0.562 | +0.109 | win |
 | prop | Amen Thompson ast over 3.5 (401909916) | hold | 0.689 | 0.621 | +0.109 | loss |
 | prop | Jalen Brunson pts under 25.5 (401909878) | hold | 0.613 | 0.552 | +0.109 | win |
 | prop | Zaccharie Risacher reb over 3.5 (401909933) | hold | 0.668 | 0.602 | +0.109 | loss |
+| total | under 229.5 (401909287) | hold | 0.581 | 0.524 | +0.109 | loss |
 | prop | Josh Giddey ast over 7.5 (401909926) | hold | 0.634 | 0.571 | +0.109 | loss |
 | prop | Payton Pritchard pts under 15.5 (401909877) | hold | 0.612 | 0.552 | +0.109 | win |
 | prop | Cedric Coward reb under 6.5 (401909927) | hold | 0.619 | 0.559 | +0.108 | loss |
@@ -1207,6 +1227,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Mikal Bridges reb under 2.5 (401909280) | hold | 0.502 | 0.465 | +0.079 | loss |
 | prop | Zaccharie Risacher reb over 4.5 (401909891) | hold | 0.589 | 0.546 | +0.078 | win |
 | total | over 221.5 (401909905) | hold | 0.557 | 0.517 | +0.078 | win |
+| prop | Kingston Flemings reb under 3.5 (401909287) | hold | 0.674 | 0.625 | +0.078 | win |
 | prop | Devin Booker ast under 5.5 (401909873) | hold | 0.595 | 0.552 | +0.078 | loss |
 | prop | Shai Gilgeous-Alexander ast over 6.5 (401909873) | hold | 0.499 | 0.463 | +0.078 | loss |
 | prop | Devin Vassell pts under 12.5 (401909890) | hold | 0.579 | 0.538 | +0.078 | loss |
@@ -1230,6 +1251,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Jabari Smith Jr. ast over 1.5 (401909916) | hold | 0.621 | 0.578 | +0.075 | loss |
 | prop | Bilal Coulibaly reb over 3.5 (401909882) | hold | 0.597 | 0.556 | +0.075 | loss |
 | total | over 236.5 (401909921) | hold | 0.563 | 0.524 | +0.075 | win |
+| prop | Luguentz Dort reb under 3.5 (401909287) | hold | 0.647 | 0.602 | +0.074 | loss |
 | spread | home -3.5 (401909911) | watch | 0.542 | 0.505 | +0.074 | loss |
 | prop | Naji Marshall reb over 3.5 (401909933) | hold | 0.587 | 0.546 | +0.074 | win |
 | prop | Alex Sarr ast over 1.5 (401909277) | watch | 0.688 | 0.641 | +0.074 | loss |
@@ -1321,6 +1343,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Jake LaRavia fg3m under 0.5 (401909906) | hold | 0.438 | 0.413 | +0.060 | loss |
 | prop | Daniel Gafford pts over 9.5 (401909913) | hold | 0.582 | 0.549 | +0.059 | win |
 | prop | Grayson Allen fg3m under 3.5 (401909868) | hold | 0.658 | 0.621 | +0.059 | win |
+| prop | Dyson Daniels ast under 5.5 (401909287) | hold | 0.605 | 0.571 | +0.059 | loss |
 | prop | Terrence Shannon Jr. reb under 2.5 (401909869) | hold | 0.595 | 0.562 | +0.059 | loss |
 | prop | Aaron Nesmith pts under 11.5 (401909904) | watch | 0.582 | 0.549 | +0.059 | win |
 | prop | Kyle Kuzma reb over 4.5 (401909924) | hold | 0.484 | 0.457 | +0.059 | win |
@@ -1356,6 +1379,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Ja Morant ast over 5.5 (401909895) | hold | 0.628 | 0.595 | +0.054 | loss |
 | prop | Klay Thompson ast under 1.5 (401909935) | hold | 0.573 | 0.543 | +0.054 | loss |
 | prop | Aday Mara reb under 5.5 (401909907) | hold | 0.624 | 0.592 | +0.054 | loss |
+| prop | Nickeil Alexander-Walker fg3m over 3.5 (401909287) | hold | 0.456 | 0.433 | +0.054 | win |
 | prop | Dillon Brooks ast over 2.5 (401909932) | hold | 0.445 | 0.422 | +0.054 | loss |
 | spread | away 16.5 (401909917) | hold | 0.554 | 0.526 | +0.054 | loss |
 | prop | Jaylen Brown ast over 4.5 (401909884) | hold | 0.488 | 0.463 | +0.054 | loss |
@@ -1371,10 +1395,12 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Bam Adebayo pts under 18.5 (401909282) | hold | 0.578 | 0.549 | +0.052 | loss |
 | prop | Shai Gilgeous-Alexander reb under 4.5 (401909891) | hold | 0.645 | 0.613 | +0.052 | loss |
 | prop | Cedric Coward pts over 12.5 (401909927) | hold | 0.584 | 0.556 | +0.051 | win |
+| prop | Bilal Coulibaly pts over 8.5 (401909287) | hold | 0.597 | 0.568 | +0.051 | win |
 | prop | Ace Bailey reb under 5.5 (401909890) | hold | 0.604 | 0.575 | +0.051 | loss |
 | total | under 237.5 (401909893) | watch | 0.546 | 0.519 | +0.051 | win |
 | prop | Isaiah Collier pts under 8.5 (401909890) | hold | 0.581 | 0.552 | +0.051 | win |
 | prop | Deni Avdija ast over 4.5 (401909880) | hold | 0.633 | 0.602 | +0.051 | win |
+| prop | Trae Young reb under 3.5 (401909287) | hold | 0.648 | 0.617 | +0.050 | win |
 | ml | home (401909911) | watch | 0.639 | 0.608 | +0.050 | loss |
 | prop | Anfernee Simons fg3m over 1.5 (401909884) | hold | 0.600 | 0.571 | +0.050 | win |
 | prop | Nickeil Alexander-Walker fg3m under 2.5 (401909898) | watch | 0.453 | 0.431 | +0.050 | win |
@@ -1423,6 +1449,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Trey Murphy III ast over 2.5 (401909914) | hold | 0.649 | 0.621 | +0.044 | win |
 | prop | Collin Gillespie pts under 9.5 (401909286) | hold | 0.593 | 0.568 | +0.044 | loss |
 | total | under 212.5 (401909897) | hold | 0.552 | 0.528 | +0.044 | loss |
+| prop | CJ McCollum ast under 3.5 (401909287) | reject | 0.629 | 0.602 | +0.044 | loss |
 | prop | Kentavious Caldwell-Pope pts over 7.5 (401909280) | reject | 0.561 | 0.538 | +0.044 | loss |
 | total | over 219.5 (401909920) | hold | 0.549 | 0.526 | +0.044 | win |
 | prop | Davion Mitchell pts over 11.5 (401909282) | reject | 0.561 | 0.538 | +0.044 | win |
@@ -1464,6 +1491,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Jeremiah Fears ast over 3.5 (401909928) | reject | 0.622 | 0.599 | +0.039 | loss |
 | prop | LaMelo Ball reb under 4.5 (401909915) | reject | 0.641 | 0.617 | +0.039 | loss |
 | prop | VJ Edgecombe fg3m under 1.5 (401909280) | reject | 0.504 | 0.485 | +0.039 | win |
+| prop | CJ McCollum fg3m over 1.5 (401909287) | reject | 0.641 | 0.617 | +0.039 | loss |
 | prop | Shai Gilgeous-Alexander ast over 5.5 (401909873) | reject | 0.626 | 0.602 | +0.039 | loss |
 | prop | Evan Mobley pts under 17.5 (401909907) | reject | 0.564 | 0.543 | +0.038 | win |
 | prop | Brandon Miller reb under 5.5 (401909868) | reject | 0.618 | 0.595 | +0.038 | loss |
@@ -1495,6 +1523,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Max Christie pts under 10.5 (401909891) | reject | 0.556 | 0.538 | +0.035 | loss |
 | prop | Devin Booker reb under 4.5 (401909286) | hold | 0.639 | 0.617 | +0.035 | win |
 | spread | home 3.5 (401909286) | hold | 0.522 | 0.505 | +0.035 | loss |
+| prop | Kyshawn George pts under 15.5 (401909287) | reject | 0.556 | 0.538 | +0.034 | loss |
 | prop | Joel Embiid reb under 8.5 (401909093) | reject | 0.581 | 0.562 | +0.034 | win |
 | prop | Max Christie pts over 8.5 (401909283) | reject | 0.559 | 0.541 | +0.034 | loss |
 | prop | Domantas Sabonis reb over 12.5 (401909879) | hold | 0.587 | 0.568 | +0.034 | win |
@@ -1765,6 +1794,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Shai Gilgeous-Alexander ast under 6.5 (401909891) | reject | 0.551 | 0.549 | +0.003 | win |
 | prop | Keaton Wagler ast under 3.5 (401909920) | reject | 0.539 | 0.538 | +0.003 | loss |
 | prop | Jonathan Kuminga reb under 5.5 (401909901) | reject | 0.551 | 0.549 | +0.003 | loss |
+| prop | Dyson Daniels reb under 6.5 (401909287) | reject | 0.570 | 0.568 | +0.003 | loss |
 | prop | Devin Booker fg3m under 1.5 (401909932) | reject | 0.551 | 0.549 | +0.003 | loss |
 | prop | Cameron Johnson pts under 12.5 (401909094) | reject | 0.542 | 0.541 | +0.003 | win |
 | prop | Ace Bailey fg3m over 1.5 (401909890) | reject | 0.570 | 0.568 | +0.003 | loss |
@@ -26462,6 +26492,235 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Will Richard fg3m over 3.5 (401909937) | reject | 0.017 | 0.077 | - | loss |
 | prop | Will Richard fg3m over 4.5 (401909937) | reject | 0.006 | 0.048 | - | loss |
 | prop | Will Richard fg3m over 5.5 (401909937) | reject | 0.002 | 0.028 | - | loss |
+| ml | home (401909287) | reject | 0.739 | 0.750 | - | win |
+| ml | away (401909287) | reject | 0.261 | 0.294 | - | loss |
+| prop | Aaron Wiggins ast over 2.5 (401909287) | reject | 0.126 | 0.351 | - | win |
+| prop | Aaron Wiggins ast over 4.5 (401909287) | reject | 0.016 | 0.100 | - | loss |
+| prop | Aaron Wiggins ast over 6.5 (401909287) | reject | 0.002 | 0.038 | - | loss |
+| prop | Aaron Wiggins fg3m over 0.5 (401909287) | reject | 0.774 | 0.857 | - | win |
+| prop | Aaron Wiggins fg3m over 1.5 (401909287) | reject | 0.473 | 0.565 | - | win |
+| prop | Aaron Wiggins fg3m over 2.5 (401909287) | reject | 0.242 | 0.308 | - | win |
+| prop | Aaron Wiggins fg3m over 3.5 (401909287) | reject | 0.109 | 0.148 | - | loss |
+| prop | Aaron Wiggins fg3m over 4.5 (401909287) | reject | 0.044 | 0.083 | - | loss |
+| prop | Aaron Wiggins fg3m over 5.5 (401909287) | reject | 0.017 | 0.053 | - | loss |
+| prop | Aaron Wiggins fg3m over 6.5 (401909287) | reject | 0.006 | 0.028 | - | loss |
+| prop | Aaron Wiggins pts over 14.5 (401909287) | reject | 0.185 | 0.282 | - | win |
+| prop | Aaron Wiggins pts over 19.5 (401909287) | reject | 0.080 | 0.105 | - | loss |
+| prop | Aaron Wiggins pts over 24.5 (401909287) | reject | 0.033 | 0.056 | - | loss |
+| prop | Aaron Wiggins pts over 29.5 (401909287) | reject | 0.013 | 0.028 | - | loss |
+| prop | Aaron Wiggins pts over 4.5 (401909287) | reject | 0.731 | 0.909 | - | win |
+| prop | Aaron Wiggins pts over 9.5 (401909287) | reject | 0.396 | 0.592 | - | win |
+| prop | Aaron Wiggins reb over 12.5 (401909287) | reject | 0.001 | 0.028 | - | loss |
+| prop | Aaron Wiggins reb over 2.5 (401909287) | reject | 0.379 | 0.714 | - | win |
+| prop | Aaron Wiggins reb over 4.5 (401909287) | reject | 0.142 | 0.351 | - | loss |
+| prop | Aaron Wiggins reb over 6.5 (401909287) | reject | 0.048 | 0.133 | - | loss |
+| prop | Aaron Wiggins reb over 9.5 (401909287) | reject | 0.008 | 0.048 | - | loss |
+| prop | Bilal Coulibaly ast over 2.5 (401909287) | reject | 0.192 | 0.250 | - | loss |
+| prop | Bilal Coulibaly ast over 4.5 (401909287) | reject | 0.026 | 0.071 | - | loss |
+| prop | Bilal Coulibaly ast over 6.5 (401909287) | reject | 0.003 | 0.028 | - | loss |
+| prop | Bilal Coulibaly fg3m over 0.5 (401909287) | reject | 0.424 | 0.556 | - | win |
+| prop | Bilal Coulibaly fg3m over 1.5 (401909287) | reject | 0.179 | 0.211 | - | loss |
+| prop | Bilal Coulibaly fg3m over 2.5 (401909287) | reject | 0.075 | 0.087 | - | loss |
+| prop | Bilal Coulibaly fg3m over 3.5 (401909287) | reject | 0.032 | 0.048 | - | loss |
+| prop | Bilal Coulibaly fg3m over 4.5 (401909287) | reject | 0.013 | 0.028 | - | loss |
+| prop | Bilal Coulibaly pts over 14.5 (401909287) | reject | 0.262 | 0.133 | - | loss |
+| prop | Bilal Coulibaly pts over 19.5 (401909287) | reject | 0.111 | 0.053 | - | loss |
+| prop | Bilal Coulibaly pts over 24.5 (401909287) | reject | 0.043 | 0.028 | - | loss |
+| prop | Bilal Coulibaly pts over 4.5 (401909287) | reject | 0.857 | 0.818 | - | win |
+| prop | Bilal Coulibaly pts over 9.5 (401909287) | reject | 0.531 | 0.400 | - | loss |
+| prop | Bilal Coulibaly reb over 12.5 (401909287) | reject | 0.000 | 0.028 | - | loss |
+| prop | Bilal Coulibaly reb over 2.5 (401909287) | reject | 0.678 | 0.643 | - | win |
+| prop | Bilal Coulibaly reb over 4.5 (401909287) | reject | 0.283 | 0.312 | - | win |
+| prop | Bilal Coulibaly reb over 6.5 (401909287) | reject | 0.073 | 0.133 | - | loss |
+| prop | Bilal Coulibaly reb over 9.5 (401909287) | reject | 0.005 | 0.050 | - | loss |
+| prop | CJ McCollum ast over 12.5 (401909287) | reject | 0.013 | 0.028 | - | loss |
+| prop | CJ McCollum ast over 2.5 (401909287) | reject | 0.507 | 0.792 | - | win |
+| prop | CJ McCollum ast over 4.5 (401909287) | reject | 0.266 | 0.426 | - | loss |
+| prop | CJ McCollum ast over 6.5 (401909287) | reject | 0.131 | 0.174 | - | loss |
+| prop | CJ McCollum ast over 9.5 (401909287) | reject | 0.042 | 0.056 | - | loss |
+| prop | CJ McCollum fg3m over 0.5 (401909287) | reject | 0.880 | 0.900 | - | loss |
+| prop | CJ McCollum fg3m over 2.5 (401909287) | reject | 0.390 | 0.417 | - | loss |
+| prop | CJ McCollum fg3m over 3.5 (401909287) | reject | 0.203 | 0.222 | - | loss |
+| prop | CJ McCollum fg3m over 4.5 (401909287) | reject | 0.093 | 0.129 | - | loss |
+| prop | CJ McCollum fg3m over 5.5 (401909287) | reject | 0.038 | 0.077 | - | loss |
+| prop | CJ McCollum fg3m over 6.5 (401909287) | reject | 0.014 | 0.053 | - | loss |
+| prop | CJ McCollum fg3m over 7.5 (401909287) | reject | 0.005 | 0.028 | - | loss |
+| prop | CJ McCollum pts over 14.5 (401909287) | reject | 0.589 | 0.615 | - | loss |
+| prop | CJ McCollum pts over 19.5 (401909287) | reject | 0.332 | 0.357 | - | loss |
+| prop | CJ McCollum pts over 24.5 (401909287) | reject | 0.158 | 0.174 | - | loss |
+| prop | CJ McCollum pts over 29.5 (401909287) | reject | 0.066 | 0.087 | - | loss |
+| prop | CJ McCollum pts over 34.5 (401909287) | reject | 0.025 | 0.053 | - | loss |
+| prop | CJ McCollum pts over 39.5 (401909287) | reject | 0.008 | 0.028 | - | loss |
+| prop | CJ McCollum pts over 4.5 (401909287) | reject | 0.983 | 0.990 | - | loss |
+| prop | CJ McCollum pts over 9.5 (401909287) | reject | 0.849 | 0.875 | - | loss |
+| prop | CJ McCollum reb over 4.5 (401909287) | reject | 0.230 | 0.250 | - | loss |
+| prop | CJ McCollum reb over 6.5 (401909287) | reject | 0.059 | 0.087 | - | loss |
+| prop | CJ McCollum reb over 9.5 (401909287) | reject | 0.004 | 0.028 | - | loss |
+| prop | Dyson Daniels ast over 12.5 (401909287) | reject | 0.025 | 0.048 | - | loss |
+| prop | Dyson Daniels ast over 14.5 (401909287) | reject | 0.009 | 0.028 | - | loss |
+| prop | Dyson Daniels ast over 2.5 (401909287) | reject | 0.793 | 0.917 | - | win |
+| prop | Dyson Daniels ast over 4.5 (401909287) | reject | 0.521 | 0.630 | - | win |
+| prop | Dyson Daniels ast over 6.5 (401909287) | reject | 0.288 | 0.339 | - | win |
+| prop | Dyson Daniels ast over 9.5 (401909287) | reject | 0.093 | 0.103 | - | win |
+| prop | Dyson Daniels fg3m over 0.5 (401909287) | reject | 0.276 | 0.450 | - | loss |
+| prop | Dyson Daniels fg3m over 1.5 (401909287) | reject | 0.049 | 0.133 | - | loss |
+| prop | Dyson Daniels fg3m over 2.5 (401909287) | reject | 0.007 | 0.056 | - | loss |
+| prop | Dyson Daniels fg3m over 3.5 (401909287) | reject | 0.001 | 0.028 | - | loss |
+| prop | Dyson Daniels pts over 14.5 (401909287) | reject | 0.149 | 0.299 | - | loss |
+| prop | Dyson Daniels pts over 19.5 (401909287) | reject | 0.045 | 0.103 | - | loss |
+| prop | Dyson Daniels pts over 24.5 (401909287) | reject | 0.012 | 0.050 | - | loss |
+| prop | Dyson Daniels pts over 29.5 (401909287) | reject | 0.003 | 0.028 | - | loss |
+| prop | Dyson Daniels pts over 4.5 (401909287) | reject | 0.808 | 0.941 | - | win |
+| prop | Dyson Daniels pts over 9.5 (401909287) | reject | 0.408 | 0.655 | - | win |
+| prop | Dyson Daniels reb over 12.5 (401909287) | reject | 0.107 | 0.091 | - | loss |
+| prop | Dyson Daniels reb over 14.5 (401909287) | reject | 0.063 | 0.056 | - | loss |
+| prop | Dyson Daniels reb over 16.5 (401909287) | reject | 0.036 | 0.034 | - | loss |
+| prop | Dyson Daniels reb over 19.5 (401909287) | reject | 0.015 | 0.028 | - | loss |
+| prop | Dyson Daniels reb over 2.5 (401909287) | reject | 0.821 | 0.947 | - | win |
+| prop | Dyson Daniels reb over 4.5 (401909287) | reject | 0.619 | 0.778 | - | win |
+| prop | Dyson Daniels reb over 9.5 (401909287) | reject | 0.224 | 0.222 | - | loss |
+| prop | Kingston Flemings ast over 12.5 (401909287) | reject | 0.001 | 0.043 | - | loss |
+| prop | Kingston Flemings ast over 14.5 (401909287) | reject | 0.000 | 0.028 | - | loss |
+| prop | Kingston Flemings ast over 2.5 (401909287) | reject | 0.820 | 0.900 | - | win |
+| prop | Kingston Flemings ast over 4.5 (401909287) | reject | 0.466 | 0.615 | - | win |
+| prop | Kingston Flemings ast over 6.5 (401909287) | reject | 0.174 | 0.323 | - | loss |
+| prop | Kingston Flemings ast over 9.5 (401909287) | reject | 0.020 | 0.103 | - | loss |
+| prop | Kingston Flemings fg3m over 0.5 (401909287) | reject | 0.539 | 0.667 | - | win |
+| prop | Kingston Flemings fg3m over 1.5 (401909287) | reject | 0.222 | 0.299 | - | loss |
+| prop | Kingston Flemings fg3m over 2.5 (401909287) | reject | 0.078 | 0.121 | - | loss |
+| prop | Kingston Flemings fg3m over 3.5 (401909287) | reject | 0.025 | 0.062 | - | loss |
+| prop | Kingston Flemings fg3m over 4.5 (401909287) | reject | 0.008 | 0.034 | - | loss |
+| prop | Kingston Flemings pts over 14.5 (401909287) | reject | 0.158 | 0.282 | - | loss |
+| prop | Kingston Flemings pts over 19.5 (401909287) | reject | 0.076 | 0.118 | - | loss |
+| prop | Kingston Flemings pts over 24.5 (401909287) | reject | 0.036 | 0.056 | - | loss |
+| prop | Kingston Flemings pts over 29.5 (401909287) | reject | 0.017 | 0.028 | - | loss |
+| prop | Kingston Flemings pts over 4.5 (401909287) | reject | 0.606 | 0.905 | - | win |
+| prop | Kingston Flemings reb over 2.5 (401909287) | reject | 0.532 | 0.649 | - | loss |
+| prop | Kingston Flemings reb over 4.5 (401909287) | reject | 0.177 | 0.299 | - | loss |
+| prop | Kingston Flemings reb over 6.5 (401909287) | reject | 0.039 | 0.105 | - | loss |
+| prop | Kingston Flemings reb over 9.5 (401909287) | reject | 0.002 | 0.028 | - | loss |
+| prop | Kyshawn George ast over 12.5 (401909287) | reject | 0.005 | 0.028 | - | loss |
+| prop | Kyshawn George ast over 2.5 (401909287) | reject | 0.583 | 0.796 | - | win |
+| prop | Kyshawn George ast over 4.5 (401909287) | reject | 0.289 | 0.426 | - | win |
+| prop | Kyshawn George ast over 6.5 (401909287) | reject | 0.122 | 0.174 | - | win |
+| prop | Kyshawn George ast over 9.5 (401909287) | reject | 0.028 | 0.056 | - | loss |
+| prop | Kyshawn George fg3m over 0.5 (401909287) | reject | 0.838 | 0.867 | - | win |
+| prop | Kyshawn George fg3m over 2.5 (401909287) | reject | 0.288 | 0.323 | - | win |
+| prop | Kyshawn George fg3m over 3.5 (401909287) | reject | 0.124 | 0.160 | - | win |
+| prop | Kyshawn George fg3m over 4.5 (401909287) | reject | 0.046 | 0.083 | - | win |
+| prop | Kyshawn George fg3m over 5.5 (401909287) | reject | 0.015 | 0.053 | - | loss |
+| prop | Kyshawn George fg3m over 6.5 (401909287) | reject | 0.004 | 0.028 | - | loss |
+| prop | Kyshawn George pts over 14.5 (401909287) | reject | 0.520 | 0.545 | - | win |
+| prop | Kyshawn George pts over 19.5 (401909287) | reject | 0.198 | 0.278 | - | win |
+| prop | Kyshawn George pts over 24.5 (401909287) | reject | 0.051 | 0.121 | - | win |
+| prop | Kyshawn George pts over 29.5 (401909287) | reject | 0.009 | 0.059 | - | win |
+| prop | Kyshawn George pts over 34.5 (401909287) | reject | 0.001 | 0.028 | - | loss |
+| prop | Kyshawn George pts over 4.5 (401909287) | reject | 0.993 | 0.985 | - | win |
+| prop | Kyshawn George pts over 9.5 (401909287) | reject | 0.867 | 0.833 | - | win |
+| prop | Kyshawn George reb over 12.5 (401909287) | reject | 0.000 | 0.028 | - | loss |
+| prop | Kyshawn George reb over 2.5 (401909287) | reject | 0.678 | 0.833 | - | win |
+| prop | Kyshawn George reb over 6.5 (401909287) | reject | 0.073 | 0.222 | - | loss |
+| prop | Kyshawn George reb over 9.5 (401909287) | reject | 0.005 | 0.062 | - | loss |
+| prop | Luguentz Dort ast over 2.5 (401909287) | reject | 0.192 | 0.200 | - | win |
+| prop | Luguentz Dort ast over 4.5 (401909287) | reject | 0.026 | 0.053 | - | loss |
+| prop | Luguentz Dort ast over 6.5 (401909287) | reject | 0.003 | 0.028 | - | loss |
+| prop | Luguentz Dort fg3m over 0.5 (401909287) | reject | 0.690 | 0.833 | - | win |
+| prop | Luguentz Dort fg3m over 2.5 (401909287) | reject | 0.125 | 0.286 | - | win |
+| prop | Luguentz Dort fg3m over 3.5 (401909287) | reject | 0.038 | 0.133 | - | win |
+| prop | Luguentz Dort fg3m over 4.5 (401909287) | reject | 0.010 | 0.071 | - | win |
+| prop | Luguentz Dort fg3m over 5.5 (401909287) | reject | 0.002 | 0.043 | - | loss |
+| prop | Luguentz Dort fg3m over 6.5 (401909287) | reject | 0.000 | 0.028 | - | loss |
+| prop | Luguentz Dort pts over 14.5 (401909287) | reject | 0.031 | 0.174 | - | win |
+| prop | Luguentz Dort pts over 19.5 (401909287) | reject | 0.003 | 0.071 | - | win |
+| prop | Luguentz Dort pts over 24.5 (401909287) | reject | 0.000 | 0.034 | - | win |
+| prop | Luguentz Dort pts over 29.5 (401909287) | reject | 0.000 | 0.028 | - | loss |
+| prop | Luguentz Dort pts over 4.5 (401909287) | reject | 0.746 | 0.833 | - | win |
+| prop | Luguentz Dort reb over 2.5 (401909287) | reject | 0.571 | 0.643 | - | win |
+| prop | Luguentz Dort reb over 4.5 (401909287) | reject | 0.189 | 0.267 | - | win |
+| prop | Luguentz Dort reb over 6.5 (401909287) | reject | 0.037 | 0.100 | - | win |
+| prop | Luguentz Dort reb over 9.5 (401909287) | reject | 0.002 | 0.028 | - | loss |
+| prop | Nickeil Alexander-Walker ast over 2.5 (401909287) | reject | 0.494 | 0.583 | - | loss |
+| prop | Nickeil Alexander-Walker ast over 4.5 (401909287) | reject | 0.137 | 0.211 | - | loss |
+| prop | Nickeil Alexander-Walker ast over 6.5 (401909287) | reject | 0.022 | 0.077 | - | loss |
+| prop | Nickeil Alexander-Walker ast over 9.5 (401909287) | reject | 0.001 | 0.028 | - | loss |
+| prop | Nickeil Alexander-Walker fg3m over 0.5 (401909287) | reject | 0.956 | 0.972 | - | win |
+| prop | Nickeil Alexander-Walker fg3m over 1.5 (401909287) | reject | 0.833 | 0.867 | - | win |
+| prop | Nickeil Alexander-Walker fg3m over 2.5 (401909287) | reject | 0.651 | 0.677 | - | win |
+| prop | Nickeil Alexander-Walker fg3m over 4.5 (401909287) | reject | 0.290 | 0.299 | - | loss |
+| prop | Nickeil Alexander-Walker fg3m over 5.5 (401909287) | reject | 0.169 | 0.174 | - | loss |
+| prop | Nickeil Alexander-Walker fg3m over 6.5 (401909287) | reject | 0.092 | 0.105 | - | loss |
+| prop | Nickeil Alexander-Walker fg3m over 7.5 (401909287) | reject | 0.046 | 0.071 | - | loss |
+| prop | Nickeil Alexander-Walker fg3m over 8.5 (401909287) | reject | 0.022 | 0.050 | - | loss |
+| prop | Nickeil Alexander-Walker fg3m over 9.5 (401909287) | reject | 0.010 | 0.028 | - | loss |
+| prop | Nickeil Alexander-Walker pts over 14.5 (401909287) | reject | 0.692 | 0.833 | - | win |
+| prop | Nickeil Alexander-Walker pts over 19.5 (401909287) | reject | 0.413 | 0.608 | - | win |
+| prop | Nickeil Alexander-Walker pts over 24.5 (401909287) | reject | 0.199 | 0.368 | - | win |
+| prop | Nickeil Alexander-Walker pts over 29.5 (401909287) | reject | 0.080 | 0.190 | - | loss |
+| prop | Nickeil Alexander-Walker pts over 34.5 (401909287) | reject | 0.028 | 0.100 | - | loss |
+| prop | Nickeil Alexander-Walker pts over 39.5 (401909287) | reject | 0.009 | 0.056 | - | loss |
+| prop | Nickeil Alexander-Walker pts over 44.5 (401909287) | reject | 0.002 | 0.028 | - | loss |
+| prop | Nickeil Alexander-Walker pts over 9.5 (401909287) | reject | 0.915 | 0.966 | - | win |
+| prop | Nickeil Alexander-Walker reb over 2.5 (401909287) | reject | 0.494 | 0.706 | - | loss |
+| prop | Nickeil Alexander-Walker reb over 4.5 (401909287) | reject | 0.137 | 0.323 | - | loss |
+| prop | Nickeil Alexander-Walker reb over 6.5 (401909287) | reject | 0.022 | 0.118 | - | loss |
+| prop | Nickeil Alexander-Walker reb over 9.5 (401909287) | reject | 0.001 | 0.038 | - | loss |
+| prop | Onyeka Okongwu ast over 2.5 (401909287) | reject | 0.466 | 0.592 | - | loss |
+| prop | Onyeka Okongwu ast over 4.5 (401909287) | reject | 0.141 | 0.211 | - | loss |
+| prop | Onyeka Okongwu ast over 6.5 (401909287) | reject | 0.029 | 0.077 | - | loss |
+| prop | Onyeka Okongwu ast over 9.5 (401909287) | reject | 0.002 | 0.028 | - | loss |
+| prop | Onyeka Okongwu fg3m over 0.5 (401909287) | reject | 0.718 | 0.857 | - | win |
+| prop | Onyeka Okongwu fg3m over 2.5 (401909287) | reject | 0.179 | 0.299 | - | loss |
+| prop | Onyeka Okongwu fg3m over 3.5 (401909287) | reject | 0.071 | 0.138 | - | loss |
+| prop | Onyeka Okongwu fg3m over 4.5 (401909287) | reject | 0.025 | 0.071 | - | loss |
+| prop | Onyeka Okongwu fg3m over 5.5 (401909287) | reject | 0.008 | 0.048 | - | loss |
+| prop | Onyeka Okongwu fg3m over 6.5 (401909287) | reject | 0.003 | 0.028 | - | loss |
+| prop | Onyeka Okongwu pts over 14.5 (401909287) | reject | 0.284 | 0.543 | - | win |
+| prop | Onyeka Okongwu pts over 19.5 (401909287) | reject | 0.115 | 0.263 | - | win |
+| prop | Onyeka Okongwu pts over 24.5 (401909287) | reject | 0.041 | 0.111 | - | loss |
+| prop | Onyeka Okongwu pts over 29.5 (401909287) | reject | 0.013 | 0.056 | - | loss |
+| prop | Onyeka Okongwu pts over 34.5 (401909287) | reject | 0.004 | 0.028 | - | loss |
+| prop | Onyeka Okongwu pts over 4.5 (401909287) | reject | 0.894 | 0.985 | - | win |
+| prop | Onyeka Okongwu pts over 9.5 (401909287) | reject | 0.579 | 0.846 | - | win |
+| prop | Onyeka Okongwu reb over 12.5 (401909287) | reject | 0.077 | 0.174 | - | loss |
+| prop | Onyeka Okongwu reb over 14.5 (401909287) | reject | 0.028 | 0.100 | - | loss |
+| prop | Onyeka Okongwu reb over 16.5 (401909287) | reject | 0.009 | 0.059 | - | loss |
+| prop | Onyeka Okongwu reb over 19.5 (401909287) | reject | 0.001 | 0.028 | - | loss |
+| prop | Onyeka Okongwu reb over 2.5 (401909287) | reject | 0.967 | 0.980 | - | win |
+| prop | Onyeka Okongwu reb over 4.5 (401909287) | reject | 0.840 | 0.905 | - | win |
+| prop | Onyeka Okongwu reb over 6.5 (401909287) | reject | 0.612 | 0.730 | - | win |
+| prop | Onyeka Okongwu reb over 9.5 (401909287) | reject | 0.264 | 0.400 | - | win |
+| prop | Trae Young ast over 12.5 (401909287) | reject | 0.079 | 0.200 | - | loss |
+| prop | Trae Young ast over 14.5 (401909287) | reject | 0.024 | 0.103 | - | loss |
+| prop | Trae Young ast over 4.5 (401909287) | reject | 0.906 | 0.966 | - | win |
+| prop | Trae Young ast over 6.5 (401909287) | reject | 0.704 | 0.846 | - | win |
+| prop | Trae Young fg3m over 0.5 (401909287) | reject | 0.828 | 0.941 | - | win |
+| prop | Trae Young fg3m over 1.5 (401909287) | reject | 0.551 | 0.744 | - | win |
+| prop | Trae Young fg3m over 3.5 (401909287) | reject | 0.147 | 0.267 | - | loss |
+| prop | Trae Young fg3m over 4.5 (401909287) | reject | 0.063 | 0.138 | - | loss |
+| prop | Trae Young fg3m over 5.5 (401909287) | reject | 0.025 | 0.077 | - | loss |
+| prop | Trae Young fg3m over 6.5 (401909287) | reject | 0.009 | 0.050 | - | loss |
+| prop | Trae Young fg3m over 7.5 (401909287) | reject | 0.003 | 0.028 | - | loss |
+| prop | Trae Young pts over 14.5 (401909287) | reject | 0.735 | 0.833 | - | win |
+| prop | Trae Young pts over 19.5 (401909287) | reject | 0.376 | 0.592 | - | win |
+| prop | Trae Young pts over 24.5 (401909287) | reject | 0.125 | 0.345 | - | loss |
+| prop | Trae Young pts over 29.5 (401909287) | reject | 0.028 | 0.167 | - | loss |
+| prop | Trae Young pts over 34.5 (401909287) | reject | 0.005 | 0.087 | - | loss |
+| prop | Trae Young pts over 39.5 (401909287) | reject | 0.001 | 0.050 | - | loss |
+| prop | Trae Young pts over 44.5 (401909287) | reject | 0.000 | 0.028 | - | loss |
+| prop | Trae Young pts over 9.5 (401909287) | reject | 0.958 | 0.968 | - | win |
+| prop | Trae Young reb over 2.5 (401909287) | reject | 0.549 | 0.667 | - | loss |
+| prop | Trae Young reb over 4.5 (401909287) | reject | 0.204 | 0.270 | - | loss |
+| prop | Trae Young reb over 6.5 (401909287) | reject | 0.054 | 0.095 | - | loss |
+| prop | Trae Young reb over 9.5 (401909287) | reject | 0.005 | 0.028 | - | loss |
+| prop | Onyeka Okongwu pts under 14.5 (401909287) | reject | 0.716 | 0.543 | - | loss |
+| prop | Alex Sarr pts over 11.5 (401909287) | reject | 0.373 | 0.546 | - | win |
+| prop | Alex Sarr pts under 11.5 (401909287) | reject | 0.627 | 0.546 | - | loss |
+| prop | Alex Sarr reb over 6.5 (401909287) | reject | 0.383 | 0.595 | - | win |
+| prop | Alex Sarr reb under 6.5 (401909287) | reject | 0.617 | 0.595 | - | loss |
+| spread | home -7.5 (401909287) | reject | 0.524 | 0.531 | - | loss |
+| spread | away 7.5 (401909287) | reject | 0.476 | 0.517 | - | win |
+| total | over 228.5 (401909287) | reject | 0.440 | 0.524 | - | win |
+| total | under 228.5 (401909287) | reject | 0.560 | 0.524 | - | loss |
 | prop | Cade Cunningham reb under 5.5 (401909878) | reject | 0.606 | 0.606 | -0.000 | loss |
 | prop | Devin Vassell fg3m over 1.5 (401909879) | reject | 0.658 | 0.658 | -0.000 | win |
 | prop | Walker Kessler pts under 12.5 (401909921) | reject | 0.562 | 0.562 | -0.000 | loss |
@@ -26799,6 +27058,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Joel Embiid fg3m under 1.5 (401909884) | reject | 0.620 | 0.641 | -0.032 | win |
 | prop | Yaxel Lendeborg pts over 19.5 (401909937) | reject | 0.532 | 0.549 | -0.032 | loss |
 | total | over 233.5 (401909934) | reject | 0.498 | 0.515 | -0.032 | loss |
+| prop | Kyshawn George ast under 3.5 (401909287) | reject | 0.579 | 0.599 | -0.033 | loss |
 | prop | Sam Hauser pts under 7.5 (401909877) | reject | 0.515 | 0.532 | -0.033 | loss |
 | total | under 228.5 (401909874) | reject | 0.495 | 0.512 | -0.033 | loss |
 | prop | Austin Reaves fg3m under 2.5 (401909880) | reject | 0.628 | 0.649 | -0.033 | loss |
@@ -26809,6 +27069,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Donovan Clingan fg3m under 0.5 (401909895) | reject | 0.393 | 0.407 | -0.034 | loss |
 | ml | home (401909892) | reject | 0.515 | 0.533 | -0.034 | loss |
 | prop | Luguentz Dort fg3m over 1.5 (401909893) | reject | 0.418 | 0.433 | -0.034 | loss |
+| prop | CJ McCollum reb over 2.5 (401909287) | reject | 0.600 | 0.621 | -0.034 | win |
 | total | over 235.5 (401909894) | reject | 0.502 | 0.519 | -0.034 | win |
 | prop | Miles McBride pts under 6.5 (401909878) | reject | 0.519 | 0.538 | -0.034 | win |
 | prop | Zach Edey pts over 9.5 (401909914) | reject | 0.525 | 0.543 | -0.034 | loss |
@@ -26881,6 +27142,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Jalen Green reb under 3.5 (401909873) | reject | 0.521 | 0.543 | -0.041 | loss |
 | prop | Kris Dunn pts under 8.5 (401909892) | reject | 0.545 | 0.568 | -0.041 | win |
 | prop | Jonathan Kuminga pts under 14.5 (401909888) | reject | 0.536 | 0.559 | -0.041 | loss |
+| spread | away 8.5 (401909287) | reject | 0.509 | 0.531 | -0.041 | win |
 | ml | home (401909880) | reject | 0.533 | 0.556 | -0.041 | loss |
 | total | under 235.5 (401909278) | reject | 0.502 | 0.524 | -0.041 | loss |
 | prop | Kyrie Irving reb under 3.5 (401909283) | reject | 0.548 | 0.571 | -0.042 | loss |
@@ -26892,6 +27154,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Stephen Curry reb under 2.5 (401909876) | reject | 0.430 | 0.448 | -0.042 | loss |
 | prop | Brook Lopez pts under 10.5 (401909892) | reject | 0.535 | 0.559 | -0.042 | win |
 | prop | Ivica Zubac pts under 11.5 (401909927) | reject | 0.547 | 0.571 | -0.042 | win |
+| prop | CJ McCollum pts under 16.5 (401909287) | reject | 0.521 | 0.543 | -0.042 | win |
 | prop | Nikola Jokic pts under 24.5 (401909931) | reject | 0.518 | 0.541 | -0.042 | loss |
 | ml | away (401909896) | reject | 0.676 | 0.706 | -0.042 | win |
 | prop | Scottie Barnes ast over 5.5 (401909281) | reject | 0.573 | 0.599 | -0.042 | loss |
@@ -26948,6 +27211,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Joel Embiid fg3m under 1.5 (401909280) | reject | 0.619 | 0.649 | -0.047 | win |
 | total | over 231.5 (401909915) | reject | 0.490 | 0.515 | -0.047 | loss |
 | prop | Andrew Nembhard pts over 13.5 (401909884) | reject | 0.532 | 0.559 | -0.047 | win |
+| prop | Kyshawn George fg3m under 1.5 (401909287) | reject | 0.449 | 0.472 | -0.047 | loss |
 | prop | Tyrese Maxey pts under 23.5 (401909280) | reject | 0.526 | 0.552 | -0.047 | loss |
 | prop | Toumani Camara pts over 10.5 (401909880) | reject | 0.479 | 0.503 | -0.048 | win |
 | prop | Keldon Johnson pts under 9.5 (401909901) | reject | 0.529 | 0.556 | -0.048 | win |
@@ -26970,6 +27234,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | LeBron James reb over 6.5 (401909884) | reject | 0.461 | 0.485 | -0.049 | loss |
 | prop | Precious Achiuwa fg3m under 0.5 (401909894) | reject | 0.684 | 0.719 | -0.049 | win |
 | prop | Rui Hachimura pts over 15.5 (401909935) | reject | 0.514 | 0.541 | -0.050 | win |
+| spread | home -8.5 (401909287) | reject | 0.491 | 0.517 | -0.050 | loss |
 | ml | home (401909834) | reject | 0.537 | 0.565 | -0.050 | loss |
 | total | over 235.5 (401909278) | reject | 0.498 | 0.524 | -0.050 | win |
 | prop | Victor Wembanyama reb under 11.5 (401909879) | reject | 0.543 | 0.571 | -0.050 | win |
@@ -27222,6 +27487,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Aaron Gordon pts over 15.5 (401909876) | reject | 0.498 | 0.538 | -0.074 | loss |
 | prop | Day'Ron Sharpe reb under 7.5 (401909877) | reject | 0.542 | 0.585 | -0.074 | win |
 | prop | Ayo Dosunmu pts under 12.5 (401909869) | reject | 0.506 | 0.546 | -0.074 | win |
+| prop | Bilal Coulibaly reb under 3.5 (401909287) | reject | 0.532 | 0.575 | -0.074 | loss |
 | prop | Jordan Goodwin pts over 6.5 (401909873) | reject | 0.509 | 0.549 | -0.074 | win |
 | ml | home (401909284) | reject | 0.672 | 0.726 | -0.074 | win |
 | prop | Mitchell Robinson reb under 5.5 (401909924) | reject | 0.548 | 0.592 | -0.074 | loss |
@@ -27293,6 +27559,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Jalen Green reb over 3.5 (401909932) | reject | 0.523 | 0.568 | -0.080 | loss |
 | prop | Cedric Coward pts over 14.5 (401909899) | reject | 0.492 | 0.535 | -0.080 | loss |
 | prop | Isaiah Hartenstein reb under 8.5 (401909873) | reject | 0.541 | 0.588 | -0.080 | loss |
+| prop | Kyshawn George fg3m over 1.5 (401909287) | reject | 0.551 | 0.599 | -0.080 | win |
 | prop | Zach LaVine pts under 21.5 (401909879) | reject | 0.508 | 0.552 | -0.081 | loss |
 | prop | Peyton Watson pts under 12.5 (401909869) | reject | 0.511 | 0.556 | -0.081 | loss |
 | spread | home 2.5 (401909923) | reject | 0.464 | 0.505 | -0.081 | loss |
@@ -27352,6 +27619,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Evan Mobley pts over 17.5 (401909093) | reject | 0.491 | 0.538 | -0.086 | win |
 | prop | LeBron James pts over 17.5 (401909280) | reject | 0.491 | 0.538 | -0.087 | win |
 | prop | Luguentz Dort fg3m under 1.5 (401909893) | reject | 0.582 | 0.637 | -0.087 | win |
+| prop | Alex Sarr ast over 1.5 (401909287) | reject | 0.550 | 0.602 | -0.087 | win |
 | prop | Wendell Carter Jr. reb over 7.5 (401909903) | reject | 0.531 | 0.581 | -0.087 | win |
 | prop | Karl-Anthony Towns ast under 3.5 (401909280) | reject | 0.537 | 0.588 | -0.087 | win |
 | prop | Jarace Walker ast over 2.5 (401909904) | reject | 0.473 | 0.518 | -0.087 | win |
@@ -27420,6 +27688,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Duncan Robinson pts over 12.5 (401909878) | reject | 0.510 | 0.562 | -0.093 | loss |
 | prop | Brandon Miller reb over 5.5 (401909277) | reject | 0.490 | 0.541 | -0.093 | win |
 | prop | De'Aaron Fox reb under 3.5 (401909890) | reject | 0.534 | 0.588 | -0.093 | win |
+| prop | Luguentz Dort ast under 1.5 (401909287) | reject | 0.582 | 0.641 | -0.093 | loss |
 | prop | Josh Giddey ast over 7.5 (401909870) | reject | 0.518 | 0.571 | -0.093 | loss |
 | prop | Jayson Tatum fg3m under 2.5 (401909903) | reject | 0.498 | 0.549 | -0.093 | win |
 | ml | home (401909933) | reject | 0.786 | 0.867 | -0.093 | win |
@@ -27545,6 +27814,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Donovan Clingan ast over 1.5 (401909896) | reject | 0.582 | 0.649 | -0.104 | loss |
 | ml | home (401909092) | reject | 0.625 | 0.697 | -0.104 | win |
 | spread | away 2.5 (401909902) | reject | 0.469 | 0.524 | -0.104 | loss |
+| prop | CJ McCollum reb under 2.5 (401909287) | reject | 0.400 | 0.446 | -0.104 | loss |
 | prop | P.J. Washington pts over 14.5 (401909891) | reject | 0.479 | 0.535 | -0.104 | win |
 | prop | Day'Ron Sharpe reb over 6.5 (401909925) | reject | 0.527 | 0.588 | -0.104 | loss |
 | prop | Sandro Mamukelashvili pts over 8.5 (401909880) | reject | 0.506 | 0.565 | -0.104 | win |
@@ -27682,6 +27952,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Brook Lopez fg3m under 1.5 (401909892) | reject | 0.559 | 0.633 | -0.117 | win |
 | prop | Jaylen Wells fg3m over 1.5 (401909914) | reject | 0.569 | 0.645 | -0.118 | win |
 | prop | LaMelo Ball fg3m under 3.5 (401909915) | reject | 0.498 | 0.565 | -0.118 | loss |
+| prop | CJ McCollum pts over 16.5 (401909287) | reject | 0.479 | 0.543 | -0.118 | loss |
 | spread | away -3.5 (401909286) | reject | 0.478 | 0.541 | -0.118 | win |
 | prop | Andrew Wiggins reb under 3.5 (401909921) | reject | 0.519 | 0.588 | -0.118 | win |
 | prop | Georges Niang pts under 8.5 (401909919) | reject | 0.477 | 0.541 | -0.118 | loss |
@@ -27701,6 +27972,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Josh Giddey pts under 10.5 (401909870) | reject | 0.473 | 0.538 | -0.119 | loss |
 | prop | Keaton Wagler fg3m under 1.5 (401909920) | reject | 0.509 | 0.578 | -0.120 | win |
 | prop | Amen Thompson pts under 15.5 (401909902) | reject | 0.489 | 0.556 | -0.120 | win |
+| prop | Alex Sarr fg3m over 0.5 (401909287) | reject | 0.571 | 0.649 | -0.120 | win |
 | prop | Darius Acuff Jr. pts over 21.5 (401909899) | reject | 0.471 | 0.535 | -0.120 | win |
 | prop | Zion Williamson reb under 5.5 (401909894) | reject | 0.497 | 0.565 | -0.120 | loss |
 | prop | Neemias Queta reb under 6.5 (401909877) | reject | 0.512 | 0.581 | -0.120 | win |
@@ -27961,6 +28233,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Alex Sarr pts under 10.5 (401909868) | reject | 0.472 | 0.552 | -0.146 | loss |
 | prop | Julian Champagnie fg3m under 1.5 (401909879) | reject | 0.344 | 0.403 | -0.146 | loss |
 | total | over 236.5 (401909876) | reject | 0.441 | 0.517 | -0.146 | win |
+| prop | Nickeil Alexander-Walker fg3m under 3.5 (401909287) | reject | 0.544 | 0.637 | -0.146 | loss |
 | prop | Devin Booker fg3m over 1.5 (401909873) | reject | 0.496 | 0.581 | -0.146 | loss |
 | prop | DeMar DeRozan pts under 13.5 (401909286) | reject | 0.464 | 0.543 | -0.146 | win |
 | prop | Alperen Sengun reb over 9.5 (401909874) | reject | 0.416 | 0.488 | -0.146 | loss |
@@ -28199,6 +28472,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Ajay Mitchell ast under 3.5 (401909891) | reject | 0.504 | 0.610 | -0.173 | win |
 | prop | OG Anunoby ast over 1.5 (401909910) | reject | 0.544 | 0.658 | -0.173 | win |
 | prop | Kel'el Ware reb under 7.5 (401909915) | reject | 0.492 | 0.595 | -0.174 | loss |
+| prop | Kyshawn George pts over 15.5 (401909287) | reject | 0.444 | 0.538 | -0.174 | win |
 | prop | Pelle Larsson pts over 12.5 (401909937) | reject | 0.449 | 0.543 | -0.174 | win |
 | prop | James Harden pts under 17.5 (401909093) | reject | 0.459 | 0.556 | -0.174 | win |
 | total | over 232.5 (401909895) | reject | 0.432 | 0.524 | -0.175 | loss |
@@ -28305,6 +28579,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | LeBron James reb over 6.5 (401909093) | reject | 0.482 | 0.592 | -0.186 | win |
 | prop | Bam Adebayo pts over 17.5 (401909921) | reject | 0.443 | 0.543 | -0.186 | loss |
 | prop | Damian Lillard reb under 3.5 (401909896) | reject | 0.490 | 0.602 | -0.186 | loss |
+| prop | Bilal Coulibaly reb over 3.5 (401909287) | reject | 0.468 | 0.575 | -0.186 | win |
 | prop | Dejounte Murray pts over 17.5 (401909928) | reject | 0.438 | 0.538 | -0.186 | win |
 | prop | Alperen Sengun pts over 19.5 (401909874) | reject | 0.445 | 0.546 | -0.186 | win |
 | prop | Keyonte George pts over 21.5 (401909890) | reject | 0.435 | 0.535 | -0.186 | win |
@@ -28416,6 +28691,7 @@ Record 56-23-0, +13.96u, pending 6.
 | total | under 227.5 (401909927) | reject | 0.418 | 0.522 | -0.199 | win |
 | prop | Bobby Portis pts under 10.5 (401909282) | reject | 0.450 | 0.562 | -0.199 | win |
 | prop | Moussa Diabate pts over 8.5 (401909897) | reject | 0.450 | 0.562 | -0.200 | win |
+| total | over 229.5 (401909287) | reject | 0.419 | 0.524 | -0.200 | win |
 | prop | Deni Avdija reb over 6.5 (401909895) | reject | 0.476 | 0.595 | -0.200 | win |
 | prop | Jrue Holiday pts over 13.5 (401909896) | reject | 0.435 | 0.543 | -0.200 | win |
 | prop | Yaxel Lendeborg pts under 19.5 (401909919) | reject | 0.440 | 0.549 | -0.200 | win |
@@ -28788,6 +29064,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Jaden McDaniels pts over 16.5 (401909901) | reject | 0.414 | 0.546 | -0.243 | win |
 | total | over 230.5 (401909923) | reject | 0.402 | 0.531 | -0.243 | loss |
 | prop | Ace Bailey fg3m under 1.5 (401909890) | reject | 0.430 | 0.568 | -0.243 | win |
+| prop | Dyson Daniels reb over 6.5 (401909287) | reject | 0.430 | 0.568 | -0.243 | win |
 | prop | Jaden McDaniels reb over 4.5 (401909869) | reject | 0.456 | 0.602 | -0.243 | win |
 | prop | Rui Hachimura pts under 14.5 (401909935) | reject | 0.411 | 0.543 | -0.243 | loss |
 | prop | Brook Lopez reb under 3.5 (401909905) | reject | 0.467 | 0.617 | -0.243 | win |
@@ -28850,6 +29127,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Georges Niang pts under 6.5 (401909285) | reject | 0.411 | 0.549 | -0.252 | loss |
 | prop | Peyton Watson pts under 12.5 (401909882) | reject | 0.413 | 0.552 | -0.253 | loss |
 | prop | Jeremiah Fears pts under 15.5 (401909914) | reject | 0.406 | 0.543 | -0.253 | win |
+| prop | Alex Sarr ast under 1.5 (401909287) | reject | 0.450 | 0.602 | -0.253 | loss |
 | prop | Jaylon Tyson reb over 4.5 (401909869) | reject | 0.344 | 0.461 | -0.253 | loss |
 | prop | Jayson Tatum pts over 26.5 (401909903) | reject | 0.404 | 0.541 | -0.253 | win |
 | prop | Joel Embiid reb over 8.5 (401909093) | reject | 0.419 | 0.562 | -0.254 | loss |
@@ -28980,6 +29258,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Davion Mitchell ast over 7.5 (401909871) | reject | 0.432 | 0.595 | -0.274 | loss |
 | prop | Donovan Clingan pts over 9.5 (401909880) | reject | 0.410 | 0.565 | -0.274 | loss |
 | prop | Dennis Schroder pts over 13.5 (401909883) | reject | 0.401 | 0.552 | -0.275 | win |
+| prop | Onyeka Okongwu fg3m over 1.5 (401909287) | reject | 0.394 | 0.543 | -0.275 | win |
 | prop | Dyson Daniels pts over 11.5 (401909893) | reject | 0.405 | 0.559 | -0.275 | loss |
 | prop | Isaiah Jackson pts under 7.5 (401909920) | reject | 0.390 | 0.538 | -0.275 | loss |
 | prop | Bilal Coulibaly reb under 3.5 (401909882) | reject | 0.403 | 0.556 | -0.275 | win |
@@ -29080,6 +29359,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Jarace Walker reb over 5.5 (401909904) | reject | 0.396 | 0.559 | -0.291 | win |
 | prop | Alex Caruso reb over 3.5 (401909929) | reject | 0.410 | 0.578 | -0.291 | win |
 | prop | Cam Spencer fg3m under 0.5 (401909895) | reject | 0.266 | 0.375 | -0.291 | loss |
+| prop | Bilal Coulibaly pts under 8.5 (401909287) | reject | 0.403 | 0.568 | -0.291 | loss |
 | prop | Ty Jerome reb over 3.5 (401909927) | reject | 0.405 | 0.571 | -0.292 | win |
 | prop | Neemias Queta reb over 7.5 (401909924) | reject | 0.424 | 0.599 | -0.292 | win |
 | total | over 234.5 (401909880) | reject | 0.362 | 0.512 | -0.292 | win |
@@ -29113,6 +29393,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Shai Gilgeous-Alexander reb over 3.5 (401909929) | reject | 0.439 | 0.625 | -0.297 | win |
 | ml | away (401909281) | reject | 0.251 | 0.357 | -0.297 | win |
 | prop | Lauri Markkanen reb over 7.5 (401909875) | reject | 0.402 | 0.571 | -0.297 | loss |
+| prop | Kyshawn George ast over 3.5 (401909287) | reject | 0.421 | 0.599 | -0.297 | win |
 | prop | Immanuel Quickley ast over 5.5 (401909920) | reject | 0.406 | 0.578 | -0.298 | loss |
 | prop | Kevin Durant ast under 3.5 (401909902) | reject | 0.418 | 0.595 | -0.298 | loss |
 | prop | Victor Wembanyama ast over 2.5 (401909890) | reject | 0.426 | 0.606 | -0.298 | win |
@@ -29174,6 +29455,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Zach LaVine fg3m over 2.5 (401909913) | reject | 0.376 | 0.543 | -0.308 | win |
 | prop | Jalen Green fg3m over 1.5 (401909936) | reject | 0.449 | 0.649 | -0.308 | loss |
 | prop | Pelle Larsson pts under 9.5 (401909871) | reject | 0.386 | 0.559 | -0.309 | loss |
+| prop | Dyson Daniels ast over 5.5 (401909287) | reject | 0.395 | 0.571 | -0.309 | win |
 | prop | Kevin Durant pts over 26.5 (401909887) | reject | 0.382 | 0.552 | -0.309 | loss |
 | prop | Cameron Boozer reb under 9.5 (401909914) | reject | 0.401 | 0.581 | -0.310 | win |
 | prop | Mikal Bridges pts over 10.5 (401909926) | reject | 0.384 | 0.556 | -0.310 | loss |
@@ -29262,6 +29544,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Isaiah Hartenstein reb over 9.5 (401909891) | reject | 0.394 | 0.585 | -0.325 | win |
 | prop | Payton Pritchard ast under 3.5 (401909903) | reject | 0.404 | 0.599 | -0.326 | win |
 | prop | Jonathan Kuminga ast over 2.5 (401909915) | reject | 0.323 | 0.478 | -0.326 | win |
+| prop | Onyeka Okongwu reb over 8.5 (401909287) | reject | 0.366 | 0.543 | -0.326 | win |
 | prop | Collin Sexton fg3m over 1.5 (401909892) | reject | 0.324 | 0.481 | -0.327 | win |
 | prop | VJ Edgecombe ast under 2.5 (401909280) | reject | 0.380 | 0.565 | -0.327 | win |
 | prop | Cooper Flagg ast over 5.5 (401909283) | reject | 0.398 | 0.592 | -0.327 | win |
@@ -29326,6 +29609,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Jared McCain ast over 2.5 (401909902) | reject | 0.296 | 0.448 | -0.340 | loss |
 | prop | Dean Wade pts over 4.5 (401909912) | reject | 0.373 | 0.565 | -0.340 | win |
 | prop | Andrew Wiggins pts over 12.5 (401909871) | reject | 0.365 | 0.552 | -0.340 | loss |
+| prop | Alex Sarr fg3m under 0.5 (401909287) | reject | 0.429 | 0.649 | -0.340 | loss |
 | prop | Derrick White fg3m under 1.5 (401909903) | reject | 0.434 | 0.658 | -0.341 | loss |
 | spread | away -7.5 (401909884) | reject | 0.347 | 0.526 | -0.341 | loss |
 | ml | away (401909927) | reject | 0.231 | 0.351 | -0.341 | win |
@@ -29361,6 +29645,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Rui Hachimura pts over 14.5 (401909284) | reject | 0.352 | 0.538 | -0.346 | loss |
 | prop | Ayo Dosunmu pts over 17.5 (401909915) | reject | 0.363 | 0.556 | -0.346 | win |
 | prop | Jabari Smith Jr. pts under 15.5 (401909916) | reject | 0.363 | 0.556 | -0.347 | win |
+| prop | Luguentz Dort ast over 1.5 (401909287) | reject | 0.418 | 0.641 | -0.347 | win |
 | prop | Kelly Oubre Jr. pts over 11.5 (401909904) | reject | 0.369 | 0.565 | -0.347 | loss |
 | prop | Karl-Anthony Towns ast over 3.5 (401909926) | reject | 0.353 | 0.541 | -0.347 | loss |
 | prop | Ajay Mitchell ast over 4.5 (401909902) | reject | 0.290 | 0.444 | -0.347 | win |
@@ -29428,6 +29713,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Tre Johnson pts under 8.5 (401909911) | reject | 0.362 | 0.565 | -0.360 | win |
 | prop | Neemias Queta pts over 9.5 (401909903) | reject | 0.348 | 0.543 | -0.360 | loss |
 | prop | Ziaire Williams reb over 3.5 (401909880) | reject | 0.405 | 0.633 | -0.360 | loss |
+| prop | Trae Young fg3m over 2.5 (401909287) | reject | 0.306 | 0.478 | -0.360 | win |
 | prop | Austin Reaves ast over 5.5 (401909906) | reject | 0.390 | 0.610 | -0.360 | loss |
 | prop | Tari Eason pts over 12.5 (401909283) | reject | 0.355 | 0.556 | -0.360 | loss |
 | prop | Quentin Grimes reb over 3.5 (401909880) | reject | 0.394 | 0.617 | -0.361 | win |
@@ -29521,6 +29807,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Jared McCain reb over 2.5 (401909873) | reject | 0.374 | 0.606 | -0.383 | win |
 | prop | Derrick White ast over 4.5 (401909916) | reject | 0.358 | 0.581 | -0.383 | loss |
 | prop | Jordan Goodwin reb under 3.5 (401909919) | reject | 0.376 | 0.610 | -0.384 | win |
+| prop | CJ McCollum ast over 3.5 (401909287) | reject | 0.371 | 0.602 | -0.384 | win |
 | prop | Giannis Antetokounmpo ast over 6.5 (401909282) | reject | 0.292 | 0.474 | -0.384 | win |
 | prop | Donovan Clingan pts over 10.5 (401909880) | reject | 0.346 | 0.562 | -0.384 | loss |
 | prop | Giannis Antetokounmpo pts over 31.5 (401909282) | reject | 0.335 | 0.543 | -0.384 | loss |
@@ -29572,6 +29859,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Derrick Jones Jr. pts over 10.5 (401909935) | reject | 0.343 | 0.568 | -0.396 | win |
 | prop | Aaron Nesmith reb over 3.5 (401909904) | reject | 0.357 | 0.592 | -0.396 | loss |
 | prop | Jock Landale pts under 5.5 (401909874) | reject | 0.345 | 0.571 | -0.397 | loss |
+| prop | Kyshawn George reb over 4.5 (401909287) | reject | 0.283 | 0.469 | -0.397 | loss |
 | prop | Collin Murray-Boyles reb over 5.5 (401909885) | reject | 0.344 | 0.571 | -0.398 | loss |
 | spread | away 10.5 (401909915) | reject | 0.315 | 0.524 | -0.398 | loss |
 | prop | Saddiq Bey ast under 1.5 (401909914) | reject | 0.346 | 0.575 | -0.398 | win |
@@ -29611,9 +29899,11 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Zion Williamson reb over 5.5 (401909914) | reject | 0.361 | 0.613 | -0.411 | win |
 | prop | Jared McCain pts over 13.5 (401909907) | reject | 0.326 | 0.556 | -0.413 | loss |
 | prop | Collin Murray-Boyles fg3m over 0.5 (401909906) | reject | 0.251 | 0.427 | -0.413 | loss |
+| prop | Bilal Coulibaly pts under 7.5 (401909287) | reject | 0.335 | 0.571 | -0.414 | loss |
 | prop | Jared McCain fg3m over 2.5 (401909873) | reject | 0.319 | 0.543 | -0.414 | win |
 | prop | Dennis Schroder pts over 14.5 (401909897) | reject | 0.324 | 0.552 | -0.414 | loss |
 | prop | Davion Mitchell pts under 12.5 (401909937) | reject | 0.329 | 0.562 | -0.414 | loss |
+| prop | Luguentz Dort reb over 3.5 (401909287) | reject | 0.353 | 0.602 | -0.414 | win |
 | prop | Naz Reid reb over 8.5 (401909897) | reject | 0.325 | 0.556 | -0.415 | loss |
 | prop | Max Strus fg3m over 2.5 (401909935) | reject | 0.323 | 0.552 | -0.415 | win |
 | prop | Kyle Kuzma ast under 2.5 (401909924) | reject | 0.372 | 0.637 | -0.415 | loss |
@@ -29621,11 +29911,13 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Tari Eason pts under 9.5 (401909930) | reject | 0.328 | 0.562 | -0.416 | win |
 | prop | Dylan Harper ast over 4.5 (401909890) | reject | 0.279 | 0.478 | -0.416 | win |
 | prop | Aday Mara pts over 7.5 (401909902) | reject | 0.314 | 0.538 | -0.416 | loss |
+| prop | Alex Sarr pts over 12.5 (401909287) | reject | 0.320 | 0.549 | -0.417 | win |
 | prop | Quentin Grimes ast over 2.5 (401909892) | reject | 0.364 | 0.625 | -0.417 | win |
 | prop | Cooper Flagg pts over 23.5 (401909891) | reject | 0.317 | 0.543 | -0.417 | win |
 | prop | Quentin Grimes reb over 3.5 (401909892) | reject | 0.355 | 0.610 | -0.418 | loss |
 | prop | Egor Demin reb over 3.5 (401909877) | reject | 0.362 | 0.621 | -0.418 | loss |
 | prop | De'Aaron Fox pts over 15.5 (401909917) | reject | 0.325 | 0.559 | -0.418 | loss |
+| prop | CJ McCollum fg3m under 1.5 (401909287) | reject | 0.359 | 0.617 | -0.419 | win |
 | prop | Mitchell Robinson reb over 6.5 (401909916) | reject | 0.321 | 0.552 | -0.419 | loss |
 | prop | Luguentz Dort pts over 7.5 (401909909) | reject | 0.325 | 0.559 | -0.419 | win |
 | prop | John Collins reb over 6.5 (401909279) | reject | 0.345 | 0.595 | -0.420 | win |
@@ -29639,7 +29931,10 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Isaiah Hartenstein reb over 10.5 (401909929) | reject | 0.317 | 0.549 | -0.422 | win |
 | prop | Marcus Smart pts over 8.5 (401909902) | reject | 0.326 | 0.565 | -0.422 | win |
 | spread | home -8.5 (401909871) | reject | 0.293 | 0.507 | -0.422 | loss |
+| prop | Nickeil Alexander-Walker pts over 21.5 (401909287) | reject | 0.315 | 0.546 | -0.423 | win |
 | prop | Isaiah Jackson reb over 6.5 (401909920) | reject | 0.342 | 0.592 | -0.423 | win |
+| prop | Trae Young pts over 20.5 (401909287) | reject | 0.312 | 0.541 | -0.423 | win |
+| prop | Kingston Flemings pts over 9.5 (401909287) | reject | 0.317 | 0.549 | -0.423 | win |
 | prop | Ty Jerome reb over 3.5 (401909914) | reject | 0.356 | 0.617 | -0.423 | win |
 | prop | Shai Gilgeous-Alexander pts over 32.5 (401909891) | reject | 0.317 | 0.549 | -0.423 | loss |
 | prop | Derik Queen pts under 9.5 (401909914) | reject | 0.324 | 0.562 | -0.423 | loss |
@@ -29664,6 +29959,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Jalen Brunson ast over 6.5 (401909926) | reject | 0.346 | 0.606 | -0.430 | loss |
 | prop | Stephen Curry pts over 24.5 (401909888) | reject | 0.310 | 0.543 | -0.430 | win |
 | prop | Scottie Barnes pts over 23.5 (401909906) | reject | 0.315 | 0.552 | -0.430 | win |
+| prop | Trae Young reb over 3.5 (401909287) | reject | 0.352 | 0.617 | -0.430 | loss |
 | prop | Brandon Miller pts over 26.5 (401909897) | reject | 0.310 | 0.543 | -0.430 | loss |
 | prop | Damian Lillard pts over 22.5 (401909896) | reject | 0.311 | 0.546 | -0.431 | loss |
 | prop | Christian Braun ast under 1.5 (401909094) | reject | 0.346 | 0.610 | -0.432 | win |
@@ -29679,6 +29975,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Kelly Oubre Jr. ast over 1.5 (401909884) | reject | 0.321 | 0.568 | -0.436 | loss |
 | prop | Kyrie Irving pts under 18.5 (401909933) | reject | 0.313 | 0.556 | -0.436 | loss |
 | prop | CJ McCollum ast over 3.5 (401909909) | reject | 0.324 | 0.575 | -0.436 | win |
+| prop | Trae Young ast over 9.5 (401909287) | reject | 0.311 | 0.552 | -0.437 | win |
 | prop | Brandin Podziemski reb over 5.5 (401909919) | reject | 0.333 | 0.592 | -0.437 | loss |
 | prop | Naz Reid pts over 18.5 (401909883) | reject | 0.312 | 0.556 | -0.438 | loss |
 | prop | Sandro Mamukelashvili pts over 12.5 (401909892) | reject | 0.312 | 0.556 | -0.438 | win |
@@ -29687,6 +29984,7 @@ Record 56-23-0, +13.96u, pending 6.
 | spread | home 1.5 (401909836) | reject | 0.296 | 0.528 | -0.439 | loss |
 | prop | Anthony Black pts over 14.5 (401909885) | reject | 0.305 | 0.543 | -0.439 | loss |
 | prop | Kevin Durant pts under 21.5 (401909916) | reject | 0.301 | 0.538 | -0.439 | win |
+| prop | Luguentz Dort fg3m over 1.5 (401909287) | reject | 0.336 | 0.599 | -0.440 | win |
 | prop | Bilal Coulibaly fg3m under 0.5 (401909277) | reject | 0.352 | 0.629 | -0.440 | win |
 | prop | Pascal Siakam reb over 7.5 (401909904) | reject | 0.335 | 0.599 | -0.440 | loss |
 | prop | Andrew Nembhard ast over 8.5 (401909884) | reject | 0.325 | 0.581 | -0.440 | win |
@@ -29782,6 +30080,7 @@ Record 56-23-0, +13.96u, pending 6.
 | spread | away 2.5 (401909881) | reject | 0.286 | 0.545 | -0.476 | win |
 | prop | Tyler Herro ast under 3.5 (401909924) | reject | 0.325 | 0.621 | -0.476 | win |
 | prop | Brandon Miller ast over 3.5 (401909277) | reject | 0.321 | 0.613 | -0.477 | loss |
+| prop | Kingston Flemings reb over 3.5 (401909287) | reject | 0.326 | 0.625 | -0.478 | loss |
 | prop | Kobe Sanders pts over 10.5 (401909920) | reject | 0.287 | 0.549 | -0.478 | win |
 | prop | Landry Shamet fg3m over 2.5 (401909926) | reject | 0.341 | 0.654 | -0.478 | loss |
 | total | over 236.5 (401909093) | reject | 0.274 | 0.526 | -0.479 | loss |
@@ -29819,6 +30118,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Darius Garland ast over 7.5 (401909935) | reject | 0.305 | 0.606 | -0.496 | loss |
 | prop | Derik Queen ast over 3.5 (401909889) | reject | 0.319 | 0.633 | -0.497 | loss |
 | prop | Immanuel Quickley pts over 16.5 (401909920) | reject | 0.275 | 0.546 | -0.497 | win |
+| prop | Kingston Flemings ast over 5.5 (401909287) | reject | 0.299 | 0.595 | -0.498 | win |
 | prop | Joel Embiid ast under 3.5 (401909884) | reject | 0.314 | 0.625 | -0.498 | win |
 | spread | away 1.5 (401909881) | reject | 0.258 | 0.515 | -0.498 | win |
 | total | over 233.5 (401909834) | reject | 0.268 | 0.535 | -0.499 | win |
@@ -29886,6 +30186,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Brandon Miller ast over 3.5 (401909897) | reject | 0.301 | 0.641 | -0.530 | win |
 | total | over 233.5 (401909092) | reject | 0.246 | 0.524 | -0.530 | loss |
 | prop | James Harden ast over 7.5 (401909900) | reject | 0.283 | 0.602 | -0.531 | loss |
+| prop | Nickeil Alexander-Walker reb over 3.5 (401909287) | reject | 0.280 | 0.599 | -0.532 | loss |
 | prop | Jaden McDaniels pts over 18.5 (401909915) | reject | 0.251 | 0.538 | -0.533 | loss |
 | prop | Baylor Scheierman reb over 4.5 (401909924) | reject | 0.258 | 0.552 | -0.534 | win |
 | prop | Jay Huff pts over 10.5 (401909884) | reject | 0.262 | 0.562 | -0.534 | loss |
@@ -29899,6 +30200,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Cason Wallace reb over 3.5 (401909094) | reject | 0.290 | 0.633 | -0.541 | loss |
 | prop | Bilal Coulibaly fg3m over 1.5 (401909868) | reject | 0.316 | 0.690 | -0.541 | loss |
 | prop | Paul Reed pts over 13.5 (401909922) | reject | 0.252 | 0.552 | -0.543 | loss |
+| prop | Nickeil Alexander-Walker ast over 3.5 (401909287) | reject | 0.280 | 0.613 | -0.543 | loss |
 | prop | Sion James fg3m over 1.5 (401909897) | reject | 0.301 | 0.662 | -0.545 | loss |
 | prop | Kyshawn George reb over 4.5 (401909923) | reject | 0.271 | 0.595 | -0.545 | loss |
 | prop | Klay Thompson reb over 2.5 (401909937) | reject | 0.196 | 0.431 | -0.546 | loss |
@@ -29926,6 +30228,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Kentavious Caldwell-Pope pts under 5.5 (401909093) | reject | 0.237 | 0.535 | -0.556 | win |
 | prop | Derrick White ast over 5.5 (401909903) | reject | 0.274 | 0.617 | -0.557 | loss |
 | prop | Baylor Scheierman pts over 9.5 (401909924) | reject | 0.241 | 0.543 | -0.557 | loss |
+| prop | Onyeka Okongwu pts over 15.5 (401909287) | reject | 0.240 | 0.543 | -0.558 | win |
 | prop | Jaxson Hayes pts over 9.5 (401909928) | reject | 0.246 | 0.559 | -0.559 | loss |
 | prop | Pascal Siakam reb over 7.5 (401909872) | reject | 0.262 | 0.595 | -0.559 | win |
 | prop | Bones Hyland pts over 8.5 (401909930) | reject | 0.246 | 0.559 | -0.560 | win |
@@ -29937,8 +30240,10 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Ryan Rollins pts under 10.5 (401909924) | reject | 0.241 | 0.552 | -0.564 | loss |
 | spread | home -11.5 (401909901) | reject | 0.230 | 0.528 | -0.564 | loss |
 | prop | Trey Lyles fg3m under 0.5 (401909930) | reject | 0.272 | 0.625 | -0.564 | loss |
+| prop | Alex Sarr reb over 7.5 (401909287) | reject | 0.259 | 0.595 | -0.564 | win |
 | prop | Brice Sensabaugh fg3m under 1.5 (401909917) | reject | 0.262 | 0.602 | -0.565 | win |
 | prop | Brandon Williams pts over 13.5 (401909905) | reject | 0.243 | 0.559 | -0.565 | win |
+| prop | Onyeka Okongwu ast over 3.5 (401909287) | reject | 0.271 | 0.625 | -0.566 | loss |
 | prop | Marcus Sasser pts over 7.5 (401909913) | reject | 0.245 | 0.565 | -0.567 | loss |
 | prop | Onyeka Okongwu reb over 8.5 (401909909) | reject | 0.249 | 0.575 | -0.567 | win |
 | prop | Tristan da Silva pts over 12.5 (401909936) | reject | 0.241 | 0.559 | -0.568 | win |
@@ -29951,6 +30256,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Collin Gillespie fg3m over 2.5 (401909932) | reject | 0.186 | 0.437 | -0.574 | loss |
 | prop | Quenton Jackson ast over 5.5 (401909909) | reject | 0.230 | 0.541 | -0.575 | loss |
 | prop | Kobe Sanders pts over 11.5 (401909920) | reject | 0.234 | 0.552 | -0.576 | win |
+| prop | Dyson Daniels pts over 12.5 (401909287) | reject | 0.230 | 0.543 | -0.577 | win |
 | prop | Immanuel Quickley pts over 17.5 (401909920) | reject | 0.230 | 0.543 | -0.577 | win |
 | prop | Darius Garland pts over 23.5 (401909920) | reject | 0.228 | 0.541 | -0.578 | loss |
 | prop | Georges Niang reb over 3.5 (401909919) | reject | 0.252 | 0.599 | -0.579 | win |
@@ -29983,6 +30289,7 @@ Record 56-23-0, +13.96u, pending 6.
 | prop | Jrue Holiday reb under 3.5 (401909932) | reject | 0.245 | 0.610 | -0.598 | loss |
 | prop | Moritz Wagner pts over 9.5 (401909910) | reject | 0.223 | 0.556 | -0.599 | loss |
 | spread | home -12.5 (401909901) | reject | 0.207 | 0.517 | -0.601 | loss |
+| prop | Luguentz Dort pts over 9.5 (401909287) | reject | 0.218 | 0.546 | -0.601 | win |
 | prop | Brice Sensabaugh fg3m under 1.5 (401909928) | reject | 0.262 | 0.658 | -0.601 | win |
 | prop | Kenrich Williams fg3m over 1.5 (401909891) | reject | 0.173 | 0.435 | -0.602 | loss |
 | prop | Franz Wagner ast over 6.5 (401909885) | reject | 0.182 | 0.461 | -0.605 | loss |

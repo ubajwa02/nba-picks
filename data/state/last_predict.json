@@ -13,7 +13,7 @@
  },
  "eligible": 0,
  "games": 2,
- "injuries_observed_at": "2026-11-07T02:12:40Z",
+ "injuries_observed_at": "2026-11-07T02:19:57Z",
  "lottos": 0,
  "model": "ratings-v1-trend",
  "model_ready": true,
@@ -365,11 +365,11 @@
   "79e2f0a5e34c9ac0",
   "6ce622383883773e",
   "4ee28ff34c73cd40",
-  "54f0adedffd451e2",
-  "52d487983f00668a",
+  "1c5ffb0ebc7c9c03",
+  "bdf0ae4e4b7611dd",
   "45a419f75866273f",
-  "686192f2f21f2784",
-  "e1127ae2ebe19323",
+  "4fe6fd9f95076792",
+  "3ccebd78fb8cebf8",
   "fd441fb0d2073923",
   "e5bb5472fd263f93",
   "04c57837c7ca848c",
@@ -616,6 +616,7 @@
   "2aa2888314179121",
   "345c6564ccbf570e",
   "48ce99d7ae8a83f6",
+  "9f8172ec43b53939",
   "fa404661ef8a6abe",
   "8d72c58d8dad6f2f",
   "80083729c7c04bba",
@@ -980,7 +981,6 @@
   "6d7249a8d59848f6",
   "7f36d7ccef24ff32",
   "fed48e452374073a",
-  "9f8172ec43b53939",
   "21b1c1e3db78befe"
  ],
  "prop_model": "props-v0",
@@ -1004,8 +1004,8 @@
    "pairs_verified": 0
   }
  },
- "run_id": "run-2026-11-07T02:12:40Z",
+ "run_id": "run-2026-11-07T02:19:57Z",
  "slate": "2026-11-06",
  "split_cards": 862,
- "written": 35
+ "written": 2
 }
