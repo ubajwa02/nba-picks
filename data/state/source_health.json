@@ -9,31 +9,31 @@
  "espn_injuries": {
   "consecutive_failures": 0,
   "last_detail": "92 listed",
-  "last_ok": "2026-11-07T13:37:31Z"
+  "last_ok": "2026-11-07T15:06:46Z"
  },
  "espn_odds": {
   "consecutive_failures": 0,
   "last_detail": "",
-  "last_ok": "2026-11-07T13:37:31Z"
+  "last_ok": "2026-11-07T15:06:46Z"
  },
  "espn_props": {
   "consecutive_failures": 0,
   "last_detail": "",
   "last_error": "2026-10-31T06:05:23Z",
   "last_error_detail": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909902/competitions/401909902/odds/100/propBets?limit=1000: 404 Not Found",
-  "last_ok": "2026-11-07T13:37:31Z"
+  "last_ok": "2026-11-07T15:06:46Z"
  },
  "espn_scoreboard": {
   "consecutive_failures": 0,
   "last_detail": "",
-  "last_ok": "2026-11-07T13:37:31Z"
+  "last_ok": "2026-11-07T15:06:46Z"
  },
  "moviodds": {
   "consecutive_failures": 0,
-  "last_detail": "1910 quotes; 0 unmapped",
+  "last_detail": "1935 quotes; 0 unmapped",
   "last_error": "2026-11-06T20:41:31Z",
   "last_error_detail": "https://moviodds.com/odds?sport=basketball: 502 Bad Gateway",
-  "last_ok": "2026-11-07T13:37:31Z"
+  "last_ok": "2026-11-07T15:06:46Z"
  },
  "oddsapi_links": {
   "consecutive_failures": 0,
