@@ -1,18 +1,19 @@
-# Live diagnostics (2026-11-06T19:46:48Z)
+# Live diagnostics (2026-11-07T10:29:35Z)
 
-- **ml**: 341 settled, calibration error 0.097, log loss 0.6339 (market 0.5751), Brier drift -0.0472
-- **spread**: 370 settled, calibration error 0.107, log loss 0.7125 (market 0.6935), Brier drift -0.0296
-- **total**: 358 settled, calibration error 0.035, log loss 0.6875 (market 0.6925), Brier drift +0.0119
-- **prop**: 45101 settled, calibration error 0.012, log loss 0.4422 (market 0.6755), Brier drift +0.0066
+- **ml**: 379 settled, calibration error 0.089, log loss 0.6146 (market 0.5641), Brier drift -0.0687
+- **spread**: 409 settled, calibration error 0.084, log loss 0.7035 (market 0.6936), Brier drift -0.0333
+- **total**: 396 settled, calibration error 0.054, log loss 0.6928 (market 0.6921), Brier drift +0.0169
+- **prop**: 50513 settled, calibration error 0.016, log loss 0.4462 (market 0.6761), Brier drift +0.0073
 
 ## Findings
 - overconfident (ml): live log loss is worse than the de-vigged market
 - overconfident (spread): 67% of populated bins are more extreme than outcomes
 - overconfident (spread): live log loss is worse than the de-vigged market
 - overconfident (total): 83% of populated bins are more extreme than outcomes
-- slow_adapt (total): Brier worsened by 0.012 between halves
-- overconfident (prop): 90% of populated bins are more extreme than outcomes
+- overconfident (total): live log loss is worse than the de-vigged market
+- slow_adapt (total): Brier worsened by 0.017 between halves
+- overconfident (prop): 100% of populated bins are more extreme than outcomes
 
 ## Probation
-- ml: calibration error 0.097
-- spread: calibration error 0.107
+- ml: calibration error 0.089
+- spread: calibration error 0.084

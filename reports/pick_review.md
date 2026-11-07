@@ -2,16 +2,21 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 56-24 on 80 graded posted picks, +12.96u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 50-21 (+10.82u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 16-7 (+6.33u); gap<5pts 37-16 (+5.19u); gap>=15pts 3-1 (+1.44u).
-- By closing-line move: flat 8-3 (+3.56u); moved away 9-1 (+4.03u); moved toward us 7-5 (+0.44u).
-- Wider settled predictions (n=30386): model Brier 0.152 vs book 0.1495 (lower is better).
+- 59-26 on 85 graded posted picks, +12.56u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 53-23 (+10.43u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 16-7 (+6.33u); gap<5pts 40-18 (+4.79u); gap>=15pts 3-1 (+1.44u).
+- By closing-line move: flat 8-3 (+3.56u); moved away 10-1 (+4.54u); moved toward us 7-5 (+0.44u).
+- Wider settled predictions (n=33238): model Brier 0.1528 vs book 0.1496 (lower is better).
 
 ## 2026-11-06
 
 | Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
 |---|---|---|---|---|---|---|---|
+| Tyler Herro o3.5 ast | win | +0.59 | 0.646 | 0.628 | +0.03 |  | career 153/244, season 3/8, last10 5/10 |
+| Peyton Watson u1.5 fg3m | win | +0.50 | 0.675 | 0.667 | +0.01 |  | career 213/258, season 5/6, last10 7/10 |
+| Kyrie Irving o3.5 reb | loss | -1.00 | 0.643 | 0.621 | +0.04 |  | career 134/196, season 4/6, last10 7/10 |
+| Jrue Holiday o1.5 fg3m | win | +0.51 | 0.669 | 0.662 | +0.01 | -0.033 | career 184/296, season 6/7, last10 8/10 |
+| Ja'Kobe Walter u3.5 reb | loss | -1.00 | 0.647 | 0.621 | +0.04 |  | career 94/138, season 3/8, last10 4/10 |
 | CJ McCollum o1.5 fg3m | loss | -1.00 | 0.641 | 0.617 | +0.04 | +0.050 | career 207/294, season 6/9, last10 6/10 |
 
 ## 2026-11-05
