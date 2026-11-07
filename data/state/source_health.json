@@ -9,31 +9,31 @@
  "espn_injuries": {
   "consecutive_failures": 0,
   "last_detail": "90 listed",
-  "last_ok": "2026-11-07T20:15:45Z"
+  "last_ok": "2026-11-07T20:33:21Z"
  },
  "espn_odds": {
   "consecutive_failures": 0,
   "last_detail": "",
-  "last_ok": "2026-11-07T20:15:45Z"
+  "last_ok": "2026-11-07T20:33:21Z"
  },
  "espn_props": {
   "consecutive_failures": 0,
   "last_detail": "",
   "last_error": "2026-10-31T06:05:23Z",
   "last_error_detail": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401909902/competitions/401909902/odds/100/propBets?limit=1000: 404 Not Found",
-  "last_ok": "2026-11-07T20:15:45Z"
+  "last_ok": "2026-11-07T20:33:21Z"
  },
  "espn_scoreboard": {
   "consecutive_failures": 0,
   "last_detail": "",
-  "last_ok": "2026-11-07T20:15:45Z"
+  "last_ok": "2026-11-07T20:33:21Z"
  },
  "moviodds": {
-  "consecutive_failures": 1,
-  "last_detail": "2008 quotes; 0 unmapped",
+  "consecutive_failures": 0,
+  "last_detail": "1982 quotes; 0 unmapped",
   "last_error": "2026-11-07T20:15:45Z",
   "last_error_detail": "https://moviodds.com/odds?sport=basketball: 503 Service Unavailable",
-  "last_ok": "2026-11-07T19:49:40Z"
+  "last_ok": "2026-11-07T20:33:21Z"
  },
  "oddsapi_links": {
   "consecutive_failures": 0,
