@@ -42,7 +42,7 @@ Brier: model 0.1524 vs market-implied 0.1489 (n=35912; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 63-27-0, +14.12u, pending 0.
+Record 63-27-0, +14.12u, pending 5.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -140,6 +140,11 @@ Record 63-27-0, +14.12u, pending 0.
 | 2026-11-07 | Deni Avdija o5.5 ast | -156 | 1 | loss | -1.00 |
 | 2026-11-07 | Mikal Bridges o2.5 reb | -175 | 6 | win | +0.57 |
 | 2026-11-07 | Jalen Brunson o2.5 reb | -175 | 6 | win | +0.57 |
+| 2026-11-08 | Keyonte George u2.5 fg3m | -182 | None | pending | +0.00 |
+| 2026-11-08 | Jaden McDaniels u3.5 ast | -175 | None | pending | +0.00 |
+| 2026-11-08 | Anfernee Simons u2.5 reb | -182 | None | pending | +0.00 |
+| 2026-11-08 | Duncan Robinson u2.5 ast | -172 | None | pending | +0.00 |
+| 2026-11-08 | Caleb Martin u2.5 reb | -145 | None | pending | +0.00 |
 
 ## Rows
 
