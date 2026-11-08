@@ -368,3 +368,4 @@
 {"away": "DEN", "away_id": "7", "game_id": "401909957", "home": "HOU", "home_id": "10", "observed_at": "2026-11-08T10:37:04Z", "season": 2027, "season_type": "regular", "source": "espn", "start_utc": "2026-11-10T01:30Z", "status": "scheduled"}
 {"away": "SA", "away_id": "24", "game_id": "401909958", "home": "PHX", "home_id": "21", "observed_at": "2026-11-08T10:37:04Z", "season": 2027, "season_type": "regular", "source": "espn", "start_utc": "2026-11-10T02:00Z", "status": "scheduled"}
 {"away": "NO", "away_id": "3", "game_id": "401909959", "home": "GS", "home_id": "9", "observed_at": "2026-11-08T10:37:04Z", "season": 2027, "season_type": "regular", "source": "espn", "start_utc": "2026-11-10T03:00Z", "status": "scheduled"}
+{"away": "PHI", "away_id": "20", "game_id": "401909945", "home": "CHI", "home_id": "4", "observed_at": "2026-11-08T20:47:31Z", "season": 2027, "season_type": "regular", "source": "espn", "start_utc": "2026-11-08T20:30Z", "status": "in_progress"}
