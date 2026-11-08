@@ -2,11 +2,22 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 59-26 on 85 graded posted picks, +12.56u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 53-23 (+10.43u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 16-7 (+6.33u); gap<5pts 40-18 (+4.79u); gap>=15pts 3-1 (+1.44u).
-- By closing-line move: flat 8-3 (+3.56u); moved away 10-1 (+4.54u); moved toward us 7-5 (+0.44u).
-- Wider settled predictions (n=33590): model Brier 0.1526 vs book 0.1494 (lower is better).
+- 63-27 on 90 graded posted picks, +14.12u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 57-24 (+11.98u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 18-7 (+7.74u); gap<5pts 42-19 (+4.93u); gap>=15pts 3-1 (+1.44u).
+- By closing-line move: flat 8-3 (+3.56u); moved away 11-1 (+5.11u); moved toward us 8-5 (+1.01u).
+- By prop split sample: fuller splits 2-0 (+1.42u); small-sample splits 52-21 (+10.67u).
+- Wider settled predictions (n=35912): model Brier 0.1524 vs book 0.1489 (lower is better).
+
+## 2026-11-07
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Nickeil Alexander-Walker u3.5 ast | win | +0.63 | 0.705 | 0.614 | +0.15 |  | career 258/354, season 7/10, last10 7/10 |
+| Mikal Bridges o2.5 reb | win | +0.57 | 0.600 | 0.636 | -0.06 | +0.019 | career 270/374, season 5/8, last10 5/10 |
+| Jalen Brunson o2.5 reb | win | +0.57 | 0.600 | 0.636 | -0.06 | -0.007 | career 234/352, season 3/8, last10 5/10 |
+| Deni Avdija o5.5 ast | loss | -1.00 | 0.602 | 0.609 | -0.01 |  | career 81/303, season 5/8, last10 5/10 |
+| CJ McCollum u3.5 ast | win | +0.79 | 0.629 | 0.559 | +0.12 |  | career 110/295, season 6/10, last10 6/10 |
 
 ## 2026-11-06
 
