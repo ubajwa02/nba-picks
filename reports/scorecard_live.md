@@ -42,7 +42,7 @@ Brier: model 0.152 vs market-implied 0.1488 (n=38582; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 66-29-0, +13.93u, pending 0.
+Record 66-29-0, +13.93u, pending 6.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -145,6 +145,12 @@ Record 66-29-0, +13.93u, pending 0.
 | 2026-11-08 | Anfernee Simons u2.5 reb | -182 | 4 | loss | -1.00 |
 | 2026-11-08 | Duncan Robinson u2.5 ast | -172 | 3 | loss | -1.00 |
 | 2026-11-08 | Caleb Martin u2.5 reb | -145 | 2 | win | +0.69 |
+| 2026-11-09 | Julian Champagnie u5.5 reb | -154 | None | pending | +0.00 |
+| 2026-11-09 | Dillon Brooks o1.5 ast | -169 | None | pending | +0.00 |
+| 2026-11-09 | Saddiq Bey u2.5 fg3m | -185 | None | pending | +0.00 |
+| 2026-11-09 | Aaron Gordon u1.5 fg3m | -164 | None | pending | +0.00 |
+| 2026-11-09 | De'Anthony Melton o3.5 reb | -161 | None | pending | +0.00 |
+| 2026-11-09 | Daniel Gafford u6.5 reb | -128 | None | pending | +0.00 |
 
 ## Rows
 
