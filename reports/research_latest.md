@@ -1,6 +1,6 @@
 # Model research: walk-forward results
 
-Generated 2026-11-02T20:04:15Z at commit `3563c36`. Splits (ESPN season years): explore [2015, 2020], validate [2021, 2023]; holdout [2024, 2026] untouched.
+Generated 2026-11-09T20:27:14Z at commit `dfa74c5`. Splits (ESPN season years): explore [2015, 2020], validate [2021, 2023]; holdout [2024, 2026] untouched.
 
 Each variant is refit every game day on games before that day and priced against one sportsbook's closing line (DraftKings where ESPN has it, else the next book in a fixed priority list). 'Blend' mixes model and de-vigged market in logit space with a weight chosen on explore only. Log-loss gain is market minus blend (positive = blend better). ROI is flat 1 unit at the closing price.
 
@@ -11,9 +11,6 @@ Explore gain is scored leave-one-season-out (w fit on the other explore seasons)
 | hl30 | ml | 0.10 | 0.0 | +0.0001 (+0.3) | +0.0002 (+0.5) | 190 | 39.5% (75-115) | -5.7% | -24.2% to +13.6% | fail |
 | hl30 | spread | 0.00 | none | -0.0000 (-0.9) | 0 (w = 0) | 0 |  |  |  | fail |
 | hl30 | total | 0.00 | none | +0.0000 (+1.2) | 0 (w = 0) | 0 |  |  |  | fail |
-| trend | ml | 0.10 | 0.0 | +0.0002 (+0.7) | +0.0002 (+0.5) | 137 | 40.9% (56-81) | -3.2% | -22.4% to +20.5% | fail |
-| trend | spread | 0.00 | none | -0.0000 (-0.9) | 0 (w = 0) | 0 |  |  |  | fail |
-| trend | total | 0.00 | none | +0.0000 (+1.2) | 0 (w = 0) | 0 |  |  |  | fail |
 
 A weight of 0.00 means the model added nothing over the closing price on explore: the blend is the market itself, and any ROI is the bookmaker margin.
 

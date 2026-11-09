@@ -1,60 +1,56 @@
 {
- "at": "2026-11-02T19:58:43Z",
- "commit": "3563c36",
+ "at": "2026-11-09T20:26:00Z",
+ "commit": "dfa74c5",
  "diagnostics": {
   "markets": {
    "ml": {
-    "n": 227,
-    "calibration_error": 0.17731581125700668,
-    "logloss": 0.6642809909067992,
-    "market_logloss": 0.5852397865704669,
-    "brier_drift": 0.024833852542645946
+    "n": 449,
+    "calibration_error": 0.08007923907042684,
+    "logloss": 0.5947459090142352,
+    "market_logloss": 0.5480203232525829,
+    "brier_drift": -0.06306821174656344
    },
    "spread": {
-    "n": 240,
-    "calibration_error": 0.19097475161446584,
-    "logloss": 0.7339000846831857,
-    "market_logloss": 0.6933807190417044,
-    "brier_drift": -0.004582007016194656
+    "n": 503,
+    "calibration_error": 0.07805644151317373,
+    "logloss": 0.7042674491014232,
+    "market_logloss": 0.6932440307286875,
+    "brier_drift": -0.0232191623921702
    },
    "total": {
-    "n": 239,
-    "calibration_error": 0.06443286913990454,
-    "logloss": 0.682919637840045,
-    "market_logloss": 0.6918091088998354,
-    "brier_drift": 0.008938065340267837
+    "n": 484,
+    "calibration_error": 0.054641088392115775,
+    "logloss": 0.6929119466136854,
+    "market_logloss": 0.6919526375091183,
+    "brier_drift": 0.010979629874358937
    },
    "prop": {
-    "n": 27369,
-    "calibration_error": 0.009684985975976286,
-    "logloss": 0.4386100434205506,
-    "market_logloss": 0.6740759089283666,
-    "brier_drift": 0.012870627573003557
+    "n": 60264,
+    "calibration_error": 0.013547080859945146,
+    "logloss": 0.4443633907727921,
+    "market_logloss": 0.6729247939846585,
+    "brier_drift": 0.005102485909007637
    }
   },
-  "findings": 8,
-  "queued": 3,
+  "findings": 7,
+  "queued": 2,
   "probation": [
    [
     "ml",
-    "calibration error 0.177"
+    "calibration error 0.080"
    ],
    [
     "spread",
-    "calibration error 0.191"
-   ],
-   [
-    "total",
-    "calibration error 0.064"
+    "calibration error 0.078"
    ]
   ]
  },
  "forward_prop_check": {
-  "model": "props-v1",
+  "model": "props-v0",
   "n": 150,
-  "calibration_error": 0.12237729879409401,
+  "calibration_error": 0.04002294137670029,
   "threshold": 0.06,
-  "action": "demoted to props-v0"
+  "action": "none"
  },
  "game_challengers": "ran queued challengers (see reports/research_latest.md)",
  "prop_challengers": {
