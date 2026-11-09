@@ -1,13 +1,20 @@
-# Pick review (cumulative, as of 2026-11-08)
+# Pick review (cumulative, as of 2026-11-09)
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 63-27 on 90 graded posted picks, +14.12u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 57-24 (+11.98u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 18-7 (+7.74u); gap<5pts 42-19 (+4.93u); gap>=15pts 3-1 (+1.44u).
+- 63-29 on 92 graded posted picks, +12.12u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 57-26 (+9.98u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 18-7 (+7.74u); gap<5pts 42-21 (+2.93u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 11-1 (+5.11u); moved toward us 8-5 (+1.01u).
-- By prop split sample: fuller splits 2-0 (+1.42u); small-sample splits 52-21 (+10.67u).
-- Wider settled predictions (n=35912): model Brier 0.1524 vs book 0.1489 (lower is better).
+- By prop split sample: fuller splits 2-1 (+0.42u); small-sample splits 52-22 (+9.67u).
+- Wider settled predictions (n=36695): model Brier 0.1523 vs book 0.149 (lower is better).
+
+## 2026-11-08
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Duncan Robinson u2.5 ast | loss | -1.00 | 0.607 | 0.632 | -0.04 |  | career 207/316, season 6/8, last10 8/10 |
+| Anfernee Simons u2.5 reb | loss | -1.00 | 0.607 | 0.645 | -0.06 |  | career 110/243, season 7/10, last10 7/10 |
 
 ## 2026-11-07
 
