@@ -2,12 +2,12 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 65-29 on 94 graded posted picks, +13.24u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 59-26 (+11.11u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 18-7 (+7.74u); gap<5pts 44-21 (+4.05u); gap>=15pts 3-1 (+1.44u).
+- 66-29 on 95 graded posted picks, +13.93u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 60-26 (+11.80u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 18-7 (+7.74u); gap<5pts 45-21 (+4.74u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 11-1 (+5.11u); moved toward us 8-5 (+1.01u).
-- By prop split sample: fuller splits 3-1 (+0.99u); small-sample splits 53-22 (+10.22u).
-- Wider settled predictions (n=37029): model Brier 0.1523 vs book 0.149 (lower is better).
+- By prop split sample: fuller splits 3-1 (+0.99u); small-sample splits 54-22 (+10.90u).
+- Wider settled predictions (n=38582): model Brier 0.152 vs book 0.1488 (lower is better).
 
 ## 2026-11-08
 
@@ -16,6 +16,7 @@ Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/pri
 | Keyonte George u2.5 fg3m | win | +0.55 | 0.645 | 0.645 | -0.00 |  | career 123/205, season 6/9, last10 7/10 |
 | Jaden McDaniels u3.5 ast | win | +0.57 | 0.618 | 0.636 | -0.03 |  | career 302/357, season 6/10, last10 6/10 |
 | Duncan Robinson u2.5 ast | loss | -1.00 | 0.607 | 0.632 | -0.04 |  | career 207/316, season 6/8, last10 8/10 |
+| Caleb Martin u2.5 reb | win | +0.69 | 0.606 | 0.592 | +0.02 |  | career 74/277, season 3/5, last10 5/10 |
 | Anfernee Simons u2.5 reb | loss | -1.00 | 0.607 | 0.645 | -0.06 |  | career 110/243, season 7/10, last10 7/10 |
 
 ## 2026-11-07
