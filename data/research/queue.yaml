@@ -1,4 +1,4 @@
-updated: '2026-11-10T04:40:55Z'
+updated: '2026-11-10T10:04:14Z'
 queue:
 - kind: overconfident
   market: ml
@@ -6,15 +6,15 @@ queue:
   variant: blend toward market / wider sigma
   hypothesis: A model weight below the current blend or a larger sigma fixes overconfidence
     seen live.
-  added: '2026-11-10T04:40:55Z'
+  added: '2026-11-10T10:04:14Z'
 - kind: slow_adapt
   market: total
-  evidence: Brier worsened by 0.013 between halves
+  evidence: Brier worsened by 0.014 between halves
   variant: hl30
   hypothesis: Early-season errors are large; faster decay adapts sooner.
-  added: '2026-11-10T04:40:55Z'
+  added: '2026-11-10T10:04:14Z'
 probation:
 - market: ml
-  reason: calibration error 0.077
+  reason: calibration error 0.078
 - market: spread
-  reason: calibration error 0.076
+  reason: calibration error 0.079
