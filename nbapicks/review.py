@@ -3,7 +3,7 @@ book implied, EV, split-card splits and sample sizes, rest/injury notes, closing
 against the result, then group by those inputs to look for patterns.
 
 Descriptive only. The sample is tiny; nothing here is evidence of an edge, and it never feeds
-gates or thresholds. Split cards are archived in data/ledger/split_cards.jsonl because
+gates or thresholds. Split cards are archived under data/ledger/split_cards/ because
 data/state/split_cards_latest.json only holds today's.
 """
 from __future__ import annotations
@@ -14,7 +14,8 @@ from collections import defaultdict
 
 from .odds import american_to_decimal
 
-ARCHIVE = "split_cards.jsonl"
+ARCHIVE = "split_cards.jsonl"   # legacy flat file, read only
+ARCHIVE_DIR = "split_cards"     # one file per card date
 SMALL_N = 10  # a split with fewer games than this is "small sample"
 
 
@@ -22,22 +23,42 @@ def _card_key(c: dict) -> tuple:
     return (str(c.get("game_id")), str(c.get("player_id")), c.get("stat"), c.get("side"), float(c.get("line") or 0))
 
 
+def _archive_files(root: str) -> list[str]:
+    """The legacy flat archive, then one file per card date under ledger/split_cards/."""
+    d = os.path.join(root, "ledger")
+    flat, sub = os.path.join(d, ARCHIVE), os.path.join(d, ARCHIVE_DIR)
+    return ([flat] if os.path.exists(flat) else []) + \
+        (sorted(os.path.join(sub, f) for f in os.listdir(sub) if f.endswith(".jsonl")) if os.path.isdir(sub) else [])
+
+
+def _read_archive(root: str):
+    for p in _archive_files(root):
+        with open(p) as fh:
+            for x in fh:
+                if x.strip():
+                    yield json.loads(x)
+
+
 def archive_cards(root: str, cards: list[dict]) -> int:
-    """Append today's split cards once each (keyed by game/player/stat/side/line)."""
-    p = os.path.join(root, "ledger", ARCHIVE)
-    seen = {_card_key(json.loads(x)) for x in open(p) if x.strip()} if os.path.exists(p) else set()
+    """Append today's split cards once each (keyed by game/player/stat/side/line).
+
+    New cards go to ledger/split_cards/<card date>.jsonl. The flat split_cards.jsonl (45 MB by
+    2026-11-10, heading for GitHub's 100 MB file limit) is still read but no longer appended to.
+    """
+    seen = {_card_key(c) for c in _read_archive(root)}
     new = [c for c in cards if _card_key(c) not in seen and not seen.add(_card_key(c))]
-    if new:
+    for c in new:
+        day = str(c.get("date") or "")
+        day = day[:10] if len(day) >= 10 and day[:4].isdigit() and day[4] == "-" and day[7] == "-" else "unknown"
+        p = os.path.join(root, "ledger", ARCHIVE_DIR, f"{day}.jsonl")
         os.makedirs(os.path.dirname(p), exist_ok=True)
         with open(p, "a") as fh:
-            for c in new:
-                fh.write(json.dumps({k: v for k, v in c.items() if k != "text"}, sort_keys=True) + "\n")
+            fh.write(json.dumps({k: v for k, v in c.items() if k != "text"}, sort_keys=True) + "\n")
     return len(new)
 
 
 def load_cards(root: str) -> dict:
-    p = os.path.join(root, "ledger", ARCHIVE)
-    return {_card_key(c): c for c in (json.loads(x) for x in open(p) if x.strip())} if os.path.exists(p) else {}
+    return {_card_key(c): c for c in _read_archive(root)}
 
 
 def closing_implied(odds: list[dict], lean: dict, start_utc: str | None) -> float | None:

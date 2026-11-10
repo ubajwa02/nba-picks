@@ -79,11 +79,11 @@ def test_every_candidate_is_recorded_including_props_without_estimates(env):
     assert sum(s["decisions"].values()) == s["candidates"]
 
 
-def test_predictions_are_partitioned_by_month(env):
+def test_predictions_are_partitioned_by_day(env):
     root, cfg, state = env
     ctx = pipeline.Ctx(NOW, cfg, root)
     pipeline.ingest(ctx); pipeline.predict(ctx)
-    assert glob.glob(f"{root}/ledger/predictions/2026-10.jsonl")
+    assert glob.glob(f"{root}/ledger/predictions/2026-10-??.jsonl")
     assert not os.path.exists(f"{root}/ledger/predictions.jsonl")
 
 
@@ -97,7 +97,7 @@ def test_legacy_flat_prediction_file_still_replays(tmp_path):
     assert s.one("SELECT pred_id FROM predictions")["pred_id"] == "legacy1"
     s.put("predictions", dict(rec, pred_id="new1", created_at="2026-10-23T15:00:00Z"))
     assert Store(root).one("SELECT count(*) n FROM predictions")["n"] == 2
-    assert os.path.exists(f"{root}/ledger/predictions/2026-10.jsonl")
+    assert os.path.exists(f"{root}/ledger/predictions/2026-10-23.jsonl")
 
 
 def test_publish_uses_the_current_candidate_set(env):
