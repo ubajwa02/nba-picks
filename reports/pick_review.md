@@ -1,4 +1,4 @@
-# Pick review (cumulative, as of 2026-11-09)
+# Pick review (cumulative, as of 2026-11-10)
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
@@ -7,7 +7,7 @@ Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/pri
 - By model-vs-book gap: gap 5-15pts 18-7 (+7.74u); gap<5pts 45-21 (+4.74u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 11-1 (+5.11u); moved toward us 8-5 (+1.01u).
 - By prop split sample: fuller splits 3-1 (+0.99u); small-sample splits 54-22 (+10.90u).
-- Wider settled predictions (n=38582): model Brier 0.152 vs book 0.1488 (lower is better).
+- Wider settled predictions (n=39784): model Brier 0.1527 vs book 0.1492 (lower is better).
 
 ## 2026-11-08
 
