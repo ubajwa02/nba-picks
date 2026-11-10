@@ -74,3 +74,15 @@ Schedules then start on their own.
 
 ## Global pause
 Create `data/state/PAUSED` (optionally `{"reason": "...", "since": "..."}`) or set `pause: true` in `config/nbapicks.yaml` to stop all new recommendations: `predict` and `publish` are skipped and the run records `paused`; `ingest`, `settle` and `export` keep running and the dashboard shows a red banner. Resume by deleting the file (or setting `pause: false`) only after the cause is fixed. Nothing resumes automatically.
+
+## Running without GitHub Actions (local runner)
+
+When Actions can't run (for example the 2026-11-10 billing block), a Mac can run the same nba-daily schedule:
+
+```bash
+bash ops/local/install_mac.sh           # launchd job, wakes every 30 min
+touch ~/nba-picks-runner/STOP           # pause (delete the file to resume)
+bash ops/local/install_mac.sh uninstall
+```
+
+`ops/local/nba_local.py` picks the due slot in US Eastern time (same slots and steps as `nba-daily.yml`, at most 3 h late, once per slot). It runs in a dedicated clone at `~/nba-picks-runner/repo` and commits with `ops/commit_changed.sh` to main using the Mac's git sign-in. Logs are in `~/nba-picks-runner/logs/`. To force a run with chosen steps: `python3 ~/nba-picks-runner/nba_local.py "ingest catchup settle export"`. Once Actions works again, pause the runner so there is one writer.
