@@ -42,7 +42,7 @@ Brier: model 0.1525 vs market-implied 0.1493 (n=41280; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 71-30-0, +16.13u, pending 0.
+Record 71-30-0, +16.13u, pending 6.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -151,6 +151,12 @@ Record 71-30-0, +16.13u, pending 0.
 | 2026-11-09 | Aaron Gordon u1.5 fg3m | -164 | 0 | win | +0.61 |
 | 2026-11-09 | De'Anthony Melton o3.5 reb | -161 | 4 | win | +0.62 |
 | 2026-11-09 | Daniel Gafford u6.5 reb | -128 | 2 | win | +0.78 |
+| 2026-11-10 | Isaiah Hartenstein u10.5 reb | -133 | None | pending | +0.00 |
+| 2026-11-10 | Malik Monk u1.5 fg3m | -161 | None | pending | +0.00 |
+| 2026-11-10 | Shai Gilgeous-Alexander u2.5 fg3m | -159 | None | pending | +0.00 |
+| 2026-11-10 | Wendell Carter Jr. o0.5 fg3m | -172 | None | pending | +0.00 |
+| 2026-11-10 | Sam Hauser o6.5 pts | -149 | None | pending | +0.00 |
+| 2026-11-10 | OG Anunoby u2.5 fg3m | -169 | None | pending | +0.00 |
 
 ## Rows
 
