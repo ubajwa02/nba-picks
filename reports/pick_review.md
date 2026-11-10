@@ -2,12 +2,21 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 66-29 on 95 graded posted picks, +13.93u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 60-26 (+11.80u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 18-7 (+7.74u); gap<5pts 45-21 (+4.74u); gap>=15pts 3-1 (+1.44u).
+- 69-30 on 99 graded posted picks, +14.97u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 63-27 (+12.84u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 20-7 (+9.18u); gap<5pts 46-22 (+4.35u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 11-1 (+5.11u); moved toward us 8-5 (+1.01u).
-- By prop split sample: fuller splits 3-1 (+0.99u); small-sample splits 54-22 (+10.90u).
-- Wider settled predictions (n=39784): model Brier 0.1527 vs book 0.1492 (lower is better).
+- By prop split sample: fuller splits 5-1 (+2.42u); small-sample splits 55-23 (+10.52u).
+- Wider settled predictions (n=40907): model Brier 0.1526 vs book 0.1491 (lower is better).
+
+## 2026-11-09
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Julian Champagnie u5.5 reb | win | +0.65 | 0.689 | 0.606 | +0.14 |  | career 206/288, season 7/10, last10 7/10 |
+| Dillon Brooks o1.5 ast | loss | -1.00 | 0.654 | 0.628 | +0.04 |  | career 164/302, season 5/8, last10 5/10 |
+| Daniel Gafford u6.5 reb | win | +0.78 | 0.626 | 0.561 | +0.12 |  | career 155/298, season 5/10, last10 5/10 |
+| Aaron Gordon u1.5 fg3m | win | +0.61 | 0.641 | 0.621 | +0.03 |  | career 212/285, season 5/8, last10 7/10 |
 
 ## 2026-11-08
 
