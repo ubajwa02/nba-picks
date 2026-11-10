@@ -731,6 +731,16 @@ def predict(ctx: Ctx) -> dict:
     except FileNotFoundError:
         probation = set()
     portfolio(list(best.values()), cfg, probation)
+    # Only the best quote of each bet went through the portfolio caps; another book's or line's quote
+    # of the same bet must not stay 'eligible' beside it (it would be recorded as a second pick and
+    # escape the daily target and unit caps).
+    chosen = {id(c) for c in best.values()}
+    for c in cands:
+        if c.decision == "eligible" and id(c) not in chosen:
+            k = (c.game_id, c.market, c.selection, c.player_id or c.player_name, c.stat)
+            c.decision = "hold"
+            c.reasons.append(f"duplicate: the same bet is taken at {best[k].book} {best[k].price_dec:.2f}"
+                             + (f" (line {best[k].line:g})" if best[k].line is not None else ""))
     status = {m: v["status"] for m, v in cfg["markets"].items()}
     publishable = [c for c in best.values() if c.decision == "eligible" and c.category == "straight"]
     # write every candidate (immutable, versioned by content)
