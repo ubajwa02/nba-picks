@@ -2,19 +2,23 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 72-31 on 103 graded posted picks, +15.80u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 66-28 (+13.67u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 20-7 (+9.18u); gap<5pts 49-23 (+5.18u); gap>=15pts 3-1 (+1.44u).
-- By closing-line move: flat 8-3 (+3.56u); moved away 11-1 (+5.11u); moved toward us 8-5 (+1.01u).
-- By prop split sample: fuller splits 8-1 (+4.25u); small-sample splits 55-24 (+9.52u).
-- Wider settled predictions (n=42383): model Brier 0.1522 vs book 0.149 (lower is better).
+- 75-32 on 107 graded posted picks, +16.81u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 69-29 (+14.67u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 21-7 (+9.93u); gap<5pts 51-24 (+5.43u); gap>=15pts 3-1 (+1.44u).
+- By closing-line move: flat 8-3 (+3.56u); moved away 11-1 (+5.11u); moved toward us 8-6 (+0.01u).
+- By prop split sample: fuller splits 10-1 (+5.63u); small-sample splits 56-25 (+9.14u).
+- Wider settled predictions (n=43538): model Brier 0.1521 vs book 0.1487 (lower is better).
 
 ## 2026-11-10
 
 | Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
 |---|---|---|---|---|---|---|---|
+| Wendell Carter Jr. o0.5 fg3m | loss | -1.00 | 0.623 | 0.632 | -0.01 | +0.034 | career 176/289, season 6/9, last10 7/10 |
+| Shai Gilgeous-Alexander u2.5 fg3m | win | +0.63 | 0.624 | 0.614 | +0.02 |  | career 277/347, season 3/10, last10 3/10 |
 | Sam Hauser o6.5 pts | win | +0.67 | 0.612 | 0.598 | +0.02 |  | career 174/367, season 6/10, last10 6/10 |
 | OG Anunoby u2.5 fg3m | loss | -1.00 | 0.607 | 0.628 | -0.03 |  | career 192/311, season 6/9, last10 7/10 |
+| Malik Monk u1.5 fg3m | win | +0.62 | 0.635 | 0.617 | +0.03 |  | career 126/292, season 6/9, last10 6/10 |
+| Isaiah Hartenstein u10.5 reb | win | +0.75 | 0.644 | 0.571 | +0.13 |  | career 245/333, season 4/10, last10 4/10 |
 
 ## 2026-11-09
 
