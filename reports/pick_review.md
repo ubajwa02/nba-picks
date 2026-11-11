@@ -1,13 +1,20 @@
-# Pick review (cumulative, as of 2026-11-10)
+# Pick review (cumulative, as of 2026-11-11)
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 71-30 on 101 graded posted picks, +16.13u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 65-27 (+14.00u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 20-7 (+9.18u); gap<5pts 48-22 (+5.51u); gap>=15pts 3-1 (+1.44u).
+- 72-31 on 103 graded posted picks, +15.80u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 66-28 (+13.67u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 20-7 (+9.18u); gap<5pts 49-23 (+5.18u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 11-1 (+5.11u); moved toward us 8-5 (+1.01u).
-- By prop split sample: fuller splits 7-1 (+3.58u); small-sample splits 55-23 (+10.52u).
-- Wider settled predictions (n=41280): model Brier 0.1525 vs book 0.1493 (lower is better).
+- By prop split sample: fuller splits 8-1 (+4.25u); small-sample splits 55-24 (+9.52u).
+- Wider settled predictions (n=42383): model Brier 0.1522 vs book 0.149 (lower is better).
+
+## 2026-11-10
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Sam Hauser o6.5 pts | win | +0.67 | 0.612 | 0.598 | +0.02 |  | career 174/367, season 6/10, last10 6/10 |
+| OG Anunoby u2.5 fg3m | loss | -1.00 | 0.607 | 0.628 | -0.03 |  | career 192/311, season 6/9, last10 7/10 |
 
 ## 2026-11-09
 
