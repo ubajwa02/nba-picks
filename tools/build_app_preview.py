@@ -3,7 +3,6 @@
 Use it to share or preview the app where there is no web server for site/ (for example a claude.ai artifact):
     python tools/build_app_preview.py [--data site/data.json] [--out build/nba-picks-app.html]
 The data is trimmed to what the app reads (about 1/10 of data.json). Fonts are inlined, so the file works offline.
-The page is marked as a snapshot: it does not warn that an older slate is "not updated today".
 """
 import argparse
 import base64
@@ -21,7 +20,9 @@ def _key(r):
 
 
 def trim(d):
-    """Keep only what site/app/app.js reads."""
+    """Keep only what site/app/app.js reads. Data already in the dashboard's own format is kept as is."""
+    if "straights" in d:
+        return d
     perf = d.get("performance") or {}
     rows = (perf.get("posted_leans") or {}).get("rows") or []
     today = d.get("today") or {}
@@ -54,7 +55,6 @@ def build(data_path, out_path):
     icon = "data:image/svg+xml;base64," + base64.b64encode(open(os.path.join(APP, "icons", "mark.svg"), "rb").read()).decode()
     payload = json.dumps(data, separators=(",", ":")).replace("</", "<\\/")
 
-    html = html.replace("<title>NBA Picks</title>", '<title>NBA Picks</title>\n<meta name="nba-snapshot" content="1">')
     html = re.sub(r'<link rel="manifest"[^>]*>\n', "", html)
     html = re.sub(r'<link rel="apple-touch-icon"[^>]*>\n', "", html)
     html = html.replace('href="icons/mark.svg"', 'href="%s"' % icon)
