@@ -1,0 +1,14 @@
+{
+  "name": "NBA Picks",
+  "short_name": "NBA Picks",
+  "description": "Tonight's NBA picks, bet-slip links and the graded record. Paper picks for research, not advice.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0B0A09",
+  "theme_color": "#0B0A09",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}

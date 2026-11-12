@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#FAF9F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B0A09" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="NBA Picks">
+<meta name="format-detection" content="telephone=no">
+<title>NBA Picks</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="icons/icon-180.png">
+<link rel="icon" type="image/svg+xml" href="icons/mark.svg">
+<link rel="stylesheet" href="app.css">
+<script>try { const t = localStorage.getItem("nba-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <a href="#today" class="brand-link" aria-label="NBA Picks, today"><svg class="mark" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="14" width="4.2" height="7" rx="1.2" fill="currentColor"/><rect x="9.9" y="9.5" width="4.2" height="11.5" rx="1.2" fill="currentColor"/><rect x="15.8" y="5" width="4.2" height="16" rx="1.2" fill="currentColor"/><circle cx="6.1" cy="6.2" r="2.6" fill="var(--accent)"/></svg><span class="brand-name">NBA Picks</span></a>
+  <nav class="tabs" id="tabs" aria-label="Views"></nav>
+  <div class="status">
+    <span class="meta" id="updated"><span class="live-dot"></span> —</span>
+    <button class="btn icon" id="theme" aria-label="Switch light or dark">◐</button>
+  </div>
+</header>
+<main id="main" tabindex="-1"><div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div></main>
+<nav class="bottom-tabs" id="btabs" aria-label="Main views"></nav>
+<footer class="foot">
+  <span>Research picks, not betting advice. Check the line and price on the slip before you bet.</span>
+  <span>Paper results only, 1 unit per pick.</span>
+</footer>
+<script id="embedded" type="application/json"></script>
+<script src="app.js"></script>
+</body>
+</html>
