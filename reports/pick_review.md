@@ -2,19 +2,22 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 77-33 on 110 graded posted picks, +16.93u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 71-30 (+14.79u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 21-7 (+9.93u); gap<5pts 53-25 (+5.55u); gap>=15pts 3-1 (+1.44u).
+- 79-34 on 113 graded posted picks, +17.16u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 73-31 (+15.02u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 22-7 (+10.59u); gap<5pts 54-26 (+5.13u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 11-1 (+5.11u); moved toward us 8-6 (+0.01u).
-- By prop split sample: fuller splits 12-2 (+5.75u); small-sample splits 56-25 (+9.14u).
-- Wider settled predictions (n=46228): model Brier 0.1512 vs book 0.148 (lower is better).
+- By prop split sample: fuller splits 14-3 (+5.98u); small-sample splits 56-25 (+9.14u).
+- Wider settled predictions (n=46944): model Brier 0.1511 vs book 0.1478 (lower is better).
 
 ## 2026-11-11
 
 | Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
 |---|---|---|---|---|---|---|---|
 | Victor Wembanyama u3.5 ast | win | +0.57 | 0.662 | 0.636 | +0.04 |  | career 123/214, season 8/11, last10 7/10 |
+| Shai Gilgeous-Alexander u4.5 reb | win | +0.66 | 0.654 | 0.603 | +0.08 |  | career 161/348, season 7/11, last10 7/10 |
 | Sandro Mamukelashvili u1.5 fg3m | loss | -1.00 | 0.683 | 0.657 | +0.04 |  | career 181/246, season 8/12, last10 6/10 |
+| Jared McCain u3.5 reb | loss | -1.00 | 0.648 | 0.603 | +0.07 |  | career 89/114, season 6/11, last10 5/10 |
+| De'Anthony Melton o1.5 ast | win | +0.57 | 0.669 | 0.636 | +0.05 |  | career 138/195, season 8/11, last10 7/10 |
 | Darryn Peterson u2.5 fg3m | win | +0.55 | 0.653 | 0.645 | +0.01 |  | career 5/11, season 5/11, last10 4/10 |
 
 ## 2026-11-10

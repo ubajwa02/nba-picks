@@ -1,9 +1,9 @@
 {
- "observed_at": "2026-11-12T04:41:39Z",
+ "observed_at": "2026-11-12T21:40:59Z",
  "rows": [
   {
    "detail": "Newell (toe) has been ruled out for Monday's game against the Lakers.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4873201",
    "player_name": "Asa Newell",
    "source": "espn",
@@ -13,7 +13,7 @@
   },
   {
    "detail": "Gilbert (knee) has been ruled out for Monday's game against the Lakers.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4585618",
    "player_name": "Keshon Gilbert",
    "source": "espn",
@@ -23,7 +23,7 @@
   },
   {
    "detail": "Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during a workout last week, Brad Rowland of the Locked On Podcast Network reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4712863",
    "player_name": "Mouhamed Gueye",
    "source": "espn",
@@ -33,7 +33,7 @@
   },
   {
    "detail": "Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season, the Hawks announced Monday.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "5105571",
    "player_name": "Henri Veesaar",
    "source": "espn",
@@ -43,7 +43,7 @@
   },
   {
    "detail": "George (illness) has been ruled out for Wednesday's game against Toronto, Taylor Snow of the Celtics' official site reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4251",
    "player_name": "Paul George",
    "source": "espn",
@@ -53,47 +53,27 @@
   },
   {
    "detail": "Traore (calf) has been ruled out for Wednesday's game against the Pelicans, Ian Begley of SportsNet New York reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "5279130",
    "player_name": "Nolan Traore",
    "source": "espn",
-   "source_date": "2026-11-11T21:57Z",
-   "status": "Out",
+   "source_date": "2026-11-12T15:02Z",
+   "status": "Day-To-Day",
    "team": "BKN"
   },
   {
    "detail": "Brown has been ruled out for Wednesday's game against the Pelicans due to an illness, Sharif Phillips-Keaton of USA Today reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "5101761",
    "player_name": "Mikel Brown Jr.",
    "source": "espn",
-   "source_date": "2026-11-11T16:40Z",
-   "status": "Out",
+   "source_date": "2026-11-12T15:02Z",
+   "status": "Day-To-Day",
    "team": "BKN"
   },
   {
-   "detail": "Williams (hamstring) is listed as probable for Thursday's game against the Suns.",
-   "observed_at": "2026-11-12T04:41:39Z",
-   "player_id": "4066218",
-   "player_name": "Grant Williams",
-   "source": "espn",
-   "source_date": "2026-11-12T00:12Z",
-   "status": "Out",
-   "team": "CHA"
-  },
-  {
-   "detail": "Diabate (quadriceps) is listed as probable for Thursday's game against the Suns.",
-   "observed_at": "2026-11-12T04:41:39Z",
-   "player_id": "4433249",
-   "player_name": "Moussa Diabate",
-   "source": "espn",
-   "source_date": "2026-11-12T00:10Z",
-   "status": "Day-To-Day",
-   "team": "CHA"
-  },
-  {
    "detail": "Miller (groin) is listed as out for Thursday's game against Phoenix.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4433287",
    "player_name": "Brandon Miller",
    "source": "espn",
@@ -103,7 +83,7 @@
   },
   {
    "detail": "Knueppel (hamstring) was diagnosed with a left hamstring strain Sunday and will be re-evaluated in four weeks.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "5061575",
    "player_name": "Kon Knueppel",
    "source": "espn",
@@ -113,7 +93,7 @@
   },
   {
    "detail": "Schroder has been diagnosed with a left hamstring strain and will be reevaluated in two weeks, Michael Scotto of HoopsHype.com reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "3032979",
    "player_name": "Dennis Schroder",
    "source": "espn",
@@ -123,47 +103,47 @@
   },
   {
    "detail": "Wilson won't return to Wednesday's game against the Spurs due to a right hand injury. He'll finish with 15 points (5-7 FG, 2-2 3Pt, 3-3 FT), five rebounds and one steal in 15 minutes.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "5095151",
    "player_name": "Caleb Wilson",
    "source": "espn",
-   "source_date": "2026-11-12T02:53Z",
-   "status": "Day-To-Day",
+   "source_date": "2026-11-12T21:34Z",
+   "status": "Out",
    "team": "CHI"
   },
   {
    "detail": "Swain (back) is out for Wednesday's game against the Spurs.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4848625",
    "player_name": "Dailyn Swain",
    "source": "espn",
-   "source_date": "2026-11-12T00:21Z",
-   "status": "Out",
+   "source_date": "2026-11-12T15:00Z",
+   "status": "Day-To-Day",
    "team": "CHI"
   },
   {
    "detail": "Powell (shoulder) won't play in Wednesday's game against the Spurs,Joel Lorenzi of The Athletic reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "2595516",
    "player_name": "Norman Powell",
    "source": "espn",
-   "source_date": "2026-11-11T23:27Z",
-   "status": "Out",
+   "source_date": "2026-11-12T15:00Z",
+   "status": "Day-To-Day",
    "team": "CHI"
   },
   {
    "detail": "Awaka (back) has been ruled out for Wednesday's game against the Spurs.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "5105555",
    "player_name": "Tobe Awaka",
    "source": "espn",
-   "source_date": "2026-11-11T19:18Z",
-   "status": "Out",
+   "source_date": "2026-11-12T15:00Z",
+   "status": "Day-To-Day",
    "team": "CHI"
   },
   {
    "detail": "Merrill (elbow) is listed as out for Wednesday's game against the Knicks.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4066757",
    "player_name": "Sam Merrill",
    "source": "espn",
@@ -173,7 +153,7 @@
   },
   {
    "detail": "Lively (foot) is listed as out for Thursday's game in Minnesota.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4683688",
    "player_name": "Dereck Lively II",
    "source": "espn",
@@ -183,7 +163,7 @@
   },
   {
    "detail": "Biberovic (heel) is out for Thursday's game against Minnesota.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "5148538",
    "player_name": "Tarik Biberovic",
    "source": "espn",
@@ -193,7 +173,7 @@
   },
   {
    "detail": "De Larrea (knee) has been ruled out for Thursday's game at Minnesota.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "5279129",
    "player_name": "Sergio de Larrea",
    "source": "espn",
@@ -203,7 +183,7 @@
   },
   {
    "detail": "Johnson (shin) is listed as probable for Thursday's game against Minnesota.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4873153",
    "player_name": "Morez Johnson Jr.",
    "source": "espn",
@@ -213,7 +193,7 @@
   },
   {
    "detail": "Strawther (knee) was diagnosed with a left knee sprain Friday and will be re-evaluated in six weeks, Vinny Benedetto of The Denver Gazette reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4432181",
    "player_name": "Julian Strawther",
    "source": "espn",
@@ -223,7 +203,7 @@
   },
   {
    "detail": "Onyenso agreed to a two-way contract with the Pistons on Thursday.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "5037878",
    "player_name": "Ugonna Onyenso",
    "source": "espn",
@@ -233,7 +213,7 @@
   },
   {
    "detail": "Joe (hip) is out for Monday against the Wizards.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4395702",
    "player_name": "Isaiah Joe",
    "source": "espn",
@@ -243,7 +223,7 @@
   },
   {
    "detail": "Duren (hamstring) has begun on-court activity and will be re-evaluated in two weeks, Hunter Patterson of The Athletic reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4433621",
    "player_name": "Jalen Duren",
    "source": "espn",
@@ -252,28 +232,28 @@
    "team": "DET"
   },
   {
-   "detail": "Curry won't return to Wednesday's game against the Rockets due to right abdominal soreness, Anthony Slater of ESPN.com reports. He'll finish with three points (1-3 FG, 1-2 3Pt) across six minutes.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "detail": "Curry has been diagnosed with an oblique abdominal tear and will be re-evaluated in two weeks, Shams Charania of ESPN reports.",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "3975",
    "player_name": "Stephen Curry",
    "source": "espn",
-   "source_date": "2026-11-12T03:19Z",
-   "status": "Day-To-Day",
-   "team": "GS"
-  },
-  {
-   "detail": "Payton (knee) is out for Wednesday's game against Houston.",
-   "observed_at": "2026-11-12T04:41:39Z",
-   "player_id": "3134903",
-   "player_name": "Gary Payton II",
-   "source": "espn",
-   "source_date": "2026-11-10T21:36Z",
+   "source_date": "2026-11-12T17:03Z",
    "status": "Out",
    "team": "GS"
   },
   {
+   "detail": "Payton (knee) is out for Wednesday's game against Houston.",
+   "observed_at": "2026-11-12T21:40:59Z",
+   "player_id": "3134903",
+   "player_name": "Gary Payton II",
+   "source": "espn",
+   "source_date": "2026-11-12T15:03Z",
+   "status": "Day-To-Day",
+   "team": "GS"
+  },
+  {
    "detail": "Williams (hamstring) will miss at least one week, per Anthony Slater of ESPN.com.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4397040",
    "player_name": "Brandon Williams",
    "source": "espn",
@@ -283,7 +263,7 @@
   },
   {
    "detail": "Porzingis announced on his social media that he's stepping away from basketball.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "3102531",
    "player_name": "Kristaps Porzingis",
    "source": "espn",
@@ -293,7 +273,7 @@
   },
   {
    "detail": "Moody (knee) is progressing toward a potential return between December and January after rupturing his left patellar tendon in March, Anthony Slater of ESPN reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4432171",
    "player_name": "Moses Moody",
    "source": "espn",
@@ -303,7 +283,7 @@
   },
   {
    "detail": "Butler (knee) could return sometime between January and February as he continues recovering from a torn right ACL, Anthony Slater of ESPN reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "6430",
    "player_name": "Jimmy Butler III",
    "source": "espn",
@@ -313,7 +293,7 @@
   },
   {
    "detail": "Head coach Ime Udoka stated Monday that Capela (ankle) could be cleared to return either Nov. 15 in Washington or Nov. 16 in Miami, Lachard Binkley of SI.com reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "3102529",
    "player_name": "Clint Capela",
    "source": "espn",
@@ -323,7 +303,7 @@
   },
   {
    "detail": "Head coach Ime Udoka said Monday that Adams could return as soon as Sunday's game at Washington, Lachard Binkley of SI.com reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "2991235",
    "player_name": "Steven Adams",
    "source": "espn",
@@ -333,7 +313,7 @@
   },
   {
    "detail": "Nesmith will not return to Wednesday's game against the Wizards due to right knee soreness. He'll finish with two points (1-6 FG, 0-4 3Pt), one rebound and one assist across 22 minutes.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4396909",
    "player_name": "Aaron Nesmith",
    "source": "espn",
@@ -343,7 +323,7 @@
   },
   {
    "detail": "Head coach Rick Carlisle said Wednesday that Haliburton (hamstring) will miss at least 10 more days, Alex Golden of SI.com reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4396993",
    "player_name": "Tyrese Haliburton",
    "source": "espn",
@@ -353,7 +333,7 @@
   },
   {
    "detail": "Furphy (knee) is practicing with the G League's Noblesville Boom, per Alex Golden of SI.com.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "5157066",
    "player_name": "Johnny Furphy",
    "source": "espn",
@@ -363,7 +343,7 @@
   },
   {
    "detail": "Head coach Rick Carlise confirmed Sheppard will miss \"months\" after undergoing surgery to repair a torn meniscus in his left knee, Tony East of Forbes.com reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4433076",
    "player_name": "Ben Sheppard",
    "source": "espn",
@@ -372,8 +352,18 @@
    "team": "IND"
   },
   {
+   "detail": "Ingram (Achilles) won't play in Friday's game against the Thunder, per Law Murray of The Athletic.",
+   "observed_at": "2026-11-12T21:40:59Z",
+   "player_id": "3913176",
+   "player_name": "Brandon Ingram",
+   "source": "espn",
+   "source_date": "2026-11-12T21:05Z",
+   "status": "Out",
+   "team": "LAC"
+  },
+  {
    "detail": "Christie (ankle) is listed as out for Tuesday's game against Phoenix.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4845363",
    "player_name": "Cam Christie",
    "source": "espn",
@@ -383,7 +373,7 @@
   },
   {
    "detail": "Niederhauser (foot) is out for Tuesday's game against Phoenix, Ohm Youngmisuk of ESPN.com reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "5108024",
    "player_name": "Yanic Konan Niederhauser",
    "source": "espn",
@@ -392,18 +382,8 @@
    "team": "LAC"
   },
   {
-   "detail": "Ingram (Achilles) has been ruled out for Tuesday's game at Phoenix, Ohm Youngmisuk of ESPN.com reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
-   "player_id": "3913176",
-   "player_name": "Brandon Ingram",
-   "source": "espn",
-   "source_date": "2026-11-10T00:00Z",
-   "status": "Out",
-   "team": "LAC"
-  },
-  {
    "detail": "Beal (knee) will not be ready for the start of the regular season, NBA writer Justin Russo reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "6580",
    "player_name": "Bradley Beal",
    "source": "espn",
@@ -413,7 +393,7 @@
   },
   {
    "detail": "Miller underwent surgery Wednesday to repair a torn left rotator cuff and will be re-evaluated in six months, per Law Murray of The Athletic.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4396818",
    "player_name": "Jordan Miller",
    "source": "espn",
@@ -422,8 +402,28 @@
    "team": "LAC"
   },
   {
+   "detail": "Grimes (finger) has been ruled out for Wednesday's game against the Bucks.",
+   "observed_at": "2026-11-12T21:40:59Z",
+   "player_id": "4397014",
+   "player_name": "Quentin Grimes",
+   "source": "espn",
+   "source_date": "2026-11-12T15:01Z",
+   "status": "Day-To-Day",
+   "team": "LAL"
+  },
+  {
+   "detail": "Sexton did not return to Wednesday's 123-112 win over the Bucks and required stitches to close a cut on his forehead, Thuc Nhi Nguyen of the Los Angeles Times reports.",
+   "observed_at": "2026-11-12T21:40:59Z",
+   "player_id": "4277811",
+   "player_name": "Collin Sexton",
+   "source": "espn",
+   "source_date": "2026-11-12T04:40Z",
+   "status": "Day-To-Day",
+   "team": "LAL"
+  },
+  {
    "detail": "Head coach JJ Redick said that X-rays on Reaves' left heel came back negative, but they won't have another update until he undergoes further imaging back in Los Angeles on Thursday, Dave McMenamin of ESPN.com reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4066457",
    "player_name": "Austin Reaves",
    "source": "espn",
@@ -433,7 +433,7 @@
   },
   {
    "detail": "Doncic finished Wednesday's 123-112 win over the Bucks with 32 points (10-25 FG, 5-12 3Pt, 7-10 FT), five rebounds, five assists and three steals across 32 minutes. He exited to the locker room late in the fourth quarter due to an apparent right ankle injury and did not return, Thuc Nhi Nguyen of the Los Angeles Times reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "3945274",
    "player_name": "Luka Doncic",
    "source": "espn",
@@ -442,28 +442,18 @@
    "team": "LAL"
   },
   {
-   "detail": "Sexton went back to the locker room during Wednesday's game against the Bucks after bumping heads with Ryan Rollins, Thuc Nhi Nguyen of the Los Angeles Times reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
-   "player_id": "4277811",
-   "player_name": "Collin Sexton",
+   "detail": "Post (concussion) has been ruled out for Wednesday's game against the Nuggets.",
+   "observed_at": "2026-11-12T21:40:59Z",
+   "player_id": "4593016",
+   "player_name": "Quinten Post",
    "source": "espn",
-   "source_date": "2026-11-12T03:11Z",
+   "source_date": "2026-11-12T15:00Z",
    "status": "Day-To-Day",
-   "team": "LAL"
-  },
-  {
-   "detail": "Grimes (finger) has been ruled out for Wednesday's game against the Bucks.",
-   "observed_at": "2026-11-12T04:41:39Z",
-   "player_id": "4397014",
-   "player_name": "Quentin Grimes",
-   "source": "espn",
-   "source_date": "2026-11-11T19:06Z",
-   "status": "Out",
-   "team": "LAL"
+   "team": "MEM"
   },
   {
    "detail": "Pippen (back) remains out for Wednesday's game against Denver, Michael Wallace of the Grizzlies' official site reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4431785",
    "player_name": "Scotty Pippen Jr.",
    "source": "espn",
@@ -472,18 +462,8 @@
    "team": "MEM"
   },
   {
-   "detail": "Post (concussion) has been ruled out for Wednesday's game against the Nuggets.",
-   "observed_at": "2026-11-12T04:41:39Z",
-   "player_id": "4593016",
-   "player_name": "Quinten Post",
-   "source": "espn",
-   "source_date": "2026-11-10T23:09Z",
-   "status": "Out",
-   "team": "MEM"
-  },
-  {
    "detail": "Saunders signed a two-way contract with the Grizzlies on Saturday, Shams Charania of ESPN reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "5105462",
    "player_name": "Richie Saunders",
    "source": "espn",
@@ -492,8 +472,48 @@
    "team": "MEM"
   },
   {
+   "detail": "Thompson (ankle) is listed as questionable for Friday's game against the Cavaliers.",
+   "observed_at": "2026-11-12T21:40:59Z",
+   "player_id": "6475",
+   "player_name": "Klay Thompson",
+   "source": "espn",
+   "source_date": "2026-11-12T21:23Z",
+   "status": "Day-To-Day",
+   "team": "MIA"
+  },
+  {
+   "detail": "Antetokounmpo (wrist) is probable for Friday's game against Cleveland.",
+   "observed_at": "2026-11-12T21:40:59Z",
+   "player_id": "3032977",
+   "player_name": "Giannis Antetokounmpo",
+   "source": "espn",
+   "source_date": "2026-11-12T21:22Z",
+   "status": "Day-To-Day",
+   "team": "MIA"
+  },
+  {
+   "detail": "Larsson (illness) is listed as questionable for Friday's game against Cleveland.",
+   "observed_at": "2026-11-12T21:40:59Z",
+   "player_id": "4601025",
+   "player_name": "Pelle Larsson",
+   "source": "espn",
+   "source_date": "2026-11-12T21:20Z",
+   "status": "Day-To-Day",
+   "team": "MIA"
+  },
+  {
+   "detail": "Turner has been ruled out for Wednesday's game against the Lakers due to rest.",
+   "observed_at": "2026-11-12T21:40:59Z",
+   "player_id": "3133628",
+   "player_name": "Myles Turner",
+   "source": "espn",
+   "source_date": "2026-11-12T15:01Z",
+   "status": "Day-To-Day",
+   "team": "MIL"
+  },
+  {
    "detail": "Rollins (head) exited to the locker room in the fourth quarter of Wednesday's 123-112 loss to the Lakers and did not return, finishing with eight points (3-10 FG, 2-6 3Pt), seven rebounds, four assists and one steal across 24 minutes.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4591725",
    "player_name": "Ryan Rollins",
    "source": "espn",
@@ -502,18 +522,8 @@
    "team": "MIL"
   },
   {
-   "detail": "Turner has been ruled out for Wednesday's game against the Lakers due to rest.",
-   "observed_at": "2026-11-12T04:41:39Z",
-   "player_id": "3133628",
-   "player_name": "Myles Turner",
-   "source": "espn",
-   "source_date": "2026-11-11T19:03Z",
-   "status": "Out",
-   "team": "MIL"
-  },
-  {
    "detail": "Edwards underwent a successful arthroscopic procedure on his right knee Thursday, the Timberwolves announced.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4594268",
    "player_name": "Anthony Edwards",
    "source": "espn",
@@ -523,7 +533,7 @@
   },
   {
    "detail": "DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The Athletic reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "3934673",
    "player_name": "Donte DiVincenzo",
    "source": "espn",
@@ -532,48 +542,68 @@
    "team": "MIN"
   },
   {
-   "detail": "Murphy (knee) is listed as out for Wednesday's game against the Nets.",
-   "observed_at": "2026-11-12T04:41:39Z",
-   "player_id": "4397688",
-   "player_name": "Trey Murphy III",
+   "detail": "McGowens (elbow) is listed as doubtful for Friday's game against the Grizzlies.",
+   "observed_at": "2026-11-12T21:40:59Z",
+   "player_id": "4576086",
+   "player_name": "Bryce McGowens",
    "source": "espn",
-   "source_date": "2026-11-11T23:50Z",
-   "status": "Out",
+   "source_date": "2026-11-12T20:56Z",
+   "status": "Day-To-Day",
    "team": "NO"
   },
   {
-   "detail": "Mathurin has been ruled out for Wednesday's game against the Nets due to a right thumb sprain.",
-   "observed_at": "2026-11-12T04:41:39Z",
-   "player_id": "4683634",
-   "player_name": "Bennedict Mathurin",
-   "source": "espn",
-   "source_date": "2026-11-11T16:55Z",
-   "status": "Out",
-   "team": "NO"
-  },
-  {
-   "detail": "Watford (ankle) is out for Wednesday's game against the Nets.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "detail": "Watford (ankle) is listed as out for Friday's game against the Grizzlies.",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4431675",
    "player_name": "Trendon Watford",
    "source": "espn",
-   "source_date": "2026-11-10T19:26Z",
+   "source_date": "2026-11-12T20:53Z",
    "status": "Out",
    "team": "NO"
   },
   {
-   "detail": "Missi (knee) is out for Friday's game against Minnesota.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "detail": "Mathurin (thumb) is listed as doubtful for Friday's game against Memphis.",
+   "observed_at": "2026-11-12T21:40:59Z",
+   "player_id": "4683634",
+   "player_name": "Bennedict Mathurin",
+   "source": "espn",
+   "source_date": "2026-11-12T20:53Z",
+   "status": "Day-To-Day",
+   "team": "NO"
+  },
+  {
+   "detail": "Missi (knee) is listed as doubtful for Friday's game against the Grizzlies.",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "5061589",
    "player_name": "Yves Missi",
    "source": "espn",
-   "source_date": "2026-11-05T20:47Z",
+   "source_date": "2026-11-12T20:50Z",
    "status": "Out",
    "team": "NO"
   },
   {
+   "detail": "Murphy (knee) is listed as doubtful for Friday's game against the Grizzlies.",
+   "observed_at": "2026-11-12T21:40:59Z",
+   "player_id": "4397688",
+   "player_name": "Trey Murphy III",
+   "source": "espn",
+   "source_date": "2026-11-12T20:48Z",
+   "status": "Day-To-Day",
+   "team": "NO"
+  },
+  {
+   "detail": "Mitchell has been ruled out for Wednesday's game against the Trail Blazers due to a left ankle sprain.",
+   "observed_at": "2026-11-12T21:40:59Z",
+   "player_id": "4900671",
+   "player_name": "Ajay Mitchell",
+   "source": "espn",
+   "source_date": "2026-11-12T15:04Z",
+   "status": "Day-To-Day",
+   "team": "OKC"
+  },
+  {
    "detail": "Williams (back) has been ruled out for Wednesday's game against Portland and remains out indefinitely.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4432823",
    "player_name": "Jaylin Williams",
    "source": "espn",
@@ -582,18 +612,8 @@
    "team": "OKC"
   },
   {
-   "detail": "Mitchell has been ruled out for Wednesday's game against the Trail Blazers due to a left ankle sprain.",
-   "observed_at": "2026-11-12T04:41:39Z",
-   "player_id": "4900671",
-   "player_name": "Ajay Mitchell",
-   "source": "espn",
-   "source_date": "2026-11-11T21:18Z",
-   "status": "Out",
-   "team": "OKC"
-  },
-  {
    "detail": "Sorber (knee) is out for Wednesday's game against the Cavaliers.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "5061603",
    "player_name": "Thomas Sorber",
    "source": "espn",
@@ -603,7 +623,7 @@
   },
   {
    "detail": "Wallace underwent surgery Friday to repair a torn labrum in his left shoulder and will be re-evaluated before the end of the regular season, Clemente Almanza of USA Today reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4683692",
    "player_name": "Cason Wallace",
    "source": "espn",
@@ -613,7 +633,7 @@
   },
   {
    "detail": "Holmgren underwent a biological treatment Friday to address a small patellar tendon tear and will miss at least 8-10 weeks, Nick Crain of Slam reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4433255",
    "player_name": "Chet Holmgren",
    "source": "espn",
@@ -623,7 +643,7 @@
   },
   {
    "detail": "Williams (leg) underwent successful surgery Wednesday to \"address a fractured left fibula and reconstruction of ankle ligaments following a fracture and dislocation.\" He will be re-evaluated before the end of the regular season, Tim MacMahon of ESPN.com reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4593803",
    "player_name": "Jalen Williams",
    "source": "espn",
@@ -633,27 +653,27 @@
   },
   {
    "detail": "Da Silva (calf) is listed as out for Wednesday's game versus the Jazz.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4702382",
    "player_name": "Tristan da Silva",
    "source": "espn",
-   "source_date": "2026-11-12T01:33Z",
-   "status": "Out",
+   "source_date": "2026-11-12T15:03Z",
+   "status": "Day-To-Day",
    "team": "ORL"
   },
   {
    "detail": "Cain (shoulder) is out for Wednesday's game in Utah.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4278572",
    "player_name": "Jamal Cain",
    "source": "espn",
-   "source_date": "2026-11-12T01:28Z",
-   "status": "Out",
+   "source_date": "2026-11-12T15:03Z",
+   "status": "Day-To-Day",
    "team": "ORL"
   },
   {
    "detail": "Suggs (knee) has been ruled out for Tuesday's game against the Kings.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4432165",
    "player_name": "Jalen Suggs",
    "source": "espn",
@@ -663,7 +683,7 @@
   },
   {
    "detail": "Isaac (knee) is out for Tuesday's game against Sacramento.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4065654",
    "player_name": "Jonathan Isaac",
    "source": "espn",
@@ -673,7 +693,7 @@
   },
   {
    "detail": "Banchero is expected to be sidelined for the next four-to-six weeks due to a right high-ankle sprain, Shams Charania of ESPN reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4432573",
    "player_name": "Paolo Banchero",
    "source": "espn",
@@ -683,7 +703,7 @@
   },
   {
    "detail": "Penda was diagnosed with a partially torn right hamstring Saturday, Jason Beede of the Orlando Sentinel reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "5214637",
    "player_name": "Noah Penda",
    "source": "espn",
@@ -693,7 +713,7 @@
   },
   {
    "detail": "Team president Jeff Weltman said Monday that Nelson (ankle) remains about a month away from returning to the court after offseason surgery, per Philip Rossman-Reich of OrlandoMagicDaily.com.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "5107251",
    "player_name": "Izaiyah Nelson",
    "source": "espn",
@@ -702,48 +722,48 @@
    "team": "ORL"
   },
   {
-   "detail": "Bona (back) is out for Thursday's game against the Raptors, Kyle Neubeck of AllPHLY.com reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
-   "player_id": "5105637",
-   "player_name": "Adem Bona",
-   "source": "espn",
-   "source_date": "2026-11-11T22:10Z",
-   "status": "Out",
-   "team": "PHI"
-  },
-  {
-   "detail": "Embiid (foot) is listed as questionable for Thursday's game against Toronto, Adam Aaronson of PhillyVoice.com reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
-   "player_id": "3059318",
-   "player_name": "Joel Embiid",
-   "source": "espn",
-   "source_date": "2026-11-11T22:06Z",
-   "status": "Day-To-Day",
-   "team": "PHI"
-  },
-  {
-   "detail": "James (back) is questionable for Thursday's game against the Raptors, Kyle Neubeck of AllPHLY.com reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "detail": "James (back) is out for Thursday's game against Toronto.",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "1966",
    "player_name": "LeBron James",
    "source": "espn",
-   "source_date": "2026-11-11T22:06Z",
-   "status": "Day-To-Day",
+   "source_date": "2026-11-12T18:07Z",
+   "status": "Out",
    "team": "PHI"
   },
   {
-   "detail": "Head coach Nick Nurse said Wednesday that Barlow (back) likely needs another 10-12 days before he's cleared to return to the court, Derek Bodner of AllPHLY.com reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "detail": "Barlow (back) participated in Thursday's shootaround but doesn't have a timeline to return to game action, Ky Carlin of USA Today reports.",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4870562",
    "player_name": "Dominick Barlow",
    "source": "espn",
-   "source_date": "2026-11-04T22:41Z",
+   "source_date": "2026-11-12T16:37Z",
    "status": "Out",
+   "team": "PHI"
+  },
+  {
+   "detail": "Bona (back) will be re-evaluated in approximately one week after seeing a specialist, Ky Carlin of USA Today reports.",
+   "observed_at": "2026-11-12T21:40:59Z",
+   "player_id": "5105637",
+   "player_name": "Adem Bona",
+   "source": "espn",
+   "source_date": "2026-11-12T16:36Z",
+   "status": "Out",
+   "team": "PHI"
+  },
+  {
+   "detail": "Embiid (foot) remains questionable for Thursday's game against the Raptors, but he participated in the team's morning shootaround, Ky Carlin of USA Today reports.",
+   "observed_at": "2026-11-12T21:40:59Z",
+   "player_id": "3059318",
+   "player_name": "Joel Embiid",
+   "source": "espn",
+   "source_date": "2026-11-12T16:34Z",
+   "status": "Day-To-Day",
    "team": "PHI"
   },
   {
    "detail": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4871141",
    "player_name": "Ariel Hukporti",
    "source": "espn",
@@ -753,7 +773,7 @@
   },
   {
    "detail": "Williams underwent surgery Thursday to repair a torn labrum in his left shoulder and will miss an extended period of time, Shams Charania of ESPN reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4701232",
    "player_name": "Mark Williams",
    "source": "espn",
@@ -763,17 +783,17 @@
   },
   {
    "detail": "Youngblood has been ruled out for Wednesday's game against the Thunder.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4706557",
    "player_name": "Chris Youngblood",
    "source": "espn",
-   "source_date": "2026-11-11T21:05Z",
-   "status": "Out",
+   "source_date": "2026-11-12T15:04Z",
+   "status": "Day-To-Day",
    "team": "POR"
   },
   {
    "detail": "Krejci underwent surgery on his fractured left ankle Wednesday and will be re-evaluated in eight weeks, Brett Siegel of ClutchPoints.com reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4578893",
    "player_name": "Vit Krejci",
    "source": "espn",
@@ -783,7 +803,7 @@
   },
   {
    "detail": "Head coach Micah Nori said Morant met with a doctor in Los Angeles, who gave him a positive outlook on his recovery from the hamstring injury. While Nori declined to update Morant's timetable, he added Morant \"may not be out for as long as we thought,\" Trail Blazers Insider Sean Highkin reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4279888",
    "player_name": "Ja Morant",
    "source": "espn",
@@ -793,7 +813,7 @@
   },
   {
    "detail": "Sharpe suffered a torn meniscus in his knee and is expected to miss six months, per Shams Charania of ESPN.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4914336",
    "player_name": "Shaedon Sharpe",
    "source": "espn",
@@ -803,7 +823,7 @@
   },
   {
    "detail": "Achiuwa left Tuesday's 107-100 loss to the Magic with a left lower leg contusion and did not return, Matt George of ABC 10 Sacramento reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4431679",
    "player_name": "Precious Achiuwa",
    "source": "espn",
@@ -813,7 +833,7 @@
   },
   {
    "detail": "Raynaud (knee) has been ruled out for Tuesday's game against Orlando.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4898371",
    "player_name": "Maxime Raynaud",
    "source": "espn",
@@ -823,7 +843,7 @@
   },
   {
    "detail": "Simmons underwent successful surgery Tuesday to repair a torn right Achilles tendon, James Ham of ESPN 1320 Sacramento reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "3907387",
    "player_name": "Ben Simmons",
    "source": "espn",
@@ -833,17 +853,17 @@
   },
   {
    "detail": "Vassell (adductor) won't play in Wednesday's game against the Bulls, Jeff Garcia of KENS 5 San Antonio reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4395630",
    "player_name": "Devin Vassell",
    "source": "espn",
-   "source_date": "2026-11-11T23:26Z",
-   "status": "Out",
+   "source_date": "2026-11-12T14:59Z",
+   "status": "Day-To-Day",
    "team": "SA"
   },
   {
    "detail": "Harris (calf) is out for Wednesday's game against Chicago, Jared Weiss of The Athletic reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "6440",
    "player_name": "Tobias Harris",
    "source": "espn",
@@ -853,7 +873,7 @@
   },
   {
    "detail": "Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.com reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "5101845",
    "player_name": "Jayden Quaintance",
    "source": "espn",
@@ -862,18 +882,28 @@
    "team": "SA"
   },
   {
-   "detail": "Jackson-Davis (illness) has been ruled out for Wednesday's game against the Celtics, Blake Murphy of Sportsnet.ca reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "detail": "Jackson-Davis is out for Thursday's game against the 76ers due to an illness.",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4431684",
    "player_name": "Trayce Jackson-Davis",
    "source": "espn",
-   "source_date": "2026-11-12T03:01Z",
-   "status": "Day-To-Day",
+   "source_date": "2026-11-12T18:09Z",
+   "status": "Out",
+   "team": "TOR"
+  },
+  {
+   "detail": "Barnes (groin) is out for Thursday's game against Philadelphia.",
+   "observed_at": "2026-11-12T21:40:59Z",
+   "player_id": "4433134",
+   "player_name": "Scottie Barnes",
+   "source": "espn",
+   "source_date": "2026-11-12T18:05Z",
+   "status": "Out",
    "team": "TOR"
   },
   {
    "detail": "Head coach Darko Rajakovic said Wednesday that Leonard (knee) is doing individual on-court work and is progressing well, Michael Grange of Sportsnet.ca reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "6450",
    "player_name": "Kawhi Leonard",
    "source": "espn",
@@ -882,18 +912,8 @@
    "team": "TOR"
   },
   {
-   "detail": "Barnes (groin) is out for Wednesday's game against Boston.",
-   "observed_at": "2026-11-12T04:41:39Z",
-   "player_id": "4433134",
-   "player_name": "Scottie Barnes",
-   "source": "espn",
-   "source_date": "2026-11-10T21:48Z",
-   "status": "Out",
-   "team": "TOR"
-  },
-  {
    "detail": "Bittle (foot) is listed as out for Monday's game against Memphis.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4432586",
    "player_name": "Nate Bittle",
    "source": "espn",
@@ -902,8 +922,18 @@
    "team": "TOR"
   },
   {
+   "detail": "Alexander won't play Wednesday against the Grizzlies due to a left knee bone bruise.",
+   "observed_at": "2026-11-12T21:40:59Z",
+   "player_id": "4433268",
+   "player_name": "Trey Alexander",
+   "source": "espn",
+   "source_date": "2026-11-12T15:42Z",
+   "status": "Out",
+   "team": "UTAH"
+  },
+  {
    "detail": "Markkanen has been diagnosed with a non-displaced fracture in his right hand and will be sidelined for at least one month, Shams Charania of ESPN reports.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4066336",
    "player_name": "Lauri Markkanen",
    "source": "espn",
@@ -913,7 +943,7 @@
   },
   {
    "detail": "Nurkic (toe) has begun participating in on-court activities as he continues recovering from a right foot injury sustained during an Oct. 4 preseason game against Denver. He will be re-evaluated in two weeks, the Jazz announced Friday.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "3102530",
    "player_name": "Jusuf Nurkic",
    "source": "espn",
@@ -923,7 +953,7 @@
   },
   {
    "detail": "Jackson has been diagnosed with a torn MCL in his right knee and will be sidelined for 6-to-8 weeks, per Shams Charania of ESPN.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4277961",
    "player_name": "Jaren Jackson Jr.",
    "source": "espn",
@@ -933,7 +963,7 @@
   },
   {
    "detail": "Vukcevic (hip) has been ruled out for Monday's game against Detroit.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4997537",
    "player_name": "Tristan Vukcevic",
    "source": "espn",
@@ -943,7 +973,7 @@
   },
   {
    "detail": "The Wizards announced Monday that Beekman sustained a right acromioclavicular joint injury and will be re-evaluated in approximately three weeks.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4432187",
    "player_name": "Reece Beekman",
    "source": "espn",
@@ -953,7 +983,7 @@
   },
   {
    "detail": "Champagnie (foot) is expected to miss several months, per Josh Robbins of The Athletic.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4432907",
    "player_name": "Justin Champagnie",
    "source": "espn",
@@ -963,7 +993,7 @@
   },
   {
    "detail": "The Wizards announced Thursday that Watkins has undergone surgery for a torn ACL.",
-   "observed_at": "2026-11-12T04:41:39Z",
+   "observed_at": "2026-11-12T21:40:59Z",
    "player_id": "4606840",
    "player_name": "Jamir Watkins",
    "source": "espn",
