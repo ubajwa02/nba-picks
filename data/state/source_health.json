@@ -4,17 +4,17 @@
   "last_detail": "",
   "last_error": "2026-11-03T03:37:49Z",
   "last_error_detail": "401909914: played without minutes for player 4683934",
-  "last_ok": "2026-11-11T22:09:02Z"
+  "last_ok": "2026-11-12T04:41:39Z"
  },
  "espn_injuries": {
   "consecutive_failures": 0,
-  "last_detail": "99 listed",
-  "last_ok": "2026-11-11T22:09:02Z"
+  "last_detail": "97 listed",
+  "last_ok": "2026-11-12T04:41:39Z"
  },
  "espn_odds": {
   "consecutive_failures": 0,
   "last_detail": "",
-  "last_ok": "2026-11-11T22:09:02Z"
+  "last_ok": "2026-11-12T04:41:39Z"
  },
  "espn_props": {
   "consecutive_failures": 0,
@@ -26,14 +26,14 @@
  "espn_scoreboard": {
   "consecutive_failures": 0,
   "last_detail": "",
-  "last_ok": "2026-11-11T22:09:02Z"
+  "last_ok": "2026-11-12T04:41:39Z"
  },
  "moviodds": {
   "consecutive_failures": 0,
-  "last_detail": "2903 quotes; 0 unmapped",
+  "last_detail": "0 quotes; 0 unmapped",
   "last_error": "2026-11-07T20:15:45Z",
   "last_error_detail": "https://moviodds.com/odds?sport=basketball: 503 Service Unavailable",
-  "last_ok": "2026-11-11T22:09:02Z"
+  "last_ok": "2026-11-12T04:41:39Z"
  },
  "oddsapi_links": {
   "consecutive_failures": 0,
