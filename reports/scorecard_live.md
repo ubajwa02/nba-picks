@@ -42,7 +42,7 @@ Brier: model 0.1516 vs market-implied 0.1481 (n=48176; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 81-38-0, +14.64u, pending 0.
+Record 81-38-0, +14.64u, pending 6.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -169,6 +169,12 @@ Record 81-38-0, +14.64u, pending 0.
 | 2026-11-12 | Ryan Kalkbrenner u5.5 pts | -125 | 2 | win | +0.80 |
 | 2026-11-12 | Jalen Green o2.5 ast | -175 | 0 | loss | -1.00 |
 | 2026-11-12 | Joel Embiid u4.5 ast | -147 | 3 | win | +0.68 |
+| 2026-11-13 | Keyonte George u2.5 fg3m | -196 | None | pending | +0.00 |
+| 2026-11-13 | Aaron Nesmith u2.5 fg3m | -189 | None | pending | +0.00 |
+| 2026-11-13 | Davion Mitchell u2.5 fg3m | -179 | None | pending | +0.00 |
+| 2026-11-13 | Toumani Camara u12.5 pts | -128 | None | pending | +0.00 |
+| 2026-11-13 | Zach LaVine o2.5 reb | -164 | None | pending | +0.00 |
+| 2026-11-13 | Cameron Boozer o4.5 ast | -154 | None | pending | +0.00 |
 
 ## Rows
 
