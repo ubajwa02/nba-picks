@@ -1,13 +1,24 @@
-# Pick review (cumulative, as of 2026-11-12)
+# Pick review (cumulative, as of 2026-11-13)
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 79-34 on 113 graded posted picks, +17.16u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 73-31 (+15.02u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 22-7 (+10.59u); gap<5pts 54-26 (+5.13u); gap>=15pts 3-1 (+1.44u).
+- 81-38 on 119 graded posted picks, +14.64u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 75-35 (+12.50u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 23-7 (+11.38u); gap<5pts 55-30 (+1.81u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 11-1 (+5.11u); moved toward us 8-6 (+0.01u).
-- By prop split sample: fuller splits 14-3 (+5.98u); small-sample splits 56-25 (+9.14u).
-- Wider settled predictions (n=46944): model Brier 0.1511 vs book 0.1478 (lower is better).
+- By prop split sample: fuller splits 16-6 (+4.46u); small-sample splits 56-26 (+8.14u).
+- Wider settled predictions (n=48176): model Brier 0.1516 vs book 0.1481 (lower is better).
+
+## 2026-11-12
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Trae Young u2.5 fg3m | loss | -1.00 | 0.694 | 0.654 | +0.06 |  | career 132/240, season 7/12, last10 6/10 |
+| Ryan Kalkbrenner u5.5 pts | win | +0.80 | 0.627 | 0.556 | +0.13 |  | career 26/82, season 5/11, last10 4/10 |
+| Joel Embiid u4.5 ast | win | +0.68 | 0.616 | 0.595 | +0.04 |  | career 107/195, season 6/10, last10 6/10 |
+| Jalen Green o2.5 ast | loss | -1.00 | 0.625 | 0.636 | -0.02 |  | career 189/294, season 6/10, last10 6/10 |
+| Jakob Poeltl u1.5 ast | loss | -1.00 | 0.641 | 0.642 | -0.00 |  | career 70/241, season 6/9, last10 7/10 |
+| Alex Sarr u7.5 reb | loss | -1.00 | 0.634 | 0.592 | +0.07 |  | career 76/126, season 5/11, last10 5/10 |
 
 ## 2026-11-11
 
