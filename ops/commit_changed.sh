@@ -13,11 +13,11 @@ git diff --cached --name-only --diff-filter=ACMR > /tmp/changed.txt
 rm -rf /tmp/out && mkdir -p /tmp/out
 while IFS= read -r f; do mkdir -p "/tmp/out/$(dirname "$f")"; cp -a "$f" "/tmp/out/$f"; done < /tmp/changed.txt
 for i in 1 2 3 4 5 6; do
-  git fetch -q origin "${GITHUB_REF_NAME}" && git reset -q --hard "origin/${GITHUB_REF_NAME}"
+  git fetch -q origin "${GITHUB_REF_NAME:-main}" && git reset -q --hard "origin/${GITHUB_REF_NAME:-main}"
   while IFS= read -r f; do mkdir -p "$(dirname "$f")"; cp -a "/tmp/out/$f" "$f"; git add -- "$f"; done < /tmp/changed.txt
   git diff --cached --quiet && { echo "nothing to commit"; exit 0; }
   git commit -qm "$msg [skip ci]"
-  git push -q origin "HEAD:${GITHUB_REF_NAME}" && { echo "pushed $(wc -l < /tmp/changed.txt) files"; exit 0; }
+  git push -q origin "HEAD:${GITHUB_REF_NAME:-main}" && { echo "pushed $(wc -l < /tmp/changed.txt) files"; exit 0; }
   sleep $((i*5))
 done
 echo "::error::could not push state"; exit 1

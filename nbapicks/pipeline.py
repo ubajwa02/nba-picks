@@ -793,6 +793,55 @@ def predict(ctx: Ctx) -> dict:
     return {k: v for k, v in summary.items() if k != "pred_ids"}
 
 
+def fd_filter(ctx: Ctx, preds: list[dict], slate: str):
+    """(predicate, note): keep only props FanDuel offers on the exact player/stat/side/line.
+
+    Needs ODDS_API_KEY. Asks only for the games and markets of today's candidate pool, once per
+    game per day (cached in state/fd_props.json). Without a key, or if the feed fails, returns
+    (None, note) and nothing is filtered, and the note says so.
+    """
+    key = oddsapi.api_key()
+    if not key:
+        return None, "FanDuel availability was not checked (no odds key), so some picks may not be bettable there."
+    path = f"{ctx.root}/state/fd_props.json"
+    cache = jload(path, {})
+    if cache.get("slate") != slate:
+        cache = dict(slate=slate, games={}, props=[])
+    pool = LN.pick_leans(preds, ctx.cfg, slate, iso(ctx.now), pool=True)
+    games = {g["game_id"]: g for g in ctx.store.q("SELECT game_id, home, away, start_utc FROM games")}
+    need: dict[str, set] = defaultdict(set)
+    for r in pool:
+        mk = oddsapi.market_key(r)
+        if mk:
+            need[str(r["game_id"])].add(mk)
+    todo = {g: sorted(m - set(cache["games"].get(g) or [])) for g, m in need.items() if g in games}
+    todo = {g: m for g, m in todo.items() if m}
+    try:
+        if todo:
+            ev = oddsapi.match_events(oddsapi.fetch_events(key), [games[g] for g in todo])
+            props = {tuple(x) for x in cache["props"]}
+            for gid, mks in todo.items():
+                if gid not in ev:
+                    continue
+                books = oddsapi.parse_event_links(oddsapi.fetch_event_links(key, ev[gid], mks), games[gid]["home"], games[gid]["away"])
+                props |= oddsapi.fd_prop_set(books)
+                cache["games"][gid] = sorted(set(cache["games"].get(gid) or []) | set(mks))
+            cache["props"] = sorted(props)
+            jsave(path, cache)
+            ctx.ok("oddsapi_fd", f"{len(todo)} games")
+    except Exception as e:
+        ctx.fail("oddsapi_fd", e)
+        return None, "FanDuel availability could not be checked (odds feed error), so some picks may not be bettable there."
+    have = {tuple(x) for x in cache["props"]}
+    checked = set(cache["games"])
+
+    def fd_ok(p: dict) -> bool:
+        if str(p["game_id"]) not in checked:
+            return False                # no FanDuel data for this game: not bettable as far as we know
+        return (oddsapi.norm_name(p.get("player_name") or p.get("player") or ""), p["stat"], p["selection"], float(p["line"])) in have
+    return fd_ok, ""
+
+
 def post_leans(ctx: Ctx) -> dict:
     """Post today's leans, parlays and lotto once per slate (nbapicks/leans.py has the rule)."""
     slate = ctx.today.isoformat()
@@ -816,11 +865,15 @@ def post_leans(ctx: Ctx) -> dict:
     for p in ctx.store.q("SELECT * FROM predictions WHERE category = 'straight' AND market = 'prop'"):
         if p["pred_id"] in cur:
             preds.append(dict(p, start_utc=(games.get(p["game_id"]) or {}).get("start_utc")))
-    leans = LN.pick_leans(preds, ctx.cfg, slate, iso(ctx.now))
+    fd_ok, fd_note = fd_filter(ctx, preds, slate)
+    leans = LN.pick_leans(preds, ctx.cfg, slate, iso(ctx.now), fd_ok=fd_ok)
     for l in leans:
         LN.track.add(ctx.root, l)
     leans = [dict(l, lean_id=LN.track.lean_id(l)) for l in leans]
-    tickets, notes = LN.build_tickets(LN.pick_leans(preds, ctx.cfg, slate, iso(ctx.now), pool=True), ctx.cfg, slate)
+    tickets, notes = LN.build_tickets(LN.pick_leans(preds, ctx.cfg, slate, iso(ctx.now), pool=True, fd_ok=fd_ok), ctx.cfg, slate,
+                                      exclude_players={l["player_id"] for l in leans})
+    if fd_note:
+        notes = [fd_note] + notes
     if not leans:
         notes = ["No props cleared today's pick rule (win chance, price, recent history and data checks), so no straight picks were posted."] + notes
     for t in tickets:
@@ -835,7 +888,12 @@ def _rebuild_tickets(ctx: Ctx, slate: str, last: dict) -> dict:
     cur = set(last.get("pred_ids") or [])
     preds = [dict(p, start_utc=(games.get(p["game_id"]) or {}).get("start_utc"))
              for p in ctx.store.q("SELECT * FROM predictions WHERE category = 'straight' AND market = 'prop'") if p["pred_id"] in cur]
-    tickets, notes = LN.build_tickets(LN.pick_leans(preds, ctx.cfg, slate, iso(ctx.now), pool=True), ctx.cfg, slate)
+    fd_ok, fd_note = fd_filter(ctx, preds, slate)
+    straight_players = {str(l["player_id"]) for l in LN.track.load(ctx.root) if l.get("slate") == slate}
+    tickets, notes = LN.build_tickets(LN.pick_leans(preds, ctx.cfg, slate, iso(ctx.now), pool=True, fd_ok=fd_ok), ctx.cfg, slate,
+                                      exclude_players=straight_players)
+    if fd_note:
+        notes = [fd_note] + notes
     LN.replace_slate_tickets(ctx.root, slate, tickets)
     LN.save_notes(ctx.root, slate, notes)
     return dict(posted=0, parlays=sum(t["kind"] == "parlay" for t in tickets), lottos=sum(t["kind"] == "lotto" for t in tickets))

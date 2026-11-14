@@ -130,3 +130,10 @@ def parse_event_links(d: dict, home: str, away: str) -> dict:
         if rows:
             out[book] = rows
     return out
+
+
+def fd_prop_set(books: dict) -> set:
+    """{(normalised player, stat, side, line)} for FanDuel prop outcomes from parse_event_links output."""
+    return {(o["player"], o["stat"], o["selection"], float(o["line"]))
+            for o in books.get("fanduel", []) if o.get("market") == "prop" and o.get("line") is not None
+            and o.get("player") and o.get("stat")}

@@ -58,7 +58,7 @@ def lean_label(p: dict) -> str:
     return f"{name} {p['selection'][0]}{p['line']:g} {p['stat']}"
 
 
-def pick_leans(preds: list[dict], cfg: dict, slate: str, now_iso: str, pool: bool = False) -> list[dict]:
+def pick_leans(preds: list[dict], cfg: dict, slate: str, now_iso: str, pool: bool = False, fd_ok=None) -> list[dict]:
     """The posted leans (strict rule), or with pool=True the wider list of clean, not-started props
     ranked by win chance that parlays and the lotto draw from (they must always be built)."""
     lc = dict(cfg["leans"])
@@ -76,6 +76,8 @@ def pick_leans(preds: list[dict], cfg: dict, slate: str, now_iso: str, pool: boo
             continue
         if p.get("start_utc") and p["start_utc"] <= now_iso:
             continue                      # already started
+        if fd_ok is not None and not fd_ok(p):
+            continue                      # no FanDuel market for this exact player/stat/side/line: cannot be bet
         ex = _inputs(p).get("explain") or {}
         flags = list(ex.get("flags") or []) + list(_inputs(p).get("quality_flags") or [])
         if any(k in f for f in flags for k in JUNK_FLAGS):
@@ -119,11 +121,12 @@ def _leg(l: dict) -> dict:
     return {k: l.get(k) for k in keys} | {"stake": 1.0}
 
 
-def build_tickets(legs: list[dict], cfg: dict, slate: str) -> tuple[list[dict], list[str]]:
+def build_tickets(legs: list[dict], cfg: dict, slate: str, exclude_players=()) -> tuple[list[dict], list[str]]:
     """Always the daily target of parlays and one lotto, each the highest win-chance combination of
     different-game legs from the pool. Research only: the real EV is stored and shown, even when negative.
     Parlays prefer legs not used by another parlay; they reuse a leg only when the pool is too small."""
-    legs = [dict(l, lean_id=l.get("lean_id") or track.lean_id(l)) for l in legs]
+    legs = [dict(l, lean_id=l.get("lean_id") or track.lean_id(l)) for l in legs
+            if str(l.get("player_id")) not in {str(x) for x in exclude_players}]
     notes, out = [], []
     want = cfg["targets"]["parlay"]
     lm = cfg["markets"]["lotto"]
@@ -138,18 +141,12 @@ def build_tickets(legs: list[dict], cfg: dict, slate: str) -> tuple[list[dict], 
         chosen.append(c); used |= ids
         if len(chosen) >= want:
             break
-    if len(chosen) < want:                                     # too few distinct legs: reuse, best first
-        for c in pairs:
-            if c not in chosen:
-                chosen.append(c)
-            if len(chosen) >= want:
-                break
-        notes.append("Parlays share some legs today because too few eligible props were available.")
     if len(chosen) < want:
         notes.append(f"Only {len(chosen)} of {want} parlays could be built from today's eligible props.")
     lotto = []
-    for size in range(min(lm["max_legs"], len(legs)), 2, -1):
-        cs = _combos(legs, (size,))
+    lotto_legs = [l for l in legs if l["lean_id"] not in used]      # a lotto never reuses a parlay leg
+    for size in range(min(lm["max_legs"], len(lotto_legs)), 2, -1):
+        cs = _combos(lotto_legs, (size,))
         big = [c for c in cs if c["price_dec"] >= lm["min_decimal"]]
         if big or cs:
             lotto = sorted(big or cs, key=lambda c: -c["prob"])[:cfg["targets"]["lotto"]]
@@ -158,7 +155,7 @@ def build_tickets(legs: list[dict], cfg: dict, slate: str) -> tuple[list[dict], 
                              f"because no larger payout was available from today's eligible props.")
             break
     if not lotto:
-        notes.append("No lotto today: fewer than 3 eligible props in different games.")
+        notes.append("No lotto today: fewer than 3 eligible props in different games left after the parlays (no player is reused).")
     for kind, tickets in (("parlay", chosen), ("lotto", lotto)):
         for c in tickets:
             ids = sorted(l["lean_id"] for l in c["legs"])
