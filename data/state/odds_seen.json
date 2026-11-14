@@ -1,7 +1,7 @@
 {
  "401909982|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-11-14T04:32:17Z",
-  "last_seen": "2026-11-14T04:32:17Z",
+  "last_seen": "2026-11-14T04:54:19Z",
   "sig": [
    null,
    1.5525,
@@ -11,7 +11,7 @@
  },
  "401909982|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-14T04:32:17Z",
-  "last_seen": "2026-11-14T04:32:17Z",
+  "last_seen": "2026-11-14T04:54:19Z",
   "sig": [
    null,
    1.5376,
@@ -21,7 +21,7 @@
  },
  "401909982|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-11-14T04:32:17Z",
-  "last_seen": "2026-11-14T04:32:17Z",
+  "last_seen": "2026-11-14T04:54:19Z",
   "sig": [
    null,
    2.52,
@@ -31,7 +31,7 @@
  },
  "401909982|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-14T04:32:17Z",
-  "last_seen": "2026-11-14T04:32:17Z",
+  "last_seen": "2026-11-14T04:54:19Z",
   "sig": [
    null,
    2.56,
@@ -41,7 +41,7 @@
  },
  "401909982|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-11-14T04:32:17Z",
-  "last_seen": "2026-11-14T04:32:17Z",
+  "last_seen": "2026-11-14T04:54:19Z",
   "sig": [
    -5.5,
    1.9434,
@@ -51,7 +51,7 @@
  },
  "401909982|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-14T04:32:17Z",
-  "last_seen": "2026-11-14T04:32:17Z",
+  "last_seen": "2026-11-14T04:54:19Z",
   "sig": [
    -5.5,
    1.9091,
@@ -61,7 +61,7 @@
  },
  "401909982|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-11-14T04:32:17Z",
-  "last_seen": "2026-11-14T04:32:17Z",
+  "last_seen": "2026-11-14T04:54:19Z",
   "sig": [
    5.5,
    1.8772,
@@ -71,7 +71,7 @@
  },
  "401909982|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-14T04:32:17Z",
-  "last_seen": "2026-11-14T04:32:17Z",
+  "last_seen": "2026-11-14T04:54:19Z",
   "sig": [
    5.5,
    1.9091,
@@ -81,7 +81,7 @@
  },
  "401909982|total|over||||DraftKings|espn|current": {
   "first_seen": "2026-11-14T04:32:17Z",
-  "last_seen": "2026-11-14T04:32:17Z",
+  "last_seen": "2026-11-14T04:54:19Z",
   "sig": [
    226.5,
    1.9091,
@@ -91,7 +91,7 @@
  },
  "401909982|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-11-14T04:32:17Z",
-  "last_seen": "2026-11-14T04:32:17Z",
+  "last_seen": "2026-11-14T04:54:19Z",
   "sig": [
    226.5,
    1.9091,
@@ -101,7 +101,7 @@
  },
  "401909982|total|under||||DraftKings|espn|current": {
   "first_seen": "2026-11-14T04:32:17Z",
-  "last_seen": "2026-11-14T04:32:17Z",
+  "last_seen": "2026-11-14T04:54:19Z",
   "sig": [
    226.5,
    1.9091,
@@ -111,7 +111,7 @@
  },
  "401909982|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-11-14T04:32:17Z",
-  "last_seen": "2026-11-14T04:32:17Z",
+  "last_seen": "2026-11-14T04:54:19Z",
   "sig": [
    226.5,
    1.9091,
