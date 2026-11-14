@@ -2,12 +2,53 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 71-30 on 101 graded posted picks, +16.13u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 65-27 (+14.00u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 20-7 (+9.18u); gap<5pts 48-22 (+5.51u); gap>=15pts 3-1 (+1.44u).
+- 80-42 on 122 graded posted picks, +9.83u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 74-39 (+7.70u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 21-8 (+8.90u); gap<5pts 56-33 (-0.52u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 11-1 (+5.11u); moved toward us 8-5 (+1.01u).
 - By prop split sample: fuller splits 7-1 (+3.58u); small-sample splits 55-23 (+10.52u).
 - Wider settled predictions (n=41280): model Brier 0.1525 vs book 0.1493 (lower is better).
+
+## 2026-11-13
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Keyonte George u2.5 fg3m | loss | -1.00 | 0.694 | 0.662 | +0.05 |  |  |
+| Derik Queen o11.5 pts | loss | -1.00 | 0.635 | 0.561 | +0.13 |  |  |
+| Davion Mitchell u2.5 fg3m | loss | -1.00 | 0.642 | 0.621 | +0.03 |  |  |
+
+## 2026-11-12
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Trae Young u2.5 fg3m | loss | -1.00 | 0.694 | 0.654 | +0.06 |  |  |
+| Rudy Gobert u11.5 reb | win | +0.74 | 0.607 | 0.575 | +0.06 |  |  |
+| RJ Barrett o3.5 ast | win | +0.62 | 0.611 | 0.617 | -0.01 |  |  |
+| Joel Embiid u4.5 ast | win | +0.68 | 0.616 | 0.595 | +0.04 |  |  |
+| Jalen Green o2.5 ast | loss | -1.00 | 0.625 | 0.636 | -0.02 |  |  |
+| Alex Sarr u7.5 reb | loss | -1.00 | 0.634 | 0.592 | +0.07 |  |  |
+
+## 2026-11-11
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Victor Wembanyama u3.5 ast | win | +0.57 | 0.662 | 0.636 | +0.04 |  |  |
+| Sandro Mamukelashvili u1.5 fg3m | loss | -1.00 | 0.683 | 0.657 | +0.04 |  |  |
+| Jared McCain u3.5 reb | loss | -1.00 | 0.648 | 0.621 | +0.04 |  |  |
+| Darryn Peterson u2.5 fg3m | win | +0.55 | 0.653 | 0.645 | +0.01 |  |  |
+| Christian Braun u4.5 reb | loss | -1.00 | 0.653 | 0.625 | +0.04 |  |  |
+| Brandin Podziemski u3.5 ast | loss | -1.00 | 0.626 | 0.642 | -0.02 |  |  |
+
+## 2026-11-10
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| VJ Edgecombe o2.5 ast | win | +0.66 | 0.628 | 0.603 | +0.04 |  |  |
+| Scoot Henderson u1.5 ast | loss | -1.00 | 0.641 | 0.657 | -0.03 |  |  |
+| Payton Pritchard o2.5 reb | win | +0.59 | 0.654 | 0.628 | +0.04 |  |  |
+| OG Anunoby u2.5 ast | win | +0.56 | 0.671 | 0.642 | +0.05 |  |  |
+| Kris Dunn o3.5 ast | loss | -1.00 | 0.627 | 0.617 | +0.02 |  |  |
+| Isaiah Hartenstein u10.5 reb | win | +0.73 | 0.644 | 0.578 | +0.11 |  |  |
 
 ## 2026-11-09
 

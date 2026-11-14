@@ -42,7 +42,7 @@ Brier: model 0.1525 vs market-implied 0.1493 (n=41280; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 71-30-0, +16.13u, pending 0.
+Record 80-42-0, +9.83u, pending 2.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -151,6 +151,29 @@ Record 71-30-0, +16.13u, pending 0.
 | 2026-11-09 | Aaron Gordon u1.5 fg3m | -164 | 0 | win | +0.61 |
 | 2026-11-09 | De'Anthony Melton o3.5 reb | -161 | 4 | win | +0.62 |
 | 2026-11-09 | Daniel Gafford u6.5 reb | -128 | 2 | win | +0.78 |
+| 2026-11-10 | OG Anunoby u2.5 ast | -179 | 2 | win | +0.56 |
+| 2026-11-10 | Payton Pritchard o2.5 reb | -169 | 6 | win | +0.59 |
+| 2026-11-10 | Isaiah Hartenstein u10.5 reb | -137 | 9 | win | +0.73 |
+| 2026-11-10 | Scoot Henderson u1.5 ast | -192 | 4 | loss | -1.00 |
+| 2026-11-10 | VJ Edgecombe o2.5 ast | -152 | 5 | win | +0.66 |
+| 2026-11-10 | Kris Dunn o3.5 ast | -161 | 3 | loss | -1.00 |
+| 2026-11-11 | Sandro Mamukelashvili u1.5 fg3m | -192 | 5 | loss | -1.00 |
+| 2026-11-11 | Victor Wembanyama u3.5 ast | -175 | 1 | win | +0.57 |
+| 2026-11-11 | Darryn Peterson u2.5 fg3m | -182 | 2 | win | +0.55 |
+| 2026-11-11 | Christian Braun u4.5 reb | -167 | 5 | loss | -1.00 |
+| 2026-11-11 | Jared McCain u3.5 reb | -164 | 6 | loss | -1.00 |
+| 2026-11-11 | Brandin Podziemski u3.5 ast | -179 | 4 | loss | -1.00 |
+| 2026-11-12 | Trae Young u2.5 fg3m | -189 | 4 | loss | -1.00 |
+| 2026-11-12 | Alex Sarr u7.5 reb | -145 | 9 | loss | -1.00 |
+| 2026-11-12 | Jalen Green o2.5 ast | -175 | 0 | loss | -1.00 |
+| 2026-11-12 | Joel Embiid u4.5 ast | -147 | 3 | win | +0.68 |
+| 2026-11-12 | Rudy Gobert u11.5 reb | -135 | 6 | win | +0.74 |
+| 2026-11-12 | RJ Barrett o3.5 ast | -161 | 5 | win | +0.62 |
+| 2026-11-13 | Keyonte George u2.5 fg3m | -196 | 4 | loss | -1.00 |
+| 2026-11-13 | Davion Mitchell u2.5 fg3m | -164 | 3 | loss | -1.00 |
+| 2026-11-13 | Derik Queen o11.5 pts | -128 | 10 | loss | -1.00 |
+| 2026-11-13 | Toumani Camara u12.5 pts | -128 | None | pending | +0.00 |
+| 2026-11-13 | Zach LaVine o2.5 reb | -164 | None | pending | +0.00 |
 
 ## Rows
 
