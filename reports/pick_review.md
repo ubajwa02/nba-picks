@@ -2,9 +2,9 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 80-42 on 122 graded posted picks, +9.83u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 74-39 (+7.70u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 21-8 (+8.90u); gap<5pts 56-33 (-0.52u); gap>=15pts 3-1 (+1.44u).
+- 81-43 on 124 graded posted picks, +9.44u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 75-40 (+7.31u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 21-9 (+7.91u); gap<5pts 57-33 (+0.09u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 11-1 (+5.11u); moved toward us 8-5 (+1.01u).
 - By prop split sample: fuller splits 7-1 (+3.58u); small-sample splits 55-23 (+10.52u).
 - Wider settled predictions (n=41280): model Brier 0.1525 vs book 0.1493 (lower is better).
@@ -13,6 +13,8 @@ Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/pri
 
 | Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
 |---|---|---|---|---|---|---|---|
+| Zach LaVine o2.5 reb | win | +0.61 | 0.628 | 0.621 | +0.01 |  |  |
+| Toumani Camara u12.5 pts | loss | -1.00 | 0.629 | 0.561 | +0.12 |  |  |
 | Keyonte George u2.5 fg3m | loss | -1.00 | 0.694 | 0.662 | +0.05 |  |  |
 | Derik Queen o11.5 pts | loss | -1.00 | 0.635 | 0.561 | +0.13 |  |  |
 | Davion Mitchell u2.5 fg3m | loss | -1.00 | 0.642 | 0.621 | +0.03 |  |  |

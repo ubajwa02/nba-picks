@@ -42,7 +42,7 @@ Brier: model 0.1525 vs market-implied 0.1493 (n=41280; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 80-42-0, +9.83u, pending 2.
+Record 81-43-0, +9.44u, pending 3.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -172,8 +172,11 @@ Record 80-42-0, +9.83u, pending 2.
 | 2026-11-13 | Keyonte George u2.5 fg3m | -196 | 4 | loss | -1.00 |
 | 2026-11-13 | Davion Mitchell u2.5 fg3m | -164 | 3 | loss | -1.00 |
 | 2026-11-13 | Derik Queen o11.5 pts | -128 | 10 | loss | -1.00 |
-| 2026-11-13 | Toumani Camara u12.5 pts | -128 | None | pending | +0.00 |
-| 2026-11-13 | Zach LaVine o2.5 reb | -164 | None | pending | +0.00 |
+| 2026-11-13 | Toumani Camara u12.5 pts | -128 | 14 | loss | -1.00 |
+| 2026-11-13 | Zach LaVine o2.5 reb | -164 | 3 | win | +0.61 |
+| 2026-11-14 | Christian Braun u4.5 reb | -164 | None | pending | +0.00 |
+| 2026-11-14 | Jonathan Kuminga u5.5 reb | -132 | None | pending | +0.00 |
+| 2026-11-14 | Zion Williamson u21.5 pts | -116 | None | pending | +0.00 |
 
 ## Rows
 
