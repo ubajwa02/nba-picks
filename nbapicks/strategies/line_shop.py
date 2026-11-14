@@ -143,9 +143,9 @@ def write_report(out):
             for t, s in r[split].items():
                 mark = " **chosen**" if r["threshold"] is not None and abs(float(t) - r["threshold"]) < 1e-9 else ""
                 ci = s.get("roi_ci")
-                L.append(f"| {m} | {split} | {float(t):.0%}{mark} | {s['n']} | {'' if s.get('roi') is None else f'{s['roi']*100:+.1f}%'} | "
-                         f"{'' if not ci else f'{ci[0]*100:+.1f}% to {ci[1]*100:+.1f}%'} | {'' if s.get('t') is None else f'{s['t']:+.1f}'} | "
-                         f"{'' if s.get('mean_ev') is None else f'{s['mean_ev']*100:+.1f}%'} |")
+                L.append(f"| {m} | {split} | {float(t):.0%}{mark} | {s['n']} | {'' if s.get('roi') is None else format(s['roi']*100, '+.1f') + '%'} | "
+                         f"{'' if not ci else format(ci[0]*100, '+.1f') + '% to ' + format(ci[1]*100, '+.1f') + '%'} | {'' if s.get('t') is None else format(s['t'], '+.1f')} | "
+                         f"{'' if s.get('mean_ev') is None else format(s['mean_ev']*100, '+.1f') + '%'} |")
         L.append(f"| {m} | gate | | | | | | {'PASS' if r['passes_paper_gate'] else 'fail'} {r['checks']} |")
     open("reports/line_shop.md", "w").write("\n".join(L) + "\n")
 

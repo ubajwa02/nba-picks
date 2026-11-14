@@ -85,7 +85,7 @@ def main():
         e, v = r["explore"], r["validate"]
         pc = lambda x: "" if x is None else f"{x*100:+.1f}%"
         L.append(f"| {k} | {e['n']} | {pc(e['roi'])} ({(e['t'] or 0):+.1f}) | {v['n']} | {pc(v['roi'])} | "
-                 f"{'' if not v.get('roi_ci') else f'{v['roi_ci'][0]*100:+.1f}% to {v['roi_ci'][1]*100:+.1f}%'} | {(v['t'] or 0):+.1f} | {'PASS' if r['passes_paper_gate'] else 'fail'} |")
+                 f"{'' if not v.get('roi_ci') else format(v['roi_ci'][0]*100, '+.1f') + '% to ' + format(v['roi_ci'][1]*100, '+.1f') + '%'} | {(v['t'] or 0):+.1f} | {'PASS' if r['passes_paper_gate'] else 'fail'} |")
     open("reports/situational.md", "w").write("\n".join(L) + "\n")
     print("\n".join(L))
 

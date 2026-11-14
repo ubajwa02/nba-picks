@@ -78,7 +78,7 @@ def recap_message(slate: str, rows: list[dict], wagers: list[dict], notes: list[
         for r in rows:
             mark = {"win": "W", "loss": "L", "push": "P", "void": "V", "pending": "…"}[r["result"]]
             lines.append(f"  {mark} {r['label']} {fmt_american(r['price_dec'])} → "
-                         ("pending" if r["net"] is None else format(r["net"], "+.2f") + "u"))
+                         + ("pending" if r["net"] is None else format(r["net"], "+.2f") + "u"))
         if pending:
             lines.append(f"{len(pending)} still pending.")
     if wagers:
