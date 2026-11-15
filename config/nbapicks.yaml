@@ -23,7 +23,9 @@ markets:                         # status: research | paper | live (set by promo
 
 leans:                           # the daily posted leans (nbapicks/leans.py); fixed rule, never tuned on results
   min_prob: 0.60                 # model win chance
-  min_decimal: 1.5               # price of at least 1.50: no near-certain one-sided quotes
+  min_decimal: 1.667             # price of at least 1.667 (-150): no heavy-juice quotes (was 1.50 = -200; changed 2026-11-15)
+  min_edge: 0.04                 # model win chance must beat the price's break-even (1/decimal) by 4 points (added 2026-11-15)
+  rank: ev                       # best expected value first (was: most likely first)
   min_last10: 5                  # games of recent history to judge the line against
   max_leans: 6
   per_game: 2

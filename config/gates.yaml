@@ -25,6 +25,7 @@ demotion:
   rolling_settled: 150
   rolling_roi_below: -0.08                # live -> paper
   calibration_error_above: 0.06           # mean |pred - obs| over populated deciles
+  calibration_min_settled: 500            # newest settled props the calibration gate needs (150 trips on noise alone; 2026-11-15)
 # Player props (added 2026-10-22 by Prop research, BEFORE any props-v1 validate result was seen;
 # see data/research/decisions.jsonl). Dates are US/Eastern slate days, inclusive.
 props:

@@ -4,7 +4,8 @@ Rule, fixed here and in config/nbapicks.yaml `leans:` and never tuned on results
   leans   props-v1 prop predictions for today's slate with a verified over/under side, a price of at
           least `min_decimal`, at least `min_last10` games of recent history and no milestone or
           side-unverified flag; probability >= `min_prob`; one per player, `per_game` per game; the
-          `max_leans` most likely. Posted once per slate. Nothing is posted when a critical source is
+          `max_leans` best by expected value (changed 2026-11-15: was most likely first). A lean must also beat
+          its price's break-even by `min_edge` and cost at most `1/min_decimal` (about -150). Posted once per slate. Nothing is posted when a critical source is
           failing, the injury report is stale, or the global pause is on.
   parlays 2..`max_legs` leans from different games (independent product), priced below the lotto
           threshold, model EV >= the parlay min_ev, no lean reused across parlays; most likely first,
@@ -58,12 +59,17 @@ def lean_label(p: dict) -> str:
     return f"{name} {p['selection'][0]}{p['line']:g} {p['stat']}"
 
 
+def order_key(p: dict, lc: dict) -> float:
+    """Higher is better: EV per unit for the strict leans, raw win chance for the parlay pool."""
+    return p["prob"] * p["price_dec"] - 1.0 if lc.get("rank", "ev") == "ev" else p["prob"]
+
+
 def pick_leans(preds: list[dict], cfg: dict, slate: str, now_iso: str, pool: bool = False, fd_ok=None) -> list[dict]:
     """The posted leans (strict rule), or with pool=True the wider list of clean, not-started props
     ranked by win chance that parlays and the lotto draw from (they must always be built)."""
     lc = dict(cfg["leans"])
     if pool:
-        lc.update(min_prob=0.50, min_decimal=1.15, min_last10=0, per_game=4, max_leans=18)
+        lc.update(min_prob=0.50, min_decimal=1.15, min_last10=0, per_game=4, max_leans=18, min_edge=-1.0, rank="prob")
     best: dict[tuple, dict] = {}
     for p in preds:
         if p.get("market") != "prop" or p.get("category") != "straight" or p.get("selection") not in ("over", "under"):
@@ -74,6 +80,8 @@ def pick_leans(preds: list[dict], cfg: dict, slate: str, now_iso: str, pool: boo
             continue
         if p["prob"] < lc["min_prob"] or not p.get("player_id") or not p.get("stat"):
             continue
+        if p["prob"] - 1.0 / p["price_dec"] < lc.get("min_edge", 0.0):
+            continue                      # model chance must beat the price's break-even by min_edge
         if p.get("start_utc") and p["start_utc"] <= now_iso:
             continue                      # already started
         if fd_ok is not None and not fd_ok(p):
@@ -89,16 +97,20 @@ def pick_leans(preds: list[dict], cfg: dict, slate: str, now_iso: str, pool: boo
             best[k] = p
     per_player: dict[str, dict] = {}
     for p in best.values():
-        if p["player_id"] not in per_player or p["prob"] > per_player[p["player_id"]]["prob"]:
+        if p["player_id"] not in per_player or order_key(p, lc) > order_key(per_player[p["player_id"]], lc):
             per_player[p["player_id"]] = p
     out, per_game = [], {}
-    for p in sorted(per_player.values(), key=lambda p: -p["prob"]):
+    if lc.get("rank", "ev") == "ev":
+        order = lambda p: -(p["prob"] * p["price_dec"] - 1.0)   # expected value per unit, not raw win chance
+    else:
+        order = lambda p: -p["prob"]
+    for p in sorted(per_player.values(), key=order):
         if per_game.get(p["game_id"], 0) >= lc["per_game"]:
             continue
         per_game[p["game_id"]] = per_game.get(p["game_id"], 0) + 1
         out.append(dict(game_id=p["game_id"], label=lean_label(p), line=p["line"], market="prop", player_id=str(p["player_id"]),
                         price_american=decimal_to_american(p["price_dec"]), prob=round(p["prob"], 4), selection=p["selection"],
-                        slate=slate, source="props_v1", stake=cfg["stakes"]["straight"], stat=p["stat"]))
+                        slate=slate, source=str(p.get("model_version") or "props").replace("-", "_"), stake=cfg["stakes"]["straight"], stat=p["stat"]))
         if len(out) >= lc["max_leans"]:
             break
     return out

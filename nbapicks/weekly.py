@@ -107,11 +107,15 @@ def forward_prop_check(store, gates: dict) -> dict:
     d = gates["demotion"]
     rows = store.q("""SELECT p.prob, p.prob_push, p.model_version, e.result FROM predictions p
                       JOIN pred_events e ON e.pred_id = p.pred_id AND e.type = 'settled'
-                      WHERE p.origin = 'model' AND p.market = 'prop' AND p.prob IS NOT NULL""")
+                      WHERE p.origin = 'model' AND p.market = 'prop' AND p.prob IS NOT NULL
+                      ORDER BY e.at, p.pred_id""")   # time order: "last N" must mean the newest N
     champ = _champ()
     cur = (champ.get("props") or {}).get("model_id", "props-v0")
-    rs = [r for r in rows if r["model_version"] == cur and r["result"] in ("win", "loss")][-d["rolling_settled"]:]
-    if len(rs) < d["rolling_settled"]:
+    # Bin-error noise: a perfectly calibrated model scores ~0.065 on 150 props in 10 bins (above the 0.06 gate), so the
+    # calibration gate needs its own, larger sample (2026-11-15; the 150-prop window falsely demoted props-v1 on 2026-11-02).
+    need = d.get("calibration_min_settled", d["rolling_settled"])
+    rs = [r for r in rows if r["model_version"] == cur and r["result"] in ("win", "loss")][-need:]
+    if len(rs) < need:
         return dict(model=cur, n=len(rs), action="none (too few settled)")
     ps = [r["prob"] / max(1e-9, 1 - (r["prob_push"] or 0)) for r in rs]
     ys = [1 if r["result"] == "win" else 0 for r in rs]
