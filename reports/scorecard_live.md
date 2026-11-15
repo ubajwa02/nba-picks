@@ -42,7 +42,7 @@ Brier: model 0.1533 vs market-implied 0.1493 (n=43034; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 82-45-0, +8.20u, pending 0.
+Record 82-45-0, +8.20u, pending 5.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -177,6 +177,11 @@ Record 82-45-0, +8.20u, pending 0.
 | 2026-11-14 | Christian Braun u4.5 reb | -164 | 7 | loss | -1.00 |
 | 2026-11-14 | Jonathan Kuminga u5.5 reb | -132 | 3 | win | +0.76 |
 | 2026-11-14 | Zion Williamson u21.5 pts | -116 | 24 | loss | -1.00 |
+| 2026-11-15 | Bogdan Bogdanovic u1.5 fg3m | -192 | None | pending | +0.00 |
+| 2026-11-15 | RJ Barrett o5.5 reb | -156 | None | pending | +0.00 |
+| 2026-11-15 | Jaime Jaquez Jr. o14.5 pts | -125 | None | pending | +0.00 |
+| 2026-11-15 | Stephon Castle u5.5 ast | -152 | None | pending | +0.00 |
+| 2026-11-15 | Ace Bailey o5.5 reb | -156 | None | pending | +0.00 |
 
 ## Rows
 
