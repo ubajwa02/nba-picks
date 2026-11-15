@@ -2,12 +2,20 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 81-43 on 124 graded posted picks, +9.44u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 75-40 (+7.31u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 21-9 (+7.91u); gap<5pts 57-33 (+0.09u); gap>=15pts 3-1 (+1.44u).
+- 82-45 on 127 graded posted picks, +8.20u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 76-42 (+6.07u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 21-10 (+6.91u); gap<5pts 58-34 (-0.15u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 11-1 (+5.11u); moved toward us 8-5 (+1.01u).
-- By prop split sample: fuller splits 7-1 (+3.58u); small-sample splits 55-23 (+10.52u).
-- Wider settled predictions (n=41280): model Brier 0.1525 vs book 0.1493 (lower is better).
+- By prop split sample: fuller splits 8-3 (+2.34u); small-sample splits 55-23 (+10.52u).
+- Wider settled predictions (n=43034): model Brier 0.1533 vs book 0.1493 (lower is better).
+
+## 2026-11-14
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Zion Williamson u21.5 pts | loss | -1.00 | 0.606 | 0.537 | +0.13 |  | career 82/204, season 3/12, last10 3/10 |
+| Jonathan Kuminga u5.5 reb | win | +0.76 | 0.615 | 0.569 | +0.08 |  | career 177/260, season 5/12, last10 4/10 |
+| Christian Braun u4.5 reb | loss | -1.00 | 0.617 | 0.621 | -0.01 |  | career 216/340, season 6/10, last10 6/10 |
 
 ## 2026-11-13
 
