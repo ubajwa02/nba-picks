@@ -1,13 +1,20 @@
-# Pick review (cumulative, as of 2026-11-15)
+# Pick review (cumulative, as of 2026-11-16)
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 82-45 on 127 graded posted picks, +8.20u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 76-42 (+6.07u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 21-10 (+6.91u); gap<5pts 58-34 (-0.15u); gap>=15pts 3-1 (+1.44u).
+- 83-46 on 129 graded posted picks, +7.84u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 77-43 (+5.71u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 21-10 (+6.91u); gap<5pts 59-35 (-0.51u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 11-1 (+5.11u); moved toward us 8-5 (+1.01u).
-- By prop split sample: fuller splits 8-3 (+2.34u); small-sample splits 55-23 (+10.52u).
-- Wider settled predictions (n=43034): model Brier 0.1533 vs book 0.1493 (lower is better).
+- By prop split sample: fuller splits 9-4 (+1.98u); small-sample splits 55-23 (+10.52u).
+- Wider settled predictions (n=44116): model Brier 0.1538 vs book 0.1496 (lower is better).
+
+## 2026-11-15
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Stephon Castle u5.5 ast | loss | -1.00 | 0.616 | 0.603 | +0.02 |  | career 98/185, season 8/13, last10 6/10 |
+| Ace Bailey o5.5 reb | win | +0.64 | 0.606 | 0.609 | -0.00 |  | career 30/85, season 9/13, last10 7/10 |
 
 ## 2026-11-14
 
