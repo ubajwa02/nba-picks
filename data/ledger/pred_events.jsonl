@@ -94131,3 +94131,26 @@
 {"at": "2026-11-16T04:33:10Z", "data": {"stake": 1.0}, "event_id": "714d00ba395493e3", "net_units": 0.6000000000000001, "pred_id": "0b8559be73756c6f", "result": "win", "type": "settled"}
 {"at": "2026-11-16T04:33:10Z", "data": {"stake": 1.0}, "event_id": "6f7a4ae99a72d71f", "net_units": -1.0, "pred_id": "258cab54b002a5a4", "result": "loss", "type": "settled"}
 {"at": "2026-11-16T04:33:10Z", "data": {"stake": 1.0}, "event_id": "32b37ae86db851b1", "net_units": 0.6499999999999999, "pred_id": "a39b3449a0ef9996", "result": "win", "type": "settled"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "8a6e974cf6f031c7", "pred_id": "a0c553c47de42fe3", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "dbdbeeadba3338d4", "pred_id": "3a665a1188f5dda4", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "5c78c4e2eeeeb51c", "pred_id": "1487c23339b8cbda", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "fd3bbe3b78cdbd2a", "pred_id": "a9fa89ba89ea7f12", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "cc30da0a2823e77a", "pred_id": "51fa2b79d46cf683", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "4f020b26b0fec73f", "pred_id": "d4bb94867a984908", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "cdb36097430a489b", "pred_id": "71ffefb60e5f555d", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "a8559e21a3eeafe0", "pred_id": "5dc0141535cff3cd", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "dd7bbb4a115eeb29", "pred_id": "f8143444bd22ed73", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "038fae42372bfa43", "pred_id": "9e9b261e7951b354", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "4874fa951f6600a9", "pred_id": "2bcfb22e56f41166", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "3d0edaabd0d43da6", "pred_id": "8a097576e72902ce", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "75b0c10ec8d81350", "pred_id": "be5a8d98467bd126", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "20df5d811d933e19", "pred_id": "bbd9ae8016a4086a", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "7c58f8baadb413d9", "pred_id": "d4e9847c4e6ad739", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "8ad7bce2f353803d", "pred_id": "d961d75ba72c14e6", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "b196ca103060a715", "pred_id": "629fe144373c045a", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "ec5f72c487b112bd", "pred_id": "7600ca8d19ad88f8", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "421703ff650c50fa", "pred_id": "d93e201acb73820e", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "01d5f5cb5ff423dd", "pred_id": "8b9464dfae972877", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "634ac0fa811288ce", "pred_id": "68a88f51e98d2f77", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "1b939bfaafa8d6b9", "pred_id": "d213c7cf86d4348f", "type": "note"}
+{"at": "2026-11-16T21:52:33Z", "data": {"paper_record": true}, "event_id": "0b9eb188943fc921", "pred_id": "ae898bf9e9b95ade", "type": "note"}
