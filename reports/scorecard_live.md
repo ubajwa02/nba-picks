@@ -42,7 +42,7 @@ Brier: model 0.1538 vs market-implied 0.1494 (n=45793; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 83-49-0, +4.84u, pending 0.
+Record 83-49-0, +4.84u, pending 6.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -182,6 +182,12 @@ Record 83-49-0, +4.84u, pending 0.
 | 2026-11-15 | Jaime Jaquez Jr. o14.5 pts | -125 | 6 | loss | -1.00 |
 | 2026-11-15 | Stephon Castle u5.5 ast | -152 | 9 | loss | -1.00 |
 | 2026-11-15 | Ace Bailey o5.5 reb | -156 | 8 | win | +0.64 |
+| 2026-11-16 | Payton Pritchard u2.5 fg3m | -189 | None | pending | +0.00 |
+| 2026-11-16 | Sam Hauser o2.5 reb | -167 | None | pending | +0.00 |
+| 2026-11-16 | DeMar DeRozan o9.5 pts | -128 | None | pending | +0.00 |
+| 2026-11-16 | Gui Santos o3.5 reb | -154 | None | pending | +0.00 |
+| 2026-11-16 | Sidy Cissoko u3.5 reb | -164 | None | pending | +0.00 |
+| 2026-11-16 | Bam Adebayo u3.5 ast | -152 | None | pending | +0.00 |
 
 ## Rows
 

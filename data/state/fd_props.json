@@ -1,367 +1,370 @@
 {
  "games": {
-  "401909985": [
-   "player_assists"
-  ],
-  "401909988": [
-   "player_assists",
-   "player_rebounds"
-  ],
-  "401909989": [
-   "player_assists",
-   "player_points",
-   "player_rebounds"
-  ],
-  "401909990": [
-   "player_points",
-   "player_rebounds"
-  ],
-  "401909991": [
+  "401909994": [
+   "player_rebounds",
    "player_threes"
   ],
-  "401909992": [
+  "401909995": [
+   "player_assists",
+   "player_threes"
+  ],
+  "401909997": [
+   "player_threes"
+  ],
+  "401909998": [
+   "player_assists",
+   "player_threes"
+  ],
+  "401909999": [
+   "player_assists",
+   "player_rebounds"
+  ],
+  "401910000": [
+   "player_rebounds"
+  ],
+  "401910001": [
    "player_points",
    "player_rebounds"
   ]
  },
  "props": [
   [
-   "aaron nesmith",
-   "ast",
-   "over",
-   1.5
-  ],
-  [
-   "aaron nesmith",
-   "ast",
-   "under",
-   1.5
-  ],
-  [
-   "aaron wiggins",
-   "pts",
-   "over",
-   12.5
-  ],
-  [
-   "aaron wiggins",
-   "pts",
-   "under",
-   12.5
-  ],
-  [
-   "aaron wiggins",
-   "reb",
-   "over",
-   3.5
-  ],
-  [
-   "aaron wiggins",
-   "reb",
-   "under",
-   3.5
-  ],
-  [
-   "ace bailey",
-   "reb",
-   "over",
-   5.5
-  ],
-  [
-   "ace bailey",
-   "reb",
-   "under",
-   5.5
-  ],
-  [
-   "aj dybantsa",
-   "fg3m",
-   "over",
-   1.5
-  ],
-  [
-   "aj dybantsa",
-   "fg3m",
-   "under",
-   1.5
-  ],
-  [
-   "alex sarr",
-   "fg3m",
-   "over",
-   0.5
-  ],
-  [
-   "alex sarr",
-   "fg3m",
-   "under",
-   0.5
-  ],
-  [
-   "alperen sengun",
-   "fg3m",
-   "over",
-   0.5
-  ],
-  [
-   "alperen sengun",
-   "fg3m",
-   "under",
-   0.5
-  ],
-  [
-   "andre drummond",
-   "pts",
-   "over",
-   3.5
-  ],
-  [
-   "andre drummond",
-   "pts",
-   "under",
-   3.5
-  ],
-  [
-   "andre drummond",
-   "reb",
-   "over",
-   6.5
-  ],
-  [
-   "andre drummond",
-   "reb",
-   "under",
-   6.5
-  ],
-  [
-   "andrew nembhard",
-   "ast",
-   "over",
-   7.5
-  ],
-  [
-   "andrew nembhard",
-   "ast",
-   "under",
-   7.5
-  ],
-  [
-   "anthony davis",
-   "fg3m",
-   "over",
-   0.5
-  ],
-  [
-   "anthony davis",
-   "fg3m",
-   "under",
-   0.5
-  ],
-  [
-   "bogdan bogdanovic",
-   "fg3m",
-   "over",
-   1.5
-  ],
-  [
-   "bogdan bogdanovic",
-   "fg3m",
-   "under",
-   1.5
-  ],
-  [
-   "brayden burries",
-   "pts",
-   "over",
-   11.5
-  ],
-  [
-   "brayden burries",
-   "pts",
-   "under",
-   11.5
-  ],
-  [
-   "brayden burries",
-   "reb",
-   "over",
-   5.5
-  ],
-  [
-   "brayden burries",
-   "reb",
-   "under",
-   5.5
-  ],
-  [
-   "caleb martin",
-   "pts",
-   "over",
-   5.5
-  ],
-  [
-   "caleb martin",
-   "pts",
-   "under",
-   5.5
-  ],
-  [
-   "caleb martin",
-   "reb",
-   "over",
-   3.5
-  ],
-  [
-   "caleb martin",
-   "reb",
-   "under",
-   3.5
-  ],
-  [
-   "cj mccollum",
-   "pts",
-   "over",
-   15.5
-  ],
-  [
-   "cj mccollum",
-   "pts",
-   "under",
-   15.5
-  ],
-  [
-   "cj mccollum",
-   "reb",
-   "over",
-   2.5
-  ],
-  [
-   "cj mccollum",
-   "reb",
-   "under",
-   2.5
-  ],
-  [
-   "cooper flagg",
-   "ast",
-   "over",
-   5.5
-  ],
-  [
-   "cooper flagg",
-   "ast",
-   "under",
-   5.5
-  ],
-  [
-   "cooper flagg",
-   "pts",
-   "over",
-   21.5
-  ],
-  [
-   "cooper flagg",
-   "pts",
-   "under",
-   21.5
-  ],
-  [
-   "cooper flagg",
-   "reb",
-   "over",
-   6.5
-  ],
-  [
-   "cooper flagg",
-   "reb",
-   "under",
-   6.5
-  ],
-  [
-   "darryn peterson",
-   "ast",
-   "over",
-   3.5
-  ],
-  [
-   "darryn peterson",
-   "ast",
-   "under",
-   3.5
-  ],
-  [
-   "darryn peterson",
-   "reb",
-   "over",
-   4.5
-  ],
-  [
-   "darryn peterson",
-   "reb",
-   "under",
-   4.5
-  ],
-  [
-   "deaaron fox",
-   "ast",
-   "over",
-   5.5
-  ],
-  [
-   "deaaron fox",
-   "ast",
-   "under",
-   5.5
-  ],
-  [
-   "deaaron fox",
-   "reb",
-   "over",
-   3.5
-  ],
-  [
-   "deaaron fox",
-   "reb",
-   "under",
-   3.5
-  ],
-  [
-   "dean wade",
-   "ast",
-   "over",
-   1.5
-  ],
-  [
-   "dean wade",
-   "ast",
-   "under",
-   1.5
-  ],
-  [
-   "derrick white",
-   "ast",
-   "over",
-   5.5
-  ],
-  [
-   "derrick white",
-   "ast",
-   "under",
-   5.5
-  ],
-  [
-   "derrick white",
+   "aaron gordon",
    "pts",
    "over",
    13.5
   ],
   [
-   "derrick white",
+   "aaron gordon",
    "pts",
    "under",
    13.5
   ],
   [
+   "aaron gordon",
+   "reb",
+   "over",
+   5.5
+  ],
+  [
+   "aaron gordon",
+   "reb",
+   "under",
+   5.5
+  ],
+  [
+   "alperen sengun",
+   "ast",
+   "over",
+   6.5
+  ],
+  [
+   "alperen sengun",
+   "ast",
+   "under",
+   6.5
+  ],
+  [
+   "amen thompson",
+   "ast",
+   "over",
+   3.5
+  ],
+  [
+   "amen thompson",
+   "ast",
+   "under",
+   3.5
+  ],
+  [
+   "anfernee simons",
+   "fg3m",
+   "over",
+   2.5
+  ],
+  [
+   "anfernee simons",
+   "fg3m",
+   "under",
+   2.5
+  ],
+  [
+   "anthony black",
+   "fg3m",
+   "over",
+   1.5
+  ],
+  [
+   "anthony black",
+   "fg3m",
+   "under",
+   1.5
+  ],
+  [
+   "anthony black",
+   "reb",
+   "over",
+   4.5
+  ],
+  [
+   "anthony black",
+   "reb",
+   "under",
+   4.5
+  ],
+  [
+   "ayo dosunmu",
+   "ast",
+   "over",
+   3.5
+  ],
+  [
+   "ayo dosunmu",
+   "ast",
+   "under",
+   3.5
+  ],
+  [
+   "ayo dosunmu",
+   "reb",
+   "over",
+   4.5
+  ],
+  [
+   "ayo dosunmu",
+   "reb",
+   "under",
+   4.5
+  ],
+  [
+   "bam adebayo",
+   "ast",
+   "over",
+   3.5
+  ],
+  [
+   "bam adebayo",
+   "ast",
+   "under",
+   3.5
+  ],
+  [
+   "brandin podziemski",
+   "reb",
+   "over",
+   5.5
+  ],
+  [
+   "brandin podziemski",
+   "reb",
+   "under",
+   5.5
+  ],
+  [
+   "cameron johnson",
+   "pts",
+   "over",
+   12.5
+  ],
+  [
+   "cameron johnson",
+   "pts",
+   "under",
+   12.5
+  ],
+  [
+   "cameron johnson",
+   "reb",
+   "over",
+   3.5
+  ],
+  [
+   "cameron johnson",
+   "reb",
+   "under",
+   3.5
+  ],
+  [
+   "christian braun",
+   "pts",
+   "over",
+   11.5
+  ],
+  [
+   "christian braun",
+   "pts",
+   "under",
+   11.5
+  ],
+  [
+   "christian braun",
+   "reb",
+   "over",
+   4.5
+  ],
+  [
+   "christian braun",
+   "reb",
+   "under",
+   4.5
+  ],
+  [
+   "collin gillespie",
+   "pts",
+   "over",
+   10.5
+  ],
+  [
+   "collin gillespie",
+   "pts",
+   "under",
+   10.5
+  ],
+  [
+   "collin gillespie",
+   "reb",
+   "over",
+   3.5
+  ],
+  [
+   "collin gillespie",
+   "reb",
+   "under",
+   3.5
+  ],
+  [
+   "damian lillard",
+   "ast",
+   "over",
+   4.5
+  ],
+  [
+   "damian lillard",
+   "ast",
+   "under",
+   4.5
+  ],
+  [
+   "damian lillard",
+   "reb",
+   "over",
+   3.5
+  ],
+  [
+   "damian lillard",
+   "reb",
+   "under",
+   3.5
+  ],
+  [
+   "danny wolf",
+   "fg3m",
+   "over",
+   1.5
+  ],
+  [
+   "danny wolf",
+   "fg3m",
+   "under",
+   1.5
+  ],
+  [
+   "davion mitchell",
+   "ast",
+   "over",
+   7.5
+  ],
+  [
+   "davion mitchell",
+   "ast",
+   "under",
+   7.5
+  ],
+  [
+   "davion mitchell",
+   "fg3m",
+   "over",
+   1.5
+  ],
+  [
+   "davion mitchell",
+   "fg3m",
+   "under",
+   1.5
+  ],
+  [
+   "dean wade",
+   "fg3m",
+   "over",
+   1.5
+  ],
+  [
+   "dean wade",
+   "fg3m",
+   "under",
+   1.5
+  ],
+  [
+   "deanthony melton",
+   "reb",
+   "over",
+   4.5
+  ],
+  [
+   "deanthony melton",
+   "reb",
+   "under",
+   4.5
+  ],
+  [
+   "demar derozan",
+   "pts",
+   "over",
+   9.5
+  ],
+  [
+   "demar derozan",
+   "pts",
+   "under",
+   9.5
+  ],
+  [
+   "deni avdija",
+   "ast",
+   "over",
+   5.5
+  ],
+  [
+   "deni avdija",
+   "ast",
+   "under",
+   5.5
+  ],
+  [
+   "deni avdija",
+   "reb",
+   "over",
+   6.5
+  ],
+  [
+   "deni avdija",
+   "reb",
+   "under",
+   6.5
+  ],
+  [
+   "derrick white",
+   "fg3m",
+   "over",
+   2.5
+  ],
+  [
+   "derrick white",
+   "fg3m",
+   "under",
+   2.5
+  ],
+  [
    "derrick white",
    "reb",
    "over",
@@ -374,109 +377,241 @@
    3.5
   ],
   [
-   "devin vassell",
-   "ast",
+   "desmond bane",
+   "fg3m",
    "over",
-   2.5
+   3.5
   ],
   [
-   "devin vassell",
-   "ast",
+   "desmond bane",
+   "fg3m",
    "under",
-   2.5
+   3.5
   ],
   [
-   "devin vassell",
+   "desmond bane",
+   "reb",
+   "over",
+   4.5
+  ],
+  [
+   "desmond bane",
+   "reb",
+   "under",
+   4.5
+  ],
+  [
+   "devin booker",
+   "pts",
+   "over",
+   22.5
+  ],
+  [
+   "devin booker",
+   "pts",
+   "under",
+   22.5
+  ],
+  [
+   "devin booker",
    "reb",
    "over",
    3.5
   ],
   [
-   "devin vassell",
+   "devin booker",
    "reb",
    "under",
    3.5
   ],
   [
-   "dylan harper",
+   "dillon brooks",
+   "pts",
+   "over",
+   14.5
+  ],
+  [
+   "dillon brooks",
+   "pts",
+   "under",
+   14.5
+  ],
+  [
+   "dillon brooks",
+   "reb",
+   "over",
+   3.5
+  ],
+  [
+   "dillon brooks",
+   "reb",
+   "under",
+   3.5
+  ],
+  [
+   "donovan clingan",
+   "reb",
+   "over",
+   11.5
+  ],
+  [
+   "donovan clingan",
+   "reb",
+   "under",
+   11.5
+  ],
+  [
+   "donovan mitchell",
    "ast",
    "over",
-   4.5
+   5.5
   ],
   [
-   "dylan harper",
+   "donovan mitchell",
    "ast",
    "under",
-   4.5
+   5.5
   ],
   [
-   "dylan harper",
+   "donovan mitchell",
+   "fg3m",
+   "over",
+   2.5
+  ],
+  [
+   "donovan mitchell",
+   "fg3m",
+   "under",
+   2.5
+  ],
+  [
+   "draymond green",
    "reb",
    "over",
    4.5
   ],
   [
-   "dylan harper",
+   "draymond green",
    "reb",
    "under",
    4.5
   ],
   [
-   "dyson daniels",
-   "pts",
+   "egor demin",
+   "fg3m",
    "over",
-   9.5
+   1.5
   ],
   [
-   "dyson daniels",
-   "pts",
+   "egor demin",
+   "fg3m",
    "under",
-   9.5
+   1.5
   ],
   [
-   "dyson daniels",
+   "franz wagner",
+   "fg3m",
+   "over",
+   1.5
+  ],
+  [
+   "franz wagner",
+   "fg3m",
+   "under",
+   1.5
+  ],
+  [
+   "franz wagner",
    "reb",
    "over",
    6.5
   ],
   [
-   "dyson daniels",
+   "franz wagner",
    "reb",
    "under",
    6.5
   ],
   [
-   "immanuel quickley",
-   "pts",
+   "fred vanvleet",
+   "ast",
    "over",
-   15.5
+   5.5
   ],
   [
-   "immanuel quickley",
-   "pts",
+   "fred vanvleet",
+   "ast",
    "under",
-   15.5
+   5.5
   ],
   [
-   "immanuel quickley",
+   "fred vanvleet",
+   "fg3m",
+   "over",
+   2.5
+  ],
+  [
+   "fred vanvleet",
+   "fg3m",
+   "under",
+   2.5
+  ],
+  [
+   "georges niang",
+   "reb",
+   "over",
+   2.5
+  ],
+  [
+   "georges niang",
+   "reb",
+   "under",
+   2.5
+  ],
+  [
+   "giannis antetokounmpo",
+   "ast",
+   "over",
+   5.5
+  ],
+  [
+   "giannis antetokounmpo",
+   "ast",
+   "under",
+   5.5
+  ],
+  [
+   "gui santos",
    "reb",
    "over",
    3.5
   ],
   [
-   "immanuel quickley",
+   "gui santos",
    "reb",
    "under",
    3.5
   ],
   [
-   "ivica zubac",
+   "herb jones",
+   "reb",
+   "over",
+   3.5
+  ],
+  [
+   "herb jones",
+   "reb",
+   "under",
+   3.5
+  ],
+  [
+   "jabari smith",
    "ast",
    "over",
    1.5
   ],
   [
-   "ivica zubac",
+   "jabari smith",
    "ast",
    "under",
    1.5
@@ -494,160 +629,160 @@
    2.5
   ],
   [
-   "jaime jaquez",
-   "pts",
+   "jaden mcdaniels",
+   "ast",
    "over",
-   14.5
+   3.5
   ],
   [
-   "jaime jaquez",
-   "pts",
+   "jaden mcdaniels",
+   "ast",
    "under",
-   14.5
+   3.5
   ],
   [
-   "jaime jaquez",
+   "jaden mcdaniels",
    "reb",
    "over",
    5.5
   ],
   [
-   "jaime jaquez",
+   "jaden mcdaniels",
    "reb",
    "under",
    5.5
   ],
   [
-   "jakob poeltl",
-   "pts",
-   "over",
-   8.5
-  ],
-  [
-   "jakob poeltl",
-   "pts",
-   "under",
-   8.5
-  ],
-  [
-   "jakob poeltl",
-   "reb",
-   "over",
-   6.5
-  ],
-  [
-   "jakob poeltl",
-   "reb",
-   "under",
-   6.5
-  ],
-  [
-   "jakobe walter",
+   "jalen green",
    "pts",
    "over",
    11.5
   ],
   [
-   "jakobe walter",
+   "jalen green",
    "pts",
    "under",
    11.5
   ],
   [
-   "jakobe walter",
+   "jalen green",
    "reb",
    "over",
    3.5
   ],
   [
-   "jakobe walter",
+   "jalen green",
    "reb",
    "under",
    3.5
   ],
   [
-   "jalen brunson",
-   "pts",
+   "jalen smith",
+   "fg3m",
    "over",
-   25.5
+   1.5
   ],
   [
-   "jalen brunson",
-   "pts",
+   "jalen smith",
+   "fg3m",
    "under",
-   25.5
+   1.5
   ],
   [
-   "jalen brunson",
+   "jalen suggs",
+   "fg3m",
+   "over",
+   1.5
+  ],
+  [
+   "jalen suggs",
+   "fg3m",
+   "under",
+   1.5
+  ],
+  [
+   "jalen suggs",
    "reb",
    "over",
    2.5
   ],
   [
-   "jalen brunson",
+   "jalen suggs",
    "reb",
    "under",
    2.5
   ],
   [
-   "jalen johnson",
+   "jamal murray",
    "pts",
    "over",
-   21.5
+   24.5
   ],
   [
-   "jalen johnson",
+   "jamal murray",
    "pts",
    "under",
-   21.5
+   24.5
   ],
   [
-   "jalen johnson",
+   "jamal murray",
    "reb",
    "over",
-   9.5
+   4.5
   ],
   [
-   "jalen johnson",
+   "jamal murray",
    "reb",
    "under",
-   9.5
+   4.5
   ],
   [
-   "jaylen brown",
-   "ast",
-   "over",
-   3.5
-  ],
-  [
-   "jaylen brown",
-   "ast",
-   "under",
-   3.5
-  ],
-  [
-   "jayson tatum",
+   "james harden",
    "ast",
    "over",
    6.5
   ],
   [
-   "jayson tatum",
+   "james harden",
    "ast",
    "under",
    6.5
   ],
   [
-   "jayson tatum",
-   "pts",
+   "james harden",
+   "fg3m",
    "over",
-   26.5
+   2.5
+  ],
+  [
+   "james harden",
+   "fg3m",
+   "under",
+   2.5
+  ],
+  [
+   "jaylen brown",
+   "fg3m",
+   "over",
+   1.5
+  ],
+  [
+   "jaylen brown",
+   "fg3m",
+   "under",
+   1.5
   ],
   [
    "jayson tatum",
-   "pts",
+   "fg3m",
+   "over",
+   2.5
+  ],
+  [
+   "jayson tatum",
+   "fg3m",
    "under",
-   26.5
+   2.5
   ],
   [
    "jayson tatum",
@@ -662,100 +797,124 @@
    7.5
   ],
   [
-   "jordan walsh",
-   "pts",
+   "jeremiah fears",
+   "reb",
    "over",
    4.5
   ],
   [
-   "jordan walsh",
-   "pts",
+   "jeremiah fears",
+   "reb",
    "under",
    4.5
   ],
   [
-   "josh hart",
+   "jonathan kuminga",
+   "ast",
+   "over",
+   2.5
+  ],
+  [
+   "jonathan kuminga",
+   "ast",
+   "under",
+   2.5
+  ],
+  [
+   "jonathan kuminga",
+   "reb",
+   "over",
+   5.5
+  ],
+  [
+   "jonathan kuminga",
+   "reb",
+   "under",
+   5.5
+  ],
+  [
+   "jordan goodwin",
    "pts",
    "over",
    8.5
   ],
   [
-   "josh hart",
+   "jordan goodwin",
    "pts",
    "under",
    8.5
   ],
   [
-   "josh hart",
+   "josh giddey",
+   "ast",
+   "over",
+   8.5
+  ],
+  [
+   "josh giddey",
+   "ast",
+   "under",
+   8.5
+  ],
+  [
+   "josh giddey",
+   "fg3m",
+   "over",
+   1.5
+  ],
+  [
+   "josh giddey",
+   "fg3m",
+   "under",
+   1.5
+  ],
+  [
+   "jrue holiday",
+   "ast",
+   "over",
+   3.5
+  ],
+  [
+   "jrue holiday",
+   "ast",
+   "under",
+   3.5
+  ],
+  [
+   "jrue holiday",
    "reb",
    "over",
-   6.5
+   3.5
   ],
   [
-   "josh hart",
+   "jrue holiday",
    "reb",
    "under",
-   6.5
+   3.5
   ],
   [
-   "josh okogie",
-   "reb",
+   "julius randle",
+   "fg3m",
    "over",
-   2.5
+   1.5
   ],
   [
-   "josh okogie",
-   "reb",
+   "julius randle",
+   "fg3m",
    "under",
-   2.5
+   1.5
   ],
   [
-   "julian champagnie",
-   "reb",
+   "kevin durant",
+   "ast",
    "over",
-   4.5
+   3.5
   ],
   [
-   "julian champagnie",
-   "reb",
+   "kevin durant",
+   "ast",
    "under",
-   4.5
-  ],
-  [
-   "karl anthony towns",
-   "pts",
-   "over",
-   19.5
-  ],
-  [
-   "karl anthony towns",
-   "pts",
-   "under",
-   19.5
-  ],
-  [
-   "karl anthony towns",
-   "reb",
-   "over",
-   12.5
-  ],
-  [
-   "karl anthony towns",
-   "reb",
-   "under",
-   12.5
-  ],
-  [
-   "keldon johnson",
-   "reb",
-   "over",
-   4.5
-  ],
-  [
-   "keldon johnson",
-   "reb",
-   "under",
-   4.5
+   3.5
   ],
   [
    "kevin durant",
@@ -770,474 +929,222 @@
    1.5
   ],
   [
-   "keyonte george",
-   "ast",
-   "over",
-   5.5
-  ],
-  [
-   "keyonte george",
-   "ast",
-   "under",
-   5.5
-  ],
-  [
-   "keyonte george",
-   "reb",
-   "over",
-   3.5
-  ],
-  [
-   "keyonte george",
-   "reb",
-   "under",
-   3.5
-  ],
-  [
-   "kyle kuzma",
-   "pts",
-   "over",
-   11.5
-  ],
-  [
-   "kyle kuzma",
-   "pts",
-   "under",
-   11.5
-  ],
-  [
-   "kyle kuzma",
-   "reb",
-   "over",
-   4.5
-  ],
-  [
-   "kyle kuzma",
-   "reb",
-   "under",
-   4.5
-  ],
-  [
-   "kyrie irving",
-   "ast",
-   "over",
-   3.5
-  ],
-  [
-   "kyrie irving",
-   "ast",
-   "under",
-   3.5
-  ],
-  [
-   "kyrie irving",
-   "pts",
-   "over",
-   20.5
-  ],
-  [
-   "kyrie irving",
-   "pts",
-   "under",
-   20.5
-  ],
-  [
-   "kyrie irving",
-   "reb",
-   "over",
-   3.5
-  ],
-  [
-   "kyrie irving",
-   "reb",
-   "under",
-   3.5
-  ],
-  [
-   "kyshawn george",
+   "klay thompson",
    "fg3m",
    "over",
-   1.5
+   3.5
   ],
   [
-   "kyshawn george",
+   "klay thompson",
    "fg3m",
    "under",
-   1.5
+   3.5
   ],
   [
-   "landry shamet",
-   "pts",
-   "over",
-   8.5
-  ],
-  [
-   "landry shamet",
-   "pts",
-   "under",
-   8.5
-  ],
-  [
-   "lebron james",
+   "lamelo ball",
    "ast",
    "over",
    6.5
   ],
   [
-   "lebron james",
+   "lamelo ball",
    "ast",
    "under",
    6.5
   ],
   [
-   "luguentz dort",
-   "pts",
-   "over",
-   7.5
-  ],
-  [
-   "luguentz dort",
-   "pts",
-   "under",
-   7.5
-  ],
-  [
-   "mikal bridges",
-   "pts",
-   "over",
-   8.5
-  ],
-  [
-   "mikal bridges",
-   "pts",
-   "under",
-   8.5
-  ],
-  [
-   "mikal bridges",
-   "reb",
-   "over",
-   2.5
-  ],
-  [
-   "mikal bridges",
-   "reb",
-   "under",
-   2.5
-  ],
-  [
-   "miles mcbride",
-   "pts",
-   "over",
-   7.5
-  ],
-  [
-   "miles mcbride",
-   "pts",
-   "under",
-   7.5
-  ],
-  [
-   "morez johnson",
-   "pts",
-   "over",
-   7.5
-  ],
-  [
-   "morez johnson",
-   "pts",
-   "under",
-   7.5
-  ],
-  [
-   "morez johnson",
-   "reb",
-   "over",
-   5.5
-  ],
-  [
-   "morez johnson",
-   "reb",
-   "under",
-   5.5
-  ],
-  [
-   "myles turner",
-   "pts",
-   "over",
-   9.5
-  ],
-  [
-   "myles turner",
-   "pts",
-   "under",
-   9.5
-  ],
-  [
-   "myles turner",
-   "reb",
-   "over",
-   5.5
-  ],
-  [
-   "myles turner",
-   "reb",
-   "under",
-   5.5
-  ],
-  [
-   "naji marshall",
-   "ast",
-   "over",
-   3.5
-  ],
-  [
-   "naji marshall",
-   "ast",
-   "under",
-   3.5
-  ],
-  [
-   "naji marshall",
-   "pts",
-   "over",
-   10.5
-  ],
-  [
-   "naji marshall",
-   "pts",
-   "under",
-   10.5
-  ],
-  [
-   "naji marshall",
-   "reb",
-   "over",
-   3.5
-  ],
-  [
-   "naji marshall",
-   "reb",
-   "under",
-   3.5
-  ],
-  [
-   "nate ament",
-   "pts",
-   "over",
-   8.5
-  ],
-  [
-   "nate ament",
-   "pts",
-   "under",
-   8.5
-  ],
-  [
-   "nate ament",
-   "reb",
-   "over",
-   3.5
-  ],
-  [
-   "nate ament",
-   "reb",
-   "under",
-   3.5
-  ],
-  [
-   "neemias queta",
-   "ast",
-   "over",
-   1.5
-  ],
-  [
-   "neemias queta",
-   "ast",
-   "under",
-   1.5
-  ],
-  [
-   "neemias queta",
-   "pts",
-   "over",
-   9.5
-  ],
-  [
-   "neemias queta",
-   "pts",
-   "under",
-   9.5
-  ],
-  [
-   "neemias queta",
-   "reb",
-   "over",
-   7.5
-  ],
-  [
-   "neemias queta",
-   "reb",
-   "under",
-   7.5
-  ],
-  [
-   "nickeil alexander walker",
-   "pts",
-   "over",
-   22.5
-  ],
-  [
-   "nickeil alexander walker",
-   "pts",
-   "under",
-   22.5
-  ],
-  [
-   "nickeil alexander walker",
-   "reb",
-   "over",
-   3.5
-  ],
-  [
-   "nickeil alexander walker",
-   "reb",
-   "under",
-   3.5
-  ],
-  [
-   "obi toppin",
-   "ast",
-   "over",
-   1.5
-  ],
-  [
-   "obi toppin",
-   "ast",
-   "under",
-   1.5
-  ],
-  [
-   "og anunoby",
-   "pts",
-   "over",
-   17.5
-  ],
-  [
-   "og anunoby",
-   "pts",
-   "under",
-   17.5
-  ],
-  [
-   "og anunoby",
-   "reb",
-   "over",
-   5.5
-  ],
-  [
-   "og anunoby",
-   "reb",
-   "under",
-   5.5
-  ],
-  [
-   "onyeka okongwu",
-   "pts",
-   "over",
-   13.5
-  ],
-  [
-   "onyeka okongwu",
-   "pts",
-   "under",
-   13.5
-  ],
-  [
-   "onyeka okongwu",
-   "reb",
-   "over",
-   7.5
-  ],
-  [
-   "onyeka okongwu",
-   "reb",
-   "under",
-   7.5
-  ],
-  [
-   "pascal siakam",
-   "ast",
-   "over",
-   3.5
-  ],
-  [
-   "pascal siakam",
-   "ast",
-   "under",
-   3.5
-  ],
-  [
-   "paul george",
-   "ast",
-   "over",
-   3.5
-  ],
-  [
-   "paul george",
-   "ast",
-   "under",
-   3.5
-  ],
-  [
-   "paul george",
-   "pts",
-   "over",
-   19.5
-  ],
-  [
-   "paul george",
-   "pts",
-   "under",
-   19.5
-  ],
-  [
-   "paul george",
+   "lamelo ball",
    "reb",
    "over",
    4.5
   ],
   [
-   "paul george",
+   "lamelo ball",
    "reb",
    "under",
    4.5
   ],
   [
-   "payton pritchard",
-   "ast",
+   "luke kennard",
+   "pts",
+   "over",
+   7.5
+  ],
+  [
+   "luke kennard",
+   "pts",
+   "under",
+   7.5
+  ],
+  [
+   "matas buzelis",
+   "fg3m",
+   "over",
+   2.5
+  ],
+  [
+   "matas buzelis",
+   "fg3m",
+   "under",
+   2.5
+  ],
+  [
+   "meleek thomas",
+   "fg3m",
+   "over",
+   2.5
+  ],
+  [
+   "meleek thomas",
+   "fg3m",
+   "under",
+   2.5
+  ],
+  [
+   "michael porter",
+   "fg3m",
    "over",
    3.5
   ],
   [
-   "payton pritchard",
-   "ast",
+   "michael porter",
+   "fg3m",
    "under",
    3.5
   ],
   [
-   "payton pritchard",
+   "miles bridges",
    "pts",
    "over",
    14.5
   ],
   [
-   "payton pritchard",
+   "miles bridges",
    "pts",
    "under",
    14.5
   ],
   [
+   "miles bridges",
+   "reb",
+   "over",
+   5.5
+  ],
+  [
+   "miles bridges",
+   "reb",
+   "under",
+   5.5
+  ],
+  [
+   "neemias queta",
+   "reb",
+   "over",
+   6.5
+  ],
+  [
+   "neemias queta",
+   "reb",
+   "under",
+   6.5
+  ],
+  [
+   "nikola jokic",
+   "pts",
+   "over",
+   24.5
+  ],
+  [
+   "nikola jokic",
+   "pts",
+   "under",
+   24.5
+  ],
+  [
+   "nikola jokic",
+   "reb",
+   "over",
+   12.5
+  ],
+  [
+   "nikola jokic",
+   "reb",
+   "under",
+   12.5
+  ],
+  [
+   "norman powell",
+   "fg3m",
+   "over",
+   2.5
+  ],
+  [
+   "norman powell",
+   "fg3m",
+   "under",
+   2.5
+  ],
+  [
+   "oso ighodaro",
+   "pts",
+   "over",
+   5.5
+  ],
+  [
+   "oso ighodaro",
+   "pts",
+   "under",
+   5.5
+  ],
+  [
+   "oso ighodaro",
+   "reb",
+   "over",
+   4.5
+  ],
+  [
+   "oso ighodaro",
+   "reb",
+   "under",
+   4.5
+  ],
+  [
+   "paul george",
+   "fg3m",
+   "over",
+   2.5
+  ],
+  [
+   "paul george",
+   "fg3m",
+   "under",
+   2.5
+  ],
+  [
+   "paul george",
+   "reb",
+   "over",
+   4.5
+  ],
+  [
+   "paul george",
+   "reb",
+   "under",
+   4.5
+  ],
+  [
+   "payton pritchard",
+   "fg3m",
+   "over",
+   2.5
+  ],
+  [
+   "payton pritchard",
+   "fg3m",
+   "under",
+   2.5
+  ],
+  [
    "payton pritchard",
    "reb",
    "over",
@@ -1250,28 +1157,28 @@
    3.5
   ],
   [
-   "pj washington",
-   "pts",
+   "peyton watson",
+   "fg3m",
    "over",
-   11.5
+   1.5
   ],
   [
-   "pj washington",
-   "pts",
+   "peyton watson",
+   "fg3m",
    "under",
-   11.5
+   1.5
   ],
   [
-   "pj washington",
-   "reb",
+   "reed sheppard",
+   "ast",
    "over",
-   6.5
+   2.5
   ],
   [
-   "pj washington",
-   "reb",
+   "reed sheppard",
+   "ast",
    "under",
-   6.5
+   2.5
   ],
   [
    "reed sheppard",
@@ -1286,100 +1193,64 @@
    2.5
   ],
   [
-   "rj barrett",
-   "pts",
-   "over",
-   20.5
-  ],
-  [
-   "rj barrett",
-   "pts",
-   "under",
-   20.5
-  ],
-  [
-   "rj barrett",
+   "rudy gobert",
    "reb",
-   "over",
-   5.5
-  ],
-  [
-   "rj barrett",
-   "reb",
-   "under",
-   5.5
-  ],
-  [
-   "ryan rollins",
-   "pts",
    "over",
    10.5
   ],
   [
-   "ryan rollins",
-   "pts",
+   "rudy gobert",
+   "reb",
    "under",
    10.5
   ],
   [
+   "saddiq bey",
+   "reb",
+   "over",
+   5.5
+  ],
+  [
+   "saddiq bey",
+   "reb",
+   "under",
+   5.5
+  ],
+  [
    "sam hauser",
-   "pts",
+   "fg3m",
    "over",
-   7.5
+   1.5
   ],
   [
    "sam hauser",
-   "pts",
+   "fg3m",
    "under",
-   7.5
+   1.5
   ],
   [
-   "scottie barnes",
-   "pts",
-   "over",
-   17.5
-  ],
-  [
-   "scottie barnes",
-   "pts",
-   "under",
-   17.5
-  ],
-  [
-   "scottie barnes",
+   "sam hauser",
    "reb",
    "over",
-   6.5
+   2.5
   ],
   [
-   "scottie barnes",
+   "sam hauser",
    "reb",
    "under",
-   6.5
+   2.5
   ],
   [
-   "stephon castle",
-   "ast",
-   "over",
-   5.5
-  ],
-  [
-   "stephon castle",
-   "ast",
-   "under",
-   5.5
-  ],
-  [
-   "stephon castle",
+   "sidy cissoko",
    "reb",
    "over",
-   5.5
+   3.5
   ],
   [
-   "stephon castle",
+   "sidy cissoko",
    "reb",
    "under",
-   5.5
+   3.5
   ],
   [
    "tari eason",
@@ -1394,101 +1265,173 @@
    1.5
   ],
   [
-   "tyler herro",
-   "pts",
+   "terrence shannon",
+   "reb",
    "over",
-   21.5
+   2.5
   ],
   [
-   "tyler herro",
-   "pts",
+   "terrence shannon",
+   "reb",
    "under",
-   21.5
+   2.5
   ],
   [
-   "tyler herro",
+   "toumani camara",
    "reb",
    "over",
    4.5
   ],
   [
-   "tyler herro",
+   "toumani camara",
+   "reb",
+   "under",
+   4.5
+  ],
+  [
+   "tre jones",
+   "ast",
+   "over",
+   3.5
+  ],
+  [
+   "tre jones",
+   "ast",
+   "under",
+   3.5
+  ],
+  [
+   "trevon brazile",
+   "pts",
+   "over",
+   4.5
+  ],
+  [
+   "trevon brazile",
+   "pts",
+   "under",
+   4.5
+  ],
+  [
+   "trevon brazile",
+   "reb",
+   "over",
+   3.5
+  ],
+  [
+   "trevon brazile",
+   "reb",
+   "under",
+   3.5
+  ],
+  [
+   "tristan da silva",
+   "fg3m",
+   "over",
+   2.5
+  ],
+  [
+   "tristan da silva",
+   "fg3m",
+   "under",
+   2.5
+  ],
+  [
+   "tristan da silva",
+   "reb",
+   "over",
+   4.5
+  ],
+  [
+   "tristan da silva",
    "reb",
    "under",
    4.5
   ],
   [
    "tyrese maxey",
-   "ast",
+   "fg3m",
    "over",
-   5.5
+   2.5
   ],
   [
    "tyrese maxey",
-   "ast",
+   "fg3m",
    "under",
+   2.5
+  ],
+  [
+   "vj edgecombe",
+   "fg3m",
+   "over",
+   1.5
+  ],
+  [
+   "vj edgecombe",
+   "fg3m",
+   "under",
+   1.5
+  ],
+  [
+   "wendell carter",
+   "reb",
+   "over",
+   8.5
+  ],
+  [
+   "wendell carter",
+   "reb",
+   "under",
+   8.5
+  ],
+  [
+   "will richard",
+   "reb",
+   "over",
+   2.5
+  ],
+  [
+   "will richard",
+   "reb",
+   "under",
+   2.5
+  ],
+  [
+   "yaxel lendeborg",
+   "reb",
+   "over",
+   7.5
+  ],
+  [
+   "yaxel lendeborg",
+   "reb",
+   "under",
+   7.5
+  ],
+  [
+   "yves missi",
+   "reb",
+   "over",
+   6.5
+  ],
+  [
+   "yves missi",
+   "reb",
+   "under",
+   6.5
+  ],
+  [
+   "zion williamson",
+   "reb",
+   "over",
    5.5
   ],
   [
-   "victor wembanyama",
-   "ast",
-   "over",
-   2.5
-  ],
-  [
-   "victor wembanyama",
-   "ast",
-   "under",
-   2.5
-  ],
-  [
-   "victor wembanyama",
-   "reb",
-   "over",
-   11.5
-  ],
-  [
-   "victor wembanyama",
+   "zion williamson",
    "reb",
    "under",
-   11.5
-  ],
-  [
-   "vj edgecombe",
-   "ast",
-   "over",
-   2.5
-  ],
-  [
-   "vj edgecombe",
-   "ast",
-   "under",
-   2.5
-  ],
-  [
-   "zaccharie risacher",
-   "pts",
-   "over",
-   7.5
-  ],
-  [
-   "zaccharie risacher",
-   "pts",
-   "under",
-   7.5
-  ],
-  [
-   "zaccharie risacher",
-   "reb",
-   "over",
-   3.5
-  ],
-  [
-   "zaccharie risacher",
-   "reb",
-   "under",
-   3.5
+   5.5
   ]
  ],
- "slate": "2026-11-15"
+ "slate": "2026-11-16"
 }
