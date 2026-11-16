@@ -7,7 +7,7 @@ Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/pri
 - By model-vs-book gap: gap 5-15pts 21-10 (+6.91u); gap<5pts 59-35 (-0.51u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 11-1 (+5.11u); moved toward us 8-5 (+1.01u).
 - By prop split sample: fuller splits 9-4 (+1.98u); small-sample splits 55-23 (+10.52u).
-- Wider settled predictions (n=44116): model Brier 0.1538 vs book 0.1496 (lower is better).
+- Wider settled predictions (n=44447): model Brier 0.154 vs book 0.1496 (lower is better).
 
 ## 2026-11-15
 
