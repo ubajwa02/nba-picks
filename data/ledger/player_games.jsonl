@@ -5476,3 +5476,4 @@
 {"ast": 2, "blk": 0, "dreb": 0, "fg3a": 0, "fg3m": 0, "fga": 0, "fta": 0, "game_id": "401910001", "minutes": 10.0, "observed_at": "2026-11-17T06:32:20Z", "oreb": 1, "played": 1, "player_id": "3135046", "player_name": "Tyus Jones", "plus_minus": 2, "pts": 0, "reb": 1, "starter": 0, "stl": 0, "team": "DEN", "tov": 0}
 {"game_id": "401910001", "minutes": 0.0, "observed_at": "2026-11-17T06:32:20Z", "played": 0, "player_id": "4065813", "player_name": "Alpha Diallo", "starter": 0, "team": "DEN"}
 {"game_id": "401910001", "minutes": 0.0, "observed_at": "2026-11-17T06:32:20Z", "played": 0, "player_id": "4431690", "player_name": "Zeke Nnaji", "starter": 0, "team": "DEN"}
+{"game_id": "401909971", "minutes": 0.0, "observed_at": "2026-11-12T04:41:39Z", "played": 0, "player_id": "4596528", "player_name": "Lawson Lovering", "starter": 0, "team": "LAL"}
