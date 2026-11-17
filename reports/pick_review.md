@@ -2,12 +2,23 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 83-49 on 132 graded posted picks, +4.84u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 77-46 (+2.71u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 21-11 (+5.91u); gap<5pts 59-37 (-2.51u); gap>=15pts 3-1 (+1.44u).
+- 85-53 on 138 graded posted picks, +2.15u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 79-50 (+0.01u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 21-12 (+4.91u); gap<5pts 61-40 (-4.20u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 8-3 (+3.56u); moved away 11-1 (+5.11u); moved toward us 8-6 (+0.01u).
-- By prop split sample: fuller splits 9-7 (-1.02u); small-sample splits 55-23 (+10.52u).
-- Wider settled predictions (n=45793): model Brier 0.1538 vs book 0.1494 (lower is better).
+- By prop split sample: fuller splits 11-11 (-3.71u); small-sample splits 55-23 (+10.52u).
+- Wider settled predictions (n=46911): model Brier 0.1564 vs book 0.152 (lower is better).
+
+## 2026-11-16
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Sidy Cissoko u3.5 reb | loss | -1.00 | 0.618 | 0.621 | -0.00 |  | career 96/122, season 7/12, last10 7/10 |
+| Sam Hauser o2.5 reb | loss | -1.00 | 0.654 | 0.625 | +0.05 |  | career 211/370, season 8/13, last10 6/10 |
+| Payton Pritchard u2.5 fg3m | loss | -1.00 | 0.656 | 0.654 | +0.00 |  | career 221/347, season 8/13, last10 6/10 |
+| Gui Santos o3.5 reb | win | +0.65 | 0.623 | 0.606 | +0.03 |  | career 70/170, season 6/10, last10 6/10 |
+| DeMar DeRozan o9.5 pts | loss | -1.00 | 0.645 | 0.561 | +0.15 |  | career 293/322, season 4/10, last10 4/10 |
+| Bam Adebayo u3.5 ast | win | +0.66 | 0.618 | 0.603 | +0.02 |  | career 181/349, season 6/13, last10 5/10 |
 
 ## 2026-11-15
 
