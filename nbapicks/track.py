@@ -14,6 +14,7 @@ from .settle import GameResult, net_profit, settle_leg
 from .store import stable_id
 
 LEANS = "posted_leans.jsonl"
+EVENTS = "lean_events.jsonl"
 KEYS = ("slate", "game_id", "market", "selection", "line", "player_id", "stat")
 
 
@@ -35,6 +36,26 @@ def add(root: str, lean: dict) -> bool:
     with open(os.path.join(root, "ledger", LEANS), "a") as fh:
         fh.write(json.dumps(lean, sort_keys=True) + "\n")
     return True
+
+
+def add_event(root: str, ev: dict) -> None:
+    """Append a pre-tip re-check of a posted pick (append-only). It never changes the pick or its grade."""
+    os.makedirs(os.path.join(root, "ledger"), exist_ok=True)
+    with open(os.path.join(root, "ledger", EVENTS), "a") as fh:
+        fh.write(json.dumps(ev, sort_keys=True) + "\n")
+
+
+def latest_events(root: str) -> dict:
+    """lean_id -> its newest re-check {at, state: 'ok'|'skip', reason, price_american, edge}."""
+    p = os.path.join(root, "ledger", EVENTS)
+    out: dict[str, dict] = {}
+    if os.path.exists(p):
+        for x in open(p):
+            if x.strip():
+                e = json.loads(x)
+                if e["lean_id"] not in out or e["at"] >= out[e["lean_id"]]["at"]:
+                    out[e["lean_id"]] = e
+    return out
 
 
 def grade(leans: list[dict], games: dict, box: dict) -> list[dict]:

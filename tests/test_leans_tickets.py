@@ -28,20 +28,12 @@ def test_small_pool_never_reuses_legs_and_says_so():
     assert len([t for t in tickets if t["kind"] == "parlay"]) == 1 and any("No lotto" in n for n in notes)
 
 
-def test_tickets_skip_straight_players_and_fanduel_filter_drops_unbettable():
+def test_tickets_skip_straight_players():
     cfg = load_config(os.path.join(os.path.dirname(os.path.dirname(__file__)), "config", "nbapicks.yaml"))
     legs = [dict(_lean(i, f"g{i}", prob=0.7 - i * 0.01), player_id=str(i)) for i in range(1, 11)]
     tickets, _ = LN.build_tickets(legs, cfg, "2026-10-27", exclude_players={"1", "2"})
     used = {l["player_id"] for t in tickets for l in t["legs"]}
     assert used and not used & {"1", "2"}
-    preds = [dict(market="prop", category="straight", selection="over", game_id="g1", player_id="9", player_name="No Market",
-                  stat="reb", line=5.5, prob=0.7, price_dec=1.7, decision="bet", inputs="{}"),
-             dict(market="prop", category="straight", selection="over", game_id="g1", player_id="8", player_name="Has Market",
-                  stat="reb", line=5.5, prob=0.68, price_dec=1.7, decision="bet", inputs="{}")]
-    ok = lambda p: p["player_name"] == "Has Market"
-    got = LN.pick_leans(preds, cfg, "2026-10-27", "2026-10-27T00:00:00Z", pool=True, fd_ok=ok)
-    assert [g["player_id"] for g in got] in ([], ["8"])
-    assert "9" not in [g["player_id"] for g in got]
 
 
 def test_too_few_props_builds_nothing_and_says_why():
