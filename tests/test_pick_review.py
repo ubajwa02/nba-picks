@@ -27,3 +27,20 @@ def test_enrich_build_and_archive(tmp_path):
     assert rev["n"] == 2 and rev["groups"]["by_market"]["ml"]["losses"] == 1
     assert "tiny" in rev["note"] and any("Brier" in f for f in rev["findings"])
     assert "## 2026-10-21" in RV.markdown(rev, "2026-10-22")
+
+
+def test_split_card_archive_is_one_file_per_day_and_reads_the_flat_file(tmp_path):
+    """The flat split_cards.jsonl is still read (and de-duplicated against) but new cards go to day files."""
+    import json, os
+    old = dict(game_id="g0", player_id="p0", stat="pts", side="over", line=9.5, date="2026-11-09", splits=[])
+    os.makedirs(tmp_path / "ledger")
+    (tmp_path / "ledger" / "split_cards.jsonl").write_text(json.dumps(old) + "\n")
+    size = os.path.getsize(tmp_path / "ledger" / "split_cards.jsonl")
+    a = dict(old, game_id="g1", date="2026-11-11", text="not archived")
+    b = dict(old, game_id="g2", date="2026-11-12")
+    assert RV.archive_cards(str(tmp_path), [old, a, b, dict(old, game_id="g3", date=None)]) == 3
+    assert RV.archive_cards(str(tmp_path), [old, a, b]) == 0
+    assert sorted(os.listdir(tmp_path / "ledger" / "split_cards")) == ["2026-11-11.jsonl", "2026-11-12.jsonl", "unknown.jsonl"]
+    assert os.path.getsize(tmp_path / "ledger" / "split_cards.jsonl") == size
+    cards = RV.load_cards(str(tmp_path))
+    assert len(cards) == 4 and "text" not in cards[RV._card_key(a)]

@@ -116,10 +116,14 @@ TABLES: dict[str, tuple[tuple[str, ...], bool]] = {
     "signals_raw": (("raw_id",), True),
     "audit": (("audit_id",), True),
 }
-# ledger files that are partitioned by month of a timestamp column
+# ledger files that are partitioned by a timestamp column
 # (predictions since 2026-10-22: every candidate is recorded and versioned, so the file grows daily;
 # rows written before then stay in the legacy flat file predictions.jsonl, which is still replayed)
-PARTITIONED = {"odds": "observed_at", "injuries": "observed_at", "predictions": "created_at"}
+PARTITIONED = {"odds": "observed_at", "injuries": "observed_at", "predictions": "created_at", "pred_events": "at"}
+# Tables whose NEW rows go to one file per day (YYYY-MM-DD.jsonl) instead of one per month.
+# GitHub rejects any file over 100 MB; predictions/2026-11.jsonl reached 67 MB in ten days.
+# Month files already on disk are never rewritten: they simply stop growing and are still replayed.
+DAILY = {"odds", "predictions"}
 # replay order respects foreign keys
 ORDER = ["games", "player_games", "odds", "injuries", "predictions", "pred_events",
          "publications", "wagers", "wager_events", "signals_raw", "audit"]
@@ -127,6 +131,20 @@ ORDER = ["games", "player_games", "odds", "injuries", "predictions", "pred_event
 
 class LedgerError(Exception):
     pass
+
+
+def partition_key(ts: Any, daily: bool) -> str:
+    """'2026-11-10T23:04:08Z' -> '2026-11-10' (daily) or '2026-11' (monthly); anything else -> 'unknown'."""
+    t = str(ts or "")
+    n = 10 if daily else 7
+    ok = len(t) >= n and t[:4].isdigit() and t[4] == "-" and t[5:7].isdigit() and (not daily or (t[7] == "-" and t[8:10].isdigit()))
+    return t[:n] if ok else "unknown"
+
+
+def partition_order(name: str) -> tuple:
+    """Oldest first, and a month file before the day files of that same month."""
+    stem = name[:-len(".jsonl")]
+    return (stem[:7], len(stem), stem)
 
 
 def stable_id(*parts: Any, n: int = 16) -> str:
@@ -154,8 +172,7 @@ class Store:
     def _path(self, table: str, rec: dict) -> str:
         d = os.path.join(self.root, "ledger")
         if table in PARTITIONED:
-            month = str(rec.get(PARTITIONED[table]) or "unknown")[:7]
-            return os.path.join(d, table, f"{month}.jsonl")
+            return os.path.join(d, table, f"{partition_key(rec.get(PARTITIONED[table]), table in DAILY)}.jsonl")
         return os.path.join(d, f"{table}.jsonl")
 
     def _files(self, table: str) -> list[str]:
@@ -164,7 +181,8 @@ class Store:
             sub = os.path.join(d, table)
             legacy = os.path.join(d, f"{table}.jsonl")
             return ([legacy] if os.path.exists(legacy) else []) + \
-                (sorted(os.path.join(sub, f) for f in os.listdir(sub) if f.endswith(".jsonl")) if os.path.isdir(sub) else [])
+                ([os.path.join(sub, f) for f in sorted((f for f in os.listdir(sub) if f.endswith(".jsonl")), key=partition_order)]
+                 if os.path.isdir(sub) else [])
         p = os.path.join(d, f"{table}.jsonl")
         return [p] if os.path.exists(p) else []
 
