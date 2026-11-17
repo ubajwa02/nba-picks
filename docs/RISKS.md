@@ -14,3 +14,4 @@
 | 10 | Correlated parlay legs | Overstated joint probability | Parlays and lotto are research only and labelled so; legs from different games | Correlation model not built |
 | 11 | Combination props have no prices | Cannot be evaluated for edge | `combos.py` projects only, marked `research_only` | Needs a feed with combo lines |
 | 12 | Secrets | Discord webhook leak | Webhook only as a repo secret; Discord skipped for now | Re-add when wanted |
+| 13 | The learning loop acts on a pattern that is noise, or keeps one that has ended | A fair chance moved the wrong way | Corrections are scored only on slates they had not seen; one is put in force at 3 standard errors of evidence with an actual saving, and dropped under 2 or when the newer half stops helping (`config/gates.yaml` `learning`, simulations in `docs/LEARNING.md`); nothing is applied after 30 days without a graded slate | A real bias under about 1 point is too small to detect in a season |

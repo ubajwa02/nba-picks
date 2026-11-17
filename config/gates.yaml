@@ -39,3 +39,15 @@ props:
     market_validate_min_bets: 150                  # ... with >= 150 bets ...
     market_price_basis: real                       # ... at real recorded prices (labelled or conservative pair), never synthetic
     selection_rule: "EV >= 5% at the price used, flat 1u"
+# Learning loop (added 2026-11-17 with nbapicks/learn.py, BEFORE any forward result: nothing had been
+# put in force when these numbers were fixed, and the test was chosen for power, not for an outcome;
+# docs/LEARNING.md has the reasoning and the simulations). After every graded slate the loop refits
+# small corrections to the DraftKings fair chance on the earlier slates and scores them on that slate.
+learning:
+  min_slates: 15       # slates a correction was scored on without having seen them ...
+  min_pairs: 3000      # ... and the graded props on those slates
+  activate_z: 3.0      # its adjustments leaned the right way by this many standard errors (day-clustered); 3 and not 2: it is checked after every slate
+  keep_z: 2.0          # a correction in force is dropped under this
+  min_gain: 0.0        # applying it must also have lowered log loss, on all unseen slates and on their newer half
+  richer: 1.5          # of those that pass, recent_shift is used (it lets go soonest when a bias ends) unless another saved this many times as much per prop
+  rule_min_bets: 300   # a rule on the scoreboard is flagged only with this many bets and t >= 3

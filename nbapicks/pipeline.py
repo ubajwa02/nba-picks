@@ -1093,6 +1093,12 @@ def settle(ctx: Ctx) -> dict:
     except Exception as e:       # a check must never block settlement; a status that is not refreshed goes stale (SO.status)
         log.warning("prop side order check failed: %s", e)
         ctx.notes.append(f"prop side order check failed: {str(e)[:120]}")
+    try:                         # after the side order: the loop scores results by side
+        from . import learn
+        out["learning"] = learn.run(ctx)["status"]
+    except Exception as e:       # learning must never block settlement; what is in force goes stale by itself (learn.active)
+        log.warning("learning loop failed: %s", e)
+        ctx.notes.append(f"learning loop failed: {str(e)[:120]}")
     return dict(out)
 
 
