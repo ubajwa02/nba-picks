@@ -54,6 +54,11 @@ execution:
   # FanDuel price at which the edge still clears the threshold.
   reference_books: [DraftKings, bet365]
 
+prop_sides:
+  # ESPN lists the DraftKings Over before the Under (docs/SIDE_ORDER.md). auto: label every pair by that
+  # order while the checks in nbapicks/sideorder.py hold; off: bet365 ladder or the conservative price only.
+  listing_order: auto
+
 publishing:
   dry_run: true                  # true: build and log messages, send nothing
   webhook_secret: NBA_DISCORD_WEBHOOK_URL   # name of the GitHub secret, never the URL

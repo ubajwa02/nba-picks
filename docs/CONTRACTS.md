@@ -16,7 +16,8 @@ Unchanged columns plus these conventions:
   - `status`: market status at prediction time (research | paper | live)
   - `fair`: de-vigged market probability for this side when both sides are known, else null
   - `implied`: 1 / price_dec
-  - `price_basis`: "labelled" (book states the side) | "conservative" (DraftKings pair with unlabelled sides; price is the worse of the two, so EV/ROI are lower bounds)
+  - `price_basis`: "labelled" (the side is known: each side at its own price, `fair` set) | "conservative" (DraftKings pair with unlabelled sides; price is the worse of the two, so EV/ROI are lower bounds)
+  - `side_basis` (DraftKings props, when labelled): how the Over was told from the Under: "listing_order" (ESPN lists the Over first, `docs/SIDE_ORDER.md`) | "bet365_pair" | "bet365_ladder"
   - `explain` (props): `{season: {avg, n}, last5: [values newest first], last10_avg, line_hits: {h, n}, line_hits_last10: {h, n},
      vs_opp: {h, n, avg}, exp_minutes, minutes_basis, role: "starter"|"bench"|null, opp_def: {rank, teams, allowed_pg},
      teammates_out: [names], injury_status: str|null, mean, sd, flags: [str]}`
