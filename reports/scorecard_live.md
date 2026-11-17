@@ -42,7 +42,7 @@ Brier: model 0.1564 vs market-implied 0.152 (n=46911; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 85-53-0, +2.15u, pending 0.
+Record 85-53-0, +2.15u, pending 6.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -188,6 +188,12 @@ Record 85-53-0, +2.15u, pending 0.
 | 2026-11-16 | Gui Santos o3.5 reb | -154 | 7 | win | +0.65 |
 | 2026-11-16 | Sidy Cissoko u3.5 reb | -164 | 4 | loss | -1.00 |
 | 2026-11-16 | Bam Adebayo u3.5 ast | -152 | 2 | win | +0.66 |
+| 2026-11-17 | Cade Cunningham u5.5 reb | -154 | None | pending | +0.00 |
+| 2026-11-17 | Jrue Holiday o1.5 fg3m | -175 | None | pending | +0.00 |
+| 2026-11-17 | Donovan Clingan o0.5 fg3m | -200 | None | pending | +0.00 |
+| 2026-11-17 | Dylan Harper o4.5 reb | -161 | None | pending | +0.00 |
+| 2026-11-17 | Mikal Bridges o2.5 reb | -156 | None | pending | +0.00 |
+| 2026-11-17 | Josh Hart u1.5 fg3m | -200 | None | pending | +0.00 |
 
 ## Rows
 
