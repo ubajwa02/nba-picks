@@ -19,7 +19,7 @@ from collections import defaultdict
 from zoneinfo import ZoneInfo
 
 from . import config as C
-from . import discord, leans as LN, odds as O, parlay as PZ, propsides as PS, splitcard as SC, validate
+from . import discord, leans as LN, odds as O, parlay as PZ, propsides as PS, sideorder as SO, splitcard as SC, validate
 from .history import read_csv
 from .models.ratings import Game, RatingsModel, RatingsParams, add_rest_days
 from .props import STATS, PropModel, _norm, pair_key, verified_pairs, verify_prop_sides
@@ -592,31 +592,38 @@ def predict(ctx: Ctx) -> dict:
     conflicts = validate.team_conflicts(inj, lambda p: pm.logs.team_of(p, ctx.today))
     failing = validate.failing_sources(ctx.health, CRITICAL_SOURCES, ctx.now)
 
-    def prop_cand(g, book, sel, line, price, fair, basis, pid, name, stat, r, extra_flags=""):
+    def prop_est(g, pid, stat):
+        """(team, opponent, teammates listed out, estimate or None) for one player and stat in this game."""
         team = pm.logs.team_of(pid, ctx.today) if pid else None
         opp = (g["away"] if team == g["home"] else g["home"]) if team in (g["home"], g["away"]) else None
         mates = [(p, n) for p, n in inj_out.get(team, []) if p != str(pid)] if team else []
+        pred = pm.predict(pid, stat, ctx.today, opp, team == g["home"], teammates_out=[p for p, _ in mates],
+                          injury_status=inj_status.get(str(pid))) if pid and opp else None
+        return team, opp, mates, pred
+
+    def prop_cand(g, book, sel, line, price, fair, basis, pid, name, stat, r, extra_flags="", side_basis=None):
+        team, opp, mates, pred = prop_est(g, pid, stat)
         flags = ",".join(x for x in [(r.get("flags") or "").replace("side_unverified", ""), extra_flags,
                                      "conservative_price" if basis == "conservative" else "",
                                      "injury_report_stale" if stale_inj else "",
                                      "player_team_unknown" if pid and not opp else ""] if x)
-        pred = pm.predict(pid, stat, ctx.today, opp, team == g["home"], teammates_out=[p for p, _ in mates],
-                          injury_status=inj_status.get(str(pid))) if pid and opp else None
+        how = dict(side_basis=side_basis) if side_basis else {}     # how the Over was told from the Under (DraftKings pairs)
         base = dict(game_id=g["game_id"], start_utc=g["start_utc"], home=g["home"], away=g["away"], market="prop",
                     selection=sel, line=line, price_dec=price, book=book, price_observed_at=r["as_of"],
                     player_id=pid, player_name=name, stat=stat, team=team, flags=flags, model_version=pm.version)
         if pred is None:
-            c = Candidate(prob=None, **base)
+            c = Candidate(prob=None, fair=fair, **base)
             c.decision = "reject"
             c.reasons.append("no model estimate: " + ("player not matched to a team in this game" if pid and not opp
                                                        else "too little player history" if pid else "player not identified"))
-            c.inputs = dict(snap_id=r["snap_id"], price_basis=basis, implied=round(1 / price, 4), quality_flags=flags.split(",") if flags else [])
+            c.inputs = dict(snap_id=r["snap_id"], price_basis=basis, implied=round(1 / price, 4),
+                            quality_flags=flags.split(",") if flags else [], **how)
             return c
         prob, push = pm.prob(pred, line, sel)
         ex = pm.explain(pred, pid, stat, line, sel, ctx.today, opp, [n for _, n in mates], inj_status.get(str(pid)))
         c = Candidate(prob=prob, push=push, fair=fair, **base)
         c.inputs = dict(snap_id=r["snap_id"], price_basis=basis, implied=round(1 / price, 4), explain=ex,
-                        quality_flags=[f for f in flags.split(",") if f] + ex.get("flags", []))
+                        quality_flags=[f for f in flags.split(",") if f] + ex.get("flags", []), **how)
         c = judge(c, cfg, ctx.now, inj, key_minutes)
         if c.decision in ("eligible", "watch"):
             why = None
@@ -634,8 +641,31 @@ def predict(ctx: Ctx) -> dict:
                 c.decision = "hold"; c.reasons.append(why)
         return c
 
+    def order_evidence(quotes, g):
+        """[(fair chance of the first-listed side, model P(over))] for the game's DraftKings pairs with an estimate."""
+        out = []
+        for qkey, sides in quotes.items():
+            book, market, player, stat = qkey[:4]
+            if market != "prop" or book not in SO.BOOKS or set(sides) != {"side0", "side1"} or stat not in STATS or not player:
+                continue
+            d0, d1 = sides["side0"]["price_dec"], sides["side1"]["price_dec"]
+            if not PS.plausible_pair(d0, d1):
+                continue
+            pred = prop_est(g, str(player), stat)[3]
+            if pred is None:
+                continue
+            p, push = pm.prob(pred, sides["side0"]["line"], "over")
+            out.append((O.devig_multiplicative([d0, d1])[0], p / max(1e-9, 1 - push)))
+        return out
+
+    # ESPN lists the DraftKings Over first (nbapicks/sideorder.py). Used only with evidence for it and none against.
+    quotes_of = {g["game_id"]: latest_quotes(ctx, g["game_id"]) for g in games}
+    order_mode = "auto" if (cfg.get("prop_sides") or {}).get("listing_order", "auto") in ("auto", True) else "off"
+    order_results = SO.status(SO.load(ctx.root), ctx.today)
+    order_run = SO.run_check({g["game_id"]: order_evidence(quotes_of[g["game_id"]], g) for g in games} if order_mode == "auto" else {})
+    order_ok, order_why = SO.decide(order_mode, order_results, order_run["slate"])
     for g in games:
-        quotes = latest_quotes(ctx, g["game_id"])
+        quotes = quotes_of[g["game_id"]]
         espn_props = [r for (b, m, *_), sides in quotes.items() if m == "prop" and b == "DraftKings" for r in sides.values()]
         b365_props = [r for (b, m, *_), sides in quotes.items() if m == "prop" and b == "bet365" for r in sides.values()]
         first_is_over, agree, n = verify_prop_sides(espn_props, b365_props, min_n=8)
@@ -643,6 +673,11 @@ def predict(ctx: Ctx) -> dict:
         lad = PS.ladders(b365_props)
         labelled = defaultdict(int)
         implausible = 0
+        ladder_vote = defaultdict(int)
+        order_game = order_run["games"].get(g["game_id"]) or dict(n=0, r=None, verdict="thin")
+        # a labelled feed that votes the other way for this game wins the argument: nothing is labelled
+        clash = order_ok and first_is_over is False
+        by_order = order_ok and not clash and order_game["verdict"] != "against"
         hr = (ctx.today - last_rest[g["home"]]).days if g["home"] in last_rest else None
         ar = (ctx.today - last_rest[g["away"]]).days if g["away"] in last_rest else None
         pred = model.predict(g["home"], g["away"], hr, ar) if model.ready() else None
@@ -697,22 +732,34 @@ def predict(ctx: Ctx) -> dict:
                 if not PS.plausible_pair(r0["price_dec"], sides["side1"]["price_dec"]):
                     implausible += 1     # not a two-way market at this line: not priced
                     continue
-                label = None
-                if pair_key(r0) in ok_pairs:
-                    label = "side0" if first_is_over else "side1"
-                else:
-                    label = PS.label_pair(r0["price_dec"], sides["side1"]["price_dec"],
-                                          lad.get((_norm(r0.get("player_name") or ""), stat)), line)
+                label = told_by = None
+                ladder = PS.label_pair(r0["price_dec"], sides["side1"]["price_dec"],
+                                       lad.get((_norm(r0.get("player_name") or ""), stat)), line) if lad else None
+                if by_order:
+                    label, told_by = "side0", "listing_order"
+                    if ladder:
+                        ladder_vote[ladder == "side0"] += 1     # monitoring only: the ladder mislabels near-even pairs
+                elif clash:
+                    pass
+                elif pair_key(r0) in ok_pairs:
+                    label, told_by = ("side0" if first_is_over else "side1"), "bet365_pair"
+                elif ladder:
+                    label, told_by = ladder, "bet365_ladder"
                 labelled[label is not None] += 1
                 priced = PS.price_sides(sides, label)
                 for sel in ("over", "under"):
                     price, fair, basis = priced[sel]
                     src = sides[label] if label and sel == "over" else sides[{"side0": "side1", "side1": "side0"}[label]] if label else r0
                     cands.append(prop_cand(g, book, sel, line, price, fair, basis, str(player) if player else None,
-                                           r0.get("player_name"), stat, src))
+                                           r0.get("player_name"), stat, src, side_basis=told_by))
         side_check[g["game_id"]] = dict(first_is_over=first_is_over, agreement=agree, n=n, pairs_verified=len(ok_pairs),
                                         pairs_labelled=labelled[True], pairs_conservative=labelled[False],
-                                        pairs_implausible=implausible)
+                                        pairs_implausible=implausible,
+                                        order="listing_order" if by_order else "not used: " + (
+                                            "a labelled feed votes the other way in this game" if clash else
+                                            "the model and the first-listed prices disagree in this game" if order_ok else order_why),
+                                        order_pairs=order_game["n"], order_rank_corr=order_game["r"],
+                                        ladder_agrees=ladder_vote[True], ladder_disagrees=ladder_vote[False])
     if failing:
         for c in cands:
             if c.decision in ("eligible", "watch"):
@@ -786,6 +833,7 @@ def predict(ctx: Ctx) -> dict:
                                                          cards=cards))
     summary = dict(run_id=run_id, slate=slate, games=len(games), model=model_id, prop_model=pm.version, model_ready=model.ready(),
                    candidates=len(cands), written=written, decisions=dict(counts), prop_side_check=side_check,
+                   prop_side_order=dict(used=order_ok, why=order_why, results=order_results, run=order_run["slate"]),
                    eligible=len(publishable), parlays=sum(p["kind"] == "parlay" for p in parlays),
                    lottos=sum(p["kind"] == "lotto" for p in parlays), split_cards=len(cards),
                    injuries_observed_at=inj_doc.get("observed_at"), pred_ids=pred_ids)
@@ -1040,6 +1088,11 @@ def settle(ctx: Ctx) -> dict:
         out.update({f"signals_{k}": v for k, v in compare_with_model(ctx).items() if v})
     except Exception as e:
         ctx.fail("signals_compare", e)
+    try:
+        out["prop_side_order"] = SO.refresh(ctx)["status"]
+    except Exception as e:       # a check must never block settlement; a status that is not refreshed goes stale (SO.status)
+        log.warning("prop side order check failed: %s", e)
+        ctx.notes.append(f"prop side order check failed: {str(e)[:120]}")
     return dict(out)
 
 

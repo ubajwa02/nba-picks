@@ -1,0 +1,57 @@
+{
+ "book": "DraftKings",
+ "changes": [],
+ "pairs": 8152,
+ "rule": {
+  "confirm": "slope - 3 se > 0 on >= 300 pairs",
+  "fail": "slope + 3 se < 0.75 on >= 100 pairs",
+  "max_age_days": 60,
+  "windows": [
+   1,
+   3,
+   10,
+   30
+  ]
+ },
+ "status": "confirmed",
+ "through": "2026-11-16",
+ "why": "slope +1.05 (se 0.10) on 8,152 graded pairs over 24 slates",
+ "windows": [
+  {
+   "first": "2026-11-16",
+   "last": "2026-11-16",
+   "pairs": 392,
+   "se": 0.566,
+   "slates": 1,
+   "slope": 1.718,
+   "verdict": "ok"
+  },
+  {
+   "first": "2026-11-14",
+   "last": "2026-11-16",
+   "pairs": 1016,
+   "se": 0.306,
+   "slates": 3,
+   "slope": 1.339,
+   "verdict": "ok"
+  },
+  {
+   "first": "2026-11-07",
+   "last": "2026-11-16",
+   "pairs": 3292,
+   "se": 0.156,
+   "slates": 10,
+   "slope": 1.128,
+   "verdict": "ok"
+  },
+  {
+   "first": "2026-10-20",
+   "last": "2026-11-16",
+   "pairs": 8152,
+   "se": 0.098,
+   "slates": 24,
+   "slope": 1.046,
+   "verdict": "ok"
+  }
+ ]
+}

@@ -211,7 +211,9 @@ def _line_ok(r: dict) -> bool:
 def parse_propbets(d: dict, game_id: str, book: str, observed_at: str, athletes: dict[str, str]) -> list[dict]:
     """Player O/U props. ESPN lists each line twice (over and under) without labelling
     which is which, so rows carry selection 'side0'/'side1' in listing order and flag
-    'side_unverified'. Qualification refuses them until the order is verified."""
+    'side_unverified'. Qualification refuses them until the order is verified.
+    For DraftKings the first one listed is the Over; nbapicks/sideorder.py measures that on
+    results after every settle and predict labels the pair only while it holds."""
     out, seen = [], {}
     for it in d.get("items", []):
         stat = PROP_STATS.get(it.get("type", {}).get("name"))
