@@ -1,13 +1,13 @@
-# Pick review (cumulative, as of 2026-11-17)
+# Pick review (cumulative, as of 2026-11-18)
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
 - 85-53 on 138 graded posted picks, +2.15u. Far too few to judge.
 - By market: ml 2-2 (-0.44u); prop 79-50 (+0.01u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
 - By model-vs-book gap: gap 5-15pts 21-12 (+4.91u); gap<5pts 61-40 (-4.20u); gap>=15pts 3-1 (+1.44u).
-- By closing-line move: flat 8-3 (+3.56u); moved away 11-1 (+5.11u); moved toward us 8-6 (+0.01u).
-- By prop split sample: fuller splits 11-11 (-3.71u); small-sample splits 55-23 (+10.52u).
-- Wider settled predictions (n=46911): model Brier 0.1564 vs book 0.152 (lower is better).
+- By closing-line move: flat 9-3 (+4.17u); moved away 12-1 (+5.70u); moved toward us 9-6 (+0.67u).
+- By prop split sample: fuller splits 20-19 (-5.96u); small-sample splits 56-25 (+9.07u).
+- Wider settled predictions (n=57220): model Brier 0.1551 vs book 0.1502 (lower is better).
 
 ## 2026-11-16
 
@@ -42,44 +42,44 @@ Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/pri
 
 | Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
 |---|---|---|---|---|---|---|---|
-| Zach LaVine o2.5 reb | win | +0.61 | 0.628 | 0.621 | +0.01 |  |  |
-| Toumani Camara u12.5 pts | loss | -1.00 | 0.629 | 0.561 | +0.12 |  |  |
-| Keyonte George u2.5 fg3m | loss | -1.00 | 0.694 | 0.662 | +0.05 |  |  |
+| Zach LaVine o2.5 reb | win | +0.61 | 0.628 | 0.621 | +0.01 | +0.001 | career 171/229, season 9/11, last10 8/10 |
+| Toumani Camara u12.5 pts | loss | -1.00 | 0.629 | 0.561 | +0.12 |  | career 151/247, season 5/11, last10 5/10 |
+| Keyonte George u2.5 fg3m | loss | -1.00 | 0.694 | 0.662 | +0.05 |  | career 125/207, season 8/11, last10 8/10 |
 | Derik Queen o11.5 pts | loss | -1.00 | 0.635 | 0.561 | +0.13 |  |  |
-| Davion Mitchell u2.5 fg3m | loss | -1.00 | 0.642 | 0.621 | +0.03 |  |  |
+| Davion Mitchell u2.5 fg3m | loss | -1.00 | 0.642 | 0.621 | +0.03 |  | career 282/322, season 5/11, last10 4/10 |
 
 ## 2026-11-12
 
 | Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
 |---|---|---|---|---|---|---|---|
-| Trae Young u2.5 fg3m | loss | -1.00 | 0.694 | 0.654 | +0.06 |  |  |
-| Rudy Gobert u11.5 reb | win | +0.74 | 0.607 | 0.575 | +0.06 |  |  |
-| RJ Barrett o3.5 ast | win | +0.62 | 0.611 | 0.617 | -0.01 |  |  |
-| Joel Embiid u4.5 ast | win | +0.68 | 0.616 | 0.595 | +0.04 |  |  |
-| Jalen Green o2.5 ast | loss | -1.00 | 0.625 | 0.636 | -0.02 |  |  |
-| Alex Sarr u7.5 reb | loss | -1.00 | 0.634 | 0.592 | +0.07 |  |  |
+| Trae Young u2.5 fg3m | loss | -1.00 | 0.694 | 0.654 | +0.06 |  | career 132/240, season 7/12, last10 6/10 |
+| Rudy Gobert u11.5 reb | win | +0.74 | 0.607 | 0.575 | +0.06 |  | career 170/350, season 5/10, last10 5/10 |
+| RJ Barrett o3.5 ast | win | +0.62 | 0.611 | 0.617 | -0.01 |  | career 129/274, season 6/11, last10 6/10 |
+| Joel Embiid u4.5 ast | win | +0.68 | 0.616 | 0.595 | +0.04 |  | career 107/195, season 6/10, last10 6/10 |
+| Jalen Green o2.5 ast | loss | -1.00 | 0.625 | 0.636 | -0.02 |  | career 189/294, season 6/10, last10 6/10 |
+| Alex Sarr u7.5 reb | loss | -1.00 | 0.634 | 0.592 | +0.07 |  | career 76/126, season 5/11, last10 5/10 |
 
 ## 2026-11-11
 
 | Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
 |---|---|---|---|---|---|---|---|
-| Victor Wembanyama u3.5 ast | win | +0.57 | 0.662 | 0.636 | +0.04 |  |  |
-| Sandro Mamukelashvili u1.5 fg3m | loss | -1.00 | 0.683 | 0.657 | +0.04 |  |  |
-| Jared McCain u3.5 reb | loss | -1.00 | 0.648 | 0.621 | +0.04 |  |  |
-| Darryn Peterson u2.5 fg3m | win | +0.55 | 0.653 | 0.645 | +0.01 |  |  |
+| Victor Wembanyama u3.5 ast | win | +0.57 | 0.662 | 0.636 | +0.04 |  | career 123/214, season 8/11, last10 7/10 |
+| Sandro Mamukelashvili u1.5 fg3m | loss | -1.00 | 0.683 | 0.657 | +0.04 |  | career 181/246, season 8/12, last10 6/10 |
+| Jared McCain u3.5 reb | loss | -1.00 | 0.648 | 0.621 | +0.04 |  | career 89/114, season 6/11, last10 5/10 |
+| Darryn Peterson u2.5 fg3m | win | +0.55 | 0.653 | 0.645 | +0.01 |  | career 5/11, season 5/11, last10 4/10 |
 | Christian Braun u4.5 reb | loss | -1.00 | 0.653 | 0.625 | +0.04 |  |  |
-| Brandin Podziemski u3.5 ast | loss | -1.00 | 0.626 | 0.642 | -0.02 |  |  |
+| Brandin Podziemski u3.5 ast | loss | -1.00 | 0.626 | 0.642 | -0.02 |  | career 126/244, season 4/9, last10 5/10 |
 
 ## 2026-11-10
 
 | Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
 |---|---|---|---|---|---|---|---|
-| VJ Edgecombe o2.5 ast | win | +0.66 | 0.628 | 0.603 | +0.04 |  |  |
+| VJ Edgecombe o2.5 ast | win | +0.66 | 0.628 | 0.603 | +0.04 | +0.046 | career 72/97, season 5/10, last10 5/10 |
 | Scoot Henderson u1.5 ast | loss | -1.00 | 0.641 | 0.657 | -0.03 |  |  |
-| Payton Pritchard o2.5 reb | win | +0.59 | 0.654 | 0.628 | +0.04 |  |  |
-| OG Anunoby u2.5 ast | win | +0.56 | 0.671 | 0.642 | +0.05 |  |  |
-| Kris Dunn o3.5 ast | loss | -1.00 | 0.627 | 0.617 | +0.02 |  |  |
-| Isaiah Hartenstein u10.5 reb | win | +0.73 | 0.644 | 0.578 | +0.11 |  |  |
+| Payton Pritchard o2.5 reb | win | +0.59 | 0.654 | 0.628 | +0.04 | -0.013 | career 203/344, season 6/10, last10 6/10 |
+| OG Anunoby u2.5 ast | win | +0.56 | 0.671 | 0.642 | +0.05 |  | career 208/311, season 7/9, last10 8/10 |
+| Kris Dunn o3.5 ast | loss | -1.00 | 0.627 | 0.617 | +0.02 |  | career 118/260, season 6/9, last10 7/10 |
+| Isaiah Hartenstein u10.5 reb | win | +0.73 | 0.644 | 0.578 | +0.11 |  | career 245/333, season 4/10, last10 4/10 |
 
 ## 2026-11-09
 
