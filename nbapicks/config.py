@@ -68,5 +68,8 @@ def validate(c: dict) -> None:
         errs.append("publishing.dry_run must be true or false")
     if "http" in str(c.get("publishing", {}).get("webhook_secret", "")):
         errs.append("publishing.webhook_secret is the NAME of a secret, never the URL")
+    lo = (c.get("prop_sides") or {}).get("listing_order", "auto")
+    if lo not in ("auto", "off", True, False):      # YAML reads a bare on/off as true/false
+        errs.append(f"prop_sides.listing_order must be auto or off, got {lo!r}")
     if errs:
         raise ConfigError("; ".join(errs))

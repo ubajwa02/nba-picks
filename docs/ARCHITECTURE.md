@@ -43,3 +43,5 @@ FanDuel Ontario has no permitted data feed. Picks show the reference book and pr
 ## Self-improvement loop
 
 `diagnose.py` measures calibration, drift and segment performance on settled predictions and queues at most three hypotheses in `data/research/queue.yaml`. The weekly research workflow evaluates queued challengers walk-forward, appends every run to `data/research/experiments.jsonl` (registered before evaluation), and applies `config/gates.yaml`. Promotions need the gates plus an independent review; demotions are automatic.
+
+A second, daily loop works on results instead of models (`learn.py`, `docs/LEARNING.md`). After every graded slate it refits a fixed list of small corrections to the DraftKings fair chance on the earlier slates, scores each on the new slate, and puts one in force only when the evidence on unseen slates clears the `learning` gate of `config/gates.yaml`; it takes it out again by itself when it stops working. It also keeps a scoreboard of simple rules at the last price before tip and compares posted picks with later prices. It never promotes a market or a model: that stays with the weekly cycle and its gates.

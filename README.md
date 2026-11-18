@@ -37,4 +37,4 @@ python -m nbapicks.research              # walk-forward experiments on data/hist
 
 Live data is fetched from GitHub Actions runners (see `docs/OPERATIONS.md`); the development container has no route to the sports data hosts.
 
-Docs: [architecture](docs/ARCHITECTURE.md) · [operations](docs/OPERATIONS.md) · [data sources](docs/sources.yaml)
+Docs: [architecture](docs/ARCHITECTURE.md) · [operations](docs/OPERATIONS.md) · [data sources](docs/sources.yaml) · [prop side labels](docs/SIDE_ORDER.md) · [learning loop](docs/LEARNING.md)

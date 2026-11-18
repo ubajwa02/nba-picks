@@ -17,6 +17,10 @@ Two honest ways to price a side without guessing:
    one of the two prices, so the worse (lower) decimal price is a price we certainly
    could have had or better. EV and ROI computed at it are lower bounds. No price is
    invented; the record says price_basis = "conservative".
+
+Since 2026-11-17 there is a third, and it comes first: ESPN lists the DraftKings Over before the
+Under. nbapicks/sideorder.py holds the evidence and the checks that must keep passing; while they
+do, every pair is labelled by its listing order and the two ways above are only the fallback.
 """
 from __future__ import annotations
 
