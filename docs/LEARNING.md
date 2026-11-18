@@ -49,13 +49,20 @@ Why this test. The obvious test, a t-test on the log loss saved, has half the po
 
 ### How the gate behaves when the truth is known
 
-`python -m tools.learn_gate_sim` builds full seasons of 160 slates from the real slates (their sizes, prices and model estimates), draws the results from a known truth, and replays the loop slate by slate. 800 seasons, each row from seed 1:
+`python -m tools.learn_gate_sim` builds full seasons of 160 slates from the real slates (their sizes, prices and model estimates), draws the results from a known truth, and replays the loop slate by slate. 800 seasons on the 24 real slates through 2026-11-16 (`--seasons 300 --only "market is right"` for the first row, `--seasons 100` for the others, seed 1):
 
-SIM_TABLE
+| the truth in the simulated seasons | seasons | a correction was put in force in | first time (median) | share of the season in force | dropped at least once in | in force at the end in | log loss saved per prop while in force | the same over the whole season |
+|---|---|---|---|---|---|---|---|---|
+| the market is right | 300 | 3 | slate 62 | 0.1% | 3 | 0 | -0.00025 | 0.00000 |
+| Overs 1 point too high | 100 | 93 | slate 75 | 41% | 29 | 88 | +0.00013 | +0.00005 |
+| Overs 2 points too high | 100 | 100 | slate 32 | 78% | 12 | 100 | +0.00073 | +0.00059 |
+| Overs 3 points too high | 100 | 100 | slate 23 | 85% | 2 | 100 | +0.00171 | +0.00150 |
+| the prop model knows 15% of what it disagrees with the market about | 100 | 100 | slate 40 | 71% | 9 | 100 | +0.00084 | +0.00058 |
+| Overs 3 points too high for 60 slates, then the market is right | 100 | 100 | slate 23 | 48% | 100 | 9 | +0.00061 | +0.00031 |
 
 Reading it:
 
-- **It does not act on noise.** NULL_SENTENCE
+- **It does not act on noise.** With the market exactly right, a correction was put in force in 3 of 300 seasons, for 0.1% of all slates, and it was dropped again every time. While in force it cost 0.0002 per prop, which is a fair chance moved by about one point.
 - **It finds a real bias, and how fast depends on its size.** 3 points: as soon as the gate allows (20 slates are the minimum: 5 to learn from, 15 unseen). 2 points: about five weeks. 1 point: about half a season, and in 7 seasons of 100 never. A 2-point bias known exactly from the first day would be worth about 0.0008 of log loss per prop; over a whole season the loop collects 0.0006 of it. The rest is the time it takes to be sure.
 - **A model that knows something is weighed in.** With the truth 15% of the way from the market to the model, `model:` took over from the plain bias corrections in every season.
 - **When a bias ends, the correction fades and is then dropped.** It stayed in force for 41 slates after the change on average, at a cost of 0.0003 per prop over those slates, and the season still ended ahead. This is the case the choice of `recent_shift` is for: when the correction with the most evidence was used instead (the first version of the rule), the same seasons cost 0.0007 per prop after the change and the season's saving was a third lower (0.00021 against 0.00031). Dropping a correction on its last 10, 15 or 20 slates alone was tried on the same seasons as well: it let go sooner after the change, but it also let go of corrections that were still right, and it saved less over the season than the rule above.
