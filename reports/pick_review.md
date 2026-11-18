@@ -2,12 +2,23 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 85-53 on 138 graded posted picks, +2.15u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 79-50 (+0.01u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 21-12 (+4.91u); gap<5pts 61-40 (-4.20u); gap>=15pts 3-1 (+1.44u).
+- 89-55 on 144 graded posted picks, +2.51u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 83-52 (+0.38u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 22-12 (+5.55u); gap<5pts 64-42 (-4.49u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 9-3 (+4.17u); moved away 12-1 (+5.70u); moved toward us 9-6 (+0.67u).
-- By prop split sample: fuller splits 20-19 (-5.96u); small-sample splits 56-25 (+9.07u).
-- Wider settled predictions (n=57220): model Brier 0.1551 vs book 0.1502 (lower is better).
+- By prop split sample: fuller splits 24-21 (-5.60u); small-sample splits 56-25 (+9.07u).
+- Wider settled predictions (n=57646): model Brier 0.1558 vs book 0.1511 (lower is better).
+
+## 2026-11-17
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Mikal Bridges o2.5 reb | win | +0.64 | 0.615 | 0.609 | +0.01 |  | career 274/379, season 9/13, last10 7/10 |
+| Jrue Holiday o1.5 fg3m | win | +0.57 | 0.654 | 0.636 | +0.03 |  | career 188/302, season 10/13, last10 8/10 |
+| Josh Hart u1.5 fg3m | win | +0.50 | 0.606 | 0.667 | -0.09 |  | career 264/370, season 4/10, last10 4/10 |
+| Dylan Harper o4.5 reb | loss | -1.00 | 0.632 | 0.617 | +0.02 |  | career 43/106, season 11/14, last10 8/10 |
+| Donovan Clingan o0.5 fg3m | loss | -1.00 | 0.647 | 0.667 | -0.03 |  | career 74/163, season 9/13, last10 7/10 |
+| Cade Cunningham u5.5 reb | win | +0.65 | 0.662 | 0.606 | +0.09 |  | career 130/238, season 9/12, last10 7/10 |
 
 ## 2026-11-16
 

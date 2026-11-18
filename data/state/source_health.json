@@ -4,17 +4,17 @@
   "last_detail": "",
   "last_error": "2026-11-03T03:37:49Z",
   "last_error_detail": "401909914: played without minutes for player 4683934",
-  "last_ok": "2026-11-17T06:32:20Z"
+  "last_ok": "2026-11-18T04:23:36Z"
  },
  "espn_injuries": {
   "consecutive_failures": 0,
-  "last_detail": "105 listed",
-  "last_ok": "2026-11-18T00:51:54Z"
+  "last_detail": "107 listed",
+  "last_ok": "2026-11-18T04:57:26Z"
  },
  "espn_odds": {
   "consecutive_failures": 0,
   "last_detail": "",
-  "last_ok": "2026-11-18T00:51:54Z"
+  "last_ok": "2026-11-18T04:57:26Z"
  },
  "espn_props": {
   "consecutive_failures": 0,
@@ -26,12 +26,12 @@
  "espn_scoreboard": {
   "consecutive_failures": 0,
   "last_detail": "",
-  "last_ok": "2026-11-18T00:51:54Z"
+  "last_ok": "2026-11-18T04:57:26Z"
  },
  "moviodds": {
-  "consecutive_failures": 11,
+  "consecutive_failures": 13,
   "last_detail": "260 quotes; 0 unmapped",
-  "last_error": "2026-11-18T00:51:54Z",
+  "last_error": "2026-11-18T04:57:26Z",
   "last_error_detail": "https://moviodds.com/odds?sport=basketball: 401 Unauthorized",
   "last_ok": "2026-11-16T01:26:14Z"
  },
