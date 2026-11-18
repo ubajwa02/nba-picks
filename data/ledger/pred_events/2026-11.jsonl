@@ -5258,3 +5258,38 @@
 {"at": "2026-11-18T08:28:39Z", "data": {"stake": 1.0}, "event_id": "9476b82d8e2925bb", "net_units": 2.319047619047619, "pred_id": "0db06f3ab8c85071", "result": "win", "type": "settled"}
 {"at": "2026-11-18T08:28:39Z", "data": {"stake": 1.0}, "event_id": "8ed027dd8cd2de29", "net_units": 3.4000000000000004, "pred_id": "ef2be8fe79105a47", "result": "win", "type": "settled"}
 {"at": "2026-11-18T08:28:39Z", "data": {"stake": 1.0}, "event_id": "0d7ec8951b2cbe67", "net_units": -1.0, "pred_id": "d5e99741f473cc31", "result": "loss", "type": "settled"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "0f62ad052616028e", "pred_id": "565e65273faf8403", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "4131f31d778874fa", "pred_id": "25232c5943b0ece1", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "39da256ea648331d", "pred_id": "3d5ca8c89abd12fa", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "4edb47dc9fd779b0", "pred_id": "3d47e9e1b27e842c", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "2574251cef391b75", "pred_id": "20dfb9da9da5617a", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "dd2586c94d7ab835", "pred_id": "0b8c59d827046b95", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "b6d0a75f58d8744f", "pred_id": "7ec173017ec724fc", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "752e975149ee3d84", "pred_id": "8671a615b190d856", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "f1aa72bc275fbb68", "pred_id": "096a2346accffc8a", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "03c7af32bb81c870", "pred_id": "6553ed1f5921f646", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "69b0078f591344d1", "pred_id": "8e10e844f4925416", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "12ed5438c437c483", "pred_id": "0a385243a06d65df", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "8fbde102e04cbec2", "pred_id": "fbe166abe0088a76", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "557f851152d344dc", "pred_id": "39422e52ee8e7566", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "4e7b2151af95ff83", "pred_id": "391d995a92a51a06", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "6e9715355913c608", "pred_id": "b8ee0fdec1e3d378", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "3d5150d8ffb7afe6", "pred_id": "72d475adf0c4e1ee", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "da4ca672b5fd2a3f", "pred_id": "31bdd77138ab9b20", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "87e6d6697e9b880f", "pred_id": "f2f1cda974847f2c", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "ba5694648c34d06b", "pred_id": "c64f3bc94ce2ba60", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "82231af4de8952a7", "pred_id": "10df04a281939bca", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "20256387a8e90bd2", "pred_id": "d6cd05d7fb6e2d40", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "54b15c2a6aa31abc", "pred_id": "10d1776a4e1c42cc", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "fe9bdf9e3a273946", "pred_id": "2ece8470dcb38d45", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "2e7b335704b2f2ee", "pred_id": "5ea7d5d5c46fc60b", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "dd969f685aa10718", "pred_id": "dfd3df2f140a7369", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "cc937e183f193d25", "pred_id": "961ec6ca42490cba", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "f1f4ec5b89b87977", "pred_id": "64f8162905f3a55e", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "a8472a606bab5c08", "pred_id": "483d5dbaa200ce57", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "f08c07d4e8ba26c5", "pred_id": "6440c1dc0335c4fb", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "6f1bf798db5440ed", "pred_id": "6d76ea264acbd90f", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "6017060ea2d6621d", "pred_id": "04c6f676bb75f4a8", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "6f0943eeb579c6eb", "pred_id": "680517771f19a207", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "ede4177f17455c95", "pred_id": "135fd053859d58de", "type": "note"}
+{"at": "2026-11-18T21:46:54Z", "data": {"paper_record": true}, "event_id": "c69427bab9128178", "pred_id": "bfdaff7b6f8edfa6", "type": "note"}

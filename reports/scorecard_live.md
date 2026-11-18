@@ -42,7 +42,7 @@ Brier: model 0.1564 vs market-implied 0.1515 (n=57916; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 89-55-0, +2.51u, pending 0.
+Record 89-55-0, +2.51u, pending 6.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -194,6 +194,12 @@ Record 89-55-0, +2.51u, pending 0.
 | 2026-11-17 | Dylan Harper o4.5 reb | -161 | 4 | loss | -1.00 |
 | 2026-11-17 | Mikal Bridges o2.5 reb | -156 | 5 | win | +0.64 |
 | 2026-11-17 | Josh Hart u1.5 fg3m | -200 | 1 | win | +0.50 |
+| 2026-11-18 | Quentin Grimes u3.5 reb | -156 | None | pending | +0.00 |
+| 2026-11-18 | Darryn Peterson u4.5 ast | -167 | None | pending | +0.00 |
+| 2026-11-18 | Miles Bridges o5.5 reb | -141 | None | pending | +0.00 |
+| 2026-11-18 | Cade Cunningham u5.5 reb | -159 | None | pending | +0.00 |
+| 2026-11-18 | Daniss Jenkins u2.5 fg3m | -192 | None | pending | +0.00 |
+| 2026-11-18 | Myles Turner u1.5 fg3m | -135 | None | pending | +0.00 |
 
 ## Rows
 
