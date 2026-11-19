@@ -2,12 +2,22 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 89-55 on 144 graded posted picks, +2.51u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 83-52 (+0.38u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 22-12 (+5.55u); gap<5pts 64-42 (-4.49u); gap>=15pts 3-1 (+1.44u).
+- 92-57 on 149 graded posted picks, +2.56u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 86-54 (+0.42u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 25-13 (+6.60u); gap<5pts 64-43 (-5.49u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 9-3 (+4.17u); moved away 12-1 (+5.70u); moved toward us 9-6 (+0.67u).
-- By prop split sample: fuller splits 24-21 (-5.60u); small-sample splits 56-25 (+9.07u).
-- Wider settled predictions (n=57916): model Brier 0.1564 vs book 0.1515 (lower is better).
+- By prop split sample: fuller splits 27-23 (-5.55u); small-sample splits 56-25 (+9.07u).
+- Wider settled predictions (n=59500): model Brier 0.1593 vs book 0.1544 (lower is better).
+
+## 2026-11-18
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Quentin Grimes u3.5 reb | loss | -1.00 | 0.688 | 0.609 | +0.13 |  | career 180/306, season 8/13, last10 6/10 |
+| Myles Turner u1.5 fg3m | win | +0.74 | 0.634 | 0.575 | +0.10 |  | career 166/336, season 8/13, last10 7/10 |
+| Miles Bridges o5.5 reb | win | +0.71 | 0.649 | 0.585 | +0.11 |  | career 144/225, season 9/13, last10 7/10 |
+| Darryn Peterson u4.5 ast | win | +0.60 | 0.680 | 0.625 | +0.09 |  | career 11/15, season 11/15, last10 6/10 |
+| Daniss Jenkins u2.5 fg3m | loss | -1.00 | 0.635 | 0.657 | -0.03 |  | career 91/103, season 9/13, last10 7/10 |
 
 ## 2026-11-17
 
