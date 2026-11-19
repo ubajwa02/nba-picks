@@ -42,7 +42,7 @@ Brier: model 0.1593 vs market-implied 0.1544 (n=59500; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 92-57-0, +2.56u, pending 0.
+Record 92-57-0, +2.56u, pending 3.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -200,6 +200,9 @@ Record 92-57-0, +2.56u, pending 0.
 | 2026-11-18 | Cade Cunningham u5.5 reb | -159 | None | void | +0.00 |
 | 2026-11-18 | Daniss Jenkins u2.5 fg3m | -192 | 3 | loss | -1.00 |
 | 2026-11-18 | Myles Turner u1.5 fg3m | -135 | 0 | win | +0.74 |
+| 2026-11-19 | Will Richard u1.5 fg3m | -189 | None | pending | +0.00 |
+| 2026-11-19 | Cedric Coward o1.5 fg3m | -196 | None | pending | +0.00 |
+| 2026-11-19 | Brook Lopez o4.5 reb | -127 | None | pending | +0.00 |
 
 ## Rows
 

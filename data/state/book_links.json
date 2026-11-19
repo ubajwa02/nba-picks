@@ -1,1564 +1,642 @@
 {
- "401910009": {
+ "401910019": {
   "books": {
    "draftkings": [
     {
-     "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234512%232370531066_13L42648Q1-584755362Q20",
-     "market": "prop",
-     "player": "klay thompson",
-     "selection": "over",
-     "sid": "0QA390234512#2370531066_13L42648Q1-584755362Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234512%232370531067_13L42648Q1-1581327307Q20",
-     "market": "prop",
-     "player": "klay thompson",
-     "selection": "under",
-     "sid": "0QA390234512#2370531067_13L42648Q1-1581327307Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234408%232369910542_13L42648Q1-717019713Q20",
-     "market": "prop",
-     "player": "tyler herro",
-     "selection": "over",
-     "sid": "0QA390234408#2369910542_13L42648Q1-717019713Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234408%232369910645_13L42648Q1-278668562Q20",
-     "market": "prop",
-     "player": "tyler herro",
-     "selection": "under",
-     "sid": "0QA390234408#2369910645_13L42648Q1-278668562Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234167%232369909454_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "davion mitchell",
-     "selection": "over",
-     "sid": "0QA390234167#2369909454_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234167%232369909464_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "davion mitchell",
-     "selection": "under",
-     "sid": "0QA390234167#2369909464_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234785%232369911775_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "myles turner",
-     "selection": "over",
-     "sid": "0QA390234785#2369911775_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234785%232369911831_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "myles turner",
-     "selection": "under",
-     "sid": "0QA390234785#2369911831_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234170%232369909576_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "kyle kuzma",
-     "selection": "over",
-     "sid": "0QA390234170#2369909576_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234170%232369909593_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "kyle kuzma",
-     "selection": "under",
-     "sid": "0QA390234170#2369909593_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234964%232369912471_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "andrew wiggins",
-     "selection": "over",
-     "sid": "0QA390234964#2369912471_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234964%232369912472_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "andrew wiggins",
-     "selection": "under",
-     "sid": "0QA390234964#2369912472_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234254%232369909565_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "brayden burries",
-     "selection": "over",
-     "sid": "0QA390234254#2369909565_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234254%232369909582_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "brayden burries",
-     "selection": "under",
-     "sid": "0QA390234254#2369909582_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234257%232370025956_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "jaime jaquez",
-     "selection": "over",
-     "sid": "0QA390234257#2370025956_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234257%232370025957_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "jaime jaquez",
-     "selection": "under",
-     "sid": "0QA390234257#2370025957_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234702%232369911353_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "bobby portis",
-     "selection": "over",
-     "sid": "0QA390234702#2369911353_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234702%232369911396_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "bobby portis",
-     "selection": "under",
-     "sid": "0QA390234702#2369911396_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234675%232369911444_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "bam adebayo",
-     "selection": "over",
-     "sid": "0QA390234675#2369911444_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234675%232369911502_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "bam adebayo",
-     "selection": "under",
-     "sid": "0QA390234675#2369911502_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234724%232370533718_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "pelle larsson",
-     "selection": "over",
-     "sid": "0QA390234724#2370533718_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390234724%232370533719_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "pelle larsson",
-     "selection": "under",
-     "sid": "0QA390234724#2370533719_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    }
-   ],
-   "fanduel": [
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626458560&selectionId=12234258",
-     "market": "prop",
-     "player": "myles turner",
-     "selection": "over",
-     "sid": "12234258",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626458560&selectionId=12234259",
-     "market": "prop",
-     "player": "myles turner",
-     "selection": "under",
-     "sid": "12234259",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626458562&selectionId=13527607",
-     "market": "prop",
-     "player": "kyle kuzma",
-     "selection": "over",
-     "sid": "13527607",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626458562&selectionId=13527606",
-     "market": "prop",
-     "player": "kyle kuzma",
-     "selection": "under",
-     "sid": "13527606",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626458561&selectionId=26611574",
-     "market": "prop",
-     "player": "tyler herro",
-     "selection": "over",
-     "sid": "26611574",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626458561&selectionId=26611575",
-     "market": "prop",
-     "player": "tyler herro",
-     "selection": "under",
-     "sid": "26611575",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626458559&selectionId=92719057",
-     "market": "prop",
-     "player": "brayden burries",
-     "selection": "over",
-     "sid": "92719057",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626458559&selectionId=92719056",
-     "market": "prop",
-     "player": "brayden burries",
-     "selection": "under",
-     "sid": "92719056",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626455425&selectionId=50113210",
-     "market": "prop",
-     "player": "pelle larsson",
-     "selection": "over",
-     "sid": "50113210",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626455425&selectionId=50113212",
-     "market": "prop",
-     "player": "pelle larsson",
-     "selection": "under",
-     "sid": "50113212",
-     "stat": "fg3m"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626455422&selectionId=12260608",
-     "market": "prop",
-     "player": "klay thompson",
-     "selection": "over",
-     "sid": "12260608",
-     "stat": "fg3m"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626455422&selectionId=12260607",
-     "market": "prop",
-     "player": "klay thompson",
-     "selection": "under",
-     "sid": "12260607",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626455423&selectionId=40195572",
-     "market": "prop",
-     "player": "davion mitchell",
-     "selection": "over",
-     "sid": "40195572",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626455423&selectionId=40195573",
-     "market": "prop",
-     "player": "davion mitchell",
-     "selection": "under",
-     "sid": "40195573",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626455424&selectionId=12257194",
-     "market": "prop",
-     "player": "andrew wiggins",
-     "selection": "over",
-     "sid": "12257194",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626455424&selectionId=12257195",
-     "market": "prop",
-     "player": "andrew wiggins",
-     "selection": "under",
-     "sid": "12257195",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626455421&selectionId=22043940",
-     "market": "prop",
-     "player": "bam adebayo",
-     "selection": "over",
-     "sid": "22043940",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626455421&selectionId=22043941",
-     "market": "prop",
-     "player": "bam adebayo",
-     "selection": "under",
-     "sid": "22043941",
-     "stat": "fg3m"
-    }
-   ]
-  },
-  "markets": [
-   "player_threes"
-  ],
-  "observed_at": "2026-11-18T21:46:54Z",
-  "slate": "2026-11-18"
- },
- "401910012": {
-  "books": {
-   "draftkings": [
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390239308%232369936865_13L42648Q1-717019713Q20",
-     "market": "prop",
-     "player": "immanuel quickley",
-     "selection": "over",
-     "sid": "0QA390239308#2369936865_13L42648Q1-717019713Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390239308%232369936881_13L42648Q1-278668562Q20",
-     "market": "prop",
-     "player": "immanuel quickley",
-     "selection": "under",
-     "sid": "0QA390239308#2369936881_13L42648Q1-278668562Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390239605%232369937887_13L42648Q1-717019713Q20",
-     "market": "prop",
-     "player": "jakobe walter",
-     "selection": "over",
-     "sid": "0QA390239605#2369937887_13L42648Q1-717019713Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390239605%232369937987_13L42648Q1-278668562Q20",
-     "market": "prop",
-     "player": "jakobe walter",
-     "selection": "under",
-     "sid": "0QA390239605#2369937987_13L42648Q1-278668562Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390240056%232369938896_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "rj barrett",
-     "selection": "over",
-     "sid": "0QA390240056#2369938896_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390240056%232369938967_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "rj barrett",
-     "selection": "under",
-     "sid": "0QA390240056#2369938967_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390239423%232369937200_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "trae young",
-     "selection": "over",
-     "sid": "0QA390239423#2369937200_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390239423%232369937214_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "trae young",
-     "selection": "under",
-     "sid": "0QA390239423#2369937214_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390239766%232369937624_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "kyshawn george",
-     "selection": "over",
-     "sid": "0QA390239766#2369937624_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390239766%232369937670_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "kyshawn george",
-     "selection": "under",
-     "sid": "0QA390239766#2369937670_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390239851%232369938308_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "tre johnson",
-     "selection": "over",
-     "sid": "0QA390239851#2369938308_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390239851%232369938388_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "tre johnson",
-     "selection": "under",
-     "sid": "0QA390239851#2369938388_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390239734%232371245455_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "jamal shead",
-     "selection": "over",
-     "sid": "0QA390239734#2371245455_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390239734%232371245456_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "jamal shead",
-     "selection": "under",
-     "sid": "0QA390239734#2371245456_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390239782%232370708206_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "aj dybantsa",
-     "selection": "over",
-     "sid": "0QA390239782#2370708206_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390239782%232370708207_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "aj dybantsa",
-     "selection": "under",
-     "sid": "0QA390239782#2370708207_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390239518%232369937273_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "alex sarr",
-     "selection": "over",
-     "sid": "0QA390239518#2369937273_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390239518%232369937284_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "alex sarr",
-     "selection": "under",
-     "sid": "0QA390239518#2369937284_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    }
-   ],
-   "fanduel": [
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626679103&selectionId=43166207",
-     "market": "prop",
-     "player": "jamal shead",
-     "selection": "over",
-     "sid": "43166207",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626679103&selectionId=43166206",
-     "market": "prop",
-     "player": "jamal shead",
-     "selection": "under",
-     "sid": "43166206",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626540183&selectionId=21175415",
-     "market": "prop",
-     "player": "trae young",
-     "selection": "over",
-     "sid": "21175415",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626540183&selectionId=21175416",
-     "market": "prop",
-     "player": "trae young",
-     "selection": "under",
-     "sid": "21175416",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626539952&selectionId=38389172",
-     "market": "prop",
-     "player": "immanuel quickley",
-     "selection": "over",
-     "sid": "38389172",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626539952&selectionId=38389173",
-     "market": "prop",
-     "player": "immanuel quickley",
-     "selection": "under",
-     "sid": "38389173",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626543038&selectionId=75942787",
-     "market": "prop",
-     "player": "tre johnson",
-     "selection": "over",
-     "sid": "75942787",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626543038&selectionId=75942786",
-     "market": "prop",
-     "player": "tre johnson",
-     "selection": "under",
-     "sid": "75942786",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626542094&selectionId=92784087",
-     "market": "prop",
-     "player": "alex sarr",
-     "selection": "over",
-     "sid": "92784087",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626542094&selectionId=92784086",
-     "market": "prop",
-     "player": "alex sarr",
-     "selection": "under",
-     "sid": "92784086",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626541384&selectionId=74706441",
-     "market": "prop",
-     "player": "kyshawn george",
-     "selection": "over",
-     "sid": "74706441",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626541384&selectionId=74706439",
-     "market": "prop",
-     "player": "kyshawn george",
-     "selection": "under",
-     "sid": "74706439",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626541953&selectionId=62606687",
-     "market": "prop",
-     "player": "jakobe walter",
-     "selection": "over",
-     "sid": "62606687",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626541953&selectionId=62606690",
-     "market": "prop",
-     "player": "jakobe walter",
-     "selection": "under",
-     "sid": "62606690",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626539209&selectionId=90729348",
-     "market": "prop",
-     "player": "aj dybantsa",
-     "selection": "over",
-     "sid": "90729348",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626539209&selectionId=90729347",
-     "market": "prop",
-     "player": "aj dybantsa",
-     "selection": "under",
-     "sid": "90729347",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626539496&selectionId=24729449",
-     "market": "prop",
-     "player": "rj barrett",
-     "selection": "over",
-     "sid": "24729449",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626539496&selectionId=24729450",
-     "market": "prop",
-     "player": "rj barrett",
-     "selection": "under",
-     "sid": "24729450",
-     "stat": "fg3m"
-    }
-   ]
-  },
-  "markets": [
-   "player_threes"
-  ],
-  "observed_at": "2026-11-18T21:46:54Z",
-  "slate": "2026-11-18"
- },
- "401910013": {
-  "books": {
-   "draftkings": [
-    {
-     "line": 8.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330894%232370453976_13L42648Q1-1060930342Q20",
-     "market": "prop",
-     "player": "ausar thompson",
-     "selection": "over",
-     "sid": "0QA390330894#2370453976_13L42648Q1-1060930342Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 8.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330894%232370453998_13L42648Q1-1958042016Q20",
-     "market": "prop",
-     "player": "ausar thompson",
-     "selection": "under",
-     "sid": "0QA390330894#2370453998_13L42648Q1-1958042016Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 8.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330801%232370994457_13L42648Q1-1060930342Q20",
-     "market": "prop",
-     "player": "yves missi",
-     "selection": "over",
-     "sid": "0QA390330801#2370994457_13L42648Q1-1060930342Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 8.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330801%232370994458_13L42648Q1-1958042016Q20",
-     "market": "prop",
-     "player": "yves missi",
-     "selection": "under",
-     "sid": "0QA390330801#2370994458_13L42648Q1-1958042016Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 6.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330667%232370452443_13L42648Q1-732303018Q20",
-     "market": "prop",
-     "player": "john collins",
-     "selection": "over",
-     "sid": "0QA390330667#2370452443_13L42648Q1-732303018Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 6.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330667%232370452451_13L42648Q1-1595150841Q20",
-     "market": "prop",
-     "player": "john collins",
-     "selection": "under",
-     "sid": "0QA390330667#2370452451_13L42648Q1-1595150841Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 5.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330869%232370453045_13L42648Q1210220610Q20",
-     "market": "prop",
-     "player": "zion williamson",
-     "selection": "over",
-     "sid": "0QA390330869#2370453045_13L42648Q1210220610Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 5.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330869%232370453054_13L42648Q1-459759634Q20",
-     "market": "prop",
-     "player": "zion williamson",
-     "selection": "under",
-     "sid": "0QA390330869#2370453054_13L42648Q1-459759634Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 5.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330779%232370452760_13L42648Q1210220610Q20",
-     "market": "prop",
-     "player": "saddiq bey",
-     "selection": "over",
-     "sid": "0QA390330779#2370452760_13L42648Q1210220610Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 5.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330779%232370452794_13L42648Q1-459759634Q20",
-     "market": "prop",
-     "player": "saddiq bey",
-     "selection": "under",
-     "sid": "0QA390330779#2370452794_13L42648Q1-459759634Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 5.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390331000%232370453708_13L42648Q1210220610Q20",
-     "market": "prop",
-     "player": "cade cunningham",
-     "selection": "over",
-     "sid": "0QA390331000#2370453708_13L42648Q1210220610Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 5.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390331000%232370453773_13L42648Q1-459759634Q20",
-     "market": "prop",
-     "player": "cade cunningham",
-     "selection": "under",
-     "sid": "0QA390331000#2370453773_13L42648Q1-459759634Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330322%232370452498_13L42648Q1-150170292Q20",
-     "market": "prop",
-     "player": "jeremiah fears",
-     "selection": "over",
-     "sid": "0QA390330322#2370452498_13L42648Q1-150170292Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330322%232370452523_13L42648Q1-1659398539Q20",
-     "market": "prop",
-     "player": "jeremiah fears",
-     "selection": "under",
-     "sid": "0QA390330322#2370452523_13L42648Q1-1659398539Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330892%232370453357_13L42648Q1-150170292Q20",
-     "market": "prop",
-     "player": "kevin huerter",
-     "selection": "over",
-     "sid": "0QA390330892#2370453357_13L42648Q1-150170292Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330892%232370453494_13L42648Q1-1659398539Q20",
-     "market": "prop",
-     "player": "kevin huerter",
-     "selection": "under",
-     "sid": "0QA390330892#2370453494_13L42648Q1-1659398539Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390331122%232370454691_13L42648Q1-150170292Q20",
-     "market": "prop",
-     "player": "daniss jenkins",
-     "selection": "over",
-     "sid": "0QA390331122#2370454691_13L42648Q1-150170292Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390331122%232370454714_13L42648Q1-1659398539Q20",
-     "market": "prop",
-     "player": "daniss jenkins",
-     "selection": "under",
-     "sid": "0QA390331122#2370454714_13L42648Q1-1659398539Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390331097%232370453637_13L42648Q11299195355Q20",
-     "market": "prop",
-     "player": "herb jones",
-     "selection": "over",
-     "sid": "0QA390331097#2370453637_13L42648Q11299195355Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390331097%232370453724_13L42648Q1647990913Q20",
-     "market": "prop",
-     "player": "herb jones",
-     "selection": "under",
-     "sid": "0QA390331097#2370453724_13L42648Q1647990913Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330451%232370452043_13L42648Q1-717019713Q20",
-     "market": "prop",
-     "player": "saddiq bey",
-     "selection": "over",
-     "sid": "0QA390330451#2370452043_13L42648Q1-717019713Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330451%232370452053_13L42648Q1-278668562Q20",
-     "market": "prop",
-     "player": "saddiq bey",
-     "selection": "under",
-     "sid": "0QA390330451#2370452053_13L42648Q1-278668562Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330966%232370454053_13L42648Q1-717019713Q20",
-     "market": "prop",
-     "player": "daniss jenkins",
-     "selection": "over",
-     "sid": "0QA390330966#2370454053_13L42648Q1-717019713Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330966%232370454135_13L42648Q1-278668562Q20",
-     "market": "prop",
-     "player": "daniss jenkins",
-     "selection": "under",
-     "sid": "0QA390330966#2370454135_13L42648Q1-278668562Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390331061%232370453800_13L42648Q1-717019713Q20",
-     "market": "prop",
-     "player": "kevin huerter",
-     "selection": "over",
-     "sid": "0QA390331061#2370453800_13L42648Q1-717019713Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390331061%232370453871_13L42648Q1-278668562Q20",
-     "market": "prop",
-     "player": "kevin huerter",
-     "selection": "under",
-     "sid": "0QA390331061#2370453871_13L42648Q1-278668562Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330988%232370712905_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "cade cunningham",
-     "selection": "over",
-     "sid": "0QA390330988#2370712905_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330988%232370712906_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "cade cunningham",
-     "selection": "under",
-     "sid": "0QA390330988#2370712906_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330536%232370452141_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "jeremiah fears",
-     "selection": "over",
-     "sid": "0QA390330536#2370452141_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390330536%232370452161_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "jeremiah fears",
-     "selection": "under",
-     "sid": "0QA390330536#2370452161_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390331057%232370454492_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "herb jones",
-     "selection": "over",
-     "sid": "0QA390331057#2370454492_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390331057%232370454527_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "herb jones",
-     "selection": "under",
-     "sid": "0QA390331057#2370454527_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390331154%232370454816_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "john collins",
-     "selection": "over",
-     "sid": "0QA390331154#2370454816_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390331154%232370454837_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "john collins",
-     "selection": "under",
-     "sid": "0QA390331154#2370454837_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    }
-   ],
-   "fanduel": [
-    {
-     "line": 5.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626538208&selectionId=38090839",
-     "market": "prop",
-     "player": "saddiq bey",
-     "selection": "over",
-     "sid": "38090839",
-     "stat": "reb"
-    },
-    {
-     "line": 5.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626538208&selectionId=38090838",
-     "market": "prop",
-     "player": "saddiq bey",
-     "selection": "under",
-     "sid": "38090838",
-     "stat": "reb"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626539121&selectionId=41453133",
-     "market": "prop",
-     "player": "herb jones",
-     "selection": "over",
-     "sid": "41453133",
-     "stat": "reb"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626539121&selectionId=41453132",
-     "market": "prop",
-     "player": "herb jones",
-     "selection": "under",
-     "sid": "41453132",
-     "stat": "reb"
-    },
-    {
-     "line": 8.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626538450&selectionId=63191254",
-     "market": "prop",
-     "player": "yves missi",
-     "selection": "over",
-     "sid": "63191254",
-     "stat": "reb"
-    },
-    {
-     "line": 8.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626538450&selectionId=63191252",
-     "market": "prop",
-     "player": "yves missi",
-     "selection": "under",
-     "sid": "63191252",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626538005&selectionId=77055416",
-     "market": "prop",
-     "player": "jeremiah fears",
-     "selection": "over",
-     "sid": "77055416",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626538005&selectionId=77055417",
-     "market": "prop",
-     "player": "jeremiah fears",
-     "selection": "under",
-     "sid": "77055417",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626537198&selectionId=53560520",
-     "market": "prop",
-     "player": "daniss jenkins",
-     "selection": "over",
-     "sid": "53560520",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626537198&selectionId=53560519",
-     "market": "prop",
-     "player": "daniss jenkins",
-     "selection": "under",
-     "sid": "53560519",
-     "stat": "reb"
-    },
-    {
-     "line": 5.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626537700&selectionId=24729467",
-     "market": "prop",
-     "player": "zion williamson",
-     "selection": "over",
-     "sid": "24729467",
-     "stat": "reb"
-    },
-    {
-     "line": 5.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626537700&selectionId=24729466",
-     "market": "prop",
-     "player": "zion williamson",
-     "selection": "under",
-     "sid": "24729466",
-     "stat": "reb"
-    },
-    {
-     "line": 8.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626537126&selectionId=61967199",
-     "market": "prop",
-     "player": "ausar thompson",
-     "selection": "over",
-     "sid": "61967199",
-     "stat": "reb"
-    },
-    {
-     "line": 8.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626537126&selectionId=61967200",
-     "market": "prop",
-     "player": "ausar thompson",
-     "selection": "under",
-     "sid": "61967200",
-     "stat": "reb"
-    },
-    {
-     "line": 6.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626537424&selectionId=15742045",
-     "market": "prop",
-     "player": "john collins",
-     "selection": "over",
-     "sid": "15742045",
-     "stat": "reb"
-    },
-    {
-     "line": 6.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626537424&selectionId=15742046",
-     "market": "prop",
-     "player": "john collins",
-     "selection": "under",
-     "sid": "15742046",
-     "stat": "reb"
-    },
-    {
-     "line": 5.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626536860&selectionId=41536747",
-     "market": "prop",
-     "player": "cade cunningham",
-     "selection": "over",
-     "sid": "41536747",
-     "stat": "reb"
-    },
-    {
-     "line": 5.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626536860&selectionId=41536749",
-     "market": "prop",
-     "player": "cade cunningham",
-     "selection": "under",
-     "sid": "41536749",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626537425&selectionId=22257211",
-     "market": "prop",
-     "player": "kevin huerter",
-     "selection": "over",
-     "sid": "22257211",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626537425&selectionId=22257212",
-     "market": "prop",
-     "player": "kevin huerter",
-     "selection": "under",
-     "sid": "22257212",
-     "stat": "reb"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626538210&selectionId=38090839",
-     "market": "prop",
-     "player": "saddiq bey",
-     "selection": "over",
-     "sid": "38090839",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626538210&selectionId=38090838",
-     "market": "prop",
-     "player": "saddiq bey",
-     "selection": "under",
-     "sid": "38090838",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626536862&selectionId=41536747",
-     "market": "prop",
-     "player": "cade cunningham",
-     "selection": "over",
-     "sid": "41536747",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626536862&selectionId=41536749",
-     "market": "prop",
-     "player": "cade cunningham",
-     "selection": "under",
-     "sid": "41536749",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626730359&selectionId=26788637",
-     "market": "prop",
-     "player": "jordan poole",
-     "selection": "over",
-     "sid": "26788637",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626730359&selectionId=26788638",
-     "market": "prop",
-     "player": "jordan poole",
-     "selection": "under",
-     "sid": "26788638",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626537200&selectionId=53560520",
-     "market": "prop",
-     "player": "daniss jenkins",
-     "selection": "over",
-     "sid": "53560520",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626537200&selectionId=53560519",
-     "market": "prop",
-     "player": "daniss jenkins",
-     "selection": "under",
-     "sid": "53560519",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626539123&selectionId=41453133",
-     "market": "prop",
-     "player": "herb jones",
-     "selection": "over",
-     "sid": "41453133",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626539123&selectionId=41453132",
-     "market": "prop",
-     "player": "herb jones",
-     "selection": "under",
-     "sid": "41453132",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626538007&selectionId=77055416",
-     "market": "prop",
-     "player": "jeremiah fears",
-     "selection": "over",
-     "sid": "77055416",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626538007&selectionId=77055417",
-     "market": "prop",
-     "player": "jeremiah fears",
-     "selection": "under",
-     "sid": "77055417",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626537428&selectionId=22257211",
-     "market": "prop",
-     "player": "kevin huerter",
-     "selection": "over",
-     "sid": "22257211",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626537428&selectionId=22257212",
-     "market": "prop",
-     "player": "kevin huerter",
-     "selection": "under",
-     "sid": "22257212",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626537427&selectionId=15742045",
-     "market": "prop",
-     "player": "john collins",
-     "selection": "over",
-     "sid": "15742045",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626537427&selectionId=15742046",
-     "market": "prop",
-     "player": "john collins",
-     "selection": "under",
-     "sid": "15742046",
-     "stat": "fg3m"
-    }
-   ]
-  },
-  "markets": [
-   "player_rebounds",
-   "player_threes"
-  ],
-  "observed_at": "2026-11-18T21:46:54Z",
-  "slate": "2026-11-18"
- },
- "401910016": {
-  "books": {
-   "draftkings": [
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390246819%232369964611_13L42648Q1-584755362Q20",
-     "market": "prop",
-     "player": "kyrie irving",
-     "selection": "over",
-     "sid": "0QA390246819#2369964611_13L42648Q1-584755362Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390246819%232369964620_13L42648Q1-1581327307Q20",
-     "market": "prop",
-     "player": "kyrie irving",
-     "selection": "under",
-     "sid": "0QA390246819#2369964620_13L42648Q1-1581327307Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390247152%232369966391_13L42648Q1-717019713Q20",
-     "market": "prop",
-     "player": "brandin podziemski",
-     "selection": "over",
-     "sid": "0QA390247152#2369966391_13L42648Q1-717019713Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390247152%232369966405_13L42648Q1-278668562Q20",
-     "market": "prop",
-     "player": "brandin podziemski",
-     "selection": "under",
-     "sid": "0QA390247152#2369966405_13L42648Q1-278668562Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390247312%232369966546_13L42648Q1-717019713Q20",
+     "line": 21.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691533%232372274068_13L42648Q1-397227034Q20",
      "market": "prop",
      "player": "yaxel lendeborg",
      "selection": "over",
-     "sid": "0QA390247312#2369966546_13L42648Q1-717019713Q20",
+     "sid": "0QA390691533#2372274068_13L42648Q1-397227034Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 21.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691533%232372274069_13L42648Q1324820851Q20",
+     "market": "prop",
+     "player": "yaxel lendeborg",
+     "selection": "under",
+     "sid": "0QA390691533#2372274069_13L42648Q1324820851Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 19.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691390%232372076238_13L42648Q1-692842954Q20",
+     "market": "prop",
+     "player": "cameron boozer",
+     "selection": "over",
+     "sid": "0QA390691390#2372076238_13L42648Q1-692842954Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 19.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691390%232372076239_13L42648Q1-238425594Q20",
+     "market": "prop",
+     "player": "cameron boozer",
+     "selection": "under",
+     "sid": "0QA390691390#2372076239_13L42648Q1-238425594Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 16.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691271%232372242307_13L42648Q12120712626Q20",
+     "market": "prop",
+     "player": "brandin podziemski",
+     "selection": "over",
+     "sid": "0QA390691271#2372242307_13L42648Q12120712626Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 16.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691271%232372242308_13L42648Q1351768104Q20",
+     "market": "prop",
+     "player": "brandin podziemski",
+     "selection": "under",
+     "sid": "0QA390691271#2372242308_13L42648Q1351768104Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 15.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691662%232372074079_13L42648Q1-1402818428Q20",
+     "market": "prop",
+     "player": "cedric coward",
+     "selection": "over",
+     "sid": "0QA390691662#2372074079_13L42648Q1-1402818428Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 15.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691662%232372074080_13L42648Q11172504274Q20",
+     "market": "prop",
+     "player": "cedric coward",
+     "selection": "under",
+     "sid": "0QA390691662#2372074080_13L42648Q11172504274Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 12.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691646%232372311036_13L42648Q1-1662826468Q20",
+     "market": "prop",
+     "player": "cam spencer",
+     "selection": "over",
+     "sid": "0QA390691646#2372311036_13L42648Q1-1662826468Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 12.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691646%232372311037_13L42648Q1-1693375913Q20",
+     "market": "prop",
+     "player": "cam spencer",
+     "selection": "under",
+     "sid": "0QA390691646#2372311037_13L42648Q1-1693375913Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 10.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691525%232372649135_13L42648Q11964356459Q20",
+     "market": "prop",
+     "player": "jerami grant",
+     "selection": "over",
+     "sid": "0QA390691525#2372649135_13L42648Q11964356459Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 10.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691525%232372649136_13L42648Q1670756388Q20",
+     "market": "prop",
+     "player": "jerami grant",
+     "selection": "under",
+     "sid": "0QA390691525#2372649136_13L42648Q1670756388Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 10.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691392%232372078736_13L42648Q11964356459Q20",
+     "market": "prop",
+     "player": "deanthony melton",
+     "selection": "over",
+     "sid": "0QA390691392#2372078736_13L42648Q11964356459Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 10.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691392%232372078737_13L42648Q1670756388Q20",
+     "market": "prop",
+     "player": "deanthony melton",
+     "selection": "under",
+     "sid": "0QA390691392#2372078737_13L42648Q1670756388Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 10.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691849%232372209394_13L42648Q11964356459Q20",
+     "market": "prop",
+     "player": "jaylen wells",
+     "selection": "over",
+     "sid": "0QA390691849#2372209394_13L42648Q11964356459Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 10.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691849%232372209395_13L42648Q1670756388Q20",
+     "market": "prop",
+     "player": "jaylen wells",
+     "selection": "under",
+     "sid": "0QA390691849#2372209395_13L42648Q1670756388Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 9.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691282%232372234030_13L42648Q1-1195564899Q20",
+     "market": "prop",
+     "player": "isaiah stewart",
+     "selection": "over",
+     "sid": "0QA390691282#2372234030_13L42648Q1-1195564899Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 9.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691282%232372234031_13L42648Q1-1442238935Q20",
+     "market": "prop",
+     "player": "isaiah stewart",
+     "selection": "under",
+     "sid": "0QA390691282#2372234031_13L42648Q1-1442238935Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 8.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691850%232372078073_13L42648Q11720844938Q20",
+     "market": "prop",
+     "player": "charles bassey",
+     "selection": "over",
+     "sid": "0QA390691850#2372078073_13L42648Q11720844938Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 8.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691850%232372078074_13L42648Q11948178340Q20",
+     "market": "prop",
+     "player": "charles bassey",
+     "selection": "under",
+     "sid": "0QA390691850#2372078074_13L42648Q11948178340Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 7.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691666%232372246780_13L42648Q1511222344Q20",
+     "market": "prop",
+     "player": "gui santos",
+     "selection": "over",
+     "sid": "0QA390691666#2372246780_13L42648Q1511222344Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 7.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691666%232372246781_13L42648Q1-1758311513Q20",
+     "market": "prop",
+     "player": "gui santos",
+     "selection": "under",
+     "sid": "0QA390691666#2372246781_13L42648Q1-1758311513Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 7.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691766%232372246774_13L42648Q1511222344Q20",
+     "market": "prop",
+     "player": "will richard",
+     "selection": "over",
+     "sid": "0QA390691766#2372246774_13L42648Q1511222344Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 7.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691766%232372246775_13L42648Q1-1758311513Q20",
+     "market": "prop",
+     "player": "will richard",
+     "selection": "under",
+     "sid": "0QA390691766#2372246775_13L42648Q1-1758311513Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 5.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390693124%232372460499_13L42648Q1-624800362Q20",
+     "market": "prop",
+     "player": "al horford",
+     "selection": "over",
+     "sid": "0QA390693124#2372460499_13L42648Q1-624800362Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 5.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390693124%232372460500_13L42648Q134400246Q20",
+     "market": "prop",
+     "player": "al horford",
+     "selection": "under",
+     "sid": "0QA390693124#2372460500_13L42648Q134400246Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691514%232372071414_13L42648Q1-717019713Q20",
+     "market": "prop",
+     "player": "brandin podziemski",
+     "selection": "over",
+     "sid": "0QA390691514#2372071414_13L42648Q1-717019713Q20",
      "stat": "fg3m"
     },
     {
      "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390247312%232369966549_13L42648Q1-278668562Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691514%232372071549_13L42648Q1-278668562Q20",
+     "market": "prop",
+     "player": "brandin podziemski",
+     "selection": "under",
+     "sid": "0QA390691514#2372071549_13L42648Q1-278668562Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691420%232372260774_13L42648Q1-717019713Q20",
+     "market": "prop",
+     "player": "yaxel lendeborg",
+     "selection": "over",
+     "sid": "0QA390691420#2372260774_13L42648Q1-717019713Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691420%232372260775_13L42648Q1-278668562Q20",
      "market": "prop",
      "player": "yaxel lendeborg",
      "selection": "under",
-     "sid": "0QA390247312#2369966549_13L42648Q1-278668562Q20",
+     "sid": "0QA390691420#2372260775_13L42648Q1-278668562Q20",
      "stat": "fg3m"
     },
     {
      "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390247031%232370012947_13L42648Q11799469575Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691773%232372072395_13L42648Q11799469575Q20",
      "market": "prop",
-     "player": "pj washington",
+     "player": "cam spencer",
      "selection": "over",
-     "sid": "0QA390247031#2370012947_13L42648Q11799469575Q20",
+     "sid": "0QA390691773#2372072395_13L42648Q11799469575Q20",
      "stat": "fg3m"
     },
     {
      "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390247031%232370012951_13L42648Q1-1691304831Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691773%232372072432_13L42648Q1-1691304831Q20",
      "market": "prop",
-     "player": "pj washington",
+     "player": "cam spencer",
      "selection": "under",
-     "sid": "0QA390247031#2370012951_13L42648Q1-1691304831Q20",
+     "sid": "0QA390691773#2372072432_13L42648Q1-1691304831Q20",
      "stat": "fg3m"
     },
     {
      "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390246956%232369966301_13L42648Q11799469575Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691779%232372203072_13L42648Q11799469575Q20",
      "market": "prop",
-     "player": "al horford",
+     "player": "cedric coward",
      "selection": "over",
-     "sid": "0QA390246956#2369966301_13L42648Q11799469575Q20",
+     "sid": "0QA390691779#2372203072_13L42648Q11799469575Q20",
      "stat": "fg3m"
     },
     {
      "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390246956%232369966313_13L42648Q1-1691304831Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691779%232372203073_13L42648Q1-1691304831Q20",
      "market": "prop",
-     "player": "al horford",
+     "player": "cedric coward",
      "selection": "under",
-     "sid": "0QA390246956#2369966313_13L42648Q1-1691304831Q20",
+     "sid": "0QA390691779#2372203073_13L42648Q1-1691304831Q20",
      "stat": "fg3m"
     },
     {
      "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390246627%232369963862_13L42648Q11799469575Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691688%232372072071_13L42648Q11799469575Q20",
      "market": "prop",
-     "player": "cooper flagg",
+     "player": "cameron boozer",
      "selection": "over",
-     "sid": "0QA390246627#2369963862_13L42648Q11799469575Q20",
+     "sid": "0QA390691688#2372072071_13L42648Q11799469575Q20",
      "stat": "fg3m"
     },
     {
      "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390246627%232369963871_13L42648Q1-1691304831Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691688%232372072131_13L42648Q1-1691304831Q20",
      "market": "prop",
-     "player": "cooper flagg",
+     "player": "cameron boozer",
      "selection": "under",
-     "sid": "0QA390246627#2369963871_13L42648Q1-1691304831Q20",
+     "sid": "0QA390691688#2372072131_13L42648Q1-1691304831Q20",
      "stat": "fg3m"
     },
     {
-     "line": 0.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390246715%232370012923_13L42648Q11449290012Q20",
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691564%232372078750_13L42648Q11799469575Q20",
      "market": "prop",
-     "player": "gui santos",
+     "player": "deanthony melton",
      "selection": "over",
-     "sid": "0QA390246715#2370012923_13L42648Q11449290012Q20",
+     "sid": "0QA390691564#2372078750_13L42648Q11799469575Q20",
      "stat": "fg3m"
     },
     {
-     "line": 0.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390246715%232370012931_13L42648Q1-503844112Q20",
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691564%232372078751_13L42648Q1-1691304831Q20",
      "market": "prop",
-     "player": "gui santos",
+     "player": "deanthony melton",
      "selection": "under",
-     "sid": "0QA390246715#2370012931_13L42648Q1-503844112Q20",
+     "sid": "0QA390691564#2372078751_13L42648Q1-1691304831Q20",
      "stat": "fg3m"
     },
     {
-     "line": 0.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390247261%232369966536_13L42648Q11449290012Q20",
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691162%232372076251_13L42648Q11799469575Q20",
      "market": "prop",
-     "player": "draymond green",
+     "player": "jaylen wells",
      "selection": "over",
-     "sid": "0QA390247261#2369966536_13L42648Q11449290012Q20",
+     "sid": "0QA390691162#2372076251_13L42648Q11799469575Q20",
      "stat": "fg3m"
     },
     {
-     "line": 0.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390247261%232369966537_13L42648Q1-503844112Q20",
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691162%232372076264_13L42648Q1-1691304831Q20",
      "market": "prop",
-     "player": "draymond green",
+     "player": "jaylen wells",
      "selection": "under",
-     "sid": "0QA390247261#2369966537_13L42648Q1-503844112Q20",
+     "sid": "0QA390691162#2372076264_13L42648Q1-1691304831Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691309%232372070436_13L42648Q11799469575Q20",
+     "market": "prop",
+     "player": "jerami grant",
+     "selection": "over",
+     "sid": "0QA390691309#2372070436_13L42648Q11799469575Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691309%232372070454_13L42648Q1-1691304831Q20",
+     "market": "prop",
+     "player": "jerami grant",
+     "selection": "under",
+     "sid": "0QA390691309#2372070454_13L42648Q1-1691304831Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691465%232372072263_13L42648Q11799469575Q20",
+     "market": "prop",
+     "player": "will richard",
+     "selection": "over",
+     "sid": "0QA390691465#2372072263_13L42648Q11799469575Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390691465%232372072276_13L42648Q1-1691304831Q20",
+     "market": "prop",
+     "player": "will richard",
+     "selection": "under",
+     "sid": "0QA390691465#2372072276_13L42648Q1-1691304831Q20",
      "stat": "fg3m"
     }
    ],
    "fanduel": [
     {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626558200&selectionId=12260613",
+     "line": 7.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626984536&selectionId=50656145",
      "market": "prop",
-     "player": "kyrie irving",
+     "player": "taylor hendricks",
      "selection": "over",
-     "sid": "12260613",
-     "stat": "fg3m"
+     "sid": "50656145",
+     "stat": "pts"
     },
     {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626558200&selectionId=12260614",
+     "line": 7.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626984536&selectionId=50656146",
      "market": "prop",
-     "player": "kyrie irving",
+     "player": "taylor hendricks",
      "selection": "under",
-     "sid": "12260614",
-     "stat": "fg3m"
+     "sid": "50656146",
+     "stat": "pts"
     },
     {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626559765&selectionId=52263972",
+     "line": 8.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626842092&selectionId=72134278",
+     "market": "prop",
+     "player": "gui santos",
+     "selection": "over",
+     "sid": "72134278",
+     "stat": "pts"
+    },
+    {
+     "line": 8.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626842092&selectionId=72134280",
+     "market": "prop",
+     "player": "gui santos",
+     "selection": "under",
+     "sid": "72134280",
+     "stat": "pts"
+    },
+    {
+     "line": 10.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626983345&selectionId=22041168",
+     "market": "prop",
+     "player": "deanthony melton",
+     "selection": "over",
+     "sid": "22041168",
+     "stat": "pts"
+    },
+    {
+     "line": 10.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626983345&selectionId=22041169",
+     "market": "prop",
+     "player": "deanthony melton",
+     "selection": "under",
+     "sid": "22041169",
+     "stat": "pts"
+    },
+    {
+     "line": 10.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626969155&selectionId=16529226",
+     "market": "prop",
+     "player": "jerami grant",
+     "selection": "over",
+     "sid": "16529226",
+     "stat": "pts"
+    },
+    {
+     "line": 10.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626969155&selectionId=16529227",
+     "market": "prop",
+     "player": "jerami grant",
+     "selection": "under",
+     "sid": "16529227",
+     "stat": "pts"
+    },
+    {
+     "line": 9.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626967689&selectionId=38327657",
+     "market": "prop",
+     "player": "isaiah stewart",
+     "selection": "over",
+     "sid": "38327657",
+     "stat": "pts"
+    },
+    {
+     "line": 9.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626967689&selectionId=38327656",
+     "market": "prop",
+     "player": "isaiah stewart",
+     "selection": "under",
+     "sid": "38327656",
+     "stat": "pts"
+    },
+    {
+     "line": 7.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626980659&selectionId=43059450",
+     "market": "prop",
+     "player": "will richard",
+     "selection": "over",
+     "sid": "43059450",
+     "stat": "pts"
+    },
+    {
+     "line": 7.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626980659&selectionId=43059451",
+     "market": "prop",
+     "player": "will richard",
+     "selection": "under",
+     "sid": "43059451",
+     "stat": "pts"
+    },
+    {
+     "line": 19.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626832818&selectionId=90748927",
+     "market": "prop",
+     "player": "cameron boozer",
+     "selection": "over",
+     "sid": "90748927",
+     "stat": "pts"
+    },
+    {
+     "line": 19.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626832818&selectionId=90748928",
+     "market": "prop",
+     "player": "cameron boozer",
+     "selection": "under",
+     "sid": "90748928",
+     "stat": "pts"
+    },
+    {
+     "line": 10.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626832820&selectionId=65284710",
+     "market": "prop",
+     "player": "jaylen wells",
+     "selection": "over",
+     "sid": "65284710",
+     "stat": "pts"
+    },
+    {
+     "line": 10.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626832820&selectionId=65284709",
+     "market": "prop",
+     "player": "jaylen wells",
+     "selection": "under",
+     "sid": "65284709",
+     "stat": "pts"
+    },
+    {
+     "line": 21.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626841358&selectionId=64937530",
+     "market": "prop",
+     "player": "yaxel lendeborg",
+     "selection": "over",
+     "sid": "64937530",
+     "stat": "pts"
+    },
+    {
+     "line": 21.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626841358&selectionId=64937543",
+     "market": "prop",
+     "player": "yaxel lendeborg",
+     "selection": "under",
+     "sid": "64937543",
+     "stat": "pts"
+    },
+    {
+     "line": 15.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626832819&selectionId=76584720",
+     "market": "prop",
+     "player": "cedric coward",
+     "selection": "over",
+     "sid": "76584720",
+     "stat": "pts"
+    },
+    {
+     "line": 15.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626832819&selectionId=76584726",
+     "market": "prop",
+     "player": "cedric coward",
+     "selection": "under",
+     "sid": "76584726",
+     "stat": "pts"
+    },
+    {
+     "line": 8.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626841359&selectionId=41819580",
+     "market": "prop",
+     "player": "charles bassey",
+     "selection": "over",
+     "sid": "41819580",
+     "stat": "pts"
+    },
+    {
+     "line": 8.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626841359&selectionId=41819581",
+     "market": "prop",
+     "player": "charles bassey",
+     "selection": "under",
+     "sid": "41819581",
+     "stat": "pts"
+    },
+    {
+     "line": 16.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626841357&selectionId=52263972",
      "market": "prop",
      "player": "brandin podziemski",
      "selection": "over",
      "sid": "52263972",
-     "stat": "fg3m"
+     "stat": "pts"
     },
     {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626559765&selectionId=52263968",
+     "line": 16.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626841357&selectionId=52263968",
      "market": "prop",
      "player": "brandin podziemski",
      "selection": "under",
      "sid": "52263968",
-     "stat": "fg3m"
+     "stat": "pts"
     },
     {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626558445&selectionId=62687064",
+     "line": 12.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626964110&selectionId=50729407",
      "market": "prop",
-     "player": "pj washington",
+     "player": "cam spencer",
      "selection": "over",
-     "sid": "62687064",
-     "stat": "fg3m"
+     "sid": "50729407",
+     "stat": "pts"
     },
     {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626558445&selectionId=62687065",
+     "line": 12.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626964110&selectionId=50729406",
      "market": "prop",
-     "player": "pj washington",
+     "player": "cam spencer",
      "selection": "under",
-     "sid": "62687065",
-     "stat": "fg3m"
+     "sid": "50729406",
+     "stat": "pts"
     },
     {
      "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626730598&selectionId=22041168",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626983348&selectionId=22041168",
      "market": "prop",
      "player": "deanthony melton",
      "selection": "over",
@@ -1567,7 +645,7 @@
     },
     {
      "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626730598&selectionId=22041169",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626983348&selectionId=22041169",
      "market": "prop",
      "player": "deanthony melton",
      "selection": "under",
@@ -1575,8 +653,116 @@
      "stat": "fg3m"
     },
     {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626969157&selectionId=16529226",
+     "market": "prop",
+     "player": "jerami grant",
+     "selection": "over",
+     "sid": "16529226",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626969157&selectionId=16529227",
+     "market": "prop",
+     "player": "jerami grant",
+     "selection": "under",
+     "sid": "16529227",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626980661&selectionId=43059450",
+     "market": "prop",
+     "player": "will richard",
+     "selection": "over",
+     "sid": "43059450",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626980661&selectionId=43059451",
+     "market": "prop",
+     "player": "will richard",
+     "selection": "under",
+     "sid": "43059451",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626967977&selectionId=65284710",
+     "market": "prop",
+     "player": "jaylen wells",
+     "selection": "over",
+     "sid": "65284710",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626967977&selectionId=65284709",
+     "market": "prop",
+     "player": "jaylen wells",
+     "selection": "under",
+     "sid": "65284709",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626964113&selectionId=50729407",
+     "market": "prop",
+     "player": "cam spencer",
+     "selection": "over",
+     "sid": "50729407",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626964113&selectionId=50729406",
+     "market": "prop",
+     "player": "cam spencer",
+     "selection": "under",
+     "sid": "50729406",
+     "stat": "fg3m"
+    },
+    {
      "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626559554&selectionId=64937530",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626833270&selectionId=90748927",
+     "market": "prop",
+     "player": "cameron boozer",
+     "selection": "over",
+     "sid": "90748927",
+     "stat": "fg3m"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626833270&selectionId=90748928",
+     "market": "prop",
+     "player": "cameron boozer",
+     "selection": "under",
+     "sid": "90748928",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626833271&selectionId=76584720",
+     "market": "prop",
+     "player": "cedric coward",
+     "selection": "over",
+     "sid": "76584720",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626833271&selectionId=76584726",
+     "market": "prop",
+     "player": "cedric coward",
+     "selection": "under",
+     "sid": "76584726",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626841366&selectionId=64937530",
      "market": "prop",
      "player": "yaxel lendeborg",
      "selection": "over",
@@ -1584,8 +770,8 @@
      "stat": "fg3m"
     },
     {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626559554&selectionId=64937543",
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626841366&selectionId=64937543",
      "market": "prop",
      "player": "yaxel lendeborg",
      "selection": "under",
@@ -1593,39 +779,359 @@
      "stat": "fg3m"
     },
     {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626560191&selectionId=12260634",
+     "line": 2.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626841365&selectionId=52263972",
      "market": "prop",
-     "player": "al horford",
+     "player": "brandin podziemski",
      "selection": "over",
-     "sid": "12260634",
+     "sid": "52263972",
      "stat": "fg3m"
     },
     {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626560191&selectionId=12260635",
+     "line": 2.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626841365&selectionId=52263968",
      "market": "prop",
-     "player": "al horford",
+     "player": "brandin podziemski",
      "selection": "under",
-     "sid": "12260635",
+     "sid": "52263968",
      "stat": "fg3m"
-    },
+    }
+   ]
+  },
+  "markets": [
+   "player_points",
+   "player_threes"
+  ],
+  "observed_at": "2026-11-19T21:43:05Z",
+  "slate": "2026-11-19"
+ },
+ "401910020": {
+  "books": {
+   "draftkings": [
     {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626557912&selectionId=75811240",
+     "line": 3.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390629435%232371690527_13L42648Q1-584755362Q20",
      "market": "prop",
-     "player": "cooper flagg",
+     "player": "damian lillard",
      "selection": "over",
-     "sid": "75811240",
+     "sid": "0QA390629435#2371690527_13L42648Q1-584755362Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 3.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390629435%232371690632_13L42648Q1-1581327307Q20",
+     "market": "prop",
+     "player": "damian lillard",
+     "selection": "under",
+     "sid": "0QA390629435#2371690632_13L42648Q1-1581327307Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390629453%232371690625_13L42648Q1-717019713Q20",
+     "market": "prop",
+     "player": "toumani camara",
+     "selection": "over",
+     "sid": "0QA390629453#2371690625_13L42648Q1-717019713Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390629453%232371690723_13L42648Q1-278668562Q20",
+     "market": "prop",
+     "player": "toumani camara",
+     "selection": "under",
+     "sid": "0QA390629453#2371690723_13L42648Q1-278668562Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390629323%232371690139_13L42648Q1-717019713Q20",
+     "market": "prop",
+     "player": "tyler herro",
+     "selection": "over",
+     "sid": "0QA390629323#2371690139_13L42648Q1-717019713Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390629323%232371690234_13L42648Q1-278668562Q20",
+     "market": "prop",
+     "player": "tyler herro",
+     "selection": "under",
+     "sid": "0QA390629323#2371690234_13L42648Q1-278668562Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390629283%232371689878_13L42648Q1-717019713Q20",
+     "market": "prop",
+     "player": "jrue holiday",
+     "selection": "over",
+     "sid": "0QA390629283#2371689878_13L42648Q1-717019713Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390629283%232371689890_13L42648Q1-278668562Q20",
+     "market": "prop",
+     "player": "jrue holiday",
+     "selection": "under",
+     "sid": "0QA390629283#2371689890_13L42648Q1-278668562Q20",
      "stat": "fg3m"
     },
     {
      "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626557912&selectionId=75811222",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390629337%232371690186_13L42648Q11799469575Q20",
      "market": "prop",
-     "player": "cooper flagg",
+     "player": "deni avdija",
+     "selection": "over",
+     "sid": "0QA390629337#2371690186_13L42648Q11799469575Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390629337%232371690220_13L42648Q1-1691304831Q20",
+     "market": "prop",
+     "player": "deni avdija",
      "selection": "under",
-     "sid": "75811222",
+     "sid": "0QA390629337#2371690220_13L42648Q1-1691304831Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390677946%232372000879_13L42648Q11799469575Q20",
+     "market": "prop",
+     "player": "ryan rollins",
+     "selection": "over",
+     "sid": "0QA390677946#2372000879_13L42648Q11799469575Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390677946%232372000880_13L42648Q1-1691304831Q20",
+     "market": "prop",
+     "player": "ryan rollins",
+     "selection": "under",
+     "sid": "0QA390677946#2372000880_13L42648Q1-1691304831Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390629552%232371691377_13L42648Q11799469575Q20",
+     "market": "prop",
+     "player": "sidy cissoko",
+     "selection": "over",
+     "sid": "0QA390629552#2371691377_13L42648Q11799469575Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390629552%232371691412_13L42648Q1-1691304831Q20",
+     "market": "prop",
+     "player": "sidy cissoko",
+     "selection": "under",
+     "sid": "0QA390629552#2371691412_13L42648Q1-1691304831Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390629574%232371690137_13L42648Q11799469575Q20",
+     "market": "prop",
+     "player": "brayden burries",
+     "selection": "over",
+     "sid": "0QA390629574#2371690137_13L42648Q11799469575Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390629574%232371690231_13L42648Q1-1691304831Q20",
+     "market": "prop",
+     "player": "brayden burries",
+     "selection": "under",
+     "sid": "0QA390629574#2371690231_13L42648Q1-1691304831Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390629889%232371692749_13L42648Q11799469575Q20",
+     "market": "prop",
+     "player": "scoot henderson",
+     "selection": "over",
+     "sid": "0QA390629889#2371692749_13L42648Q11799469575Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390629889%232371692760_13L42648Q1-1691304831Q20",
+     "market": "prop",
+     "player": "scoot henderson",
+     "selection": "under",
+     "sid": "0QA390629889#2371692760_13L42648Q1-1691304831Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390629704%232372069355_13L42648Q11799469575Q20",
+     "market": "prop",
+     "player": "jaime jaquez",
+     "selection": "over",
+     "sid": "0QA390629704#2372069355_13L42648Q11799469575Q20",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390629704%232372069357_13L42648Q1-1691304831Q20",
+     "market": "prop",
+     "player": "jaime jaquez",
+     "selection": "under",
+     "sid": "0QA390629704#2372069357_13L42648Q1-1691304831Q20",
+     "stat": "fg3m"
+    }
+   ],
+   "fanduel": [
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626817832&selectionId=43072643",
+     "market": "prop",
+     "player": "jaime jaquez",
+     "selection": "over",
+     "sid": "43072643",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626817832&selectionId=43072644",
+     "market": "prop",
+     "player": "jaime jaquez",
+     "selection": "under",
+     "sid": "43072644",
+     "stat": "fg3m"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626817831&selectionId=26611574",
+     "market": "prop",
+     "player": "tyler herro",
+     "selection": "over",
+     "sid": "26611574",
+     "stat": "fg3m"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626817831&selectionId=26611575",
+     "market": "prop",
+     "player": "tyler herro",
+     "selection": "under",
+     "sid": "26611575",
+     "stat": "fg3m"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626817828&selectionId=12260620",
+     "market": "prop",
+     "player": "jrue holiday",
+     "selection": "over",
+     "sid": "12260620",
+     "stat": "fg3m"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626817828&selectionId=12260621",
+     "market": "prop",
+     "player": "jrue holiday",
+     "selection": "under",
+     "sid": "12260621",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626817834&selectionId=92719057",
+     "market": "prop",
+     "player": "brayden burries",
+     "selection": "over",
+     "sid": "92719057",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626817834&selectionId=92719056",
+     "market": "prop",
+     "player": "brayden burries",
+     "selection": "under",
+     "sid": "92719056",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626817825&selectionId=37901072",
+     "market": "prop",
+     "player": "deni avdija",
+     "selection": "over",
+     "sid": "37901072",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626817825&selectionId=37901070",
+     "market": "prop",
+     "player": "deni avdija",
+     "selection": "under",
+     "sid": "37901070",
+     "stat": "fg3m"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626817827&selectionId=43450264",
+     "market": "prop",
+     "player": "toumani camara",
+     "selection": "over",
+     "sid": "43450264",
+     "stat": "fg3m"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626817827&selectionId=43450266",
+     "market": "prop",
+     "player": "toumani camara",
+     "selection": "under",
+     "sid": "43450266",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626817830&selectionId=68232609",
+     "market": "prop",
+     "player": "sidy cissoko",
+     "selection": "over",
+     "sid": "68232609",
+     "stat": "fg3m"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626817830&selectionId=68232610",
+     "market": "prop",
+     "player": "sidy cissoko",
+     "selection": "under",
+     "sid": "68232610",
+     "stat": "fg3m"
+    },
+    {
+     "line": 3.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626817826&selectionId=12260575",
+     "market": "prop",
+     "player": "damian lillard",
+     "selection": "over",
+     "sid": "12260575",
+     "stat": "fg3m"
+    },
+    {
+     "line": 3.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626817826&selectionId=12260576",
+     "market": "prop",
+     "player": "damian lillard",
+     "selection": "under",
+     "sid": "12260576",
      "stat": "fg3m"
     }
    ]
@@ -1633,1656 +1139,1637 @@
   "markets": [
    "player_threes"
   ],
-  "observed_at": "2026-11-18T21:46:54Z",
-  "slate": "2026-11-18"
+  "observed_at": "2026-11-19T21:43:05Z",
+  "slate": "2026-11-19"
  },
- "401910017": {
+ "401910021": {
   "books": {
    "draftkings": [
     {
-     "line": 8.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333469%232370466860_13L42648Q11051710024Q20",
+     "line": 5.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626985%232371671567_13L42648Q1-1820894743Q20",
      "market": "prop",
-     "player": "luka doncic",
+     "player": "jalen brunson",
      "selection": "over",
-     "sid": "0QA390333469#2370466860_13L42648Q11051710024Q20",
+     "sid": "0QA390626985#2371671567_13L42648Q1-1820894743Q20",
      "stat": "ast"
-    },
-    {
-     "line": 8.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333469%232370466884_13L42648Q1311103930Q20",
-     "market": "prop",
-     "player": "luka doncic",
-     "selection": "under",
-     "sid": "0QA390333469#2370466884_13L42648Q1311103930Q20",
-     "stat": "ast"
-    },
-    {
-     "line": 7.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334018%232370529315_13L42648Q1-506315721Q20",
-     "market": "prop",
-     "player": "keyonte george",
-     "selection": "over",
-     "sid": "0QA390334018#2370529315_13L42648Q1-506315721Q20",
-     "stat": "ast"
-    },
-    {
-     "line": 7.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334018%232370529316_13L42648Q11443594486Q20",
-     "market": "prop",
-     "player": "keyonte george",
-     "selection": "under",
-     "sid": "0QA390334018#2370529316_13L42648Q11443594486Q20",
-     "stat": "ast"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334011%232370467896_13L42648Q1738743730Q20",
-     "market": "prop",
-     "player": "darryn peterson",
-     "selection": "over",
-     "sid": "0QA390334011#2370467896_13L42648Q1738743730Q20",
-     "stat": "ast"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334011%232370467930_13L42648Q1871198532Q20",
-     "market": "prop",
-     "player": "darryn peterson",
-     "selection": "under",
-     "sid": "0QA390334011#2370467930_13L42648Q1871198532Q20",
-     "stat": "ast"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333971%232370469708_13L42648Q1672130158Q20",
-     "market": "prop",
-     "player": "quentin grimes",
-     "selection": "over",
-     "sid": "0QA390333971#2370469708_13L42648Q1672130158Q20",
-     "stat": "ast"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333971%232370469746_13L42648Q1-600373536Q20",
-     "market": "prop",
-     "player": "quentin grimes",
-     "selection": "under",
-     "sid": "0QA390333971#2370469746_13L42648Q1-600373536Q20",
-     "stat": "ast"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334174%232370469907_13L42648Q1672130158Q20",
-     "market": "prop",
-     "player": "collin sexton",
-     "selection": "over",
-     "sid": "0QA390334174#2370469907_13L42648Q1672130158Q20",
-     "stat": "ast"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334174%232370469916_13L42648Q1-600373536Q20",
-     "market": "prop",
-     "player": "collin sexton",
-     "selection": "under",
-     "sid": "0QA390334174#2370469916_13L42648Q1-600373536Q20",
-     "stat": "ast"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334394%232370470016_13L42648Q11503704237Q20",
-     "market": "prop",
-     "player": "walker kessler",
-     "selection": "over",
-     "sid": "0QA390334394#2370470016_13L42648Q11503704237Q20",
-     "stat": "ast"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334394%232370470019_13L42648Q1601919945Q20",
-     "market": "prop",
-     "player": "walker kessler",
-     "selection": "under",
-     "sid": "0QA390334394#2370470019_13L42648Q1601919945Q20",
-     "stat": "ast"
-    },
-    {
-     "line": 10.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334325%232370470905_13L42648Q1104657759Q20",
-     "market": "prop",
-     "player": "walker kessler",
-     "selection": "over",
-     "sid": "0QA390334325#2370470905_13L42648Q1104657759Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 10.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334325%232370470906_13L42648Q1-330652014Q20",
-     "market": "prop",
-     "player": "walker kessler",
-     "selection": "under",
-     "sid": "0QA390334325#2370470906_13L42648Q1-330652014Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 7.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333959%232370469943_13L42648Q1-25326551Q20",
-     "market": "prop",
-     "player": "luka doncic",
-     "selection": "over",
-     "sid": "0QA390333959#2370469943_13L42648Q1-25326551Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 7.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333959%232370469944_13L42648Q1-877137389Q20",
-     "market": "prop",
-     "player": "luka doncic",
-     "selection": "under",
-     "sid": "0QA390333959#2370469944_13L42648Q1-877137389Q20",
-     "stat": "reb"
     },
     {
      "line": 5.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334194%232370468473_13L42648Q1210220610Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626985%232371671641_13L42648Q1-557215984Q20",
      "market": "prop",
-     "player": "ace bailey",
-     "selection": "over",
-     "sid": "0QA390334194#2370468473_13L42648Q1210220610Q20",
-     "stat": "reb"
+     "player": "jalen brunson",
+     "selection": "under",
+     "sid": "0QA390626985#2371671641_13L42648Q1-557215984Q20",
+     "stat": "ast"
     },
     {
      "line": 5.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334194%232370468498_13L42648Q1-459759634Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626698%232371671319_13L42648Q1-1820894743Q20",
      "market": "prop",
-     "player": "ace bailey",
-     "selection": "under",
-     "sid": "0QA390334194#2370468498_13L42648Q1-459759634Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333562%232370469467_13L42648Q1-150170292Q20",
-     "market": "prop",
-     "player": "sandro mamukelashvili",
+     "player": "lamelo ball",
      "selection": "over",
-     "sid": "0QA390333562#2370469467_13L42648Q1-150170292Q20",
-     "stat": "reb"
+     "sid": "0QA390626698#2371671319_13L42648Q1-1820894743Q20",
+     "stat": "ast"
     },
     {
-     "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333562%232370469474_13L42648Q1-1659398539Q20",
+     "line": 5.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626698%232371671369_13L42648Q1-557215984Q20",
      "market": "prop",
-     "player": "sandro mamukelashvili",
+     "player": "lamelo ball",
      "selection": "under",
-     "sid": "0QA390333562#2370469474_13L42648Q1-1659398539Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333863%232371006644_13L42648Q1-150170292Q20",
-     "market": "prop",
-     "player": "jake laravia",
-     "selection": "over",
-     "sid": "0QA390333863#2371006644_13L42648Q1-150170292Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333863%232371006645_13L42648Q1-1659398539Q20",
-     "market": "prop",
-     "player": "jake laravia",
-     "selection": "under",
-     "sid": "0QA390333863#2371006645_13L42648Q1-1659398539Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334053%232370794689_13L42648Q1-150170292Q20",
-     "market": "prop",
-     "player": "darryn peterson",
-     "selection": "over",
-     "sid": "0QA390334053#2370794689_13L42648Q1-150170292Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334053%232370794690_13L42648Q1-1659398539Q20",
-     "market": "prop",
-     "player": "darryn peterson",
-     "selection": "under",
-     "sid": "0QA390334053#2370794690_13L42648Q1-1659398539Q20",
-     "stat": "reb"
+     "sid": "0QA390626698#2371671369_13L42648Q1-557215984Q20",
+     "stat": "ast"
     },
     {
      "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334210%232370469785_13L42648Q11299195355Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626322%232371669736_13L42648Q1-1851975937Q20",
      "market": "prop",
-     "player": "quentin grimes",
+     "player": "ayo dosunmu",
      "selection": "over",
-     "sid": "0QA390334210#2370469785_13L42648Q11299195355Q20",
-     "stat": "reb"
+     "sid": "0QA390626322#2371669736_13L42648Q1-1851975937Q20",
+     "stat": "ast"
     },
     {
      "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334210%232370469822_13L42648Q1647990913Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626322%232371669737_13L42648Q11701984101Q20",
      "market": "prop",
-     "player": "quentin grimes",
+     "player": "ayo dosunmu",
      "selection": "under",
-     "sid": "0QA390334210#2370469822_13L42648Q1647990913Q20",
-     "stat": "reb"
+     "sid": "0QA390626322#2371669737_13L42648Q11701984101Q20",
+     "stat": "ast"
     },
     {
      "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333802%232370466789_13L42648Q11299195355Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626842%232371986963_13L42648Q1-1851975937Q20",
      "market": "prop",
-     "player": "keyonte george",
+     "player": "karl anthony towns",
      "selection": "over",
-     "sid": "0QA390333802#2370466789_13L42648Q11299195355Q20",
-     "stat": "reb"
+     "sid": "0QA390626842#2371986963_13L42648Q1-1851975937Q20",
+     "stat": "ast"
     },
     {
      "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333802%232370466820_13L42648Q1647990913Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626842%232371986964_13L42648Q11701984101Q20",
      "market": "prop",
-     "player": "keyonte george",
+     "player": "karl anthony towns",
      "selection": "under",
-     "sid": "0QA390333802#2370466820_13L42648Q1647990913Q20",
-     "stat": "reb"
+     "sid": "0QA390626842#2371986964_13L42648Q11701984101Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 3.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626805%232371671986_13L42648Q1-1851975937Q20",
+     "market": "prop",
+     "player": "josh hart",
+     "selection": "over",
+     "sid": "0QA390626805#2371671986_13L42648Q1-1851975937Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 3.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626805%232371671991_13L42648Q11701984101Q20",
+     "market": "prop",
+     "player": "josh hart",
+     "selection": "under",
+     "sid": "0QA390626805#2371671991_13L42648Q11701984101Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 3.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626665%232371969681_13L42648Q1-1851975937Q20",
+     "market": "prop",
+     "player": "jaden mcdaniels",
+     "selection": "over",
+     "sid": "0QA390626665#2371969681_13L42648Q1-1851975937Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 3.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626665%232371969682_13L42648Q11701984101Q20",
+     "market": "prop",
+     "player": "jaden mcdaniels",
+     "selection": "under",
+     "sid": "0QA390626665#2371969682_13L42648Q11701984101Q20",
+     "stat": "ast"
     },
     {
      "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333558%232371415992_13L42648Q12005697320Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626993%232372174898_13L42648Q1672130158Q20",
      "market": "prop",
-     "player": "matisse thybulle",
+     "player": "terrence shannon",
      "selection": "over",
-     "sid": "0QA390333558#2371415992_13L42648Q12005697320Q20",
-     "stat": "reb"
+     "sid": "0QA390626993#2372174898_13L42648Q1672130158Q20",
+     "stat": "ast"
     },
     {
      "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333558%232371415993_13L42648Q1-9439206Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626993%232372174899_13L42648Q1-600373536Q20",
      "market": "prop",
-     "player": "matisse thybulle",
+     "player": "terrence shannon",
      "selection": "under",
-     "sid": "0QA390333558#2371415993_13L42648Q1-9439206Q20",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334247%232370468822_13L42648Q11286665504Q20",
-     "market": "prop",
-     "player": "luka doncic",
-     "selection": "over",
-     "sid": "0QA390334247#2370468822_13L42648Q11286665504Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334247%232370468835_13L42648Q182798432Q20",
-     "market": "prop",
-     "player": "luka doncic",
-     "selection": "under",
-     "sid": "0QA390334247#2370468835_13L42648Q182798432Q20",
-     "stat": "fg3m"
+     "sid": "0QA390626993#2372174899_13L42648Q1-600373536Q20",
+     "stat": "ast"
     },
     {
      "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334111%232370816490_13L42648Q1-717019713Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626425%232371670407_13L42648Q1672130158Q20",
      "market": "prop",
-     "player": "darryn peterson",
+     "player": "mikal bridges",
      "selection": "over",
-     "sid": "0QA390334111#2370816490_13L42648Q1-717019713Q20",
-     "stat": "fg3m"
+     "sid": "0QA390626425#2371670407_13L42648Q1672130158Q20",
+     "stat": "ast"
     },
     {
      "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334111%232370816491_13L42648Q1-278668562Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626425%232371670418_13L42648Q1-600373536Q20",
      "market": "prop",
-     "player": "darryn peterson",
+     "player": "mikal bridges",
      "selection": "under",
-     "sid": "0QA390334111#2370816491_13L42648Q1-278668562Q20",
-     "stat": "fg3m"
+     "sid": "0QA390626425#2371670418_13L42648Q1-600373536Q20",
+     "stat": "ast"
     },
     {
      "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334102%232370814902_13L42648Q1-717019713Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626699%232371670522_13L42648Q1672130158Q20",
      "market": "prop",
-     "player": "keyonte george",
+     "player": "jonathan kuminga",
      "selection": "over",
-     "sid": "0QA390334102#2370814902_13L42648Q1-717019713Q20",
-     "stat": "fg3m"
+     "sid": "0QA390626699#2371670522_13L42648Q1672130158Q20",
+     "stat": "ast"
     },
     {
      "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334102%232370814903_13L42648Q1-278668562Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626699%232371670529_13L42648Q1-600373536Q20",
      "market": "prop",
-     "player": "keyonte george",
+     "player": "jonathan kuminga",
      "selection": "under",
-     "sid": "0QA390334102#2370814903_13L42648Q1-278668562Q20",
-     "stat": "fg3m"
+     "sid": "0QA390626699#2371670529_13L42648Q1-600373536Q20",
+     "stat": "ast"
     },
     {
      "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333575%232370466440_13L42648Q11799469575Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626221%232371669633_13L42648Q11503704237Q20",
      "market": "prop",
-     "player": "ace bailey",
+     "player": "og anunoby",
      "selection": "over",
-     "sid": "0QA390333575#2370466440_13L42648Q11799469575Q20",
-     "stat": "fg3m"
+     "sid": "0QA390626221#2371669633_13L42648Q11503704237Q20",
+     "stat": "ast"
     },
     {
      "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333575%232370466448_13L42648Q1-1691304831Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626221%232371669641_13L42648Q1601919945Q20",
      "market": "prop",
-     "player": "ace bailey",
+     "player": "og anunoby",
      "selection": "under",
-     "sid": "0QA390333575#2370466448_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
+     "sid": "0QA390626221#2371669641_13L42648Q1601919945Q20",
+     "stat": "ast"
     },
     {
      "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334036%232370468367_13L42648Q11799469575Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626989%232371671616_13L42648Q11503704237Q20",
      "market": "prop",
-     "player": "quentin grimes",
+     "player": "rudy gobert",
      "selection": "over",
-     "sid": "0QA390334036#2370468367_13L42648Q11799469575Q20",
-     "stat": "fg3m"
+     "sid": "0QA390626989#2371671616_13L42648Q11503704237Q20",
+     "stat": "ast"
     },
     {
      "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334036%232370468423_13L42648Q1-1691304831Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626989%232371671652_13L42648Q1601919945Q20",
      "market": "prop",
-     "player": "quentin grimes",
+     "player": "rudy gobert",
      "selection": "under",
-     "sid": "0QA390334036#2370468423_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
+     "sid": "0QA390626989#2371671652_13L42648Q1601919945Q20",
+     "stat": "ast"
     },
     {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333737%232370468396_13L42648Q11799469575Q20",
+     "line": 25.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626766%232372107342_13L42648Q11675029633Q20",
      "market": "prop",
-     "player": "collin sexton",
+     "player": "jalen brunson",
      "selection": "over",
-     "sid": "0QA390333737#2370468396_13L42648Q11799469575Q20",
-     "stat": "fg3m"
+     "sid": "0QA390626766#2372107342_13L42648Q11675029633Q20",
+     "stat": "pts"
     },
     {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333737%232370468448_13L42648Q1-1691304831Q20",
+     "line": 25.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626766%232372107343_13L42648Q1-1971805532Q20",
      "market": "prop",
-     "player": "collin sexton",
+     "player": "jalen brunson",
      "selection": "under",
-     "sid": "0QA390333737#2370468448_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
+     "sid": "0QA390626766#2372107343_13L42648Q1-1971805532Q20",
+     "stat": "pts"
     },
     {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334214%232370468392_13L42648Q11799469575Q20",
+     "line": 20.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626763%232372069871_13L42648Q1490767635Q20",
      "market": "prop",
-     "player": "matisse thybulle",
+     "player": "karl anthony towns",
      "selection": "over",
-     "sid": "0QA390334214#2370468392_13L42648Q11799469575Q20",
-     "stat": "fg3m"
+     "sid": "0QA390626763#2372069871_13L42648Q1490767635Q20",
+     "stat": "pts"
     },
     {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334214%232370468444_13L42648Q1-1691304831Q20",
+     "line": 20.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626763%232372069872_13L42648Q1175200708Q20",
      "market": "prop",
-     "player": "matisse thybulle",
+     "player": "karl anthony towns",
      "selection": "under",
-     "sid": "0QA390334214#2370468444_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
+     "sid": "0QA390626763#2372069872_13L42648Q1175200708Q20",
+     "stat": "pts"
     },
     {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334168%232370468512_13L42648Q11799469575Q20",
+     "line": 19.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626469%232371697143_13L42648Q1-692842954Q20",
      "market": "prop",
-     "player": "sandro mamukelashvili",
+     "player": "lamelo ball",
      "selection": "over",
-     "sid": "0QA390334168#2370468512_13L42648Q11799469575Q20",
-     "stat": "fg3m"
+     "sid": "0QA390626469#2371697143_13L42648Q1-692842954Q20",
+     "stat": "pts"
     },
     {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390334168%232370468546_13L42648Q1-1691304831Q20",
+     "line": 19.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626469%232371697144_13L42648Q1-238425594Q20",
      "market": "prop",
-     "player": "sandro mamukelashvili",
+     "player": "lamelo ball",
      "selection": "under",
-     "sid": "0QA390334168#2370468546_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
+     "sid": "0QA390626469#2371697144_13L42648Q1-238425594Q20",
+     "stat": "pts"
     },
     {
-     "line": 0.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333950%232370468218_13L42648Q11449290012Q20",
+     "line": 17.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626848%232371672046_13L42648Q1-259387031Q20",
      "market": "prop",
-     "player": "jake laravia",
+     "player": "ayo dosunmu",
      "selection": "over",
-     "sid": "0QA390333950#2370468218_13L42648Q11449290012Q20",
-     "stat": "fg3m"
+     "sid": "0QA390626848#2371672046_13L42648Q1-259387031Q20",
+     "stat": "pts"
     },
     {
-     "line": 0.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390333950%232370468227_13L42648Q1-503844112Q20",
+     "line": 17.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626848%232371672077_13L42648Q1-815980538Q20",
      "market": "prop",
-     "player": "jake laravia",
+     "player": "ayo dosunmu",
      "selection": "under",
-     "sid": "0QA390333950#2370468227_13L42648Q1-503844112Q20",
-     "stat": "fg3m"
+     "sid": "0QA390626848#2371672077_13L42648Q1-815980538Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 16.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626761%232372078191_13L42648Q12120712626Q20",
+     "market": "prop",
+     "player": "jaden mcdaniels",
+     "selection": "over",
+     "sid": "0QA390626761#2372078191_13L42648Q12120712626Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 16.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626761%232372078192_13L42648Q1351768104Q20",
+     "market": "prop",
+     "player": "jaden mcdaniels",
+     "selection": "under",
+     "sid": "0QA390626761#2372078192_13L42648Q1351768104Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 15.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626857%232371671173_13L42648Q1-1402818428Q20",
+     "market": "prop",
+     "player": "og anunoby",
+     "selection": "over",
+     "sid": "0QA390626857#2371671173_13L42648Q1-1402818428Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 15.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626857%232371671247_13L42648Q11172504274Q20",
+     "market": "prop",
+     "player": "og anunoby",
+     "selection": "under",
+     "sid": "0QA390626857#2371671247_13L42648Q11172504274Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 12.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626646%232372462356_13L42648Q1-1662826468Q20",
+     "market": "prop",
+     "player": "jonathan kuminga",
+     "selection": "over",
+     "sid": "0QA390626646#2372462356_13L42648Q1-1662826468Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 12.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626646%232372462357_13L42648Q1-1693375913Q20",
+     "market": "prop",
+     "player": "jonathan kuminga",
+     "selection": "under",
+     "sid": "0QA390626646#2372462357_13L42648Q1-1693375913Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 11.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626744%232371671326_13L42648Q1-1856570546Q20",
+     "market": "prop",
+     "player": "terrence shannon",
+     "selection": "over",
+     "sid": "0QA390626744#2371671326_13L42648Q1-1856570546Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 11.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626744%232371671446_13L42648Q1-84747951Q20",
+     "market": "prop",
+     "player": "terrence shannon",
+     "selection": "under",
+     "sid": "0QA390626744#2371671446_13L42648Q1-84747951Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 10.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626421%232371669984_13L42648Q11964356459Q20",
+     "market": "prop",
+     "player": "mikal bridges",
+     "selection": "over",
+     "sid": "0QA390626421#2371669984_13L42648Q11964356459Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 10.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626421%232371669997_13L42648Q1670756388Q20",
+     "market": "prop",
+     "player": "mikal bridges",
+     "selection": "under",
+     "sid": "0QA390626421#2371669997_13L42648Q1670756388Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 8.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626880%232371697170_13L42648Q11720844938Q20",
+     "market": "prop",
+     "player": "landry shamet",
+     "selection": "over",
+     "sid": "0QA390626880#2371697170_13L42648Q11720844938Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 8.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626880%232371697171_13L42648Q11948178340Q20",
+     "market": "prop",
+     "player": "landry shamet",
+     "selection": "under",
+     "sid": "0QA390626880#2371697171_13L42648Q11948178340Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 8.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626670%232371671422_13L42648Q11720844938Q20",
+     "market": "prop",
+     "player": "rudy gobert",
+     "selection": "over",
+     "sid": "0QA390626670#2371671422_13L42648Q11720844938Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 8.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626670%232371671451_13L42648Q11948178340Q20",
+     "market": "prop",
+     "player": "rudy gobert",
+     "selection": "under",
+     "sid": "0QA390626670#2371671451_13L42648Q11948178340Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 7.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626541%232371671108_13L42648Q1511222344Q20",
+     "market": "prop",
+     "player": "josh hart",
+     "selection": "over",
+     "sid": "0QA390626541#2371671108_13L42648Q1511222344Q20",
+     "stat": "pts"
+    },
+    {
+     "line": 7.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390626541%232371671217_13L42648Q1-1758311513Q20",
+     "market": "prop",
+     "player": "josh hart",
+     "selection": "under",
+     "sid": "0QA390626541#2371671217_13L42648Q1-1758311513Q20",
+     "stat": "pts"
     }
    ],
    "fanduel": [
     {
-     "line": 8.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626567314&selectionId=12463224",
+     "line": 2.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626820163&selectionId=43165976",
      "market": "prop",
-     "player": "luka doncic",
+     "player": "terrence shannon",
      "selection": "over",
-     "sid": "12463224",
-     "stat": "ast"
-    },
-    {
-     "line": 8.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626567314&selectionId=12463223",
-     "market": "prop",
-     "player": "luka doncic",
-     "selection": "under",
-     "sid": "12463223",
+     "sid": "43165976",
      "stat": "ast"
     },
     {
      "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626721980&selectionId=42067800",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626820163&selectionId=43165975",
      "market": "prop",
-     "player": "quentin grimes",
+     "player": "terrence shannon",
+     "selection": "under",
+     "sid": "43165975",
+     "stat": "ast"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809123&selectionId=16220637",
+     "market": "prop",
+     "player": "og anunoby",
      "selection": "over",
-     "sid": "42067800",
+     "sid": "16220637",
+     "stat": "ast"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809123&selectionId=16220638",
+     "market": "prop",
+     "player": "og anunoby",
+     "selection": "under",
+     "sid": "16220638",
      "stat": "ast"
     },
     {
      "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626721980&selectionId=42067801",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809124&selectionId=17926931",
      "market": "prop",
-     "player": "quentin grimes",
-     "selection": "under",
-     "sid": "42067801",
+     "player": "mikal bridges",
+     "selection": "over",
+     "sid": "17926931",
      "stat": "ast"
     },
     {
      "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626726102&selectionId=21175483",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809124&selectionId=17926932",
      "market": "prop",
-     "player": "collin sexton",
-     "selection": "over",
-     "sid": "21175483",
+     "player": "mikal bridges",
+     "selection": "under",
+     "sid": "17926932",
      "stat": "ast"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626726102&selectionId=21175484",
-     "market": "prop",
-     "player": "collin sexton",
-     "selection": "under",
-     "sid": "21175484",
-     "stat": "ast"
-    },
-    {
-     "line": 6.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626570818&selectionId=50315096",
-     "market": "prop",
-     "player": "keyonte george",
-     "selection": "over",
-     "sid": "50315096",
-     "stat": "ast"
-    },
-    {
-     "line": 6.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626570818&selectionId=50315095",
-     "market": "prop",
-     "player": "keyonte george",
-     "selection": "under",
-     "sid": "50315095",
-     "stat": "ast"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626570817&selectionId=90729780",
-     "market": "prop",
-     "player": "darryn peterson",
-     "selection": "over",
-     "sid": "90729780",
-     "stat": "ast"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626570817&selectionId=90729781",
-     "market": "prop",
-     "player": "darryn peterson",
-     "selection": "under",
-     "sid": "90729781",
-     "stat": "ast"
-    },
-    {
-     "line": 10.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626654976&selectionId=43049096",
-     "market": "prop",
-     "player": "walker kessler",
-     "selection": "over",
-     "sid": "43049096",
-     "stat": "reb"
-    },
-    {
-     "line": 10.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626654976&selectionId=43049095",
-     "market": "prop",
-     "player": "walker kessler",
-     "selection": "under",
-     "sid": "43049095",
-     "stat": "reb"
-    },
-    {
-     "line": 7.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626567313&selectionId=12463224",
-     "market": "prop",
-     "player": "luka doncic",
-     "selection": "over",
-     "sid": "12463224",
-     "stat": "reb"
-    },
-    {
-     "line": 7.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626567313&selectionId=12463223",
-     "market": "prop",
-     "player": "luka doncic",
-     "selection": "under",
-     "sid": "12463223",
-     "stat": "reb"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626721977&selectionId=27661447",
-     "market": "prop",
-     "player": "matisse thybulle",
-     "selection": "over",
-     "sid": "27661447",
-     "stat": "reb"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626721977&selectionId=27661448",
-     "market": "prop",
-     "player": "matisse thybulle",
-     "selection": "under",
-     "sid": "27661448",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626721976&selectionId=90251254",
-     "market": "prop",
-     "player": "jake laravia",
-     "selection": "over",
-     "sid": "90251254",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626721976&selectionId=90251266",
-     "market": "prop",
-     "player": "jake laravia",
-     "selection": "under",
-     "sid": "90251266",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626570814&selectionId=50315096",
-     "market": "prop",
-     "player": "keyonte george",
-     "selection": "over",
-     "sid": "50315096",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626570814&selectionId=50315095",
-     "market": "prop",
-     "player": "keyonte george",
-     "selection": "under",
-     "sid": "50315095",
-     "stat": "reb"
     },
     {
      "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626721978&selectionId=42067800",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809122&selectionId=41408270",
      "market": "prop",
-     "player": "quentin grimes",
+     "player": "karl anthony towns",
      "selection": "over",
-     "sid": "42067800",
-     "stat": "reb"
+     "sid": "41408270",
+     "stat": "ast"
     },
     {
      "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626721978&selectionId=42067801",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809122&selectionId=41408268",
      "market": "prop",
-     "player": "quentin grimes",
+     "player": "karl anthony towns",
      "selection": "under",
-     "sid": "42067801",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626726562&selectionId=42119780",
-     "market": "prop",
-     "player": "sandro mamukelashvili",
-     "selection": "over",
-     "sid": "42119780",
-     "stat": "reb"
-    },
-    {
-     "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626726562&selectionId=42119779",
-     "market": "prop",
-     "player": "sandro mamukelashvili",
-     "selection": "under",
-     "sid": "42119779",
-     "stat": "reb"
+     "sid": "41408268",
+     "stat": "ast"
     },
     {
      "line": 5.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626570816&selectionId=77851408",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819275&selectionId=26324737",
      "market": "prop",
-     "player": "ace bailey",
+     "player": "lamelo ball",
      "selection": "over",
-     "sid": "77851408",
-     "stat": "reb"
+     "sid": "26324737",
+     "stat": "ast"
     },
     {
      "line": 5.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626570816&selectionId=77851407",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819275&selectionId=26324736",
      "market": "prop",
-     "player": "ace bailey",
+     "player": "lamelo ball",
      "selection": "under",
-     "sid": "77851407",
-     "stat": "reb"
+     "sid": "26324736",
+     "stat": "ast"
     },
     {
-     "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626570813&selectionId=90729780",
+     "line": 3.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819273&selectionId=38988768",
      "market": "prop",
-     "player": "darryn peterson",
+     "player": "jaden mcdaniels",
      "selection": "over",
-     "sid": "90729780",
-     "stat": "reb"
+     "sid": "38988768",
+     "stat": "ast"
     },
     {
-     "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626570813&selectionId=90729781",
+     "line": 3.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819273&selectionId=38988773",
      "market": "prop",
-     "player": "darryn peterson",
+     "player": "jaden mcdaniels",
      "selection": "under",
-     "sid": "90729781",
-     "stat": "reb"
+     "sid": "38988773",
+     "stat": "ast"
     },
     {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626726103&selectionId=21175483",
+     "line": 3.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809125&selectionId=18146694",
      "market": "prop",
-     "player": "collin sexton",
+     "player": "josh hart",
      "selection": "over",
-     "sid": "21175483",
-     "stat": "fg3m"
+     "sid": "18146694",
+     "stat": "ast"
     },
     {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626726103&selectionId=21175484",
+     "line": 3.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809125&selectionId=18146695",
      "market": "prop",
-     "player": "collin sexton",
+     "player": "josh hart",
      "selection": "under",
-     "sid": "21175484",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626570820&selectionId=77851408",
-     "market": "prop",
-     "player": "ace bailey",
-     "selection": "over",
-     "sid": "77851408",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626570820&selectionId=77851407",
-     "market": "prop",
-     "player": "ace bailey",
-     "selection": "under",
-     "sid": "77851407",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626721983&selectionId=42067800",
-     "market": "prop",
-     "player": "quentin grimes",
-     "selection": "over",
-     "sid": "42067800",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626721983&selectionId=42067801",
-     "market": "prop",
-     "player": "quentin grimes",
-     "selection": "under",
-     "sid": "42067801",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626721982&selectionId=27661447",
-     "market": "prop",
-     "player": "matisse thybulle",
-     "selection": "over",
-     "sid": "27661447",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626721982&selectionId=27661448",
-     "market": "prop",
-     "player": "matisse thybulle",
-     "selection": "under",
-     "sid": "27661448",
-     "stat": "fg3m"
+     "sid": "18146695",
+     "stat": "ast"
     },
     {
      "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626570819&selectionId=90729780",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819276&selectionId=40221490",
      "market": "prop",
-     "player": "darryn peterson",
+     "player": "jonathan kuminga",
      "selection": "over",
-     "sid": "90729780",
-     "stat": "fg3m"
+     "sid": "40221490",
+     "stat": "ast"
     },
     {
      "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626570819&selectionId=90729781",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819276&selectionId=40221489",
      "market": "prop",
-     "player": "darryn peterson",
+     "player": "jonathan kuminga",
      "selection": "under",
-     "sid": "90729781",
-     "stat": "fg3m"
+     "sid": "40221489",
+     "stat": "ast"
     },
     {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626726563&selectionId=42119780",
+     "line": 5.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809121&selectionId=17926928",
      "market": "prop",
-     "player": "sandro mamukelashvili",
+     "player": "jalen brunson",
      "selection": "over",
-     "sid": "42119780",
-     "stat": "fg3m"
+     "sid": "17926928",
+     "stat": "ast"
     },
     {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626726563&selectionId=42119779",
+     "line": 5.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809121&selectionId=17926927",
      "market": "prop",
-     "player": "sandro mamukelashvili",
+     "player": "jalen brunson",
      "selection": "under",
-     "sid": "42119779",
-     "stat": "fg3m"
+     "sid": "17926927",
+     "stat": "ast"
     },
     {
      "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626728741&selectionId=50495220",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819274&selectionId=12260609",
      "market": "prop",
-     "player": "brice sensabaugh",
+     "player": "rudy gobert",
      "selection": "over",
-     "sid": "50495220",
-     "stat": "fg3m"
+     "sid": "12260609",
+     "stat": "ast"
     },
     {
      "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626728741&selectionId=50495214",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819274&selectionId=12260610",
      "market": "prop",
-     "player": "brice sensabaugh",
+     "player": "rudy gobert",
      "selection": "under",
-     "sid": "50495214",
-     "stat": "fg3m"
+     "sid": "12260610",
+     "stat": "ast"
     },
     {
-     "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626567315&selectionId=12463224",
+     "line": 3.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819272&selectionId=41652478",
      "market": "prop",
-     "player": "luka doncic",
+     "player": "ayo dosunmu",
      "selection": "over",
-     "sid": "12463224",
-     "stat": "fg3m"
+     "sid": "41652478",
+     "stat": "ast"
     },
     {
-     "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626567315&selectionId=12463223",
+     "line": 3.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819272&selectionId=41652484",
      "market": "prop",
-     "player": "luka doncic",
+     "player": "ayo dosunmu",
      "selection": "under",
-     "sid": "12463223",
-     "stat": "fg3m"
+     "sid": "41652484",
+     "stat": "ast"
+    },
+    {
+     "line": 5.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626945993&selectionId=17022405",
+     "market": "prop",
+     "player": "trey lyles",
+     "selection": "over",
+     "sid": "17022405",
+     "stat": "pts"
+    },
+    {
+     "line": 5.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626945993&selectionId=17022406",
+     "market": "prop",
+     "player": "trey lyles",
+     "selection": "under",
+     "sid": "17022406",
+     "stat": "pts"
+    },
+    {
+     "line": 25.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809109&selectionId=17926928",
+     "market": "prop",
+     "player": "jalen brunson",
+     "selection": "over",
+     "sid": "17926928",
+     "stat": "pts"
+    },
+    {
+     "line": 25.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809109&selectionId=17926927",
+     "market": "prop",
+     "player": "jalen brunson",
+     "selection": "under",
+     "sid": "17926927",
+     "stat": "pts"
+    },
+    {
+     "line": 9.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809112&selectionId=17926931",
+     "market": "prop",
+     "player": "mikal bridges",
+     "selection": "over",
+     "sid": "17926931",
+     "stat": "pts"
+    },
+    {
+     "line": 9.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809112&selectionId=17926932",
+     "market": "prop",
+     "player": "mikal bridges",
+     "selection": "under",
+     "sid": "17926932",
+     "stat": "pts"
+    },
+    {
+     "line": 10.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626820161&selectionId=43165976",
+     "market": "prop",
+     "player": "terrence shannon",
+     "selection": "over",
+     "sid": "43165976",
+     "stat": "pts"
+    },
+    {
+     "line": 10.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626820161&selectionId=43165975",
+     "market": "prop",
+     "player": "terrence shannon",
+     "selection": "under",
+     "sid": "43165975",
+     "stat": "pts"
+    },
+    {
+     "line": 7.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809114&selectionId=18146694",
+     "market": "prop",
+     "player": "josh hart",
+     "selection": "over",
+     "sid": "18146694",
+     "stat": "pts"
+    },
+    {
+     "line": 7.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809114&selectionId=18146695",
+     "market": "prop",
+     "player": "josh hart",
+     "selection": "under",
+     "sid": "18146695",
+     "stat": "pts"
+    },
+    {
+     "line": 20.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809110&selectionId=41408270",
+     "market": "prop",
+     "player": "karl anthony towns",
+     "selection": "over",
+     "sid": "41408270",
+     "stat": "pts"
+    },
+    {
+     "line": 20.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809110&selectionId=41408268",
+     "market": "prop",
+     "player": "karl anthony towns",
+     "selection": "under",
+     "sid": "41408268",
+     "stat": "pts"
+    },
+    {
+     "line": 12.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819266&selectionId=40221490",
+     "market": "prop",
+     "player": "jonathan kuminga",
+     "selection": "over",
+     "sid": "40221490",
+     "stat": "pts"
+    },
+    {
+     "line": 12.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819266&selectionId=40221489",
+     "market": "prop",
+     "player": "jonathan kuminga",
+     "selection": "under",
+     "sid": "40221489",
+     "stat": "pts"
+    },
+    {
+     "line": 15.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819263&selectionId=38988768",
+     "market": "prop",
+     "player": "jaden mcdaniels",
+     "selection": "over",
+     "sid": "38988768",
+     "stat": "pts"
+    },
+    {
+     "line": 15.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819263&selectionId=38988773",
+     "market": "prop",
+     "player": "jaden mcdaniels",
+     "selection": "under",
+     "sid": "38988773",
+     "stat": "pts"
+    },
+    {
+     "line": 8.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819264&selectionId=12260609",
+     "market": "prop",
+     "player": "rudy gobert",
+     "selection": "over",
+     "sid": "12260609",
+     "stat": "pts"
+    },
+    {
+     "line": 8.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819264&selectionId=12260610",
+     "market": "prop",
+     "player": "rudy gobert",
+     "selection": "under",
+     "sid": "12260610",
+     "stat": "pts"
+    },
+    {
+     "line": 8.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809113&selectionId=22599731",
+     "market": "prop",
+     "player": "landry shamet",
+     "selection": "over",
+     "sid": "22599731",
+     "stat": "pts"
+    },
+    {
+     "line": 8.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809113&selectionId=22599732",
+     "market": "prop",
+     "player": "landry shamet",
+     "selection": "under",
+     "sid": "22599732",
+     "stat": "pts"
+    },
+    {
+     "line": 15.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809111&selectionId=16220637",
+     "market": "prop",
+     "player": "og anunoby",
+     "selection": "over",
+     "sid": "16220637",
+     "stat": "pts"
+    },
+    {
+     "line": 15.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626809111&selectionId=16220638",
+     "market": "prop",
+     "player": "og anunoby",
+     "selection": "under",
+     "sid": "16220638",
+     "stat": "pts"
+    },
+    {
+     "line": 17.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819262&selectionId=41652478",
+     "market": "prop",
+     "player": "ayo dosunmu",
+     "selection": "over",
+     "sid": "41652478",
+     "stat": "pts"
+    },
+    {
+     "line": 17.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819262&selectionId=41652484",
+     "market": "prop",
+     "player": "ayo dosunmu",
+     "selection": "under",
+     "sid": "41652484",
+     "stat": "pts"
+    },
+    {
+     "line": 18.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819265&selectionId=26324737",
+     "market": "prop",
+     "player": "lamelo ball",
+     "selection": "over",
+     "sid": "26324737",
+     "stat": "pts"
+    },
+    {
+     "line": 18.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626819265&selectionId=26324736",
+     "market": "prop",
+     "player": "lamelo ball",
+     "selection": "under",
+     "sid": "26324736",
+     "stat": "pts"
     }
    ]
   },
   "markets": [
    "player_assists",
-   "player_rebounds",
-   "player_threes"
+   "player_points"
   ],
-  "observed_at": "2026-11-18T21:46:54Z",
-  "slate": "2026-11-18"
+  "observed_at": "2026-11-19T21:43:05Z",
+  "slate": "2026-11-19"
  },
- "401910018": {
+ "401910022": {
   "books": {
    "draftkings": [
     {
-     "line": 12.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270474%232370478831_13L42648Q1583108280Q20",
+     "line": 7.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631405%232371959404_13L42648Q1-506315721Q20",
      "market": "prop",
-     "player": "domantas sabonis",
+     "player": "stephon castle",
      "selection": "over",
-     "sid": "0QA390270474#2370478831_13L42648Q1583108280Q20",
-     "stat": "reb"
+     "sid": "0QA390631405#2371959404_13L42648Q1-506315721Q20",
+     "stat": "ast"
     },
     {
-     "line": 12.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270474%232370478832_13L42648Q1-479317108Q20",
+     "line": 7.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631405%232371959405_13L42648Q11443594486Q20",
      "market": "prop",
-     "player": "domantas sabonis",
+     "player": "stephon castle",
      "selection": "under",
-     "sid": "0QA390270474#2370478832_13L42648Q1-479317108Q20",
-     "stat": "reb"
+     "sid": "0QA390631405#2371959405_13L42648Q11443594486Q20",
+     "stat": "ast"
     },
     {
-     "line": 5.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270353%232370644953_13L42648Q1210220610Q20",
+     "line": 6.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630900%232371698946_13L42648Q1388897612Q20",
      "market": "prop",
-     "player": "miles bridges",
+     "player": "darius garland",
      "selection": "over",
-     "sid": "0QA390270353#2370644953_13L42648Q1210220610Q20",
-     "stat": "reb"
+     "sid": "0QA390630900#2371698946_13L42648Q1388897612Q20",
+     "stat": "ast"
     },
     {
-     "line": 5.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270353%232370644954_13L42648Q1-459759634Q20",
+     "line": 6.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630900%232371699028_13L42648Q1366225196Q20",
      "market": "prop",
-     "player": "miles bridges",
+     "player": "darius garland",
      "selection": "under",
-     "sid": "0QA390270353#2370644954_13L42648Q1-459759634Q20",
-     "stat": "reb"
+     "sid": "0QA390630900#2371699028_13L42648Q1366225196Q20",
+     "stat": "ast"
     },
     {
-     "line": 5.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269821%232370478806_13L42648Q1210220610Q20",
+     "line": 6.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630770%232371698892_13L42648Q1388897612Q20",
      "market": "prop",
-     "player": "precious achiuwa",
+     "player": "deaaron fox",
      "selection": "over",
-     "sid": "0QA390269821#2370478806_13L42648Q1210220610Q20",
-     "stat": "reb"
+     "sid": "0QA390630770#2371698892_13L42648Q1388897612Q20",
+     "stat": "ast"
     },
     {
-     "line": 5.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269821%232370478807_13L42648Q1-459759634Q20",
+     "line": 6.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630770%232371698905_13L42648Q1366225196Q20",
      "market": "prop",
-     "player": "precious achiuwa",
+     "player": "deaaron fox",
      "selection": "under",
-     "sid": "0QA390269821#2370478807_13L42648Q1-459759634Q20",
-     "stat": "reb"
+     "sid": "0QA390630770#2371698905_13L42648Q1366225196Q20",
+     "stat": "ast"
     },
     {
-     "line": 5.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270419%232370645416_13L42648Q1210220610Q20",
+     "line": 3.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630683%232371698889_13L42648Q1-1851975937Q20",
      "market": "prop",
-     "player": "oso ighodaro",
+     "player": "kris dunn",
      "selection": "over",
-     "sid": "0QA390270419#2370645416_13L42648Q1210220610Q20",
+     "sid": "0QA390630683#2371698889_13L42648Q1-1851975937Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 3.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630683%232371698915_13L42648Q11701984101Q20",
+     "market": "prop",
+     "player": "kris dunn",
+     "selection": "under",
+     "sid": "0QA390630683#2371698915_13L42648Q11701984101Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 3.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630776%232371698792_13L42648Q1-1851975937Q20",
+     "market": "prop",
+     "player": "victor wembanyama",
+     "selection": "over",
+     "sid": "0QA390630776#2371698792_13L42648Q1-1851975937Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 3.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630776%232371698844_13L42648Q11701984101Q20",
+     "market": "prop",
+     "player": "victor wembanyama",
+     "selection": "under",
+     "sid": "0QA390630776#2371698844_13L42648Q11701984101Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631159%232371699756_13L42648Q1672130158Q20",
+     "market": "prop",
+     "player": "devin vassell",
+     "selection": "over",
+     "sid": "0QA390631159#2371699756_13L42648Q1672130158Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631159%232371699836_13L42648Q1-600373536Q20",
+     "market": "prop",
+     "player": "devin vassell",
+     "selection": "under",
+     "sid": "0QA390631159#2371699836_13L42648Q1-600373536Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630882%232371699295_13L42648Q1672130158Q20",
+     "market": "prop",
+     "player": "keaton wagler",
+     "selection": "over",
+     "sid": "0QA390630882#2371699295_13L42648Q1672130158Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630882%232371699309_13L42648Q1-600373536Q20",
+     "market": "prop",
+     "player": "keaton wagler",
+     "selection": "under",
+     "sid": "0QA390630882#2371699309_13L42648Q1-600373536Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631211%232371700678_13L42648Q11503704237Q20",
+     "market": "prop",
+     "player": "brook lopez",
+     "selection": "over",
+     "sid": "0QA390631211#2371700678_13L42648Q11503704237Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631211%232371700686_13L42648Q1601919945Q20",
+     "market": "prop",
+     "player": "brook lopez",
+     "selection": "under",
+     "sid": "0QA390631211#2371700686_13L42648Q1601919945Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631096%232371699943_13L42648Q11503704237Q20",
+     "market": "prop",
+     "player": "julian champagnie",
+     "selection": "over",
+     "sid": "0QA390631096#2371699943_13L42648Q11503704237Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631096%232371700014_13L42648Q1601919945Q20",
+     "market": "prop",
+     "player": "julian champagnie",
+     "selection": "under",
+     "sid": "0QA390631096#2371700014_13L42648Q1601919945Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630784%232371698670_13L42648Q11503704237Q20",
+     "market": "prop",
+     "player": "derrick jones",
+     "selection": "over",
+     "sid": "0QA390630784#2371698670_13L42648Q11503704237Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630784%232371698724_13L42648Q1601919945Q20",
+     "market": "prop",
+     "player": "derrick jones",
+     "selection": "under",
+     "sid": "0QA390630784#2371698724_13L42648Q1601919945Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630979%232371699428_13L42648Q11503704237Q20",
+     "market": "prop",
+     "player": "rui hachimura",
+     "selection": "over",
+     "sid": "0QA390630979#2371699428_13L42648Q11503704237Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630979%232371699504_13L42648Q1601919945Q20",
+     "market": "prop",
+     "player": "rui hachimura",
+     "selection": "under",
+     "sid": "0QA390630979#2371699504_13L42648Q1601919945Q20",
+     "stat": "ast"
+    },
+    {
+     "line": 11.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631117%232371699913_13L42648Q1-1455563980Q20",
+     "market": "prop",
+     "player": "victor wembanyama",
+     "selection": "over",
+     "sid": "0QA390631117#2371699913_13L42648Q1-1455563980Q20",
+     "stat": "reb"
+    },
+    {
+     "line": 11.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631117%232371699995_13L42648Q11950259446Q20",
+     "market": "prop",
+     "player": "victor wembanyama",
+     "selection": "under",
+     "sid": "0QA390631117#2371699995_13L42648Q11950259446Q20",
      "stat": "reb"
     },
     {
      "line": 5.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270419%232370645417_13L42648Q1-459759634Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630945%232371699686_13L42648Q1210220610Q20",
      "market": "prop",
-     "player": "oso ighodaro",
+     "player": "keldon johnson",
+     "selection": "over",
+     "sid": "0QA390630945#2371699686_13L42648Q1210220610Q20",
+     "stat": "reb"
+    },
+    {
+     "line": 5.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630945%232371699781_13L42648Q1-459759634Q20",
+     "market": "prop",
+     "player": "keldon johnson",
      "selection": "under",
-     "sid": "0QA390270419#2370645417_13L42648Q1-459759634Q20",
+     "sid": "0QA390630945#2371699781_13L42648Q1-459759634Q20",
+     "stat": "reb"
+    },
+    {
+     "line": 5.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631105%232371700112_13L42648Q1210220610Q20",
+     "market": "prop",
+     "player": "julian champagnie",
+     "selection": "over",
+     "sid": "0QA390631105#2371700112_13L42648Q1210220610Q20",
+     "stat": "reb"
+    },
+    {
+     "line": 5.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631105%232371700190_13L42648Q1-459759634Q20",
+     "market": "prop",
+     "player": "julian champagnie",
+     "selection": "under",
+     "sid": "0QA390631105#2371700190_13L42648Q1-459759634Q20",
      "stat": "reb"
     },
     {
      "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269854%232370090609_13L42648Q1-150170292Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631001%232371945844_13L42648Q1-150170292Q20",
      "market": "prop",
-     "player": "jordan goodwin",
+     "player": "stephon castle",
      "selection": "over",
-     "sid": "0QA390269854#2370090609_13L42648Q1-150170292Q20",
+     "sid": "0QA390631001#2371945844_13L42648Q1-150170292Q20",
      "stat": "reb"
     },
     {
      "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269854%232370090617_13L42648Q1-1659398539Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631001%232371945845_13L42648Q1-1659398539Q20",
      "market": "prop",
-     "player": "jordan goodwin",
+     "player": "stephon castle",
      "selection": "under",
-     "sid": "0QA390269854#2370090617_13L42648Q1-1659398539Q20",
+     "sid": "0QA390631001#2371945845_13L42648Q1-1659398539Q20",
      "stat": "reb"
     },
     {
      "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269840%232370091071_13L42648Q1-150170292Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631010%232371983652_13L42648Q1-150170292Q20",
      "market": "prop",
-     "player": "deandre hunter",
+     "player": "brook lopez",
      "selection": "over",
-     "sid": "0QA390269840#2370091071_13L42648Q1-150170292Q20",
+     "sid": "0QA390631010#2371983652_13L42648Q1-150170292Q20",
      "stat": "reb"
     },
     {
      "line": 4.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269840%232370091085_13L42648Q1-1659398539Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631010%232371983653_13L42648Q1-1659398539Q20",
      "market": "prop",
-     "player": "deandre hunter",
+     "player": "brook lopez",
      "selection": "under",
-     "sid": "0QA390269840#2370091085_13L42648Q1-1659398539Q20",
+     "sid": "0QA390631010#2371983653_13L42648Q1-1659398539Q20",
      "stat": "reb"
     },
     {
-     "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269983%232370091168_13L42648Q11299195355Q20",
+     "line": 4.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630777%232371698735_13L42648Q1-150170292Q20",
      "market": "prop",
-     "player": "darius acuff",
+     "player": "rui hachimura",
      "selection": "over",
-     "sid": "0QA390269983#2370091168_13L42648Q11299195355Q20",
+     "sid": "0QA390630777#2371698735_13L42648Q1-150170292Q20",
      "stat": "reb"
     },
     {
-     "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269983%232370091258_13L42648Q1647990913Q20",
+     "line": 4.5,
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630777%232371698866_13L42648Q1-1659398539Q20",
      "market": "prop",
-     "player": "darius acuff",
+     "player": "rui hachimura",
      "selection": "under",
-     "sid": "0QA390269983#2370091258_13L42648Q1647990913Q20",
+     "sid": "0QA390630777#2371698866_13L42648Q1-1659398539Q20",
      "stat": "reb"
     },
     {
      "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269867%232370091212_13L42648Q11299195355Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630767%232371941015_13L42648Q11299195355Q20",
      "market": "prop",
-     "player": "dillon brooks",
+     "player": "deaaron fox",
      "selection": "over",
-     "sid": "0QA390269867#2370091212_13L42648Q11299195355Q20",
+     "sid": "0QA390630767#2371941015_13L42648Q11299195355Q20",
      "stat": "reb"
     },
     {
      "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269867%232370091316_13L42648Q1647990913Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630767%232371941016_13L42648Q1647990913Q20",
      "market": "prop",
-     "player": "dillon brooks",
+     "player": "deaaron fox",
      "selection": "under",
-     "sid": "0QA390269867#2370091316_13L42648Q1647990913Q20",
+     "sid": "0QA390630767#2371941016_13L42648Q1647990913Q20",
      "stat": "reb"
     },
     {
      "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270392%232370641060_13L42648Q11299195355Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631269%232371986377_13L42648Q11299195355Q20",
      "market": "prop",
-     "player": "jalen green",
+     "player": "devin vassell",
      "selection": "over",
-     "sid": "0QA390270392#2370641060_13L42648Q11299195355Q20",
+     "sid": "0QA390631269#2371986377_13L42648Q11299195355Q20",
      "stat": "reb"
     },
     {
      "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270392%232370641061_13L42648Q1647990913Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631269%232371986378_13L42648Q1647990913Q20",
      "market": "prop",
-     "player": "jalen green",
+     "player": "devin vassell",
      "selection": "under",
-     "sid": "0QA390270392#2370641061_13L42648Q1647990913Q20",
+     "sid": "0QA390631269#2371986378_13L42648Q1647990913Q20",
      "stat": "reb"
     },
     {
      "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270344%232370575434_13L42648Q11299195355Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631098%232371884692_13L42648Q11299195355Q20",
      "market": "prop",
-     "player": "collin gillespie",
+     "player": "derrick jones",
      "selection": "over",
-     "sid": "0QA390270344#2370575434_13L42648Q11299195355Q20",
+     "sid": "0QA390631098#2371884692_13L42648Q11299195355Q20",
      "stat": "reb"
     },
     {
      "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270344%232370575435_13L42648Q1647990913Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631098%232371884694_13L42648Q1647990913Q20",
      "market": "prop",
-     "player": "collin gillespie",
+     "player": "derrick jones",
      "selection": "under",
-     "sid": "0QA390270344#2370575435_13L42648Q1647990913Q20",
+     "sid": "0QA390631098#2371884694_13L42648Q1647990913Q20",
      "stat": "reb"
     },
     {
      "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270346%232370584667_13L42648Q11299195355Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631196%232371700360_13L42648Q11299195355Q20",
      "market": "prop",
-     "player": "devin booker",
+     "player": "kris dunn",
      "selection": "over",
-     "sid": "0QA390270346#2370584667_13L42648Q11299195355Q20",
+     "sid": "0QA390631196#2371700360_13L42648Q11299195355Q20",
      "stat": "reb"
     },
     {
      "line": 3.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270346%232370584668_13L42648Q1647990913Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390631196%232371700411_13L42648Q1647990913Q20",
      "market": "prop",
-     "player": "devin booker",
+     "player": "kris dunn",
      "selection": "under",
-     "sid": "0QA390270346#2370584668_13L42648Q1647990913Q20",
+     "sid": "0QA390631196#2371700411_13L42648Q1647990913Q20",
      "stat": "reb"
     },
     {
      "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270261%232370637503_13L42648Q12005697320Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630621%232372094104_13L42648Q12005697320Q20",
      "market": "prop",
-     "player": "zach lavine",
+     "player": "keaton wagler",
      "selection": "over",
-     "sid": "0QA390270261#2370637503_13L42648Q12005697320Q20",
+     "sid": "0QA390630621#2372094104_13L42648Q12005697320Q20",
      "stat": "reb"
     },
     {
      "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270261%232370637504_13L42648Q1-9439206Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630621%232372094105_13L42648Q1-9439206Q20",
      "market": "prop",
-     "player": "zach lavine",
+     "player": "keaton wagler",
      "selection": "under",
-     "sid": "0QA390270261#2370637504_13L42648Q1-9439206Q20",
+     "sid": "0QA390630621#2372094105_13L42648Q1-9439206Q20",
      "stat": "reb"
     },
     {
      "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269861%232370090659_13L42648Q1-717019713Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630983%232371699134_13L42648Q12005697320Q20",
      "market": "prop",
-     "player": "darius acuff",
+     "player": "darius garland",
      "selection": "over",
-     "sid": "0QA390269861#2370090659_13L42648Q1-717019713Q20",
-     "stat": "fg3m"
+     "sid": "0QA390630983#2371699134_13L42648Q12005697320Q20",
+     "stat": "reb"
     },
     {
      "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269861%232370090672_13L42648Q1-278668562Q20",
+     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390630983%232371699251_13L42648Q1-9439206Q20",
      "market": "prop",
-     "player": "darius acuff",
+     "player": "darius garland",
      "selection": "under",
-     "sid": "0QA390269861#2370090672_13L42648Q1-278668562Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270124%232370573980_13L42648Q1-717019713Q20",
-     "market": "prop",
-     "player": "collin gillespie",
-     "selection": "over",
-     "sid": "0QA390270124#2370573980_13L42648Q1-717019713Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270124%232370573981_13L42648Q1-278668562Q20",
-     "market": "prop",
-     "player": "collin gillespie",
-     "selection": "under",
-     "sid": "0QA390270124#2370573981_13L42648Q1-278668562Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269654%232370090792_13L42648Q1-717019713Q20",
-     "market": "prop",
-     "player": "zach lavine",
-     "selection": "over",
-     "sid": "0QA390269654#2370090792_13L42648Q1-717019713Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 2.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269654%232370090795_13L42648Q1-278668562Q20",
-     "market": "prop",
-     "player": "zach lavine",
-     "selection": "under",
-     "sid": "0QA390269654#2370090795_13L42648Q1-278668562Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270240%232370092914_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "devin booker",
-     "selection": "over",
-     "sid": "0QA390270240#2370092914_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270240%232370092952_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "devin booker",
-     "selection": "under",
-     "sid": "0QA390270240#2370092952_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269655%232370090471_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "deandre hunter",
-     "selection": "over",
-     "sid": "0QA390269655#2370090471_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269655%232370090481_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "deandre hunter",
-     "selection": "under",
-     "sid": "0QA390269655#2370090481_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269865%232370090667_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "luke kennard",
-     "selection": "over",
-     "sid": "0QA390269865#2370090667_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269865%232370090686_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "luke kennard",
-     "selection": "under",
-     "sid": "0QA390269865#2370090686_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270030%232370092182_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "jordan goodwin",
-     "selection": "over",
-     "sid": "0QA390270030#2370092182_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270030%232370092264_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "jordan goodwin",
-     "selection": "under",
-     "sid": "0QA390270030#2370092264_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270125%232370092126_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "dillon brooks",
-     "selection": "over",
-     "sid": "0QA390270125#2370092126_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270125%232370092210_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "dillon brooks",
-     "selection": "under",
-     "sid": "0QA390270125#2370092210_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269839%232370090579_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "miles bridges",
-     "selection": "over",
-     "sid": "0QA390269839#2370090579_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390269839%232370090591_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "miles bridges",
-     "selection": "under",
-     "sid": "0QA390269839#2370090591_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270092%232370093205_13L42648Q11799469575Q20",
-     "market": "prop",
-     "player": "jalen green",
-     "selection": "over",
-     "sid": "0QA390270092#2370093205_13L42648Q11799469575Q20",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.draftkings.com/?outcomes=0QA390270092%232370093222_13L42648Q1-1691304831Q20",
-     "market": "prop",
-     "player": "jalen green",
-     "selection": "under",
-     "sid": "0QA390270092#2370093222_13L42648Q1-1691304831Q20",
-     "stat": "fg3m"
+     "sid": "0QA390630983#2371699251_13L42648Q1-9439206Q20",
+     "stat": "reb"
     }
    ],
    "fanduel": [
     {
+     "line": 3.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804580&selectionId=61967224",
+     "market": "prop",
+     "player": "victor wembanyama",
+     "selection": "over",
+     "sid": "61967224",
+     "stat": "ast"
+    },
+    {
+     "line": 3.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804580&selectionId=61967225",
+     "market": "prop",
+     "player": "victor wembanyama",
+     "selection": "under",
+     "sid": "61967225",
+     "stat": "ast"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804584&selectionId=43049038",
+     "market": "prop",
+     "player": "julian champagnie",
+     "selection": "over",
+     "sid": "43049038",
+     "stat": "ast"
+    },
+    {
+     "line": 1.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804584&selectionId=43049039",
+     "market": "prop",
+     "player": "julian champagnie",
+     "selection": "under",
+     "sid": "43049039",
+     "stat": "ast"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626806836&selectionId=91484441",
+     "market": "prop",
+     "player": "keaton wagler",
+     "selection": "over",
+     "sid": "91484441",
+     "stat": "ast"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626806836&selectionId=91484443",
+     "market": "prop",
+     "player": "keaton wagler",
+     "selection": "under",
+     "sid": "91484443",
+     "stat": "ast"
+    },
+    {
+     "line": 6.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626806831&selectionId=26610065",
+     "market": "prop",
+     "player": "darius garland",
+     "selection": "over",
+     "sid": "26610065",
+     "stat": "ast"
+    },
+    {
+     "line": 6.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626806831&selectionId=26610066",
+     "market": "prop",
+     "player": "darius garland",
+     "selection": "under",
+     "sid": "26610066",
+     "stat": "ast"
+    },
+    {
+     "line": 7.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804581&selectionId=64780942",
+     "market": "prop",
+     "player": "stephon castle",
+     "selection": "over",
+     "sid": "64780942",
+     "stat": "ast"
+    },
+    {
+     "line": 7.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804581&selectionId=64780943",
+     "market": "prop",
+     "player": "stephon castle",
+     "selection": "under",
+     "sid": "64780943",
+     "stat": "ast"
+    },
+    {
+     "line": 3.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626806832&selectionId=16115331",
+     "market": "prop",
+     "player": "kris dunn",
+     "selection": "over",
+     "sid": "16115331",
+     "stat": "ast"
+    },
+    {
+     "line": 3.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626806832&selectionId=16115332",
+     "market": "prop",
+     "player": "kris dunn",
+     "selection": "under",
+     "sid": "16115332",
+     "stat": "ast"
+    },
+    {
+     "line": 6.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804582&selectionId=15572079",
+     "market": "prop",
+     "player": "deaaron fox",
+     "selection": "over",
+     "sid": "15572079",
+     "stat": "ast"
+    },
+    {
+     "line": 6.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804582&selectionId=15572080",
+     "market": "prop",
+     "player": "deaaron fox",
+     "selection": "under",
+     "sid": "15572080",
+     "stat": "ast"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804583&selectionId=38295529",
+     "market": "prop",
+     "player": "devin vassell",
+     "selection": "over",
+     "sid": "38295529",
+     "stat": "ast"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804583&selectionId=38295528",
+     "market": "prop",
+     "player": "devin vassell",
+     "selection": "under",
+     "sid": "38295528",
+     "stat": "ast"
+    },
+    {
+     "line": 5.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804575&selectionId=64780942",
+     "market": "prop",
+     "player": "stephon castle",
+     "selection": "over",
+     "sid": "64780942",
+     "stat": "reb"
+    },
+    {
+     "line": 5.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804575&selectionId=64780943",
+     "market": "prop",
+     "player": "stephon castle",
+     "selection": "under",
+     "sid": "64780943",
+     "stat": "reb"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626806824&selectionId=26610065",
+     "market": "prop",
+     "player": "darius garland",
+     "selection": "over",
+     "sid": "26610065",
+     "stat": "reb"
+    },
+    {
+     "line": 2.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626806824&selectionId=26610066",
+     "market": "prop",
+     "player": "darius garland",
+     "selection": "under",
+     "sid": "26610066",
+     "stat": "reb"
+    },
+    {
      "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509712&selectionId=50195698",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626806828&selectionId=12269019",
      "market": "prop",
-     "player": "jordan goodwin",
+     "player": "brook lopez",
      "selection": "over",
-     "sid": "50195698",
+     "sid": "12269019",
      "stat": "reb"
     },
     {
      "line": 4.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509712&selectionId=50195697",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626806828&selectionId=12269020",
      "market": "prop",
-     "player": "jordan goodwin",
+     "player": "brook lopez",
      "selection": "under",
-     "sid": "50195697",
+     "sid": "12269020",
      "stat": "reb"
     },
     {
-     "line": 5.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626512308&selectionId=38212281",
+     "line": 4.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626806827&selectionId=25844760",
      "market": "prop",
-     "player": "precious achiuwa",
+     "player": "rui hachimura",
      "selection": "over",
-     "sid": "38212281",
+     "sid": "25844760",
      "stat": "reb"
     },
     {
-     "line": 5.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626512308&selectionId=38212282",
+     "line": 4.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626806827&selectionId=25844759",
      "market": "prop",
-     "player": "precious achiuwa",
+     "player": "rui hachimura",
      "selection": "under",
-     "sid": "38212282",
+     "sid": "25844759",
      "stat": "reb"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626511893&selectionId=26624379",
-     "market": "prop",
-     "player": "deandre hunter",
-     "selection": "over",
-     "sid": "26624379",
-     "stat": "reb"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626511893&selectionId=26624380",
-     "market": "prop",
-     "player": "deandre hunter",
-     "selection": "under",
-     "sid": "26624380",
-     "stat": "reb"
-    },
-    {
-     "line": 5.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509085&selectionId=50184535",
-     "market": "prop",
-     "player": "oso ighodaro",
-     "selection": "over",
-     "sid": "50184535",
-     "stat": "reb"
-    },
-    {
-     "line": 5.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509085&selectionId=50184532",
-     "market": "prop",
-     "player": "oso ighodaro",
-     "selection": "under",
-     "sid": "50184532",
-     "stat": "reb"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509084&selectionId=41386184",
-     "market": "prop",
-     "player": "jalen green",
-     "selection": "over",
-     "sid": "41386184",
-     "stat": "reb"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509084&selectionId=41386185",
-     "market": "prop",
-     "player": "jalen green",
-     "selection": "under",
-     "sid": "41386185",
-     "stat": "reb"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626511517&selectionId=90960656",
-     "market": "prop",
-     "player": "darius acuff",
-     "selection": "over",
-     "sid": "90960656",
-     "stat": "reb"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626511517&selectionId=90960655",
-     "market": "prop",
-     "player": "darius acuff",
-     "selection": "under",
-     "sid": "90960655",
-     "stat": "reb"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509081&selectionId=12257187",
-     "market": "prop",
-     "player": "devin booker",
-     "selection": "over",
-     "sid": "12257187",
-     "stat": "reb"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509081&selectionId=12257186",
-     "market": "prop",
-     "player": "devin booker",
-     "selection": "under",
-     "sid": "12257186",
-     "stat": "reb"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509083&selectionId=12798648",
-     "market": "prop",
-     "player": "dillon brooks",
-     "selection": "over",
-     "sid": "12798648",
-     "stat": "reb"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509083&selectionId=12798647",
-     "market": "prop",
-     "player": "dillon brooks",
-     "selection": "under",
-     "sid": "12798647",
-     "stat": "reb"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509494&selectionId=43026356",
-     "market": "prop",
-     "player": "collin gillespie",
-     "selection": "over",
-     "sid": "43026356",
-     "stat": "reb"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509494&selectionId=43026355",
-     "market": "prop",
-     "player": "collin gillespie",
-     "selection": "under",
-     "sid": "43026355",
-     "stat": "reb"
-    },
-    {
-     "line": 5.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509082&selectionId=23559725",
-     "market": "prop",
-     "player": "miles bridges",
-     "selection": "over",
-     "sid": "23559725",
-     "stat": "reb"
-    },
-    {
-     "line": 5.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509082&selectionId=23559726",
-     "market": "prop",
-     "player": "miles bridges",
-     "selection": "under",
-     "sid": "23559726",
-     "stat": "reb"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626511861&selectionId=12257190",
-     "market": "prop",
-     "player": "zach lavine",
-     "selection": "over",
-     "sid": "12257190",
-     "stat": "reb"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626511861&selectionId=12257191",
-     "market": "prop",
-     "player": "zach lavine",
-     "selection": "under",
-     "sid": "12257191",
-     "stat": "reb"
-    },
-    {
-     "line": 12.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626511561&selectionId=12601272",
-     "market": "prop",
-     "player": "domantas sabonis",
-     "selection": "over",
-     "sid": "12601272",
-     "stat": "reb"
-    },
-    {
-     "line": 12.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626511561&selectionId=12601273",
-     "market": "prop",
-     "player": "domantas sabonis",
-     "selection": "under",
-     "sid": "12601273",
-     "stat": "reb"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509714&selectionId=50195698",
-     "market": "prop",
-     "player": "jordan goodwin",
-     "selection": "over",
-     "sid": "50195698",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509714&selectionId=50195697",
-     "market": "prop",
-     "player": "jordan goodwin",
-     "selection": "under",
-     "sid": "50195697",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509889&selectionId=16954514",
-     "market": "prop",
-     "player": "luke kennard",
-     "selection": "over",
-     "sid": "16954514",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509889&selectionId=16954515",
-     "market": "prop",
-     "player": "luke kennard",
-     "selection": "under",
-     "sid": "16954515",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626511895&selectionId=26624379",
-     "market": "prop",
-     "player": "deandre hunter",
-     "selection": "over",
-     "sid": "26624379",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626511895&selectionId=26624380",
-     "market": "prop",
-     "player": "deandre hunter",
-     "selection": "under",
-     "sid": "26624380",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509092&selectionId=23559725",
-     "market": "prop",
-     "player": "miles bridges",
-     "selection": "over",
-     "sid": "23559725",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509092&selectionId=23559726",
-     "market": "prop",
-     "player": "miles bridges",
-     "selection": "under",
-     "sid": "23559726",
-     "stat": "fg3m"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626511519&selectionId=90960656",
-     "market": "prop",
-     "player": "darius acuff",
-     "selection": "over",
-     "sid": "90960656",
-     "stat": "fg3m"
-    },
-    {
-     "line": 3.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626511519&selectionId=90960655",
-     "market": "prop",
-     "player": "darius acuff",
-     "selection": "under",
-     "sid": "90960655",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509093&selectionId=12798648",
-     "market": "prop",
-     "player": "dillon brooks",
-     "selection": "over",
-     "sid": "12798648",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509093&selectionId=12798647",
-     "market": "prop",
-     "player": "dillon brooks",
-     "selection": "under",
-     "sid": "12798647",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509091&selectionId=12257187",
-     "market": "prop",
-     "player": "devin booker",
-     "selection": "over",
-     "sid": "12257187",
-     "stat": "fg3m"
-    },
-    {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509091&selectionId=12257186",
-     "market": "prop",
-     "player": "devin booker",
-     "selection": "under",
-     "sid": "12257186",
-     "stat": "fg3m"
     },
     {
      "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509496&selectionId=43026356",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626806826&selectionId=16115331",
      "market": "prop",
-     "player": "collin gillespie",
+     "player": "kris dunn",
      "selection": "over",
-     "sid": "43026356",
-     "stat": "fg3m"
+     "sid": "16115331",
+     "stat": "reb"
     },
     {
      "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509496&selectionId=43026355",
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626806826&selectionId=16115332",
      "market": "prop",
-     "player": "collin gillespie",
+     "player": "kris dunn",
      "selection": "under",
-     "sid": "43026355",
-     "stat": "fg3m"
+     "sid": "16115332",
+     "stat": "reb"
     },
     {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626511863&selectionId=12257190",
+     "line": 3.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804577&selectionId=38295529",
      "market": "prop",
-     "player": "zach lavine",
+     "player": "devin vassell",
      "selection": "over",
-     "sid": "12257190",
-     "stat": "fg3m"
+     "sid": "38295529",
+     "stat": "reb"
     },
     {
-     "line": 2.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626511863&selectionId=12257191",
+     "line": 3.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804577&selectionId=38295528",
      "market": "prop",
-     "player": "zach lavine",
+     "player": "devin vassell",
      "selection": "under",
-     "sid": "12257191",
-     "stat": "fg3m"
+     "sid": "38295528",
+     "stat": "reb"
     },
     {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509094&selectionId=41386184",
+     "line": 11.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804574&selectionId=61967224",
      "market": "prop",
-     "player": "jalen green",
+     "player": "victor wembanyama",
      "selection": "over",
-     "sid": "41386184",
-     "stat": "fg3m"
+     "sid": "61967224",
+     "stat": "reb"
     },
     {
-     "line": 1.5,
-     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626509094&selectionId=41386185",
+     "line": 11.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804574&selectionId=61967225",
      "market": "prop",
-     "player": "jalen green",
+     "player": "victor wembanyama",
      "selection": "under",
-     "sid": "41386185",
-     "stat": "fg3m"
+     "sid": "61967225",
+     "stat": "reb"
+    },
+    {
+     "line": 3.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626806825&selectionId=41652479",
+     "market": "prop",
+     "player": "derrick jones",
+     "selection": "over",
+     "sid": "41652479",
+     "stat": "reb"
+    },
+    {
+     "line": 3.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626806825&selectionId=41652481",
+     "market": "prop",
+     "player": "derrick jones",
+     "selection": "under",
+     "sid": "41652481",
+     "stat": "reb"
+    },
+    {
+     "line": 3.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804576&selectionId=15572079",
+     "market": "prop",
+     "player": "deaaron fox",
+     "selection": "over",
+     "sid": "15572079",
+     "stat": "reb"
+    },
+    {
+     "line": 3.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804576&selectionId=15572080",
+     "market": "prop",
+     "player": "deaaron fox",
+     "selection": "under",
+     "sid": "15572080",
+     "stat": "reb"
+    },
+    {
+     "line": 5.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804578&selectionId=43049038",
+     "market": "prop",
+     "player": "julian champagnie",
+     "selection": "over",
+     "sid": "43049038",
+     "stat": "reb"
+    },
+    {
+     "line": 5.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804578&selectionId=43049039",
+     "market": "prop",
+     "player": "julian champagnie",
+     "selection": "under",
+     "sid": "43049039",
+     "stat": "reb"
+    },
+    {
+     "line": 5.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804579&selectionId=37873186",
+     "market": "prop",
+     "player": "keldon johnson",
+     "selection": "over",
+     "sid": "37873186",
+     "stat": "reb"
+    },
+    {
+     "line": 5.5,
+     "link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.626804579&selectionId=37873185",
+     "market": "prop",
+     "player": "keldon johnson",
+     "selection": "under",
+     "sid": "37873185",
+     "stat": "reb"
     }
    ]
   },
   "markets": [
-   "player_rebounds",
-   "player_threes"
+   "player_assists",
+   "player_rebounds"
   ],
-  "observed_at": "2026-11-18T21:46:54Z",
-  "slate": "2026-11-18"
+  "observed_at": "2026-11-19T21:43:05Z",
+  "slate": "2026-11-19"
  }
 }
