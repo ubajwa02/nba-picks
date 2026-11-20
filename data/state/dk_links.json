@@ -1,7 +1,7 @@
 {
  "401909305": {
   "event_url": "https://sportsbook.draftkings.com/event/35039359",
-  "observed_at": "2026-11-20T16:13:23Z",
+  "observed_at": "2026-11-20T21:44:45Z",
   "outcomes": [
    {
     "line": null,
@@ -16,15 +16,15 @@
     "selection": "away"
    },
    {
-    "line": -6.5,
+    "line": -7.5,
     "market": "spread",
-    "outcome_id": "0HC87292641N650_1",
+    "outcome_id": "0HC87292641N750_1",
     "selection": "home"
    },
    {
-    "line": 6.5,
+    "line": 7.5,
     "market": "spread",
-    "outcome_id": "0HC87292641P650_3",
+    "outcome_id": "0HC87292641P750_3",
     "selection": "away"
    },
    {
@@ -43,7 +43,7 @@
  },
  "401909306": {
   "event_url": "https://sportsbook.draftkings.com/event/35039360",
-  "observed_at": "2026-11-20T16:13:23Z",
+  "observed_at": "2026-11-20T21:44:45Z",
   "outcomes": [
    {
     "line": null,
@@ -58,15 +58,15 @@
     "selection": "away"
    },
    {
-    "line": 5.5,
+    "line": 6.5,
     "market": "spread",
-    "outcome_id": "0HC87292642P550_1",
+    "outcome_id": "0HC87292642P650_1",
     "selection": "home"
    },
    {
-    "line": -5.5,
+    "line": -6.5,
     "market": "spread",
-    "outcome_id": "0HC87292642N550_3",
+    "outcome_id": "0HC87292642N650_3",
     "selection": "away"
    },
    {
@@ -85,7 +85,7 @@
  },
  "401909307": {
   "event_url": "https://sportsbook.draftkings.com/event/35039361",
-  "observed_at": "2026-11-20T16:13:23Z",
+  "observed_at": "2026-11-20T21:44:45Z",
   "outcomes": [
    {
     "line": null,
@@ -112,22 +112,22 @@
     "selection": "away"
    },
    {
-    "line": 233.5,
+    "line": 234.5,
     "market": "total",
-    "outcome_id": "0OU87292643O23350_1",
+    "outcome_id": "0OU87292643O23450_1",
     "selection": "over"
    },
    {
-    "line": 233.5,
+    "line": 234.5,
     "market": "total",
-    "outcome_id": "0OU87292643U23350_3",
+    "outcome_id": "0OU87292643U23450_3",
     "selection": "under"
    }
   ]
  },
  "401909308": {
   "event_url": "https://sportsbook.draftkings.com/event/34516243",
-  "observed_at": "2026-11-20T16:13:23Z",
+  "observed_at": "2026-11-20T21:44:45Z",
   "outcomes": [
    {
     "line": null,
@@ -169,7 +169,7 @@
  },
  "401909309": {
   "event_url": "https://sportsbook.draftkings.com/event/35039362",
-  "observed_at": "2026-11-20T16:13:23Z",
+  "observed_at": "2026-11-20T21:44:45Z",
   "outcomes": [
    {
     "line": null,
@@ -211,7 +211,7 @@
  },
  "401909310": {
   "event_url": "https://sportsbook.draftkings.com/event/35039363",
-  "observed_at": "2026-11-20T16:13:23Z",
+  "observed_at": "2026-11-20T21:44:45Z",
   "outcomes": [
    {
     "line": null,
@@ -238,22 +238,22 @@
     "selection": "away"
    },
    {
-    "line": 228.5,
+    "line": 227.5,
     "market": "total",
-    "outcome_id": "0OU87292645O22850_1",
+    "outcome_id": "0OU87292645O22750_1",
     "selection": "over"
    },
    {
-    "line": 228.5,
+    "line": 227.5,
     "market": "total",
-    "outcome_id": "0OU87292645U22850_3",
+    "outcome_id": "0OU87292645U22750_3",
     "selection": "under"
    }
   ]
  },
  "401909311": {
   "event_url": "https://sportsbook.draftkings.com/event/35039364",
-  "observed_at": "2026-11-20T16:13:23Z",
+  "observed_at": "2026-11-20T21:44:45Z",
   "outcomes": [
    {
     "line": null,
@@ -280,22 +280,22 @@
     "selection": "away"
    },
    {
-    "line": 224.5,
+    "line": 225.5,
     "market": "total",
-    "outcome_id": "0OU87292646O22450_1",
+    "outcome_id": "0OU87292646O22550_1",
     "selection": "over"
    },
    {
-    "line": 224.5,
+    "line": 225.5,
     "market": "total",
-    "outcome_id": "0OU87292646U22450_3",
+    "outcome_id": "0OU87292646U22550_3",
     "selection": "under"
    }
   ]
  },
  "401909312": {
   "event_url": "https://sportsbook.draftkings.com/event/34516244",
-  "observed_at": "2026-11-20T16:13:23Z",
+  "observed_at": "2026-11-20T21:44:45Z",
   "outcomes": [
    {
     "line": null,
@@ -337,7 +337,7 @@
  },
  "401909313": {
   "event_url": "https://sportsbook.draftkings.com/event/35039366",
-  "observed_at": "2026-11-20T16:13:23Z",
+  "observed_at": "2026-11-20T21:44:45Z",
   "outcomes": [
    {
     "line": null,

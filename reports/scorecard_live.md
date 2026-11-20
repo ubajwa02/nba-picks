@@ -42,7 +42,7 @@ Brier: model 0.1601 vs market-implied 0.1552 (n=59972; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 94-58-0, +2.60u, pending 0.
+Record 94-58-0, +2.60u, pending 6.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -203,6 +203,12 @@ Record 94-58-0, +2.60u, pending 0.
 | 2026-11-19 | Will Richard u1.5 fg3m | -189 | 1 | win | +0.53 |
 | 2026-11-19 | Cedric Coward o1.5 fg3m | -196 | 5 | win | +0.51 |
 | 2026-11-19 | Brook Lopez o4.5 reb | -127 | 3 | loss | -1.00 |
+| 2026-11-20 | Matas Buzelis u2.5 fg3m | -169 | None | pending | +0.00 |
+| 2026-11-20 | Josh Giddey u1.5 fg3m | -167 | None | pending | +0.00 |
+| 2026-11-20 | Jeremiah Fears u1.5 fg3m | -149 | None | pending | +0.00 |
+| 2026-11-20 | Darryn Peterson u4.5 ast | -156 | None | pending | +0.00 |
+| 2026-11-20 | Saddiq Bey o1.5 fg3m | -192 | None | pending | +0.00 |
+| 2026-11-20 | Oso Ighodaro o2.5 ast | -141 | None | pending | +0.00 |
 
 ## Rows
 
