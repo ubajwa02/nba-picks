@@ -1,13 +1,21 @@
-# Pick review (cumulative, as of 2026-11-19)
+# Pick review (cumulative, as of 2026-11-20)
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 92-57 on 149 graded posted picks, +2.56u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 86-54 (+0.42u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 25-13 (+6.60u); gap<5pts 64-43 (-5.49u); gap>=15pts 3-1 (+1.44u).
+- 94-58 on 152 graded posted picks, +2.60u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 88-55 (+0.46u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 26-14 (+6.13u); gap<5pts 65-43 (-4.98u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 9-3 (+4.17u); moved away 12-1 (+5.70u); moved toward us 9-6 (+0.67u).
-- By prop split sample: fuller splits 27-23 (-5.55u); small-sample splits 56-25 (+9.07u).
-- Wider settled predictions (n=59500): model Brier 0.1593 vs book 0.1544 (lower is better).
+- By prop split sample: fuller splits 29-24 (-5.51u); small-sample splits 56-25 (+9.07u).
+- Wider settled predictions (n=59972): model Brier 0.1601 vs book 0.1552 (lower is better).
+
+## 2026-11-19
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Will Richard u1.5 fg3m | win | +0.53 | 0.736 | 0.654 | +0.13 |  | career 63/84, season 9/14, last10 6/10 |
+| Cedric Coward o1.5 fg3m | win | +0.51 | 0.684 | 0.662 | +0.03 |  | career 40/76, season 10/14, last10 7/10 |
+| Brook Lopez o4.5 reb | loss | -1.00 | 0.636 | 0.559 | +0.14 |  | career 188/343, season 8/13, last10 7/10 |
 
 ## 2026-11-18
 
