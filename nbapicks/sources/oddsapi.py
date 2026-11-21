@@ -1,7 +1,9 @@
-"""The Odds API (the-odds-api.com): bet-slip links for DraftKings and FanDuel, props included.
+"""The Odds API (the-odds-api.com): DraftKings and FanDuel prop prices and bet-slip links.
 
-Used only for the site's "open on the slip" links. Prices from this feed are NOT stored,
-modelled or graded; pricing stays on ESPN/DraftKings as before.
+Two uses. (1) The site's "open on the slip" links. (2) Since 2026-11-17 the posted picks: the
+FanDuel price is the price a pick is posted and graded at, and the DraftKings two-way price from
+the same response is the reference its edge is measured against (nbapicks/leans.py). Every
+two-way quote fetched is appended to data/ledger/fd_quotes/ so the rule can be tested later.
 
 Off unless the ODDS_API_KEY environment variable is set (GitHub secret of the same name).
 Cost: /events is free; /events/{id}/odds costs (markets returned) x (regions), where two
@@ -129,6 +131,32 @@ def parse_event_links(d: dict, home: str, away: str) -> dict:
                 rows.append(r)
         if rows:
             out[book] = rows
+    return out
+
+
+def parse_event_prices(d: dict) -> list[dict]:
+    """Two-way prop quotes of one event: [{book, player, stat, line, over, under, updated}] with
+    decimal prices. A player/stat/line with only one side priced is dropped (no fair price, no bet)."""
+    out = []
+    for bm in d.get("bookmakers") or []:
+        book = bm.get("key")
+        if book not in BOOKS:
+            continue
+        for m in bm.get("markets") or []:
+            stat = PROP_MARKETS.get(m.get("key"))
+            if not stat:
+                continue
+            sides: dict[tuple, dict] = {}
+            for o in m.get("outcomes") or []:
+                name, point, price = o.get("name"), o.get("point"), o.get("price")
+                if name not in ("Over", "Under") or point is None or price in (None, 0) or not o.get("description"):
+                    continue
+                dec = 1 + price / 100 if price > 0 else 1 + 100 / -price
+                sides.setdefault((norm_name(o["description"]), float(point)), {})[name.lower()] = round(dec, 4)
+            for (player, line), s in sorted(sides.items()):
+                if len(s) == 2:
+                    out.append(dict(book=book, player=player, stat=stat, line=line, over=s["over"], under=s["under"],
+                                    updated=m.get("last_update") or bm.get("last_update")))
     return out
 
 

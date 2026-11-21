@@ -10,6 +10,10 @@ A research and paper-trading system for NBA betting markets, built on free data 
 - Promotion from research to paper to live is governed by gates written before any result was seen (`config/gates.yaml`). The 2024-26 holdout has not been scored because no candidate reached it.
 - Discord publishing runs in dry-run until the `NBA_DISCORD_WEBHOOK_URL` secret exists and `publishing.dry_run` is set to `false`.
 
+## Posted picks (2026-11-17)
+
+The daily picks no longer come from the prop model. `reports/red_week_2026-11.md` shows it has no measured skill beyond the book's price, and that the old rule (most likely props first) lost about 6% per bet. A pick is now a FanDuel prop whose price beats the DraftKings fair price for the same line by 5%, ranked by that edge and graded at the FanDuel price (`nbapicks/leans.py`). Days with no pick are normal. This rule is research, not validated.
+
 ## Layout
 
 | path | what |
