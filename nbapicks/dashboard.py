@@ -450,7 +450,7 @@ def export(ctx: Ctx, out_dir: str = SITE, max_bytes: int = MAX_BYTES) -> dict:
     leans = ((sc or {}).get("leans") or {}).get("rows") or []
     pop_rows["posted_leans"] = [dict(result=l.get("result") or "pending", stake=l.get("stake", 1.0), net=l.get("net_units"),
                                      prob=l.get("prob"), market=l.get("market"), category="straight", slate=l.get("slate"),
-                                     model_version=l.get("source"), label=l.get("label")) for l in leans]
+                                     model_version=lean_model(l), label=l.get("label")) for l in leans]
     sig = [r for r in rows if r["origin"] == "signal"]
     pop_rows["signals"] = [_perf_row(r, flat=False) for r in sig]
     wag = s.q("""SELECT w.*, e.result, e.net FROM wagers w
@@ -814,11 +814,24 @@ def _cap_list(d: dict, key: str, n: int):
             d["capped"] = True
 
 
+PROPS_V0_SINCE = "2026-11-02"    # props-v1 was demoted before that slate's picks; leans kept the hard-coded tag "props_v1"
+
+
+def lean_model(l: dict) -> str | None:
+    """What chose a posted pick. Prop leans posted from 2026-11-02 to 2026-11-16 were tagged props_v1 in the
+    ledger although props-v0 produced them (the tag was a constant); the ledger is append-only, so it is
+    corrected here."""
+    if l.get("source") == "props_v1" and (l.get("slate") or "") >= PROPS_V0_SINCE:
+        return "props-v0"
+    return l.get("source")
+
+
 def live_scorecard(ctx: Ctx, games: dict, preds: list, settled: dict, report: str = "reports/scorecard_live.md") -> dict:
     """Refreshed on every export: settled predictions vs their probabilities, plus posted leans."""
     from . import scorecard as SCR, track
     box = {(r["game_id"], r["player_id"]): r for r in ctx.store.q("SELECT * FROM player_games")}
-    leans = track.grade(track.load(ctx.root), games, box)
+    ev = track.latest_events(ctx.root)
+    leans = [dict(l, recheck=ev[l["lean_id"]]) if l.get("lean_id") in ev else l for l in track.grade(track.load(ctx.root), games, box)]
     sc = SCR.build(preds, settled)
     sc["leans"] = dict(record=track.record(leans), rows=leans)
     from . import leans as LN

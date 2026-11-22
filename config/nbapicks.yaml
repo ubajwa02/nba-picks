@@ -21,12 +21,19 @@ markets:                         # status: research | paper | live (set by promo
   parlay: {enabled: true, status: research, min_ev: 0.05, max_legs: 3}
   lotto:  {enabled: true, status: research, min_ev: 0.10, min_decimal: 8.0, max_legs: 5}
 
-leans:                           # the daily posted leans (nbapicks/leans.py); fixed rule, never tuned on results
-  min_prob: 0.60                 # model win chance
-  min_decimal: 1.5               # price of at least 1.50: no near-certain one-sided quotes
-  min_last10: 5                  # games of recent history to judge the line against
+leans:                           # the daily posted picks (nbapicks/leans.py); fixed rule, never tuned on results
+  # Rule of 2026-11-17 (data/research/decisions.jsonl): a pick is a FanDuel prop whose price beats the
+  # fair price (DraftKings two-way price, margin removed) by markets.prop.min_ev. Ranked by that edge.
+  model_weight: 0.0              # weight of the prop model in the fair chance; 0 until a model passes config/gates.yaml
+  min_decimal: 1.5               # FanDuel price of at least -200: a loss never costs more than two wins
   max_leans: 6
-  per_game: 2
+  per_game: 1                    # one straight pick per game (2 until 2026-11-17)
+  pool_min_edge: 0.025           # parlay and lotto legs: at least half the pick threshold (the "watch" level)
+  tickets_require_edge: true     # parlays/lotto only when their combined edge clears markets.parlay/lotto min_ev;
+                                 # false restores the 2026-10-27 always-post rule (highest win chance, any edge)
+  fd_markets: [pts, reb, ast, fg3m]   # order the odds feed is asked in; one credit per market per game
+  fd_credits_per_slate: 12       # The Odds API free tier is 500 credits a month (about 16 a day)
+  fd_refresh_credits: 4          # pre-tip re-checks of posted picks
 
 quality:
   max_odds_age_minutes: 120      # older quotes cannot qualify

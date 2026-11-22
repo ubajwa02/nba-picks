@@ -1,0 +1,658 @@
+{
+"id": "5ff20ee6933177d35e4f8c875842a0b4",
+"sport_key": "basketball_nba",
+"sport_title": "NBA",
+"commence_time": "2026-11-18T00:40:00Z",
+"home_team": "Toronto Raptors",
+"away_team": "New York Knicks",
+"bookmakers": [
+{
+"key": "fanduel",
+"title": "FanDuel",
+"markets": [
+{
+"key": "player_points",
+"last_update": "2026-11-17T14:31:46Z",
+"outcomes": [
+{
+"name": "Over",
+"description": "Jamal Shead",
+"price": -110,
+"point": 6.5
+},
+{
+"name": "Under",
+"description": "Jamal Shead",
+"price": -120,
+"point": 6.5
+},
+{
+"name": "Over",
+"description": "OG Anunoby",
+"price": -112,
+"point": 16.5
+},
+{
+"name": "Under",
+"description": "OG Anunoby",
+"price": -118,
+"point": 16.5
+},
+{
+"name": "Over",
+"description": "R.J. Barrett",
+"price": -108,
+"point": 19.5
+},
+{
+"name": "Under",
+"description": "R.J. Barrett",
+"price": -122,
+"point": 19.5
+},
+{
+"name": "Over",
+"description": "Immanuel Quickley",
+"price": -108,
+"point": 15.5
+},
+{
+"name": "Under",
+"description": "Immanuel Quickley",
+"price": -122,
+"point": 15.5
+},
+{
+"name": "Over",
+"description": "Mikal Bridges",
+"price": -118,
+"point": 8.5
+},
+{
+"name": "Under",
+"description": "Mikal Bridges",
+"price": -112,
+"point": 8.5
+},
+{
+"name": "Over",
+"description": "Landry Shamet",
+"price": 104,
+"point": 9.5
+},
+{
+"name": "Under",
+"description": "Landry Shamet",
+"price": -138,
+"point": 9.5
+},
+{
+"name": "Over",
+"description": "Josh Hart",
+"price": -132,
+"point": 7.5
+},
+{
+"name": "Under",
+"description": "Josh Hart",
+"price": 100,
+"point": 7.5
+},
+{
+"name": "Over",
+"description": "Karl-Anthony Towns",
+"price": -128,
+"point": 20.5
+},
+{
+"name": "Under",
+"description": "Karl-Anthony Towns",
+"price": -104,
+"point": 20.5
+},
+{
+"name": "Over",
+"description": "Miles McBride",
+"price": -130,
+"point": 6.5
+},
+{
+"name": "Under",
+"description": "Miles McBride",
+"price": -102,
+"point": 6.5
+},
+{
+"name": "Over",
+"description": "Jalen Brunson",
+"price": -122,
+"point": 25.5
+},
+{
+"name": "Under",
+"description": "Jalen Brunson",
+"price": -108,
+"point": 25.5
+},
+{
+"name": "Over",
+"description": "Collin Murray-Boyles",
+"price": -108,
+"point": 10.5
+},
+{
+"name": "Under",
+"description": "Collin Murray-Boyles",
+"price": -122,
+"point": 10.5
+},
+{
+"name": "Over",
+"description": "Jakob Poeltl",
+"price": -118,
+"point": 6.5
+},
+{
+"name": "Under",
+"description": "Jakob Poeltl",
+"price": -112,
+"point": 6.5
+},
+{
+"name": "Over",
+"description": "Ja'Kobe Walter",
+"price": -125,
+"point": 10.5
+},
+{
+"name": "Under",
+"description": "Ja'Kobe Walter",
+"price": -106,
+"point": 10.5
+},
+{
+"name": "Over",
+"description": "Scottie Barnes",
+"price": -120,
+"point": 21.5
+},
+{
+"name": "Under",
+"description": "Scottie Barnes",
+"price": -110,
+"point": 21.5
+}
+]
+},
+{
+"key": "player_rebounds",
+"last_update": "2026-11-17T14:31:46Z",
+"outcomes": [
+{
+"name": "Over",
+"description": "OG Anunoby",
+"price": 118,
+"point": 5.5
+},
+{
+"name": "Under",
+"description": "OG Anunoby",
+"price": -158,
+"point": 5.5
+},
+{
+"name": "Over",
+"description": "Jalen Brunson",
+"price": -140,
+"point": 2.5
+},
+{
+"name": "Under",
+"description": "Jalen Brunson",
+"price": 106,
+"point": 2.5
+},
+{
+"name": "Over",
+"description": "Immanuel Quickley",
+"price": -112,
+"point": 3.5
+},
+{
+"name": "Under",
+"description": "Immanuel Quickley",
+"price": -118,
+"point": 3.5
+},
+{
+"name": "Over",
+"description": "Mikal Bridges",
+"price": -178,
+"point": 2.5
+},
+{
+"name": "Under",
+"description": "Mikal Bridges",
+"price": 132,
+"point": 2.5
+},
+{
+"name": "Over",
+"description": "Ja'Kobe Walter",
+"price": 118,
+"point": 3.5
+},
+{
+"name": "Under",
+"description": "Ja'Kobe Walter",
+"price": -158,
+"point": 3.5
+},
+{
+"name": "Over",
+"description": "Josh Hart",
+"price": -158,
+"point": 5.5
+},
+{
+"name": "Under",
+"description": "Josh Hart",
+"price": 118,
+"point": 5.5
+},
+{
+"name": "Over",
+"description": "Karl-Anthony Towns",
+"price": -110,
+"point": 12.5
+},
+{
+"name": "Under",
+"description": "Karl-Anthony Towns",
+"price": -120,
+"point": 12.5
+},
+{
+"name": "Over",
+"description": "R.J. Barrett",
+"price": -110,
+"point": 5.5
+},
+{
+"name": "Under",
+"description": "R.J. Barrett",
+"price": -120,
+"point": 5.5
+},
+{
+"name": "Over",
+"description": "Collin Murray-Boyles",
+"price": -112,
+"point": 6.5
+},
+{
+"name": "Under",
+"description": "Collin Murray-Boyles",
+"price": -118,
+"point": 6.5
+},
+{
+"name": "Over",
+"description": "Jakob Poeltl",
+"price": -125,
+"point": 5.5
+},
+{
+"name": "Under",
+"description": "Jakob Poeltl",
+"price": -106,
+"point": 5.5
+},
+{
+"name": "Over",
+"description": "Scottie Barnes",
+"price": 110,
+"point": 7.5
+},
+{
+"name": "Under",
+"description": "Scottie Barnes",
+"price": -146,
+"point": 7.5
+}
+]
+}
+]
+},
+{
+"key": "draftkings",
+"title": "DraftKings",
+"markets": [
+{
+"key": "player_points",
+"last_update": "2026-11-17T14:31:34Z",
+"outcomes": [
+{
+"name": "Over",
+"description": "Jalen Brunson",
+"price": -109,
+"point": 26.5
+},
+{
+"name": "Under",
+"description": "Jalen Brunson",
+"price": -117,
+"point": 26.5
+},
+{
+"name": "Over",
+"description": "Scottie Barnes",
+"price": -121,
+"point": 21.5
+},
+{
+"name": "Under",
+"description": "Scottie Barnes",
+"price": -105,
+"point": 21.5
+},
+{
+"name": "Over",
+"description": "Karl-Anthony Towns",
+"price": -126,
+"point": 20.5
+},
+{
+"name": "Under",
+"description": "Karl-Anthony Towns",
+"price": -101,
+"point": 20.5
+},
+{
+"name": "Over",
+"description": "R.J. Barrett",
+"price": -125,
+"point": 18.5
+},
+{
+"name": "Under",
+"description": "R.J. Barrett",
+"price": -102,
+"point": 18.5
+},
+{
+"name": "Over",
+"description": "OG Anunoby",
+"price": -122,
+"point": 15.5
+},
+{
+"name": "Under",
+"description": "OG Anunoby",
+"price": -105,
+"point": 15.5
+},
+{
+"name": "Over",
+"description": "Immanuel Quickley",
+"price": -105,
+"point": 15.5
+},
+{
+"name": "Under",
+"description": "Immanuel Quickley",
+"price": -122,
+"point": 15.5
+},
+{
+"name": "Over",
+"description": "Ja'Kobe Walter",
+"price": -118,
+"point": 10.5
+},
+{
+"name": "Under",
+"description": "Ja'Kobe Walter",
+"price": -108,
+"point": 10.5
+},
+{
+"name": "Over",
+"description": "Collin Murray-Boyles",
+"price": -120,
+"point": 9.5
+},
+{
+"name": "Under",
+"description": "Collin Murray-Boyles",
+"price": -106,
+"point": 9.5
+},
+{
+"name": "Over",
+"description": "Landry Shamet",
+"price": -128,
+"point": 8.5
+},
+{
+"name": "Under",
+"description": "Landry Shamet",
+"price": 101,
+"point": 8.5
+},
+{
+"name": "Over",
+"description": "Mikal Bridges",
+"price": -107,
+"point": 8.5
+},
+{
+"name": "Under",
+"description": "Mikal Bridges",
+"price": -119,
+"point": 8.5
+},
+{
+"name": "Over",
+"description": "Josh Hart",
+"price": -113,
+"point": 7.5
+},
+{
+"name": "Under",
+"description": "Josh Hart",
+"price": -113,
+"point": 7.5
+},
+{
+"name": "Over",
+"description": "Miles McBride",
+"price": -104,
+"point": 7.5
+},
+{
+"name": "Under",
+"description": "Miles McBride",
+"price": -123,
+"point": 7.5
+},
+{
+"name": "Over",
+"description": "Jakob Poeltl",
+"price": -118,
+"point": 6.5
+},
+{
+"name": "Under",
+"description": "Jakob Poeltl",
+"price": -108,
+"point": 6.5
+},
+{
+"name": "Over",
+"description": "Jamal Shead",
+"price": -113,
+"point": 6.5
+},
+{
+"name": "Under",
+"description": "Jamal Shead",
+"price": -113,
+"point": 6.5
+}
+]
+},
+{
+"key": "player_rebounds",
+"last_update": "2026-11-17T14:31:34Z",
+"outcomes": [
+{
+"name": "Over",
+"description": "Karl-Anthony Towns",
+"price": -108,
+"point": 12.5
+},
+{
+"name": "Under",
+"description": "Karl-Anthony Towns",
+"price": -122,
+"point": 12.5
+},
+{
+"name": "Over",
+"description": "Scottie Barnes",
+"price": 103,
+"point": 7.5
+},
+{
+"name": "Under",
+"description": "Scottie Barnes",
+"price": -135,
+"point": 7.5
+},
+{
+"name": "Over",
+"description": "Collin Murray-Boyles",
+"price": 107,
+"point": 6.5
+},
+{
+"name": "Under",
+"description": "Collin Murray-Boyles",
+"price": -141,
+"point": 6.5
+},
+{
+"name": "Over",
+"description": "Josh Hart",
+"price": -134,
+"point": 5.5
+},
+{
+"name": "Under",
+"description": "Josh Hart",
+"price": 101,
+"point": 5.5
+},
+{
+"name": "Over",
+"description": "Jakob Poeltl",
+"price": -129,
+"point": 5.5
+},
+{
+"name": "Under",
+"description": "Jakob Poeltl",
+"price": -102,
+"point": 5.5
+},
+{
+"name": "Over",
+"description": "R.J. Barrett",
+"price": -109,
+"point": 5.5
+},
+{
+"name": "Under",
+"description": "R.J. Barrett",
+"price": -120,
+"point": 5.5
+},
+{
+"name": "Over",
+"description": "OG Anunoby",
+"price": -144,
+"point": 4.5
+},
+{
+"name": "Under",
+"description": "OG Anunoby",
+"price": 109,
+"point": 4.5
+},
+{
+"name": "Over",
+"description": "Immanuel Quickley",
+"price": -115,
+"point": 3.5
+},
+{
+"name": "Under",
+"description": "Immanuel Quickley",
+"price": -114,
+"point": 3.5
+},
+{
+"name": "Over",
+"description": "Ja'Kobe Walter",
+"price": 105,
+"point": 3.5
+},
+{
+"name": "Under",
+"description": "Ja'Kobe Walter",
+"price": -138,
+"point": 3.5
+},
+{
+"name": "Over",
+"description": "Mikal Bridges",
+"price": -161,
+"point": 2.5
+},
+{
+"name": "Under",
+"description": "Mikal Bridges",
+"price": 122,
+"point": 2.5
+},
+{
+"name": "Over",
+"description": "Jalen Brunson",
+"price": -141,
+"point": 2.5
+},
+{
+"name": "Under",
+"description": "Jalen Brunson",
+"price": 107,
+"point": 2.5
+},
+{
+"name": "Over",
+"description": "Landry Shamet",
+"price": 137,
+"point": 2.5
+},
+{
+"name": "Under",
+"description": "Landry Shamet",
+"price": -181,
+"point": 2.5
+}
+]
+}
+]
+}
+]
+}

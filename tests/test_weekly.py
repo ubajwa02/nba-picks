@@ -42,7 +42,7 @@ def _settled_props(store, n, prob, win_rate, model="props-v1"):
 def test_forward_check_demotes_a_badly_calibrated_prop_model(repo):
     json.dump({"model_id": "x", "props": {"model_id": "props-v1"}}, open("data/research/champion.json", "w"))
     s = Store(None)
-    _settled_props(s, 160, 0.70, 0.45)
+    _settled_props(s, 560, 0.70, 0.45)
     gates = weekly._gates()
     out = weekly.forward_prop_check(s, gates)
     assert out["action"] == "demoted to props-v0"
@@ -53,7 +53,7 @@ def test_forward_check_demotes_a_badly_calibrated_prop_model(repo):
 def test_forward_check_keeps_a_calibrated_model_and_needs_a_sample(repo):
     json.dump({"model_id": "x", "props": {"model_id": "props-v1"}}, open("data/research/champion.json", "w"))
     s = Store(None)
-    _settled_props(s, 160, 0.60, 0.60)
+    _settled_props(s, 560, 0.60, 0.60)
     assert weekly.forward_prop_check(s, weekly._gates())["action"] == "none"
     s2 = Store(None)
     _settled_props(s2, 20, 0.90, 0.10)
@@ -84,3 +84,13 @@ def test_judge_props_reads_propbacktest_runs_with_the_conservative_t():
                     dict(model_version="props-v0", market="prop:pts", coverage={})]}
     v = weekly.judge_props(res, "props-v0", "props-v1", {"logloss_gain_min_t": 2.0})
     assert v["per_stat"]["pts"]["t"] == 1.5 and not v["passes"]
+
+
+def test_forward_check_does_not_demote_on_a_150_prop_window(repo):
+    """150 settled props is below the calibration gate's sample (500): decile noise alone can exceed 0.06."""
+    json.dump({"model_id": "x", "props": {"model_id": "props-v1"}}, open("data/research/champion.json", "w"))
+    s = Store(None)
+    _settled_props(s, 150, 0.70, 0.45)
+    out = weekly.forward_prop_check(s, weekly._gates())
+    assert out["action"].startswith("none")
+    assert json.load(open("data/research/champion.json"))["props"]["model_id"] == "props-v1"

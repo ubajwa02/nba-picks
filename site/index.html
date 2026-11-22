@@ -264,7 +264,10 @@ const parlayLinks = t => comboLinks(t.legs || [], () => "parlay", (s, n) => `Tri
 const gameOpen = r => { const g = ((D.today || {}).games || []).find(g => String(g.game_id) === String(r.game_id)); return !g || !g.status || g.status === "scheduled"; };
 const allStraightLinks = picks => comboLinks(picks.filter(gameOpen), n => `all ${n} straights`, (s, n) => `Puts all ${n} straight picks on one ${s} slip. Choose singles (straight bets) on the slip, not a parlay, and check each line and price before placing.`);
 const dkA = r => slipLinks(r).map(k => `<a class="dk" href="${esc(k.url)}" target="_blank" rel="noopener noreferrer" title="${esc(k.title + " Check the line and price before placing.")}">${esc(k.label)} ↗</a>`).join("");
-const pickRow = r => `<tr><td><b>${esc(pickText(r))}</b>${dkA(r)}</td><td class="mu">${esc(matchOf(r))}</td><td class="n">${bar(r.prob)}</td><td class="n">${amS(r.price_american)}</td><td class="meta">${esc(finalText(r))}</td><td>${resPill(r.result)}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`;
+/* picks posted at a FanDuel price carry the book, the edge over the fair price and the latest pre-tip re-check */
+const pickMeta = r => { const c = r.recheck, live = !r.result || r.result === "pending", known = c && (c.state === "ok" || c.state === "skip");
+  return (r.book ? `<span class="mu"> · ${esc(r.book)}${r.edge != null ? " · Edge " + spct(r.edge) : ""}</span>` : "") + (known && live ? ` ${pill(c.state === "ok" ? "ok" : "fail", c.state === "ok" ? "Still Stands" : "Skip")}${c.state === "skip" && c.reason ? ` <span class="reason">${esc(c.reason)}</span>` : ""}` : ""); };
+const pickRow = r => `<tr><td><b>${esc(pickText(r))}</b>${pickMeta(r)}${dkA(r)}</td><td class="mu">${esc(matchOf(r))}</td><td class="n">${bar(r.prob)}</td><td class="n">${amS(r.price_american)}</td><td class="meta">${esc(finalText(r))}</td><td>${resPill(r.result)}</td><td class="n ${cls(r.net_units)}">${r.net_units == null ? "–" : u(r.net_units)}</td></tr>`;
 const pickTable = (rows, empty) => tbl(["Pick", "Matchup", "#Win Chance", "#Price", "Final", "Result", "#Units"], rows.map(pickRow), empty);
 
 const allPicks = () => ((D.performance.posted_leans || {}).rows || []).slice().sort((a, b) => String(b.slate).localeCompare(String(a.slate)));
@@ -282,7 +285,7 @@ function dayBlock(date, rows, isToday) {
   const s = dayStats(rows);
   return `<section class="day"><header class="dayh"><h3>${isToday ? "Today · " : ""}${esc(longDay(date))}</h3>
     <div class="chips">${chip("Record", s.n ? `${s.w}-${s.l}` : "–")}${chip("Win Rate", s.n ? pct(s.rate) : "–")}${chip("Net Units", s.n ? u(s.net) : "–", s.n ? cls(s.net) : "")}${chip("Picks", rows.length)}</div></header>
-    ${pickTable(rows, "No picks posted.")}</section>`;
+    ${pickTable(rows, "No picks posted.")}${pickNotes(date).map(x => `<p class="note">${esc(x)}</p>`).join("")}</section>`;
 }
 
 /* ---- games with the model's win chance for each side ---- */
@@ -315,11 +318,13 @@ const R = {};
 
 const kind1 = k => k === "lotto" ? "Lotto" : "Parlay";
 const ticketRows = kind => (((D.tickets || {}).rows) || []).filter(t => t.kind === kind);
-const ticketNotes = (date, kind) => ((((D.tickets || {}).notes) || {})[date] || []).filter(n => kind === "lotto" ? /lotto/i.test(n) : !/lotto/i.test(n));
+const isPickNote = n => /straight pick|prop prices were compared|could be compared|FanDuel prices/i.test(n);
+const pickNotes = date => ((((D.tickets || {}).notes) || {})[date] || []).filter(isPickNote);
+const ticketNotes = (date, kind) => ((((D.tickets || {}).notes) || {})[date] || []).filter(n => !isPickNote(n)).filter(n => kind === "lotto" ? /lotto/i.test(n) : !/lotto/i.test(n));
 const evText = ev => ev == null ? "–" : spct(ev);
 function ticketCard(t) {
   return `<article class="ticket"><div class="th"><div><b>${t.legs.length}-Leg ${kind1(t.kind)}</b> <span class="tag">Research</span>${parlayLinks(t)}</div>
-    <div class="tstats"><span>Win Chance <b>${pct(t.prob)}</b></span><span>Pays <b>${amS(t.price_american)}</b></span><span>Model Edge <b class="${cls(t.ev)}">${evText(t.ev)}</b></span>${resPill(t.result)}<b class="${cls(t.net_units)}">${t.net_units == null ? "" : u(t.net_units)}</b></div></div>
+    <div class="tstats"><span>Win Chance <b>${pct(t.prob)}</b></span><span>Pays <b>${amS(t.price_american)}</b></span><span>Edge <b class="${cls(t.ev)}">${evText(t.ev)}</b></span>${resPill(t.result)}<b class="${cls(t.net_units)}">${t.net_units == null ? "" : u(t.net_units)}</b></div></div>
     <ul class="legs">${t.legs.map(l => `<li><b class="ln">${esc(pickText(l))}<span class="mu"> · ${esc(matchOf(l))}</span>${dkA(l)}</b>${bar(l.prob)}<span class="mono">${amS(l.price_american)}</span>${resPill(l.result)}</li>`).join("")}</ul></article>`;
 }
 function dayShell(date, rows, isToday, countLabel, body) {
@@ -353,9 +358,10 @@ R.today = () => {
   <h2 class="sec">Straight Picks</h2>
   ${Object.keys(T.dk_links || {}).length || Object.keys(T.book_links || {}).length ? `<p class="sub">DK slip / FD slip opens DraftKings or FanDuel with that bet already on the slip; a number after it means the book's line differs and its closest line is used. DK game opens the game page, where you pick the bet yourself. Always check the line and price before you place anything.</p>` : ""}
   ${allStraightLinks(picks) ? `<p class="sub">${allStraightLinks(picks)}</p>` : ""}
-  ${picks.length ? `<div class="panel flush">${pickTable(picks, "")}</div>` : `<p class="note">${"Today's picks post at 4:30 PM ET on weekdays and 11:00 AM ET on weekends."}</p>`}
+  ${picks.length ? `<div class="panel flush">${pickTable(picks, "")}</div>` : (pickNotes(td).length ? "" : `<p class="note">${"Today's picks post at 4:30 PM ET on weekdays and 11:00 AM ET on weekends."}</p>`)}
+  ${pickNotes(td).map(x => `<p class="note">${esc(x)}</p>`).join("")}
   <h2 class="sec">Parlays And Lotto <span class="tag">Research</span></h2>
-  <p class="sub">Built from the most likely props in different games. The edge shown is the model's own estimate against the price, and it can be negative.</p>
+  <p class="sub">Built from props in different games whose FanDuel price beats the fair price. A ticket is posted only when its combined edge clears the threshold, so some days have none. Tickets before Nov 17 used the older rule (most likely props, any edge).</p>
   <div class="tickets">${[...par, ...lot].map(ticketCard).join("") || `<p class="empty">Not posted yet. They are built when today's picks go out.</p>`}</div>
   ${[...ticketNotes(td, "parlay"), ...ticketNotes(td, "lotto")].map(x => `<p class="note">${esc(x)}</p>`).join("")}
   <h2 class="sec">Games</h2>${gameCards()}
@@ -368,7 +374,7 @@ R.results = (sub) => {
   let rows, body;
   if (k === "straights") {
     rows = allPicks();
-    const days = [...new Set([...rows.map(r => r.slate)])].sort().reverse();
+    const days = [...new Set([...rows.map(r => r.slate), ...Object.keys((D.tickets || {}).notes || {}).filter(d => pickNotes(d).length)])].sort().reverse();   // a day with no pick still shows why
     body = days.map(d => dayBlock(d, rows.filter(r => r.slate === d), d === td)).join("") || `<p class="empty">No picks yet.</p>`;
   } else {
     const kind = k === "parlays" ? "parlay" : "lotto"; rows = ticketRows(kind);
