@@ -247,7 +247,7 @@
  },
  "401910029": {
   "event_url": "https://sportsbook.draftkings.com/event/35056404",
-  "observed_at": "2026-11-22T17:22:38Z",
+  "observed_at": "2026-11-22T17:54:45Z",
   "outcomes": [
    {
     "line": null,
@@ -289,7 +289,7 @@
  },
  "401910030": {
   "event_url": "https://sportsbook.draftkings.com/event/35056405",
-  "observed_at": "2026-11-22T17:22:38Z",
+  "observed_at": "2026-11-22T17:54:45Z",
   "outcomes": [
    {
     "line": null,
@@ -331,7 +331,7 @@
  },
  "401910031": {
   "event_url": "https://sportsbook.draftkings.com/event/35056423",
-  "observed_at": "2026-11-22T17:22:38Z",
+  "observed_at": "2026-11-22T17:54:45Z",
   "outcomes": [
    {
     "line": null,
@@ -373,7 +373,7 @@
  },
  "401910032": {
   "event_url": "https://sportsbook.draftkings.com/event/35056412",
-  "observed_at": "2026-11-22T17:22:38Z",
+  "observed_at": "2026-11-22T17:54:45Z",
   "outcomes": [
    {
     "line": null,
@@ -400,22 +400,22 @@
     "selection": "away"
    },
    {
-    "line": 234.5,
+    "line": 235.5,
     "market": "total",
-    "outcome_id": "0OU87336715O23450_1",
+    "outcome_id": "0OU87336715O23550_1",
     "selection": "over"
    },
    {
-    "line": 234.5,
+    "line": 235.5,
     "market": "total",
-    "outcome_id": "0OU87336715U23450_3",
+    "outcome_id": "0OU87336715U23550_3",
     "selection": "under"
    }
   ]
  },
  "401910033": {
   "event_url": "https://sportsbook.draftkings.com/event/35056422",
-  "observed_at": "2026-11-22T17:22:38Z",
+  "observed_at": "2026-11-22T17:54:45Z",
   "outcomes": [
    {
     "line": null,
@@ -457,7 +457,7 @@
  },
  "401910034": {
   "event_url": "https://sportsbook.draftkings.com/event/35056424",
-  "observed_at": "2026-11-22T17:22:38Z",
+  "observed_at": "2026-11-22T17:54:45Z",
   "outcomes": [
    {
     "line": null,
@@ -499,7 +499,7 @@
  },
  "401910035": {
   "event_url": "https://sportsbook.draftkings.com/event/35056429",
-  "observed_at": "2026-11-22T17:22:38Z",
+  "observed_at": "2026-11-22T17:54:45Z",
   "outcomes": [
    {
     "line": null,
@@ -526,15 +526,15 @@
     "selection": "away"
    },
    {
-    "line": 211.5,
+    "line": 210.5,
     "market": "total",
-    "outcome_id": "0OU87336798O21150_1",
+    "outcome_id": "0OU87336798O21050_1",
     "selection": "over"
    },
    {
-    "line": 211.5,
+    "line": 210.5,
     "market": "total",
-    "outcome_id": "0OU87336798U21150_3",
+    "outcome_id": "0OU87336798U21050_3",
     "selection": "under"
    }
   ]
