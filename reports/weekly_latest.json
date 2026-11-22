@@ -1,54 +1,54 @@
 {
- "at": "2026-11-09T20:26:00Z",
- "commit": "dfa74c5",
+ "at": "2026-11-22T10:59:10Z",
+ "commit": "f2b15cd",
  "diagnostics": {
   "markets": {
    "ml": {
-    "n": 449,
-    "calibration_error": 0.08007923907042684,
-    "logloss": 0.5947459090142352,
-    "market_logloss": 0.5480203232525829,
-    "brier_drift": -0.06306821174656344
+    "n": 682,
+    "calibration_error": 0.07713125953379385,
+    "logloss": 0.6063240472602862,
+    "market_logloss": 0.5758679343462592,
+    "brier_drift": -0.028340662698126157
    },
    "spread": {
-    "n": 503,
-    "calibration_error": 0.07805644151317373,
-    "logloss": 0.7042674491014232,
-    "market_logloss": 0.6932440307286875,
-    "brier_drift": -0.0232191623921702
+    "n": 745,
+    "calibration_error": 0.07652619987326675,
+    "logloss": 0.708299106665624,
+    "market_logloss": 0.6929519150412571,
+    "brier_drift": -0.003939041105849028
    },
    "total": {
-    "n": 484,
-    "calibration_error": 0.054641088392115775,
-    "logloss": 0.6929119466136854,
-    "market_logloss": 0.6919526375091183,
-    "brier_drift": 0.010979629874358937
+    "n": 736,
+    "calibration_error": 0.049001232130777735,
+    "logloss": 0.6972903805243736,
+    "market_logloss": 0.6919387478040256,
+    "brier_drift": 0.008191370159568112
    },
    "prop": {
-    "n": 60264,
-    "calibration_error": 0.013547080859945146,
-    "logloss": 0.4443633907727921,
-    "market_logloss": 0.6729247939846585,
-    "brier_drift": 0.005102485909007637
+    "n": 84301,
+    "calibration_error": 0.022955304212738333,
+    "logloss": 0.4601475416560264,
+    "market_logloss": 0.6750090138746553,
+    "brier_drift": 0.01700360061111375
    }
   },
-  "findings": 7,
+  "findings": 6,
   "queued": 2,
   "probation": [
    [
     "ml",
-    "calibration error 0.080"
+    "calibration error 0.077"
    ],
    [
     "spread",
-    "calibration error 0.078"
+    "calibration error 0.077"
    ]
   ]
  },
  "forward_prop_check": {
   "model": "props-v0",
   "n": 150,
-  "calibration_error": 0.04002294137670029,
+  "calibration_error": 0.09614926822048836,
   "threshold": 0.06,
   "action": "none"
  },
@@ -60,25 +60,25 @@
    "per_stat": {
     "pts": {
      "n": 4183,
-     "gain": 0.025984,
+     "gain": 0.025988,
      "t": 5.23,
      "ok": true
     },
     "reb": {
      "n": 3468,
-     "gain": 0.027094,
+     "gain": 0.027097,
      "t": 5.76,
      "ok": true
     },
     "ast": {
      "n": 2362,
-     "gain": 0.020245,
+     "gain": 0.020239,
      "t": 3.7,
      "ok": true
     },
     "fg3m": {
      "n": 2592,
-     "gain": 0.02233,
+     "gain": 0.02234,
      "t": 4.97,
      "ok": true
     }
