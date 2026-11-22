@@ -247,7 +247,7 @@
  },
  "401910029": {
   "event_url": "https://sportsbook.draftkings.com/event/35056404",
-  "observed_at": "2026-11-22T07:03:37Z",
+  "observed_at": "2026-11-22T08:04:06Z",
   "outcomes": [
    {
     "line": null,
@@ -289,7 +289,7 @@
  },
  "401910030": {
   "event_url": "https://sportsbook.draftkings.com/event/35056405",
-  "observed_at": "2026-11-22T07:03:37Z",
+  "observed_at": "2026-11-22T08:04:06Z",
   "outcomes": [
    {
     "line": null,
@@ -331,7 +331,7 @@
  },
  "401910031": {
   "event_url": "https://sportsbook.draftkings.com/event/35056423",
-  "observed_at": "2026-11-22T07:03:37Z",
+  "observed_at": "2026-11-22T08:04:06Z",
   "outcomes": [
    {
     "line": null,
@@ -373,7 +373,7 @@
  },
  "401910032": {
   "event_url": "https://sportsbook.draftkings.com/event/35056412",
-  "observed_at": "2026-11-22T07:03:37Z",
+  "observed_at": "2026-11-22T08:04:06Z",
   "outcomes": [
    {
     "line": null,
@@ -415,7 +415,7 @@
  },
  "401910033": {
   "event_url": "https://sportsbook.draftkings.com/event/35056422",
-  "observed_at": "2026-11-22T07:03:37Z",
+  "observed_at": "2026-11-22T08:04:06Z",
   "outcomes": [
    {
     "line": null,
@@ -457,7 +457,7 @@
  },
  "401910034": {
   "event_url": "https://sportsbook.draftkings.com/event/35056424",
-  "observed_at": "2026-11-22T07:03:37Z",
+  "observed_at": "2026-11-22T08:04:06Z",
   "outcomes": [
    {
     "line": null,
@@ -499,7 +499,7 @@
  },
  "401910035": {
   "event_url": "https://sportsbook.draftkings.com/event/35056429",
-  "observed_at": "2026-11-22T07:03:37Z",
+  "observed_at": "2026-11-22T08:04:06Z",
   "outcomes": [
    {
     "line": null,
@@ -514,15 +514,15 @@
     "selection": "away"
    },
    {
-    "line": 9.5,
+    "line": 8.5,
     "market": "spread",
-    "outcome_id": "0HC87336798P950_1",
+    "outcome_id": "0HC87336798P850_1",
     "selection": "home"
    },
    {
-    "line": -9.5,
+    "line": -8.5,
     "market": "spread",
-    "outcome_id": "0HC87336798N950_3",
+    "outcome_id": "0HC87336798N850_3",
     "selection": "away"
    },
    {
