@@ -13104,3 +13104,6 @@
 {"at": "2026-11-22T06:02:35Z", "data": {"stake": 1.0}, "event_id": "f7a4f069f8ef9ffd", "net_units": 0.6200000000000001, "pred_id": "fb5c634b4126b84c", "result": "win", "type": "settled"}
 {"at": "2026-11-22T06:02:35Z", "data": {"stake": 1.0}, "event_id": "95e95609f7b59b50", "net_units": -1.0, "pred_id": "ca03e14d1241966f", "result": "loss", "type": "settled"}
 {"at": "2026-11-22T06:02:35Z", "data": {"stake": 1.0}, "event_id": "24fc9b10c37d9b1b", "net_units": 0.75, "pred_id": "a38928ddcc047f6e", "result": "win", "type": "settled"}
+{"at": "2026-11-22T17:22:38Z", "data": {"paper_record": true}, "event_id": "05079f67b7e9e0dd", "pred_id": "b584569351369d9f", "type": "note"}
+{"at": "2026-11-22T17:22:38Z", "data": {"paper_record": true}, "event_id": "a62de7d5376026c7", "pred_id": "3a187b5906ea7036", "type": "note"}
+{"at": "2026-11-22T17:22:38Z", "data": {"paper_record": true}, "event_id": "cf25d1f96cac97bb", "pred_id": "b35d0d6dd12f197f", "type": "note"}
