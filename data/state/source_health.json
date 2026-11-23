@@ -9,29 +9,29 @@
  "espn_injuries": {
   "consecutive_failures": 0,
   "last_detail": "104 listed",
-  "last_ok": "2026-11-23T14:34:15Z"
+  "last_ok": "2026-11-23T15:04:59Z"
  },
  "espn_odds": {
   "consecutive_failures": 0,
   "last_detail": "",
-  "last_ok": "2026-11-23T14:34:15Z"
+  "last_ok": "2026-11-23T15:04:59Z"
  },
  "espn_props": {
   "consecutive_failures": 0,
   "last_detail": "",
   "last_error": "2026-11-23T07:03:05Z",
   "last_error_detail": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401910044/competitions/401910044/odds/100/propBets?limit=1000: 404 Not Found",
-  "last_ok": "2026-11-23T14:34:15Z"
+  "last_ok": "2026-11-23T15:04:59Z"
  },
  "espn_scoreboard": {
   "consecutive_failures": 0,
   "last_detail": "",
-  "last_ok": "2026-11-23T14:34:15Z"
+  "last_ok": "2026-11-23T15:04:59Z"
  },
  "moviodds": {
-  "consecutive_failures": 46,
+  "consecutive_failures": 47,
   "last_detail": "260 quotes; 0 unmapped",
-  "last_error": "2026-11-23T14:34:15Z",
+  "last_error": "2026-11-23T15:04:59Z",
   "last_error_detail": "https://moviodds.com/odds?sport=basketball: 401 Unauthorized",
   "last_ok": "2026-11-16T01:26:14Z"
  },
