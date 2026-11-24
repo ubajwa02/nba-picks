@@ -203,7 +203,7 @@
    "opp": "ORL",
    "player": "John Collins",
    "player_id": "3908845",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.3862,
    "prob_raw": 0.3497,
    "side": "over",
@@ -298,7 +298,7 @@
    "opp": "ORL",
    "player": "John Collins",
    "player_id": "3908845",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.6249,
    "prob_raw": 0.6503,
    "side": "under",
@@ -3053,7 +3053,7 @@
    "opp": "DET",
    "player": "Wendell Carter Jr.",
    "player_id": "4277847",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4103,
    "prob_raw": 0.3794,
    "side": "over",
@@ -3148,7 +3148,7 @@
    "opp": "DET",
    "player": "Wendell Carter Jr.",
    "player_id": "4277847",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.6011,
    "prob_raw": 0.6206,
    "side": "under",
@@ -4183,6 +4183,196 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
+   "ev": -0.3542,
+   "fair": null,
+   "game_id": "401909314",
+   "home": false,
+   "implied": 0.5556,
+   "k": 40.0,
+   "line": 11.5,
+   "opp": "ORL",
+   "player": "Isaiah Joe",
+   "player_id": "4395702",
+   "price_observed_at": "2026-11-24T16:33:45Z",
+   "prob": 0.3588,
+   "prob_raw": 0.3166,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 102,
+     "n": 345,
+     "rate": 0.296,
+     "split": "career"
+    },
+    {
+     "hits": 2,
+     "n": 6,
+     "rate": 0.333,
+     "split": "season"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "last5"
+    },
+    {
+     "hits": 2,
+     "n": 10,
+     "rate": 0.2,
+     "split": "last10"
+    },
+    {
+     "hits": 3,
+     "n": 8,
+     "rate": 0.375,
+     "split": "vs ORL"
+    },
+    {
+     "hits": 53,
+     "n": 171,
+     "rate": 0.31,
+     "split": "away"
+    },
+    {
+     "hits": 22,
+     "n": 53,
+     "rate": 0.415,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 60,
+     "n": 203,
+     "rate": 0.296,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 36,
+     "n": 107,
+     "rate": 0.336,
+     "split": "opp defence middle"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "with Cade Cunningham"
+    },
+    {
+     "hits": 1,
+     "n": 3,
+     "rate": 0.333,
+     "split": "without Duncan Robinson"
+    },
+    {
+     "hits": 2,
+     "n": 6,
+     "rate": 0.333,
+     "split": "with Daniss Jenkins"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Isaiah Joe over 11.5 pts (@ ORL): p=0.359 (raw 0.317) vs DraftKings implied 0.556 EV -0.354 @ DraftKings | career 102/345, season 2/6, last5 2/5, last10 2/10, vs ORL 3/8, away 53/171, month 11 past seasons 22/53, rest 1 day 60/203, opp defence middle 36/107, with Cade Cunningham 2/5, without Duncan Robinson 1/3, with Daniss Jenkins 2/6"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-24",
+   "ev": 0.1735,
+   "fair": null,
+   "game_id": "401909314",
+   "home": false,
+   "implied": 0.5556,
+   "k": 40.0,
+   "line": 11.5,
+   "opp": "ORL",
+   "player": "Isaiah Joe",
+   "player_id": "4395702",
+   "price_observed_at": "2026-11-24T16:33:45Z",
+   "prob": 0.652,
+   "prob_raw": 0.6834,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 243,
+     "n": 345,
+     "rate": 0.704,
+     "split": "career"
+    },
+    {
+     "hits": 4,
+     "n": 6,
+     "rate": 0.667,
+     "split": "season"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "last5"
+    },
+    {
+     "hits": 8,
+     "n": 10,
+     "rate": 0.8,
+     "split": "last10"
+    },
+    {
+     "hits": 5,
+     "n": 8,
+     "rate": 0.625,
+     "split": "vs ORL"
+    },
+    {
+     "hits": 118,
+     "n": 171,
+     "rate": 0.69,
+     "split": "away"
+    },
+    {
+     "hits": 31,
+     "n": 53,
+     "rate": 0.585,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 143,
+     "n": 203,
+     "rate": 0.704,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 71,
+     "n": 107,
+     "rate": 0.664,
+     "split": "opp defence middle"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "with Cade Cunningham"
+    },
+    {
+     "hits": 2,
+     "n": 3,
+     "rate": 0.667,
+     "split": "without Duncan Robinson"
+    },
+    {
+     "hits": 4,
+     "n": 6,
+     "rate": 0.667,
+     "split": "with Daniss Jenkins"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Isaiah Joe under 11.5 pts (@ ORL): p=0.652 (raw 0.683) vs DraftKings implied 0.556 EV +0.173 @ DraftKings | career 243/345, season 4/6, last5 3/5, last10 8/10, vs ORL 5/8, away 118/171, month 11 past seasons 31/53, rest 1 day 143/203, opp defence middle 71/107, with Cade Cunningham 3/5, without Duncan Robinson 2/3, with Daniss Jenkins 4/6"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-24",
    "ev": -0.1886,
    "fair": null,
    "game_id": "401909314",
@@ -4953,7 +5143,7 @@
    "opp": "DET",
    "player": "Jalen Suggs",
    "player_id": "4432165",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.51,
    "prob_raw": 0.5052,
    "side": "over",
@@ -5048,7 +5238,7 @@
    "opp": "DET",
    "player": "Jalen Suggs",
    "player_id": "4432165",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5018,
    "prob_raw": 0.4948,
    "side": "under",
@@ -5333,7 +5523,7 @@
    "opp": "ORL",
    "player": "Cade Cunningham",
    "player_id": "4432166",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.6045,
    "prob_raw": 0.6249,
    "side": "over",
@@ -5428,7 +5618,7 @@
    "opp": "ORL",
    "player": "Cade Cunningham",
    "player_id": "4432166",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4068,
    "prob_raw": 0.3751,
    "side": "under",
@@ -5903,7 +6093,7 @@
    "opp": "ORL",
    "player": "Cade Cunningham",
    "player_id": "4432166",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.3629,
    "prob_raw": 0.3216,
    "side": "over",
@@ -5998,7 +6188,7 @@
    "opp": "ORL",
    "player": "Cade Cunningham",
    "player_id": "4432166",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.6479,
    "prob_raw": 0.6784,
    "side": "under",
@@ -6273,11 +6463,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1234,
+   "ev": -0.1187,
    "fair": null,
    "game_id": "401909314",
    "home": false,
-   "implied": 0.5405,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 25.5,
    "opp": "ORL",
@@ -6363,16 +6553,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Cade Cunningham over 25.5 pts (@ ORL): p=0.474 (raw 0.459) vs DraftKings implied 0.540 EV -0.123 @ DraftKings | career 109/241, season 7/15, last5 3/5, last10 5/10, vs ORL 11/17, away 63/126, month 11 past seasons 20/44, rest 1 day 57/138, opp defence middle 37/80, without Duncan Robinson 64/155, with Daniss Jenkins 41/85, with Ausar Thompson 91/193"
+   "text": "[research] Cade Cunningham over 25.5 pts (@ ORL): p=0.474 (raw 0.459) vs DraftKings implied 0.538 EV -0.119 @ DraftKings | career 109/241, season 7/15, last5 3/5, last10 5/10, vs ORL 11/17, away 63/126, month 11 past seasons 20/44, rest 1 day 57/138, opp defence middle 37/80, without Duncan Robinson 64/155, with Daniss Jenkins 41/85, with Ausar Thompson 91/193"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.005,
+   "ev": 0.0004,
    "fair": null,
    "game_id": "401909314",
    "home": false,
-   "implied": 0.5405,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 25.5,
    "opp": "ORL",
@@ -6458,7 +6648,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Cade Cunningham under 25.5 pts (@ ORL): p=0.538 (raw 0.541) vs DraftKings implied 0.540 EV -0.005 @ DraftKings | career 132/241, season 8/15, last5 2/5, last10 5/10, vs ORL 6/17, away 63/126, month 11 past seasons 24/44, rest 1 day 81/138, opp defence middle 43/80, without Duncan Robinson 91/155, with Daniss Jenkins 44/85, with Ausar Thompson 102/193"
+   "text": "[research] Cade Cunningham under 25.5 pts (@ ORL): p=0.538 (raw 0.541) vs DraftKings implied 0.538 EV +0.000 @ DraftKings | career 132/241, season 8/15, last5 2/5, last10 5/10, vs ORL 6/17, away 63/126, month 11 past seasons 24/44, rest 1 day 81/138, opp defence middle 43/80, without Duncan Robinson 91/155, with Daniss Jenkins 44/85, with Ausar Thompson 102/193"
   },
   {
    "book": "DraftKings",
@@ -6473,7 +6663,7 @@
    "opp": "ORL",
    "player": "Cade Cunningham",
    "player_id": "4432166",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4351,
    "prob_raw": 0.4103,
    "side": "over",
@@ -6568,7 +6758,7 @@
    "opp": "ORL",
    "player": "Cade Cunningham",
    "player_id": "4432166",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5764,
    "prob_raw": 0.5897,
    "side": "under",
@@ -7043,7 +7233,7 @@
    "opp": "DET",
    "player": "Franz Wagner",
    "player_id": "4566434",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4207,
    "prob_raw": 0.3923,
    "side": "over",
@@ -7138,7 +7328,7 @@
    "opp": "DET",
    "player": "Franz Wagner",
    "player_id": "4566434",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5907,
    "prob_raw": 0.6077,
    "side": "under",
@@ -7993,7 +8183,7 @@
    "opp": "ORL",
    "player": "Ausar Thompson",
    "player_id": "4684742",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.3508,
    "prob_raw": 0.3071,
    "side": "over",
@@ -8088,7 +8278,7 @@
    "opp": "ORL",
    "player": "Ausar Thompson",
    "player_id": "4684742",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.6598,
    "prob_raw": 0.6929,
    "side": "under",
@@ -10083,7 +10273,7 @@
    "opp": "ORL",
    "player": "Daniss Jenkins",
    "player_id": "5107199",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.2033,
    "prob_raw": 0.1456,
    "side": "over",
@@ -10178,7 +10368,7 @@
    "opp": "ORL",
    "player": "Daniss Jenkins",
    "player_id": "5107199",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.8042,
    "prob_raw": 0.8544,
    "side": "under",
@@ -10273,7 +10463,7 @@
    "opp": "ORL",
    "player": "Daniss Jenkins",
    "player_id": "5107199",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.321,
    "prob_raw": 0.2721,
    "side": "over",
@@ -10368,7 +10558,7 @@
    "opp": "ORL",
    "player": "Daniss Jenkins",
    "player_id": "5107199",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.6892,
    "prob_raw": 0.7279,
    "side": "under",
@@ -10833,31 +11023,31 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.3542,
+   "ev": -0.5988,
    "fair": null,
    "game_id": "401909314",
    "home": false,
-   "implied": 0.5556,
+   "implied": 0.625,
    "k": 40.0,
-   "line": 11.5,
+   "line": 4.5,
    "opp": "ORL",
-   "player": "Isaiah Joe",
-   "player_id": "4395702",
-   "price_observed_at": "2026-11-24T16:03:10Z",
-   "prob": 0.3588,
-   "prob_raw": 0.3166,
+   "player": "Daniss Jenkins",
+   "player_id": "5107199",
+   "price_observed_at": "2026-11-24T16:33:45Z",
+   "prob": 0.2508,
+   "prob_raw": 0.1941,
    "side": "over",
    "splits": [
     {
-     "hits": 102,
-     "n": 345,
-     "rate": 0.296,
+     "hits": 17,
+     "n": 106,
+     "rate": 0.16,
      "split": "career"
     },
     {
-     "hits": 2,
-     "n": 6,
-     "rate": 0.333,
+     "hits": 7,
+     "n": 16,
+     "rate": 0.438,
      "split": "season"
     },
     {
@@ -10867,92 +11057,92 @@
      "split": "last5"
     },
     {
-     "hits": 2,
+     "hits": 5,
      "n": 10,
-     "rate": 0.2,
+     "rate": 0.5,
      "split": "last10"
     },
     {
-     "hits": 3,
-     "n": 8,
-     "rate": 0.375,
+     "hits": 0,
+     "n": 11,
+     "rate": 0.0,
      "split": "vs ORL"
     },
     {
-     "hits": 53,
-     "n": 171,
-     "rate": 0.31,
+     "hits": 7,
+     "n": 56,
+     "rate": 0.125,
      "split": "away"
     },
     {
-     "hits": 22,
-     "n": 53,
-     "rate": 0.415,
+     "hits": 1,
+     "n": 12,
+     "rate": 0.083,
      "split": "month 11 past seasons"
     },
     {
-     "hits": 60,
-     "n": 203,
-     "rate": 0.296,
+     "hits": 9,
+     "n": 57,
+     "rate": 0.158,
      "split": "rest 1 day"
     },
     {
-     "hits": 36,
-     "n": 107,
-     "rate": 0.336,
-     "split": "opp defence middle"
+     "hits": 3,
+     "n": 30,
+     "rate": 0.1,
+     "split": "opp defence tough"
     },
     {
-     "hits": 2,
-     "n": 5,
-     "rate": 0.4,
+     "hits": 12,
+     "n": 85,
+     "rate": 0.141,
      "split": "with Cade Cunningham"
     },
     {
-     "hits": 1,
-     "n": 3,
-     "rate": 0.333,
+     "hits": 3,
+     "n": 15,
+     "rate": 0.2,
      "split": "without Duncan Robinson"
     },
     {
-     "hits": 2,
-     "n": 6,
-     "rate": 0.333,
-     "split": "with Daniss Jenkins"
+     "hits": 15,
+     "n": 92,
+     "rate": 0.163,
+     "split": "with Ausar Thompson"
     }
    ],
-   "stat": "pts",
+   "stat": "reb",
    "status": "research",
-   "text": "[research] Isaiah Joe over 11.5 pts (@ ORL): p=0.359 (raw 0.317) vs DraftKings implied 0.556 EV -0.354 @ DraftKings | career 102/345, season 2/6, last5 2/5, last10 2/10, vs ORL 3/8, away 53/171, month 11 past seasons 22/53, rest 1 day 60/203, opp defence middle 36/107, with Cade Cunningham 2/5, without Duncan Robinson 1/3, with Daniss Jenkins 2/6"
+   "text": "[research] Daniss Jenkins over 4.5 reb (@ ORL): p=0.251 (raw 0.194) vs DraftKings implied 0.625 EV -0.599 @ DraftKings | career 17/106, season 7/16, last5 2/5, last10 5/10, vs ORL 0/11, away 7/56, month 11 past seasons 1/12, rest 1 day 9/57, opp defence tough 3/30, with Cade Cunningham 12/85, without Duncan Robinson 3/15, with Ausar Thompson 15/92"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.1735,
+   "ev": 0.2127,
    "fair": null,
    "game_id": "401909314",
    "home": false,
-   "implied": 0.5556,
+   "implied": 0.625,
    "k": 40.0,
-   "line": 11.5,
+   "line": 4.5,
    "opp": "ORL",
-   "player": "Isaiah Joe",
-   "player_id": "4395702",
-   "price_observed_at": "2026-11-24T16:03:10Z",
-   "prob": 0.652,
-   "prob_raw": 0.6834,
+   "player": "Daniss Jenkins",
+   "player_id": "5107199",
+   "price_observed_at": "2026-11-24T16:33:45Z",
+   "prob": 0.758,
+   "prob_raw": 0.8059,
    "side": "under",
    "splits": [
     {
-     "hits": 243,
-     "n": 345,
-     "rate": 0.704,
+     "hits": 89,
+     "n": 106,
+     "rate": 0.84,
      "split": "career"
     },
     {
-     "hits": 4,
-     "n": 6,
-     "rate": 0.667,
+     "hits": 9,
+     "n": 16,
+     "rate": 0.562,
      "split": "season"
     },
     {
@@ -10962,63 +11152,63 @@
      "split": "last5"
     },
     {
-     "hits": 8,
+     "hits": 5,
      "n": 10,
-     "rate": 0.8,
+     "rate": 0.5,
      "split": "last10"
     },
     {
-     "hits": 5,
-     "n": 8,
-     "rate": 0.625,
+     "hits": 11,
+     "n": 11,
+     "rate": 1.0,
      "split": "vs ORL"
     },
     {
-     "hits": 118,
-     "n": 171,
-     "rate": 0.69,
+     "hits": 49,
+     "n": 56,
+     "rate": 0.875,
      "split": "away"
     },
     {
-     "hits": 31,
-     "n": 53,
-     "rate": 0.585,
+     "hits": 11,
+     "n": 12,
+     "rate": 0.917,
      "split": "month 11 past seasons"
     },
     {
-     "hits": 143,
-     "n": 203,
-     "rate": 0.704,
+     "hits": 48,
+     "n": 57,
+     "rate": 0.842,
      "split": "rest 1 day"
     },
     {
-     "hits": 71,
-     "n": 107,
-     "rate": 0.664,
-     "split": "opp defence middle"
+     "hits": 27,
+     "n": 30,
+     "rate": 0.9,
+     "split": "opp defence tough"
     },
     {
-     "hits": 3,
-     "n": 5,
-     "rate": 0.6,
+     "hits": 73,
+     "n": 85,
+     "rate": 0.859,
      "split": "with Cade Cunningham"
     },
     {
-     "hits": 2,
-     "n": 3,
-     "rate": 0.667,
+     "hits": 12,
+     "n": 15,
+     "rate": 0.8,
      "split": "without Duncan Robinson"
     },
     {
-     "hits": 4,
-     "n": 6,
-     "rate": 0.667,
-     "split": "with Daniss Jenkins"
+     "hits": 77,
+     "n": 92,
+     "rate": 0.837,
+     "split": "with Ausar Thompson"
     }
    ],
-   "stat": "pts",
+   "stat": "reb",
    "status": "research",
-   "text": "[research] Isaiah Joe under 11.5 pts (@ ORL): p=0.652 (raw 0.683) vs DraftKings implied 0.556 EV +0.173 @ DraftKings | career 243/345, season 4/6, last5 3/5, last10 8/10, vs ORL 5/8, away 118/171, month 11 past seasons 31/53, rest 1 day 143/203, opp defence middle 71/107, with Cade Cunningham 3/5, without Duncan Robinson 2/3, with Daniss Jenkins 4/6"
+   "text": "[research] Daniss Jenkins under 4.5 reb (@ ORL): p=0.758 (raw 0.806) vs DraftKings implied 0.625 EV +0.213 @ DraftKings | career 89/106, season 9/16, last5 3/5, last10 5/10, vs ORL 11/11, away 49/56, month 11 past seasons 11/12, rest 1 day 48/57, opp defence tough 27/30, with Cade Cunningham 73/85, without Duncan Robinson 12/15, with Ausar Thompson 77/92"
   },
   {
    "book": "DraftKings",
@@ -11223,7 +11413,7 @@
    "opp": "WSH",
    "player": "Derrick White",
    "player_id": "3078576",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4915,
    "prob_raw": 0.4817,
    "side": "over",
@@ -11318,7 +11508,7 @@
    "opp": "WSH",
    "player": "Derrick White",
    "player_id": "3078576",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5202,
    "prob_raw": 0.5183,
    "side": "under",
@@ -11403,11 +11593,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.0093,
+   "ev": -0.0126,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5405,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 13.5,
    "opp": "WSH",
@@ -11493,16 +11683,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Derrick White over 13.5 pts (@ WSH): p=0.546 (raw 0.550) vs DraftKings implied 0.540 EV +0.009 @ DraftKings | career 215/381, season 7/16, last5 3/5, last10 5/10, vs WSH 6/12, away 98/185, month 11 past seasons 34/55, rest 1 day 125/231, opp defence soft 65/118, with Jayson Tatum 153/292, without Paul George 210/368, with Payton Pritchard 198/331"
+   "text": "[research] Derrick White over 13.5 pts (@ WSH): p=0.546 (raw 0.550) vs DraftKings implied 0.552 EV -0.013 @ DraftKings | career 215/381, season 7/16, last5 3/5, last10 5/10, vs WSH 6/12, away 98/185, month 11 past seasons 34/55, rest 1 day 125/231, opp defence soft 65/118, with Jayson Tatum 153/292, without Paul George 210/368, with Payton Pritchard 198/331"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1377,
+   "ev": -0.1563,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5405,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 13.5,
    "opp": "WSH",
@@ -11588,16 +11778,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Derrick White under 13.5 pts (@ WSH): p=0.466 (raw 0.450) vs DraftKings implied 0.540 EV -0.138 @ DraftKings | career 166/381, season 9/16, last5 2/5, last10 5/10, vs WSH 6/12, away 87/185, month 11 past seasons 21/55, rest 1 day 106/231, opp defence soft 53/118, with Jayson Tatum 139/292, without Paul George 158/368, with Payton Pritchard 133/331"
+   "text": "[research] Derrick White under 13.5 pts (@ WSH): p=0.466 (raw 0.450) vs DraftKings implied 0.552 EV -0.156 @ DraftKings | career 166/381, season 9/16, last5 2/5, last10 5/10, vs WSH 6/12, away 87/185, month 11 past seasons 21/55, rest 1 day 106/231, opp defence soft 53/118, with Jayson Tatum 139/292, without Paul George 158/368, with Payton Pritchard 133/331"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1199,
+   "ev": -0.1144,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.6211,
+   "implied": 0.6173,
    "k": 40.0,
    "line": 3.5,
    "opp": "WSH",
@@ -11683,16 +11873,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Derrick White over 3.5 reb (@ WSH): p=0.547 (raw 0.552) vs DraftKings implied 0.621 EV -0.120 @ DraftKings | career 218/381, season 6/16, last5 1/5, last10 3/10, vs WSH 5/12, away 105/185, month 11 past seasons 26/55, rest 1 day 133/231, opp defence soft 68/112, with Jayson Tatum 161/292, without Paul George 212/368, with Payton Pritchard 192/331"
+   "text": "[research] Derrick White over 3.5 reb (@ WSH): p=0.547 (raw 0.552) vs DraftKings implied 0.617 EV -0.114 @ DraftKings | career 218/381, season 6/16, last5 1/5, last10 3/10, vs WSH 5/12, away 105/185, month 11 past seasons 26/55, rest 1 day 133/231, opp defence soft 68/112, with Jayson Tatum 161/292, without Paul George 212/368, with Payton Pritchard 192/331"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.2513,
+   "ev": -0.2467,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.6211,
+   "implied": 0.6173,
    "k": 40.0,
    "line": 3.5,
    "opp": "WSH",
@@ -11778,16 +11968,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Derrick White under 3.5 reb (@ WSH): p=0.465 (raw 0.448) vs DraftKings implied 0.621 EV -0.251 @ DraftKings | career 163/381, season 10/16, last5 4/5, last10 7/10, vs WSH 7/12, away 80/185, month 11 past seasons 29/55, rest 1 day 98/231, opp defence soft 44/112, with Jayson Tatum 131/292, without Paul George 156/368, with Payton Pritchard 139/331"
+   "text": "[research] Derrick White under 3.5 reb (@ WSH): p=0.465 (raw 0.448) vs DraftKings implied 0.617 EV -0.247 @ DraftKings | career 163/381, season 10/16, last5 4/5, last10 7/10, vs WSH 7/12, away 80/185, month 11 past seasons 29/55, rest 1 day 98/231, opp defence soft 44/112, with Jayson Tatum 131/292, without Paul George 156/368, with Payton Pritchard 139/331"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.3255,
+   "ev": -0.3292,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5405,
+   "implied": 0.5435,
    "k": 40.0,
    "line": 6.5,
    "opp": "WSH",
@@ -11873,16 +12063,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Jayson Tatum over 6.5 ast (@ WSH): p=0.365 (raw 0.324) vs DraftKings implied 0.540 EV -0.326 @ DraftKings | career 95/304, season 8/15, last5 1/5, last10 4/10, vs WSH 3/9, away 48/154, month 11 past seasons 10/44, rest 1 day 52/174, opp defence soft 26/88, without Paul George 89/292, with Derrick White 92/292, with Payton Pritchard 86/257"
+   "text": "[research] Jayson Tatum over 6.5 ast (@ WSH): p=0.365 (raw 0.324) vs DraftKings implied 0.543 EV -0.329 @ DraftKings | career 95/304, season 8/15, last5 1/5, last10 4/10, vs WSH 3/9, away 48/154, month 11 past seasons 10/44, rest 1 day 52/174, opp defence soft 26/88, without Paul George 89/292, with Derrick White 92/292, with Payton Pritchard 86/257"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.1955,
+   "ev": 0.1891,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5405,
+   "implied": 0.5435,
    "k": 40.0,
    "line": 6.5,
    "opp": "WSH",
@@ -11968,16 +12158,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Jayson Tatum under 6.5 ast (@ WSH): p=0.646 (raw 0.676) vs DraftKings implied 0.540 EV +0.196 @ DraftKings | career 209/304, season 7/15, last5 4/5, last10 6/10, vs WSH 6/9, away 106/154, month 11 past seasons 34/44, rest 1 day 122/174, opp defence soft 62/88, without Paul George 203/292, with Derrick White 200/292, with Payton Pritchard 171/257"
+   "text": "[research] Jayson Tatum under 6.5 ast (@ WSH): p=0.646 (raw 0.676) vs DraftKings implied 0.543 EV +0.189 @ DraftKings | career 209/304, season 7/15, last5 4/5, last10 6/10, vs WSH 6/9, away 106/154, month 11 past seasons 34/44, rest 1 day 122/174, opp defence soft 62/88, without Paul George 203/292, with Derrick White 200/292, with Payton Pritchard 171/257"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.0351,
+   "ev": -0.0239,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5814,
+   "implied": 0.5747,
    "k": 40.0,
    "line": 2.5,
    "opp": "WSH",
@@ -12063,16 +12253,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Jayson Tatum over 2.5 fg3m (@ WSH): p=0.561 (raw 0.570) vs DraftKings implied 0.581 EV -0.035 @ DraftKings | career 174/304, season 8/15, last5 4/5, last10 7/10, vs WSH 5/9, away 90/154, month 11 past seasons 27/44, rest 1 day 95/174, opp defence tough 58/98, without Paul George 167/292, with Derrick White 168/292, with Payton Pritchard 141/257"
+   "text": "[research] Jayson Tatum over 2.5 fg3m (@ WSH): p=0.561 (raw 0.570) vs DraftKings implied 0.575 EV -0.024 @ DraftKings | career 174/304, season 8/15, last5 4/5, last10 7/10, vs WSH 5/9, away 90/154, month 11 past seasons 27/44, rest 1 day 95/174, opp defence tough 58/98, without Paul George 167/292, with Derrick White 168/292, with Payton Pritchard 141/257"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.2249,
+   "ev": -0.2159,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5814,
+   "implied": 0.5747,
    "k": 40.0,
    "line": 2.5,
    "opp": "WSH",
@@ -12158,16 +12348,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Jayson Tatum under 2.5 fg3m (@ WSH): p=0.451 (raw 0.430) vs DraftKings implied 0.581 EV -0.225 @ DraftKings | career 130/304, season 7/15, last5 1/5, last10 3/10, vs WSH 4/9, away 64/154, month 11 past seasons 17/44, rest 1 day 79/174, opp defence tough 40/98, without Paul George 125/292, with Derrick White 124/292, with Payton Pritchard 116/257"
+   "text": "[research] Jayson Tatum under 2.5 fg3m (@ WSH): p=0.451 (raw 0.430) vs DraftKings implied 0.575 EV -0.216 @ DraftKings | career 130/304, season 7/15, last5 1/5, last10 3/10, vs WSH 4/9, away 64/154, month 11 past seasons 17/44, rest 1 day 79/174, opp defence tough 40/98, without Paul George 125/292, with Derrick White 124/292, with Payton Pritchard 116/257"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.0737,
+   "ev": -0.0536,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5435,
+   "implied": 0.5319,
    "k": 40.0,
    "line": 26.5,
    "opp": "WSH",
@@ -12253,16 +12443,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Jayson Tatum over 26.5 pts (@ WSH): p=0.503 (raw 0.497) vs DraftKings implied 0.543 EV -0.074 @ DraftKings | career 152/304, season 6/15, last5 2/5, last10 4/10, vs WSH 5/9, away 78/154, month 11 past seasons 28/44, rest 1 day 79/174, opp defence soft 54/90, without Paul George 147/292, with Derrick White 144/292, with Payton Pritchard 118/257"
+   "text": "[research] Jayson Tatum over 26.5 pts (@ WSH): p=0.503 (raw 0.497) vs DraftKings implied 0.532 EV -0.054 @ DraftKings | career 152/304, season 6/15, last5 2/5, last10 4/10, vs WSH 5/9, away 78/154, month 11 past seasons 28/44, rest 1 day 79/174, opp defence soft 54/90, without Paul George 147/292, with Derrick White 144/292, with Payton Pritchard 118/257"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.0646,
+   "ev": -0.0443,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5435,
+   "implied": 0.5319,
    "k": 40.0,
    "line": 26.5,
    "opp": "WSH",
@@ -12348,16 +12538,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Jayson Tatum under 26.5 pts (@ WSH): p=0.508 (raw 0.503) vs DraftKings implied 0.543 EV -0.065 @ DraftKings | career 152/304, season 9/15, last5 3/5, last10 6/10, vs WSH 4/9, away 76/154, month 11 past seasons 16/44, rest 1 day 95/174, opp defence soft 36/90, without Paul George 145/292, with Derrick White 148/292, with Payton Pritchard 139/257"
+   "text": "[research] Jayson Tatum under 26.5 pts (@ WSH): p=0.508 (raw 0.503) vs DraftKings implied 0.532 EV -0.044 @ DraftKings | career 152/304, season 9/15, last5 3/5, last10 6/10, vs WSH 4/9, away 76/154, month 11 past seasons 16/44, rest 1 day 95/174, opp defence soft 36/90, without Paul George 145/292, with Derrick White 148/292, with Payton Pritchard 139/257"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.1132,
+   "ev": 0.0593,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5376,
+   "implied": 0.565,
    "k": 40.0,
    "line": 7.5,
    "opp": "WSH",
@@ -12443,16 +12633,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Jayson Tatum over 7.5 reb (@ WSH): p=0.599 (raw 0.617) vs DraftKings implied 0.538 EV +0.113 @ DraftKings | career 194/304, season 5/15, last5 3/5, last10 4/10, vs WSH 6/9, away 92/154, month 11 past seasons 28/44, rest 1 day 114/174, opp defence soft 60/88, without Paul George 190/292, with Derrick White 189/292, with Payton Pritchard 160/257"
+   "text": "[research] Jayson Tatum over 7.5 reb (@ WSH): p=0.599 (raw 0.617) vs DraftKings implied 0.565 EV +0.059 @ DraftKings | career 194/304, season 5/15, last5 3/5, last10 4/10, vs WSH 6/9, away 92/154, month 11 past seasons 28/44, rest 1 day 114/174, opp defence soft 60/88, without Paul George 190/292, with Derrick White 189/292, with Payton Pritchard 160/257"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.2321,
+   "ev": -0.2693,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5376,
+   "implied": 0.565,
    "k": 40.0,
    "line": 7.5,
    "opp": "WSH",
@@ -12538,22 +12728,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Jayson Tatum under 7.5 reb (@ WSH): p=0.413 (raw 0.383) vs DraftKings implied 0.538 EV -0.232 @ DraftKings | career 110/304, season 10/15, last5 2/5, last10 6/10, vs WSH 3/9, away 62/154, month 11 past seasons 16/44, rest 1 day 60/174, opp defence soft 28/88, without Paul George 102/292, with Derrick White 103/292, with Payton Pritchard 97/257"
+   "text": "[research] Jayson Tatum under 7.5 reb (@ WSH): p=0.413 (raw 0.383) vs DraftKings implied 0.565 EV -0.269 @ DraftKings | career 110/304, season 10/15, last5 2/5, last10 6/10, vs WSH 3/9, away 62/154, month 11 past seasons 16/44, rest 1 day 60/174, opp defence soft 28/88, without Paul George 102/292, with Derrick White 103/292, with Payton Pritchard 97/257"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.444,
+   "ev": -0.4375,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5848,
+   "implied": 0.578,
    "k": 40.0,
    "line": 4.5,
    "opp": "WSH",
    "player": "Payton Pritchard",
    "player_id": "4066354",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.3251,
    "prob_raw": 0.2769,
    "side": "over",
@@ -12633,22 +12823,22 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Payton Pritchard over 4.5 ast (@ WSH): p=0.325 (raw 0.277) vs DraftKings implied 0.585 EV -0.444 @ DraftKings | career 98/351, season 7/17, last5 3/5, last10 6/10, vs WSH 7/14, away 47/170, month 11 past seasons 7/53, rest 1 day 60/204, opp defence soft 36/96, with Jayson Tatum 44/257, without Paul George 91/337, with Derrick White 90/331"
+   "text": "[research] Payton Pritchard over 4.5 ast (@ WSH): p=0.325 (raw 0.277) vs DraftKings implied 0.578 EV -0.438 @ DraftKings | career 98/351, season 7/17, last5 3/5, last10 6/10, vs WSH 7/14, away 47/170, month 11 past seasons 7/53, rest 1 day 60/204, opp defence soft 36/96, with Jayson Tatum 44/257, without Paul George 91/337, with Derrick White 90/331"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.1715,
+   "ev": 0.1852,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5848,
+   "implied": 0.578,
    "k": 40.0,
    "line": 4.5,
    "opp": "WSH",
    "player": "Payton Pritchard",
    "player_id": "4066354",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.6851,
    "prob_raw": 0.7231,
    "side": "under",
@@ -12728,16 +12918,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Payton Pritchard under 4.5 ast (@ WSH): p=0.685 (raw 0.723) vs DraftKings implied 0.585 EV +0.172 @ DraftKings | career 253/351, season 10/17, last5 2/5, last10 4/10, vs WSH 7/14, away 123/170, month 11 past seasons 46/53, rest 1 day 144/204, opp defence soft 60/96, with Jayson Tatum 213/257, without Paul George 246/337, with Derrick White 241/331"
+   "text": "[research] Payton Pritchard under 4.5 ast (@ WSH): p=0.685 (raw 0.723) vs DraftKings implied 0.578 EV +0.185 @ DraftKings | career 253/351, season 10/17, last5 2/5, last10 4/10, vs WSH 7/14, away 123/170, month 11 past seasons 46/53, rest 1 day 144/204, opp defence soft 60/96, with Jayson Tatum 213/257, without Paul George 246/337, with Derrick White 241/331"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1642,
+   "ev": -0.1588,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.6452,
+   "implied": 0.641,
    "k": 40.0,
    "line": 1.5,
    "opp": "WSH",
@@ -12823,16 +13013,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Payton Pritchard over 1.5 fg3m (@ WSH): p=0.539 (raw 0.542) vs DraftKings implied 0.645 EV -0.164 @ DraftKings | career 192/351, season 10/17, last5 3/5, last10 7/10, vs WSH 8/14, away 86/170, month 11 past seasons 30/53, rest 1 day 110/204, opp defence tough 66/118, with Jayson Tatum 132/257, without Paul George 183/337, with Derrick White 178/331"
+   "text": "[research] Payton Pritchard over 1.5 fg3m (@ WSH): p=0.539 (raw 0.542) vs DraftKings implied 0.641 EV -0.159 @ DraftKings | career 192/351, season 10/17, last5 3/5, last10 7/10, vs WSH 8/14, away 86/170, month 11 past seasons 30/53, rest 1 day 110/204, opp defence tough 66/118, with Jayson Tatum 132/257, without Paul George 183/337, with Derrick White 178/331"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.2676,
+   "ev": -0.2629,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.6452,
+   "implied": 0.641,
    "k": 40.0,
    "line": 1.5,
    "opp": "WSH",
@@ -12918,22 +13108,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Payton Pritchard under 1.5 fg3m (@ WSH): p=0.472 (raw 0.458) vs DraftKings implied 0.645 EV -0.268 @ DraftKings | career 159/351, season 7/17, last5 2/5, last10 3/10, vs WSH 6/14, away 84/170, month 11 past seasons 23/53, rest 1 day 94/204, opp defence tough 52/118, with Jayson Tatum 125/257, without Paul George 154/337, with Derrick White 153/331"
+   "text": "[research] Payton Pritchard under 1.5 fg3m (@ WSH): p=0.472 (raw 0.458) vs DraftKings implied 0.641 EV -0.263 @ DraftKings | career 159/351, season 7/17, last5 2/5, last10 3/10, vs WSH 6/14, away 84/170, month 11 past seasons 23/53, rest 1 day 94/204, opp defence tough 52/118, with Jayson Tatum 125/257, without Paul George 154/337, with Derrick White 153/331"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.253,
+   "ev": -0.2488,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5618,
+   "implied": 0.5587,
    "k": 40.0,
    "line": 12.5,
    "opp": "WSH",
    "player": "Payton Pritchard",
    "player_id": "4066354",
-   "price_observed_at": "2026-11-24T15:01:59Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4196,
    "prob_raw": 0.3911,
    "side": "over",
@@ -13013,22 +13203,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Payton Pritchard over 12.5 pts (@ WSH): p=0.420 (raw 0.391) vs DraftKings implied 0.562 EV -0.253 @ DraftKings | career 139/351, season 7/17, last5 2/5, last10 4/10, vs WSH 7/14, away 68/170, month 11 past seasons 24/53, rest 1 day 76/204, opp defence soft 48/105, with Jayson Tatum 81/257, without Paul George 133/337, with Derrick White 124/331"
+   "text": "[research] Payton Pritchard over 12.5 pts (@ WSH): p=0.420 (raw 0.391) vs DraftKings implied 0.559 EV -0.249 @ DraftKings | career 139/351, season 7/17, last5 2/5, last10 4/10, vs WSH 7/14, away 68/170, month 11 past seasons 24/53, rest 1 day 76/204, opp defence soft 48/105, with Jayson Tatum 81/257, without Paul George 133/337, with Derrick White 124/331"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.0533,
+   "ev": 0.0592,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5618,
+   "implied": 0.5587,
    "k": 40.0,
    "line": 12.5,
    "opp": "WSH",
    "player": "Payton Pritchard",
    "player_id": "4066354",
-   "price_observed_at": "2026-11-24T15:01:59Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5918,
    "prob_raw": 0.6089,
    "side": "under",
@@ -13108,7 +13298,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Payton Pritchard under 12.5 pts (@ WSH): p=0.592 (raw 0.609) vs DraftKings implied 0.562 EV +0.053 @ DraftKings | career 212/351, season 10/17, last5 3/5, last10 6/10, vs WSH 7/14, away 102/170, month 11 past seasons 29/53, rest 1 day 128/204, opp defence soft 57/105, with Jayson Tatum 176/257, without Paul George 204/337, with Derrick White 207/331"
+   "text": "[research] Payton Pritchard under 12.5 pts (@ WSH): p=0.592 (raw 0.609) vs DraftKings implied 0.559 EV +0.059 @ DraftKings | career 212/351, season 10/17, last5 3/5, last10 6/10, vs WSH 7/14, away 102/170, month 11 past seasons 29/53, rest 1 day 128/204, opp defence soft 57/105, with Jayson Tatum 176/257, without Paul George 204/337, with Derrick White 207/331"
   },
   {
    "book": "DraftKings",
@@ -13303,11 +13493,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.0273,
+   "ev": -0.0501,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5848,
+   "implied": 0.5988,
    "k": 40.0,
    "line": 2.5,
    "opp": "WSH",
@@ -13393,16 +13583,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Payton Pritchard over 2.5 reb (@ WSH): p=0.569 (raw 0.580) vs DraftKings implied 0.585 EV -0.027 @ DraftKings | career 206/351, season 9/17, last5 2/5, last10 5/10, vs WSH 8/14, away 107/170, month 11 past seasons 30/53, rest 1 day 123/204, opp defence soft 68/107, with Jayson Tatum 132/257, without Paul George 198/337, with Derrick White 188/331"
+   "text": "[research] Payton Pritchard over 2.5 reb (@ WSH): p=0.569 (raw 0.580) vs DraftKings implied 0.599 EV -0.050 @ DraftKings | career 206/351, season 9/17, last5 2/5, last10 5/10, vs WSH 8/14, away 107/170, month 11 past seasons 30/53, rest 1 day 123/204, opp defence soft 68/107, with Jayson Tatum 132/257, without Paul George 198/337, with Derrick White 188/331"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.2429,
+   "ev": -0.2606,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5848,
+   "implied": 0.5988,
    "k": 40.0,
    "line": 2.5,
    "opp": "WSH",
@@ -13488,16 +13678,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Payton Pritchard under 2.5 reb (@ WSH): p=0.443 (raw 0.420) vs DraftKings implied 0.585 EV -0.243 @ DraftKings | career 145/351, season 8/17, last5 3/5, last10 5/10, vs WSH 6/14, away 63/170, month 11 past seasons 23/53, rest 1 day 81/204, opp defence soft 39/107, with Jayson Tatum 125/257, without Paul George 139/337, with Derrick White 143/331"
+   "text": "[research] Payton Pritchard under 2.5 reb (@ WSH): p=0.443 (raw 0.420) vs DraftKings implied 0.599 EV -0.261 @ DraftKings | career 145/351, season 8/17, last5 3/5, last10 5/10, vs WSH 6/14, away 63/170, month 11 past seasons 23/53, rest 1 day 81/204, opp defence soft 39/107, with Jayson Tatum 125/257, without Paul George 139/337, with Derrick White 143/331"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.0145,
+   "ev": -0.0019,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5376,
+   "implied": 0.5464,
    "k": 40.0,
    "line": 3.5,
    "opp": "WSH",
@@ -13583,16 +13773,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Paul George over 3.5 ast (@ WSH): p=0.545 (raw 0.550) vs DraftKings implied 0.538 EV +0.015 @ DraftKings | career 134/240, season 6/14, last5 2/5, last10 5/10, vs WSH 3/5, away 73/128, month 11 past seasons 21/38, rest 2+ days 49/78, opp defence soft 51/82, with Jayson Tatum 4/12, with Derrick White 5/13, with Payton Pritchard 6/14"
+   "text": "[research] Paul George over 3.5 ast (@ WSH): p=0.545 (raw 0.550) vs DraftKings implied 0.546 EV -0.002 @ DraftKings | career 134/240, season 6/14, last5 2/5, last10 5/10, vs WSH 3/5, away 73/128, month 11 past seasons 21/38, rest 2+ days 49/78, opp defence soft 51/82, with Jayson Tatum 4/12, with Derrick White 5/13, with Payton Pritchard 6/14"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1328,
+   "ev": -0.1468,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5376,
+   "implied": 0.5464,
    "k": 40.0,
    "line": 3.5,
    "opp": "WSH",
@@ -13678,7 +13868,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Paul George under 3.5 ast (@ WSH): p=0.466 (raw 0.450) vs DraftKings implied 0.538 EV -0.133 @ DraftKings | career 106/240, season 8/14, last5 3/5, last10 5/10, vs WSH 2/5, away 55/128, month 11 past seasons 17/38, rest 2+ days 29/78, opp defence soft 31/82, with Jayson Tatum 8/12, with Derrick White 8/13, with Payton Pritchard 8/14"
+   "text": "[research] Paul George under 3.5 ast (@ WSH): p=0.466 (raw 0.450) vs DraftKings implied 0.546 EV -0.147 @ DraftKings | career 106/240, season 8/14, last5 3/5, last10 5/10, vs WSH 2/5, away 55/128, month 11 past seasons 17/38, rest 2+ days 29/78, opp defence soft 31/82, with Jayson Tatum 8/12, with Derrick White 8/13, with Payton Pritchard 8/14"
   },
   {
    "book": "DraftKings",
@@ -14253,17 +14443,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1975,
+   "ev": -0.2024,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.6061,
+   "implied": 0.6098,
    "k": 40.0,
    "line": 5.5,
    "opp": "WSH",
    "player": "Paul George",
    "player_id": "4251",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4863,
    "prob_raw": 0.4751,
    "side": "over",
@@ -14343,22 +14533,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Paul George over 5.5 reb (@ WSH): p=0.486 (raw 0.475) vs DraftKings implied 0.606 EV -0.198 @ DraftKings | career 112/240, season 7/14, last5 3/5, last10 5/10, vs WSH 2/5, away 56/128, month 11 past seasons 21/38, rest 2+ days 32/78, opp defence soft 43/80, with Jayson Tatum 6/12, with Derrick White 6/13, with Payton Pritchard 7/14"
+   "text": "[research] Paul George over 5.5 reb (@ WSH): p=0.486 (raw 0.475) vs DraftKings implied 0.610 EV -0.202 @ DraftKings | career 112/240, season 7/14, last5 3/5, last10 5/10, vs WSH 2/5, away 56/128, month 11 past seasons 21/38, rest 2+ days 32/78, opp defence soft 43/80, with Jayson Tatum 6/12, with Derrick White 6/13, with Payton Pritchard 7/14"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1331,
+   "ev": -0.1384,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.6061,
+   "implied": 0.6098,
    "k": 40.0,
    "line": 5.5,
    "opp": "WSH",
    "player": "Paul George",
    "player_id": "4251",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5254,
    "prob_raw": 0.5249,
    "side": "under",
@@ -14438,22 +14628,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Paul George under 5.5 reb (@ WSH): p=0.525 (raw 0.525) vs DraftKings implied 0.606 EV -0.133 @ DraftKings | career 128/240, season 7/14, last5 2/5, last10 5/10, vs WSH 3/5, away 72/128, month 11 past seasons 17/38, rest 2+ days 46/78, opp defence soft 37/80, with Jayson Tatum 6/12, with Derrick White 7/13, with Payton Pritchard 7/14"
+   "text": "[research] Paul George under 5.5 reb (@ WSH): p=0.525 (raw 0.525) vs DraftKings implied 0.610 EV -0.138 @ DraftKings | career 128/240, season 7/14, last5 2/5, last10 5/10, vs WSH 3/5, away 72/128, month 11 past seasons 17/38, rest 2+ days 46/78, opp defence soft 37/80, with Jayson Tatum 6/12, with Derrick White 7/13, with Payton Pritchard 7/14"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.2821,
+   "ev": 0.2676,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.5682,
+   "implied": 0.5747,
    "k": 40.0,
    "line": 7.5,
    "opp": "BOS",
    "player": "Trae Young",
    "player_id": "4277905",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.7285,
    "prob_raw": 0.7733,
    "side": "over",
@@ -14533,22 +14723,22 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Trae Young over 7.5 ast (vs BOS): p=0.729 (raw 0.773) vs DraftKings implied 0.568 EV +0.282 @ DraftKings | career 195/246, season 13/18, last5 4/5, last10 6/10, vs BOS 9/13, home 101/124, month 11 past seasons 35/42, rest 1 day 104/133, opp defence tough 61/82, with Anthony Davis 12/16, with Kyshawn George 13/18, with AJ Dybantsa 9/14"
+   "text": "[research] Trae Young over 7.5 ast (vs BOS): p=0.729 (raw 0.773) vs DraftKings implied 0.575 EV +0.268 @ DraftKings | career 195/246, season 13/18, last5 4/5, last10 6/10, vs BOS 9/13, home 101/124, month 11 past seasons 35/42, rest 1 day 104/133, opp defence tough 61/82, with Anthony Davis 12/16, with Kyshawn George 13/18, with AJ Dybantsa 9/14"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.5056,
+   "ev": -0.5112,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.5682,
+   "implied": 0.5747,
    "k": 40.0,
    "line": 7.5,
    "opp": "BOS",
    "player": "Trae Young",
    "player_id": "4277905",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.2809,
    "prob_raw": 0.2267,
    "side": "under",
@@ -14628,7 +14818,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Trae Young under 7.5 ast (vs BOS): p=0.281 (raw 0.227) vs DraftKings implied 0.568 EV -0.506 @ DraftKings | career 51/246, season 5/18, last5 1/5, last10 4/10, vs BOS 4/13, home 23/124, month 11 past seasons 7/42, rest 1 day 29/133, opp defence tough 21/82, with Anthony Davis 4/16, with Kyshawn George 5/18, with AJ Dybantsa 5/14"
+   "text": "[research] Trae Young under 7.5 ast (vs BOS): p=0.281 (raw 0.227) vs DraftKings implied 0.575 EV -0.511 @ DraftKings | career 51/246, season 5/18, last5 1/5, last10 4/10, vs BOS 4/13, home 23/124, month 11 past seasons 7/42, rest 1 day 29/133, opp defence tough 21/82, with Anthony Davis 4/16, with Kyshawn George 5/18, with AJ Dybantsa 5/14"
   },
   {
    "book": "DraftKings",
@@ -15393,11 +15583,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.414,
+   "ev": -0.4392,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5376,
+   "implied": 0.5618,
    "k": 40.0,
    "line": 8.5,
    "opp": "WSH",
@@ -15483,16 +15673,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Neemias Queta over 8.5 reb (@ WSH): p=0.315 (raw 0.265) vs DraftKings implied 0.538 EV -0.414 @ DraftKings | career 49/199, season 5/16, last5 3/5, last10 5/10, vs WSH 3/10, away 24/96, month 11 past seasons 8/27, rest 1 day 29/94, opp defence soft 20/65, with Jayson Tatum 23/116, without Paul George 46/181, with Derrick White 47/181"
+   "text": "[research] Neemias Queta over 8.5 reb (@ WSH): p=0.315 (raw 0.265) vs DraftKings implied 0.562 EV -0.439 @ DraftKings | career 49/199, season 5/16, last5 3/5, last10 5/10, vs WSH 3/10, away 24/96, month 11 past seasons 8/27, rest 1 day 29/94, opp defence soft 20/65, with Jayson Tatum 23/116, without Paul George 46/181, with Derrick White 47/181"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.2927,
+   "ev": 0.2371,
    "fair": null,
    "game_id": "401909315",
    "home": false,
-   "implied": 0.5376,
+   "implied": 0.5618,
    "k": 40.0,
    "line": 8.5,
    "opp": "WSH",
@@ -15578,7 +15768,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Neemias Queta under 8.5 reb (@ WSH): p=0.695 (raw 0.735) vs DraftKings implied 0.538 EV +0.293 @ DraftKings | career 150/199, season 11/16, last5 2/5, last10 5/10, vs WSH 7/10, away 72/96, month 11 past seasons 19/27, rest 1 day 65/94, opp defence soft 45/65, with Jayson Tatum 93/116, without Paul George 135/181, with Derrick White 134/181"
+   "text": "[research] Neemias Queta under 8.5 reb (@ WSH): p=0.695 (raw 0.735) vs DraftKings implied 0.562 EV +0.237 @ DraftKings | career 150/199, season 11/16, last5 2/5, last10 5/10, vs WSH 7/10, away 72/96, month 11 past seasons 19/27, rest 1 day 65/94, opp defence soft 45/65, with Jayson Tatum 93/116, without Paul George 135/181, with Derrick White 134/181"
   },
   {
    "book": "DraftKings",
@@ -15773,11 +15963,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.2024,
+   "ev": 0.1833,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.5319,
+   "implied": 0.5405,
    "k": 40.0,
    "line": 6.5,
    "opp": "BOS",
@@ -15863,16 +16053,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Bilal Coulibaly over 6.5 pts (vs BOS): p=0.640 (raw 0.668) vs DraftKings implied 0.532 EV +0.202 @ DraftKings | career 135/195, season 9/17, last5 3/5, last10 4/10, vs BOS 5/7, home 68/97, month 11 past seasons 26/36, rest 1 day 77/110, opp defence tough 43/63, with Trae Young 13/22, with Anthony Davis 8/15, with Kyshawn George 72/100"
+   "text": "[research] Bilal Coulibaly over 6.5 pts (vs BOS): p=0.640 (raw 0.668) vs DraftKings implied 0.540 EV +0.183 @ DraftKings | career 135/195, season 9/17, last5 3/5, last10 4/10, vs BOS 5/7, home 68/97, month 11 past seasons 26/36, rest 1 day 77/110, opp defence tough 43/63, with Trae Young 13/22, with Anthony Davis 8/15, with Kyshawn George 72/100"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.3019,
+   "ev": -0.3131,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.5319,
+   "implied": 0.5405,
    "k": 40.0,
    "line": 6.5,
    "opp": "BOS",
@@ -15958,16 +16148,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Bilal Coulibaly under 6.5 pts (vs BOS): p=0.371 (raw 0.332) vs DraftKings implied 0.532 EV -0.302 @ DraftKings | career 60/195, season 8/17, last5 2/5, last10 6/10, vs BOS 2/7, home 29/97, month 11 past seasons 10/36, rest 1 day 33/110, opp defence tough 20/63, with Trae Young 9/22, with Anthony Davis 7/15, with Kyshawn George 28/100"
+   "text": "[research] Bilal Coulibaly under 6.5 pts (vs BOS): p=0.371 (raw 0.332) vs DraftKings implied 0.540 EV -0.313 @ DraftKings | career 60/195, season 8/17, last5 2/5, last10 6/10, vs BOS 2/7, home 29/97, month 11 past seasons 10/36, rest 1 day 33/110, opp defence tough 20/63, with Trae Young 9/22, with Anthony Davis 7/15, with Kyshawn George 28/100"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.1489,
+   "ev": 0.1426,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.5495,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 3.5,
    "opp": "BOS",
@@ -16053,16 +16243,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Bilal Coulibaly over 3.5 reb (vs BOS): p=0.631 (raw 0.658) vs DraftKings implied 0.549 EV +0.149 @ DraftKings | career 127/195, season 11/17, last5 3/5, last10 7/10, vs BOS 6/7, home 59/97, month 11 past seasons 18/36, rest 1 day 76/110, opp defence middle 47/59, with Trae Young 15/22, with Anthony Davis 9/15, with Kyshawn George 66/100"
+   "text": "[research] Bilal Coulibaly over 3.5 reb (vs BOS): p=0.631 (raw 0.658) vs DraftKings implied 0.552 EV +0.143 @ DraftKings | career 127/195, season 11/17, last5 3/5, last10 7/10, vs BOS 6/7, home 59/97, month 11 past seasons 18/36, rest 1 day 76/110, opp defence middle 47/59, with Trae Young 15/22, with Anthony Davis 9/15, with Kyshawn George 66/100"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.3089,
+   "ev": -0.3127,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.5495,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 3.5,
    "opp": "BOS",
@@ -16148,7 +16338,173 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Bilal Coulibaly under 3.5 reb (vs BOS): p=0.380 (raw 0.342) vs DraftKings implied 0.549 EV -0.309 @ DraftKings | career 68/195, season 6/17, last5 2/5, last10 3/10, vs BOS 1/7, home 38/97, month 11 past seasons 18/36, rest 1 day 34/110, opp defence middle 12/59, with Trae Young 7/22, with Anthony Davis 6/15, with Kyshawn George 34/100"
+   "text": "[research] Bilal Coulibaly under 3.5 reb (vs BOS): p=0.380 (raw 0.342) vs DraftKings implied 0.552 EV -0.313 @ DraftKings | career 68/195, season 6/17, last5 2/5, last10 3/10, vs BOS 1/7, home 38/97, month 11 past seasons 18/36, rest 1 day 34/110, opp defence middle 12/59, with Trae Young 7/22, with Anthony Davis 6/15, with Kyshawn George 34/100"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-24",
+   "ev": -0.1966,
+   "fair": null,
+   "game_id": "401909315",
+   "home": true,
+   "implied": 0.6329,
+   "k": 40.0,
+   "line": 2.5,
+   "opp": "BOS",
+   "player": "AJ Dybantsa",
+   "player_id": "5142718",
+   "price_observed_at": "2026-11-24T16:33:45Z",
+   "prob": 0.5085,
+   "prob_raw": 0.5033,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 7,
+     "n": 14,
+     "rate": 0.5,
+     "split": "career"
+    },
+    {
+     "hits": 7,
+     "n": 14,
+     "rate": 0.5,
+     "split": "season"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "last5"
+    },
+    {
+     "hits": 6,
+     "n": 10,
+     "rate": 0.6,
+     "split": "last10"
+    },
+    {
+     "hits": 4,
+     "n": 6,
+     "rate": 0.667,
+     "split": "home"
+    },
+    {
+     "hits": 4,
+     "n": 8,
+     "rate": 0.5,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "opp defence tough"
+    },
+    {
+     "hits": 7,
+     "n": 14,
+     "rate": 0.5,
+     "split": "with Trae Young"
+    },
+    {
+     "hits": 5,
+     "n": 12,
+     "rate": 0.417,
+     "split": "with Anthony Davis"
+    },
+    {
+     "hits": 7,
+     "n": 14,
+     "rate": 0.5,
+     "split": "with Kyshawn George"
+    }
+   ],
+   "stat": "ast",
+   "status": "research",
+   "text": "[research] AJ Dybantsa over 2.5 ast (vs BOS): p=0.508 (raw 0.503) vs DraftKings implied 0.633 EV -0.197 @ DraftKings | career 7/14, season 7/14, last5 3/5, last10 6/10, home 4/6, rest 1 day 4/8, opp defence tough 3/5, with Trae Young 7/14, with Anthony Davis 5/12, with Kyshawn George 7/14"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-24",
+   "ev": -0.2048,
+   "fair": null,
+   "game_id": "401909315",
+   "home": true,
+   "implied": 0.6329,
+   "k": 40.0,
+   "line": 2.5,
+   "opp": "BOS",
+   "player": "AJ Dybantsa",
+   "player_id": "5142718",
+   "price_observed_at": "2026-11-24T16:33:45Z",
+   "prob": 0.5033,
+   "prob_raw": 0.4967,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 7,
+     "n": 14,
+     "rate": 0.5,
+     "split": "career"
+    },
+    {
+     "hits": 7,
+     "n": 14,
+     "rate": 0.5,
+     "split": "season"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "last5"
+    },
+    {
+     "hits": 4,
+     "n": 10,
+     "rate": 0.4,
+     "split": "last10"
+    },
+    {
+     "hits": 2,
+     "n": 6,
+     "rate": 0.333,
+     "split": "home"
+    },
+    {
+     "hits": 4,
+     "n": 8,
+     "rate": 0.5,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "opp defence tough"
+    },
+    {
+     "hits": 7,
+     "n": 14,
+     "rate": 0.5,
+     "split": "with Trae Young"
+    },
+    {
+     "hits": 7,
+     "n": 12,
+     "rate": 0.583,
+     "split": "with Anthony Davis"
+    },
+    {
+     "hits": 7,
+     "n": 14,
+     "rate": 0.5,
+     "split": "with Kyshawn George"
+    }
+   ],
+   "stat": "ast",
+   "status": "research",
+   "text": "[research] AJ Dybantsa under 2.5 ast (vs BOS): p=0.503 (raw 0.497) vs DraftKings implied 0.633 EV -0.205 @ DraftKings | career 7/14, season 7/14, last5 2/5, last10 4/10, home 2/6, rest 1 day 4/8, opp defence tough 2/5, with Trae Young 7/14, with Anthony Davis 7/12, with Kyshawn George 7/14"
   },
   {
    "book": "DraftKings",
@@ -16319,11 +16675,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.0204,
+   "ev": 0.0038,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.5435,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 16.5,
    "opp": "BOS",
@@ -16397,16 +16753,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] AJ Dybantsa over 16.5 pts (vs BOS): p=0.555 (raw 0.562) vs DraftKings implied 0.543 EV +0.020 @ DraftKings | career 8/14, season 8/14, last5 3/5, last10 5/10, home 2/6, rest 1 day 4/8, opp defence tough 4/6, with Trae Young 8/14, with Anthony Davis 7/12, with Kyshawn George 8/14"
+   "text": "[research] AJ Dybantsa over 16.5 pts (vs BOS): p=0.555 (raw 0.562) vs DraftKings implied 0.552 EV +0.004 @ DraftKings | career 8/14, season 8/14, last5 3/5, last10 5/10, home 2/6, rest 1 day 4/8, opp defence tough 4/6, with Trae Young 8/14, with Anthony Davis 7/12, with Kyshawn George 8/14"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.159,
+   "ev": -0.1727,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.5435,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 16.5,
    "opp": "BOS",
@@ -16480,16 +16836,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] AJ Dybantsa under 16.5 pts (vs BOS): p=0.457 (raw 0.438) vs DraftKings implied 0.543 EV -0.159 @ DraftKings | career 6/14, season 6/14, last5 2/5, last10 5/10, home 4/6, rest 1 day 4/8, opp defence tough 2/6, with Trae Young 6/14, with Anthony Davis 5/12, with Kyshawn George 6/14"
+   "text": "[research] AJ Dybantsa under 16.5 pts (vs BOS): p=0.457 (raw 0.438) vs DraftKings implied 0.552 EV -0.173 @ DraftKings | career 6/14, season 6/14, last5 2/5, last10 5/10, home 4/6, rest 1 day 4/8, opp defence tough 2/6, with Trae Young 6/14, with Anthony Davis 5/12, with Kyshawn George 6/14"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.0546,
+   "ev": 0.0262,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.5376,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 6.5,
    "opp": "BOS",
@@ -16563,16 +16919,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] AJ Dybantsa over 6.5 reb (vs BOS): p=0.567 (raw 0.578) vs DraftKings implied 0.538 EV +0.055 @ DraftKings | career 8/14, season 8/14, last5 4/5, last10 7/10, home 4/6, rest 1 day 6/8, opp defence middle 3/4, with Trae Young 8/14, with Anthony Davis 7/12, with Kyshawn George 8/14"
+   "text": "[research] AJ Dybantsa over 6.5 reb (vs BOS): p=0.567 (raw 0.578) vs DraftKings implied 0.552 EV +0.026 @ DraftKings | career 8/14, season 8/14, last5 4/5, last10 7/10, home 4/6, rest 1 day 6/8, opp defence middle 3/4, with Trae Young 8/14, with Anthony Davis 7/12, with Kyshawn George 8/14"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.173,
+   "ev": -0.1953,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.5376,
+   "implied": 0.5525,
    "k": 40.0,
    "line": 6.5,
    "opp": "BOS",
@@ -16646,7 +17002,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] AJ Dybantsa under 6.5 reb (vs BOS): p=0.445 (raw 0.422) vs DraftKings implied 0.538 EV -0.173 @ DraftKings | career 6/14, season 6/14, last5 1/5, last10 3/10, home 2/6, rest 1 day 2/8, opp defence middle 1/4, with Trae Young 6/14, with Anthony Davis 5/12, with Kyshawn George 6/14"
+   "text": "[research] AJ Dybantsa under 6.5 reb (vs BOS): p=0.445 (raw 0.422) vs DraftKings implied 0.552 EV -0.195 @ DraftKings | career 6/14, season 6/14, last5 1/5, last10 3/10, home 2/6, rest 1 day 2/8, opp defence middle 1/4, with Trae Young 6/14, with Anthony Davis 5/12, with Kyshawn George 6/14"
   },
   {
    "book": "DraftKings",
@@ -16841,17 +17197,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.233,
+   "ev": 0.2604,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.5556,
+   "implied": 0.5435,
    "k": 40.0,
    "line": 9.5,
    "opp": "BOS",
    "player": "Alex Sarr",
    "player_id": "5160992",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.685,
    "prob_raw": 0.723,
    "side": "over",
@@ -16931,22 +17287,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Alex Sarr over 9.5 pts (vs BOS): p=0.685 (raw 0.723) vs DraftKings implied 0.556 EV +0.233 @ DraftKings | career 99/132, season 10/17, last5 3/5, last10 6/10, vs BOS 3/6, home 49/63, month 11 past seasons 18/25, rest 1 day 64/78, opp defence tough 34/46, with Trae Young 11/20, with Anthony Davis 8/15, with Kyshawn George 79/105"
+   "text": "[research] Alex Sarr over 9.5 pts (vs BOS): p=0.685 (raw 0.723) vs DraftKings implied 0.543 EV +0.260 @ DraftKings | career 99/132, season 10/17, last5 3/5, last10 6/10, vs BOS 3/6, home 49/63, month 11 past seasons 18/25, rest 1 day 64/78, opp defence tough 34/46, with Trae Young 11/20, with Anthony Davis 8/15, with Kyshawn George 79/105"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.4146,
+   "ev": -0.4016,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.5556,
+   "implied": 0.5435,
    "k": 40.0,
    "line": 9.5,
    "opp": "BOS",
    "player": "Alex Sarr",
    "player_id": "5160992",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.3252,
    "prob_raw": 0.277,
    "side": "under",
@@ -17026,16 +17382,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Alex Sarr under 9.5 pts (vs BOS): p=0.325 (raw 0.277) vs DraftKings implied 0.556 EV -0.415 @ DraftKings | career 33/132, season 7/17, last5 2/5, last10 4/10, vs BOS 3/6, home 14/63, month 11 past seasons 7/25, rest 1 day 14/78, opp defence tough 12/46, with Trae Young 9/20, with Anthony Davis 7/15, with Kyshawn George 26/105"
+   "text": "[research] Alex Sarr under 9.5 pts (vs BOS): p=0.325 (raw 0.277) vs DraftKings implied 0.543 EV -0.402 @ DraftKings | career 33/132, season 7/17, last5 2/5, last10 4/10, vs BOS 3/6, home 14/63, month 11 past seasons 7/25, rest 1 day 14/78, opp defence tough 12/46, with Trae Young 9/20, with Anthony Davis 7/15, with Kyshawn George 26/105"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.108,
+   "ev": -0.1132,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.5814,
+   "implied": 0.5848,
    "k": 40.0,
    "line": 6.5,
    "opp": "BOS",
@@ -17121,16 +17477,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Alex Sarr over 6.5 reb (vs BOS): p=0.519 (raw 0.516) vs DraftKings implied 0.581 EV -0.108 @ DraftKings | career 65/132, season 10/17, last5 2/5, last10 7/10, vs BOS 2/6, home 28/63, month 11 past seasons 13/25, rest 1 day 37/78, opp defence middle 26/40, with Trae Young 10/20, with Anthony Davis 8/15, with Kyshawn George 54/105"
+   "text": "[research] Alex Sarr over 6.5 reb (vs BOS): p=0.519 (raw 0.516) vs DraftKings implied 0.585 EV -0.113 @ DraftKings | career 65/132, season 10/17, last5 2/5, last10 7/10, vs BOS 2/6, home 28/63, month 11 past seasons 13/25, rest 1 day 37/78, opp defence middle 26/40, with Trae Young 10/20, with Anthony Davis 8/15, with Kyshawn George 54/105"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1518,
+   "ev": -0.1567,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.5814,
+   "implied": 0.5848,
    "k": 40.0,
    "line": 6.5,
    "opp": "BOS",
@@ -17216,7 +17572,7 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Alex Sarr under 6.5 reb (vs BOS): p=0.493 (raw 0.484) vs DraftKings implied 0.581 EV -0.152 @ DraftKings | career 67/132, season 7/17, last5 3/5, last10 3/10, vs BOS 4/6, home 35/63, month 11 past seasons 12/25, rest 1 day 41/78, opp defence middle 14/40, with Trae Young 10/20, with Anthony Davis 7/15, with Kyshawn George 51/105"
+   "text": "[research] Alex Sarr under 6.5 reb (vs BOS): p=0.493 (raw 0.484) vs DraftKings implied 0.585 EV -0.157 @ DraftKings | career 67/132, season 7/17, last5 3/5, last10 3/10, vs BOS 4/6, home 35/63, month 11 past seasons 12/25, rest 1 day 41/78, opp defence middle 14/40, with Trae Young 10/20, with Anthony Davis 7/15, with Kyshawn George 51/105"
   },
   {
    "book": "DraftKings",
@@ -17411,17 +17767,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.4119,
+   "ev": -0.4155,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.625,
+   "implied": 0.6289,
    "k": 40.0,
    "line": 4.5,
    "opp": "BOS",
    "player": "Kyshawn George",
    "player_id": "5174563",
-   "price_observed_at": "2026-11-24T14:31:26Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.3676,
    "prob_raw": 0.3272,
    "side": "over",
@@ -17501,22 +17857,22 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Kyshawn George over 4.5 ast (vs BOS): p=0.368 (raw 0.327) vs DraftKings implied 0.625 EV -0.412 @ DraftKings | career 41/134, season 8/18, last5 1/5, last10 4/10, vs BOS 0/4, home 17/63, month 11 past seasons 8/25, rest 1 day 22/78, opp defence tough 10/43, with Trae Young 8/18, with Anthony Davis 6/16, with AJ Dybantsa 7/14"
+   "text": "[research] Kyshawn George over 4.5 ast (vs BOS): p=0.368 (raw 0.327) vs DraftKings implied 0.629 EV -0.415 @ DraftKings | career 41/134, season 8/18, last5 1/5, last10 4/10, vs BOS 0/4, home 17/63, month 11 past seasons 8/25, rest 1 day 22/78, opp defence tough 10/43, with Trae Young 8/18, with Anthony Davis 6/16, with AJ Dybantsa 7/14"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.0292,
+   "ev": 0.0228,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.625,
+   "implied": 0.6289,
    "k": 40.0,
    "line": 4.5,
    "opp": "BOS",
    "player": "Kyshawn George",
    "player_id": "5174563",
-   "price_observed_at": "2026-11-24T14:31:26Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.6433,
    "prob_raw": 0.6728,
    "side": "under",
@@ -17596,7 +17952,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Kyshawn George under 4.5 ast (vs BOS): p=0.643 (raw 0.673) vs DraftKings implied 0.625 EV +0.029 @ DraftKings | career 93/134, season 10/18, last5 4/5, last10 6/10, vs BOS 4/4, home 46/63, month 11 past seasons 17/25, rest 1 day 56/78, opp defence tough 33/43, with Trae Young 10/18, with Anthony Davis 10/16, with AJ Dybantsa 7/14"
+   "text": "[research] Kyshawn George under 4.5 ast (vs BOS): p=0.643 (raw 0.673) vs DraftKings implied 0.629 EV +0.023 @ DraftKings | career 93/134, season 10/18, last5 4/5, last10 6/10, vs BOS 4/4, home 46/63, month 11 past seasons 17/25, rest 1 day 56/78, opp defence tough 33/43, with Trae Young 10/18, with Anthony Davis 10/16, with AJ Dybantsa 7/14"
   },
   {
    "book": "DraftKings",
@@ -17787,6 +18143,196 @@
    "stat": "fg3m",
    "status": "research",
    "text": "[research] Kyshawn George under 2.5 fg3m (vs BOS): p=0.618 (raw 0.641) vs DraftKings implied 0.614 EV +0.007 @ DraftKings | career 91/134, season 10/18, last5 3/5, last10 5/10, vs BOS 3/4, home 41/63, month 11 past seasons 19/25, rest 1 day 50/78, opp defence middle 34/49, with Trae Young 10/18, with Anthony Davis 9/16, with AJ Dybantsa 6/14"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-24",
+   "ev": -0.2248,
+   "fair": null,
+   "game_id": "401909315",
+   "home": true,
+   "implied": 0.5376,
+   "k": 40.0,
+   "line": 14.5,
+   "opp": "BOS",
+   "player": "Kyshawn George",
+   "player_id": "5174563",
+   "price_observed_at": "2026-11-24T16:33:45Z",
+   "prob": 0.4168,
+   "prob_raw": 0.3875,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 45,
+     "n": 134,
+     "rate": 0.336,
+     "split": "career"
+    },
+    {
+     "hits": 10,
+     "n": 18,
+     "rate": 0.556,
+     "split": "season"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "last5"
+    },
+    {
+     "hits": 5,
+     "n": 10,
+     "rate": 0.5,
+     "split": "last10"
+    },
+    {
+     "hits": 1,
+     "n": 4,
+     "rate": 0.25,
+     "split": "vs BOS"
+    },
+    {
+     "hits": 22,
+     "n": 63,
+     "rate": 0.349,
+     "split": "home"
+    },
+    {
+     "hits": 10,
+     "n": 25,
+     "rate": 0.4,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 25,
+     "n": 78,
+     "rate": 0.321,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 12,
+     "n": 45,
+     "rate": 0.267,
+     "split": "opp defence tough"
+    },
+    {
+     "hits": 10,
+     "n": 18,
+     "rate": 0.556,
+     "split": "with Trae Young"
+    },
+    {
+     "hits": 9,
+     "n": 16,
+     "rate": 0.562,
+     "split": "with Anthony Davis"
+    },
+    {
+     "hits": 7,
+     "n": 14,
+     "rate": 0.5,
+     "split": "with AJ Dybantsa"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Kyshawn George over 14.5 pts (vs BOS): p=0.417 (raw 0.388) vs DraftKings implied 0.538 EV -0.225 @ DraftKings | career 45/134, season 10/18, last5 3/5, last10 5/10, vs BOS 1/4, home 22/63, month 11 past seasons 10/25, rest 1 day 25/78, opp defence tough 12/45, with Trae Young 10/18, with Anthony Davis 9/16, with AJ Dybantsa 7/14"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-24",
+   "ev": 0.1059,
+   "fair": null,
+   "game_id": "401909315",
+   "home": true,
+   "implied": 0.5376,
+   "k": 40.0,
+   "line": 14.5,
+   "opp": "BOS",
+   "player": "Kyshawn George",
+   "player_id": "5174563",
+   "price_observed_at": "2026-11-24T16:33:45Z",
+   "prob": 0.5946,
+   "prob_raw": 0.6125,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 89,
+     "n": 134,
+     "rate": 0.664,
+     "split": "career"
+    },
+    {
+     "hits": 8,
+     "n": 18,
+     "rate": 0.444,
+     "split": "season"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "last5"
+    },
+    {
+     "hits": 5,
+     "n": 10,
+     "rate": 0.5,
+     "split": "last10"
+    },
+    {
+     "hits": 3,
+     "n": 4,
+     "rate": 0.75,
+     "split": "vs BOS"
+    },
+    {
+     "hits": 41,
+     "n": 63,
+     "rate": 0.651,
+     "split": "home"
+    },
+    {
+     "hits": 15,
+     "n": 25,
+     "rate": 0.6,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 53,
+     "n": 78,
+     "rate": 0.679,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 33,
+     "n": 45,
+     "rate": 0.733,
+     "split": "opp defence tough"
+    },
+    {
+     "hits": 8,
+     "n": 18,
+     "rate": 0.444,
+     "split": "with Trae Young"
+    },
+    {
+     "hits": 7,
+     "n": 16,
+     "rate": 0.438,
+     "split": "with Anthony Davis"
+    },
+    {
+     "hits": 7,
+     "n": 14,
+     "rate": 0.5,
+     "split": "with AJ Dybantsa"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Kyshawn George under 14.5 pts (vs BOS): p=0.595 (raw 0.613) vs DraftKings implied 0.538 EV +0.106 @ DraftKings | career 89/134, season 8/18, last5 2/5, last10 5/10, vs BOS 3/4, home 41/63, month 11 past seasons 15/25, rest 1 day 53/78, opp defence tough 33/45, with Trae Young 8/18, with Anthony Davis 7/16, with AJ Dybantsa 7/14"
   },
   {
    "book": "DraftKings",
@@ -18551,17 +19097,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.103,
+   "ev": 0.0888,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.6452,
+   "implied": 0.6536,
    "k": 40.0,
    "line": 1.5,
    "opp": "BOS",
    "player": "Anthony Davis",
    "player_id": "6583",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.7116,
    "prob_raw": 0.7541,
    "side": "over",
@@ -18641,22 +19187,22 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Anthony Davis over 1.5 ast (vs BOS): p=0.712 (raw 0.754) vs DraftKings implied 0.645 EV +0.103 @ DraftKings | career 191/245, season 8/16, last5 3/5, last10 5/10, vs BOS 4/4, home 107/129, month 11 past seasons 38/42, rest 1 day 108/139, opp defence tough 64/74, with Trae Young 8/16, with Kyshawn George 8/16, with AJ Dybantsa 6/12"
+   "text": "[research] Anthony Davis over 1.5 ast (vs BOS): p=0.712 (raw 0.754) vs DraftKings implied 0.654 EV +0.089 @ DraftKings | career 191/245, season 8/16, last5 3/5, last10 5/10, vs BOS 4/4, home 107/129, month 11 past seasons 38/42, rest 1 day 108/139, opp defence tough 64/74, with Trae Young 8/16, with Kyshawn George 8/16, with AJ Dybantsa 6/12"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.538,
+   "ev": -0.5439,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.6452,
+   "implied": 0.6536,
    "k": 40.0,
    "line": 1.5,
    "opp": "BOS",
    "player": "Anthony Davis",
    "player_id": "6583",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.2981,
    "prob_raw": 0.2459,
    "side": "under",
@@ -18736,22 +19282,22 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Anthony Davis under 1.5 ast (vs BOS): p=0.298 (raw 0.246) vs DraftKings implied 0.645 EV -0.538 @ DraftKings | career 54/245, season 8/16, last5 2/5, last10 5/10, vs BOS 0/4, home 22/129, month 11 past seasons 4/42, rest 1 day 31/139, opp defence tough 10/74, with Trae Young 8/16, with Kyshawn George 8/16, with AJ Dybantsa 6/12"
+   "text": "[research] Anthony Davis under 1.5 ast (vs BOS): p=0.298 (raw 0.246) vs DraftKings implied 0.654 EV -0.544 @ DraftKings | career 54/245, season 8/16, last5 2/5, last10 5/10, vs BOS 0/4, home 22/129, month 11 past seasons 4/42, rest 1 day 31/139, opp defence tough 10/74, with Trae Young 8/16, with Kyshawn George 8/16, with AJ Dybantsa 6/12"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.1642,
+   "ev": 0.1833,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.5464,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 21.5,
    "opp": "BOS",
    "player": "Anthony Davis",
    "player_id": "6583",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:15:00Z",
    "prob": 0.6362,
    "prob_raw": 0.6641,
    "side": "over",
@@ -18831,22 +19377,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Anthony Davis over 21.5 pts (vs BOS): p=0.636 (raw 0.664) vs DraftKings implied 0.546 EV +0.164 @ DraftKings | career 161/245, season 11/16, last5 4/5, last10 8/10, vs BOS 3/4, home 88/129, month 11 past seasons 27/42, rest 1 day 91/139, opp defence tough 48/77, with Trae Young 11/16, with Kyshawn George 11/16, with AJ Dybantsa 9/12"
+   "text": "[research] Anthony Davis over 21.5 pts (vs BOS): p=0.636 (raw 0.664) vs DraftKings implied 0.538 EV +0.183 @ DraftKings | career 161/245, season 11/16, last5 4/5, last10 8/10, vs BOS 3/4, home 88/129, month 11 past seasons 27/42, rest 1 day 91/139, opp defence tough 48/77, with Trae Young 11/16, with Kyshawn George 11/16, with AJ Dybantsa 9/12"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.3141,
+   "ev": -0.3029,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.5464,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 21.5,
    "opp": "BOS",
    "player": "Anthony Davis",
    "player_id": "6583",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:15:00Z",
    "prob": 0.3748,
    "prob_raw": 0.3359,
    "side": "under",
@@ -18926,7 +19472,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Anthony Davis under 21.5 pts (vs BOS): p=0.375 (raw 0.336) vs DraftKings implied 0.546 EV -0.314 @ DraftKings | career 84/245, season 5/16, last5 1/5, last10 2/10, vs BOS 1/4, home 41/129, month 11 past seasons 15/42, rest 1 day 48/139, opp defence tough 29/77, with Trae Young 5/16, with Kyshawn George 5/16, with AJ Dybantsa 3/12"
+   "text": "[research] Anthony Davis under 21.5 pts (vs BOS): p=0.375 (raw 0.336) vs DraftKings implied 0.538 EV -0.303 @ DraftKings | career 84/245, season 5/16, last5 1/5, last10 2/10, vs BOS 1/4, home 41/129, month 11 past seasons 15/42, rest 1 day 48/139, opp defence tough 29/77, with Trae Young 5/16, with Kyshawn George 5/16, with AJ Dybantsa 3/12"
   },
   {
    "book": "DraftKings",
@@ -18941,7 +19487,7 @@
    "opp": "BOS",
    "player": "Anthony Davis",
    "player_id": "6583",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.6855,
    "prob_raw": 0.7236,
    "side": "over",
@@ -19036,7 +19582,7 @@
    "opp": "BOS",
    "player": "Anthony Davis",
    "player_id": "6583",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.3247,
    "prob_raw": 0.2764,
    "side": "under",
@@ -19121,132 +19667,37 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.2248,
+   "ev": 0.3806,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.5376,
+   "implied": 0.5618,
    "k": 40.0,
    "line": 14.5,
    "opp": "BOS",
-   "player": "Kyshawn George",
-   "player_id": "5174563",
-   "price_observed_at": "2026-11-24T16:03:10Z",
-   "prob": 0.4168,
-   "prob_raw": 0.3875,
+   "player": "Trae Young",
+   "player_id": "4277905",
+   "price_observed_at": "2026-11-24T16:33:45Z",
+   "prob": 0.7756,
+   "prob_raw": 0.8249,
    "side": "over",
    "splits": [
     {
-     "hits": 45,
-     "n": 134,
-     "rate": 0.336,
+     "hits": 212,
+     "n": 246,
+     "rate": 0.862,
      "split": "career"
-    },
-    {
-     "hits": 10,
-     "n": 18,
-     "rate": 0.556,
-     "split": "season"
-    },
-    {
-     "hits": 3,
-     "n": 5,
-     "rate": 0.6,
-     "split": "last5"
-    },
-    {
-     "hits": 5,
-     "n": 10,
-     "rate": 0.5,
-     "split": "last10"
-    },
-    {
-     "hits": 1,
-     "n": 4,
-     "rate": 0.25,
-     "split": "vs BOS"
-    },
-    {
-     "hits": 22,
-     "n": 63,
-     "rate": 0.349,
-     "split": "home"
-    },
-    {
-     "hits": 10,
-     "n": 25,
-     "rate": 0.4,
-     "split": "month 11 past seasons"
-    },
-    {
-     "hits": 25,
-     "n": 78,
-     "rate": 0.321,
-     "split": "rest 1 day"
     },
     {
      "hits": 12,
-     "n": 45,
-     "rate": 0.267,
-     "split": "opp defence tough"
-    },
-    {
-     "hits": 10,
      "n": 18,
-     "rate": 0.556,
-     "split": "with Trae Young"
-    },
-    {
-     "hits": 9,
-     "n": 16,
-     "rate": 0.562,
-     "split": "with Anthony Davis"
-    },
-    {
-     "hits": 7,
-     "n": 14,
-     "rate": 0.5,
-     "split": "with AJ Dybantsa"
-    }
-   ],
-   "stat": "pts",
-   "status": "research",
-   "text": "[research] Kyshawn George over 14.5 pts (vs BOS): p=0.417 (raw 0.388) vs DraftKings implied 0.538 EV -0.225 @ DraftKings | career 45/134, season 10/18, last5 3/5, last10 5/10, vs BOS 1/4, home 22/63, month 11 past seasons 10/25, rest 1 day 25/78, opp defence tough 12/45, with Trae Young 10/18, with Anthony Davis 9/16, with AJ Dybantsa 7/14"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-11-24",
-   "ev": 0.1059,
-   "fair": null,
-   "game_id": "401909315",
-   "home": true,
-   "implied": 0.5376,
-   "k": 40.0,
-   "line": 14.5,
-   "opp": "BOS",
-   "player": "Kyshawn George",
-   "player_id": "5174563",
-   "price_observed_at": "2026-11-24T16:03:10Z",
-   "prob": 0.5946,
-   "prob_raw": 0.6125,
-   "side": "under",
-   "splits": [
-    {
-     "hits": 89,
-     "n": 134,
-     "rate": 0.664,
-     "split": "career"
-    },
-    {
-     "hits": 8,
-     "n": 18,
-     "rate": 0.444,
+     "rate": 0.667,
      "split": "season"
     },
     {
-     "hits": 2,
+     "hits": 1,
      "n": 5,
-     "rate": 0.4,
+     "rate": 0.2,
      "split": "last5"
     },
     {
@@ -19256,86 +19707,181 @@
      "split": "last10"
     },
     {
-     "hits": 3,
-     "n": 4,
-     "rate": 0.75,
+     "hits": 11,
+     "n": 13,
+     "rate": 0.846,
      "split": "vs BOS"
     },
     {
-     "hits": 41,
-     "n": 63,
-     "rate": 0.651,
+     "hits": 108,
+     "n": 124,
+     "rate": 0.871,
      "split": "home"
     },
     {
-     "hits": 15,
-     "n": 25,
-     "rate": 0.6,
+     "hits": 36,
+     "n": 42,
+     "rate": 0.857,
      "split": "month 11 past seasons"
     },
     {
-     "hits": 53,
-     "n": 78,
-     "rate": 0.679,
+     "hits": 117,
+     "n": 133,
+     "rate": 0.88,
      "split": "rest 1 day"
     },
     {
-     "hits": 33,
-     "n": 45,
-     "rate": 0.733,
+     "hits": 75,
+     "n": 85,
+     "rate": 0.882,
      "split": "opp defence tough"
     },
     {
-     "hits": 8,
-     "n": 18,
-     "rate": 0.444,
-     "split": "with Trae Young"
-    },
-    {
-     "hits": 7,
+     "hits": 11,
      "n": 16,
-     "rate": 0.438,
+     "rate": 0.688,
      "split": "with Anthony Davis"
     },
     {
-     "hits": 7,
+     "hits": 12,
+     "n": 18,
+     "rate": 0.667,
+     "split": "with Kyshawn George"
+    },
+    {
+     "hits": 8,
      "n": 14,
-     "rate": 0.5,
+     "rate": 0.571,
      "split": "with AJ Dybantsa"
     }
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Kyshawn George under 14.5 pts (vs BOS): p=0.595 (raw 0.613) vs DraftKings implied 0.538 EV +0.106 @ DraftKings | career 89/134, season 8/18, last5 2/5, last10 5/10, vs BOS 3/4, home 41/63, month 11 past seasons 15/25, rest 1 day 53/78, opp defence tough 33/45, with Trae Young 8/18, with Anthony Davis 7/16, with AJ Dybantsa 7/14"
+   "text": "[research] Trae Young over 14.5 pts (vs BOS): p=0.776 (raw 0.825) vs DraftKings implied 0.562 EV +0.381 @ DraftKings | career 212/246, season 12/18, last5 1/5, last10 5/10, vs BOS 11/13, home 108/124, month 11 past seasons 36/42, rest 1 day 117/133, opp defence tough 75/85, with Anthony Davis 11/16, with Kyshawn George 12/18, with AJ Dybantsa 8/14"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1814,
+   "ev": -0.5858,
    "fair": null,
    "game_id": "401909315",
    "home": true,
-   "implied": 0.6211,
+   "implied": 0.5618,
    "k": 40.0,
-   "line": 2.5,
+   "line": 14.5,
    "opp": "BOS",
-   "player": "AJ Dybantsa",
-   "player_id": "5142718",
-   "price_observed_at": "2026-11-24T16:03:10Z",
-   "prob": 0.5085,
-   "prob_raw": 0.5033,
-   "side": "over",
+   "player": "Trae Young",
+   "player_id": "4277905",
+   "price_observed_at": "2026-11-24T16:33:45Z",
+   "prob": 0.2327,
+   "prob_raw": 0.1751,
+   "side": "under",
    "splits": [
     {
-     "hits": 7,
-     "n": 14,
-     "rate": 0.5,
+     "hits": 34,
+     "n": 246,
+     "rate": 0.138,
      "split": "career"
     },
     {
-     "hits": 7,
-     "n": 14,
+     "hits": 6,
+     "n": 18,
+     "rate": 0.333,
+     "split": "season"
+    },
+    {
+     "hits": 4,
+     "n": 5,
+     "rate": 0.8,
+     "split": "last5"
+    },
+    {
+     "hits": 5,
+     "n": 10,
      "rate": 0.5,
+     "split": "last10"
+    },
+    {
+     "hits": 2,
+     "n": 13,
+     "rate": 0.154,
+     "split": "vs BOS"
+    },
+    {
+     "hits": 16,
+     "n": 124,
+     "rate": 0.129,
+     "split": "home"
+    },
+    {
+     "hits": 6,
+     "n": 42,
+     "rate": 0.143,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 16,
+     "n": 133,
+     "rate": 0.12,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 10,
+     "n": 85,
+     "rate": 0.118,
+     "split": "opp defence tough"
+    },
+    {
+     "hits": 5,
+     "n": 16,
+     "rate": 0.312,
+     "split": "with Anthony Davis"
+    },
+    {
+     "hits": 6,
+     "n": 18,
+     "rate": 0.333,
+     "split": "with Kyshawn George"
+    },
+    {
+     "hits": 6,
+     "n": 14,
+     "rate": 0.429,
+     "split": "with AJ Dybantsa"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Trae Young under 14.5 pts (vs BOS): p=0.233 (raw 0.175) vs DraftKings implied 0.562 EV -0.586 @ DraftKings | career 34/246, season 6/18, last5 4/5, last10 5/10, vs BOS 2/13, home 16/124, month 11 past seasons 6/42, rest 1 day 16/133, opp defence tough 10/85, with Anthony Davis 5/16, with Kyshawn George 6/18, with AJ Dybantsa 6/14"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-24",
+   "ev": 0.0614,
+   "fair": null,
+   "game_id": "401909316",
+   "home": true,
+   "implied": 0.6623,
+   "k": 40.0,
+   "line": 1.5,
+   "opp": "DAL",
+   "player": "Aaron Gordon",
+   "player_id": "3064290",
+   "price_observed_at": "2026-11-24T16:33:45Z",
+   "prob": 0.7029,
+   "prob_raw": 0.744,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 222,
+     "n": 292,
+     "rate": 0.76,
+     "split": "career"
+    },
+    {
+     "hits": 10,
+     "n": 15,
+     "rate": 0.667,
      "split": "season"
     },
     {
@@ -19351,74 +19897,86 @@
      "split": "last10"
     },
     {
-     "hits": 4,
-     "n": 6,
-     "rate": 0.667,
+     "hits": 6,
+     "n": 7,
+     "rate": 0.857,
+     "split": "vs DAL"
+    },
+    {
+     "hits": 108,
+     "n": 146,
+     "rate": 0.74,
      "split": "home"
     },
     {
-     "hits": 4,
-     "n": 8,
-     "rate": 0.5,
+     "hits": 23,
+     "n": 34,
+     "rate": 0.676,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 130,
+     "n": 168,
+     "rate": 0.774,
      "split": "rest 1 day"
     },
     {
-     "hits": 3,
-     "n": 5,
-     "rate": 0.6,
-     "split": "opp defence tough"
+     "hits": 64,
+     "n": 85,
+     "rate": 0.753,
+     "split": "opp defence middle"
     },
     {
-     "hits": 7,
-     "n": 14,
-     "rate": 0.5,
-     "split": "with Trae Young"
+     "hits": 202,
+     "n": 269,
+     "rate": 0.751,
+     "split": "with Nikola Jokic"
     },
     {
-     "hits": 5,
-     "n": 12,
-     "rate": 0.417,
-     "split": "with Anthony Davis"
+     "hits": 184,
+     "n": 250,
+     "rate": 0.736,
+     "split": "with Jamal Murray"
     },
     {
-     "hits": 7,
-     "n": 14,
-     "rate": 0.5,
-     "split": "with Kyshawn George"
+     "hits": 207,
+     "n": 272,
+     "rate": 0.761,
+     "split": "with Christian Braun"
     }
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] AJ Dybantsa over 2.5 ast (vs BOS): p=0.508 (raw 0.503) vs DraftKings implied 0.621 EV -0.181 @ DraftKings | career 7/14, season 7/14, last5 3/5, last10 6/10, home 4/6, rest 1 day 4/8, opp defence tough 3/5, with Trae Young 7/14, with Anthony Davis 5/12, with Kyshawn George 7/14"
+   "text": "[research] Aaron Gordon over 1.5 ast (vs DAL): p=0.703 (raw 0.744) vs DraftKings implied 0.662 EV +0.061 @ DraftKings | career 222/292, season 10/15, last5 3/5, last10 6/10, vs DAL 6/7, home 108/146, month 11 past seasons 23/34, rest 1 day 130/168, opp defence middle 64/85, with Nikola Jokic 202/269, with Jamal Murray 184/250, with Christian Braun 207/272"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1897,
+   "ev": -0.5364,
    "fair": null,
-   "game_id": "401909315",
+   "game_id": "401909316",
    "home": true,
-   "implied": 0.6211,
+   "implied": 0.6623,
    "k": 40.0,
-   "line": 2.5,
-   "opp": "BOS",
-   "player": "AJ Dybantsa",
-   "player_id": "5142718",
-   "price_observed_at": "2026-11-24T16:03:10Z",
-   "prob": 0.5033,
-   "prob_raw": 0.4967,
+   "line": 1.5,
+   "opp": "DAL",
+   "player": "Aaron Gordon",
+   "player_id": "3064290",
+   "price_observed_at": "2026-11-24T16:33:45Z",
+   "prob": 0.307,
+   "prob_raw": 0.256,
    "side": "under",
    "splits": [
     {
-     "hits": 7,
-     "n": 14,
-     "rate": 0.5,
+     "hits": 70,
+     "n": 292,
+     "rate": 0.24,
      "split": "career"
     },
     {
-     "hits": 7,
-     "n": 14,
-     "rate": 0.5,
+     "hits": 5,
+     "n": 15,
+     "rate": 0.333,
      "split": "season"
     },
     {
@@ -19434,45 +19992,57 @@
      "split": "last10"
     },
     {
-     "hits": 2,
-     "n": 6,
-     "rate": 0.333,
+     "hits": 1,
+     "n": 7,
+     "rate": 0.143,
+     "split": "vs DAL"
+    },
+    {
+     "hits": 38,
+     "n": 146,
+     "rate": 0.26,
      "split": "home"
     },
     {
-     "hits": 4,
-     "n": 8,
-     "rate": 0.5,
+     "hits": 11,
+     "n": 34,
+     "rate": 0.324,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 38,
+     "n": 168,
+     "rate": 0.226,
      "split": "rest 1 day"
     },
     {
-     "hits": 2,
-     "n": 5,
-     "rate": 0.4,
-     "split": "opp defence tough"
+     "hits": 21,
+     "n": 85,
+     "rate": 0.247,
+     "split": "opp defence middle"
     },
     {
-     "hits": 7,
-     "n": 14,
-     "rate": 0.5,
-     "split": "with Trae Young"
+     "hits": 67,
+     "n": 269,
+     "rate": 0.249,
+     "split": "with Nikola Jokic"
     },
     {
-     "hits": 7,
-     "n": 12,
-     "rate": 0.583,
-     "split": "with Anthony Davis"
+     "hits": 66,
+     "n": 250,
+     "rate": 0.264,
+     "split": "with Jamal Murray"
     },
     {
-     "hits": 7,
-     "n": 14,
-     "rate": 0.5,
-     "split": "with Kyshawn George"
+     "hits": 65,
+     "n": 272,
+     "rate": 0.239,
+     "split": "with Christian Braun"
     }
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] AJ Dybantsa under 2.5 ast (vs BOS): p=0.503 (raw 0.497) vs DraftKings implied 0.621 EV -0.190 @ DraftKings | career 7/14, season 7/14, last5 2/5, last10 4/10, home 2/6, rest 1 day 4/8, opp defence tough 2/5, with Trae Young 7/14, with Anthony Davis 7/12, with Kyshawn George 7/14"
+   "text": "[research] Aaron Gordon under 1.5 ast (vs DAL): p=0.307 (raw 0.256) vs DraftKings implied 0.662 EV -0.536 @ DraftKings | career 70/292, season 5/15, last5 2/5, last10 4/10, vs DAL 1/7, home 38/146, month 11 past seasons 11/34, rest 1 day 38/168, opp defence middle 21/85, with Nikola Jokic 67/269, with Jamal Murray 66/250, with Christian Braun 65/272"
   },
   {
    "book": "DraftKings",
@@ -19677,7 +20247,7 @@
    "opp": "DAL",
    "player": "Aaron Gordon",
    "player_id": "3064290",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.3044,
    "prob_raw": 0.253,
    "side": "over",
@@ -19772,7 +20342,7 @@
    "opp": "DAL",
    "player": "Aaron Gordon",
    "player_id": "3064290",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.7055,
    "prob_raw": 0.747,
    "side": "under",
@@ -19867,7 +20437,7 @@
    "opp": "DAL",
    "player": "Aaron Gordon",
    "player_id": "3064290",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5374,
    "prob_raw": 0.5401,
    "side": "over",
@@ -19962,7 +20532,7 @@
    "opp": "DAL",
    "player": "Aaron Gordon",
    "player_id": "3064290",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4744,
    "prob_raw": 0.4599,
    "side": "under",
@@ -20047,17 +20617,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.0533,
+   "ev": -0.0641,
    "fair": null,
    "game_id": "401909316",
    "home": true,
-   "implied": 0.5682,
+   "implied": 0.5747,
    "k": 40.0,
    "line": 5.5,
    "opp": "DAL",
    "player": "Aaron Gordon",
    "player_id": "3064290",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5379,
    "prob_raw": 0.5408,
    "side": "over",
@@ -20137,22 +20707,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Aaron Gordon over 5.5 reb (vs DAL): p=0.538 (raw 0.541) vs DraftKings implied 0.568 EV -0.053 @ DraftKings | career 163/292, season 5/15, last5 2/5, last10 3/10, vs DAL 5/7, home 84/146, month 11 past seasons 23/34, rest 1 day 88/168, opp defence middle 58/96, with Nikola Jokic 146/269, with Jamal Murray 134/250, with Christian Braun 149/272"
+   "text": "[research] Aaron Gordon over 5.5 reb (vs DAL): p=0.538 (raw 0.541) vs DraftKings implied 0.575 EV -0.064 @ DraftKings | career 163/292, season 5/15, last5 2/5, last10 3/10, vs DAL 5/7, home 84/146, month 11 past seasons 23/34, rest 1 day 88/168, opp defence middle 58/96, with Nikola Jokic 146/269, with Jamal Murray 134/250, with Christian Braun 149/272"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1661,
+   "ev": -0.1756,
    "fair": null,
    "game_id": "401909316",
    "home": true,
-   "implied": 0.5682,
+   "implied": 0.5747,
    "k": 40.0,
    "line": 5.5,
    "opp": "DAL",
    "player": "Aaron Gordon",
    "player_id": "3064290",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4738,
    "prob_raw": 0.4592,
    "side": "under",
@@ -20232,22 +20802,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Aaron Gordon under 5.5 reb (vs DAL): p=0.474 (raw 0.459) vs DraftKings implied 0.568 EV -0.166 @ DraftKings | career 129/292, season 10/15, last5 3/5, last10 7/10, vs DAL 2/7, home 62/146, month 11 past seasons 11/34, rest 1 day 80/168, opp defence middle 38/96, with Nikola Jokic 123/269, with Jamal Murray 116/250, with Christian Braun 123/272"
+   "text": "[research] Aaron Gordon under 5.5 reb (vs DAL): p=0.474 (raw 0.459) vs DraftKings implied 0.575 EV -0.176 @ DraftKings | career 129/292, season 10/15, last5 3/5, last10 7/10, vs DAL 2/7, home 62/146, month 11 past seasons 11/34, rest 1 day 80/168, opp defence middle 38/96, with Nikola Jokic 123/269, with Jamal Murray 116/250, with Christian Braun 123/272"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.0827,
+   "ev": -0.1037,
    "fair": null,
    "game_id": "401909316",
    "home": true,
-   "implied": 0.5714,
+   "implied": 0.5848,
    "k": 40.0,
    "line": 9.5,
    "opp": "DAL",
    "player": "Nikola Jokic",
    "player_id": "3112335",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5242,
    "prob_raw": 0.5233,
    "side": "over",
@@ -20327,22 +20897,22 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Nikola Jokic over 9.5 ast (vs DAL): p=0.524 (raw 0.523) vs DraftKings implied 0.571 EV -0.083 @ DraftKings | career 179/349, season 8/15, last5 3/5, last10 4/10, vs DAL 7/12, home 105/180, month 11 past seasons 26/49, rest 1 day 105/206, opp defence middle 55/99, with Jamal Murray 156/304, with Christian Braun 160/317, with Aaron Gordon 134/269"
+   "text": "[research] Nikola Jokic over 9.5 ast (vs DAL): p=0.524 (raw 0.523) vs DraftKings implied 0.585 EV -0.104 @ DraftKings | career 179/349, season 8/15, last5 3/5, last10 4/10, vs DAL 7/12, home 105/180, month 11 past seasons 26/49, rest 1 day 105/206, opp defence middle 55/99, with Jamal Murray 156/304, with Christian Braun 160/317, with Aaron Gordon 134/269"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1467,
+   "ev": -0.1662,
    "fair": null,
    "game_id": "401909316",
    "home": true,
-   "implied": 0.5714,
+   "implied": 0.5848,
    "k": 40.0,
    "line": 9.5,
    "opp": "DAL",
    "player": "Nikola Jokic",
    "player_id": "3112335",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4876,
    "prob_raw": 0.4767,
    "side": "under",
@@ -20422,7 +20992,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Nikola Jokic under 9.5 ast (vs DAL): p=0.488 (raw 0.477) vs DraftKings implied 0.571 EV -0.147 @ DraftKings | career 170/349, season 7/15, last5 2/5, last10 6/10, vs DAL 5/12, home 75/180, month 11 past seasons 23/49, rest 1 day 101/206, opp defence middle 44/99, with Jamal Murray 148/304, with Christian Braun 157/317, with Aaron Gordon 135/269"
+   "text": "[research] Nikola Jokic under 9.5 ast (vs DAL): p=0.488 (raw 0.477) vs DraftKings implied 0.585 EV -0.166 @ DraftKings | career 170/349, season 7/15, last5 2/5, last10 6/10, vs DAL 5/12, home 75/180, month 11 past seasons 23/49, rest 1 day 101/206, opp defence middle 44/99, with Jamal Murray 148/304, with Christian Braun 157/317, with Aaron Gordon 135/269"
   },
   {
    "book": "DraftKings",
@@ -20437,7 +21007,7 @@
    "opp": "DAL",
    "player": "Nikola Jokic",
    "player_id": "3112335",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4241,
    "prob_raw": 0.3966,
    "side": "over",
@@ -20532,7 +21102,7 @@
    "opp": "DAL",
    "player": "Nikola Jokic",
    "player_id": "3112335",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5874,
    "prob_raw": 0.6034,
    "side": "under",
@@ -20627,7 +21197,7 @@
    "opp": "DAL",
    "player": "Nikola Jokic",
    "player_id": "3112335",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5702,
    "prob_raw": 0.5817,
    "side": "over",
@@ -20722,7 +21292,7 @@
    "opp": "DAL",
    "player": "Nikola Jokic",
    "player_id": "3112335",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4414,
    "prob_raw": 0.4183,
    "side": "under",
@@ -20997,17 +21567,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.0216,
+   "ev": -0.0016,
    "fair": null,
    "game_id": "401909316",
    "home": true,
-   "implied": 0.5682,
+   "implied": 0.5814,
    "k": 40.0,
    "line": 11.5,
    "opp": "DAL",
    "player": "Nikola Jokic",
    "player_id": "3112335",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5805,
    "prob_raw": 0.5947,
    "side": "over",
@@ -21087,22 +21657,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Nikola Jokic over 11.5 reb (vs DAL): p=0.581 (raw 0.595) vs DraftKings implied 0.568 EV +0.022 @ DraftKings | career 208/349, season 6/15, last5 2/5, last10 4/10, vs DAL 8/12, home 113/180, month 11 past seasons 25/49, rest 1 day 124/206, opp defence middle 80/106, with Jamal Murray 178/304, with Christian Braun 194/317, with Aaron Gordon 155/269"
+   "text": "[research] Nikola Jokic over 11.5 reb (vs DAL): p=0.581 (raw 0.595) vs DraftKings implied 0.581 EV -0.002 @ DraftKings | career 208/349, season 6/15, last5 2/5, last10 4/10, vs DAL 8/12, home 113/180, month 11 past seasons 25/49, rest 1 day 124/206, opp defence middle 80/106, with Jamal Murray 178/304, with Christian Braun 194/317, with Aaron Gordon 155/269"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.2414,
+   "ev": -0.2586,
    "fair": null,
    "game_id": "401909316",
    "home": true,
-   "implied": 0.5682,
+   "implied": 0.5814,
    "k": 40.0,
    "line": 11.5,
    "opp": "DAL",
    "player": "Nikola Jokic",
    "player_id": "3112335",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.431,
    "prob_raw": 0.4053,
    "side": "under",
@@ -21182,16 +21752,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Nikola Jokic under 11.5 reb (vs DAL): p=0.431 (raw 0.405) vs DraftKings implied 0.568 EV -0.241 @ DraftKings | career 141/349, season 9/15, last5 3/5, last10 6/10, vs DAL 4/12, home 67/180, month 11 past seasons 24/49, rest 1 day 82/206, opp defence middle 26/106, with Jamal Murray 126/304, with Christian Braun 123/317, with Aaron Gordon 114/269"
+   "text": "[research] Nikola Jokic under 11.5 reb (vs DAL): p=0.431 (raw 0.405) vs DraftKings implied 0.581 EV -0.259 @ DraftKings | career 141/349, season 9/15, last5 3/5, last10 6/10, vs DAL 4/12, home 67/180, month 11 past seasons 24/49, rest 1 day 82/206, opp defence middle 26/106, with Jamal Murray 126/304, with Christian Braun 123/317, with Aaron Gordon 114/269"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.0672,
+   "ev": -0.0564,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.5747,
+   "implied": 0.5682,
    "k": 40.0,
    "line": 0.5,
    "opp": "DEN",
@@ -21277,16 +21847,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Caleb Martin over 0.5 fg3m (@ DEN): p=0.536 (raw 0.538) vs DraftKings implied 0.575 EV -0.067 @ DraftKings | career 163/285, season 8/13, last5 4/5, last10 5/10, vs DEN 7/11, away 81/142, month 11 past seasons 24/49, rest 1 day 98/163, opp defence soft 49/93, with Cooper Flagg 18/62, without P.J. Washington 9/28, with Kyrie Irving 6/11"
+   "text": "[research] Caleb Martin over 0.5 fg3m (@ DEN): p=0.536 (raw 0.538) vs DraftKings implied 0.568 EV -0.056 @ DraftKings | career 163/285, season 8/13, last5 4/5, last10 5/10, vs DEN 7/11, away 81/142, month 11 past seasons 24/49, rest 1 day 98/163, opp defence soft 49/93, with Cooper Flagg 18/62, without P.J. Washington 9/28, with Kyrie Irving 6/11"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1725,
+   "ev": -0.163,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.5747,
+   "implied": 0.5682,
    "k": 40.0,
    "line": 0.5,
    "opp": "DEN",
@@ -21372,16 +21942,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Caleb Martin under 0.5 fg3m (@ DEN): p=0.476 (raw 0.462) vs DraftKings implied 0.575 EV -0.172 @ DraftKings | career 122/285, season 5/13, last5 1/5, last10 5/10, vs DEN 4/11, away 61/142, month 11 past seasons 25/49, rest 1 day 65/163, opp defence soft 44/93, with Cooper Flagg 44/62, without P.J. Washington 19/28, with Kyrie Irving 5/11"
+   "text": "[research] Caleb Martin under 0.5 fg3m (@ DEN): p=0.476 (raw 0.462) vs DraftKings implied 0.568 EV -0.163 @ DraftKings | career 122/285, season 5/13, last5 1/5, last10 5/10, vs DEN 4/11, away 61/142, month 11 past seasons 25/49, rest 1 day 65/163, opp defence soft 44/93, with Cooper Flagg 44/62, without P.J. Washington 19/28, with Kyrie Irving 5/11"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.0298,
+   "ev": 0.0467,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.5464,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 5.5,
    "opp": "DEN",
@@ -21467,16 +22037,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Caleb Martin over 5.5 pts (@ DEN): p=0.563 (raw 0.572) vs DraftKings implied 0.546 EV +0.030 @ DraftKings | career 179/285, season 7/13, last5 4/5, last10 5/10, vs DEN 8/11, away 86/142, month 11 past seasons 27/49, rest 1 day 103/163, opp defence middle 49/82, with Cooper Flagg 17/62, without P.J. Washington 12/28, with Kyrie Irving 6/11"
+   "text": "[research] Caleb Martin over 5.5 pts (@ DEN): p=0.563 (raw 0.572) vs DraftKings implied 0.538 EV +0.047 @ DraftKings | career 179/285, season 7/13, last5 4/5, last10 5/10, vs DEN 8/11, away 86/142, month 11 past seasons 27/49, rest 1 day 103/163, opp defence middle 49/82, with Cooper Flagg 17/62, without P.J. Washington 12/28, with Kyrie Irving 6/11"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1786,
+   "ev": -0.1652,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.5464,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 5.5,
    "opp": "DEN",
@@ -21562,7 +22132,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Caleb Martin under 5.5 pts (@ DEN): p=0.449 (raw 0.428) vs DraftKings implied 0.546 EV -0.179 @ DraftKings | career 106/285, season 6/13, last5 1/5, last10 5/10, vs DEN 3/11, away 56/142, month 11 past seasons 22/49, rest 1 day 60/163, opp defence middle 33/82, with Cooper Flagg 45/62, without P.J. Washington 16/28, with Kyrie Irving 5/11"
+   "text": "[research] Caleb Martin under 5.5 pts (@ DEN): p=0.449 (raw 0.428) vs DraftKings implied 0.538 EV -0.165 @ DraftKings | career 106/285, season 6/13, last5 1/5, last10 5/10, vs DEN 3/11, away 56/142, month 11 past seasons 22/49, rest 1 day 60/163, opp defence middle 33/82, with Cooper Flagg 45/62, without P.J. Washington 16/28, with Kyrie Irving 5/11"
   },
   {
    "book": "DraftKings",
@@ -21767,7 +22337,7 @@
    "opp": "DAL",
    "player": "Cameron Johnson",
    "player_id": "3138196",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.6125,
    "prob_raw": 0.6349,
    "side": "over",
@@ -21862,7 +22432,7 @@
    "opp": "DAL",
    "player": "Cameron Johnson",
    "player_id": "3138196",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.3987,
    "prob_raw": 0.3651,
    "side": "under",
@@ -21957,7 +22527,7 @@
    "opp": "DAL",
    "player": "Cameron Johnson",
    "player_id": "3138196",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5551,
    "prob_raw": 0.5626,
    "side": "over",
@@ -22052,7 +22622,7 @@
    "opp": "DAL",
    "player": "Cameron Johnson",
    "player_id": "3138196",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4566,
    "prob_raw": 0.4374,
    "side": "under",
@@ -22147,7 +22717,7 @@
    "opp": "DAL",
    "player": "Cameron Johnson",
    "player_id": "3138196",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5505,
    "prob_raw": 0.5567,
    "side": "over",
@@ -22242,7 +22812,7 @@
    "opp": "DAL",
    "player": "Cameron Johnson",
    "player_id": "3138196",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4612,
    "prob_raw": 0.4433,
    "side": "under",
@@ -22337,7 +22907,7 @@
    "opp": "DAL",
    "player": "Jamal Murray",
    "player_id": "3936299",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4756,
    "prob_raw": 0.4615,
    "side": "over",
@@ -22432,7 +23002,7 @@
    "opp": "DAL",
    "player": "Jamal Murray",
    "player_id": "3936299",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5361,
    "prob_raw": 0.5385,
    "side": "under",
@@ -22517,17 +23087,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1767,
+   "ev": -0.1623,
    "fair": null,
    "game_id": "401909316",
    "home": true,
-   "implied": 0.5848,
+   "implied": 0.5747,
    "k": 40.0,
    "line": 2.5,
    "opp": "DAL",
    "player": "Jamal Murray",
    "player_id": "3936299",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4814,
    "prob_raw": 0.4689,
    "side": "over",
@@ -22607,22 +23177,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Jamal Murray over 2.5 fg3m (vs DAL): p=0.481 (raw 0.469) vs DraftKings implied 0.585 EV -0.177 @ DraftKings | career 155/332, season 8/15, last5 1/5, last10 4/10, vs DAL 5/12, home 88/171, month 11 past seasons 17/38, rest 1 day 81/191, opp defence middle 42/83, with Nikola Jokic 141/304, with Christian Braun 131/290, with Aaron Gordon 114/250"
+   "text": "[research] Jamal Murray over 2.5 fg3m (vs DAL): p=0.481 (raw 0.469) vs DraftKings implied 0.575 EV -0.162 @ DraftKings | career 155/332, season 8/15, last5 1/5, last10 4/10, vs DAL 5/12, home 88/171, month 11 past seasons 17/38, rest 1 day 81/191, opp defence middle 42/83, with Nikola Jokic 141/304, with Christian Braun 131/290, with Aaron Gordon 114/250"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.0932,
+   "ev": -0.0773,
    "fair": null,
    "game_id": "401909316",
    "home": true,
-   "implied": 0.5848,
+   "implied": 0.5747,
    "k": 40.0,
    "line": 2.5,
    "opp": "DAL",
    "player": "Jamal Murray",
    "player_id": "3936299",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5303,
    "prob_raw": 0.5311,
    "side": "under",
@@ -22702,7 +23272,7 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Jamal Murray under 2.5 fg3m (vs DAL): p=0.530 (raw 0.531) vs DraftKings implied 0.585 EV -0.093 @ DraftKings | career 177/332, season 7/15, last5 4/5, last10 6/10, vs DAL 7/12, home 83/171, month 11 past seasons 21/38, rest 1 day 110/191, opp defence middle 41/83, with Nikola Jokic 163/304, with Christian Braun 159/290, with Aaron Gordon 136/250"
+   "text": "[research] Jamal Murray under 2.5 fg3m (vs DAL): p=0.530 (raw 0.531) vs DraftKings implied 0.575 EV -0.077 @ DraftKings | career 177/332, season 7/15, last5 4/5, last10 6/10, vs DAL 7/12, home 83/171, month 11 past seasons 21/38, rest 1 day 110/191, opp defence middle 41/83, with Nikola Jokic 163/304, with Christian Braun 159/290, with Aaron Gordon 136/250"
   },
   {
    "book": "DraftKings",
@@ -22717,7 +23287,7 @@
    "opp": "DAL",
    "player": "Jamal Murray",
    "player_id": "3936299",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.423,
    "prob_raw": 0.3953,
    "side": "over",
@@ -22812,7 +23382,7 @@
    "opp": "DAL",
    "player": "Jamal Murray",
    "player_id": "3936299",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5884,
    "prob_raw": 0.6047,
    "side": "under",
@@ -22907,7 +23477,7 @@
    "opp": "DAL",
    "player": "Jamal Murray",
    "player_id": "3936299",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4731,
    "prob_raw": 0.4583,
    "side": "over",
@@ -23002,7 +23572,7 @@
    "opp": "DAL",
    "player": "Jamal Murray",
    "player_id": "3936299",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5386,
    "prob_raw": 0.5417,
    "side": "under",
@@ -23087,17 +23657,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.4366,
+   "ev": 0.4443,
    "fair": null,
    "game_id": "401909316",
    "home": true,
-   "implied": 0.5348,
+   "implied": 0.5319,
    "k": 40.0,
    "line": 10.5,
    "opp": "DAL",
    "player": "DeMar DeRozan",
    "player_id": "3978",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.7682,
    "prob_raw": 0.817,
    "side": "over",
@@ -23177,22 +23747,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] DeMar DeRozan over 10.5 pts (vs DAL): p=0.768 (raw 0.817) vs DraftKings implied 0.535 EV +0.437 @ DraftKings | career 291/326, season 6/14, last5 2/5, last10 3/10, vs DAL 8/10, home 143/162, month 11 past seasons 48/55, rest 1 day 172/191, opp defence middle 82/94, with Nikola Jokic 6/14, with Jamal Murray 6/14, with Christian Braun 6/14"
+   "text": "[research] DeMar DeRozan over 10.5 pts (vs DAL): p=0.768 (raw 0.817) vs DraftKings implied 0.532 EV +0.444 @ DraftKings | career 291/326, season 6/14, last5 2/5, last10 3/10, vs DAL 8/10, home 143/162, month 11 past seasons 48/55, rest 1 day 172/191, opp defence middle 82/94, with Nikola Jokic 6/14, with Jamal Murray 6/14, with Christian Braun 6/14"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.5507,
+   "ev": -0.5483,
    "fair": null,
    "game_id": "401909316",
    "home": true,
-   "implied": 0.5348,
+   "implied": 0.5319,
    "k": 40.0,
    "line": 10.5,
    "opp": "DAL",
    "player": "DeMar DeRozan",
    "player_id": "3978",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.2403,
    "prob_raw": 0.183,
    "side": "under",
@@ -23272,16 +23842,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] DeMar DeRozan under 10.5 pts (vs DAL): p=0.240 (raw 0.183) vs DraftKings implied 0.535 EV -0.551 @ DraftKings | career 35/326, season 8/14, last5 3/5, last10 7/10, vs DAL 2/10, home 19/162, month 11 past seasons 7/55, rest 1 day 19/191, opp defence middle 12/94, with Nikola Jokic 8/14, with Jamal Murray 8/14, with Christian Braun 8/14"
+   "text": "[research] DeMar DeRozan under 10.5 pts (vs DAL): p=0.240 (raw 0.183) vs DraftKings implied 0.532 EV -0.548 @ DraftKings | career 35/326, season 8/14, last5 3/5, last10 7/10, vs DAL 2/10, home 19/162, month 11 past seasons 7/55, rest 1 day 19/191, opp defence middle 12/94, with Nikola Jokic 8/14, with Jamal Murray 8/14, with Christian Braun 8/14"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.2207,
+   "ev": -0.2123,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.5435,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 1.5,
    "opp": "DEN",
@@ -23367,16 +23937,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Daniel Gafford over 1.5 ast (@ DEN): p=0.423 (raw 0.396) vs DraftKings implied 0.543 EV -0.221 @ DraftKings | career 112/305, season 11/17, last5 4/5, last10 6/10, vs DEN 3/10, away 54/156, month 11 past seasons 19/57, rest 1 day 65/169, opp defence soft 30/88, with Cooper Flagg 22/62, without P.J. Washington 9/27, with Kyrie Irving 42/106"
+   "text": "[research] Daniel Gafford over 1.5 ast (@ DEN): p=0.423 (raw 0.396) vs DraftKings implied 0.538 EV -0.212 @ DraftKings | career 112/305, season 11/17, last5 4/5, last10 6/10, vs DEN 3/10, away 54/156, month 11 past seasons 19/57, rest 1 day 65/169, opp defence soft 30/88, with Cooper Flagg 22/62, without P.J. Washington 9/27, with Kyrie Irving 42/106"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.0818,
+   "ev": 0.0935,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.5435,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 1.5,
    "opp": "DEN",
@@ -23462,7 +24032,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Daniel Gafford under 1.5 ast (@ DEN): p=0.588 (raw 0.604) vs DraftKings implied 0.543 EV +0.082 @ DraftKings | career 193/305, season 6/17, last5 1/5, last10 4/10, vs DEN 7/10, away 102/156, month 11 past seasons 38/57, rest 1 day 104/169, opp defence soft 58/88, with Cooper Flagg 40/62, without P.J. Washington 18/27, with Kyrie Irving 64/106"
+   "text": "[research] Daniel Gafford under 1.5 ast (@ DEN): p=0.588 (raw 0.604) vs DraftKings implied 0.538 EV +0.093 @ DraftKings | career 193/305, season 6/17, last5 1/5, last10 4/10, vs DEN 7/10, away 102/156, month 11 past seasons 38/57, rest 1 day 104/169, opp defence soft 58/88, with Cooper Flagg 40/62, without P.J. Washington 18/27, with Kyrie Irving 64/106"
   },
   {
    "book": "DraftKings",
@@ -23667,7 +24237,7 @@
    "opp": "DEN",
    "player": "Daniel Gafford",
    "player_id": "4278049",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.3584,
    "prob_raw": 0.3162,
    "side": "over",
@@ -23762,7 +24332,7 @@
    "opp": "DEN",
    "player": "Daniel Gafford",
    "player_id": "4278049",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.6523,
    "prob_raw": 0.6838,
    "side": "under",
@@ -23847,11 +24417,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1383,
+   "ev": -0.1278,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.6098,
+   "implied": 0.6024,
    "k": 40.0,
    "line": 1.5,
    "opp": "DEN",
@@ -23937,16 +24507,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] P.J. Washington over 1.5 fg3m (@ DEN): p=0.525 (raw 0.525) vs DraftKings implied 0.610 EV -0.138 @ DraftKings | career 154/298, season 11/15, last5 3/5, last10 7/10, vs DEN 1/10, away 81/156, month 11 past seasons 21/51, rest 2+ days 44/88, opp defence soft 48/94, with Cooper Flagg 31/63, with Kyrie Irving 56/100, with Naji Marshall 52/113"
+   "text": "[research] P.J. Washington over 1.5 fg3m (@ DEN): p=0.525 (raw 0.525) vs DraftKings implied 0.602 EV -0.128 @ DraftKings | career 154/298, season 11/15, last5 3/5, last10 7/10, vs DEN 1/10, away 81/156, month 11 past seasons 21/51, rest 2+ days 44/88, opp defence soft 48/94, with Cooper Flagg 31/63, with Kyrie Irving 56/100, with Naji Marshall 52/113"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.2024,
+   "ev": -0.1927,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.6098,
+   "implied": 0.6024,
    "k": 40.0,
    "line": 1.5,
    "opp": "DEN",
@@ -24032,16 +24602,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] P.J. Washington under 1.5 fg3m (@ DEN): p=0.486 (raw 0.475) vs DraftKings implied 0.610 EV -0.202 @ DraftKings | career 144/298, season 4/15, last5 2/5, last10 3/10, vs DEN 9/10, away 75/156, month 11 past seasons 30/51, rest 2+ days 44/88, opp defence soft 46/94, with Cooper Flagg 32/63, with Kyrie Irving 44/100, with Naji Marshall 61/113"
+   "text": "[research] P.J. Washington under 1.5 fg3m (@ DEN): p=0.486 (raw 0.475) vs DraftKings implied 0.602 EV -0.193 @ DraftKings | career 144/298, season 4/15, last5 2/5, last10 3/10, vs DEN 9/10, away 75/156, month 11 past seasons 30/51, rest 2+ days 44/88, opp defence soft 46/94, with Cooper Flagg 32/63, with Kyrie Irving 44/100, with Naji Marshall 61/113"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.0043,
+   "ev": -0.0098,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.5525,
+   "implied": 0.5556,
    "k": 40.0,
    "line": 12.5,
    "opp": "DEN",
@@ -24127,16 +24697,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] P.J. Washington over 12.5 pts (@ DEN): p=0.550 (raw 0.556) vs DraftKings implied 0.552 EV -0.004 @ DraftKings | career 167/298, season 7/15, last5 2/5, last10 4/10, vs DEN 4/10, away 83/156, month 11 past seasons 32/51, rest 2+ days 53/88, opp defence middle 59/92, with Cooper Flagg 38/63, with Kyrie Irving 47/100, with Naji Marshall 65/113"
+   "text": "[research] P.J. Washington over 12.5 pts (@ DEN): p=0.550 (raw 0.556) vs DraftKings implied 0.556 EV -0.010 @ DraftKings | career 167/298, season 7/15, last5 2/5, last10 4/10, vs DEN 4/10, away 83/156, month 11 past seasons 32/51, rest 2+ days 53/88, opp defence middle 59/92, with Cooper Flagg 38/63, with Kyrie Irving 47/100, with Naji Marshall 65/113"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1646,
+   "ev": -0.1692,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.5525,
+   "implied": 0.5556,
    "k": 40.0,
    "line": 12.5,
    "opp": "DEN",
@@ -24222,16 +24792,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] P.J. Washington under 12.5 pts (@ DEN): p=0.462 (raw 0.444) vs DraftKings implied 0.552 EV -0.165 @ DraftKings | career 131/298, season 8/15, last5 3/5, last10 6/10, vs DEN 6/10, away 73/156, month 11 past seasons 19/51, rest 2+ days 35/88, opp defence middle 33/92, with Cooper Flagg 25/63, with Kyrie Irving 53/100, with Naji Marshall 48/113"
+   "text": "[research] P.J. Washington under 12.5 pts (@ DEN): p=0.462 (raw 0.444) vs DraftKings implied 0.556 EV -0.169 @ DraftKings | career 131/298, season 8/15, last5 3/5, last10 6/10, vs DEN 6/10, away 73/156, month 11 past seasons 19/51, rest 2+ days 35/88, opp defence middle 33/92, with Cooper Flagg 25/63, with Kyrie Irving 53/100, with Naji Marshall 48/113"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.0073,
+   "ev": -0.0296,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.5618,
+   "implied": 0.5747,
    "k": 40.0,
    "line": 5.5,
    "opp": "DEN",
@@ -24317,16 +24887,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] P.J. Washington over 5.5 reb (@ DEN): p=0.558 (raw 0.566) vs DraftKings implied 0.562 EV -0.007 @ DraftKings | career 164/298, season 7/15, last5 1/5, last10 4/10, vs DEN 8/10, away 88/156, month 11 past seasons 31/51, rest 2+ days 51/88, opp defence middle 43/94, with Cooper Flagg 40/63, with Kyrie Irving 65/100, with Naji Marshall 72/113"
+   "text": "[research] P.J. Washington over 5.5 reb (@ DEN): p=0.558 (raw 0.566) vs DraftKings implied 0.575 EV -0.030 @ DraftKings | career 164/298, season 7/15, last5 1/5, last10 4/10, vs DEN 8/10, away 88/156, month 11 past seasons 31/51, rest 2+ days 51/88, opp defence middle 43/94, with Cooper Flagg 40/63, with Kyrie Irving 65/100, with Naji Marshall 72/113"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.192,
+   "ev": -0.2102,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.5618,
+   "implied": 0.5747,
    "k": 40.0,
    "line": 5.5,
    "opp": "DEN",
@@ -24412,16 +24982,16 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] P.J. Washington under 5.5 reb (@ DEN): p=0.454 (raw 0.434) vs DraftKings implied 0.562 EV -0.192 @ DraftKings | career 134/298, season 8/15, last5 4/5, last10 6/10, vs DEN 2/10, away 68/156, month 11 past seasons 20/51, rest 2+ days 37/88, opp defence middle 51/94, with Cooper Flagg 23/63, with Kyrie Irving 35/100, with Naji Marshall 41/113"
+   "text": "[research] P.J. Washington under 5.5 reb (@ DEN): p=0.454 (raw 0.434) vs DraftKings implied 0.575 EV -0.210 @ DraftKings | career 134/298, season 8/15, last5 4/5, last10 6/10, vs DEN 2/10, away 68/156, month 11 past seasons 20/51, rest 2+ days 37/88, opp defence middle 51/94, with Cooper Flagg 23/63, with Kyrie Irving 35/100, with Naji Marshall 41/113"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1484,
+   "ev": -0.1432,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.6135,
+   "implied": 0.6098,
    "k": 40.0,
    "line": 2.5,
    "opp": "DEN",
@@ -24507,16 +25077,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Naji Marshall over 2.5 ast (@ DEN): p=0.522 (raw 0.521) vs DraftKings implied 0.614 EV -0.148 @ DraftKings | career 150/308, season 9/14, last5 2/5, last10 5/10, vs DEN 6/13, away 76/153, month 11 past seasons 24/54, rest 1 day 92/183, opp defence soft 53/107, with Cooper Flagg 48/77, without P.J. Washington 28/46, with Kyrie Irving 25/51"
+   "text": "[research] Naji Marshall over 2.5 ast (@ DEN): p=0.522 (raw 0.521) vs DraftKings implied 0.610 EV -0.143 @ DraftKings | career 150/308, season 9/14, last5 2/5, last10 5/10, vs DEN 6/13, away 76/153, month 11 past seasons 24/54, rest 1 day 92/183, opp defence soft 53/107, with Cooper Flagg 48/77, without P.J. Washington 28/46, with Kyrie Irving 25/51"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.2025,
+   "ev": -0.1976,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.6135,
+   "implied": 0.6098,
    "k": 40.0,
    "line": 2.5,
    "opp": "DEN",
@@ -24602,7 +25172,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Naji Marshall under 2.5 ast (@ DEN): p=0.489 (raw 0.479) vs DraftKings implied 0.614 EV -0.203 @ DraftKings | career 158/308, season 5/14, last5 3/5, last10 5/10, vs DEN 7/13, away 77/153, month 11 past seasons 30/54, rest 1 day 91/183, opp defence soft 54/107, with Cooper Flagg 29/77, without P.J. Washington 18/46, with Kyrie Irving 26/51"
+   "text": "[research] Naji Marshall under 2.5 ast (@ DEN): p=0.489 (raw 0.479) vs DraftKings implied 0.610 EV -0.198 @ DraftKings | career 158/308, season 5/14, last5 3/5, last10 5/10, vs DEN 7/13, away 77/153, month 11 past seasons 30/54, rest 1 day 91/183, opp defence soft 54/107, with Cooper Flagg 29/77, without P.J. Washington 18/46, with Kyrie Irving 26/51"
   },
   {
    "book": "DraftKings",
@@ -24987,17 +25557,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.1444,
+   "ev": -0.139,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.6289,
+   "implied": 0.625,
    "k": 40.0,
    "line": 3.5,
    "opp": "DEN",
    "player": "Naji Marshall",
    "player_id": "4278594",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.5381,
    "prob_raw": 0.5411,
    "side": "over",
@@ -25077,22 +25647,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Naji Marshall over 3.5 reb (@ DEN): p=0.538 (raw 0.541) vs DraftKings implied 0.629 EV -0.144 @ DraftKings | career 169/308, season 5/14, last5 1/5, last10 3/10, vs DEN 8/13, away 84/153, month 11 past seasons 30/54, rest 1 day 99/183, opp defence middle 56/96, with Cooper Flagg 46/77, without P.J. Washington 33/46, with Kyrie Irving 25/51"
+   "text": "[research] Naji Marshall over 3.5 reb (@ DEN): p=0.538 (raw 0.541) vs DraftKings implied 0.625 EV -0.139 @ DraftKings | career 169/308, season 5/14, last5 1/5, last10 3/10, vs DEN 8/13, away 84/153, month 11 past seasons 30/54, rest 1 day 99/183, opp defence middle 56/96, with Cooper Flagg 46/77, without P.J. Washington 33/46, with Kyrie Irving 25/51"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.247,
+   "ev": -0.2423,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.6289,
+   "implied": 0.625,
    "k": 40.0,
    "line": 3.5,
    "opp": "DEN",
    "player": "Naji Marshall",
    "player_id": "4278594",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4736,
    "prob_raw": 0.4589,
    "side": "under",
@@ -25172,22 +25742,22 @@
    ],
    "stat": "reb",
    "status": "research",
-   "text": "[research] Naji Marshall under 3.5 reb (@ DEN): p=0.474 (raw 0.459) vs DraftKings implied 0.629 EV -0.247 @ DraftKings | career 139/308, season 9/14, last5 4/5, last10 7/10, vs DEN 5/13, away 69/153, month 11 past seasons 24/54, rest 1 day 84/183, opp defence middle 40/96, with Cooper Flagg 31/77, without P.J. Washington 13/46, with Kyrie Irving 26/51"
+   "text": "[research] Naji Marshall under 3.5 reb (@ DEN): p=0.474 (raw 0.459) vs DraftKings implied 0.625 EV -0.242 @ DraftKings | career 139/308, season 9/14, last5 4/5, last10 7/10, vs DEN 5/13, away 69/153, month 11 past seasons 24/54, rest 1 day 84/183, opp defence middle 40/96, with Cooper Flagg 31/77, without P.J. Washington 13/46, with Kyrie Irving 26/51"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.3921,
+   "ev": -0.4023,
    "fair": null,
    "game_id": "401909316",
    "home": true,
-   "implied": 0.5587,
+   "implied": 0.5682,
    "k": 40.0,
    "line": 2.5,
    "opp": "DAL",
    "player": "Christian Braun",
    "player_id": "4431767",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.3396,
    "prob_raw": 0.2938,
    "side": "over",
@@ -25267,22 +25837,22 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Christian Braun over 2.5 ast (vs DAL): p=0.340 (raw 0.294) vs DraftKings implied 0.559 EV -0.392 @ DraftKings | career 97/345, season 9/15, last5 4/5, last10 8/10, vs DAL 2/12, home 50/177, month 11 past seasons 12/47, rest 1 day 56/207, opp defence middle 24/96, with Nikola Jokic 90/317, with Jamal Murray 78/290, with Aaron Gordon 65/272"
+   "text": "[research] Christian Braun over 2.5 ast (vs DAL): p=0.340 (raw 0.294) vs DraftKings implied 0.568 EV -0.402 @ DraftKings | career 97/345, season 9/15, last5 4/5, last10 8/10, vs DAL 2/12, home 50/177, month 11 past seasons 12/47, rest 1 day 56/207, opp defence middle 24/96, with Nikola Jokic 90/317, with Jamal Murray 78/290, with Aaron Gordon 65/272"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.2008,
+   "ev": 0.1807,
    "fair": null,
    "game_id": "401909316",
    "home": true,
-   "implied": 0.5587,
+   "implied": 0.5682,
    "k": 40.0,
    "line": 2.5,
    "opp": "DAL",
    "player": "Christian Braun",
    "player_id": "4431767",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.6708,
    "prob_raw": 0.7062,
    "side": "under",
@@ -25362,7 +25932,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Christian Braun under 2.5 ast (vs DAL): p=0.671 (raw 0.706) vs DraftKings implied 0.559 EV +0.201 @ DraftKings | career 248/345, season 6/15, last5 1/5, last10 2/10, vs DAL 10/12, home 127/177, month 11 past seasons 35/47, rest 1 day 151/207, opp defence middle 72/96, with Nikola Jokic 227/317, with Jamal Murray 212/290, with Aaron Gordon 207/272"
+   "text": "[research] Christian Braun under 2.5 ast (vs DAL): p=0.671 (raw 0.706) vs DraftKings implied 0.568 EV +0.181 @ DraftKings | career 248/345, season 6/15, last5 1/5, last10 2/10, vs DAL 10/12, home 127/177, month 11 past seasons 35/47, rest 1 day 151/207, opp defence middle 72/96, with Nikola Jokic 227/317, with Jamal Murray 212/290, with Aaron Gordon 207/272"
   },
   {
    "book": "DraftKings",
@@ -25377,7 +25947,7 @@
    "opp": "DAL",
    "player": "Christian Braun",
    "player_id": "4431767",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.2879,
    "prob_raw": 0.2345,
    "side": "over",
@@ -25472,7 +26042,7 @@
    "opp": "DAL",
    "player": "Christian Braun",
    "player_id": "4431767",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.7216,
    "prob_raw": 0.7655,
    "side": "under",
@@ -25567,7 +26137,7 @@
    "opp": "DAL",
    "player": "Christian Braun",
    "player_id": "4431767",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.3261,
    "prob_raw": 0.278,
    "side": "over",
@@ -25662,7 +26232,7 @@
    "opp": "DAL",
    "player": "Christian Braun",
    "player_id": "4431767",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.6842,
    "prob_raw": 0.722,
    "side": "under",
@@ -25757,7 +26327,7 @@
    "opp": "DAL",
    "player": "Christian Braun",
    "player_id": "4431767",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4099,
    "prob_raw": 0.379,
    "side": "over",
@@ -25852,7 +26422,7 @@
    "opp": "DAL",
    "player": "Christian Braun",
    "player_id": "4431767",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.6014,
    "prob_raw": 0.621,
    "side": "under",
@@ -25937,11 +26507,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.4833,
+   "ev": -0.4951,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.5714,
+   "implied": 0.5848,
    "k": 40.0,
    "line": 6.5,
    "opp": "DEN",
@@ -26027,16 +26597,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Cooper Flagg over 6.5 ast (@ DEN): p=0.295 (raw 0.243) vs DraftKings implied 0.571 EV -0.483 @ DraftKings | career 19/86, season 6/16, last5 2/5, last10 4/10, vs DEN 2/4, away 8/44, month 11 past seasons 1/15, rest 1 day 10/47, opp defence soft 5/26, without P.J. Washington 3/23, with Kyrie Irving 6/14, with Naji Marshall 17/77"
+   "text": "[research] Cooper Flagg over 6.5 ast (@ DEN): p=0.295 (raw 0.243) vs DraftKings implied 0.585 EV -0.495 @ DraftKings | career 19/86, season 6/16, last5 2/5, last10 4/10, vs DEN 2/4, away 8/44, month 11 past seasons 1/15, rest 1 day 10/47, opp defence soft 5/26, without P.J. Washington 3/23, with Kyrie Irving 6/14, with Naji Marshall 17/77"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.2502,
+   "ev": 0.2216,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.5714,
+   "implied": 0.5848,
    "k": 40.0,
    "line": 6.5,
    "opp": "DEN",
@@ -26122,7 +26692,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Cooper Flagg under 6.5 ast (@ DEN): p=0.714 (raw 0.757) vs DraftKings implied 0.571 EV +0.250 @ DraftKings | career 67/86, season 10/16, last5 3/5, last10 6/10, vs DEN 2/4, away 36/44, month 11 past seasons 14/15, rest 1 day 37/47, opp defence soft 21/26, without P.J. Washington 20/23, with Kyrie Irving 8/14, with Naji Marshall 60/77"
+   "text": "[research] Cooper Flagg under 6.5 ast (@ DEN): p=0.714 (raw 0.757) vs DraftKings implied 0.585 EV +0.222 @ DraftKings | career 67/86, season 10/16, last5 3/5, last10 6/10, vs DEN 2/4, away 36/44, month 11 past seasons 14/15, rest 1 day 37/47, opp defence soft 21/26, without P.J. Washington 20/23, with Kyrie Irving 8/14, with Naji Marshall 60/77"
   },
   {
    "book": "DraftKings",
@@ -26317,17 +26887,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.2535,
+   "ev": -0.2655,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.5376,
+   "implied": 0.5464,
    "k": 40.0,
    "line": 24.5,
    "opp": "DEN",
    "player": "Cooper Flagg",
    "player_id": "5041939",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.4014,
    "prob_raw": 0.3684,
    "side": "over",
@@ -26407,22 +26977,22 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Cooper Flagg over 24.5 pts (@ DEN): p=0.401 (raw 0.368) vs DraftKings implied 0.538 EV -0.254 @ DraftKings | career 29/86, season 8/16, last5 2/5, last10 4/10, vs DEN 2/4, away 13/44, month 11 past seasons 3/15, rest 1 day 15/47, opp defence middle 12/29, without P.J. Washington 11/23, with Kyrie Irving 8/14, with Naji Marshall 24/77"
+   "text": "[research] Cooper Flagg over 24.5 pts (@ DEN): p=0.401 (raw 0.368) vs DraftKings implied 0.546 EV -0.266 @ DraftKings | career 29/86, season 8/16, last5 2/5, last10 4/10, vs DEN 2/4, away 13/44, month 11 past seasons 3/15, rest 1 day 15/47, opp defence middle 12/29, without P.J. Washington 11/23, with Kyrie Irving 8/14, with Naji Marshall 24/77"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.1344,
+   "ev": 0.1161,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.5376,
+   "implied": 0.5464,
    "k": 40.0,
    "line": 24.5,
    "opp": "DEN",
    "player": "Cooper Flagg",
    "player_id": "5041939",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.6099,
    "prob_raw": 0.6316,
    "side": "under",
@@ -26502,7 +27072,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Cooper Flagg under 24.5 pts (@ DEN): p=0.610 (raw 0.632) vs DraftKings implied 0.538 EV +0.134 @ DraftKings | career 57/86, season 8/16, last5 3/5, last10 6/10, vs DEN 2/4, away 31/44, month 11 past seasons 12/15, rest 1 day 32/47, opp defence middle 17/29, without P.J. Washington 12/23, with Kyrie Irving 6/14, with Naji Marshall 53/77"
+   "text": "[research] Cooper Flagg under 24.5 pts (@ DEN): p=0.610 (raw 0.632) vs DraftKings implied 0.546 EV +0.116 @ DraftKings | career 57/86, season 8/16, last5 3/5, last10 6/10, vs DEN 2/4, away 31/44, month 11 past seasons 12/15, rest 1 day 32/47, opp defence middle 17/29, without P.J. Washington 12/23, with Kyrie Irving 6/14, with Naji Marshall 53/77"
   },
   {
    "book": "DraftKings",
@@ -26697,11 +27267,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.0558,
+   "ev": -0.0492,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.6944,
+   "implied": 0.6897,
    "k": 40.0,
    "line": 0.5,
    "opp": "DEN",
@@ -26787,16 +27357,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Zaccharie Risacher over 0.5 fg3m (@ DEN): p=0.656 (raw 0.688) vs DraftKings implied 0.694 EV -0.056 @ DraftKings | career 115/163, season 11/17, last5 4/5, last10 6/10, vs DEN 1/3, away 54/82, month 11 past seasons 22/30, rest 1 day 66/89, opp defence soft 36/54, with Cooper Flagg 10/16, without P.J. Washington 1/2, with Kyrie Irving 9/14"
+   "text": "[research] Zaccharie Risacher over 0.5 fg3m (@ DEN): p=0.656 (raw 0.688) vs DraftKings implied 0.690 EV -0.049 @ DraftKings | career 115/163, season 11/17, last5 4/5, last10 6/10, vs DEN 1/3, away 54/82, month 11 past seasons 22/30, rest 1 day 66/89, opp defence soft 36/54, with Cooper Flagg 10/16, without P.J. Washington 1/2, with Kyrie Irving 9/14"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.4888,
+   "ev": -0.4853,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.6944,
+   "implied": 0.6897,
    "k": 40.0,
    "line": 0.5,
    "opp": "DEN",
@@ -26882,16 +27452,16 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Zaccharie Risacher under 0.5 fg3m (@ DEN): p=0.355 (raw 0.312) vs DraftKings implied 0.694 EV -0.489 @ DraftKings | career 48/163, season 6/17, last5 1/5, last10 4/10, vs DEN 2/3, away 28/82, month 11 past seasons 8/30, rest 1 day 23/89, opp defence soft 18/54, with Cooper Flagg 6/16, without P.J. Washington 1/2, with Kyrie Irving 5/14"
+   "text": "[research] Zaccharie Risacher under 0.5 fg3m (@ DEN): p=0.355 (raw 0.312) vs DraftKings implied 0.690 EV -0.485 @ DraftKings | career 48/163, season 6/17, last5 1/5, last10 4/10, vs DEN 2/3, away 28/82, month 11 past seasons 8/30, rest 1 day 23/89, opp defence soft 18/54, with Cooper Flagg 6/16, without P.J. Washington 1/2, with Kyrie Irving 5/14"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": 0.0683,
+   "ev": 0.0799,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.5435,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 8.5,
    "opp": "DEN",
@@ -26977,16 +27547,16 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Zaccharie Risacher over 8.5 pts (@ DEN): p=0.581 (raw 0.595) vs DraftKings implied 0.543 EV +0.068 @ DraftKings | career 97/163, season 9/17, last5 3/5, last10 5/10, vs DEN 3/3, away 49/82, month 11 past seasons 21/30, rest 1 day 56/89, opp defence middle 34/54, with Cooper Flagg 8/16, without P.J. Washington 2/2, with Kyrie Irving 7/14"
+   "text": "[research] Zaccharie Risacher over 8.5 pts (@ DEN): p=0.581 (raw 0.595) vs DraftKings implied 0.538 EV +0.080 @ DraftKings | career 97/163, season 9/17, last5 3/5, last10 5/10, vs DEN 3/3, away 49/82, month 11 past seasons 21/30, rest 1 day 56/89, opp defence middle 34/54, with Cooper Flagg 8/16, without P.J. Washington 2/2, with Kyrie Irving 7/14"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.2071,
+   "ev": -0.1985,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.5435,
+   "implied": 0.5376,
    "k": 40.0,
    "line": 8.5,
    "opp": "DEN",
@@ -27072,7 +27642,7 @@
    ],
    "stat": "pts",
    "status": "research",
-   "text": "[research] Zaccharie Risacher under 8.5 pts (@ DEN): p=0.431 (raw 0.405) vs DraftKings implied 0.543 EV -0.207 @ DraftKings | career 66/163, season 8/17, last5 2/5, last10 5/10, vs DEN 0/3, away 33/82, month 11 past seasons 9/30, rest 1 day 33/89, opp defence middle 20/54, with Cooper Flagg 8/16, without P.J. Washington 0/2, with Kyrie Irving 7/14"
+   "text": "[research] Zaccharie Risacher under 8.5 pts (@ DEN): p=0.431 (raw 0.405) vs DraftKings implied 0.538 EV -0.199 @ DraftKings | career 66/163, season 8/17, last5 2/5, last10 5/10, vs DEN 0/3, away 33/82, month 11 past seasons 9/30, rest 1 day 33/89, opp defence middle 20/54, with Cooper Flagg 8/16, without P.J. Washington 0/2, with Kyrie Irving 7/14"
   },
   {
    "book": "DraftKings",
@@ -27267,11 +27837,11 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.0139,
+   "ev": 0.003,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.5714,
+   "implied": 0.5618,
    "k": 40.0,
    "line": 4.5,
    "opp": "DEN",
@@ -27357,16 +27927,16 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Kyrie Irving over 4.5 ast (@ DEN): p=0.564 (raw 0.573) vs DraftKings implied 0.571 EV -0.014 @ DraftKings | career 121/204, season 6/14, last5 3/5, last10 5/10, vs DEN 4/5, away 58/102, month 11 past seasons 22/34, rest 1 day 66/109, opp defence soft 31/56, with Cooper Flagg 6/14, without P.J. Washington 44/64, with Naji Marshall 27/51"
+   "text": "[research] Kyrie Irving over 4.5 ast (@ DEN): p=0.564 (raw 0.573) vs DraftKings implied 0.562 EV +0.003 @ DraftKings | career 121/204, season 6/14, last5 3/5, last10 5/10, vs DEN 4/5, away 58/102, month 11 past seasons 22/34, rest 1 day 66/109, opp defence soft 31/56, with Cooper Flagg 6/14, without P.J. Washington 44/64, with Naji Marshall 27/51"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.2158,
+   "ev": -0.2024,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.5714,
+   "implied": 0.5618,
    "k": 40.0,
    "line": 4.5,
    "opp": "DEN",
@@ -27452,7 +28022,7 @@
    ],
    "stat": "ast",
    "status": "research",
-   "text": "[research] Kyrie Irving under 4.5 ast (@ DEN): p=0.448 (raw 0.427) vs DraftKings implied 0.571 EV -0.216 @ DraftKings | career 83/204, season 8/14, last5 2/5, last10 5/10, vs DEN 1/5, away 44/102, month 11 past seasons 12/34, rest 1 day 43/109, opp defence soft 25/56, with Cooper Flagg 8/14, without P.J. Washington 20/64, with Naji Marshall 24/51"
+   "text": "[research] Kyrie Irving under 4.5 ast (@ DEN): p=0.448 (raw 0.427) vs DraftKings implied 0.562 EV -0.202 @ DraftKings | career 83/204, season 8/14, last5 2/5, last10 5/10, vs DEN 1/5, away 44/102, month 11 past seasons 12/34, rest 1 day 43/109, opp defence soft 25/56, with Cooper Flagg 8/14, without P.J. Washington 20/64, with Naji Marshall 24/51"
   },
   {
    "book": "DraftKings",
@@ -27647,17 +28217,17 @@
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.3688,
+   "ev": -0.3846,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.625,
+   "implied": 0.641,
    "k": 40.0,
    "line": 3.5,
    "opp": "DEN",
    "player": "Kyrie Irving",
    "player_id": "6442",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.3945,
    "prob_raw": 0.3599,
    "side": "over",
@@ -27737,22 +28307,22 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Kyrie Irving over 3.5 fg3m (@ DEN): p=0.395 (raw 0.360) vs DraftKings implied 0.625 EV -0.369 @ DraftKings | career 72/204, season 6/14, last5 2/5, last10 5/10, vs DEN 2/5, away 38/102, month 11 past seasons 9/34, rest 1 day 41/109, opp defence soft 20/55, with Cooper Flagg 6/14, without P.J. Washington 20/64, with Naji Marshall 16/51"
+   "text": "[research] Kyrie Irving over 3.5 fg3m (@ DEN): p=0.395 (raw 0.360) vs DraftKings implied 0.641 EV -0.385 @ DraftKings | career 72/204, season 6/14, last5 2/5, last10 5/10, vs DEN 2/5, away 38/102, month 11 past seasons 9/34, rest 1 day 41/109, opp defence soft 20/55, with Cooper Flagg 6/14, without P.J. Washington 20/64, with Naji Marshall 16/51"
   },
   {
    "book": "DraftKings",
    "date": "2026-11-24",
-   "ev": -0.0133,
+   "ev": -0.038,
    "fair": null,
    "game_id": "401909316",
    "home": false,
-   "implied": 0.625,
+   "implied": 0.641,
    "k": 40.0,
    "line": 3.5,
    "opp": "DEN",
    "player": "Kyrie Irving",
    "player_id": "6442",
-   "price_observed_at": "2026-11-24T16:03:10Z",
+   "price_observed_at": "2026-11-24T16:33:45Z",
    "prob": 0.6167,
    "prob_raw": 0.6401,
    "side": "under",
@@ -27832,7 +28402,197 @@
    ],
    "stat": "fg3m",
    "status": "research",
-   "text": "[research] Kyrie Irving under 3.5 fg3m (@ DEN): p=0.617 (raw 0.640) vs DraftKings implied 0.625 EV -0.013 @ DraftKings | career 132/204, season 8/14, last5 3/5, last10 5/10, vs DEN 3/5, away 64/102, month 11 past seasons 25/34, rest 1 day 68/109, opp defence soft 35/55, with Cooper Flagg 8/14, without P.J. Washington 44/64, with Naji Marshall 35/51"
+   "text": "[research] Kyrie Irving under 3.5 fg3m (@ DEN): p=0.617 (raw 0.640) vs DraftKings implied 0.641 EV -0.038 @ DraftKings | career 132/204, season 8/14, last5 3/5, last10 5/10, vs DEN 3/5, away 64/102, month 11 past seasons 25/34, rest 1 day 68/109, opp defence soft 35/55, with Cooper Flagg 8/14, without P.J. Washington 44/64, with Naji Marshall 35/51"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-24",
+   "ev": 0.0838,
+   "fair": null,
+   "game_id": "401909316",
+   "home": false,
+   "implied": 0.5348,
+   "k": 40.0,
+   "line": 22.5,
+   "opp": "DEN",
+   "player": "Kyrie Irving",
+   "player_id": "6442",
+   "price_observed_at": "2026-11-24T12:27:00Z",
+   "prob": 0.5796,
+   "prob_raw": 0.5936,
+   "side": "over",
+   "splits": [
+    {
+     "hits": 127,
+     "n": 204,
+     "rate": 0.623,
+     "split": "career"
+    },
+    {
+     "hits": 6,
+     "n": 14,
+     "rate": 0.429,
+     "split": "season"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "last5"
+    },
+    {
+     "hits": 5,
+     "n": 10,
+     "rate": 0.5,
+     "split": "last10"
+    },
+    {
+     "hits": 2,
+     "n": 5,
+     "rate": 0.4,
+     "split": "vs DEN"
+    },
+    {
+     "hits": 64,
+     "n": 102,
+     "rate": 0.627,
+     "split": "away"
+    },
+    {
+     "hits": 18,
+     "n": 34,
+     "rate": 0.529,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 68,
+     "n": 109,
+     "rate": 0.624,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 38,
+     "n": 54,
+     "rate": 0.704,
+     "split": "opp defence middle"
+    },
+    {
+     "hits": 6,
+     "n": 14,
+     "rate": 0.429,
+     "split": "with Cooper Flagg"
+    },
+    {
+     "hits": 41,
+     "n": 64,
+     "rate": 0.641,
+     "split": "without P.J. Washington"
+    },
+    {
+     "hits": 28,
+     "n": 51,
+     "rate": 0.549,
+     "split": "with Naji Marshall"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Kyrie Irving over 22.5 pts (@ DEN): p=0.580 (raw 0.594) vs DraftKings implied 0.535 EV +0.084 @ DraftKings | career 127/204, season 6/14, last5 2/5, last10 5/10, vs DEN 2/5, away 64/102, month 11 past seasons 18/34, rest 1 day 68/109, opp defence middle 38/54, with Cooper Flagg 6/14, without P.J. Washington 41/64, with Naji Marshall 28/51"
+  },
+  {
+   "book": "DraftKings",
+   "date": "2026-11-24",
+   "ev": -0.1923,
+   "fair": null,
+   "game_id": "401909316",
+   "home": false,
+   "implied": 0.5348,
+   "k": 40.0,
+   "line": 22.5,
+   "opp": "DEN",
+   "player": "Kyrie Irving",
+   "player_id": "6442",
+   "price_observed_at": "2026-11-24T12:27:00Z",
+   "prob": 0.4319,
+   "prob_raw": 0.4064,
+   "side": "under",
+   "splits": [
+    {
+     "hits": 77,
+     "n": 204,
+     "rate": 0.377,
+     "split": "career"
+    },
+    {
+     "hits": 8,
+     "n": 14,
+     "rate": 0.571,
+     "split": "season"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "last5"
+    },
+    {
+     "hits": 5,
+     "n": 10,
+     "rate": 0.5,
+     "split": "last10"
+    },
+    {
+     "hits": 3,
+     "n": 5,
+     "rate": 0.6,
+     "split": "vs DEN"
+    },
+    {
+     "hits": 38,
+     "n": 102,
+     "rate": 0.373,
+     "split": "away"
+    },
+    {
+     "hits": 16,
+     "n": 34,
+     "rate": 0.471,
+     "split": "month 11 past seasons"
+    },
+    {
+     "hits": 41,
+     "n": 109,
+     "rate": 0.376,
+     "split": "rest 1 day"
+    },
+    {
+     "hits": 16,
+     "n": 54,
+     "rate": 0.296,
+     "split": "opp defence middle"
+    },
+    {
+     "hits": 8,
+     "n": 14,
+     "rate": 0.571,
+     "split": "with Cooper Flagg"
+    },
+    {
+     "hits": 23,
+     "n": 64,
+     "rate": 0.359,
+     "split": "without P.J. Washington"
+    },
+    {
+     "hits": 23,
+     "n": 51,
+     "rate": 0.451,
+     "split": "with Naji Marshall"
+    }
+   ],
+   "stat": "pts",
+   "status": "research",
+   "text": "[research] Kyrie Irving under 22.5 pts (@ DEN): p=0.432 (raw 0.406) vs DraftKings implied 0.535 EV -0.192 @ DraftKings | career 77/204, season 8/14, last5 3/5, last10 5/10, vs DEN 3/5, away 38/102, month 11 past seasons 16/34, rest 1 day 41/109, opp defence middle 16/54, with Cooper Flagg 8/14, without P.J. Washington 23/64, with Naji Marshall 23/51"
   },
   {
    "book": "DraftKings",
@@ -28213,389 +28973,9 @@
    "stat": "reb",
    "status": "research",
    "text": "[research] Kyrie Irving under 3.5 reb (@ DEN): p=0.384 (raw 0.347) vs DraftKings implied 0.578 EV -0.335 @ DraftKings | career 67/204, season 7/14, last5 2/5, last10 5/10, vs DEN 1/5, away 39/102, month 11 past seasons 13/34, rest 1 day 29/109, opp defence middle 13/53, with Cooper Flagg 7/14, without P.J. Washington 19/64, with Naji Marshall 19/51"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-11-24",
-   "ev": 0.0664,
-   "fair": null,
-   "game_id": "401909316",
-   "home": false,
-   "implied": 0.5435,
-   "k": 40.0,
-   "line": 22.5,
-   "opp": "DEN",
-   "player": "Kyrie Irving",
-   "player_id": "6442",
-   "price_observed_at": "2026-11-24T12:27:00Z",
-   "prob": 0.5796,
-   "prob_raw": 0.5936,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 127,
-     "n": 204,
-     "rate": 0.623,
-     "split": "career"
-    },
-    {
-     "hits": 6,
-     "n": 14,
-     "rate": 0.429,
-     "split": "season"
-    },
-    {
-     "hits": 2,
-     "n": 5,
-     "rate": 0.4,
-     "split": "last5"
-    },
-    {
-     "hits": 5,
-     "n": 10,
-     "rate": 0.5,
-     "split": "last10"
-    },
-    {
-     "hits": 2,
-     "n": 5,
-     "rate": 0.4,
-     "split": "vs DEN"
-    },
-    {
-     "hits": 64,
-     "n": 102,
-     "rate": 0.627,
-     "split": "away"
-    },
-    {
-     "hits": 18,
-     "n": 34,
-     "rate": 0.529,
-     "split": "month 11 past seasons"
-    },
-    {
-     "hits": 68,
-     "n": 109,
-     "rate": 0.624,
-     "split": "rest 1 day"
-    },
-    {
-     "hits": 38,
-     "n": 54,
-     "rate": 0.704,
-     "split": "opp defence middle"
-    },
-    {
-     "hits": 6,
-     "n": 14,
-     "rate": 0.429,
-     "split": "with Cooper Flagg"
-    },
-    {
-     "hits": 41,
-     "n": 64,
-     "rate": 0.641,
-     "split": "without P.J. Washington"
-    },
-    {
-     "hits": 28,
-     "n": 51,
-     "rate": 0.549,
-     "split": "with Naji Marshall"
-    }
-   ],
-   "stat": "pts",
-   "status": "research",
-   "text": "[research] Kyrie Irving over 22.5 pts (@ DEN): p=0.580 (raw 0.594) vs DraftKings implied 0.543 EV +0.066 @ DraftKings | career 127/204, season 6/14, last5 2/5, last10 5/10, vs DEN 2/5, away 64/102, month 11 past seasons 18/34, rest 1 day 68/109, opp defence middle 38/54, with Cooper Flagg 6/14, without P.J. Washington 41/64, with Naji Marshall 28/51"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-11-24",
-   "ev": -0.2052,
-   "fair": null,
-   "game_id": "401909316",
-   "home": false,
-   "implied": 0.5435,
-   "k": 40.0,
-   "line": 22.5,
-   "opp": "DEN",
-   "player": "Kyrie Irving",
-   "player_id": "6442",
-   "price_observed_at": "2026-11-24T12:27:00Z",
-   "prob": 0.4319,
-   "prob_raw": 0.4064,
-   "side": "under",
-   "splits": [
-    {
-     "hits": 77,
-     "n": 204,
-     "rate": 0.377,
-     "split": "career"
-    },
-    {
-     "hits": 8,
-     "n": 14,
-     "rate": 0.571,
-     "split": "season"
-    },
-    {
-     "hits": 3,
-     "n": 5,
-     "rate": 0.6,
-     "split": "last5"
-    },
-    {
-     "hits": 5,
-     "n": 10,
-     "rate": 0.5,
-     "split": "last10"
-    },
-    {
-     "hits": 3,
-     "n": 5,
-     "rate": 0.6,
-     "split": "vs DEN"
-    },
-    {
-     "hits": 38,
-     "n": 102,
-     "rate": 0.373,
-     "split": "away"
-    },
-    {
-     "hits": 16,
-     "n": 34,
-     "rate": 0.471,
-     "split": "month 11 past seasons"
-    },
-    {
-     "hits": 41,
-     "n": 109,
-     "rate": 0.376,
-     "split": "rest 1 day"
-    },
-    {
-     "hits": 16,
-     "n": 54,
-     "rate": 0.296,
-     "split": "opp defence middle"
-    },
-    {
-     "hits": 8,
-     "n": 14,
-     "rate": 0.571,
-     "split": "with Cooper Flagg"
-    },
-    {
-     "hits": 23,
-     "n": 64,
-     "rate": 0.359,
-     "split": "without P.J. Washington"
-    },
-    {
-     "hits": 23,
-     "n": 51,
-     "rate": 0.451,
-     "split": "with Naji Marshall"
-    }
-   ],
-   "stat": "pts",
-   "status": "research",
-   "text": "[research] Kyrie Irving under 22.5 pts (@ DEN): p=0.432 (raw 0.406) vs DraftKings implied 0.543 EV -0.205 @ DraftKings | career 77/204, season 8/14, last5 3/5, last10 5/10, vs DEN 3/5, away 38/102, month 11 past seasons 16/34, rest 1 day 41/109, opp defence middle 16/54, with Cooper Flagg 8/14, without P.J. Washington 23/64, with Naji Marshall 23/51"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-11-24",
-   "ev": 0.0543,
-   "fair": null,
-   "game_id": "401909316",
-   "home": true,
-   "implied": 0.6667,
-   "k": 40.0,
-   "line": 1.5,
-   "opp": "DAL",
-   "player": "Aaron Gordon",
-   "player_id": "3064290",
-   "price_observed_at": "2026-11-24T16:03:10Z",
-   "prob": 0.7029,
-   "prob_raw": 0.744,
-   "side": "over",
-   "splits": [
-    {
-     "hits": 222,
-     "n": 292,
-     "rate": 0.76,
-     "split": "career"
-    },
-    {
-     "hits": 10,
-     "n": 15,
-     "rate": 0.667,
-     "split": "season"
-    },
-    {
-     "hits": 3,
-     "n": 5,
-     "rate": 0.6,
-     "split": "last5"
-    },
-    {
-     "hits": 6,
-     "n": 10,
-     "rate": 0.6,
-     "split": "last10"
-    },
-    {
-     "hits": 6,
-     "n": 7,
-     "rate": 0.857,
-     "split": "vs DAL"
-    },
-    {
-     "hits": 108,
-     "n": 146,
-     "rate": 0.74,
-     "split": "home"
-    },
-    {
-     "hits": 23,
-     "n": 34,
-     "rate": 0.676,
-     "split": "month 11 past seasons"
-    },
-    {
-     "hits": 130,
-     "n": 168,
-     "rate": 0.774,
-     "split": "rest 1 day"
-    },
-    {
-     "hits": 64,
-     "n": 85,
-     "rate": 0.753,
-     "split": "opp defence middle"
-    },
-    {
-     "hits": 202,
-     "n": 269,
-     "rate": 0.751,
-     "split": "with Nikola Jokic"
-    },
-    {
-     "hits": 184,
-     "n": 250,
-     "rate": 0.736,
-     "split": "with Jamal Murray"
-    },
-    {
-     "hits": 207,
-     "n": 272,
-     "rate": 0.761,
-     "split": "with Christian Braun"
-    }
-   ],
-   "stat": "ast",
-   "status": "research",
-   "text": "[research] Aaron Gordon over 1.5 ast (vs DAL): p=0.703 (raw 0.744) vs DraftKings implied 0.667 EV +0.054 @ DraftKings | career 222/292, season 10/15, last5 3/5, last10 6/10, vs DAL 6/7, home 108/146, month 11 past seasons 23/34, rest 1 day 130/168, opp defence middle 64/85, with Nikola Jokic 202/269, with Jamal Murray 184/250, with Christian Braun 207/272"
-  },
-  {
-   "book": "DraftKings",
-   "date": "2026-11-24",
-   "ev": -0.5395,
-   "fair": null,
-   "game_id": "401909316",
-   "home": true,
-   "implied": 0.6667,
-   "k": 40.0,
-   "line": 1.5,
-   "opp": "DAL",
-   "player": "Aaron Gordon",
-   "player_id": "3064290",
-   "price_observed_at": "2026-11-24T16:03:10Z",
-   "prob": 0.307,
-   "prob_raw": 0.256,
-   "side": "under",
-   "splits": [
-    {
-     "hits": 70,
-     "n": 292,
-     "rate": 0.24,
-     "split": "career"
-    },
-    {
-     "hits": 5,
-     "n": 15,
-     "rate": 0.333,
-     "split": "season"
-    },
-    {
-     "hits": 2,
-     "n": 5,
-     "rate": 0.4,
-     "split": "last5"
-    },
-    {
-     "hits": 4,
-     "n": 10,
-     "rate": 0.4,
-     "split": "last10"
-    },
-    {
-     "hits": 1,
-     "n": 7,
-     "rate": 0.143,
-     "split": "vs DAL"
-    },
-    {
-     "hits": 38,
-     "n": 146,
-     "rate": 0.26,
-     "split": "home"
-    },
-    {
-     "hits": 11,
-     "n": 34,
-     "rate": 0.324,
-     "split": "month 11 past seasons"
-    },
-    {
-     "hits": 38,
-     "n": 168,
-     "rate": 0.226,
-     "split": "rest 1 day"
-    },
-    {
-     "hits": 21,
-     "n": 85,
-     "rate": 0.247,
-     "split": "opp defence middle"
-    },
-    {
-     "hits": 67,
-     "n": 269,
-     "rate": 0.249,
-     "split": "with Nikola Jokic"
-    },
-    {
-     "hits": 66,
-     "n": 250,
-     "rate": 0.264,
-     "split": "with Jamal Murray"
-    },
-    {
-     "hits": 65,
-     "n": 272,
-     "rate": 0.239,
-     "split": "with Christian Braun"
-    }
-   ],
-   "stat": "ast",
-   "status": "research",
-   "text": "[research] Aaron Gordon under 1.5 ast (vs DAL): p=0.307 (raw 0.256) vs DraftKings implied 0.667 EV -0.539 @ DraftKings | career 70/292, season 5/15, last5 2/5, last10 4/10, vs DAL 1/7, home 38/146, month 11 past seasons 11/34, rest 1 day 38/168, opp defence middle 21/85, with Nikola Jokic 67/269, with Jamal Murray 66/250, with Christian Braun 65/272"
   }
  ],
- "run_id": "run-2026-11-24T16:03:10Z",
+ "run_id": "run-2026-11-24T16:33:45Z",
  "slate": "2026-11-24",
  "status": "research/watchlist only"
 }
