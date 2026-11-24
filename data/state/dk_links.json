@@ -1,7 +1,7 @@
 {
  "401909314": {
   "event_url": "https://sportsbook.draftkings.com/event/35068687",
-  "observed_at": "2026-11-24T15:32:34Z",
+  "observed_at": "2026-11-24T16:03:10Z",
   "outcomes": [
    {
     "line": null,
@@ -28,22 +28,22 @@
     "selection": "away"
    },
    {
-    "line": 214.5,
+    "line": 213.5,
     "market": "total",
-    "outcome_id": "0OU87369678O21450_1",
+    "outcome_id": "0OU87369678O21350_1",
     "selection": "over"
    },
    {
-    "line": 214.5,
+    "line": 213.5,
     "market": "total",
-    "outcome_id": "0OU87369678U21450_3",
+    "outcome_id": "0OU87369678U21350_3",
     "selection": "under"
    }
   ]
  },
  "401909315": {
   "event_url": "https://sportsbook.draftkings.com/event/34516245",
-  "observed_at": "2026-11-24T15:32:34Z",
+  "observed_at": "2026-11-24T16:03:10Z",
   "outcomes": [
    {
     "line": null,
@@ -85,7 +85,7 @@
  },
  "401909316": {
   "event_url": "https://sportsbook.draftkings.com/event/34516246",
-  "observed_at": "2026-11-24T15:32:34Z",
+  "observed_at": "2026-11-24T16:03:10Z",
   "outcomes": [
    {
     "line": null,
@@ -127,7 +127,7 @@
  },
  "401909317": {
   "event_url": "https://sportsbook.draftkings.com/event/34516249",
-  "observed_at": "2026-11-24T15:32:34Z",
+  "observed_at": "2026-11-24T16:03:10Z",
   "outcomes": [
    {
     "line": null,
@@ -169,7 +169,7 @@
  },
  "401909319": {
   "event_url": "https://sportsbook.draftkings.com/event/35075689",
-  "observed_at": "2026-11-24T15:32:34Z",
+  "observed_at": "2026-11-24T16:03:10Z",
   "outcomes": [
    {
     "line": null,
@@ -211,7 +211,7 @@
  },
  "401909320": {
   "event_url": "https://sportsbook.draftkings.com/event/34516252",
-  "observed_at": "2026-11-24T15:32:34Z",
+  "observed_at": "2026-11-24T16:03:10Z",
   "outcomes": [
    {
     "line": null,
@@ -253,7 +253,7 @@
  },
  "401909323": {
   "event_url": "https://sportsbook.draftkings.com/event/35075692",
-  "observed_at": "2026-11-24T15:32:34Z",
+  "observed_at": "2026-11-24T16:03:10Z",
   "outcomes": [
    {
     "line": null,
