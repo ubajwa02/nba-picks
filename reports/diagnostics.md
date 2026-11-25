@@ -1,9 +1,9 @@
-# Live diagnostics (2026-11-25T05:33:15Z)
+# Live diagnostics (2026-11-25T06:03:51Z)
 
-- **ml**: 733 settled, calibration error 0.078, log loss 0.6025 (market 0.5811), Brier drift -0.0180
-- **spread**: 812 settled, calibration error 0.066, log loss 0.7000 (market 0.6930), Brier drift -0.0049
-- **total**: 808 settled, calibration error 0.068, log loss 0.7034 (market 0.6921), Brier drift +0.0105
-- **prop**: 87736 settled, calibration error 0.025, log loss 0.4704 (market 0.6750), Brier drift +0.0248
+- **ml**: 736 settled, calibration error 0.075, log loss 0.6044 (market 0.5840), Brier drift -0.0157
+- **spread**: 814 settled, calibration error 0.065, log loss 0.6996 (market 0.6930), Brier drift -0.0046
+- **total**: 810 settled, calibration error 0.067, log loss 0.7031 (market 0.6921), Brier drift +0.0103
+- **prop**: 87987 settled, calibration error 0.025, log loss 0.4709 (market 0.6750), Brier drift +0.0248
 
 ## Findings
 - overconfident (ml): live log loss is worse than the de-vigged market
@@ -15,6 +15,6 @@
 - slow_adapt (prop): Brier worsened by 0.025 between halves
 
 ## Probation
-- ml: calibration error 0.078
-- spread: calibration error 0.066
-- total: calibration error 0.068
+- ml: calibration error 0.075
+- spread: calibration error 0.065
+- total: calibration error 0.067
