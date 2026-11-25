@@ -1,13 +1,51 @@
-# Pick review (cumulative, as of 2026-11-21)
+# Pick review (cumulative, as of 2026-11-25)
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 98-60 on 158 graded posted picks, +3.02u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 92-57 (+0.89u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 29-16 (+6.03u); gap<5pts 66-43 (-4.46u); gap>=15pts 3-1 (+1.44u).
+- 109-67 on 176 graded posted picks, +3.30u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 103-64 (+1.17u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 32-19 (+5.36u); gap<5pts 74-47 (-3.51u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 9-3 (+4.17u); moved away 12-1 (+5.70u); moved toward us 9-6 (+0.67u).
-- By prop split sample: fuller splits 33-26 (-5.09u); small-sample splits 56-25 (+9.07u).
-- Wider settled predictions (n=61166): model Brier 0.1619 vs book 0.1571 (lower is better).
+- By prop split sample: fuller splits 35-27 (-4.79u); small-sample splits 56-25 (+9.07u).
+- Wider settled predictions (n=64522): model Brier 0.1669 vs book 0.1624 (lower is better).
+
+## 2026-11-24
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Kyshawn George o3.5 ast | loss | -1.00 | 0.643 | 0.592 | +0.09 |  |  |
+| Kyrie Irving u3.5 fg3m | win | +0.60 | 0.627 | 0.625 | +0.00 |  |  |
+| Derrick White u13.5 pts | win | +0.84 | 0.618 | 0.543 | +0.14 |  |  |
+| Daniss Jenkins u2.5 fg3m | win | +0.52 | 0.635 | 0.657 | -0.03 |  |  |
+| Aaron Gordon u2.5 ast | loss | -1.00 | 0.642 | 0.649 | -0.01 |  |  |
+
+## 2026-11-23
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| VJ Edgecombe o5.5 reb | win | +0.70 | 0.615 | 0.589 | +0.04 |  |  |
+| Saddiq Bey u2.5 fg3m | win | +0.56 | 0.610 | 0.642 | -0.05 |  |  |
+| Jakob Poeltl u7.5 reb | loss | -1.00 | 0.626 | 0.569 | +0.10 |  |  |
+| Ja'Kobe Walter u13.5 pts | loss | -1.00 | 0.645 | 0.561 | +0.15 |  |  |
+| Donovan Mitchell o4.5 ast | win | +0.62 | 0.611 | 0.617 | -0.01 |  |  |
+
+## 2026-11-22
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Kyrie Irving u3.5 fg3m | loss | -1.00 | 0.652 | 0.636 | +0.02 |  |  |
+| Isaiah Hartenstein u4.5 ast | win | +0.62 | 0.642 | 0.617 | +0.04 |  |  |
+| Desmond Bane u19.5 pts | win | +0.86 | 0.601 | 0.537 | +0.12 |  |  |
+| Cooper Flagg o5.5 ast | loss | -1.00 | 0.627 | 0.606 | +0.03 |  |  |
+| Andrew Wiggins u1.5 fg3m | win | +0.66 | 0.618 | 0.603 | +0.02 |  |  |
+
+## 2026-11-21
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Nate Ament u3.5 reb | win | +0.67 | 0.621 | 0.598 | +0.04 |  | career 9/14, season 9/14, last10 6/10 |
+| Landry Shamet u2.5 fg3m | loss | -1.00 | 0.624 | 0.617 | +0.01 |  | career 186/240, season 10/15, last10 7/10 |
+| LaMelo Ball u5.5 reb | win | +0.63 | 0.684 | 0.614 | +0.11 |  | career 108/195, season 11/16, last10 5/10 |
 
 ## 2026-11-20
 
