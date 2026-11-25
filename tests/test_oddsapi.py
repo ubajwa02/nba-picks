@@ -28,9 +28,9 @@ def test_parse_event_links_props_and_game_lines():
     out = oddsapi.parse_event_links(EVENT, "LAC", "MIA")
     assert set(out) == {"draftkings", "fanduel"}
     dk = out["draftkings"]
-    assert dk == [dict(link="https://sportsbook.draftkings.com/event/1?outcomes=abc", sid="abc", market="prop", stat="reb",
+    assert dk == [dict(link="https://sportsbook.draftkings.com/event/1?outcomes=abc", sid="abc", price=-147, market="prop", stat="reb",
                        player="brook lopez", selection="over", line=4.5),
-                  dict(link="https://sportsbook.draftkings.com/event/1?outcomes=h", sid=None, market="spread",
+                  dict(link="https://sportsbook.draftkings.com/event/1?outcomes=h", sid=None, price=-110, market="spread",
                        selection="home", line=5.5)]   # no-link and off-host outcomes dropped
     fd = {o["market"]: o for o in out["fanduel"]}
     assert fd["prop"]["player"] == "pj washington" and fd["prop"]["stat"] == "fg3m"

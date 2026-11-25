@@ -23,10 +23,10 @@ markets:                         # status: research | paper | live (set by promo
 
 leans:                           # the daily posted leans (nbapicks/leans.py); fixed rule, never tuned on results
   min_prob: 0.60                 # model win chance
-  min_decimal: 1.5               # price of at least 1.50: no near-certain one-sided quotes
+  min_decimal: 1.588             # EXPERIMENT 2026-11-25: skip prices of -170 or shorter (was 1.5); ranked by edge over price
   min_last10: 5                  # games of recent history to judge the line against
-  max_leans: 6
-  per_game: 2
+  max_leans: 4                   # EXPERIMENT 2026-11-25 (was 6)
+  per_game: 1                    # EXPERIMENT 2026-11-25 (was 2): shared pace/blowout risk
 
 quality:
   max_odds_age_minutes: 120      # older quotes cannot qualify

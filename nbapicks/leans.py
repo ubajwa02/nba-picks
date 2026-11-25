@@ -92,7 +92,9 @@ def pick_leans(preds: list[dict], cfg: dict, slate: str, now_iso: str, pool: boo
         if p["player_id"] not in per_player or p["prob"] > per_player[p["player_id"]]["prob"]:
             per_player[p["player_id"]] = p
     out, per_game = [], {}
-    for p in sorted(per_player.values(), key=lambda p: -p["prob"]):
+    # experiment 2026-11-25: posted straights rank by edge over the price; the pool (parlays) still ranks by win chance
+    rank = (lambda p: -p["prob"]) if pool else (lambda p: -(p["prob"] - 1.0 / p["price_dec"]))
+    for p in sorted(per_player.values(), key=rank):
         if per_game.get(p["game_id"], 0) >= lc["per_game"]:
             continue
         per_game[p["game_id"]] = per_game.get(p["game_id"], 0) + 1

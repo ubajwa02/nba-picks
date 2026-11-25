@@ -56,3 +56,16 @@ def test_winning_parlay_pays_the_combined_price_on_one_unit():
     legs = [("win", american_to_decimal(-196)), ("win", american_to_decimal(-175))]
     result, net, eff = settle_parlay(legs, 1.0)
     assert result == "win" and abs(net - 1.3732) < 0.01          # about +137, not the sum of the legs' profits
+
+
+def test_posted_leans_experiment_caps_ranks_by_edge_and_skips_short_prices():
+    cfg = load_config(os.path.join(os.path.dirname(os.path.dirname(__file__)), "config", "nbapicks.yaml"))
+    def mk(pid, gid, prob, dec):
+        return dict(market="prop", category="straight", selection="over", game_id=gid, player_id=pid, player_name=f"P{pid}",
+                    stat="reb", line=5.5, prob=prob, price_dec=dec, decision="watch", inputs='{"explain": {"line_hits_last10": {"n": 10}}}')
+    preds = [mk("1", "g1", 0.75, 1.50),     # -200: too short, skipped
+             mk("2", "g1", 0.64, 1.70),     # edge 0.052
+             mk("3", "g1", 0.70, 1.70),     # edge 0.112: wins the one slot in g1
+             mk("4", "g2", 0.62, 1.65)]     # edge 0.014
+    got = LN.pick_leans(preds, cfg, "2026-11-26", "2026-11-26T00:00:00Z")
+    assert [g["player_id"] for g in got] == ["3", "4"]

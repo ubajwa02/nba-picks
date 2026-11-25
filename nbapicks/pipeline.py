@@ -806,7 +806,8 @@ def fd_filter(ctx: Ctx, preds: list[dict], slate: str):
     path = f"{ctx.root}/state/fd_props.json"
     cache = jload(path, {})
     if cache.get("slate") != slate:
-        cache = dict(slate=slate, games={}, props=[])
+        cache = dict(slate=slate, games={}, props=[], prices={})
+    cache.setdefault("prices", {})
     pool = LN.pick_leans(preds, ctx.cfg, slate, iso(ctx.now), pool=True)
     games = {g["game_id"]: g for g in ctx.store.q("SELECT game_id, home, away, start_utc FROM games")}
     need: dict[str, set] = defaultdict(set)
@@ -825,6 +826,7 @@ def fd_filter(ctx: Ctx, preds: list[dict], slate: str):
                     continue
                 books = oddsapi.parse_event_links(oddsapi.fetch_event_links(key, ev[gid], mks), games[gid]["home"], games[gid]["away"])
                 props |= oddsapi.fd_prop_set(books)
+                cache["prices"].update(oddsapi.fd_prop_prices(books))
                 cache["games"][gid] = sorted(set(cache["games"].get(gid) or []) | set(mks))
             cache["props"] = sorted(props)
             jsave(path, cache)
@@ -840,6 +842,26 @@ def fd_filter(ctx: Ctx, preds: list[dict], slate: str):
             return False                # no FanDuel data for this game: not bettable as far as we know
         return (oddsapi.norm_name(p.get("player_name") or p.get("player") or ""), p["stat"], p["selection"], float(p["line"])) in have
     return fd_ok, ""
+
+
+def _log_fd_prices(ctx: Ctx, leans: list[dict], preds: list[dict], slate: str) -> None:
+    """Experiment (2026-11-25): store the FanDuel American price seen when a lean is posted, so real
+    price and closing-line value can be measured later. Never raises; posting must not depend on it."""
+    try:
+        prices = jload(f"{ctx.root}/state/fd_props.json", {}).get("prices") or {}
+        names = {(str(p["game_id"]), str(p["player_id"])): oddsapi.norm_name(p.get("player_name") or p.get("player") or "") for p in preds}
+        rows = []
+        for l in leans:
+            nm = names.get((str(l["game_id"]), str(l["player_id"])), "")
+            rows.append(dict(slate=slate, at=iso(ctx.now), label=l["label"], game_id=l["game_id"], player_id=l["player_id"],
+                             stat=l["stat"], side=l["selection"], line=l["line"], dk_price_american=l["price_american"],
+                             fd_price_american=prices.get(f'{nm}|{l["stat"]}|{l["selection"]}|{float(l["line"])}'), stage="posted"))
+        if rows:
+            with open(f"{ctx.root}/ledger/fd_prices.jsonl", "a") as f:
+                for r in rows:
+                    f.write(json.dumps(r, sort_keys=True) + "\n")
+    except Exception as e:
+        ctx.fail("fd_price_log", e)
 
 
 def post_leans(ctx: Ctx) -> dict:
@@ -867,6 +889,7 @@ def post_leans(ctx: Ctx) -> dict:
             preds.append(dict(p, start_utc=(games.get(p["game_id"]) or {}).get("start_utc")))
     fd_ok, fd_note = fd_filter(ctx, preds, slate)
     leans = LN.pick_leans(preds, ctx.cfg, slate, iso(ctx.now), fd_ok=fd_ok)
+    _log_fd_prices(ctx, leans, preds, slate)
     for l in leans:
         LN.track.add(ctx.root, l)
     leans = [dict(l, lean_id=LN.track.lean_id(l)) for l in leans]

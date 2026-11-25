@@ -106,7 +106,7 @@ def parse_event_links(d: dict, home: str, away: str) -> dict:
                 if not link:
                     continue
                 name, point = o.get("name") or "", o.get("point")
-                r = dict(link=link, sid=o.get("sid"))
+                r = dict(link=link, sid=o.get("sid"), price=o.get("price"))
                 if mk in PROP_MARKETS:
                     if name not in ("Over", "Under") or point is None:
                         continue
@@ -130,6 +130,13 @@ def parse_event_links(d: dict, home: str, away: str) -> dict:
         if rows:
             out[book] = rows
     return out
+
+
+def fd_prop_prices(books: dict) -> dict:
+    """{player|stat|side|line: American price} for FanDuel prop outcomes that carry a price."""
+    return {f'{o["player"]}|{o["stat"]}|{o["selection"]}|{float(o["line"])}': o["price"]
+            for o in books.get("fanduel", []) if o.get("market") == "prop" and o.get("line") is not None
+            and o.get("player") and o.get("stat") and o.get("price")}
 
 
 def fd_prop_set(books: dict) -> set:
