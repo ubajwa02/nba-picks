@@ -103,3 +103,14 @@ def test_dashboard_american_ignores_infinite_and_nan_prices():
     from nbapicks.dashboard import american
     assert american(float("inf")) is None and american(float("nan")) is None
     assert american(1.5) == -200 and american(2.5) == 150
+
+
+def test_research_log_never_raises_and_never_touches_picks(tmp_path):
+    from nbapicks import researchlog
+    class Bad:
+        root = str(tmp_path)
+        store = None
+        now = __import__("datetime").datetime(2026, 11, 26, 16, tzinfo=__import__("datetime").timezone.utc)
+        def fail(self, *a, **k): pass
+    assert researchlog.log_features(Bad(), [dict(game_id="g", player_id="1", stat="reb", line=1.5, selection="over", label="x", prob=.6, price_american=-150)],
+                                    [], "2026-11-26", set()) == 0

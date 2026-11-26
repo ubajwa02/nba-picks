@@ -950,6 +950,12 @@ def post_leans(ctx: Ctx) -> dict:
     tickets, notes = LN.build_tickets(LN.pick_leans(preds, ctx.cfg, slate, iso(ctx.now), pool=True, fd_ok=fd_ok), ctx.cfg, slate,
                                       exclude_players={l["player_id"] for l in leans})
     tickets = _mark_tracked(ctx, tickets)
+    try:        # research-only feature log: reads the store, writes its own file, can never change a pick
+        from . import researchlog
+        pool_rows = LN.pick_leans(preds, ctx.cfg, slate, iso(ctx.now), pool=True, fd_ok=fd_ok)
+        researchlog.log_features(ctx, pool_rows, preds, slate, {str(l["player_id"]) for l in leans})
+    except Exception as e:
+        ctx.fail("research_log", e)
     if fd_note:
         notes = [fd_note] + notes
     if not leans:
