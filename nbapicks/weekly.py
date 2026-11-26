@@ -105,12 +105,15 @@ def judge_props(res: dict, champ: str, ch: str, gate: dict) -> dict:
 def forward_prop_check(store, gates: dict) -> dict:
     """Demote the prop model in use when its settled live predictions miss the calibration gate."""
     d = gates["demotion"]
-    rows = store.q("""SELECT p.prob, p.prob_push, p.model_version, e.result FROM predictions p
+    rows = store.q("""SELECT p.prob, p.prob_push, p.model_version, p.created_at, e.result FROM predictions p
                       JOIN pred_events e ON e.pred_id = p.pred_id AND e.type = 'settled'
                       WHERE p.origin = 'model' AND p.market = 'prop' AND p.prob IS NOT NULL""")
     champ = _champ()
     cur = (champ.get("props") or {}).get("model_id", "props-v0")
-    rs = [r for r in rows if r["model_version"] == cur and r["result"] in ("win", "loss")][-d["rolling_settled"]:]
+    # the rolling window starts when the model was (re)instated, so a reinstated model is not judged on its old tenure
+    since = (champ.get("props") or {}).get("since") or ""
+    rs = [r for r in rows if r["model_version"] == cur and r["result"] in ("win", "loss")
+          and str(r.get("created_at") or "")[:10] >= since][-d["rolling_settled"]:]
     if len(rs) < d["rolling_settled"]:
         return dict(model=cur, n=len(rs), action="none (too few settled)")
     ps = [r["prob"] / max(1e-9, 1 - (r["prob_push"] or 0)) for r in rs]

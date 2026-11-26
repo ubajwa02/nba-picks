@@ -60,6 +60,14 @@ def test_forward_check_keeps_a_calibrated_model_and_needs_a_sample(repo):
     assert weekly.forward_prop_check(s2, weekly._gates())["action"].startswith("none")
 
 
+def test_forward_check_ignores_predictions_from_before_the_model_was_reinstated(repo):
+    json.dump({"model_id": "x", "props": {"model_id": "props-v1", "since": "2026-11-27"}}, open("data/research/champion.json", "w"))
+    s = Store(None)
+    _settled_props(s, 160, 0.70, 0.45)           # badly calibrated, but created 2026-10-21, before `since`
+    out = weekly.forward_prop_check(s, weekly._gates())
+    assert out["action"].startswith("none") and out["n"] == 0
+
+
 def test_promotion_needs_a_passing_evaluation_and_a_review_file(repo):
     with pytest.raises(SystemExit):
         weekly.promote("props-v1", "team/reviews/missing.md")
