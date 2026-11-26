@@ -337,3 +337,9 @@ def test_top_players_keeps_ten_players_three_props_and_drops_junk_prices():
     top = dashboard.top_players(plist)
     assert len(top) == 10 and top[0]["player"] == "P11" and "Junk" not in [p["player"] for p in top]
     assert [x["prob"] for x in top[0]["props"]] == [0.61, 0.45, 0.44]
+
+
+def test_american_has_no_price_for_non_finite_odds():
+    from nbapicks.dashboard import american
+    assert american(float("inf")) is None
+    assert american(float("nan")) is None

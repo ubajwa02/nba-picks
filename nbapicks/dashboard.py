@@ -142,7 +142,7 @@ def _minutes(a, b):
 
 
 def american(dec):
-    if not dec or dec <= 1:
+    if not dec or dec <= 1 or dec == float("inf") or dec != dec:
         return None
     return round((dec - 1) * 100) if dec >= 2 else -round(100 / (dec - 1))
 
