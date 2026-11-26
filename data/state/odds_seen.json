@@ -32131,7 +32131,7 @@
  },
  "401909326|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    2.42,
@@ -32141,7 +32141,7 @@
  },
  "401909326|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    2.64,
@@ -32151,7 +32151,7 @@
  },
  "401909326|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    1.5917,
@@ -32161,7 +32161,7 @@
  },
  "401909326|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    1.5051,
@@ -32171,7 +32171,7 @@
  },
  "401909326|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    3.5,
    1.9524,
@@ -32181,7 +32181,7 @@
  },
  "401909326|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -5.5,
    1.9091,
@@ -32191,7 +32191,7 @@
  },
  "401909326|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -3.5,
    1.8696,
@@ -32201,7 +32201,7 @@
  },
  "401909326|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    5.5,
    1.9091,
@@ -32210,18 +32210,18 @@
   "snap_id": "399eb158a0b0583e"
  },
  "401909326|total|over||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
-   224.5,
-   1.9524,
+   223.5,
+   1.8696,
    null
   ],
-  "snap_id": "d6408f0ef3b5105a"
+  "snap_id": "4c61e0c4ef1e1617"
  },
  "401909326|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    232.5,
    1.9091,
@@ -32230,18 +32230,18 @@
   "snap_id": "773f94037efc0a3a"
  },
  "401909326|total|under||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
-   224.5,
-   1.8696,
+   223.5,
+   1.9524,
    null
   ],
-  "snap_id": "ec51cc9f2b0f58c2"
+  "snap_id": "05fb66ee1fb1f496"
  },
  "401909326|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    232.5,
    1.9091,
@@ -32250,18 +32250,18 @@
   "snap_id": "74d195b19ff85f94"
  },
  "401909327|ml|away||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
-   4.71,
+   4.2,
    null
   ],
-  "snap_id": "df3de9b88da5dba6"
+  "snap_id": "dc6952da0aeb10b6"
  },
  "401909327|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    5.2,
@@ -32270,18 +32270,18 @@
   "snap_id": "5dfac892f2e7b791"
  },
  "401909327|ml|home||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
-   1.2066,
+   1.2457,
    null
   ],
-  "snap_id": "d6b8d6264d2a9b29"
+  "snap_id": "2f01866bf8b7d5fe"
  },
  "401909327|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    1.1783,
@@ -32290,18 +32290,18 @@
   "snap_id": "a0681ba395303b30"
  },
  "401909327|spread|away||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
-   11.5,
-   1.9091,
+   9.5,
+   1.8929,
    null
   ],
-  "snap_id": "ecc07c3c748e07b2"
+  "snap_id": "b9c05ddae95b6f12"
  },
  "401909327|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    11.5,
    1.9091,
@@ -32310,18 +32310,18 @@
   "snap_id": "9520eabee964aa77"
  },
  "401909327|spread|home||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
-   -11.5,
-   1.9091,
+   -9.5,
+   1.9259,
    null
   ],
-  "snap_id": "4a49752a11ababdd"
+  "snap_id": "78a6ac941807e98e"
  },
  "401909327|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -11.5,
    1.9091,
@@ -32330,18 +32330,18 @@
   "snap_id": "43c4008584bca314"
  },
  "401909327|total|over||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
-   220.5,
+   218.5,
    1.9091,
    null
   ],
-  "snap_id": "9d62ef134c024590"
+  "snap_id": "9605b28e0d6a45af"
  },
  "401909327|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    221.5,
    1.9091,
@@ -32350,18 +32350,18 @@
   "snap_id": "d3d30a9af8d93981"
  },
  "401909327|total|under||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
-   220.5,
+   218.5,
    1.9091,
    null
   ],
-  "snap_id": "20798ce4e2e178a4"
+  "snap_id": "c31092ceb406f7e7"
  },
  "401909327|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    221.5,
    1.9091,
@@ -32371,7 +32371,7 @@
  },
  "401909328|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    1.6452,
@@ -32381,7 +32381,7 @@
  },
  "401909328|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    1.5405,
@@ -32391,7 +32391,7 @@
  },
  "401909328|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    2.3,
@@ -32401,7 +32401,7 @@
  },
  "401909328|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    2.55,
@@ -32410,18 +32410,18 @@
   "snap_id": "bcbf29dc17f265f2"
  },
  "401909328|spread|away||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
-   -3.5,
-   1.9259,
+   -1.5,
+   1.8772,
    null
   ],
-  "snap_id": "5e05a7fce532450a"
+  "snap_id": "4d06f1c09083ae18"
  },
  "401909328|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -4.5,
    1.9091,
@@ -32430,18 +32430,18 @@
   "snap_id": "b866bc35fda160c2"
  },
  "401909328|spread|home||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
-   3.5,
-   1.8929,
+   1.5,
+   1.9434,
    null
   ],
-  "snap_id": "7606024e01c32ce0"
+  "snap_id": "a48f323974ceb173"
  },
  "401909328|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    4.5,
    1.9091,
@@ -32450,18 +32450,18 @@
   "snap_id": "8d099aa4b662f86d"
  },
  "401909328|total|over||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    232.5,
-   1.9091,
+   1.9259,
    null
   ],
-  "snap_id": "7a7f3d454dc11007"
+  "snap_id": "c334c13a5f5da790"
  },
  "401909328|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    234.5,
    1.9091,
@@ -32470,18 +32470,18 @@
   "snap_id": "e17d8690a9d3dbdb"
  },
  "401909328|total|under||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    232.5,
-   1.9091,
+   1.8929,
    null
   ],
-  "snap_id": "49ca5667705f7b4c"
+  "snap_id": "a7171d4ff38aad54"
  },
  "401909328|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    234.5,
    1.9091,
@@ -32491,7 +32491,7 @@
  },
  "401909329|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    3.68,
@@ -32501,7 +32501,7 @@
  },
  "401909329|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    3.68,
@@ -32511,7 +32511,7 @@
  },
  "401909329|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    1.3003,
@@ -32521,7 +32521,7 @@
  },
  "401909329|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    1.3003,
@@ -32531,7 +32531,7 @@
  },
  "401909329|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    7.5,
    1.9524,
@@ -32541,7 +32541,7 @@
  },
  "401909329|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    7.5,
    1.9524,
@@ -32551,7 +32551,7 @@
  },
  "401909329|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -7.5,
    1.8696,
@@ -32561,7 +32561,7 @@
  },
  "401909329|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -7.5,
    1.8696,
@@ -32570,18 +32570,18 @@
   "snap_id": "f0babe577cbf8cc5"
  },
  "401909329|total|over||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
-   220.5,
-   1.9434,
+   219.5,
+   1.8696,
    null
   ],
-  "snap_id": "bcc48b89ea0fcfdc"
+  "snap_id": "af000f3a52bd5b58"
  },
  "401909329|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    221.5,
    1.9091,
@@ -32590,18 +32590,18 @@
   "snap_id": "282ca6676825d7ad"
  },
  "401909329|total|under||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
-   220.5,
-   1.8772,
+   219.5,
+   1.9524,
    null
   ],
-  "snap_id": "7660539a313f0fda"
+  "snap_id": "4bcc0bb175dab3af"
  },
  "401909329|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    221.5,
    1.9091,
@@ -32610,18 +32610,18 @@
   "snap_id": "f5dca313d3d062ff"
  },
  "401909330|ml|away||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
-   4.22,
+   4.41,
    null
   ],
-  "snap_id": "8482a0dcc339b7e5"
+  "snap_id": "bc3ae3cd66122627"
  },
  "401909330|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    3.88,
@@ -32630,18 +32630,18 @@
   "snap_id": "ee87b5c2b918b82d"
  },
  "401909330|ml|home||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
-   1.2439,
+   1.2283,
    null
   ],
-  "snap_id": "8620d4cccf6e9332"
+  "snap_id": "de953093ae7e696b"
  },
  "401909330|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    1.277,
@@ -32651,7 +32651,7 @@
  },
  "401909330|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    9.5,
    1.9091,
@@ -32661,7 +32661,7 @@
  },
  "401909330|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    9.5,
    1.9091,
@@ -32671,7 +32671,7 @@
  },
  "401909330|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -9.5,
    1.9091,
@@ -32681,7 +32681,7 @@
  },
  "401909330|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -9.5,
    1.9091,
@@ -32690,18 +32690,18 @@
   "snap_id": "c9beb9db5937ff17"
  },
  "401909330|total|over||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
-   221.5,
-   1.9091,
+   222.5,
+   1.9346,
    null
   ],
-  "snap_id": "935a04ee5c536b60"
+  "snap_id": "200dec1f10b870e9"
  },
  "401909330|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    222.5,
    1.8772,
@@ -32710,18 +32710,18 @@
   "snap_id": "9fd39c36181d272f"
  },
  "401909330|total|under||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
-   221.5,
-   1.9091,
+   222.5,
+   1.885,
    null
   ],
-  "snap_id": "a4186e281ded6e2d"
+  "snap_id": "4cd476230283344b"
  },
  "401909330|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    222.5,
    1.9434,
@@ -32730,18 +32730,18 @@
   "snap_id": "11ce0bfcc6f558fe"
  },
  "401909331|ml|away||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
-   2.24,
+   2.36,
    null
   ],
-  "snap_id": "da1d4cc15574653a"
+  "snap_id": "abf08106189c8edc"
  },
  "401909331|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    2.17,
@@ -32750,18 +32750,18 @@
   "snap_id": "d652e0e3238abc78"
  },
  "401909331|ml|home||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
-   1.6757,
+   1.6173,
    null
   ],
-  "snap_id": "110f1ebc48efb355"
+  "snap_id": "2eef7ae4358708da"
  },
  "401909331|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    1.7194,
@@ -32771,7 +32771,7 @@
  },
  "401909331|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    3.5,
    1.8929,
@@ -32781,7 +32781,7 @@
  },
  "401909331|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    2.5,
    1.9259,
@@ -32791,7 +32791,7 @@
  },
  "401909331|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -3.5,
    1.9259,
@@ -32801,7 +32801,7 @@
  },
  "401909331|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -2.5,
    1.8929,
@@ -32811,7 +32811,7 @@
  },
  "401909331|total|over||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    220.5,
    1.9259,
@@ -32821,7 +32821,7 @@
  },
  "401909331|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    223.5,
    1.9091,
@@ -32831,7 +32831,7 @@
  },
  "401909331|total|under||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    220.5,
    1.8929,
@@ -32841,7 +32841,7 @@
  },
  "401909331|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    223.5,
    1.9091,
@@ -32851,7 +32851,7 @@
  },
  "401909332|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    2.2,
@@ -32861,7 +32861,7 @@
  },
  "401909332|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    2.2,
@@ -32871,7 +32871,7 @@
  },
  "401909332|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    1.7042,
@@ -32881,7 +32881,7 @@
  },
  "401909332|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    1.7042,
@@ -32890,18 +32890,18 @@
   "snap_id": "d0b064eb633b0e4d"
  },
  "401909332|spread|away||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
-   2.5,
-   1.9434,
+   1.5,
+   1.9709,
    null
   ],
-  "snap_id": "2eb6048e18a42034"
+  "snap_id": "3a733f873ea1e4ae"
  },
  "401909332|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    3.5,
    1.8772,
@@ -32910,18 +32910,18 @@
   "snap_id": "5946adca297ce38b"
  },
  "401909332|spread|home||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
-   -2.5,
-   1.8772,
+   -1.5,
+   1.8547,
    null
   ],
-  "snap_id": "804f29168063aa17"
+  "snap_id": "8ad175b612e39bf7"
  },
  "401909332|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -3.5,
    1.9434,
@@ -32931,7 +32931,7 @@
  },
  "401909332|total|over||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    227.5,
    1.9091,
@@ -32941,7 +32941,7 @@
  },
  "401909332|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    227.5,
    1.9091,
@@ -32951,7 +32951,7 @@
  },
  "401909332|total|under||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    227.5,
    1.9091,
@@ -32961,7 +32961,7 @@
  },
  "401909332|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    227.5,
    1.9091,
@@ -32971,7 +32971,7 @@
  },
  "401909333|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    2.71,
@@ -32981,7 +32981,7 @@
  },
  "401909333|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    3.3,
@@ -32991,7 +32991,7 @@
  },
  "401909333|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    1.4878,
@@ -33001,7 +33001,7 @@
  },
  "401909333|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    1.3509,
@@ -33011,7 +33011,7 @@
  },
  "401909333|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    5.5,
    1.8621,
@@ -33021,7 +33021,7 @@
  },
  "401909333|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -7.5,
    1.9804,
@@ -33031,7 +33031,7 @@
  },
  "401909333|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -5.5,
    1.9615,
@@ -33041,7 +33041,7 @@
  },
  "401909333|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    7.5,
    1.8475,
@@ -33050,18 +33050,18 @@
   "snap_id": "d2459111b84974f0"
  },
  "401909333|total|over||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
-   225.5,
-   1.9259,
+   224.5,
+   1.8696,
    null
   ],
-  "snap_id": "b88c29b574e3b68a"
+  "snap_id": "9c3c4bd5e48ac0f1"
  },
  "401909333|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    232.5,
    1.9091,
@@ -33070,18 +33070,18 @@
   "snap_id": "ff73eec87fe43260"
  },
  "401909333|total|under||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
-   225.5,
-   1.8929,
+   224.5,
+   1.9524,
    null
   ],
-  "snap_id": "d10ac46af84b52d5"
+  "snap_id": "6b5b7bb63494d361"
  },
  "401909333|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    232.5,
    1.9091,
@@ -33090,18 +33090,18 @@
   "snap_id": "5866e6c16e5fc8dd"
  },
  "401909334|ml|away||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
-   1.2404,
+   1.2283,
    null
   ],
-  "snap_id": "4e0d42004ec3c34c"
+  "snap_id": "4f2b7da7eb9f659a"
  },
  "401909334|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    1.2976,
@@ -33110,18 +33110,18 @@
   "snap_id": "37746b2a5f5cca43"
  },
  "401909334|ml|home||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
-   4.26,
+   4.41,
    null
   ],
-  "snap_id": "b394f158171d2ff7"
+  "snap_id": "f04b0efe9651edfd"
  },
  "401909334|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    3.7,
@@ -33131,7 +33131,7 @@
  },
  "401909334|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -9.5,
    1.885,
@@ -33141,7 +33141,7 @@
  },
  "401909334|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -9.5,
    1.9091,
@@ -33151,7 +33151,7 @@
  },
  "401909334|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    9.5,
    1.9346,
@@ -33161,7 +33161,7 @@
  },
  "401909334|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    9.5,
    1.9091,
@@ -33170,18 +33170,18 @@
   "snap_id": "fa2c7594c682a092"
  },
  "401909334|total|over||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
-   229.5,
-   1.8929,
+   228.5,
+   1.9346,
    null
   ],
-  "snap_id": "afbcaabd95fd9935"
+  "snap_id": "b3b2375f41ae0e8d"
  },
  "401909334|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    228.5,
    1.9434,
@@ -33190,18 +33190,18 @@
   "snap_id": "12e6428766fdbceb"
  },
  "401909334|total|under||||DraftKings|espn|current": {
-  "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "first_seen": "2026-11-26T23:39:39Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
-   229.5,
-   1.9259,
+   228.5,
+   1.885,
    null
   ],
-  "snap_id": "032b5fede2258c96"
+  "snap_id": "81b98ad621c1e8fc"
  },
  "401909334|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T15:04:34Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    228.5,
    1.8772,
@@ -33211,7 +33211,7 @@
  },
  "401909335|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    2.36,
@@ -33221,7 +33221,7 @@
  },
  "401909335|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    2.24,
@@ -33231,7 +33231,7 @@
  },
  "401909335|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    1.6173,
@@ -33241,7 +33241,7 @@
  },
  "401909335|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    1.6803,
@@ -33251,7 +33251,7 @@
  },
  "401909335|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    3.5,
    1.885,
@@ -33261,7 +33261,7 @@
  },
  "401909335|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    2.5,
    1.9091,
@@ -33271,7 +33271,7 @@
  },
  "401909335|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -3.5,
    1.9346,
@@ -33281,7 +33281,7 @@
  },
  "401909335|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -2.5,
    1.9091,
@@ -33291,7 +33291,7 @@
  },
  "401909335|total|over||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    231.5,
    1.9091,
@@ -33301,7 +33301,7 @@
  },
  "401909335|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    228.5,
    1.9091,
@@ -33311,7 +33311,7 @@
  },
  "401909335|total|under||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    231.5,
    1.9091,
@@ -33321,7 +33321,7 @@
  },
  "401909335|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    228.5,
    1.9091,
@@ -33331,7 +33331,7 @@
  },
  "401909336|ml|away||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    3.76,
@@ -33341,7 +33341,7 @@
  },
  "401909336|ml|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    3.62,
@@ -33351,7 +33351,7 @@
  },
  "401909336|ml|home||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    1.2907,
@@ -33361,7 +33361,7 @@
  },
  "401909336|ml|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    null,
    1.3077,
@@ -33371,7 +33371,7 @@
  },
  "401909336|spread|away||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    8.5,
    1.885,
@@ -33381,7 +33381,7 @@
  },
  "401909336|spread|away||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    9.5,
    1.9091,
@@ -33391,7 +33391,7 @@
  },
  "401909336|spread|home||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -8.5,
    1.9346,
@@ -33401,7 +33401,7 @@
  },
  "401909336|spread|home||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    -9.5,
    1.9091,
@@ -33411,7 +33411,7 @@
  },
  "401909336|total|over||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    220.5,
    1.9259,
@@ -33421,7 +33421,7 @@
  },
  "401909336|total|over||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    221.5,
    1.9091,
@@ -33431,7 +33431,7 @@
  },
  "401909336|total|under||||DraftKings|espn|current": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    220.5,
    1.8929,
@@ -33441,7 +33441,7 @@
  },
  "401909336|total|under||||DraftKings|espn|open": {
   "first_seen": "2026-11-26T21:38:12Z",
-  "last_seen": "2026-11-26T21:38:12Z",
+  "last_seen": "2026-11-26T23:39:39Z",
   "sig": [
    221.5,
    1.9091,
