@@ -142,8 +142,8 @@ def _minutes(a, b):
 
 
 def american(dec):
-    if not dec or dec <= 1:
-        return None
+    if not dec or dec <= 1 or dec != dec or dec == float("inf"):
+        return None                       # no price, or an unreachable one (min_price_dec can be infinity)
     return round((dec - 1) * 100) if dec >= 2 else -round(100 / (dec - 1))
 
 

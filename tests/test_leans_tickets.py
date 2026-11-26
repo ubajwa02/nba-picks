@@ -98,3 +98,8 @@ def test_tickets_are_tracked_only_when_posting_is_off():
     on = dict(cfg, tickets={"post": True})
     assert PL._mark_tracked(SimpleNamespace(cfg=on), tickets) == tickets
     assert PL.tickets_posted({}) is True             # no setting: post as before
+
+def test_dashboard_american_ignores_infinite_and_nan_prices():
+    from nbapicks.dashboard import american
+    assert american(float("inf")) is None and american(float("nan")) is None
+    assert american(1.5) == -200 and american(2.5) == 150
