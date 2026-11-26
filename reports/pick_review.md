@@ -1,13 +1,24 @@
-# Pick review (cumulative, as of 2026-11-25)
+# Pick review (cumulative, as of 2026-11-26)
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 109-67 on 176 graded posted picks, +3.30u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 103-64 (+1.17u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 32-19 (+5.36u); gap<5pts 74-47 (-3.51u); gap>=15pts 3-1 (+1.44u).
+- 113-69 on 182 graded posted picks, +3.66u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 107-66 (+1.52u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 33-20 (+4.95u); gap<5pts 77-48 (-2.73u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 9-3 (+4.17u); moved away 12-1 (+5.70u); moved toward us 9-6 (+0.67u).
 - By prop split sample: fuller splits 35-27 (-4.79u); small-sample splits 56-25 (+9.07u).
-- Wider settled predictions (n=64522): model Brier 0.1669 vs book 0.1624 (lower is better).
+- Wider settled predictions (n=65742): model Brier 0.1685 vs book 0.1641 (lower is better).
+
+## 2026-11-25
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Terrence Shannon Jr. o2.5 reb | loss | -1.00 | 0.641 | 0.628 | +0.02 |  |  |
+| Ryan Rollins u4.5 ast | win | +0.60 | 0.654 | 0.625 | +0.05 |  |  |
+| Rui Hachimura o1.5 fg3m | loss | -1.00 | 0.669 | 0.585 | +0.14 |  |  |
+| Michael Porter Jr. u3.5 fg3m | win | +0.56 | 0.647 | 0.642 | +0.01 |  |  |
+| Jaylen Wells u1.5 ast | win | +0.58 | 0.716 | 0.632 | +0.13 |  |  |
+| Damian Lillard u3.5 reb | win | +0.62 | 0.633 | 0.617 | +0.03 |  |  |
 
 ## 2026-11-24
 
