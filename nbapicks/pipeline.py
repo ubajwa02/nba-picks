@@ -864,6 +864,59 @@ def _log_fd_prices(ctx: Ctx, leans: list[dict], preds: list[dict], slate: str) -
         ctx.fail("fd_price_log", e)
 
 
+def log_fd_closing(ctx: Ctx) -> dict:
+    """Experiment (2026-11-25): for today's posted leans whose game tips off within 40 minutes, store the
+    FanDuel American price once (stage 'close'), next to the 'posted' row, so closing-line value is measurable.
+    Runs inside the 'leans' step on every runner pass; never raises and never blocks posting."""
+    try:
+        key = oddsapi.api_key()
+        slate = ctx.today.isoformat()
+        if not key:
+            return dict(close_logged=0, skipped="no odds key")
+        path = f"{ctx.root}/ledger/fd_prices.jsonl"
+        done = set()
+        if os.path.exists(path):
+            for x in open(path):
+                r = json.loads(x)
+                if r.get("stage") == "close" and r.get("slate") == slate:
+                    done.add((str(r["game_id"]), str(r["player_id"]), r["stat"], r["side"], float(r["line"])))
+        games = {g["game_id"]: g for g in ctx.store.q("SELECT game_id, home, away, start_utc FROM games")}
+        due = {}
+        for l in LN.track.load(ctx.root):
+            if l.get("slate") != slate or str(l["game_id"]) not in {str(k) for k in games}:
+                continue
+            g = games[next(k for k in games if str(k) == str(l["game_id"]))]
+            mins = (parse_t(g["start_utc"]) - ctx.now).total_seconds() / 60 if g.get("start_utc") else None
+            if mins is None or not (0 <= mins <= 40):
+                continue
+            if (str(l["game_id"]), str(l["player_id"]), l["stat"], l["selection"], float(l["line"])) in done:
+                continue
+            due.setdefault(str(g["game_id"]), (g, []))[1].append(l)
+        if not due:
+            return dict(close_logged=0)
+        ev = oddsapi.match_events(oddsapi.fetch_events(key), [g for g, _ in due.values()])
+        n = 0
+        with open(path, "a") as fh:
+            for gid, (g, ls) in due.items():
+                if gid not in ev:
+                    continue
+                mks = sorted({oddsapi.market_key(l) for l in ls} - {None})
+                prices = oddsapi.fd_prop_prices(oddsapi.parse_event_links(oddsapi.fetch_event_links(key, ev[gid], mks), g["home"], g["away"]))
+                names = {(str(p["game_id"]), str(p["player_id"])): oddsapi.norm_name(p.get("player_name") or p.get("player") or "")
+                         for p in ctx.store.q("SELECT game_id, player_id, player_name FROM predictions WHERE market = 'prop' AND game_id = ?", (g["game_id"],))}
+                for l in ls:
+                    nm = names.get((gid, str(l["player_id"])), "")
+                    fh.write(json.dumps(dict(slate=slate, at=iso(ctx.now), label=l["label"], game_id=l["game_id"], player_id=l["player_id"],
+                                             stat=l["stat"], side=l["selection"], line=l["line"], stage="close",
+                                             fd_price_american=prices.get(f'{nm}|{l["stat"]}|{l["selection"]}|{float(l["line"])}')),
+                                        sort_keys=True) + "\n")
+                    n += 1
+        return dict(close_logged=n)
+    except Exception as e:
+        ctx.fail("fd_price_log", e)
+        return dict(close_logged=0, error=str(e)[:120])
+
+
 def post_leans(ctx: Ctx) -> dict:
     """Post today's leans, parlays and lotto once per slate (nbapicks/leans.py has the rule)."""
     slate = ctx.today.isoformat()
@@ -1267,6 +1320,8 @@ def main(argv=None):
                 r = publish_picks(ctx)
             elif s == "leans":
                 r = post_leans(ctx)
+                if isinstance(r, dict):
+                    r = dict(r, **log_fd_closing(ctx))
             elif s == "settle":
                 r = settle(ctx)
             elif s == "recap":

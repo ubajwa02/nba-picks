@@ -69,3 +69,18 @@ def test_posted_leans_experiment_caps_ranks_by_edge_and_skips_short_prices():
              mk("4", "g2", 0.62, 1.65)]     # edge 0.014
     got = LN.pick_leans(preds, cfg, "2026-11-26", "2026-11-26T00:00:00Z")
     assert [g["player_id"] for g in got] == ["3", "4"]
+
+
+def test_closing_price_logger_never_raises_without_odds_key(tmp_path, monkeypatch):
+    from nbapicks import pipeline
+    monkeypatch.setattr(pipeline.oddsapi, "api_key", lambda: None)
+    class Ctx:
+        root = str(tmp_path)
+        import datetime as _d
+        today = _d.date(2026, 11, 26)
+        def fail(self, *a, **k): pass
+    assert pipeline.log_fd_closing(Ctx())["close_logged"] == 0
+    class Bad(Ctx):
+        pass
+    monkeypatch.setattr(pipeline.oddsapi, "api_key", lambda: "k")
+    assert pipeline.log_fd_closing(Bad())["close_logged"] == 0     # missing store/now: swallowed, not raised
