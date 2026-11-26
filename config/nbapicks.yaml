@@ -13,6 +13,10 @@ targets:                         # maxima, never quotas
   parlay: 2                    # owner 2026-10-27: always 2 parlays and 1 lotto a day (highest win chance), research only
   lotto: 1
 
+tickets:                         # the daily parlays and lotto (nbapicks/leans.py build_tickets)
+  post: false                    # owner 2026-11-25: track only. Still built, saved and graded, never shown as picks
+                                 # (no Today card, no bet links, not in data.json tickets.rows). true = post again.
+
 markets:                         # status: research | paper | live (set by promotion decisions)
   ml:     {enabled: true, status: research, min_ev: 0.03}
   spread: {enabled: true, status: research, min_ev: 0.03}

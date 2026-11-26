@@ -84,3 +84,17 @@ def test_closing_price_logger_never_raises_without_odds_key(tmp_path, monkeypatc
         pass
     monkeypatch.setattr(pipeline.oddsapi, "api_key", lambda: "k")
     assert pipeline.log_fd_closing(Bad())["close_logged"] == 0     # missing store/now: swallowed, not raised
+
+
+def test_tickets_are_tracked_only_when_posting_is_off():
+    from types import SimpleNamespace
+    from nbapicks import pipeline as PL
+    cfg = load_config(os.path.join(os.path.dirname(os.path.dirname(__file__)), "config", "nbapicks.yaml"))
+    assert cfg["tickets"]["post"] is False          # owner 2026-11-25: parlays and lotto are track only
+    tickets, _ = LN.build_tickets([_lean(i, f"g{i}", prob=0.7 - i * 0.02) for i in range(1, 11)], cfg, "2026-10-27")
+    tracked = PL._mark_tracked(SimpleNamespace(cfg=cfg), tickets)
+    assert tracked and all(t["tracked_only"] for t in tracked)
+    assert [t["ticket_id"] for t in tracked] == [t["ticket_id"] for t in tickets]   # same tickets, still graded
+    on = dict(cfg, tickets={"post": True})
+    assert PL._mark_tracked(SimpleNamespace(cfg=on), tickets) == tickets
+    assert PL.tickets_posted({}) is True             # no setting: post as before

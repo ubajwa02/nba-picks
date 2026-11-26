@@ -135,7 +135,8 @@ def book_links(ctx: Ctx) -> dict:
     today = ctx.today.isoformat()
     need: dict[str, set] = defaultdict(set)
     rows = [l for l in track.load(ctx.root) if l.get("slate") == today]
-    rows += [leg for t in LN.load_tickets(ctx.root) if t.get("slate") == today for leg in t.get("legs") or []]
+    rows += [leg for t in LN.load_tickets(ctx.root) if t.get("slate") == today and not t.get("tracked_only")
+             for leg in t.get("legs") or []]
     for r in rows:
         mk = oddsapi.market_key(r)
         if mk and r.get("game_id"):
@@ -948,6 +949,7 @@ def post_leans(ctx: Ctx) -> dict:
     leans = [dict(l, lean_id=LN.track.lean_id(l)) for l in leans]
     tickets, notes = LN.build_tickets(LN.pick_leans(preds, ctx.cfg, slate, iso(ctx.now), pool=True, fd_ok=fd_ok), ctx.cfg, slate,
                                       exclude_players={l["player_id"] for l in leans})
+    tickets = _mark_tracked(ctx, tickets)
     if fd_note:
         notes = [fd_note] + notes
     if not leans:
@@ -956,6 +958,17 @@ def post_leans(ctx: Ctx) -> dict:
         LN.add_ticket(ctx.root, t)
     LN.save_notes(ctx.root, slate, notes)
     return dict(posted=len(leans), parlays=sum(t["kind"] == "parlay" for t in tickets), lottos=sum(t["kind"] == "lotto" for t in tickets))
+
+
+def tickets_posted(cfg: dict) -> bool:
+    """config tickets.post: false keeps the parlays and lotto as a tracked-only record (owner 2026-11-25)."""
+    return bool((cfg.get("tickets") or {}).get("post", True))
+
+
+def _mark_tracked(ctx: Ctx, tickets: list[dict]) -> list[dict]:
+    if tickets_posted(ctx.cfg):
+        return tickets
+    return [dict(t, tracked_only=True) for t in tickets]
 
 
 def _rebuild_tickets(ctx: Ctx, slate: str, last: dict) -> dict:
@@ -968,6 +981,7 @@ def _rebuild_tickets(ctx: Ctx, slate: str, last: dict) -> dict:
     straight_players = {str(l["player_id"]) for l in LN.track.load(ctx.root) if l.get("slate") == slate}
     tickets, notes = LN.build_tickets(LN.pick_leans(preds, ctx.cfg, slate, iso(ctx.now), pool=True, fd_ok=fd_ok), ctx.cfg, slate,
                                       exclude_players=straight_players)
+    tickets = _mark_tracked(ctx, tickets)
     if fd_note:
         notes = [fd_note] + notes
     LN.replace_slate_tickets(ctx.root, slate, tickets)
@@ -1027,7 +1041,7 @@ def publish_picks(ctx: Ctx) -> str:
     preds = [p for p in preds if json.loads(p["inputs"] or "{}").get("status") in allow]
     straights = [_pick_view(ctx, p) for p in preds if p["category"] == "straight"]
     parl = []
-    for p in preds:
+    for p in preds if tickets_posted(ctx.cfg) else []:
         if p["category"] in ("parlay", "lotto"):
             legs = json.loads(p["legs"])
             parl.append(dict(kind=p["category"], legs=legs, leg_labels=[l["label"] for l in legs], price_dec=p["price_dec"],

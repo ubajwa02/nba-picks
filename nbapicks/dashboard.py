@@ -751,7 +751,11 @@ def export(ctx: Ctx, out_dir: str = SITE, max_bytes: int = MAX_BYTES) -> dict:
                     wins=k["wins"], losses=k["losses"], pushes=k["pushes"] + k["voids"], pending=k["pending"])
 
     from . import leans as LN
-    tickets = dict(rows=sorted(sc.get("tickets") or [], key=lambda t: t["slate"], reverse=True)[:300],
+    all_t = sorted(sc.get("tickets") or [], key=lambda t: t["slate"], reverse=True)
+    # rows = tickets that were posted; tracked = built and graded but never shown as picks (config tickets.post)
+    tickets = dict(rows=[t for t in all_t if not t.get("tracked_only")][:300],
+                   tracked=[t for t in all_t if t.get("tracked_only")][:300],
+                   posting=bool((ctx.cfg.get("tickets") or {}).get("post", True)),
                    notes=LN.load_notes(ctx.root))
     data = dict(
         meta=meta, tickets=tickets, today=today_sec, picks_by_day=picks_by_day, performance=performance, players=players_sec,
