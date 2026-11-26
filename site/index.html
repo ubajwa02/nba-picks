@@ -315,10 +315,12 @@ const R = {};
 
 const kind1 = k => k === "lotto" ? "Lotto" : "Parlay";
 const ticketRows = kind => (((D.tickets || {}).rows) || []).filter(t => t.kind === kind);
+const ticketsPosting = () => (D.tickets || {}).posting !== false;
+const trackedRows = kind => (((D.tickets || {}).tracked) || []).filter(t => t.kind === kind);
 const ticketNotes = (date, kind) => ((((D.tickets || {}).notes) || {})[date] || []).filter(n => kind === "lotto" ? /lotto/i.test(n) : !/lotto/i.test(n));
 const evText = ev => ev == null ? "–" : spct(ev);
 function ticketCard(t) {
-  return `<article class="ticket"><div class="th"><div><b>${t.legs.length}-Leg ${kind1(t.kind)}</b> <span class="tag">Research</span>${parlayLinks(t)}</div>
+  return `<article class="ticket"><div class="th"><div><b>${t.legs.length}-Leg ${kind1(t.kind)}</b> <span class="tag">${t.tracked_only ? "Tracked only" : "Research"}</span>${t.tracked_only ? "" : parlayLinks(t)}</div>
     <div class="tstats"><span>Win Chance <b>${pct(t.prob)}</b></span><span>Pays <b>${amS(t.price_american)}</b></span><span>Model Edge <b class="${cls(t.ev)}">${evText(t.ev)}</b></span>${resPill(t.result)}<b class="${cls(t.net_units)}">${t.net_units == null ? "" : u(t.net_units)}</b></div></div>
     <ul class="legs">${t.legs.map(l => `<li><b class="ln">${esc(pickText(l))}<span class="mu"> · ${esc(matchOf(l))}</span>${dkA(l)}</b>${bar(l.prob)}<span class="mono">${amS(l.price_american)}</span>${resPill(l.result)}</li>`).join("")}</ul></article>`;
 }
@@ -354,10 +356,11 @@ R.today = () => {
   ${Object.keys(T.dk_links || {}).length || Object.keys(T.book_links || {}).length ? `<p class="sub">DK slip / FD slip opens DraftKings or FanDuel with that bet already on the slip; a number after it means the book's line differs and its closest line is used. DK game opens the game page, where you pick the bet yourself. Always check the line and price before you place anything.</p>` : ""}
   ${allStraightLinks(picks) ? `<p class="sub">${allStraightLinks(picks)}</p>` : ""}
   ${picks.length ? `<div class="panel flush">${pickTable(picks, "")}</div>` : `<p class="note">${"Today's picks post at 4:30 PM ET on weekdays and 11:00 AM ET on weekends."}</p>`}
-  <h2 class="sec">Parlays And Lotto <span class="tag">Research</span></h2>
+  ${ticketsPosting() ? `<h2 class="sec">Parlays And Lotto <span class="tag">Research</span></h2>
   <p class="sub">Built from the most likely props in different games. The edge shown is the model's own estimate against the price, and it can be negative.</p>
   <div class="tickets">${[...par, ...lot].map(ticketCard).join("") || `<p class="empty">Not posted yet. They are built when today's picks go out.</p>`}</div>
-  ${[...ticketNotes(td, "parlay"), ...ticketNotes(td, "lotto")].map(x => `<p class="note">${esc(x)}</p>`).join("")}
+  ${[...ticketNotes(td, "parlay"), ...ticketNotes(td, "lotto")].map(x => `<p class="note">${esc(x)}</p>`).join("")}` : `<h2 class="sec">Parlays And Lotto</h2>
+  <p class="note">Parlays and the lotto are no longer posted. They are still built and graded as a tracked-only record under Results.</p>`}
   <h2 class="sec">Games</h2>${gameCards()}
   <h2 class="sec">Where To Find What</h2>
   <div class="guide">${GUIDE.map(([t, h, d]) => `<a class="panel door" href="${h}"><b>${t}</b><span>${d}</span></a>`).join("")}</div>`;
@@ -371,7 +374,7 @@ R.results = (sub) => {
     const days = [...new Set([...rows.map(r => r.slate)])].sort().reverse();
     body = days.map(d => dayBlock(d, rows.filter(r => r.slate === d), d === td)).join("") || `<p class="empty">No picks yet.</p>`;
   } else {
-    const kind = k === "parlays" ? "parlay" : "lotto"; rows = ticketRows(kind);
+    const kind = k === "parlays" ? "parlay" : "lotto"; rows = [...ticketRows(kind), ...trackedRows(kind)];
     const days = [...new Set([td, ...rows.map(r => r.slate)])].sort().reverse();
     body = days.map(d => ticketDay(d, rows.filter(r => r.slate === d), d === td, kind)).join("");
   }
