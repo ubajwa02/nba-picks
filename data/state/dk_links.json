@@ -379,7 +379,7 @@
  },
  "401909326": {
   "event_url": "https://sportsbook.draftkings.com/event/34515423",
-  "observed_at": "2026-11-26T16:06:36Z",
+  "observed_at": "2026-11-26T21:38:12Z",
   "outcomes": [
    {
     "line": null,
@@ -394,15 +394,15 @@
     "selection": "away"
    },
    {
-    "line": -4.5,
+    "line": -3.5,
     "market": "spread",
-    "outcome_id": "0HC85857629N450_1",
+    "outcome_id": "0HC85857629N350_1",
     "selection": "home"
    },
    {
-    "line": 4.5,
+    "line": 3.5,
     "market": "spread",
-    "outcome_id": "0HC85857629P450_3",
+    "outcome_id": "0HC85857629P350_3",
     "selection": "away"
    },
    {
@@ -419,9 +419,51 @@
    }
   ]
  },
+ "401909327": {
+  "event_url": "https://sportsbook.draftkings.com/event/35086684",
+  "observed_at": "2026-11-26T21:38:12Z",
+  "outcomes": [
+   {
+    "line": null,
+    "market": "ml",
+    "outcome_id": "0ML87414234_1",
+    "selection": "home"
+   },
+   {
+    "line": null,
+    "market": "ml",
+    "outcome_id": "0ML87414234_3",
+    "selection": "away"
+   },
+   {
+    "line": -11.5,
+    "market": "spread",
+    "outcome_id": "0HC87414234N1150_1",
+    "selection": "home"
+   },
+   {
+    "line": 11.5,
+    "market": "spread",
+    "outcome_id": "0HC87414234P1150_3",
+    "selection": "away"
+   },
+   {
+    "line": 220.5,
+    "market": "total",
+    "outcome_id": "0OU87414234O22050_1",
+    "selection": "over"
+   },
+   {
+    "line": 220.5,
+    "market": "total",
+    "outcome_id": "0OU87414234U22050_3",
+    "selection": "under"
+   }
+  ]
+ },
  "401909328": {
   "event_url": "https://sportsbook.draftkings.com/event/35086686",
-  "observed_at": "2026-11-26T16:06:36Z",
+  "observed_at": "2026-11-26T21:38:12Z",
   "outcomes": [
    {
     "line": null,
@@ -436,34 +478,76 @@
     "selection": "away"
    },
    {
-    "line": 4.5,
+    "line": 3.5,
     "market": "spread",
-    "outcome_id": "0HC87414251P450_1",
+    "outcome_id": "0HC87414251P350_1",
     "selection": "home"
    },
    {
-    "line": -4.5,
+    "line": -3.5,
     "market": "spread",
-    "outcome_id": "0HC87414251N450_3",
+    "outcome_id": "0HC87414251N350_3",
     "selection": "away"
    },
    {
-    "line": 234.5,
+    "line": 232.5,
     "market": "total",
-    "outcome_id": "0OU87414251O23450_1",
+    "outcome_id": "0OU87414251O23250_1",
     "selection": "over"
    },
    {
-    "line": 234.5,
+    "line": 232.5,
     "market": "total",
-    "outcome_id": "0OU87414251U23450_3",
+    "outcome_id": "0OU87414251U23250_3",
+    "selection": "under"
+   }
+  ]
+ },
+ "401909329": {
+  "event_url": "https://sportsbook.draftkings.com/event/35086687",
+  "observed_at": "2026-11-26T21:38:12Z",
+  "outcomes": [
+   {
+    "line": null,
+    "market": "ml",
+    "outcome_id": "0ML87414252_1",
+    "selection": "home"
+   },
+   {
+    "line": null,
+    "market": "ml",
+    "outcome_id": "0ML87414252_3",
+    "selection": "away"
+   },
+   {
+    "line": -7.5,
+    "market": "spread",
+    "outcome_id": "0HC87414252N750_1",
+    "selection": "home"
+   },
+   {
+    "line": 7.5,
+    "market": "spread",
+    "outcome_id": "0HC87414252P750_3",
+    "selection": "away"
+   },
+   {
+    "line": 220.5,
+    "market": "total",
+    "outcome_id": "0OU87414252O22050_1",
+    "selection": "over"
+   },
+   {
+    "line": 220.5,
+    "market": "total",
+    "outcome_id": "0OU87414252U22050_3",
     "selection": "under"
    }
   ]
  },
  "401909330": {
   "event_url": "https://sportsbook.draftkings.com/event/35086688",
-  "observed_at": "2026-11-26T16:06:36Z",
+  "observed_at": "2026-11-26T21:38:12Z",
   "outcomes": [
    {
     "line": null,
@@ -503,9 +587,93 @@
    }
   ]
  },
+ "401909331": {
+  "event_url": "https://sportsbook.draftkings.com/event/35086698",
+  "observed_at": "2026-11-26T21:38:12Z",
+  "outcomes": [
+   {
+    "line": null,
+    "market": "ml",
+    "outcome_id": "0ML87414326_1",
+    "selection": "home"
+   },
+   {
+    "line": null,
+    "market": "ml",
+    "outcome_id": "0ML87414326_3",
+    "selection": "away"
+   },
+   {
+    "line": -3.5,
+    "market": "spread",
+    "outcome_id": "0HC87414326N350_1",
+    "selection": "home"
+   },
+   {
+    "line": 3.5,
+    "market": "spread",
+    "outcome_id": "0HC87414326P350_3",
+    "selection": "away"
+   },
+   {
+    "line": 220.5,
+    "market": "total",
+    "outcome_id": "0OU87414326O22050_1",
+    "selection": "over"
+   },
+   {
+    "line": 220.5,
+    "market": "total",
+    "outcome_id": "0OU87414326U22050_3",
+    "selection": "under"
+   }
+  ]
+ },
+ "401909332": {
+  "event_url": "https://sportsbook.draftkings.com/event/35086706",
+  "observed_at": "2026-11-26T21:38:12Z",
+  "outcomes": [
+   {
+    "line": null,
+    "market": "ml",
+    "outcome_id": "0ML87414383_1",
+    "selection": "home"
+   },
+   {
+    "line": null,
+    "market": "ml",
+    "outcome_id": "0ML87414383_3",
+    "selection": "away"
+   },
+   {
+    "line": -2.5,
+    "market": "spread",
+    "outcome_id": "0HC87414383N250_1",
+    "selection": "home"
+   },
+   {
+    "line": 2.5,
+    "market": "spread",
+    "outcome_id": "0HC87414383P250_3",
+    "selection": "away"
+   },
+   {
+    "line": 227.5,
+    "market": "total",
+    "outcome_id": "0OU87414383O22750_1",
+    "selection": "over"
+   },
+   {
+    "line": 227.5,
+    "market": "total",
+    "outcome_id": "0OU87414383U22750_3",
+    "selection": "under"
+   }
+  ]
+ },
  "401909333": {
   "event_url": "https://sportsbook.draftkings.com/event/34515424",
-  "observed_at": "2026-11-26T16:06:36Z",
+  "observed_at": "2026-11-26T21:38:12Z",
   "outcomes": [
    {
     "line": null,
@@ -520,15 +688,15 @@
     "selection": "away"
    },
    {
-    "line": -6.5,
+    "line": -5.5,
     "market": "spread",
-    "outcome_id": "0HC85857630N650_1",
+    "outcome_id": "0HC85857630N550_1",
     "selection": "home"
    },
    {
-    "line": 6.5,
+    "line": 5.5,
     "market": "spread",
-    "outcome_id": "0HC85857630P650_3",
+    "outcome_id": "0HC85857630P550_3",
     "selection": "away"
    },
    {
@@ -547,7 +715,7 @@
  },
  "401909334": {
   "event_url": "https://sportsbook.draftkings.com/event/35086730",
-  "observed_at": "2026-11-26T16:06:36Z",
+  "observed_at": "2026-11-26T21:38:12Z",
   "outcomes": [
    {
     "line": null,
@@ -574,15 +742,99 @@
     "selection": "away"
    },
    {
-    "line": 228.5,
+    "line": 229.5,
     "market": "total",
-    "outcome_id": "0OU87414474O22850_1",
+    "outcome_id": "0OU87414474O22950_1",
     "selection": "over"
    },
    {
-    "line": 228.5,
+    "line": 229.5,
     "market": "total",
-    "outcome_id": "0OU87414474U22850_3",
+    "outcome_id": "0OU87414474U22950_3",
+    "selection": "under"
+   }
+  ]
+ },
+ "401909335": {
+  "event_url": "https://sportsbook.draftkings.com/event/35086713",
+  "observed_at": "2026-11-26T21:38:12Z",
+  "outcomes": [
+   {
+    "line": null,
+    "market": "ml",
+    "outcome_id": "0ML87414432_1",
+    "selection": "home"
+   },
+   {
+    "line": null,
+    "market": "ml",
+    "outcome_id": "0ML87414432_3",
+    "selection": "away"
+   },
+   {
+    "line": -3.5,
+    "market": "spread",
+    "outcome_id": "0HC87414432N350_1",
+    "selection": "home"
+   },
+   {
+    "line": 3.5,
+    "market": "spread",
+    "outcome_id": "0HC87414432P350_3",
+    "selection": "away"
+   },
+   {
+    "line": 231.5,
+    "market": "total",
+    "outcome_id": "0OU87414432O23150_1",
+    "selection": "over"
+   },
+   {
+    "line": 231.5,
+    "market": "total",
+    "outcome_id": "0OU87414432U23150_3",
+    "selection": "under"
+   }
+  ]
+ },
+ "401909336": {
+  "event_url": "https://sportsbook.draftkings.com/event/35086721",
+  "observed_at": "2026-11-26T21:38:12Z",
+  "outcomes": [
+   {
+    "line": null,
+    "market": "ml",
+    "outcome_id": "0ML87414449_1",
+    "selection": "home"
+   },
+   {
+    "line": null,
+    "market": "ml",
+    "outcome_id": "0ML87414449_3",
+    "selection": "away"
+   },
+   {
+    "line": -8.5,
+    "market": "spread",
+    "outcome_id": "0HC87414449N850_1",
+    "selection": "home"
+   },
+   {
+    "line": 8.5,
+    "market": "spread",
+    "outcome_id": "0HC87414449P850_3",
+    "selection": "away"
+   },
+   {
+    "line": 220.5,
+    "market": "total",
+    "outcome_id": "0OU87414449O22050_1",
+    "selection": "over"
+   },
+   {
+    "line": 220.5,
+    "market": "total",
+    "outcome_id": "0OU87414449U22050_3",
     "selection": "under"
    }
   ]
