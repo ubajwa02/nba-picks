@@ -42,7 +42,7 @@ Brier: model 0.1685 vs market-implied 0.1641 (n=65742; lower is better).
 
 ## Posted leans (1u flat)
 
-Record 113-69-0, +3.66u, pending 0.
+Record 113-69-0, +3.66u, pending 4.
 
 | slate | lean | price | stat/score | result | units |
 |---|---|---|---|---|---|
@@ -233,6 +233,10 @@ Record 113-69-0, +3.66u, pending 0.
 | 2026-11-25 | Michael Porter Jr. u3.5 fg3m | -179 | 2 | win | +0.56 |
 | 2026-11-25 | Terrence Shannon Jr. o2.5 reb | -169 | 2 | loss | -1.00 |
 | 2026-11-25 | Damian Lillard u3.5 reb | -161 | 3 | win | +0.62 |
+| 2026-11-27 | Kris Murray u5.5 pts | -135 | None | pending | +0.00 |
+| 2026-11-27 | Saddiq Bey o4.5 reb | -120 | None | pending | +0.00 |
+| 2026-11-27 | Yaxel Lendeborg u3.5 ast | -130 | None | pending | +0.00 |
+| 2026-11-27 | Naji Marshall u3.5 ast | -161 | None | pending | +0.00 |
 
 ## Rows
 
