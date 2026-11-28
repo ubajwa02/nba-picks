@@ -27954,3 +27954,13 @@
 {"at": "2026-11-28T05:23:03Z", "data": {"stake": 1.0}, "event_id": "0347c583afc99420", "net_units": -1.0, "pred_id": "c1e89b01b6820c5b", "result": "loss", "type": "settled"}
 {"at": "2026-11-28T05:23:03Z", "data": {"stake": 1.0}, "event_id": "253331c2ce6e29d2", "net_units": -1.0, "pred_id": "fca2d973c73c1583", "result": "loss", "type": "settled"}
 {"at": "2026-11-28T05:23:03Z", "data": {"stake": 1.0}, "event_id": "9215ed420b905da3", "net_units": -1.0, "pred_id": "30b1bdec4bafc76d", "result": "loss", "type": "settled"}
+{"at": "2026-11-28T16:46:23Z", "data": {"paper_record": true}, "event_id": "6517a61f8df87a1f", "pred_id": "08387561ad24adb2", "type": "note"}
+{"at": "2026-11-28T16:46:23Z", "data": {"paper_record": true}, "event_id": "0ae3a22a46642389", "pred_id": "c570d72341e6b0fe", "type": "note"}
+{"at": "2026-11-28T16:46:23Z", "data": {"paper_record": true}, "event_id": "e87474ac9b388776", "pred_id": "1ccab954cac9a3bb", "type": "note"}
+{"at": "2026-11-28T16:46:23Z", "data": {"paper_record": true}, "event_id": "b2e68a1520a72230", "pred_id": "c4cc23c28b458eb7", "type": "note"}
+{"at": "2026-11-28T16:46:23Z", "data": {"paper_record": true}, "event_id": "15139100e80e6223", "pred_id": "28917d0a89257819", "type": "note"}
+{"at": "2026-11-28T16:46:23Z", "data": {"paper_record": true}, "event_id": "9a3b63a5d8e9672c", "pred_id": "2f7583f6c42f5f20", "type": "note"}
+{"at": "2026-11-28T16:46:23Z", "data": {"paper_record": true}, "event_id": "24ef476dddaf0af5", "pred_id": "9f174f257d319736", "type": "note"}
+{"at": "2026-11-28T16:46:23Z", "data": {"paper_record": true}, "event_id": "256576be3b60bfc0", "pred_id": "6a05227ba34fd2db", "type": "note"}
+{"at": "2026-11-28T16:46:23Z", "data": {"paper_record": true}, "event_id": "2ed77290bde8d08e", "pred_id": "9323d5aa70408fb9", "type": "note"}
+{"at": "2026-11-28T16:46:23Z", "data": {"paper_record": true}, "event_id": "1619ba466b622bb6", "pred_id": "458fa30aa8fae8e2", "type": "note"}
