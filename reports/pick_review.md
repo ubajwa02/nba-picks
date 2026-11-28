@@ -2,12 +2,21 @@
 
 Descriptive only: tiny sample (one or two slates), no inference. Implied = 1/price incl. vig. CLV = closing implied minus our implied (positive = line moved our way).
 
-- 113-69 on 182 graded posted picks, +3.66u. Far too few to judge.
-- By market: ml 2-2 (-0.44u); prop 107-66 (+1.52u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
-- By model-vs-book gap: gap 5-15pts 33-20 (+4.95u); gap<5pts 77-48 (-2.73u); gap>=15pts 3-1 (+1.44u).
+- 115-71 on 186 graded posted picks, +3.26u. Far too few to judge.
+- By market: ml 2-2 (-0.44u); prop 109-68 (+1.13u); spread 2-1 (+0.76u); total 2-0 (+1.81u).
+- By model-vs-book gap: gap 5-15pts 34-21 (+4.78u); gap<5pts 78-49 (-2.96u); gap>=15pts 3-1 (+1.44u).
 - By closing-line move: flat 9-3 (+4.17u); moved away 12-1 (+5.70u); moved toward us 9-6 (+0.67u).
-- By prop split sample: fuller splits 35-27 (-4.79u); small-sample splits 56-25 (+9.07u).
-- Wider settled predictions (n=65742): model Brier 0.1685 vs book 0.1641 (lower is better).
+- By prop split sample: fuller splits 37-29 (-5.19u); small-sample splits 56-25 (+9.07u).
+- Wider settled predictions (n=67266): model Brier 0.1703 vs book 0.1662 (lower is better).
+
+## 2026-11-27
+
+| Pick | Result | Units | Prob | Implied | EV | CLV | Splits |
+|---|---|---|---|---|---|---|---|
+| Yaxel Lendeborg u3.5 ast | win | +0.77 | 0.603 | 0.565 | +0.07 |  | career 9/18, season 9/18, last10 6/10 |
+| Saddiq Bey o4.5 reb | win | +0.83 | 0.624 | 0.545 | +0.14 |  | career 140/238, season 10/19, last10 6/10 |
+| Naji Marshall u3.5 ast | loss | -1.00 | 0.637 | 0.617 | +0.03 |  | career 217/309, season 7/15, last10 6/10 |
+| Kris Murray u5.5 pts | loss | -1.00 | 0.659 | 0.575 | +0.15 |  | career 121/209, season 12/15, last10 7/10 |
 
 ## 2026-11-25
 
